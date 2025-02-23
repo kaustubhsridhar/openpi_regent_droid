@@ -1,10 +1,13 @@
 from openpi.training import config
-from openpi.policies import policy_config, droid_policy
+from openpi.policies import policy_config
 from openpi.shared import download
 import json
 import numpy as np
 import os
-import time
+import logging
+from utils import embed
+logger = logging.getLogger("openpi")
+logger.setLevel(logging.INFO) # setting logging level to info
 os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"] = "false" # This prevents JAX from preallocating most of the GPU memory.
 
 # start
@@ -35,7 +38,7 @@ num_steps = steps["observation__exterior_image_1_left"].shape[0]
 # Run inference on an example.
 example = {
     "observation/exterior_image_1_left": steps["observation__exterior_image_1_left"][step_idx],
-    # "observation/exterior_image_2_left": steps["observation__exterior_image_2_left"][step_idx],
+    # "observation/exterior_image_2_left": ## this is not used within policies/droid_policy.py > DroidInputs()
     "observation/wrist_image_left": steps["observation__wrist_image_left"][step_idx],
     "observation/joint_position": steps["observation__joint_position"][step_idx],
     "observation/gripper_position": steps["observation__gripper_position"][step_idx],
@@ -44,10 +47,12 @@ example = {
 ## uncomment below to see an approved example
 # example = droid_policy.make_droid_example()
 
-# get output embedding only
-embedding = policy.embed_only(example)
-print(f'{embedding=}\n')
-
 # get output action_chunk
 action_chunk = policy.infer(example)["actions"]
-print(f'{action_chunk=}\n')
+print(f'{action_chunk.shape=}\n') # (10, 8)
+
+# embeddings
+embed_exterior_image_1_left = embed(example["observation/exterior_image_1_left"], policy)
+embed_wrist_image_left = embed(example["observation/wrist_image_left"], policy)
+print(f'{embed_exterior_image_1_left.shape=}, {embed_exterior_image_1_left.dtype=}, {type(embed_exterior_image_1_left)=}\n') # (2048,), bfloat16, <class 'numpy.ndarray'>
+print(f'{embed_wrist_image_left.shape=}, {embed_wrist_image_left.dtype=}, {type(embed_wrist_image_left)=}\n') # (2048,), bfloat16, <class 'numpy.ndarray'>

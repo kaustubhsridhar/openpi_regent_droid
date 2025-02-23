@@ -36,6 +36,7 @@ class Policy(BasePolicy):
         self._rng = rng or jax.random.key(0)
         self._sample_kwargs = sample_kwargs or {}
         self._metadata = metadata or {}
+        self._model = model
 
     @override
     def infer(self, obs: dict) -> dict:  # type: ignore[misc]
@@ -50,9 +51,15 @@ class Policy(BasePolicy):
             "state": inputs["state"],
             "actions": self._sample_actions(sample_rng, _model.Observation.from_dict(inputs), **self._sample_kwargs),
         }
+        # TODO: del at cleanup
+        # print(f'infer 1 {[(k, v.shape, v.dtype, type(v)) for k, v in outputs.items()]}')
+        # infer 1 [('state', (1, 8), dtype('float32'), <class 'jaxlib.xla_extension.ArrayImpl'>), ('actions', (1, 256), dtype('float32'), <class 'jaxlib.xla_extension.ArrayImpl'>)]
 
         # Unbatch and convert to np.ndarray.
         outputs = jax.tree.map(lambda x: np.asarray(x[0, ...]), outputs)
+        # TODO: del at cleanup
+        # print(f'infer 2 {[(k, v.shape, v.dtype, type(v)) for k, v in outputs.items()]}')
+        # infer 2 [('actions', (256,), dtype('float32'), <class 'numpy.ndarray'>), ('state', (8,), dtype('float32'), <class 'numpy.ndarray'>)]
         return self._output_transform(outputs)
 
     @property
