@@ -41,6 +41,8 @@ python check_if_object_in_droid_lang_annotations.py --object_name pinecone
 * Preprocess the droid dataset groupings, regent-style! (ie by embedding images and doing retrieval to setup training sequences)
 ```bash
 CUDA_VISIBLE_DEVICES=9 nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 &> logs/embed/scene_id_and_object_name_50.log &
+
+CUDA_VISIBLE_DEVICES=9 nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 &> logs/retrieval_preprocessing/scene_id_and_object_name_50.log &
 ```
 If you simply want to embed a single image with pi0 to understand the embedding space, you can do:
 ```bash

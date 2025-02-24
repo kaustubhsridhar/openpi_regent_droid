@@ -20,12 +20,15 @@ def group_by_chosen_id(chosen_id, total_episodes, min_num_episodes):
 
 	return chosen_id_to_ep_idxs_with_atleast_min_num_episodes
 
-def embed_episodes(chosen_id_to_ep_idxs_with_atleast_min_num_episodes, ds_name, policy):
+def embed_episodes(chosen_id_to_ep_idxs_with_atleast_min_num_episodes, ds_name, policy_name):
 	# init setup
 	ds_fol = f"{ds_name}_broken_up"
 	ds_emb_fol = f"{ds_name}_broken_up_embeddings"
 	os.makedirs(ds_emb_fol, exist_ok=True)
 	num_groupings = len(chosen_id_to_ep_idxs_with_atleast_min_num_episodes)
+
+	# policy model
+	policy = load_policy(policy_name)
 	
 	# main loop
 	for chosen_id_count, (chosen_id, ep_idxs) in enumerate(chosen_id_to_ep_idxs_with_atleast_min_num_episodes.items()):
@@ -143,13 +146,11 @@ if __name__ == "__main__":
 
 	# setup
 	ds_name = "droid_new"
+	policy_name = "pi0_fast_droid"
 	chosen_id_to_ep_idxs_with_atleast_min_num_episodes = group_by_chosen_id(args.chosen_id, args.total_episodes, args.min_num_episodes_in_each_grouping)
-
-	# model
-	policy = load_policy("pi0_fast_droid")
 	
 	# embed episodes
-	embed_episodes(chosen_id_to_ep_idxs_with_atleast_min_num_episodes, ds_name, policy)
+	embed_episodes(chosen_id_to_ep_idxs_with_atleast_min_num_episodes, ds_name, policy_name)
 	
 	# retrieval preprocessing
 	# retrieval_preprocessing(chosen_id_to_ep_idxs_with_atleast_min_num_episodes, ds_name, args.num_episodes_to_retrieve_from_in_each_grouping, args.nb_cores_autofaiss, args.knn_k,
