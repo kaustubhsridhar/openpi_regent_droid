@@ -29,12 +29,14 @@ def get_ep_idx_to_info(total_episodes):
 		# read metadata; continue if no language instructions
 		with open(f"{ds_fol}/episode_{ep_idx}.json", "r") as json_file:
 			ep_metadata = json.load(json_file)
-		if ep_metadata["language_instruction"] == "" and ep_metadata["language_instruction_2"] == "" and ep_metadata["language_instruction_3"] == "":
+		lang_1, lang_2, lang_3 = ep_metadata["language_instruction"], ep_metadata["language_instruction_2"], ep_metadata["language_instruction_3"]
+		if lang_1 == "" and lang_2 == "" and lang_3 == "":
 			continue
+		lang_1, lang_2, lang_3 = lang_1.split(' '), lang_2.split(' '), lang_3.split(' ')
 		# assign object name in the all_objects list or continue if not found
 		assigned_object_name = False
 		for obj_name in all_objects:
-			if obj_name in ep_metadata["language_instruction"] or obj_name in ep_metadata["language_instruction_2"] or obj_name in ep_metadata["language_instruction_3"]:
+			if obj_name in lang_1 or obj_name in lang_2 or obj_name in lang_3:
 				ep_idx_to_info[ep_idx] = {"object_name": obj_name}
 				assigned_object_name = True
 				break # one object name per episode
@@ -158,7 +160,7 @@ def group_by_chosen_id(chosen_id, only_count, total_episodes, min_num_episodes, 
 	
 	# make gif
 	os.makedirs("droid_groups", exist_ok=True)
-	save_path = f"droid_groups/{ds_name}_N{N}_M{M}_{chosen_id}_withlang_below{total_episodes // 1000}k.gif"
+	save_path = f"droid_groups/{ds_name}_N{N}_M{M}_minnumep{min_num_episodes}_{chosen_id}_withlang_below{total_episodes // 1000}k.gif"
 	as_gif(big_frame_list, path=save_path)
 	myprint(f'saved gif to {save_path}')
 

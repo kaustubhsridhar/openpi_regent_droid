@@ -26,11 +26,11 @@ nohup python -u breakup_droid_dataset.py &> logs/breakup_droid_new.log &
 
 * Quickly view what a grouping looks like. A grouping is a list of episodes that have the same scene_id and object_name. Below, you can specify N (number of groupings to sample) and M (number of episodes to sample from each grouping) for the gif visualization.
 ```bash
-python quick_view_grouping.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 10 --N 10 --M 5
+python quick_view_grouping.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --N 10 --M 5
 ```
 If you only want to count the number of groupings, you can do:
 ```bash
-python quick_view_grouping.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 10 --only_count
+python quick_view_grouping.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --only_count
 ```
 
 * Check if an object exists in the droid dataset's language annotations
@@ -40,7 +40,7 @@ python check_if_object_in_droid_lang_annotations.py --object_name pinecone
 
 * Preprocess the droid dataset groupings, regent-style! (ie by embedding images and doing retrieval to setup training sequences)
 ```bash
-python embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 10 
+CUDA_VISIBLE_DEVICES=9 nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 &> logs/embed/scene_id_and_object_name_50.log &
 ```
 If you simply want to embed a single image with pi0 to understand the embedding space, you can do:
 ```bash

@@ -50,4 +50,12 @@ def embed(inputs, policy: Policy):
 		inputs_embeddings = inputs_embeddings[0]
 	return inputs_embeddings
 
+def embed_with_batches(inputs, policy: Policy, batch_size: int = 256):
+	all_inputs_embeddings = []
+	for i in range(0, len(inputs), batch_size):
+		inputs_batch = inputs[i:i+batch_size]
+		inputs_embeddings = embed(inputs_batch, policy)
+		all_inputs_embeddings.append(inputs_embeddings)
+	return np.concatenate(all_inputs_embeddings, axis=0)
+
 	

@@ -169,13 +169,8 @@ cython_debug/
 
 # more for regent_droid_processing
 google-cloud-sdk/
-regent_droid_preprocessing/droid_100/
 regent_droid_preprocessing/droid/
 regent_droid_preprocessing/droid_new/
-regent_droid_preprocessing/*temp*
-regent_droid_preprocessing/openpi/
-regent_droid_preprocessing/droid_embeddings/
-regent_droid_preprocessing/droid_new_broken_up/
+regent_droid_preprocessing/droid_new_broken_up*
 regent_droid_preprocessing/droid_groups/
-regent_droid_preprocessing/misc/
 regent_droid_preprocessing/episode_0.json
