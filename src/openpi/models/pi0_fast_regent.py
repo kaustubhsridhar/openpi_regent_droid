@@ -138,17 +138,17 @@ class Pi0FAST(_model.BaseModel):
             )
         )
         llm.lazy_init(rngs=rngs, method="init")
-        img = nnx_bridge.ToNNX(
-            _siglip.Module(
-                num_classes=paligemma_config.width,
-                variant="So400m/14",
-                pool_type="none",
-                scan=True,
-                dtype_mm=config.dtype,
-            )
-        )
-        img.lazy_init(next(iter(config.fake_obs().images.values())), train=False, rngs=rngs)
-        self.PaliGemma = nnx.Dict(llm=llm, img=img)
+        # img = nnx_bridge.ToNNX(
+        #     _siglip.Module(
+        #         num_classes=paligemma_config.width,
+        #         variant="So400m/14",
+        #         pool_type="none",
+        #         scan=True,
+        #         dtype_mm=config.dtype,
+        #     )
+        # )
+        # img.lazy_init(next(iter(config.fake_obs().images.values())), train=False, rngs=rngs)
+        self.PaliGemma = nnx.Dict(llm=llm) #, img=img # no need for siglip as we are feeding the embeddings in directly # may have to keep here and remove after init
 
     @at.typecheck
     def embed_inputs(
@@ -159,7 +159,7 @@ class Pi0FAST(_model.BaseModel):
         token_embeddings = []
         # embed images
         for name in obs.images:
-            image_token_embeddings, _ = self.PaliGemma.img(obs.images[name], train=False)
+            image_token_embeddings = obs.images[name] # No need to embed as we are feeding the embeddings in directly
 
             token_embeddings.append(image_token_embeddings)
             input_mask.append(

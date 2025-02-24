@@ -45,9 +45,6 @@ def embed(inputs, policy: Policy):
 	inputs = process_inputs(inputs)
 	inputs_embeddings, _ = policy._model.PaliGemma.img(inputs, train=False) # jax array of shape (batch_size, 256, 2048), dtype bfloat16
 	inputs_embeddings = np.asarray(inputs_embeddings).mean(axis=1) # np array, averaged over patches, to get shape (batch_size, 2048), dtype bfloat16
-	# if batch_size is 1, remove the batch dimension
-	if inputs_embeddings.shape[0] == 1:
-		inputs_embeddings = inputs_embeddings[0]
 	return inputs_embeddings
 
 def embed_with_batches(inputs, policy: Policy, batch_size: int = 256):

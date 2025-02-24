@@ -33,7 +33,7 @@ def embed_episodes(chosen_id_to_ep_idxs_with_atleast_min_num_episodes, ds_name, 
 	# main loop
 	for chosen_id_count, (chosen_id, ep_idxs) in enumerate(chosen_id_to_ep_idxs_with_atleast_min_num_episodes.items()):
 		for ep_count, ep_idx in enumerate(ep_idxs):
-			if not os.path.exists(f"{ds_emb_fol}/episode_{ep_idx}.npz"):
+			if not os.path.exists(f"{ds_emb_fol}/episode_{ep_idx}_embeddings__exterior_image_1_left.npy"):
 				# embed the three videos in the episode
 				# read
 				steps = np.load(f"{ds_fol}/episode_{ep_idx}.npz")
