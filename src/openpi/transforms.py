@@ -99,7 +99,12 @@ class RepackTransform(DataTransformFn):
     def __call__(self, data: DataDict) -> DataDict:
         flat_item = flatten_dict(data)
         return jax.tree.map(lambda k: flat_item[k], self.structure)
+    
 
+@dataclasses.dataclass(frozen=True)
+class IdentityTransform(DataTransformFn):
+    def __call__(self, data: DataDict) -> DataDict:
+        return data
 
 @dataclasses.dataclass(frozen=True)
 class InjectDefaultPrompt(DataTransformFn):
@@ -181,6 +186,21 @@ class ResizeImages(DataTransformFn):
 
     def __call__(self, data: DataDict) -> DataDict:
         data["image"] = {k: image_tools.resize_with_pad(v, self.height, self.width) for k, v in data["image"].items()}
+        return data
+    
+
+@dataclasses.dataclass(frozen=True)
+class ResizeImagesRegent(DataTransformFn):
+    height: int
+    width: int
+    num_retrieved_observations: int
+
+    def __call__(self, data: DataDict) -> DataDict:
+        for i in range(self.num_retrieved_observations):
+            prefix = f"retrieved_{i}_"
+            data[f"{prefix}image"] = {k: image_tools.resize_with_pad(v, self.height, self.width) for k, v in data[f"{prefix}image"].items()}
+        prefix = "query_"
+        data[f"{prefix}image"] = {k: image_tools.resize_with_pad(v, self.height, self.width) for k, v in data[f"{prefix}image"].items()}
         return data
 
 
@@ -272,6 +292,31 @@ class TokenizeFASTInputs(DataTransformFn):
             "token_ar_mask": ar_mask,
             "token_loss_mask": loss_mask,
         }
+    
+
+@dataclasses.dataclass(frozen=True)
+class TokenizeFASTInputsRegent(DataTransformFn):
+    tokenizer: _tokenizer.FASTTokenizer
+    num_retrieved_observations: int
+
+    def __call__(self, data: DataDict) -> DataDict:
+        new_data = {}
+        for i in range(self.num_retrieved_observations):
+            prefix = f"retrieved_{i}_"
+            state, actions, prompt = data[f"{prefix}state"], data[f"{prefix}actions"], data.pop(f"{prefix}prompt")
+            tokens, token_mask, ar_mask, loss_mask = self.tokenizer.tokenize(prompt, state, actions)
+            new_data[f"{prefix}tokenized_prompt"] = tokens
+            new_data[f"{prefix}tokenized_prompt_mask"] = token_mask
+            new_data[f"{prefix}token_ar_mask"] = ar_mask
+            new_data[f"{prefix}token_loss_mask"] = loss_mask
+        prefix = "query_"
+        state, actions, prompt = data[f"{prefix}state"], data.get(f"{prefix}actions"), data.pop(f"{prefix}prompt") # use get for actions since it will not be there at eval time
+        tokens, token_mask, ar_mask, loss_mask = self.tokenizer.tokenize(prompt, state, actions)
+        new_data[f"{prefix}tokenized_prompt"] = tokens
+        new_data[f"{prefix}tokenized_prompt_mask"] = token_mask
+        new_data[f"{prefix}token_ar_mask"] = ar_mask
+        new_data[f"{prefix}token_loss_mask"] = loss_mask
+        return {**data, **new_data}
 
 
 @dataclasses.dataclass(frozen=True)
@@ -290,6 +335,24 @@ class ExtractFASTActions(DataTransformFn):
             **data,
             "actions": actions,
         }
+    
+
+# @dataclasses.dataclass(frozen=True)
+# class ExtractFASTActionsRegent(DataTransformFn):
+#     tokenizer: _tokenizer.FASTTokenizer
+#     action_horizon: int
+#     action_dim: int
+#     num_retrieved_observations: int
+#
+#     def __call__(self, data: DataDict) -> DataDict:
+#         # Model outputs are saved in "{prefix}actions" or just "actions", but for FAST models they represent tokens.
+#         new_data = {}
+#         for key in [f"retrieved_{i}_actions" for i in range(self.num_retrieved_observations)] + ["query_actions", "actions"]:
+#             if key in data:
+#                 tokens = data.pop(key)
+#                 actions = self.tokenizer.extract_actions(tokens.astype(np.int32), self.action_horizon, self.action_dim)
+#                 new_data[key] = actions
+#         return {**data, **new_data}
 
 
 @dataclasses.dataclass(frozen=True)

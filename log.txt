@@ -1,0 +1,159 @@
+nohup: ignoring input
+/home/ksridhar/openpi_regent_droid/.venv/lib/python3.11/site-packages/tyro/_parsers.py:332: UserWarning: The field `data.repo-id` is annotated with type `<class 'str'>`, but the default value `None` has type `<class 'NoneType'>`. We'll try to handle this gracefully, but it may cause unexpected behavior.
+  warnings.warn(message)
+/home/ksridhar/openpi_regent_droid/.venv/lib/python3.11/site-packages/tyro/_parsers.py:332: UserWarning: The field `model.action-expert-variant` is annotated with type `typing.Literal['dummy', 'gemma_300m', 'gemma_2b', 'gemma_2b_lora']`, but the default value `gemma_300m_lora` has type `<class 'str'>`. We'll try to handle this gracefully, but it may cause unexpected behavior.
+  warnings.warn(message)
+02:11:03.724 [I] Running on: ivy                                                                  (2140978:train_pi0_fast_regent.py:209)
+INFO:2025-03-02 02:11:04,272:jax._src.xla_bridge:945: Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+02:11:04.272 [I] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig' (2140978:xla_bridge.py:945)
+INFO:2025-03-02 02:11:04,274:jax._src.xla_bridge:945: Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+02:11:04.274 [I] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory (2140978:xla_bridge.py:945)
+02:11:05.369 [I] Wiped checkpoint directory /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent/first_try (2140978:checkpoints.py:25)
+02:11:05.370 [I] Created BasePyTreeCheckpointHandler: pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=None (2140978:base_pytree_checkpoint_handler.py:332)
+02:11:05.370 [I] Created BasePyTreeCheckpointHandler: pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=None (2140978:base_pytree_checkpoint_handler.py:332)
+02:11:05.370 [I] [thread=MainThread] Failed to get flag value for EXPERIMENTAL_ORBAX_USE_DISTRIBUTED_PROCESS_ID. (2140978:multihost.py:375)
+02:11:05.371 [I] [process=0][thread=MainThread] CheckpointManager init: checkpointers=None, item_names=None, item_handlers={'assets': <openpi.training.checkpoints.CallbackHandler object at 0x7f2595efe790>, 'train_state': <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7f2596018c50>, 'params': <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7f2595d98f50>}, handler_registry=None (2140978:checkpoint_manager.py:622)
+02:11:05.371 [I] Deferred registration for item: "assets". Adding handler `<openpi.training.checkpoints.CallbackHandler object at 0x7f2595efe790>` for item "assets" and save args `<class 'openpi.training.checkpoints.CallbackSave'>` and restore args `<class 'openpi.training.checkpoints.CallbackRestore'>` to `_handler_registry`. (2140978:composite_checkpoint_handler.py:239)
+02:11:05.371 [I] Deferred registration for item: "train_state". Adding handler `<orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7f2596018c50>` for item "train_state" and save args `<class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeSaveArgs'>` and restore args `<class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeRestoreArgs'>` to `_handler_registry`. (2140978:composite_checkpoint_handler.py:239)
+02:11:05.371 [I] Deferred registration for item: "params". Adding handler `<orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7f2595d98f50>` for item "params" and save args `<class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeSaveArgs'>` and restore args `<class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeRestoreArgs'>` to `_handler_registry`. (2140978:composite_checkpoint_handler.py:239)
+02:11:05.371 [I] Deferred registration for item: "metrics". Adding handler `<orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonCheckpointHandler object at 0x7f2595fe7390>` for item "metrics" and save args `<class 'orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonSaveArgs'>` and restore args `<class 'orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonRestoreArgs'>` to `_handler_registry`. (2140978:composite_checkpoint_handler.py:239)
+02:11:05.371 [I] Initialized registry DefaultCheckpointHandlerRegistry({('assets', <class 'openpi.training.checkpoints.CallbackSave'>): <openpi.training.checkpoints.CallbackHandler object at 0x7f2595efe790>, ('assets', <class 'openpi.training.checkpoints.CallbackRestore'>): <openpi.training.checkpoints.CallbackHandler object at 0x7f2595efe790>, ('train_state', <class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeSaveArgs'>): <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7f2596018c50>, ('train_state', <class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeRestoreArgs'>): <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7f2596018c50>, ('params', <class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeSaveArgs'>): <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7f2595d98f50>, ('params', <class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeRestoreArgs'>): <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7f2595d98f50>, ('metrics', <class 'orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonSaveArgs'>): <orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonCheckpointHandler object at 0x7f2595fe7390>, ('metrics', <class 'orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonRestoreArgs'>): <orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonCheckpointHandler object at 0x7f2595fe7390>}). (2140978:composite_checkpoint_handler.py:508)
+02:11:05.372 [I] orbax-checkpoint version: 0.11.1                                                 (2140978:abstract_checkpointer.py:35)
+02:11:05.372 [I] [process=0][thread=MainThread] Using barrier_sync_fn: <function get_barrier_sync_fn.<locals>.<lambda> at 0x7f2595f46d40> timeout: 7200 secs and primary_host=0 for async checkpoint writes (2140978:async_checkpointer.py:80)
+02:11:05.372 [I] Found 0 checkpoint steps in /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent/first_try (2140978:checkpoint_manager.py:1528)
+02:11:05.372 [I] Saving root metadata                                                             (2140978:checkpoint_manager.py:1569)
+02:11:05.372 [I] [process=0][thread=MainThread] Skipping global process sync, barrier name: CheckpointManager:save_metadata (2140978:multihost.py:293)
+02:11:05.372 [I] [process=0][thread=MainThread] CheckpointManager created,  primary_host=0, CheckpointManagerOptions=CheckpointManagerOptions(save_interval_steps=1, max_to_keep=1, keep_time_interval=None, keep_period=5000, should_keep_fn=None, best_fn=None, best_mode='max', keep_checkpoints_without_metrics=True, step_prefix=None, step_format_fixed_length=None, step_name_format=None, create=False, cleanup_tmp_directories=False, save_on_steps=frozenset(), single_host_load_and_broadcast=False, todelete_subdir=None, enable_background_delete=False, read_only=False, enable_async_checkpointing=True, async_options=AsyncOptions(timeout_secs=7200, barrier_sync_fn=None, post_finalization_callback=None, create_directories_asynchronously=False), multiprocessing_options=MultiprocessingOptions(primary_host=0, active_processes=None, barrier_sync_key_prefix=None), should_save_fn=None, file_options=FileOptions(path_permission_mode=None), save_root_metadata=True, temporary_path_class=None, save_decision_policy=None), root_directory=/home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent/first_try: <orbax.checkpoint.checkpoint_manager.CheckpointManager object at 0x7f2595d4edd0> (2140978:checkpoint_manager.py:797)
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: ksridhar. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/ksridhar/openpi_regent_droid/wandb/run-20250302_021105-afsn9ppk
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run first_try
+wandb: ⭐️ View project at https://wandb.ai/ksridhar/openpi
+wandb: 🚀 View run at https://wandb.ai/ksridhar/openpi/runs/afsn9ppk
+Some kwargs in processor config are unused and will not have any effect: min_token, vocab_size, time_horizon, action_dim, scale. 
+Some kwargs in processor config are unused and will not have any effect: min_token, vocab_size, time_horizon, action_dim, scale. 
+02:11:07.460 [I] Loaded norm stats from /home/ksridhar/openpi_regent_droid/assets/pi0_fast_droid_regent/droid (2140978:config.py:167)
+len_dataset: 1159833
+02:11:26.946 [I] Initialized data loader:
+[0].query_images['base_0_rgb']: (2, 224, 224, 3)@float32
+[0].query_images['left_wrist_0_rgb']: (2, 224, 224, 3)@float32
+[0].retrieved_0_images['base_0_rgb']: (2, 224, 224, 3)@float32
+[0].retrieved_0_images['left_wrist_0_rgb']: (2, 224, 224, 3)@float32
+[0].retrieved_1_images['base_0_rgb']: (2, 224, 224, 3)@float32
+[0].retrieved_1_images['left_wrist_0_rgb']: (2, 224, 224, 3)@float32
+[0].retrieved_2_images['base_0_rgb']: (2, 224, 224, 3)@float32
+[0].retrieved_2_images['left_wrist_0_rgb']: (2, 224, 224, 3)@float32
+[0].retrieved_3_images['base_0_rgb']: (2, 224, 224, 3)@float32
+[0].retrieved_3_images['left_wrist_0_rgb']: (2, 224, 224, 3)@float32
+[0].retrieved_4_images['base_0_rgb']: (2, 224, 224, 3)@float32
+[0].retrieved_4_images['left_wrist_0_rgb']: (2, 224, 224, 3)@float32
+[0].query_image_masks['base_0_rgb']: (2,)@bool
+[0].query_image_masks['left_wrist_0_rgb']: (2,)@bool
+[0].retrieved_0_image_masks['base_0_rgb']: (2,)@bool
+[0].retrieved_0_image_masks['left_wrist_0_rgb']: (2,)@bool
+[0].retrieved_1_image_masks['base_0_rgb']: (2,)@bool
+[0].retrieved_1_image_masks['left_wrist_0_rgb']: (2,)@bool
+[0].retrieved_2_image_masks['base_0_rgb']: (2,)@bool
+[0].retrieved_2_image_masks['left_wrist_0_rgb']: (2,)@bool
+[0].retrieved_3_image_masks['base_0_rgb']: (2,)@bool
+[0].retrieved_3_image_masks['left_wrist_0_rgb']: (2,)@bool
+[0].retrieved_4_image_masks['base_0_rgb']: (2,)@bool
+[0].retrieved_4_image_masks['left_wrist_0_rgb']: (2,)@bool
+[0].query_state: (2, 8)@float32
+[0].retrieved_0_state: (2, 8)@float32
+[0].retrieved_1_state: (2, 8)@float32
+[0].retrieved_2_state: (2, 8)@float32
+[0].retrieved_3_state: (2, 8)@float32
+[0].retrieved_4_state: (2, 8)@float32
+[0].query_tokenized_prompt: (2, 180)@int32
+[0].retrieved_0_tokenized_prompt: (2, 180)@int32
+[0].retrieved_1_tokenized_prompt: (2, 180)@int32
+[0].retrieved_2_tokenized_prompt: (2, 180)@int32
+[0].retrieved_3_tokenized_prompt: (2, 180)@int32
+[0].retrieved_4_tokenized_prompt: (2, 180)@int32
+[0].query_tokenized_prompt_mask: (2, 180)@bool
+[0].retrieved_0_tokenized_prompt_mask: (2, 180)@bool
+[0].retrieved_1_tokenized_prompt_mask: (2, 180)@bool
+[0].retrieved_2_tokenized_prompt_mask: (2, 180)@bool
+[0].retrieved_3_tokenized_prompt_mask: (2, 180)@bool
+[0].retrieved_4_tokenized_prompt_mask: (2, 180)@bool
+[0].query_token_ar_mask: (2, 180)@int32
+[0].retrieved_0_token_ar_mask: (2, 180)@int32
+[0].retrieved_1_token_ar_mask: (2, 180)@int32
+[0].retrieved_2_token_ar_mask: (2, 180)@int32
+[0].retrieved_3_token_ar_mask: (2, 180)@int32
+[0].retrieved_4_token_ar_mask: (2, 180)@int32
+[0].query_token_loss_mask: (2, 180)@bool
+[0].retrieved_0_token_loss_mask: (2, 180)@bool
+[0].retrieved_1_token_loss_mask: (2, 180)@bool
+[0].retrieved_2_token_loss_mask: (2, 180)@bool
+[0].retrieved_3_token_loss_mask: (2, 180)@bool
+[0].retrieved_4_token_loss_mask: (2, 180)@bool
+[1]: (2, 8)@float32 (2140978:train_pi0_fast_regent.py:241)
+02:11:28.050 [I] Created BasePyTreeCheckpointHandler: pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=None (2140978:base_pytree_checkpoint_handler.py:332)
+02:11:28.076 [I] Restoring checkpoint from /home/ksridhar/.cache/openpi/openpi-assets/checkpoints/pi0_fast_droid/params. (2140978:checkpointer.py:256)
+02:11:45.925 [I] [process=0] /jax/checkpoint/read/bytes_per_sec: 624.8 MiB/s (total bytes: 10.9 GiB) (time elapsed: 17 seconds) (per-host) (2140978:base_pytree_checkpoint_handler.py:113)
+02:11:45.925 [I] Finished restoring checkpoint from /home/ksridhar/.cache/openpi/openpi-assets/checkpoints/pi0_fast_droid/params. (2140978:checkpointer.py:259)
+02:11:45.926 [I] [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:restore (2140978:multihost.py:293)
+2025-03-02 02:12:03.701021: W external/xla/xla/hlo/transforms/simplifiers/hlo_rematerialization.cc:3021] Can't reduce memory use below 15.01GiB (16118318545 bytes) by rematerialization; only reduced to 43.56GiB (46773368636 bytes), down from 43.56GiB (46773368636 bytes) originally
+02:12:06.229 [I] Initialized train state:
+['PaliGemma']['img']['Transformer']['encoder_norm']['bias'].value: (1152,)@float32
+['PaliGemma']['img']['Transformer']['encoder_norm']['scale'].value: (1152,)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['LayerNorm_0']['bias'].value: (27, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['LayerNorm_0']['scale'].value: (27, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['LayerNorm_1']['bias'].value: (27, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['LayerNorm_1']['scale'].value: (27, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_0']['bias'].value: (27, 4304)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_0']['kernel'].value: (27, 1152, 4304)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_1']['bias'].value: (27, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_1']['kernel'].value: (27, 4304, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['key']['bias'].value: (27, 16, 72)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['key']['kernel'].value: (27, 1152, 16, 72)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['out']['bias'].value: (27, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['out']['kernel'].value: (27, 16, 72, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['query']['bias'].value: (27, 16, 72)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['query']['kernel'].value: (27, 1152, 16, 72)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['value']['bias'].value: (27, 16, 72)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['value']['kernel'].value: (27, 1152, 16, 72)@float32
+['PaliGemma']['img']['embedding']['bias'].value: (1152,)@float32
+['PaliGemma']['img']['embedding']['kernel'].value: (14, 14, 3, 1152)@float32
+['PaliGemma']['img']['head']['bias'].value: (2048,)@float32
+['PaliGemma']['img']['head']['kernel'].value: (1152, 2048)@float32
+['PaliGemma']['img']['pos_embedding'].value: (1, 256, 1152)@float32
+['PaliGemma']['llm']['embedder']['input_embedding'].value: (257152, 2048)@float32
+['PaliGemma']['llm']['final_norm']['scale'].value: (2048,)@float32
+['PaliGemma']['llm']['layers']['attn']['attn_vec_einsum']['w'].value: (18, 8, 256, 2048)@float32
+['PaliGemma']['llm']['layers']['attn']['kv_einsum']['w'].value: (18, 2, 1, 2048, 256)@float32
+['PaliGemma']['llm']['layers']['attn']['q_einsum']['w'].value: (18, 8, 2048, 256)@float32
+['PaliGemma']['llm']['layers']['mlp']['gating_einsum'].value: (18, 2, 2048, 16384)@float32
+['PaliGemma']['llm']['layers']['mlp']['linear'].value: (18, 16384, 2048)@float32
+['PaliGemma']['llm']['layers']['pre_attention_norm']['scale'].value: (18, 2048)@float32
+['PaliGemma']['llm']['layers']['pre_ffw_norm']['scale'].value: (18, 2048)@float32 (2140978:train_pi0_fast_regent.py:245)
+decode_indices shape: (1074,)
+02:12:06.321 [I] Progress on: -/30000 rate:- remaining:? elapsed:00:00 postfix:-                  (2140978:tqdm_logging.py:145)
+input_token_embeddings shape: (2, 4152, 2048)
+attn_mask shape: (2, 4152, 4152)
+loss_mask shape: (2, 1074)
+targets shape: (2, 1074, 257152)
+pre_logits shape: (2, 4151, 2048)
+logits shape: (2, 1074, 257152)
+logp shape: (2, 1074, 257152)
+token_pplx shape: (2, 1074)
+loss shape: (2,)
+2025-03-02 02:12:30.796787: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 30.00GiB (rounded to 32217408768)requested by op 
+2025-03-02 02:12:30.797462: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] **************************************************************************__________________________
+E0302 02:12:30.797607 2140978 pjrt_stream_executor_client.cc:3045] Execution of replica 0 failed: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 32217408680 bytes. [tf-allocator-allocation-error='']
+02:12:30.803 [I] Progress on: -/30000 rate:- remaining:? elapsed:00:24 postfix:-                  (2140978:tqdm_logging.py:145)
+Traceback (most recent call last):
+  File "/home/ksridhar/openpi_regent_droid/scripts/train_pi0_fast_regent.py", line 289, in <module>
+    main(_config.cli())
+  File "/home/ksridhar/openpi_regent_droid/scripts/train_pi0_fast_regent.py", line 270, in main
+    train_state, info = ptrain_step(train_rng, train_state, batch)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jaxlib.xla_extension.XlaRuntimeError: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 32217408680 bytes.
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.
+[1;34mwandb[0m: 🚀 View run [33mfirst_try[0m at: [34mhttps://wandb.ai/ksridhar/openpi/runs/afsn9ppk[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250302_021105-afsn9ppk/logs[0m
