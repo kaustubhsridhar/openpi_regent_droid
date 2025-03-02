@@ -43,6 +43,9 @@ class RegentDroidInputs(transforms.DataTransformFn):
     # The number of retrieved observations.
     num_retrieved_observations: int
 
+    # Whether to use the average embeddings directly or not.
+    use_avg_embeddings_directly: bool
+
     # Determines which model will be used.
     # Do not change this for your own dataset.
     model_type: _model.ModelType = _model.ModelType.PI0
@@ -63,17 +66,31 @@ class RegentDroidInputs(transforms.DataTransformFn):
 
         # Create inputs dict.
         all_prefix = [f"retrieved_{i}_" for i in range(self.num_retrieved_observations)] + ["query_"]
-        inputs_dicts = [{
-            f"{prefix}state": data[f"{prefix}state"],
-            f"{prefix}image": {
-                "base_0_rgb": _parse_image(data[f"{prefix}image"]),
-                "left_wrist_0_rgb": _parse_image(data[f"{prefix}wrist_image"]),
-            },
-            f"{prefix}image_mask": {
-                "base_0_rgb": np.True_,
-                "left_wrist_0_rgb": np.True_,
-            },
-        } for prefix in all_prefix]
+        
+        if self.use_avg_embeddings_directly:
+            inputs_dicts = [{
+                f"{prefix}state": data[f"{prefix}state"],
+                f"{prefix}image_embedding": {
+                    "base_0_rgb": data[f"{prefix}image_embedding"],
+                    "left_wrist_0_rgb": data[f"{prefix}image_embedding"],
+                },
+                f"{prefix}image_mask": {
+                    "base_0_rgb": np.True_,
+                    "left_wrist_0_rgb": np.True_,
+                },
+            } for prefix in all_prefix]
+        else:
+            inputs_dicts = [{
+                f"{prefix}state": data[f"{prefix}state"],
+                f"{prefix}image": {
+                    "base_0_rgb": _parse_image(data[f"{prefix}image"]),
+                    "left_wrist_0_rgb": _parse_image(data[f"{prefix}wrist_image"]),
+                },
+                f"{prefix}image_mask": {
+                    "base_0_rgb": np.True_,
+                    "left_wrist_0_rgb": np.True_,
+                },
+            } for prefix in all_prefix]
 
         # collapse to single dict
         inputs = {k: v for d in inputs_dicts for k, v in d.items()}

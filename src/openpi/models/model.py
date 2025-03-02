@@ -120,42 +120,6 @@ class Observation(Generic[ArrayT]):
             token_ar_mask=data.get("token_ar_mask"),
             token_loss_mask=data.get("token_loss_mask"),
         )
-    
-    @classmethod
-    def from_regent_dict(cls, data: at.PyTree[ArrayT], num_retrieved_observations: int) -> "Observation[ArrayT]":
-        """This method defines the mapping between unstructured data (i.e., nested dict) to the structured Observation format."""
-        # Idenify all prefix
-        all_prefix = [f"retrieved_{i}_" for i in range(num_retrieved_observations)] + ["query_"]
-        # Ensure that tokenized_prompt and tokenized_prompt_mask are provided together.
-        for prefix in all_prefix:
-            if (f"{prefix}tokenized_prompt" in data) != (f"{prefix}tokenized_prompt_mask" in data):
-                raise ValueError(f"{prefix}tokenized_prompt and {prefix}tokenized_prompt_mask must be provided together.")
-        # If images are uint8, convert them to [-1, 1] float32.
-        image_keys = list(data[f"query_image"].keys())
-        for prefix in all_prefix:
-            for key in image_keys:
-                if data[f"{prefix}image"][key].dtype == np.uint8:
-                    data[f"{prefix}image"][key] = data[f"{prefix}image"][key].astype(np.float32) / 255.0 * 2.0 - 1.0
-        # Stack retrieved_{ct}_ and query_ data
-        data["image"] = {}
-        data["image_mask"] = {}
-        for key in image_keys:
-            data["image"][key] = np.stack([data[f"{prefix}image"][key] for prefix in all_prefix])
-            data["image_mask"][key] = np.stack([data[f"{prefix}image_mask"][key] for prefix in all_prefix])
-        data["state"] = np.stack([data[f"{prefix}state"] for prefix in all_prefix])
-        data["tokenized_prompt"] = np.stack([data[f"{prefix}tokenized_prompt"] for prefix in all_prefix])
-        data["tokenized_prompt_mask"] = np.stack([data[f"{prefix}tokenized_prompt_mask"] for prefix in all_prefix])
-        data["token_ar_mask"] = np.stack([data[f"{prefix}token_ar_mask"] for prefix in all_prefix])
-        data["token_loss_mask"] = np.stack([data[f"{prefix}token_loss_mask"] for prefix in all_prefix])
-        return cls(
-            images=data["image"],
-            image_masks=data["image_mask"],
-            state=data["state"],
-            tokenized_prompt=data["tokenized_prompt"],
-            tokenized_prompt_mask=data["tokenized_prompt_mask"],
-            token_ar_mask=data["token_ar_mask"],
-            token_loss_mask=data["token_loss_mask"],
-        )
 
     def to_dict(self) -> at.PyTree[ArrayT]:
         """Convert the Observation to a nested dict."""
@@ -163,6 +127,37 @@ class Observation(Generic[ArrayT]):
         result["image"] = result.pop("images")
         result["image_mask"] = result.pop("image_masks")
         return result
+    
+
+@at.typecheck
+@struct.dataclass
+class ObservationWithEmbeds(Generic[ArrayT]):
+    """Holds observations, i.e., inputs to the model.
+
+    See `Observation.from_dict` to see the expected dictionary form. This is the format
+    that should be produced by the data transforms.
+    """
+
+    # Images, in [-1, 1] float32.
+    images: dict[str, at.Float[ArrayT, "*b h w c"]] | None = None
+    # Image masks, with same keys as images.
+    image_masks: dict[str, at.Bool[ArrayT, "*b"]] | None = None
+    # Image embeddings # NEW
+    image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    # Low-dimensional robot state.
+    state: at.Float[ArrayT, "*b s"] | None = None
+
+    # Tokenized prompt.
+    tokenized_prompt: at.Int[ArrayT, "*b l"] | None = None
+    # Tokenized prompt mask.
+    tokenized_prompt_mask: at.Bool[ArrayT, "*b l"] | None = None
+
+    # pi0-fast model specific fields.
+
+    # Token auto-regressive mask (for FAST autoregressive model).
+    token_ar_mask: at.Int[ArrayT, "*b l"] | None = None
+    # Token loss mask (for FAST autoregressive model).
+    token_loss_mask: at.Bool[ArrayT, "*b l"] | None = None
     
 
 @at.typecheck
@@ -220,6 +215,28 @@ class RegentObservation(Generic[ArrayT]):
     retrieved_17_image_masks: dict[str, at.Bool[ArrayT, "*b"]] | None = None
     retrieved_18_image_masks: dict[str, at.Bool[ArrayT, "*b"]] | None = None
     retrieved_19_image_masks: dict[str, at.Bool[ArrayT, "*b"]] | None = None
+    # Image embeddings
+    query_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_0_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_1_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_2_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_3_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_4_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_5_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_6_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_7_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_8_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_9_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_10_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_11_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_12_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_13_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_14_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_15_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_16_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_17_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_18_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
+    retrieved_19_image_embeddings: dict[str, at.Float[ArrayT, "*b s emb"]] | None = None
     # Low-dimensional robot state.
     query_state: at.Float[ArrayT, "*b s"] | None = None
     retrieved_0_state: at.Float[ArrayT, "*b s"] | None = None
@@ -336,7 +353,7 @@ class RegentObservation(Generic[ArrayT]):
     retrieved_19_token_loss_mask: at.Bool[ArrayT, "*b l"] | None = None
     
     @classmethod
-    def from_dict(cls, data: at.PyTree[ArrayT], num_retrieved_observations: int) -> "RegentObservation[ArrayT]":
+    def from_dict(cls, data: at.PyTree[ArrayT], num_retrieved_observations: int, use_avg_embeddings_directly: bool) -> "RegentObservation[ArrayT]":
         """This method defines the mapping between unstructured data (i.e., nested dict) to the structured Observation format."""
         assert num_retrieved_observations <= 20, f"TODO: fix this brute force code"
         # Idenify all prefix
@@ -346,13 +363,14 @@ class RegentObservation(Generic[ArrayT]):
             if (f"{prefix}tokenized_prompt" in data) != (f"{prefix}tokenized_prompt_mask" in data):
                 raise ValueError(f"{prefix}tokenized_prompt and {prefix}tokenized_prompt_mask must be provided together.")
         # If images are uint8, convert them to [-1, 1] float32.
-        image_keys = list(data[f"query_image"].keys())
-        for prefix in all_prefix:
-            for key in image_keys:
-                if data[f"{prefix}image"][key].dtype == np.uint8:
-                    data[f"{prefix}image"][key] = data[f"{prefix}image"][key].astype(np.float32) / 255.0 * 2.0 - 1.0
+        if not use_avg_embeddings_directly:
+            image_keys = list(data[f"query_image"].keys())
+            for prefix in all_prefix:
+                for key in image_keys:
+                    if data[f"{prefix}image"][key].dtype == np.uint8:
+                        data[f"{prefix}image"][key] = data[f"{prefix}image"][key].astype(np.float32) / 255.0 * 2.0 - 1.0
         return cls(
-            query_images=data["query_image"],
+            query_images=data.get("query_image"),
             retrieved_0_images=data.get("retrieved_0_image"), 
             retrieved_1_images=data.get("retrieved_1_image"), 
             retrieved_2_images=data.get("retrieved_2_image"), 
@@ -373,7 +391,7 @@ class RegentObservation(Generic[ArrayT]):
             retrieved_17_images=data.get("retrieved_17_image"), 
             retrieved_18_images=data.get("retrieved_18_image"), 
             retrieved_19_images=data.get("retrieved_19_image"),
-            query_image_masks=data["query_image_mask"],
+            query_image_masks=data.get("query_image_mask"),
             retrieved_0_image_masks=data.get("retrieved_0_image_mask"), 
             retrieved_1_image_masks=data.get("retrieved_1_image_mask"), 
             retrieved_2_image_masks=data.get("retrieved_2_image_mask"), 
@@ -394,7 +412,28 @@ class RegentObservation(Generic[ArrayT]):
             retrieved_17_image_masks=data.get("retrieved_17_image_mask"), 
             retrieved_18_image_masks=data.get("retrieved_18_image_mask"), 
             retrieved_19_image_masks=data.get("retrieved_19_image_mask"),
-            query_state=data["query_state"],
+            query_image_embeddings=data["query_image_embedding"],
+            retrieved_0_image_embeddings=data.get("retrieved_0_image_embedding"),
+            retrieved_1_image_embeddings=data.get("retrieved_1_image_embedding"),
+            retrieved_2_image_embeddings=data.get("retrieved_2_image_embedding"),
+            retrieved_3_image_embeddings=data.get("retrieved_3_image_embedding"),
+            retrieved_4_image_embeddings=data.get("retrieved_4_image_embedding"),
+            retrieved_5_image_embeddings=data.get("retrieved_5_image_embedding"),
+            retrieved_6_image_embeddings=data.get("retrieved_6_image_embedding"),
+            retrieved_7_image_embeddings=data.get("retrieved_7_image_embedding"),
+            retrieved_8_image_embeddings=data.get("retrieved_8_image_embedding"),
+            retrieved_9_image_embeddings=data.get("retrieved_9_image_embedding"),
+            retrieved_10_image_embeddings=data.get("retrieved_10_image_embedding"),
+            retrieved_11_image_embeddings=data.get("retrieved_11_image_embedding"),
+            retrieved_12_image_embeddings=data.get("retrieved_12_image_embedding"),
+            retrieved_13_image_embeddings=data.get("retrieved_13_image_embedding"),
+            retrieved_14_image_embeddings=data.get("retrieved_14_image_embedding"),
+            retrieved_15_image_embeddings=data.get("retrieved_15_image_embedding"),
+            retrieved_16_image_embeddings=data.get("retrieved_16_image_embedding"),
+            retrieved_17_image_embeddings=data.get("retrieved_17_image_embedding"),
+            retrieved_18_image_embeddings=data.get("retrieved_18_image_embedding"),
+            retrieved_19_image_embeddings=data.get("retrieved_19_image_embedding"),
+            query_state=data.get("query_state"),
             retrieved_0_state=data.get("retrieved_0_state"), 
             retrieved_1_state=data.get("retrieved_1_state"), 
             retrieved_2_state=data.get("retrieved_2_state"), 
@@ -415,7 +454,7 @@ class RegentObservation(Generic[ArrayT]):
             retrieved_17_state=data.get("retrieved_17_state"), 
             retrieved_18_state=data.get("retrieved_18_state"), 
             retrieved_19_state=data.get("retrieved_19_state"),
-            query_tokenized_prompt=data["query_tokenized_prompt"],
+            query_tokenized_prompt=data.get("query_tokenized_prompt"),
             retrieved_0_tokenized_prompt=data.get("retrieved_0_tokenized_prompt"), 
             retrieved_1_tokenized_prompt=data.get("retrieved_1_tokenized_prompt"), 
             retrieved_2_tokenized_prompt=data.get("retrieved_2_tokenized_prompt"), 
@@ -436,7 +475,7 @@ class RegentObservation(Generic[ArrayT]):
             retrieved_17_tokenized_prompt=data.get("retrieved_17_tokenized_prompt"), 
             retrieved_18_tokenized_prompt=data.get("retrieved_18_tokenized_prompt"), 
             retrieved_19_tokenized_prompt=data.get("retrieved_19_tokenized_prompt"),
-            query_tokenized_prompt_mask=data["query_tokenized_prompt_mask"],
+            query_tokenized_prompt_mask=data.get("query_tokenized_prompt_mask"),
             retrieved_0_tokenized_prompt_mask=data.get("retrieved_0_tokenized_prompt_mask"),
             retrieved_1_tokenized_prompt_mask=data.get("retrieved_1_tokenized_prompt_mask"),
             retrieved_2_tokenized_prompt_mask=data.get("retrieved_2_tokenized_prompt_mask"),
@@ -457,7 +496,7 @@ class RegentObservation(Generic[ArrayT]):
             retrieved_17_tokenized_prompt_mask=data.get("retrieved_17_tokenized_prompt_mask"),
             retrieved_18_tokenized_prompt_mask=data.get("retrieved_18_tokenized_prompt_mask"),
             retrieved_19_tokenized_prompt_mask=data.get("retrieved_19_tokenized_prompt_mask"),
-            query_token_ar_mask=data["query_token_ar_mask"],
+            query_token_ar_mask=data.get("query_token_ar_mask"),
             retrieved_0_token_ar_mask=data.get("retrieved_0_token_ar_mask"),
             retrieved_1_token_ar_mask=data.get("retrieved_1_token_ar_mask"),
             retrieved_2_token_ar_mask=data.get("retrieved_2_token_ar_mask"),
@@ -478,7 +517,7 @@ class RegentObservation(Generic[ArrayT]):
             retrieved_17_token_ar_mask=data.get("retrieved_17_token_ar_mask"),
             retrieved_18_token_ar_mask=data.get("retrieved_18_token_ar_mask"),
             retrieved_19_token_ar_mask=data.get("retrieved_19_token_ar_mask"),
-            query_token_loss_mask=data["query_token_loss_mask"],
+            query_token_loss_mask=data.get("query_token_loss_mask"),
             retrieved_0_token_loss_mask=data.get("retrieved_0_token_loss_mask"),
             retrieved_1_token_loss_mask=data.get("retrieved_1_token_loss_mask"),
             retrieved_2_token_loss_mask=data.get("retrieved_2_token_loss_mask"),
@@ -576,10 +615,11 @@ def preprocess_observation(
 def extract_observation_from_regent_observation(
     regent_observation: RegentObservation,
     prefix: str,
-) -> Observation:
-    return Observation(
+) -> ObservationWithEmbeds:
+    return ObservationWithEmbeds(
         images=getattr(regent_observation, f"{prefix}images"),
         image_masks=getattr(regent_observation, f"{prefix}image_masks"),
+        image_embeddings=getattr(regent_observation, f"{prefix}image_embeddings"),
         state=getattr(regent_observation, f"{prefix}state"),
         tokenized_prompt=getattr(regent_observation, f"{prefix}tokenized_prompt"),
         tokenized_prompt_mask=getattr(regent_observation, f"{prefix}tokenized_prompt_mask"),

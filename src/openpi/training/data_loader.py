@@ -90,7 +90,8 @@ class RegentDroidDataset(Dataset):
         knn_k = 100
         embedding_type = "embeddings__wrist_image_left" # retrieval based on embeddings of wrist images
         indices_fol = f"regent_droid_preprocessing/droid_new_broken_up_indices/chosenIDscene_id_and_object_name_totepisodes95658_numepisodes2retrievefrom50_embtype{embedding_type}_knnk100"
-        
+        embeddings_fol = f"regent_droid_preprocessing/droid_new_broken_up_embeddings_full/chosenIDscene_id_and_object_name_totepisodes95658_minnumepisodes50"
+
         # load indices
         all_retrieved_indices = []
         all_query_indices = []
@@ -117,6 +118,7 @@ class RegentDroidDataset(Dataset):
         all_ep_idxs = list(np.unique(all_retrieved_indices[:, :, 0])) + list(np.unique(all_query_indices[:, 0]))
         all_ep_data_paths = {ep_idx: f"{ds_fol}/episode_{ep_idx}.npz" for ep_idx in all_ep_idxs}
         all_ep_metadata_paths = {ep_idx: f"{ds_fol}/episode_{ep_idx}.json" for ep_idx in all_ep_idxs}
+        all_ep_embeddings_paths = {ep_idx: {temp_type: f"{embeddings_fol}/episode_{ep_idx}_embeddings__{temp_type}.npy" for temp_type in ["exterior_image_1_left", "exterior_image_2_left", "wrist_image_left"]} for ep_idx in all_ep_idxs}
 
         # save
         self.len_dataset = len_dataset
@@ -124,6 +126,8 @@ class RegentDroidDataset(Dataset):
         self.all_ep_metadata_paths = all_ep_metadata_paths
         self.all_retrieved_indices = all_retrieved_indices
         self.all_query_indices = all_query_indices
+        self.use_avg_embeddings_directly = model_config.use_avg_embeddings_directly
+        self.all_ep_embeddings_paths = all_ep_embeddings_paths
 
     def __getitem__(self, index: SupportsIndex) -> dict:
         retrieved_indices = self.all_retrieved_indices[index, :, :]
@@ -132,21 +136,30 @@ class RegentDroidDataset(Dataset):
         ep_idxs = list(np.unique(retrieved_indices[:, 0])) + [query_ep_idx]
         ep_data = {ep_idx: np.load(self.all_ep_data_paths[ep_idx]) for ep_idx in ep_idxs}
         ep_metadata = {ep_idx: json.load(open(self.all_ep_metadata_paths[ep_idx])) for ep_idx in ep_idxs}
-        
+        ep_embeddings = {ep_idx: {k: np.load(v) for k, v in self.all_ep_embeddings_paths[ep_idx].items()} for ep_idx in ep_idxs}
+
         data = {}
-        random_ext_img = np.random.choice(["observation__exterior_image_1_left", "observation__exterior_image_2_left"])
+        random_ext_img = np.random.choice(["exterior_image_1_left", "exterior_image_2_left"])
         random_lang_inst = np.random.choice(["language_instruction", "language_instruction_2", "language_instruction_3"])
         for ct, (ep_idx, step_idx) in enumerate(retrieved_indices):
             prefix = f"retrieved_{ct}_"
-            data[f"{prefix}image"] = ep_data[ep_idx][random_ext_img][step_idx]
-            data[f"{prefix}wrist_image"] = ep_data[ep_idx]["observation__wrist_image_left"][step_idx]
+            if self.use_avg_embeddings_directly:
+                data[f"{prefix}image_embedding"] = ep_embeddings[ep_idx][random_ext_img][step_idx]
+                data[f"{prefix}wrist_image_embedding"] = ep_embeddings[ep_idx]["wrist_image_left"][step_idx]
+            else:
+                data[f"{prefix}image"] = ep_data[ep_idx][f"observation__{random_ext_img}"][step_idx]
+                data[f"{prefix}wrist_image"] = ep_data[ep_idx]["observation__wrist_image_left"][step_idx]
             data[f"{prefix}state"] = np.concatenate([ep_data[ep_idx]["observation__joint_position"][step_idx], ep_data[ep_idx]["observation__gripper_position"][step_idx]], axis=0)
             data[f"{prefix}actions"] = np.concatenate([ep_data[ep_idx]["action_dict__joint_velocity"][step_idx], ep_data[ep_idx]["action_dict__gripper_position"][step_idx]], axis=-1)
             data[f"{prefix}prompt"] = ep_metadata[ep_idx][random_lang_inst]
         
         prefix = "query_"
-        data[f"{prefix}image"] = ep_data[query_ep_idx][random_ext_img][query_step_idx]
-        data[f"{prefix}wrist_image"] = ep_data[query_ep_idx]["observation__wrist_image_left"][query_step_idx]
+        if self.use_avg_embeddings_directly:
+            data[f"{prefix}image_embedding"] = ep_embeddings[query_ep_idx][random_ext_img][query_step_idx]
+            data[f"{prefix}wrist_image_embedding"] = ep_embeddings[query_ep_idx]["wrist_image_left"][query_step_idx]
+        else:
+            data[f"{prefix}image"] = ep_data[query_ep_idx][f"observation__{random_ext_img}"][query_step_idx]
+            data[f"{prefix}wrist_image"] = ep_data[query_ep_idx]["observation__wrist_image_left"][query_step_idx]
         data[f"{prefix}state"] = np.concatenate([ep_data[query_ep_idx]["observation__joint_position"][query_step_idx], ep_data[query_ep_idx]["observation__gripper_position"][query_step_idx]], axis=0)
         data[f"{prefix}actions"] = np.concatenate([ep_data[query_ep_idx]["action_dict__joint_velocity"][query_step_idx], ep_data[query_ep_idx]["action_dict__gripper_position"][query_step_idx]], axis=0)
         data[f"{prefix}prompt"] = ep_metadata[query_ep_idx][random_lang_inst]
@@ -255,7 +268,9 @@ def create_data_loader(
         def __iter__(self):
             for batch in self._data_loader:
                 if "regent" in config.name:
-                    yield _model.RegentObservation.from_dict(batch, config.model.num_retrieved_observations), batch["query_actions"]
+                    yield _model.RegentObservation.from_dict(batch, 
+                                                             config.model.num_retrieved_observations,
+                                                             config.model.use_avg_embeddings_directly), batch["query_actions"]
                 else:
                     yield _model.Observation.from_dict(batch), batch["actions"]
 

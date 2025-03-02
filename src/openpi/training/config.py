@@ -351,7 +351,9 @@ class RegentDroidDataConfig(DataConfigFactory):
         # how to modify the transforms to match your dataset. Once you created your own transforms, you can
         # replace the transforms below with your own.
         data_transforms = _transforms.Group(
-            inputs=[droid_policy.RegentDroidInputs(action_dim=model_config.action_dim, num_retrieved_observations=model_config.num_retrieved_observations)],
+            inputs=[droid_policy.RegentDroidInputs(action_dim=model_config.action_dim, 
+                                                   num_retrieved_observations=model_config.num_retrieved_observations, 
+                                                   use_avg_embeddings_directly=model_config.use_avg_embeddings_directly)],
             outputs=[droid_policy.DroidOutputs()],
         )
 
@@ -375,7 +377,7 @@ class RegentDroidDataConfig(DataConfigFactory):
         # You do not need to change anything here for your own dataset.
         model_transforms = _transforms.Group(
                     inputs=[
-                        _transforms.ResizeImagesRegent(224, 224, model_config.num_retrieved_observations),
+                        _transforms.ResizeImagesRegent(224, 224, model_config.num_retrieved_observations) if not model_config.use_avg_embeddings_directly else _transforms.IdentityTransform(),
                         _transforms.TokenizeFASTInputsRegent(
                             _tokenizer.FASTTokenizer(model_config.max_token_len),
                             num_retrieved_observations=model_config.num_retrieved_observations,
@@ -564,7 +566,7 @@ _CONFIGS = [
         #
         # REGENT NOTE:
         # max_token_len is used to pad the "text, state, action" tokens to the same length for each retrieved/query state; see tokenizer
-        model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=5),
+        model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=5, use_avg_embeddings_directly=True),
         data=RegentDroidDataConfig(
             repo_id=None,
             assets=AssetsConfig(asset_id="droid"),
@@ -577,7 +579,7 @@ _CONFIGS = [
         # Below you can define other hyperparameters like the learning rate, number of training steps, etc.
         # Check the base TrainConfig class for a full list of available hyperparameters.
         num_train_steps=30_000,
-        batch_size=2,
+        batch_size=32,
     ),
     #
     # Fine-tuning Libero configs.

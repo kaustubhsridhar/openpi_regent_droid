@@ -82,6 +82,7 @@ class Pi0FASTRegentConfig(_model.BaseModelConfig):
     action_horizon: int = 32
     max_token_len: int = 250
     num_retrieved_observations: int = 5
+    use_avg_embeddings_directly: bool = False
 
     @property
     @override
@@ -130,6 +131,8 @@ class Pi0FASTRegent(_model.BaseModel):
     def __init__(self, config: Pi0FASTRegentConfig, rngs: nnx.Rngs):
         super().__init__(config.action_dim, config.action_horizon, config.max_token_len)
         paligemma_config = _gemma.get_config(config.paligemma_variant)
+        self.num_retrieved_observations = config.num_retrieved_observations
+        self.use_avg_embeddings_directly = config.use_avg_embeddings_directly
         # TODO: rewrite gemma in NNX. For now, use bridge.
         llm = nnx_bridge.ToNNX(
             _gemma.Module(
@@ -139,30 +142,35 @@ class Pi0FASTRegent(_model.BaseModel):
             )
         )
         llm.lazy_init(rngs=rngs, method="init")
-        img = nnx_bridge.ToNNX(
-            _siglip.Module(
-                num_classes=paligemma_config.width,
-                variant="So400m/14",
-                pool_type="none",
-                scan=True,
-                dtype_mm=config.dtype,
+        if self.use_avg_embeddings_directly:
+            img = None
+        else:
+            img = nnx_bridge.ToNNX(
+                _siglip.Module(
+                    num_classes=paligemma_config.width,
+                    variant="So400m/14",
+                    pool_type="none",
+                    scan=True,
+                    dtype_mm=config.dtype,
+                )
             )
-        )
-        img.lazy_init(next(iter(config.fake_obs().images.values())), train=False, rngs=rngs)
+            img.lazy_init(next(iter(config.fake_obs().images.values())), train=False, rngs=rngs)
         self.PaliGemma = nnx.Dict(llm=llm, img=img)
-        self.num_retrieved_observations = config.num_retrieved_observations
     
     @at.typecheck
     def embed_inputs(
-        self, obs: _model.Observation
+        self, obs: _model.ObservationWithEmbeds
     ) -> tuple[at.Float[at.Array, "b s emb"], at.Bool[at.Array, "b s"], at.Int[at.Array, "b s"]]:
         input_mask = []
         ar_mask = []
         token_embeddings = []
         # embed images
-        for name in obs.images:
-            image_token_embeddings, _ = self.PaliGemma.img(obs.images[name], train=False)
-            # image_token_embeddings = obs.images[name] # Alt: no need to embed as we are feeding the embeddings in directly but this embedding is averaged over patches!
+        obs_keys = obs.image_embeddings.keys() if self.use_avg_embeddings_directly else obs.images.keys()
+        for name in obs_keys:
+            if self.use_avg_embeddings_directly:
+                image_token_embeddings = obs.image_embeddings[name] # no need to embed as we are feeding the embeddings in directly but this embedding is averaged over patches!
+            else:
+                image_token_embeddings, _ = self.PaliGemma.img(obs.images[name], train=False)
 
             token_embeddings.append(image_token_embeddings)
             input_mask.append(
@@ -216,9 +224,10 @@ class Pi0FASTRegent(_model.BaseModel):
         for i in range(num_observations):
             prefix = f"retrieved_{i}_" if i < self.num_retrieved_observations else "query_"
             this_observation = _model.extract_observation_from_regent_observation(regent_observation, prefix)
-            this_observation = _model.preprocess_observation(
-                rng, this_observation, train=train, image_keys=list(this_observation.images.keys())
-            )
+            if not self.use_avg_embeddings_directly:
+                this_observation = _model.preprocess_observation(
+                    rng, this_observation, train=train, image_keys=list(this_observation.images.keys())
+                )
 
             # Compute inputs: one big forward pass of prefix + suffix at once
             this_input_token_embeddings, this_input_mask, this_ar_mask = self.embed_inputs(this_observation)
@@ -290,9 +299,10 @@ class Pi0FASTRegent(_model.BaseModel):
         for i in range(num_observations):
             prefix = f"retrieved_{i}_" if i < self.num_retrieved_observations else "query_"
             this_observation = _model.extract_observation_from_regent_observation(regent_observation, prefix)
-            this_observation = _model.preprocess_observation(
-                None, this_observation, train=False, image_keys=list(this_observation.images.keys())
-            )
+            if not self.use_avg_embeddings_directly:
+                this_observation = _model.preprocess_observation(
+                    None, this_observation, train=False, image_keys=list(this_observation.images.keys())
+                )
 
             # embed inputs
             this_prefix_token_embeddings, this_prefix_mask, this_prefix_ar_mask = self.embed_inputs(this_observation)
