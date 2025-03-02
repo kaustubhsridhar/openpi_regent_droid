@@ -82,6 +82,8 @@ class Pi0FASTRegentConfig(_model.BaseModelConfig):
     action_horizon: int = 32
     max_token_len: int = 250
     num_retrieved_observations: int = 5
+    use_action_interpolation: bool = False
+    lamda: float = 10.0
 
     @property
     @override
@@ -161,6 +163,8 @@ class Pi0FASTRegent(_model.BaseModel):
         img.lazy_init(next(iter(config.fake_obs().images.values())), train=False, rngs=rngs)
         self.PaliGemma = nnx.Dict(llm=llm, img=img)
         self.num_retrieved_observations = config.num_retrieved_observations
+        self.use_action_interpolation = config.use_action_interpolation
+        self.max_token_len = config.max_token_len # max token len for the "prompt, state, action" prompt
     
     @at.typecheck
     def embed_inputs(
@@ -212,6 +216,26 @@ class Pi0FASTRegent(_model.BaseModel):
         # finally, do a logical or with a lower triangular mask
         attn_mask = jnp.logical_or(attn_mask, jnp.tril(jnp.ones((batch_size, seq_len, seq_len), dtype=bool)))
         return attn_mask
+    
+    def interpolate_actions(self, logits, targets, exp_lamda_distances, batch_size, num_observations, vocab_size):
+        # assert the input shapes
+        decode_len = (self.max_token_len - 1) * num_observations
+        assert logits.shape == targets.shape == (batch_size, decode_len, vocab_size)
+        assert exp_lamda_distances.shape == (batch_size, num_observations, 1)
+
+        # repeat the exp_lamda_distances for each token in the decode_len
+        exp_lamda_distances_repeated = einops.repeat(exp_lamda_distances, "b o 1 -> b (o t) 1", t=self.max_token_len - 1)
+        assert exp_lamda_distances_repeated.shape == (batch_size, decode_len, 1)
+        
+        # acquire and repeat the Retrieve-and-Play (first) targets
+        first_targets = targets[:, :self.max_token_len - 1, :]
+        first_targets_repeated = einops.repeat(first_targets, "b t v -> b (o t) v", o=num_observations)
+        assert first_targets_repeated.shape == (batch_size, decode_len, vocab_size)
+
+        # discrete interpolation
+        new_logits = exp_lamda_distances_repeated * first_targets_repeated + (1 - exp_lamda_distances_repeated) * jax.nn.softmax(logits, axis=-1)
+
+        return new_logits
 
     @override
     def compute_loss(
@@ -272,7 +296,18 @@ class Pi0FASTRegent(_model.BaseModel):
             pre_logits=pre_logits[:, decode_indices],
         )
         print(f'logits shape: {logits.shape}')
-        logp = jax.nn.log_softmax(logits, axis=-1)
+
+        if self.use_action_interpolation:
+            new_logits = self.interpolate_actions(logits=logits, targets=targets, exp_lamda_distances=regent_observation.exp_lamda_distances, 
+                                            batch_size=batch_size, num_observations=num_observations, vocab_size=self.PaliGemma.llm.module.vocab_size)
+            print(f'new_logits shape: {new_logits.shape}')
+            # clamp the logits to avoid nan from log(0) and instabilities from log(1)
+            epsilon = 1e-9
+            new_logits = jnp.clip(new_logits, epsilon, 1 - epsilon)
+            # take log
+            logp = jnp.log(new_logits)
+        else:
+            logp = jax.nn.log_softmax(logits, axis=-1)
         print(f'logp shape: {logp.shape}')
 
         # Compute CE loss on token targets

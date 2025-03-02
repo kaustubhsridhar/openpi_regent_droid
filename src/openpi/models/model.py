@@ -220,6 +220,8 @@ class RegentObservation(Generic[ArrayT]):
     retrieved_17_image_masks: dict[str, at.Bool[ArrayT, "*b"]] | None = None
     retrieved_18_image_masks: dict[str, at.Bool[ArrayT, "*b"]] | None = None
     retrieved_19_image_masks: dict[str, at.Bool[ArrayT, "*b"]] | None = None
+    # Distances between embeddings
+    exp_lamda_distances: at.Float[ArrayT, "*b num_observations 1"] | None = None
     # Low-dimensional robot state.
     query_state: at.Float[ArrayT, "*b s"] | None = None
     retrieved_0_state: at.Float[ArrayT, "*b s"] | None = None
@@ -352,7 +354,7 @@ class RegentObservation(Generic[ArrayT]):
                 if data[f"{prefix}image"][key].dtype == np.uint8:
                     data[f"{prefix}image"][key] = data[f"{prefix}image"][key].astype(np.float32) / 255.0 * 2.0 - 1.0
         return cls(
-            query_images=data["query_image"],
+            query_images=data.get("query_image"),
             retrieved_0_images=data.get("retrieved_0_image"), 
             retrieved_1_images=data.get("retrieved_1_image"), 
             retrieved_2_images=data.get("retrieved_2_image"), 
@@ -373,7 +375,7 @@ class RegentObservation(Generic[ArrayT]):
             retrieved_17_images=data.get("retrieved_17_image"), 
             retrieved_18_images=data.get("retrieved_18_image"), 
             retrieved_19_images=data.get("retrieved_19_image"),
-            query_image_masks=data["query_image_mask"],
+            query_image_masks=data.get("query_image_mask"),
             retrieved_0_image_masks=data.get("retrieved_0_image_mask"), 
             retrieved_1_image_masks=data.get("retrieved_1_image_mask"), 
             retrieved_2_image_masks=data.get("retrieved_2_image_mask"), 
@@ -394,7 +396,8 @@ class RegentObservation(Generic[ArrayT]):
             retrieved_17_image_masks=data.get("retrieved_17_image_mask"), 
             retrieved_18_image_masks=data.get("retrieved_18_image_mask"), 
             retrieved_19_image_masks=data.get("retrieved_19_image_mask"),
-            query_state=data["query_state"],
+            exp_lamda_distances=data.get("exp_lamda_distances"),
+            query_state=data.get("query_state"),
             retrieved_0_state=data.get("retrieved_0_state"), 
             retrieved_1_state=data.get("retrieved_1_state"), 
             retrieved_2_state=data.get("retrieved_2_state"), 
@@ -415,7 +418,7 @@ class RegentObservation(Generic[ArrayT]):
             retrieved_17_state=data.get("retrieved_17_state"), 
             retrieved_18_state=data.get("retrieved_18_state"), 
             retrieved_19_state=data.get("retrieved_19_state"),
-            query_tokenized_prompt=data["query_tokenized_prompt"],
+            query_tokenized_prompt=data.get("query_tokenized_prompt"),
             retrieved_0_tokenized_prompt=data.get("retrieved_0_tokenized_prompt"), 
             retrieved_1_tokenized_prompt=data.get("retrieved_1_tokenized_prompt"), 
             retrieved_2_tokenized_prompt=data.get("retrieved_2_tokenized_prompt"), 
@@ -436,7 +439,7 @@ class RegentObservation(Generic[ArrayT]):
             retrieved_17_tokenized_prompt=data.get("retrieved_17_tokenized_prompt"), 
             retrieved_18_tokenized_prompt=data.get("retrieved_18_tokenized_prompt"), 
             retrieved_19_tokenized_prompt=data.get("retrieved_19_tokenized_prompt"),
-            query_tokenized_prompt_mask=data["query_tokenized_prompt_mask"],
+            query_tokenized_prompt_mask=data.get("query_tokenized_prompt_mask"),
             retrieved_0_tokenized_prompt_mask=data.get("retrieved_0_tokenized_prompt_mask"),
             retrieved_1_tokenized_prompt_mask=data.get("retrieved_1_tokenized_prompt_mask"),
             retrieved_2_tokenized_prompt_mask=data.get("retrieved_2_tokenized_prompt_mask"),
@@ -457,7 +460,7 @@ class RegentObservation(Generic[ArrayT]):
             retrieved_17_tokenized_prompt_mask=data.get("retrieved_17_tokenized_prompt_mask"),
             retrieved_18_tokenized_prompt_mask=data.get("retrieved_18_tokenized_prompt_mask"),
             retrieved_19_tokenized_prompt_mask=data.get("retrieved_19_tokenized_prompt_mask"),
-            query_token_ar_mask=data["query_token_ar_mask"],
+            query_token_ar_mask=data.get("query_token_ar_mask"),
             retrieved_0_token_ar_mask=data.get("retrieved_0_token_ar_mask"),
             retrieved_1_token_ar_mask=data.get("retrieved_1_token_ar_mask"),
             retrieved_2_token_ar_mask=data.get("retrieved_2_token_ar_mask"),
@@ -478,7 +481,7 @@ class RegentObservation(Generic[ArrayT]):
             retrieved_17_token_ar_mask=data.get("retrieved_17_token_ar_mask"),
             retrieved_18_token_ar_mask=data.get("retrieved_18_token_ar_mask"),
             retrieved_19_token_ar_mask=data.get("retrieved_19_token_ar_mask"),
-            query_token_loss_mask=data["query_token_loss_mask"],
+            query_token_loss_mask=data.get("query_token_loss_mask"),
             retrieved_0_token_loss_mask=data.get("retrieved_0_token_loss_mask"),
             retrieved_1_token_loss_mask=data.get("retrieved_1_token_loss_mask"),
             retrieved_2_token_loss_mask=data.get("retrieved_2_token_loss_mask"),

@@ -90,6 +90,10 @@ class RegentDroidInputs(transforms.DataTransformFn):
         for prefix in all_prefix:
             inputs[f"{prefix}prompt"] = data[f"{prefix}prompt"]
 
+        # Pass the exp_lamda_distances to the model if it is present
+        if "exp_lamda_distances" in data:
+            inputs["exp_lamda_distances"] = data["exp_lamda_distances"]
+
         return inputs
 
 

@@ -50,9 +50,9 @@ def embed_episodes(chosen_id_to_ep_idxs_with_atleast_min_num_episodes, ds_fol, d
 				num_steps = len(observation__exterior_image_1_left)
 				assert observation__exterior_image_1_left.dtype == observation__exterior_image_2_left.dtype == observation__wrist_image_left.dtype == np.uint8
 				# embed
-				embeddings__exterior_image_1_left = embed_with_batches(observation__exterior_image_1_left, policy, batch_size=400)
-				embeddings__exterior_image_2_left = embed_with_batches(observation__exterior_image_2_left, policy, batch_size=400)
-				embeddings__wrist_image_left = embed_with_batches(observation__wrist_image_left, policy, batch_size=400)
+				embeddings__exterior_image_1_left = embed_with_batches(observation__exterior_image_1_left, policy, batch_size=400) # (num_steps, 2048)
+				embeddings__exterior_image_2_left = embed_with_batches(observation__exterior_image_2_left, policy, batch_size=400) # (num_steps, 2048)
+				embeddings__wrist_image_left = embed_with_batches(observation__wrist_image_left, policy, batch_size=400) # (num_steps, 2048)
 				assert embeddings__exterior_image_1_left.shape[0] == embeddings__exterior_image_2_left.shape[0] == embeddings__wrist_image_left.shape[0] == num_steps
 				# save
 				np.save(f"{ds_emb_fol}/episode_{ep_idx}_embeddings__exterior_image_1_left.npy", embeddings__exterior_image_1_left)
