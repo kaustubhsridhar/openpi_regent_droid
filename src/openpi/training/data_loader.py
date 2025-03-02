@@ -11,8 +11,10 @@ import numpy as np
 import torch
 
 import openpi.models.model as _model
+import openpi.models.pi0_fast_regent as _pi0_fast_regent
 import openpi.training.config as _config
 import openpi.transforms as _transforms
+import json
 
 T_co = TypeVar("T_co", covariant=True)
 
@@ -79,6 +81,80 @@ class FakeDataset(Dataset):
 
     def __len__(self) -> int:
         return self._num_samples
+    
+
+class RegentDroidDataset(Dataset):
+    def __init__(self, model_config: _pi0_fast_regent.Pi0FASTRegentConfig):
+        # setup
+        num_retrieved_observations = model_config.num_retrieved_observations
+        knn_k = 100
+        embedding_type = "embeddings__wrist_image_left" # retrieval based on embeddings of wrist images
+        indices_fol = f"regent_droid_preprocessing/droid_new_broken_up_indices/chosenIDscene_id_and_object_name_totepisodes95658_numepisodes2retrievefrom50_embtype{embedding_type}_knnk100"
+        
+        # load indices
+        all_retrieved_indices = []
+        all_query_indices = []
+        indices_files = os.listdir(indices_fol)
+        indices_files = [os.path.join(indices_fol, f) for f in indices_files]
+        for f in indices_files:
+            indices = np.load(f)
+            query_indices, retrieved_indices = indices["query_indices"], indices["retrieved_indices"][:, :num_retrieved_observations, :]
+            num_steps = query_indices.shape[0]
+            assert retrieved_indices.shape == (num_steps, num_retrieved_observations, 2) and retrieved_indices.dtype == np.int32 
+            assert query_indices.shape == (num_steps, 2) and query_indices.dtype == np.int32
+            all_retrieved_indices.append(retrieved_indices)
+            all_query_indices.append(query_indices)
+        all_retrieved_indices = np.concatenate(all_retrieved_indices, axis=0)
+        all_query_indices = np.concatenate(all_query_indices, axis=0)
+        len_dataset = all_retrieved_indices.shape[0]
+        print(f"len_dataset: {len_dataset}")
+        assert all_retrieved_indices.shape == (len_dataset, num_retrieved_observations, 2) and all_retrieved_indices.dtype == np.int32
+        assert all_query_indices.shape == (len_dataset, 2) and all_query_indices.dtype == np.int32
+
+        # load all data paths 
+        ds_name = f"droid_new"
+        ds_fol = f"regent_droid_preprocessing/{ds_name}_broken_up"
+        all_ep_idxs = list(np.unique(all_retrieved_indices[:, :, 0])) + list(np.unique(all_query_indices[:, 0]))
+        all_ep_data_paths = {ep_idx: f"{ds_fol}/episode_{ep_idx}.npz" for ep_idx in all_ep_idxs}
+        all_ep_metadata_paths = {ep_idx: f"{ds_fol}/episode_{ep_idx}.json" for ep_idx in all_ep_idxs}
+
+        # save
+        self.len_dataset = len_dataset
+        self.all_ep_data_paths = all_ep_data_paths
+        self.all_ep_metadata_paths = all_ep_metadata_paths
+        self.all_retrieved_indices = all_retrieved_indices
+        self.all_query_indices = all_query_indices
+
+    def __getitem__(self, index: SupportsIndex) -> dict:
+        retrieved_indices = self.all_retrieved_indices[index, :, :]
+        query_ep_idx, query_step_idx = self.all_query_indices[index, :]
+        
+        ep_idxs = list(np.unique(retrieved_indices[:, 0])) + [query_ep_idx]
+        ep_data = {ep_idx: np.load(self.all_ep_data_paths[ep_idx]) for ep_idx in ep_idxs}
+        ep_metadata = {ep_idx: json.load(open(self.all_ep_metadata_paths[ep_idx])) for ep_idx in ep_idxs}
+        
+        data = {}
+        random_ext_img = np.random.choice(["observation__exterior_image_1_left", "observation__exterior_image_2_left"])
+        random_lang_inst = np.random.choice(["language_instruction", "language_instruction_2", "language_instruction_3"])
+        for ct, (ep_idx, step_idx) in enumerate(retrieved_indices):
+            prefix = f"retrieved_{ct}_"
+            data[f"{prefix}image"] = ep_data[ep_idx][random_ext_img][step_idx]
+            data[f"{prefix}wrist_image"] = ep_data[ep_idx]["observation__wrist_image_left"][step_idx]
+            data[f"{prefix}state"] = np.concatenate([ep_data[ep_idx]["observation__joint_position"][step_idx], ep_data[ep_idx]["observation__gripper_position"][step_idx]], axis=0)
+            data[f"{prefix}actions"] = np.concatenate([ep_data[ep_idx]["action_dict__joint_velocity"][step_idx], ep_data[ep_idx]["action_dict__gripper_position"][step_idx]], axis=-1)
+            data[f"{prefix}prompt"] = ep_metadata[ep_idx][random_lang_inst]
+        
+        prefix = "query_"
+        data[f"{prefix}image"] = ep_data[query_ep_idx][random_ext_img][query_step_idx]
+        data[f"{prefix}wrist_image"] = ep_data[query_ep_idx]["observation__wrist_image_left"][query_step_idx]
+        data[f"{prefix}state"] = np.concatenate([ep_data[query_ep_idx]["observation__joint_position"][query_step_idx], ep_data[query_ep_idx]["observation__gripper_position"][query_step_idx]], axis=0)
+        data[f"{prefix}actions"] = np.concatenate([ep_data[query_ep_idx]["action_dict__joint_velocity"][query_step_idx], ep_data[query_ep_idx]["action_dict__gripper_position"][query_step_idx]], axis=0)
+        data[f"{prefix}prompt"] = ep_metadata[query_ep_idx][random_lang_inst]
+        
+        return data
+
+    def __len__(self) -> int:
+        return self.len_dataset
 
 
 def create_dataset(data_config: _config.DataConfig, model_config: _model.BaseModelConfig) -> Dataset:
@@ -152,7 +228,10 @@ def create_data_loader(
     """
     data_config = config.data.create(config.assets_dirs, config.model)
 
-    dataset = create_dataset(data_config, config.model)
+    if "regent" in config.name:
+        dataset = RegentDroidDataset(config.model)
+    else:
+        dataset = create_dataset(data_config, config.model)
     dataset = transform_dataset(dataset, data_config, skip_norm_stats=skip_norm_stats)
 
     data_loader = TorchDataLoader(
@@ -175,7 +254,10 @@ def create_data_loader(
 
         def __iter__(self):
             for batch in self._data_loader:
-                yield _model.Observation.from_dict(batch), batch["actions"]
+                if "regent" in config.name:
+                    yield _model.RegentObservation.from_dict(batch, config.model.num_retrieved_observations), batch["query_actions"]
+                else:
+                    yield _model.Observation.from_dict(batch), batch["actions"]
 
     return DataLoaderImpl(data_config, data_loader)
 
