@@ -80,6 +80,17 @@ def _load_weights_and_validate(loader: _weight_loaders.WeightLoader, params_shap
     )
 
 
+def count_parameters(params, trainable_filter):
+    """Counts total and trainable parameters."""
+    total_params = sum(p.size for p in jax.tree_util.tree_leaves(params))
+    
+    trainable_params = sum(
+        p.size for p in jax.tree_util.tree_leaves(params.filter(trainable_filter))
+    )
+    
+    return total_params, trainable_params
+
+
 @at.typecheck
 def init_train_state(
     config: _config.TrainConfig, init_rng: at.KeyArrayLike, mesh: jax.sharding.Mesh, *, resume: bool
@@ -101,6 +112,12 @@ def init_train_state(
         params = nnx.state(model)
         # Convert frozen params to bfloat16.
         params = nnx_utils.state_map(params, config.freeze_filter, lambda p: p.replace(p.value.astype(jnp.bfloat16)))
+
+        # Count total and trainable parameters
+        total_params, trainable_params = count_parameters(params, config.trainable_filter)
+        print(f"Total Parameters: {total_params // 1e6}M")
+        print(f"Trainable Parameters: {trainable_params // 1e6}M")
+        print(f"Trainable Parameters %: {100 * trainable_params / total_params:.2f}%")
 
         return training_utils.TrainState(
             step=0,

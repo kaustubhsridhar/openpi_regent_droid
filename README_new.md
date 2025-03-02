@@ -73,5 +73,5 @@ python quick_view_retrieval_preprocessed_sequences.py --chosen_id scene_id_and_o
 ## training
 * train pi0_fast_droid_regent
 ```bash
-CUDA_VISIBLE_DEVICES=3 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=first_try --overwrite &> log.txt &
+CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=first_try --overwrite &> log.txt &
 ```
