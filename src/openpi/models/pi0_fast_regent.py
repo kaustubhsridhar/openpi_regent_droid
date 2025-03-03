@@ -217,20 +217,26 @@ class Pi0FASTRegent(_model.BaseModel):
         attn_mask = jnp.logical_or(attn_mask, jnp.tril(jnp.ones((batch_size, seq_len, seq_len), dtype=bool)))
         return attn_mask
     
-    def interpolate_actions(self, logits, targets, exp_lamda_distances, batch_size, num_observations, vocab_size):
+    def interpolate_actions(self, logits, first_targets, exp_lamda_distances):
         # assert the input shapes
-        decode_len = (self.max_token_len - 1) * num_observations
-        assert logits.shape == targets.shape == (batch_size, decode_len, vocab_size)
-        assert exp_lamda_distances.shape == (batch_size, num_observations, 1)
+        batch_size, decode_len, vocab_size = logits.shape
+        if decode_len == 1:
+            # call from sample_actions
+            pass
+        else:
+            # call from compute_loss
+            num_observations = self.num_retrieved_observations + 1
+            assert decode_len == num_observations * (self.max_token_len - 1)
+            assert first_targets.shape == (batch_size, self.max_token_len - 1, vocab_size)
+            assert exp_lamda_distances.shape == (batch_size, num_observations, 1)
 
-        # repeat the exp_lamda_distances for each token in the decode_len
-        exp_lamda_distances_repeated = einops.repeat(exp_lamda_distances, "b o 1 -> b (o t) 1", t=self.max_token_len - 1)
-        assert exp_lamda_distances_repeated.shape == (batch_size, decode_len, 1)
-        
-        # acquire and repeat the Retrieve-and-Play (first) targets
-        first_targets = targets[:, :self.max_token_len - 1, :]
-        first_targets_repeated = einops.repeat(first_targets, "b t v -> b (o t) v", o=num_observations)
-        assert first_targets_repeated.shape == (batch_size, decode_len, vocab_size)
+            # repeat the exp_lamda_distances for each token in the decode_len
+            exp_lamda_distances_repeated = einops.repeat(exp_lamda_distances, "b o 1 -> b (o t) 1", t=self.max_token_len - 1)
+            assert exp_lamda_distances_repeated.shape == (batch_size, decode_len, 1)
+            
+            # acquire and repeat the Retrieve-and-Play (first) targets
+            first_targets_repeated = einops.repeat(first_targets, "b t v -> b (o t) v", o=num_observations)
+            assert first_targets_repeated.shape == (batch_size, decode_len, vocab_size)
 
         # discrete interpolation
         new_logits = exp_lamda_distances_repeated * first_targets_repeated + (1 - exp_lamda_distances_repeated) * jax.nn.softmax(logits, axis=-1)
@@ -298,8 +304,8 @@ class Pi0FASTRegent(_model.BaseModel):
         print(f'logits shape: {logits.shape}')
 
         if self.use_action_interpolation:
-            new_logits = self.interpolate_actions(logits=logits, targets=targets, exp_lamda_distances=regent_observation.exp_lamda_distances, 
-                                            batch_size=batch_size, num_observations=num_observations, vocab_size=self.PaliGemma.llm.module.vocab_size)
+            new_logits = self.interpolate_actions(logits=logits, first_targets=targets[:, :self.max_token_len - 1, :], 
+                                                  exp_lamda_distances=regent_observation.exp_lamda_distances)
             print(f'new_logits shape: {new_logits.shape}')
             # clamp the logits to avoid nan from log(0) and instabilities from log(1)
             epsilon = 1e-9
@@ -347,6 +353,13 @@ class Pi0FASTRegent(_model.BaseModel):
             list_of_prefix_masks.append(this_prefix_mask)
             list_of_prefix_attn_masks.append(this_prefix_attn_mask)
 
+            # get the first targets
+            if i == 0:
+                first_targets = jax.nn.one_hot(
+                    this_observation.tokenized_prompt[:, 1:],
+                    self.PaliGemma.llm.module.vocab_size,
+                )
+
         # combine all input token embeddings and attn masks along the num tokens axis
         prefix_token_embeddings = jnp.concatenate(list_of_prefix_token_embeddings, axis=1)
         prefix_mask = jnp.concatenate(list_of_prefix_masks, axis=1)
@@ -373,11 +386,28 @@ class Pi0FASTRegent(_model.BaseModel):
         )
 
         # prepare decoding -- final logit decodes the first token
-        last_logit = prefix_logits[:, -1:]
+        last_logit_old = prefix_logits[:, -1:]
+
+        # possible action interpolation
+        if self.use_action_interpolation:
+            print(f'step: 0')
+            print(f'last_logit_old shape: {last_logit_old.shape}')
+            last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, 0:1, :], 
+                                                  exp_lamda_distances=regent_observation.exp_lamda_distances[:, 0:1, :])
+            print(f'last_logit shape: {last_logit.shape}')
+
         output_tokens = jnp.zeros((last_logit.shape[0], max_decoding_steps))
 
         def step(carry):
-            last_logit, output_tokens, cache, _, step = carry
+            last_logit_old, output_tokens, cache, _, step = carry
+
+            # possible action interpolation
+            if self.use_action_interpolation:
+                print(f'step: {step}')
+                print(f'last_logit_old shape: {last_logit_old.shape}')
+                last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, step+1:step+2, :], 
+                                                      exp_lamda_distances=regent_observation.exp_lamda_distances[:, step+1:step+2, :])
+                print(f'last_logit shape: {last_logit.shape}')
 
             # Sample token from last logit
             if temperature > 0.0:
