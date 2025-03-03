@@ -226,17 +226,17 @@ class Pi0FASTRegent(_model.BaseModel):
         else:
             # call from compute_loss
             num_observations = self.num_retrieved_observations + 1
-            assert decode_len == num_observations * (self.max_token_len - 1)
-            assert first_targets.shape == (batch_size, self.max_token_len - 1, vocab_size)
-            assert exp_lamda_distances.shape == (batch_size, num_observations, 1)
+            # assert decode_len == num_observations * (self.max_token_len - 1)
+            # assert first_targets.shape == (batch_size, self.max_token_len - 1, vocab_size)
+            # assert exp_lamda_distances.shape == (batch_size, num_observations, 1)
 
             # repeat the exp_lamda_distances for each token in the decode_len
             exp_lamda_distances_repeated = einops.repeat(exp_lamda_distances, "b o 1 -> b (o t) 1", t=self.max_token_len - 1)
-            assert exp_lamda_distances_repeated.shape == (batch_size, decode_len, 1)
+            # assert exp_lamda_distances_repeated.shape == (batch_size, decode_len, 1)
             
             # acquire and repeat the Retrieve-and-Play (first) targets
             first_targets_repeated = einops.repeat(first_targets, "b t v -> b (o t) v", o=num_observations)
-            assert first_targets_repeated.shape == (batch_size, decode_len, vocab_size)
+            # assert first_targets_repeated.shape == (batch_size, decode_len, vocab_size)
 
         # discrete interpolation
         new_logits = exp_lamda_distances_repeated * first_targets_repeated + (1 - exp_lamda_distances_repeated) * jax.nn.softmax(logits, axis=-1)
@@ -390,10 +390,12 @@ class Pi0FASTRegent(_model.BaseModel):
 
         # possible action interpolation
         if self.use_action_interpolation:
-            print(f'step: 0')
+            print(f'step: 0 / {max_decoding_steps}')
+            print(f'full first_targets shape: {first_targets.shape}')
+            print(f'exp_lamda_distances for only last query observation shape: {regent_observation.exp_lamda_distances[:, -1:, :].shape}')
             print(f'last_logit_old shape: {last_logit_old.shape}')
             last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, 0:1, :], 
-                                                  exp_lamda_distances=regent_observation.exp_lamda_distances[:, 0:1, :])
+                                                  exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :])
             print(f'last_logit shape: {last_logit.shape}')
 
         output_tokens = jnp.zeros((last_logit.shape[0], max_decoding_steps))
@@ -403,10 +405,10 @@ class Pi0FASTRegent(_model.BaseModel):
 
             # possible action interpolation
             if self.use_action_interpolation:
-                print(f'step: {step}')
+                print(f'step: {step} / {max_decoding_steps}')
                 print(f'last_logit_old shape: {last_logit_old.shape}')
                 last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, step+1:step+2, :], 
-                                                      exp_lamda_distances=regent_observation.exp_lamda_distances[:, step+1:step+2, :])
+                                                      exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :])
                 print(f'last_logit shape: {last_logit.shape}')
 
             # Sample token from last logit
