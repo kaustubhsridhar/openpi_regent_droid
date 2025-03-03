@@ -89,7 +89,7 @@ class RegentPolicy(BasePolicy):
         self._sample_kwargs = sample_kwargs or {}
         self._metadata = metadata or {}
         self._model = model
-        self._demos = [] # TODO
+        self._demos = {} # TODO
         self._use_action_interpolation = use_action_interpolation
         self._lamda = lamda
 
