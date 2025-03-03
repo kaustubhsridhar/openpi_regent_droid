@@ -353,7 +353,7 @@ class Pi0FASTRegent(_model.BaseModel):
             list_of_prefix_masks.append(this_prefix_mask)
             list_of_prefix_attn_masks.append(this_prefix_attn_mask)
 
-            # get the first targets
+            # get the first targets (of the first retrieved observation)
             if i == 0:
                 first_targets = jax.nn.one_hot(
                     this_observation.tokenized_prompt[:, 1:],
