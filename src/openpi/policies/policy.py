@@ -13,6 +13,7 @@ from typing_extensions import override
 
 from openpi import transforms as _transforms
 from openpi.models import model as _model
+from openpi.models import pi0_fast_regent as _pi0_fast_regent
 from openpi.shared import array_typing as at
 from openpi.shared import nnx_utils
 
@@ -60,6 +61,69 @@ class Policy(BasePolicy):
         # TODO: del at cleanup
         # print(f'infer 2 {[(k, v.shape, v.dtype, type(v)) for k, v in outputs.items()]}')
         # infer 2 [('actions', (256,), dtype('float32'), <class 'numpy.ndarray'>), ('state', (8,), dtype('float32'), <class 'numpy.ndarray'>)]
+        return self._output_transform(outputs)
+
+    @property
+    def metadata(self) -> dict[str, Any]:
+        return self._metadata
+    
+
+class RegentPolicy(BasePolicy):
+    def __init__(
+        self,
+        model: _pi0_fast_regent.Pi0FASTRegent,
+        *,
+        rng: at.KeyArrayLike | None = None,
+        transforms: Sequence[_transforms.DataTransformFn] = (),
+        output_transforms: Sequence[_transforms.DataTransformFn] = (),
+        sample_kwargs: dict[str, Any] | None = None,
+        metadata: dict[str, Any] | None = None,
+        demos_dir: str | None = None,
+        use_action_interpolation: bool | None = None,
+        lamda: float | None = None,
+    ):
+        self._sample_actions = nnx_utils.module_jit(model.sample_actions)
+        self._input_transform = _transforms.compose(transforms)
+        self._output_transform = _transforms.compose(output_transforms)
+        self._rng = rng or jax.random.key(0)
+        self._sample_kwargs = sample_kwargs or {}
+        self._metadata = metadata or {}
+        self._model = model
+        self._demos = [] # TODO
+        self._use_action_interpolation = use_action_interpolation
+        self._lamda = lamda
+
+    def retrieve(self, obs: dict) -> dict:
+        # TODO
+        retrieved_obs = {}
+        return {**obs, **retrieved_obs}
+    
+    def compute_exp_lamda_distances(self, obs: dict) -> dict:
+        # TODO
+        return 
+
+    @override
+    def infer(self, obs: dict) -> dict:  # type: ignore[misc]
+        # Make a copy since transformations may modify the inputs in place.
+        inputs = jax.tree.map(lambda x: x, obs)
+        inputs = self._input_transform(inputs)
+        # Retrieval
+        inputs = self.retrieve(inputs)
+        # Compute exp_lamda_distances if use_action_interpolation
+        if self._use_action_interpolation:
+            inputs["exp_lamda_distances"] = self.compute_exp_lamda_distances(inputs)
+        # Make a batch and convert to jax.Array.
+        inputs = jax.tree.map(lambda x: jnp.asarray(x)[np.newaxis, ...], inputs)
+
+        self._rng, sample_rng = jax.random.split(self._rng)
+        outputs = {
+            "query_state": inputs["query_state"],
+            "actions": self._sample_actions(sample_rng, _model.RegentObservation.from_dict(inputs), **self._sample_kwargs),
+        }
+
+        # Unbatch and convert to np.ndarray.
+        outputs = jax.tree.map(lambda x: np.asarray(x[0, ...]), outputs)
+
         return self._output_transform(outputs)
 
     @property
