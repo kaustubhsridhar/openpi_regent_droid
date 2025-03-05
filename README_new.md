@@ -80,7 +80,24 @@ CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fa
 ```
 
 ## inference 
-* Collect demos with droid and process the collected demos as follows
+* Collect demos using franka_ksridhar
+```bash
+# In the GUI, activate fci and unlock joints. You can access gui on chrome at 172.16.0.2/desk/
+# In terminal 1: 
+startserver
+# In terminal 2: 
+startrunnerksridhar
+# In terminal 3: 
+conda activate droid_ksridhar
+cd franka_ksridhar
+python scripts/collect_trajectory.py -n 20
+
+# You can see full form of these commands in bashrc 
+# The conda env was created by cloning the droid_wliang conda env and then `pip install -e .` in the franka_ksridhar folder
+# You can see output at franka_ksridhar/data/date
+```
+
+* Process the collected demos as follows
 ```bash
 # The following example structure is expected for the collected demos:
 # regent_droid_preprocessing/
@@ -121,3 +138,36 @@ CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collecte
 ```bash
 CUDA_VISIBLE_DEVICES=0 nohup python -u scripts/test_pi0_fast_regent.py &> log_test.txt &
 ```
+
+* run pi0 baseline on the robot
+```bash
+# Run the server on the workstation in levine 457
+cd ~/Projects/openpi-main/
+export LD_LIBRARY_PATH=/home/exx/Projects/openpi-main/.venv/lib/python3.11/site-packages/torch/lib/../../nvidia/nvjitlink/lib:$LD_LIBRARY_PATH # Link torch to with correct cuda version for UV
+uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid --policy.dir=s3://openpi-assets/checkpoints/pi0_fast_droid
+# the above two lines can also be run in a simpler way via: ./run_pi0_exx.sh
+
+# Run the client on the franka robot
+# Terminal 1:
+startserver
+# Terminal 2:
+cd ~/droid_pi0/
+conda activate droid_pi0
+python3 scripts/main.py --remote_host=158.130.52.14 --remote_port=8000 --external_camera="left"
+```
+
+* run regent inference on the robot
+```bash
+# Run the server on ivy
+uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_regent_with_interpolation/first_try_with_interpolation/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-04
+
+# Run the client on the franka robot
+# Terminal 1:
+startserver
+# Terminal 2:
+cd ~/droid_pi0/
+conda activate droid_pi0
+python3 scripts/main_regent.py --remote_host=158.130.55.26 --remote_port=8000 --external_camera="left" 
+# you can get your host computer's public ip via `curl -4 ifconfig.me`
+```
+

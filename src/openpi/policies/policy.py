@@ -83,7 +83,6 @@ class RegentPolicy(BasePolicy):
         sample_kwargs: dict[str, Any] | None = None,
         metadata: dict[str, Any] | None = None,
         demos_dir: str | None = None,
-        camera: str | None = None,
         use_action_interpolation: bool | None = None,
         lamda: float | None = None,
     ):
@@ -94,7 +93,6 @@ class RegentPolicy(BasePolicy):
         self._sample_kwargs = sample_kwargs or {}
         self._metadata = metadata or {}
         self._model = model
-        self._camera = camera
         self._use_action_interpolation = use_action_interpolation
         self._lamda = lamda
         # setup demos for retrieval
@@ -118,6 +116,7 @@ class RegentPolicy(BasePolicy):
                                             )
 
     def retrieve(self, obs: dict) -> dict:
+        camera = obs.pop("camera")
         more_obs = {}
         # embed
         query_embedding = embed(obs["query_image"], self)
@@ -130,7 +129,7 @@ class RegentPolicy(BasePolicy):
         for ct, (ep_idx, step_idx) in enumerate(retrieved_indices[0]):
             for key in ["state", "actions", "wrist_image"]:
                 more_obs[f"retrieved_{ct}_{key}"] = self._demos[ep_idx][key][step_idx]
-            more_obs[f"retrieved_{ct}_image"] = self._demos[ep_idx][f"{self._camera}_image"][step_idx]
+            more_obs[f"retrieved_{ct}_image"] = self._demos[ep_idx][f"{camera}_image"][step_idx]
             more_obs[f"retrieved_{ct}_prompt"] = self._demos[ep_idx]["prompt"].item()
         # Compute exp_lamda_distances if use_action_interpolation
         if self._use_action_interpolation:
