@@ -159,7 +159,7 @@ python3 scripts/main.py --remote_host=158.130.52.14 --remote_port=8000 --externa
 * run regent inference on the robot
 ```bash
 # Run the server on ivy
-uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_regent_with_interpolation/first_try_with_interpolation/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-04
+CUDA_VISIBLE_DEVICES=1 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/first_try_with_interpolation/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-04
 
 # Run the client on the franka robot
 # Terminal 1:
