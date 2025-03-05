@@ -222,7 +222,8 @@ class Pi0FASTRegent(_model.BaseModel):
         batch_size, decode_len, vocab_size = logits.shape
         if decode_len == 1:
             # call from sample_actions
-            pass
+            exp_lamda_distances_repeated = exp_lamda_distances
+            first_targets_repeated = first_targets
         else:
             # call from compute_loss
             num_observations = self.num_retrieved_observations + 1
@@ -387,6 +388,7 @@ class Pi0FASTRegent(_model.BaseModel):
 
         # prepare decoding -- final logit decodes the first token
         last_logit_old = prefix_logits[:, -1:]
+        original_dtype = last_logit_old.dtype
 
         # possible action interpolation
         if self.use_action_interpolation:
@@ -395,7 +397,7 @@ class Pi0FASTRegent(_model.BaseModel):
             print(f'exp_lamda_distances for only last query observation shape: {regent_observation.exp_lamda_distances[:, -1:, :].shape}')
             print(f'last_logit_old shape: {last_logit_old.shape}')
             last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, 0:1, :], 
-                                                  exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :])
+                                                  exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :]).astype(original_dtype)
             print(f'last_logit shape: {last_logit.shape}')
 
         output_tokens = jnp.zeros((last_logit.shape[0], max_decoding_steps))
@@ -407,8 +409,11 @@ class Pi0FASTRegent(_model.BaseModel):
             if self.use_action_interpolation:
                 print(f'step: {step} / {max_decoding_steps}')
                 print(f'last_logit_old shape: {last_logit_old.shape}')
-                last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, step+1:step+2, :], 
-                                                      exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :])
+                # Instead of dynamic indexing, i.e., first_targets=first_targets[:, step+1:step+2, :], we use the lax indexing in jax. This prevents jax errors.
+                # Below, the first argument is the start index and the second argument is the size of the slice.
+                first_targets_slice = jax.lax.dynamic_slice(first_targets, (0, step+1, 0), (first_targets.shape[0], 1, first_targets.shape[2]))
+                last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets_slice, 
+                                                      exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :]).astype(original_dtype)
                 print(f'last_logit shape: {last_logit.shape}')
 
             # Sample token from last logit

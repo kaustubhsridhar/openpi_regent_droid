@@ -79,7 +79,45 @@ CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train_pi0_fast_regent.py pi0_fa
 CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=first_try_with_interpolation --overwrite &> log_with_interpolation.txt &
 ```
 
-## inference example
+## inference 
+* Collect demos with droid and process the collected demos as follows
 ```bash
-python scripts/test_pi0_fast_regent.py
+# The following example structure is expected for the collected demos:
+# regent_droid_preprocessing/
+# ├── collected_demos/
+# │   ├── 2025-03-04/
+# │   │   ├── demo_0_taken_at_2025-03-04_00-17-49
+# |   │   ├── demo_1_taken_at_2025-03-04_00-18-56
+# |   │   ├── ...
+
+# Within each demo directory, we expect the following structure with the traj.h5 file and the recordings' frames:-
+# │   │   ├── demo_0_taken_at_2025-03-04_00-17-49
+# │   │   │   ├── traj.h5
+# │   │   │   ├── recordings/
+# |   │   │   │   ├── frames/
+# |   │   │   │   │   ├── hand_camera/
+# |   │   │   │   │   │   ├── 000.jpg
+# |   │   │   │   │   │   ├── 001.jpg
+# |   │   │   │   │   │   ├── ...
+# |   │   │   │   │   ├── varied_camera_1/
+# |   │   │   │   │   │   ├── 000.jpg
+# |   │   │   │   │   │   ├── 001.jpg
+# |   │   │   │   │   │   ├── ...
+# |   │   │   │   │   ├── varied_camera_2/
+# |   │   │   │   │   │   ├── 000.jpg
+# |   │   │   │   │   │   ├── 001.jpg
+# |   │   │   │   │   │   ├── ...
+
+# Process the collected demos; give a few prompts to randomly sample from for each demo (assumtpions: any of these prompts would fit the demo)
+cd regent_droid_preprocessing
+CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-04 --prompts "pick up the pokeball and put it in the bowl" "put the pokeball in the bowl" "pick up the pokeball and place it in the bowl" &> logs/process_collected_demos/pokeball_bowl.log &
+
+# After running the above command, you will see a new file in each demo directory as follows:
+# │   │   ├── demo_0_taken_at_2025-03-04_00-17-49
+# │   │   │   ├── processed_demo.npz
+```
+
+* example inference
+```bash
+CUDA_VISIBLE_DEVICES=0 nohup python -u scripts/test_pi0_fast_regent.py &> log_test.txt &
 ```

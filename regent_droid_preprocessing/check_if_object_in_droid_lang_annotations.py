@@ -32,7 +32,7 @@ def check_if_object_in_droid(object_name, total_episodes):
 			object_name_exists = False
 			if object_name in ep_metadata["language_instruction"] or object_name in ep_metadata["language_instruction_2"] or object_name in ep_metadata["language_instruction_3"]:
 				object_name_exists = True
-				break # one object name per episode
+				print(f'lang instructions of episode {ep_idx}: {ep_metadata["language_instruction"]}, {ep_metadata["language_instruction_2"]}, {ep_metadata["language_instruction_3"]}')
 		else:
 			print()
 			myprint(f'{ds_fol}/episode_{ep_idx}.json does not exist; ending search at {ep_idx-1} instead of going until {total_episodes}')
