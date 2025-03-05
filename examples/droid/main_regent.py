@@ -141,13 +141,12 @@ def main(args: Args):
                     # We resize images on the robot laptop to minimize the amount of data sent to the policy server
                     # and improve latency.
                     request_data = {
-                        "observation/exterior_image_1_left": image_tools.resize_with_pad(
+                        "query_image": image_tools.resize_with_pad(
                             curr_obs[f"{args.external_camera}_image"], 224, 224
                         ),
-                        "observation/wrist_image_left": image_tools.resize_with_pad(curr_obs["wrist_image"], 224, 224),
-                        "observation/joint_position": curr_obs["joint_position"],
-                        "observation/gripper_position": curr_obs["gripper_position"],
-                        "prompt": instruction,
+                        "query_wrist_image": image_tools.resize_with_pad(curr_obs["wrist_image"], 224, 224),
+                        "query_state": np.concatenate([curr_obs["joint_position"], curr_obs["gripper_position"]]),
+                        "query_prompt": instruction,
                         "camera": args.external_camera,
                     }
 
