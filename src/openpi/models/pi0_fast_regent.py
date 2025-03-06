@@ -356,8 +356,10 @@ class Pi0FASTRegent(_model.BaseModel):
 
             # get the first targets (of the first retrieved observation)
             if i == 0:
+                first_targets = this_observation.tokenized_prompt[:, 1:]
+                print(f'first_targets before one hot: {first_targets} [shape: {first_targets.shape}]')
                 first_targets = jax.nn.one_hot(
-                    this_observation.tokenized_prompt[:, 1:],
+                    first_targets,
                     self.PaliGemma.llm.module.vocab_size,
                 )
 
@@ -435,7 +437,9 @@ class Pi0FASTRegent(_model.BaseModel):
             if self.use_action_interpolation:
                 print(f'step: {step} / {max_decoding_steps}')
                 print(f'last_logit_old shape: {last_logit_old.shape}')
-                last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, step+1:step+2, :],
+                first_targets_slice = jax.lax.dynamic_slice(first_targets, (0, step+1, 0), (first_targets.shape[0], 1, first_targets.shape[2]))
+                print(f'first_targets_slice shape: {first_targets_slice.shape}')
+                last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets_slice,
                                                       exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :]).astype(original_dtype)
                 print(f'last_logit shape: {last_logit.shape}')
             else:

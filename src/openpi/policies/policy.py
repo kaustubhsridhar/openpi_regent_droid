@@ -138,6 +138,7 @@ class RegentPolicy(BasePolicy):
         if self._use_action_interpolation:
             distances = [np.linalg.norm(self._demos[ep_idx]["embeddings"][step_idx:step_idx+1] - query_embedding) for ep_idx, step_idx in retrieved_indices[0]]
             more_obs["exp_lamda_distances"] = np.exp(-self._lamda * np.array(distances)).reshape(-1, 1)
+            print(f'exp_lamda_distances: {more_obs["exp_lamda_distances"]}')
         return {**obs, **more_obs}
 
     @override
