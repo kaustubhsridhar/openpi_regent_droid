@@ -82,7 +82,9 @@ def main(args: Args):
     print("Created the droid env!")
 
     # Connect to the policy server
+    print("Connecting to the policy server...")
     policy_client = websocket_client_policy.WebsocketClientPolicy(args.remote_host, args.remote_port)
+    print("Connected to the policy server!")
 
     # Initialize DataFrame and prepare markdown logging
     df = pd.DataFrame(columns=["success", "duration", "video_filename", "instruction", "comment"])

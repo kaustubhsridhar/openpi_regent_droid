@@ -141,11 +141,8 @@ CUDA_VISIBLE_DEVICES=0 nohup python -u scripts/test_pi0_fast_regent.py &> log_te
 
 * run pi0 baseline on the robot
 ```bash
-# Run the server on the workstation in levine 457
-cd ~/Projects/openpi-main/
-export LD_LIBRARY_PATH=/home/exx/Projects/openpi-main/.venv/lib/python3.11/site-packages/torch/lib/../../nvidia/nvjitlink/lib:$LD_LIBRARY_PATH # Link torch to with correct cuda version for UV
-uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid --policy.dir=s3://openpi-assets/checkpoints/pi0_fast_droid
-# the above two lines can also be run in a simpler way via: ./run_pi0_exx.sh
+# Run the server on ivy
+CUDA_VISIBLE_DEVICES=5 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid --policy.dir=s3://openpi-assets/checkpoints/pi0_fast_droid
 
 # Run the client on the franka robot
 # Terminal 1:
@@ -153,13 +150,13 @@ startserver
 # Terminal 2:
 cd ~/droid_pi0/
 conda activate droid_pi0
-python3 scripts/main.py --remote_host=158.130.52.14 --remote_port=8000 --external_camera="left"
+python3 scripts/main.py --remote_host=158.130.55.26 --remote_port=8000 --external_camera="right"
 ```
 
 * run regent inference on the robot
 ```bash
 # Run the server on ivy
-CUDA_VISIBLE_DEVICES=1 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/first_try_with_interpolation/10000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-04
+CUDA_VISIBLE_DEVICES=5 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/first_try_with_interpolation/10000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-04
 
 # Run the client on the franka robot
 # Terminal 1:
@@ -167,7 +164,7 @@ startserver
 # Terminal 2:
 cd ~/droid_pi0/
 conda activate droid_pi0
-python3 scripts/main_regent.py --remote_host=158.130.55.26 --remote_port=8000 --external_camera="left" 
+python3 scripts/main_regent.py --remote_host=158.130.55.26 --remote_port=8000 --external_camera="right" 
 # you can get your host computer's public ip via `curl -4 ifconfig.me`
 ```
 

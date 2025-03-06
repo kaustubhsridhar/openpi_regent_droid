@@ -62,10 +62,13 @@ class Policy(BasePolicy):
 
         # Unbatch and convert to np.ndarray.
         outputs = jax.tree.map(lambda x: np.asarray(x[0, ...]), outputs)
+        print(f'outputs: {outputs}')
         # TODO: del at cleanup
         # print(f'infer 2 {[(k, v.shape, v.dtype, type(v)) for k, v in outputs.items()]}')
         # infer 2 [('actions', (256,), dtype('float32'), <class 'numpy.ndarray'>), ('state', (8,), dtype('float32'), <class 'numpy.ndarray'>)]
-        return self._output_transform(outputs)
+        final_outputs = self._output_transform(outputs)
+        logger.info(f'final_outputs: {final_outputs}')
+        return final_outputs
 
     @property
     def metadata(self) -> dict[str, Any]:
@@ -162,7 +165,11 @@ class RegentPolicy(BasePolicy):
         logger.info(f'unbatching...')
         outputs = jax.tree.map(lambda x: np.asarray(x[0, ...]), outputs)
 
-        return self._output_transform(outputs)
+        print(f'outputs: {outputs}')
+
+        final_outputs = self._output_transform(outputs)
+        logger.info(f'final_outputs: {final_outputs}')
+        return final_outputs
 
     @property
     def metadata(self) -> dict[str, Any]:

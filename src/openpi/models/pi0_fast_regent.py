@@ -399,22 +399,13 @@ class Pi0FASTRegent(_model.BaseModel):
             last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, 0:1, :], 
                                                   exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :]).astype(original_dtype)
             print(f'last_logit shape: {last_logit.shape}')
+        else:
+            last_logit = last_logit_old
 
         output_tokens = jnp.zeros((last_logit.shape[0], max_decoding_steps))
 
         def step(carry):
-            last_logit_old, output_tokens, cache, _, step = carry
-
-            # possible action interpolation
-            if self.use_action_interpolation:
-                print(f'step: {step} / {max_decoding_steps}')
-                print(f'last_logit_old shape: {last_logit_old.shape}')
-                # Instead of dynamic indexing, i.e., first_targets=first_targets[:, step+1:step+2, :], we use the lax indexing in jax. This prevents jax errors.
-                # Below, the first argument is the start index and the second argument is the size of the slice.
-                first_targets_slice = jax.lax.dynamic_slice(first_targets, (0, step+1, 0), (first_targets.shape[0], 1, first_targets.shape[2]))
-                last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets_slice, 
-                                                      exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :]).astype(original_dtype)
-                print(f'last_logit shape: {last_logit.shape}')
+            last_logit, output_tokens, cache, _, step = carry
 
             # Sample token from last logit
             if temperature > 0.0:
@@ -436,9 +427,19 @@ class Pi0FASTRegent(_model.BaseModel):
                 jnp.arange(prefill_size + max_decoding_steps)[None, None, :]
                 < (jnp.broadcast_to(prefill_size + step + 1, (prefix_start.shape[0], 1, 1))),
             )
-            last_logit, kv_cache, _ = self.PaliGemma.llm(
+            last_logit_old, kv_cache, _ = self.PaliGemma.llm(
                 embedded_prefix=token_embedding, mask=mask, positions=positions, decode=True, kv_cache=cache
             )
+
+            # possible action interpolation
+            if self.use_action_interpolation:
+                print(f'step: {step} / {max_decoding_steps}')
+                print(f'last_logit_old shape: {last_logit_old.shape}')
+                last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, step+1:step+2, :],
+                                                      exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :]).astype(original_dtype)
+                print(f'last_logit shape: {last_logit.shape}')
+            else:
+                last_logit = last_logit_old
 
             return last_logit, output_tokens, kv_cache, all_eos, step + 1
 

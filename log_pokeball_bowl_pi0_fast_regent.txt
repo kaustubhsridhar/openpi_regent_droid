@@ -1,0 +1,440 @@
+(openpi) (branch: main) ksridhar@ivy:~/openpi_regent_droid$ CUDA_VISIBLE_DEVICES=5 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/first_try_with_interpolation/10000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-04
+INFO:root:Loading model...
+INFO:2025-03-05 16:15:09,868:jax._src.xla_bridge:945: Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+INFO:jax._src.xla_bridge:Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+INFO:2025-03-05 16:15:09,869:jax._src.xla_bridge:945: Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+INFO:jax._src.xla_bridge:Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+INFO:absl:orbax-checkpoint version: 0.11.1
+INFO:absl:Created BasePyTreeCheckpointHandler: pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=None
+INFO:absl:Restoring checkpoint from /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent_with_interpolation/first_try_with_interpolation/10000/params.
+INFO:absl:[thread=MainThread] Failed to get flag value for EXPERIMENTAL_ORBAX_USE_DISTRIBUTED_PROCESS_ID.
+INFO:absl:[process=0] /jax/checkpoint/read/bytes_per_sec: 522.5 MiB/s (total bytes: 5.5 GiB) (time elapsed: 10 seconds) (per-host)
+INFO:absl:Finished restoring checkpoint from /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent_with_interpolation/first_try_with_interpolation/10000/params.
+INFO:absl:[process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:restore
+Some kwargs in processor config are unused and will not have any effect: scale, action_dim, vocab_size, time_horizon, min_token. 
+Some kwargs in processor config are unused and will not have any effect: scale, action_dim, vocab_size, time_horizon, min_token. 
+INFO:root:Loaded norm stats from /home/ksridhar/openpi_regent_droid/assets/pi0_fast_droid_regent_with_interpolation/droid
+INFO:root:Loaded norm stats from checkpoints/pi0_fast_droid_regent_with_interpolation/first_try_with_interpolation/10000/assets/droid
+
+INFO:root:loading demos from regent_droid_preprocessing/collected_demos/2025-03-04...
+
+INFO:root:building retrieval index...
+INFO:autofaiss:Using 8 omp threads (processes), consider increasing --nb_cores if you have more
+INFO:autofaiss:Launching the whole pipeline 03/05/2025, 16:15:23
+INFO:autofaiss:Reading total number of vectors and dimension 03/05/2025, 16:15:23
+100%|█████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 668.73it/s]
+INFO:autofaiss:There are 3238 embeddings of dim 2048
+INFO:autofaiss:>>> Finished "Reading total number of vectors and dimension" in 0.0469 secs
+INFO:autofaiss: Compute estimated construction time of the index 03/05/2025, 16:15:23
+INFO:autofaiss:         -> Train: 16.7 minutes
+INFO:autofaiss:         -> Add: 0.1 seconds
+INFO:autofaiss:         Total: 16.7 minutes
+INFO:autofaiss: >>> Finished "Compute estimated construction time of the index" in 0.0002 secs
+INFO:autofaiss: Checking that your have enough memory available to create the index 03/05/2025, 16:15:23
+INFO:autofaiss:28.2MB of memory will be needed to build the index (more might be used if you have more)
+INFO:autofaiss: >>> Finished "Checking that your have enough memory available to create the index" in 0.0008 secs
+INFO:autofaiss: Selecting most promising index types given data characteristics 03/05/2025, 16:15:23
+INFO:autofaiss: >>> Finished "Selecting most promising index types given data characteristics" in 0.0000 secs
+INFO:autofaiss: Creating the index 03/05/2025, 16:15:23
+INFO:autofaiss:         -> Instanciate the index HNSW15 03/05/2025, 16:15:23
+INFO:autofaiss:         >>> Finished "-> Instanciate the index HNSW15" in 0.0021 secs
+INFO:autofaiss:         -> Adding the vectors to the index 03/05/2025, 16:15:23
+INFO:autofaiss:The memory available for adding the vectors is 50.0GB(total available - used by the index)
+INFO:autofaiss:Using a batch size of 122070 (memory overhead 953.7MB)
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  5.10it/s]
+INFO:autofaiss: Computing best hyperparameters for index knn.index 03/05/2025, 16:15:23
+INFO:autofaiss: >>> Finished "Computing best hyperparameters for index knn.index" in 3.8649 secs
+INFO:autofaiss:The best hyperparameters are: efSearch=16383
+INFO:autofaiss: Compute fast metrics 03/05/2025, 16:15:27
+  0%|                                                                                                      | 0/1 [00:00<?, ?it/s]
+INFO:autofaiss: >>> Finished "Compute fast metrics" in 5.3857 secs
+INFO:autofaiss:         >>> Finished "-> Adding the vectors to the index" in 9.4524 secs
+INFO:autofaiss:{
+INFO:autofaiss: index_key: HNSW15
+INFO:autofaiss: index_param: efSearch=16383
+INFO:autofaiss: index_path: knn.index
+INFO:autofaiss: size in bytes: 26965782
+INFO:autofaiss: avg_search_speed_ms: 2.646470863488503
+INFO:autofaiss: 99p_search_speed_ms: 3.571890681050718
+INFO:autofaiss: reconstruction error %: 0.0
+INFO:autofaiss: nb vectors: 3238
+INFO:autofaiss: vectors dimension: 2048
+INFO:autofaiss: compression ratio: 0.9836798354299534
+INFO:autofaiss:}
+INFO:autofaiss: >>> Finished "Creating the index" in 9.4550 secs
+INFO:autofaiss:>>> Finished "Launching the whole pipeline" in 9.5038 secs
+INFO:root:Creating server (host: ivy, ip: 127.0.1.1)
+INFO:websockets.server:server listening on 0.0.0.0:8000
+INFO:websockets.server:connection open
+INFO:root:Connection from ('10.103.129.112', 35374) opened
+
+INFO:root:retrieving...
+INFO:root:transforming...
+INFO:root:batching...
+INFO:root:sampling...
+prefix_token_embeddings shape: (1, 4152, 2048)
+prefix_mask shape: (1, 4152)
+prefix_attn_mask shape: (1, 4152, 4152)
+step: 0 / 256
+full first_targets shape: (1, 179, 257152)
+exp_lamda_distances for only last query observation shape: (1, 1, 1)
+last_logit_old shape: (1, 1, 257152)
+last_logit shape: (1, 1, 257152)
+step: Traced<ShapedArray(int32[], weak_type=True)>with<DynamicJaxprTrace> / 256
+last_logit_old shape: (1, 1, 257152)
+last_logit shape: (1, 1, 257152)
+INFO:root:unbatching...
+INFO:root:final_outputs: {'actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])}
+
+INFO:root:retrieving...
+INFO:root:transforming...
+INFO:root:batching...
+INFO:root:sampling...
+INFO:root:unbatching...
+INFO:root:final_outputs: {'actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])}
+
+INFO:root:retrieving...
+INFO:root:transforming...
+INFO:root:batching...
+INFO:root:sampling...
+INFO:root:unbatching...
+INFO:root:final_outputs: {'actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])}
+
+INFO:root:retrieving...
+INFO:root:transforming...
+INFO:root:batching...
+INFO:root:sampling...
+INFO:root:unbatching...
+INFO:root:final_outputs: {'actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])}
+
+INFO:root:retrieving...
+INFO:root:transforming...
+INFO:root:batching...
+INFO:root:sampling...
+INFO:root:unbatching...
+INFO:root:final_outputs: {'actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])}
+
+INFO:root:retrieving...
+INFO:root:transforming...
+INFO:root:batching...
+INFO:root:sampling...
+INFO:root:unbatching...
+INFO:root:final_outputs: {'actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])}
+
+INFO:root:retrieving...
+INFO:root:transforming...
+INFO:root:batching...
+INFO:root:sampling...
+INFO:root:unbatching...
+INFO:root:final_outputs: {'actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])}
+
+INFO:root:retrieving...
+INFO:root:transforming...
+INFO:root:batching...
+INFO:root:sampling...
+INFO:root:unbatching...
+INFO:root:final_outputs: {'actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])}
+
+INFO:root:retrieving...
+INFO:root:transforming...
+INFO:root:batching...
+INFO:root:sampling...
+INFO:root:unbatching...
+INFO:root:final_outputs: {'actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])}
+
+INFO:root:retrieving...
+INFO:root:transforming...
+INFO:root:batching...
+INFO:root:sampling...
+INFO:root:unbatching...
+INFO:root:final_outputs: {'actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])}
