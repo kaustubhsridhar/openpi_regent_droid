@@ -8,8 +8,8 @@ init_logging()
 
 # params
 config_name = "pi0_fast_droid_regent"
-exp_name = "third_try_query_loss_only"
-checkpoint_step = 1000
+exp_name = "fourth_try_query_loss_only"
+checkpoint_step = 800
 demos_dir = "regent_droid_preprocessing/collected_demos/2025-03-04"
 
 # setup

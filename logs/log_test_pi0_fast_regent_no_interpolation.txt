@@ -1,73 +1,75 @@
 (openpi) (branch: main) ksridhar@ivy:~/openpi_regent_droid$ CUDA_VISIBLE_DEVICES=5 python scripts/test_pi0_fast_regent_no_interpolation.py
-23:43:28.607 [I] Loading model...                                                                 (2984047:policy_config.py:102)
-INFO:2025-03-06 23:43:29,178:jax._src.xla_bridge:945: Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
-23:43:29.178 [I] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig' (2984047:xla_bridge.py:945)
-INFO:2025-03-06 23:43:29,179:jax._src.xla_bridge:945: Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
-23:43:29.179 [I] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory (2984047:xla_bridge.py:945)
-23:43:29.192 [I] orbax-checkpoint version: 0.11.1                                                 (2984047:abstract_checkpointer.py:35)
-23:43:29.192 [I] Created BasePyTreeCheckpointHandler: pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=None (2984047:base_pytree_checkpoint_handler.py:332)
-23:43:29.261 [I] Restoring checkpoint from /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent/second_try/100/params. (2984047:checkpointer.py:256)
-23:43:39.979 [I] [thread=MainThread] Failed to get flag value for EXPERIMENTAL_ORBAX_USE_DISTRIBUTED_PROCESS_ID. (2984047:multihost.py:375)
-23:43:39.981 [I] [process=0] /jax/checkpoint/read/bytes_per_sec: 525.3 MiB/s (total bytes: 5.5 GiB) (time elapsed: 10 seconds) (per-host) (2984047:base_pytree_checkpoint_handler.py:113)
-23:43:39.981 [I] Finished restoring checkpoint from /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent/second_try/100/params. (2984047:checkpointer.py:259)
-23:43:39.982 [I] [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:restore (2984047:multihost.py:293)
-Some kwargs in processor config are unused and will not have any effect: vocab_size, min_token, scale, time_horizon, action_dim. 
-Some kwargs in processor config are unused and will not have any effect: vocab_size, min_token, scale, time_horizon, action_dim. 
-23:43:43.752 [I] Loaded norm stats from /home/ksridhar/openpi_regent_droid/assets/pi0_fast_droid_regent/droid (2984047:config.py:167)
-23:43:43.770 [I] Loaded norm stats from checkpoints/pi0_fast_droid_regent/second_try/100/assets/droid (2984047:checkpoints.py:109)
+14:13:57.036 [I] Loading model...                                                                 (3083331:policy_config.py:102)
+INFO:2025-03-07 14:13:57,604:jax._src.xla_bridge:945: Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+14:13:57.604 [I] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig' (3083331:xla_bridge.py:945)
+INFO:2025-03-07 14:13:57,605:jax._src.xla_bridge:945: Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+14:13:57.605 [I] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory (3083331:xla_bridge.py:945)
+14:13:57.617 [I] orbax-checkpoint version: 0.11.1                                                 (3083331:abstract_checkpointer.py:35)
+14:13:57.618 [I] Created BasePyTreeCheckpointHandler: pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=None (3083331:base_pytree_checkpoint_handler.py:332)
+14:13:57.647 [I] Restoring checkpoint from /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent/third_try_query_loss_only/300/params. (3083331:checkpointer.py:256)
+14:14:07.901 [I] [thread=MainThread] Failed to get flag value for EXPERIMENTAL_ORBAX_USE_DISTRIBUTED_PROCESS_ID. (3083331:multihost.py:375)
+14:14:07.902 [I] [process=0] /jax/checkpoint/read/bytes_per_sec: 549.0 MiB/s (total bytes: 5.5 GiB) (time elapsed: 10 seconds) (per-host) (3083331:base_pytree_checkpoint_handler.py:113)
+14:14:07.902 [I] Finished restoring checkpoint from /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent/third_try_query_loss_only/300/params. (3083331:checkpointer.py:259)
+14:14:07.902 [I] [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:restore (3083331:multihost.py:293)
+Some kwargs in processor config are unused and will not have any effect: action_dim, min_token, scale, vocab_size, time_horizon. 
+Some kwargs in processor config are unused and will not have any effect: action_dim, min_token, scale, vocab_size, time_horizon. 
+14:14:09.879 [I] Loaded norm stats from /home/ksridhar/openpi_regent_droid/assets/pi0_fast_droid_regent/droid (3083331:config.py:167)
+14:14:09.881 [I] Loaded norm stats from checkpoints/pi0_fast_droid_regent/third_try_query_loss_only/300/assets/droid (3083331:checkpoints.py:109)
 
-23:43:43.773 [I] loading demos from regent_droid_preprocessing/collected_demos/2025-03-04...      (2984047:policy.py:103)
+14:14:09.884 [I] loading demos from regent_droid_preprocessing/collected_demos/2025-03-04...      (3083331:policy.py:106)
 
-23:43:43.844 [I] building retrieval index...                                                      (2984047:policy.py:110)
-23:43:43.845 [I] Using 8 omp threads (processes), consider increasing --nb_cores if you have more (2984047:quantize.py:193)
-23:43:43.861 [I] Launching the whole pipeline 03/06/2025, 23:43:43                                (2984047:decorators.py:27)
-23:43:43.861 [I] Reading total number of vectors and dimension 03/06/2025, 23:43:43               (2984047:decorators.py:27)
-100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 924.87it/s]
-23:43:43.894 [I] There are 3158 embeddings of dim 2048                                            (2984047:quantize.py:213)
-23:43:43.894 [I] >>> Finished "Reading total number of vectors and dimension" in 0.0333 secs      (2984047:decorators.py:38)
-23:43:43.894 [I]        Compute estimated construction time of the index 03/06/2025, 23:43:43           (2984047:decorators.py:27)
-23:43:43.894 [I]                -> Train: 16.7 minutes                                                         (2984047:quantize.py:217)
-23:43:43.894 [I]                -> Add: 0.1 seconds                                                            (2984047:quantize.py:217)
-23:43:43.894 [I]                Total: 16.7 minutes                                                            (2984047:quantize.py:217)
-23:43:43.894 [I]        >>> Finished "Compute estimated construction time of the index" in 0.0001 secs  (2984047:decorators.py:38)
-23:43:43.894 [I]        Checking that your have enough memory available to create the index 03/06/2025, 23:43:43 (2984047:decorators.py:27)
-23:43:43.895 [I] 27.5MB of memory will be needed to build the index (more might be used if you have more) (2984047:quantize.py:223)
-23:43:43.895 [I]        >>> Finished "Checking that your have enough memory available to create the index" in 0.0006 secs (2984047:decorators.py:38)
-23:43:43.895 [I]        Selecting most promising index types given data characteristics 03/06/2025, 23:43:43 (2984047:decorators.py:27)
-23:43:43.895 [I]        >>> Finished "Selecting most promising index types given data characteristics" in 0.0000 secs (2984047:decorators.py:38)
-23:43:43.895 [I]        Creating the index 03/06/2025, 23:43:43                                         (2984047:decorators.py:27)
-23:43:43.895 [I]                -> Instanciate the index HNSW15 03/06/2025, 23:43:43                           (2984047:decorators.py:27)
-23:43:43.897 [I]                >>> Finished "-> Instanciate the index HNSW15" in 0.0013 secs                  (2984047:decorators.py:38)
-23:43:43.897 [I]                -> Adding the vectors to the index 03/06/2025, 23:43:43                        (2984047:decorators.py:27)
-23:43:43.897 [I] The memory available for adding the vectors is 50.0GB(total available - used by the index) (2984047:build.py:107)
-23:43:43.897 [I] Using a batch size of 122070 (memory overhead 953.7MB)                           (2984047:build.py:88)
-100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  5.82it/s]
-23:43:44.071 [I]        Computing best hyperparameters for index knn.index 03/06/2025, 23:43:44         (2984047:decorators.py:27)
-23:43:47.845 [I]        >>> Finished "Computing best hyperparameters for index knn.index" in 3.7739 secs (2984047:decorators.py:38)
-23:43:47.845 [I] The best hyperparameters are: efSearch=16383                                     (2984047:optimize.py:563)
-23:43:47.845 [I]        Compute fast metrics 03/06/2025, 23:43:47                                       (2984047:decorators.py:27)
-  0%|                                                                                                                                                                       | 0/1 [00:00<?, ?it/s]
-23:43:53.015 [I]        >>> Finished "Compute fast metrics" in 5.1697 secs                              (2984047:decorators.py:38)
-23:43:53.015 [I]                >>> Finished "-> Adding the vectors to the index" in 9.1185 secs               (2984047:decorators.py:38)
-23:43:53.015 [I] {                                                                                (2984047:quantize.py:36)
-23:43:53.015 [I]        index_key: HNSW15                                                               (2984047:quantize.py:38)
-23:43:53.015 [I]        index_param: efSearch=16383                                                     (2984047:quantize.py:38)
-23:43:53.015 [I]        index_path: knn.index                                                           (2984047:quantize.py:38)
-23:43:53.015 [I]        size in bytes: 26299262                                                         (2984047:quantize.py:38)
-23:43:53.015 [I]        avg_search_speed_ms: 2.54274363827426                                           (2984047:quantize.py:38)
-23:43:53.015 [I]        99p_search_speed_ms: 2.9015232482925057                                         (2984047:quantize.py:38)
-23:43:53.015 [I]        reconstruction error %: 0.0                                                     (2984047:quantize.py:38)
-23:43:53.015 [I]        nb vectors: 3158                                                                (2984047:quantize.py:38)
-23:43:53.015 [I]        vectors dimension: 2048                                                         (2984047:quantize.py:38)
-23:43:53.015 [I]        compression ratio: 0.9836905689596918                                           (2984047:quantize.py:38)
-23:43:53.015 [I] }                                                                                (2984047:quantize.py:39)
-23:43:53.015 [I]        >>> Finished "Creating the index" in 9.1202 secs                                (2984047:decorators.py:38)
-23:43:53.015 [I] >>> Finished "Launching the whole pipeline" in 9.1547 secs                       (2984047:decorators.py:38)
+14:14:09.954 [I] building retrieval index...                                                      (3083331:policy.py:113)
+14:14:09.955 [I] Using 8 omp threads (processes), consider increasing --nb_cores if you have more (3083331:quantize.py:193)
+14:14:09.971 [I] Launching the whole pipeline 03/07/2025, 14:14:09                                (3083331:decorators.py:27)
+14:14:09.971 [I] Reading total number of vectors and dimension 03/07/2025, 14:14:09               (3083331:decorators.py:27)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 8081.51it/s]
+14:14:10.005 [I] There are 3158 embeddings of dim 2048                                            (3083331:quantize.py:213)
+14:14:10.005 [I] >>> Finished "Reading total number of vectors and dimension" in 0.0341 secs      (3083331:decorators.py:38)
+14:14:10.005 [I]        Compute estimated construction time of the index 03/07/2025, 14:14:10           (3083331:decorators.py:27)
+14:14:10.005 [I]                -> Train: 16.7 minutes                                                         (3083331:quantize.py:217)
+14:14:10.005 [I]                -> Add: 0.1 seconds                                                            (3083331:quantize.py:217)
+14:14:10.005 [I]                Total: 16.7 minutes                                                            (3083331:quantize.py:217)
+14:14:10.005 [I]        >>> Finished "Compute estimated construction time of the index" in 0.0003 secs  (3083331:decorators.py:38)
+14:14:10.005 [I]        Checking that your have enough memory available to create the index 03/07/2025, 14:14:10 (3083331:decorators.py:27)
+14:14:10.007 [I] 27.5MB of memory will be needed to build the index (more might be used if you have more) (3083331:quantize.py:223)
+14:14:10.007 [I]        >>> Finished "Checking that your have enough memory available to create the index" in 0.0015 secs (3083331:decorators.py:38)
+14:14:10.007 [I]        Selecting most promising index types given data characteristics 03/07/2025, 14:14:10 (3083331:decorators.py:27)
+14:14:10.007 [I]        >>> Finished "Selecting most promising index types given data characteristics" in 0.0000 secs (3083331:decorators.py:38)
+14:14:10.007 [I]        Creating the index 03/07/2025, 14:14:10                                         (3083331:decorators.py:27)
+14:14:10.007 [I]                -> Instanciate the index HNSW15 03/07/2025, 14:14:10                           (3083331:decorators.py:27)
+14:14:10.010 [I]                >>> Finished "-> Instanciate the index HNSW15" in 0.0026 secs                  (3083331:decorators.py:38)
+14:14:10.010 [I]                -> Adding the vectors to the index 03/07/2025, 14:14:10                        (3083331:decorators.py:27)
+14:14:10.011 [I] The memory available for adding the vectors is 50.0GB(total available - used by the index) (3083331:build.py:107)
+14:14:10.011 [I] Using a batch size of 122070 (memory overhead 953.7MB)                           (3083331:build.py:88)
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  5.60it/s]
+14:14:10.193 [I]        Computing best hyperparameters for index knn.index 03/07/2025, 14:14:10         (3083331:decorators.py:27)
+14:14:13.971 [I]        >>> Finished "Computing best hyperparameters for index knn.index" in 3.7773 secs (3083331:decorators.py:38)
+14:14:13.971 [I] The best hyperparameters are: efSearch=16383                                     (3083331:optimize.py:563)
+14:14:13.971 [I]        Compute fast metrics 03/07/2025, 14:14:13                                       (3083331:decorators.py:27)
+  0%|                                                                                                                                                                                  | 0/1 [00:00<?, ?it/s]
+14:14:19.276 [I]        >>> Finished "Compute fast metrics" in 5.3051 secs                              (3083331:decorators.py:38)
+14:14:19.277 [I]                >>> Finished "-> Adding the vectors to the index" in 9.2665 secs               (3083331:decorators.py:38)
+14:14:19.277 [I] {                                                                                (3083331:quantize.py:36)
+14:14:19.277 [I]        index_key: HNSW15                                                               (3083331:quantize.py:38)
+14:14:19.277 [I]        index_param: efSearch=16383                                                     (3083331:quantize.py:38)
+14:14:19.277 [I]        index_path: knn.index                                                           (3083331:quantize.py:38)
+14:14:19.277 [I]        size in bytes: 26299262                                                         (3083331:quantize.py:38)
+14:14:19.277 [I]        avg_search_speed_ms: 2.602427141275257                                          (3083331:quantize.py:38)
+14:14:19.277 [I]        99p_search_speed_ms: 3.3936693845316763                                         (3083331:quantize.py:38)
+14:14:19.277 [I]        reconstruction error %: 0.0                                                     (3083331:quantize.py:38)
+14:14:19.277 [I]        nb vectors: 3158                                                                (3083331:quantize.py:38)
+14:14:19.277 [I]        vectors dimension: 2048                                                         (3083331:quantize.py:38)
+14:14:19.277 [I]        compression ratio: 0.9836905689596918                                           (3083331:quantize.py:38)
+14:14:19.277 [I] }                                                                                (3083331:quantize.py:39)
+14:14:19.277 [I]        >>> Finished "Creating the index" in 9.2698 secs                                (3083331:decorators.py:38)
+14:14:19.277 [I] >>> Finished "Launching the whole pipeline" in 9.3066 secs                       (3083331:decorators.py:38)
 
-23:43:53.031 [I] retrieving...                                                                    (2984047:policy.py:148)
-23:43:59.960 [I] transforming...                                                                  (2984047:policy.py:151)
-23:43:59.968 [I] batching...                                                                      (2984047:policy.py:155)
-23:44:00.365 [I] sampling...                                                                      (2984047:policy.py:159)
+14:14:19.296 [I] retrieving...                                                                    (3083331:policy.py:183)
+14:14:23.816 [I] saving obs...                                                                    (3083331:policy.py:187)
+14:14:23.899 [I] transforming...                                                                  (3083331:policy.py:190)
+14:14:23.908 [I] saving tokenized inputs...                                                       (3083331:policy.py:195)
+14:14:23.910 [I] batching...                                                                      (3083331:policy.py:198)
+14:14:24.299 [I] sampling...                                                                      (3083331:policy.py:202)
 query_prompt_len: 43
 max_decoding_steps: 137
 prefix_token_embeddings shape: (1, 4015, 2048)
@@ -83,37 +85,30 @@ positions values: Traced<ShapedArray(int32[1,1])>with<DynamicJaxprTrace>
 token_embedding shape: (1, 1, 2048)
 last_logit_old shape: (1, 1, 257152)
 last_logit shape: (1, 1, 257152)
-23:44:18.501 [I] unbatching...                                                                    (2984047:policy.py:166)
-outputs: {'query_actions': array([2.56765e+05, 2.56767e+05, 2.35371e+05, 1.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
-       0.00000e+00, 0.00000e+00], dtype=float32), 'query_state': array([-0.04461831, -1.7787437 ,  0.03942934, -1.0198333 ,  0.02780539,
+14:14:43.915 [I] unbatching...                                                                    (3083331:policy.py:209)
+outputs: {'query_actions': array([  4022., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292.], dtype=float32), 'query_state': array([-0.04461831, -1.7787437 ,  0.03942934, -1.0198333 ,  0.02780539,
        -0.9645093 , -0.1012767 , -0.9755486 ], dtype=float32)}
-23:44:18.560 [I] final_outputs: {'query_actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+WARNING: No `Action: ` found in decoded tokens: Action::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::, so returning zeros
+14:14:44.328 [I] final_outputs: {'query_actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
          3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
          4.28350419e-03,  4.46768843e-01],
        [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
@@ -142,7 +137,7 @@ outputs: {'query_actions': array([2.56765e+05, 2.56767e+05, 2.35371e+05, 1.00000
          4.28350419e-03,  4.46768843e-01],
        [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
          3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
-         4.28350419e-03,  4.46768843e-01]])} (2984047:policy.py:172)
+         4.28350419e-03,  4.46768843e-01]])} (3083331:policy.py:215)
 action_chunk.shape=(10, 8)
 action_chunk=array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
          3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
@@ -174,3 +169,175 @@ action_chunk=array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
        [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
          3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
          4.28350419e-03,  4.46768843e-01]])
+(openpi) (branch: main) ksridhar@ivy:~/openpi_regent_droid$ CUDA_VISIBLE_DEVICES=5 python scripts/test_pi0_fast_regent_no_interpolation.py
+14:47:54.785 [I] Loading model...                                                                 (3088205:policy_config.py:102)
+INFO:2025-03-07 14:47:55,344:jax._src.xla_bridge:945: Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+14:47:55.344 [I] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig' (3088205:xla_bridge.py:945)
+INFO:2025-03-07 14:47:55,345:jax._src.xla_bridge:945: Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+14:47:55.345 [I] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory (3088205:xla_bridge.py:945)
+14:47:55.358 [I] orbax-checkpoint version: 0.11.1                                                 (3088205:abstract_checkpointer.py:35)
+14:47:55.358 [I] Created BasePyTreeCheckpointHandler: pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=None (3088205:base_pytree_checkpoint_handler.py:332)
+14:47:55.387 [I] Restoring checkpoint from /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent/third_try_query_loss_only/500/params. (3088205:checkpointer.py:256)
+14:48:05.413 [I] [thread=MainThread] Failed to get flag value for EXPERIMENTAL_ORBAX_USE_DISTRIBUTED_PROCESS_ID. (3088205:multihost.py:375)
+14:48:05.414 [I] [process=0] /jax/checkpoint/read/bytes_per_sec: 561.5 MiB/s (total bytes: 5.5 GiB) (time elapsed: 10 seconds) (per-host) (3088205:base_pytree_checkpoint_handler.py:113)
+14:48:05.414 [I] Finished restoring checkpoint from /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent/third_try_query_loss_only/500/params. (3088205:checkpointer.py:259)
+14:48:05.414 [I] [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:restore (3088205:multihost.py:293)
+Some kwargs in processor config are unused and will not have any effect: vocab_size, scale, action_dim, min_token, time_horizon. 
+Some kwargs in processor config are unused and will not have any effect: vocab_size, scale, action_dim, min_token, time_horizon. 
+14:48:13.124 [I] Loaded norm stats from /home/ksridhar/openpi_regent_droid/assets/pi0_fast_droid_regent/droid (3088205:config.py:167)
+14:48:13.126 [I] Loaded norm stats from checkpoints/pi0_fast_droid_regent/third_try_query_loss_only/500/assets/droid (3088205:checkpoints.py:109)
+
+14:48:13.128 [I] loading demos from regent_droid_preprocessing/collected_demos/2025-03-04...      (3088205:policy.py:106)
+
+14:48:13.224 [I] building retrieval index...                                                      (3088205:policy.py:113)
+14:48:13.225 [I] Using 8 omp threads (processes), consider increasing --nb_cores if you have more (3088205:quantize.py:193)
+14:48:13.245 [I] Launching the whole pipeline 03/07/2025, 14:48:13                                (3088205:decorators.py:27)
+14:48:13.245 [I] Reading total number of vectors and dimension 03/07/2025, 14:48:13               (3088205:decorators.py:27)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 975.19it/s]
+14:48:13.279 [I] There are 3158 embeddings of dim 2048                                            (3088205:quantize.py:213)
+14:48:13.279 [I] >>> Finished "Reading total number of vectors and dimension" in 0.0337 secs      (3088205:decorators.py:38)
+14:48:13.279 [I]        Compute estimated construction time of the index 03/07/2025, 14:48:13           (3088205:decorators.py:27)
+14:48:13.279 [I]                -> Train: 16.7 minutes                                                         (3088205:quantize.py:217)
+14:48:13.279 [I]                -> Add: 0.1 seconds                                                            (3088205:quantize.py:217)
+14:48:13.279 [I]                Total: 16.7 minutes                                                            (3088205:quantize.py:217)
+14:48:13.279 [I]        >>> Finished "Compute estimated construction time of the index" in 0.0001 secs  (3088205:decorators.py:38)
+14:48:13.279 [I]        Checking that your have enough memory available to create the index 03/07/2025, 14:48:13 (3088205:decorators.py:27)
+14:48:13.280 [I] 27.5MB of memory will be needed to build the index (more might be used if you have more) (3088205:quantize.py:223)
+14:48:13.280 [I]        >>> Finished "Checking that your have enough memory available to create the index" in 0.0006 secs (3088205:decorators.py:38)
+14:48:13.280 [I]        Selecting most promising index types given data characteristics 03/07/2025, 14:48:13 (3088205:decorators.py:27)
+14:48:13.280 [I]        >>> Finished "Selecting most promising index types given data characteristics" in 0.0000 secs (3088205:decorators.py:38)
+14:48:13.280 [I]        Creating the index 03/07/2025, 14:48:13                                         (3088205:decorators.py:27)
+14:48:13.280 [I]                -> Instanciate the index HNSW15 03/07/2025, 14:48:13                           (3088205:decorators.py:27)
+14:48:13.282 [I]                >>> Finished "-> Instanciate the index HNSW15" in 0.0012 secs                  (3088205:decorators.py:38)
+14:48:13.282 [I]                -> Adding the vectors to the index 03/07/2025, 14:48:13                        (3088205:decorators.py:27)
+14:48:13.282 [I] The memory available for adding the vectors is 50.0GB(total available - used by the index) (3088205:build.py:107)
+14:48:13.282 [I] Using a batch size of 122070 (memory overhead 953.7MB)                           (3088205:build.py:88)
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  5.99it/s]
+14:48:13.451 [I]        Computing best hyperparameters for index knn.index 03/07/2025, 14:48:13         (3088205:decorators.py:27)
+14:48:17.026 [I]        >>> Finished "Computing best hyperparameters for index knn.index" in 3.5747 secs (3088205:decorators.py:38)
+14:48:17.026 [I] The best hyperparameters are: efSearch=16383                                     (3088205:optimize.py:563)
+14:48:17.026 [I]        Compute fast metrics 03/07/2025, 14:48:17                                       (3088205:decorators.py:27)
+  0%|                                                                                                                                                                                  | 0/1 [00:00<?, ?it/s]
+14:48:22.092 [I]        >>> Finished "Compute fast metrics" in 5.0653 secs                              (3088205:decorators.py:38)
+14:48:22.092 [I]                >>> Finished "-> Adding the vectors to the index" in 8.8106 secs               (3088205:decorators.py:38)
+14:48:22.092 [I] {                                                                                (3088205:quantize.py:36)
+14:48:22.093 [I]        index_key: HNSW15                                                               (3088205:quantize.py:38)
+14:48:22.093 [I]        index_param: efSearch=16383                                                     (3088205:quantize.py:38)
+14:48:22.093 [I]        index_path: knn.index                                                           (3088205:quantize.py:38)
+14:48:22.093 [I]        size in bytes: 26299262                                                         (3088205:quantize.py:38)
+14:48:22.093 [I]        avg_search_speed_ms: 2.472009661491029                                          (3088205:quantize.py:38)
+14:48:22.093 [I]        99p_search_speed_ms: 2.8739561047405005                                         (3088205:quantize.py:38)
+14:48:22.093 [I]        reconstruction error %: 0.0                                                     (3088205:quantize.py:38)
+14:48:22.093 [I]        nb vectors: 3158                                                                (3088205:quantize.py:38)
+14:48:22.093 [I]        vectors dimension: 2048                                                         (3088205:quantize.py:38)
+14:48:22.093 [I]        compression ratio: 0.9836905689596918                                           (3088205:quantize.py:38)
+14:48:22.093 [I] }                                                                                (3088205:quantize.py:39)
+14:48:22.093 [I]        >>> Finished "Creating the index" in 8.8126 secs                                (3088205:decorators.py:38)
+14:48:22.093 [I] >>> Finished "Launching the whole pipeline" in 8.8475 secs                       (3088205:decorators.py:38)
+
+14:48:22.123 [I] retrieving...                                                                    (3088205:policy.py:183)
+14:48:26.525 [I] saving obs...                                                                    (3088205:policy.py:187)
+14:48:26.608 [I] transforming...                                                                  (3088205:policy.py:190)
+14:48:26.617 [I] saving tokenized inputs...                                                       (3088205:policy.py:195)
+14:48:26.619 [I] batching...                                                                      (3088205:policy.py:198)
+14:48:26.995 [I] sampling...                                                                      (3088205:policy.py:202)
+query_prompt_len: 43
+max_decoding_steps: 137
+prefix_token_embeddings shape: (1, 4015, 2048)
+prefix_attn_mask shape: (1, 4015, 4015)
+prefix_attn_mask shape: (1, 4015, 4152)
+prefix_positions shape: (1, 4015)
+last_logit_old shape: (1, 1, 257152)
+last_logit shape: (1, 1, 257152)
+mask shape: (1, 1, 4152)
+mask values: Traced<ShapedArray(bool[1,1,4152])>with<DynamicJaxprTrace>
+positions shape: (1, 1)
+positions values: Traced<ShapedArray(int32[1,1])>with<DynamicJaxprTrace>
+token_embedding shape: (1, 1, 2048)
+last_logit_old shape: (1, 1, 257152)
+last_logit shape: (1, 1, 257152)
+14:48:48.603 [I] unbatching...                                                                    (3088205:policy.py:209)
+outputs: {'query_actions': array([235248., 235248., 235248., 235248., 235248., 235248., 235248.,
+       235248., 235248., 235248., 235248., 235248., 235248., 235248.,
+       235248., 235248., 235248., 235248., 235248., 235248., 235248.,
+       235248., 235248., 235248., 235248., 235248., 235248., 235248.,
+       235248., 235248., 235248., 235248., 235248., 235248., 235248.,
+       235248., 235248., 235248., 235248., 235248., 235248., 235248.,
+       235248., 235248., 235248., 235248., 235248., 235248., 235248.,
+       235248., 235248., 235248., 235248., 235248., 235248., 235248.,
+       235248., 235248., 235248., 235248., 235248., 235248., 235248.,
+       235248., 235248., 235248., 235248., 235248., 235248., 235248.,
+       235248., 235248., 235248., 235248., 235248., 235248., 235248.,
+       235248., 235248., 235248., 235248.,   4022.,   4022.,   4022.,
+         4022.,   4022.,   4022.,   4022.,   4022.,   4022.,   4022.,
+         4022.,   4022.,   4022.,   4022.,   4022.,   4022.,   4022.,
+         4022.,   4022.,   4022.,   4022.,   4022.,   4022.,   4022.,
+         4022.,   4022.,   4022.,   4022.,   4022.,   4022.,   4022.,
+         4022.,   4022.,   4022.,   4022.,   4022.,   4022.,   4022.,
+         4022.,   4022.,   4022.,   4022.,   4022.,   4022.,   4022.,
+         4022.,   4022.,   4022.,   4022.,   4022.,   4022.,   4022.,
+         4022.,   4022.,   4022.,   4022.], dtype=float32), 'query_state': array([-0.04461831, -1.7787437 ,  0.03942934, -1.0198333 ,  0.02780539,
+       -0.9645093 , -0.1012767 , -0.9755486 ], dtype=float32)}
+WARNING: No `Action: ` found in decoded tokens:                                                                                  ActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionActionAction, so returning zeros
+14:48:49.017 [I] final_outputs: {'query_actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])} (3088205:policy.py:215)
+action_chunk.shape=(10, 8)
+action_chunk=array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])
+(openpi) (branch: main) ksridhar@ivy:~/openpi_regent_droid$ 
