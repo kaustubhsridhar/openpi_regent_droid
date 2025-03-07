@@ -110,3 +110,63 @@ action_chunk=array([[-0.04296727,  0.13859412,  0.03042152,  0.04564406, -0.0183
        [-0.00314286,  0.5495632 , -0.00906718,  0.35123526, -0.01839382,
          0.26246975, -0.07151718, -0.00596324]])
 (openpi) (branch: main) ksridhar@ivy:~/openpi_regent_droid$ 
+
+
+
+
+______________________________________________
+
+(openpi) (branch: main) ksridhar@ivy:~/openpi_regent_droid$ CUDA_VISIBLE_DEVICES=5 python scripts/test_pi0_fast.py
+21:19:59.562 [I] Loading model...                                                                 (2961063:policy_config.py:55)
+INFO:2025-03-06 21:20:00,081:jax._src.xla_bridge:945: Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+21:20:00.081 [I] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig' (2961063:xla_bridge.py:945)
+INFO:2025-03-06 21:20:00,082:jax._src.xla_bridge:945: Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+21:20:00.082 [I] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory (2961063:xla_bridge.py:945)
+21:20:00.094 [I] orbax-checkpoint version: 0.11.1                                                 (2961063:abstract_checkpointer.py:35)
+21:20:00.094 [I] Created BasePyTreeCheckpointHandler: pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=None (2961063:base_pytree_checkpoint_handler.py:332)
+21:20:00.114 [I] Restoring checkpoint from /home/ksridhar/.cache/openpi/openpi-assets/checkpoints/pi0_fast_droid/params. (2961063:checkpointer.py:256)
+21:20:19.407 [I] [thread=MainThread] Failed to get flag value for EXPERIMENTAL_ORBAX_USE_DISTRIBUTED_PROCESS_ID. (2961063:multihost.py:375)
+21:20:19.409 [I] [process=0] /jax/checkpoint/read/bytes_per_sec: 289.0 MiB/s (total bytes: 5.4 GiB) (time elapsed: 19 seconds) (per-host) (2961063:base_pytree_checkpoint_handler.py:113)
+21:20:19.410 [I] Finished restoring checkpoint from /home/ksridhar/.cache/openpi/openpi-assets/checkpoints/pi0_fast_droid/params. (2961063:checkpointer.py:259)
+21:20:19.410 [I] [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:restore (2961063:multihost.py:293)
+21:20:20.741 [I] Norm stats not found in /home/ksridhar/openpi_regent_droid/assets/pi0_fast_droid/droid, skipping. (2961063:config.py:170)
+Some kwargs in processor config are unused and will not have any effect: scale, min_token, action_dim, vocab_size, time_horizon. 
+Some kwargs in processor config are unused and will not have any effect: scale, min_token, action_dim, vocab_size, time_horizon. 
+21:20:21.817 [I] Loaded norm stats from /home/ksridhar/.cache/openpi/openpi-assets/checkpoints/pi0_fast_droid/assets/droid (2961063:checkpoints.py:109)
+prefix_attn_mask shape: (1, 1018, 1274)
+prefix_positions shape: (1, 1018)
+mask shape: (1, 1, 1274)
+mask values: [[[False False False ... False False False]]]
+positions shape: (1, 1)
+positions values: [[815]]
+token_embedding shape: (1, 1, 2048)
+mask shape: (1, 1, 1274)
+mask values: [[[False False False ... False False False]]]
+positions shape: (1, 1)
+positions values: [[816]]
+token_embedding shape: (1, 1, 2048)
+mask shape: (1, 1, 1274)
+mask values: [[[False False False ... False False False]]]
+positions shape: (1, 1)
+positions values: [[817]]
+token_embedding shape: (1, 1, 2048)
+mask shape: (1, 1, 1274)
+mask values: [[[False False False ... False False False]]]
+positions shape: (1, 1)
+positions values: [[818]]
+token_embedding shape: (1, 1, 2048)
+mask shape: (1, 1, 1274)
+mask values: [[[False False False ... False False False]]]
+positions shape: (1, 1)
+positions values: [[819]]
+token_embedding shape: (1, 1, 2048)
+mask shape: (1, 1, 1274)
+mask values: [[[False False False ... False False False]]]
+positions shape: (1, 1)
+positions values: [[820]]
+token_embedding shape: (1, 1, 2048)
+mask shape: (1, 1, 1274)
+mask values: [[[False False False ... False False False]]]
+positions shape: (1, 1)
+positions values: [[821]]
+token_embedding shape: (1, 1, 2048)

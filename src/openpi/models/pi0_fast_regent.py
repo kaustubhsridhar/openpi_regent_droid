@@ -231,6 +231,17 @@ class Pi0FASTRegent(_model.BaseModel):
         attn_mask = jnp.logical_or(attn_mask, jnp.tril(jnp.ones((batch_size, seq_len, seq_len), dtype=bool)))
         return attn_mask
     
+    def add_to_attn_mask_for_decoding(self, attn_mask):
+        # take the old attn mask of shape (batch_size, seq_len, seq_len)
+        batch_size, seq_len = attn_mask.shape[0:2]
+        # add a row of ones at the end
+        new_attn_mask = jnp.concatenate([attn_mask, jnp.ones((batch_size, 1, seq_len), dtype=jnp.bool_)], axis=1)
+        # add a column of zeros at the end
+        new_attn_mask = jnp.concatenate([new_attn_mask, jnp.zeros((batch_size, seq_len+1, 1), dtype=jnp.bool_)], axis=2)
+        # set the last element to True
+        new_attn_mask = new_attn_mask.at[:, -1, -1].set(True)
+        return new_attn_mask
+    
     def interpolate_actions(self, logits, first_targets, exp_lamda_distances):
         # assert the input shapes
         batch_size, decode_len, vocab_size = logits.shape
@@ -337,15 +348,8 @@ class Pi0FASTRegent(_model.BaseModel):
         loss = -jnp.sum(token_pplx * loss_mask, axis=-1) / jnp.clip(jnp.sum(loss_mask, -1), 1)
         print(f'loss shape: {loss.shape}')
         return loss
-
-    @override
-    def sample_actions(
-        self,
-        rng: at.KeyArrayLike,
-        regent_observation: _model.RegentObservation,
-        *,
-        temperature: float = 0.0,
-    ) -> _model.Actions:
+    
+    def sample_actions_multiple_observations_processing(self, regent_observation: _model.RegentObservation):
         # TODO: this is a hack to get the image keys.
         num_observations = self.num_retrieved_observations + 1
         assert num_observations == self.num_retrieved_observations + 1
@@ -395,6 +399,18 @@ class Pi0FASTRegent(_model.BaseModel):
         print(f'prefix_token_embeddings shape: {prefix_token_embeddings.shape}')
         print(f'prefix_attn_mask shape: {prefix_attn_mask.shape}')
 
+        return prefix_token_embeddings, prefix_attn_mask, first_targets, max_decoding_steps, query_prompt_len, batch_size
+
+    @override
+    def sample_actions(
+        self,
+        rng: at.KeyArrayLike,
+        regent_observation: _model.RegentObservation,
+        *,
+        temperature: float = 0.0,
+    ) -> _model.Actions:
+        prefix_token_embeddings, prefix_attn_mask, first_targets, max_decoding_steps, query_prompt_len, batch_size = self.sample_actions_multiple_observations_processing(regent_observation)
+
         # first fill KV cache with a forward pass of the prefix
         prefix_logits, kv_cache, _ = self.PaliGemma.llm(
             embedded_prefix=prefix_token_embeddings, mask=prefix_attn_mask
@@ -419,6 +435,7 @@ class Pi0FASTRegent(_model.BaseModel):
         print(f'last_logit shape: {last_logit.shape}')
 
         output_tokens = jnp.zeros((last_logit.shape[0], max_decoding_steps))
+        
 
         def step(carry):
             last_logit, output_tokens, cache, _, step = carry
@@ -437,18 +454,12 @@ class Pi0FASTRegent(_model.BaseModel):
 
             # Decode one step
             token_embedding = self.PaliGemma.llm(token, embed_only=True)
-            
-            # Create a proper causal attention mask for decoding
-            # The mask should be (batch_size, 1, 1, prefix_len + current_pos)
-            # where prefix_len is the length of the sequence in the KV cache
-            batch_size = token_embedding.shape[0]
-            prefix_len = cache[1].shape[2]  # Get the sequence length from the KV cache
-            
-            # Create a mask that allows the current token to attend to all previous tokens
-            decode_mask = jnp.ones((batch_size, 1, 1, prefix_len), dtype=jnp.bool_)
-            
+            assert token_embedding.shape == (batch_size, 1, 2048)
+            new_prefix_token_embeddings = jnp.concatenate([prefix_token_embeddings, token_embedding], axis=1)
+            mask_column = jnp.ones((batch_size, 1, 1), dtype=jnp.bool_)
+            new_prefix_attn_mask = self.add_to_attn_mask_for_decoding(prefix_attn_mask)
             last_logit_old, kv_cache, _ = self.PaliGemma.llm(
-                embedded_prefix=token_embedding, kv_cache=cache, mask=decode_mask
+                embedded_prefix=new_prefix_token_embeddings, mask=new_prefix_attn_mask
             )
 
             # possible action interpolation

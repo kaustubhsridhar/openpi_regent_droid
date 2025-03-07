@@ -255,7 +255,9 @@ class Pi0FAST(_model.BaseModel):
         # first fill KV cache with a forward pass of the prefix
         # pad attention mask to set the size of the KV cache (prefill_size + max_decoding_steps)
         prefix_attn_mask = jnp.pad(prefix_attn_mask, ((0, 0), (0, 0), (0, max_decoding_steps)))
+        print(f'prefix_attn_mask shape: {prefix_attn_mask.shape}')
         prefix_positions = jnp.cumsum(prefix_mask, axis=-1) - 1
+        print(f'prefix_positions shape: {prefix_positions.shape}')
         prefix_logits, kv_cache, _ = self.PaliGemma.llm(
             embedded_prefix=prefix_token_embeddings, mask=prefix_attn_mask, positions=prefix_positions, decode=True
         )
@@ -287,6 +289,11 @@ class Pi0FAST(_model.BaseModel):
                 jnp.arange(prefill_size + max_decoding_steps)[None, None, :]
                 < (jnp.broadcast_to(prefill_size + step + 1, (prefix_start.shape[0], 1, 1))),
             )
+            print(f'mask shape: {mask.shape}')
+            print(f'mask values: {mask}')
+            print(f'positions shape: {positions.shape}')
+            print(f'positions values: {positions}')
+            print(f'token_embedding shape: {token_embedding.shape}')
             last_logit, kv_cache, _ = self.PaliGemma.llm(
                 embedded_prefix=token_embedding, mask=mask, positions=positions, decode=True, kv_cache=cache
             )
@@ -297,6 +304,11 @@ class Pi0FAST(_model.BaseModel):
             _, _, _, all_eos, step = carry
             return (~all_eos) & (step < max_decoding_steps)
 
-        # Use lax.while_loop so we can jit the full decoding loop.
-        _, output_tokens, _, _, _ = jax.lax.while_loop(cond, step, (last_logit, output_tokens, kv_cache, False, 0))
+        # # Use lax.while_loop so we can jit the full decoding loop.
+        # _, output_tokens, _, _, _ = jax.lax.while_loop(cond, step, (last_logit, output_tokens, kv_cache, False, 0))
+
+        carry = (last_logit, output_tokens, kv_cache, False, 0)
+        while cond(carry):
+            carry = step(carry)
+        
         return output_tokens

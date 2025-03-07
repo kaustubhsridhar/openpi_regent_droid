@@ -35,7 +35,7 @@ class Policy(BasePolicy):
         sample_kwargs: dict[str, Any] | None = None,
         metadata: dict[str, Any] | None = None,
     ):
-        self._sample_actions = nnx_utils.module_jit(model.sample_actions)
+        self._sample_actions = model.sample_actions
         self._input_transform = _transforms.compose(transforms)
         self._output_transform = _transforms.compose(output_transforms)
         self._rng = rng or jax.random.key(0)
