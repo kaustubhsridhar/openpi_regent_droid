@@ -382,6 +382,8 @@ class Pi0FASTRegent(_model.BaseModel):
                         first_targets,
                         self.PaliGemma.llm.module.vocab_size,
                     )
+                else:
+                    first_targets = None
 
             # get the length of the last/query prompt
             if i == num_observations - 1:
@@ -399,7 +401,10 @@ class Pi0FASTRegent(_model.BaseModel):
         print(f'prefix_token_embeddings shape: {prefix_token_embeddings.shape}')
         print(f'prefix_attn_mask shape: {prefix_attn_mask.shape}')
 
-        return prefix_token_embeddings, prefix_attn_mask, first_targets, max_decoding_steps, query_prompt_len, batch_size
+        # create a dummy prefix max of all ones for sequence length
+        prefix_mask = jnp.ones((batch_size, seq_len), dtype=jnp.bool_)
+
+        return prefix_token_embeddings, prefix_attn_mask, first_targets, max_decoding_steps, query_prompt_len, batch_size, prefix_mask
 
     @override
     def sample_actions(
@@ -409,21 +414,28 @@ class Pi0FASTRegent(_model.BaseModel):
         *,
         temperature: float = 0.0,
     ) -> _model.Actions:
-        prefix_token_embeddings, prefix_attn_mask, first_targets, max_decoding_steps, query_prompt_len, batch_size = self.sample_actions_multiple_observations_processing(regent_observation)
+        prefix_token_embeddings, prefix_attn_mask, first_targets, max_decoding_steps, query_prompt_len, batch_size, prefix_mask = self.sample_actions_multiple_observations_processing(regent_observation)
+
+        # left to right align all input token sequences
+        prefill_size = prefix_token_embeddings.shape[1]
+        prefill_len = jnp.sum(prefix_mask, axis=-1)
+        prefix_start = prefill_size - prefill_len
 
         # first fill KV cache with a forward pass of the prefix
+        # pad attention mask to set the size of the KV cache (prefill_size + max_decoding_steps)
+        prefix_attn_mask = jnp.pad(prefix_attn_mask, ((0, 0), (0, 0), (0, max_decoding_steps)))
+        print(f'prefix_attn_mask shape: {prefix_attn_mask.shape}')
+        prefix_positions = jnp.cumsum(prefix_mask, axis=-1) - 1
+        print(f'prefix_positions shape: {prefix_positions.shape}')
         prefix_logits, kv_cache, _ = self.PaliGemma.llm(
-            embedded_prefix=prefix_token_embeddings, mask=prefix_attn_mask
+            embedded_prefix=prefix_token_embeddings, mask=prefix_attn_mask, positions=prefix_positions, decode=True
         )
-        print(f'prefix_logits shape: {prefix_logits.shape}')
-        print(f'kv_cache: len {len(kv_cache)} tuple with idx {kv_cache[0]}, k_cache shape {kv_cache[1].shape}, v_cache shape {kv_cache[2].shape}')
 
         # prepare decoding -- final logit decodes the first token
         last_logit_old = prefix_logits[:, -1:]
         original_dtype = last_logit_old.dtype
-        print(f'last_logit_old shape: {last_logit_old.shape} and dtype {original_dtype}')
 
-        # possible action interpolation
+        print(f'last_logit_old shape: {last_logit_old.shape}')
         if self.use_action_interpolation:
             print(f'step: 0 / {max_decoding_steps}')
             print(f'full first_targets shape: {first_targets.shape}')
@@ -435,7 +447,6 @@ class Pi0FASTRegent(_model.BaseModel):
         print(f'last_logit shape: {last_logit.shape}')
 
         output_tokens = jnp.zeros((last_logit.shape[0], max_decoding_steps))
-        
 
         def step(carry):
             last_logit, output_tokens, cache, _, step = carry
@@ -454,22 +465,29 @@ class Pi0FASTRegent(_model.BaseModel):
 
             # Decode one step
             token_embedding = self.PaliGemma.llm(token, embed_only=True)
-            assert token_embedding.shape == (batch_size, 1, 2048)
-            new_prefix_token_embeddings = jnp.concatenate([prefix_token_embeddings, token_embedding], axis=1)
-            mask_column = jnp.ones((batch_size, 1, 1), dtype=jnp.bool_)
-            new_prefix_attn_mask = self.add_to_attn_mask_for_decoding(prefix_attn_mask)
+            positions = prefill_len[:, None] + step + 1
+            mask = jnp.logical_and(
+                jnp.arange(prefill_size + max_decoding_steps)[None, None, :] >= prefix_start[:, None, None],
+                jnp.arange(prefill_size + max_decoding_steps)[None, None, :]
+                < (jnp.broadcast_to(prefill_size + step + 1, (prefix_start.shape[0], 1, 1))),
+            )
+            print(f'mask shape: {mask.shape}')
+            print(f'mask values: {mask}')
+            print(f'positions shape: {positions.shape}')
+            print(f'positions values: {positions}')
+            print(f'token_embedding shape: {token_embedding.shape}')
             last_logit_old, kv_cache, _ = self.PaliGemma.llm(
-                embedded_prefix=new_prefix_token_embeddings, mask=new_prefix_attn_mask
+                embedded_prefix=token_embedding, mask=mask, positions=positions, decode=True, kv_cache=cache
             )
 
-            # possible action interpolation
             print(f'last_logit_old shape: {last_logit_old.shape}')
             if self.use_action_interpolation:
                 print(f'step: {step} / {max_decoding_steps}')
                 first_targets_slice = jax.lax.dynamic_slice(first_targets, (0, step+1+query_prompt_len, 0), (first_targets.shape[0], 1, first_targets.shape[2]))
                 print(f'first_targets_slice shape: {first_targets_slice.shape}')
+                print(f'exp_lamda_distances for only last query observation shape: {regent_observation.exp_lamda_distances[:, -1:, :].shape}')
                 last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets_slice,
-                                                      exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :]).astype(original_dtype)
+                                                    exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :]).astype(original_dtype)
             else:
                 last_logit = last_logit_old
             print(f'last_logit shape: {last_logit.shape}')
@@ -480,6 +498,8 @@ class Pi0FASTRegent(_model.BaseModel):
             _, _, _, all_eos, step = carry
             return (~all_eos) & (step < max_decoding_steps)
 
-        # Use lax.while_loop so we can jit the full decoding loop.
+        # # Use lax.while_loop so we can jit the full decoding loop.
         _, output_tokens, _, _, _ = jax.lax.while_loop(cond, step, (last_logit, output_tokens, kv_cache, False, 0))
+        
         return output_tokens
+

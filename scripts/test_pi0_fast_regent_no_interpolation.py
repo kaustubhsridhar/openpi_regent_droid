@@ -9,7 +9,7 @@ init_logging()
 # params
 config_name = "pi0_fast_droid_regent"
 exp_name = "first_try"
-checkpoint_step = 3000
+checkpoint_step = 100
 demos_dir = "regent_droid_preprocessing/collected_demos/2025-03-04"
 
 # setup

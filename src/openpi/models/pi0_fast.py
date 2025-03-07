@@ -304,11 +304,11 @@ class Pi0FAST(_model.BaseModel):
             _, _, _, all_eos, step = carry
             return (~all_eos) & (step < max_decoding_steps)
 
-        # # Use lax.while_loop so we can jit the full decoding loop.
-        # _, output_tokens, _, _, _ = jax.lax.while_loop(cond, step, (last_logit, output_tokens, kv_cache, False, 0))
+        # Use lax.while_loop so we can jit the full decoding loop.
+        _, output_tokens, _, _, _ = jax.lax.while_loop(cond, step, (last_logit, output_tokens, kv_cache, False, 0))
 
-        carry = (last_logit, output_tokens, kv_cache, False, 0)
-        while cond(carry):
-            carry = step(carry)
+        # carry = (last_logit, output_tokens, kv_cache, False, 0)
+        # while cond(carry):
+        #     carry = step(carry)
         
         return output_tokens
