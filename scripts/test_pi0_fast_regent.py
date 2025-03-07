@@ -8,8 +8,8 @@ init_logging()
 
 # params
 config_name = "pi0_fast_droid_regent_with_interpolation"
-exp_name = "first_try_with_interpolation"
-checkpoint_step = 100
+exp_name = "second_try_with_interpolation"
+checkpoint_step = 1000
 demos_dir = "regent_droid_preprocessing/collected_demos/2025-03-04"
 
 # setup

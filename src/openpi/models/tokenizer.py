@@ -50,7 +50,8 @@ class FASTTokenizer:
         self._fast_skip_tokens = 128  # Skip last 128 tokens in PaliGemma vocab since they are special tokens
 
     def tokenize(
-        self, prompt: str, state: np.ndarray, actions: np.ndarray | None, dont_pad: bool = False
+        self, prompt: str, state: np.ndarray, actions: np.ndarray | None, 
+        dont_pad: bool = False
     ) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
         cleaned_text = prompt.lower().strip().replace("_", " ")
 
@@ -114,6 +115,7 @@ class FASTTokenizer:
 
         # Extract actions from FAST model outputs
         if "Action: " not in decoded_tokens:
+            print(f"WARNING: No `Action: ` found in decoded tokens: {decoded_tokens}, so returning zeros")
             return np.zeros((action_horizon, action_dim), dtype=np.float32)
 
         # Extract actions from decoded tokens

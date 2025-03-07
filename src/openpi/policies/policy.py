@@ -20,6 +20,9 @@ from openpi.policies.utils import embed
 import os
 from autofaiss import build_index
 import logging
+from datetime import datetime
+import json
+from PIL import Image
 logger = logging.getLogger()
 BasePolicy: TypeAlias = _base_policy.BasePolicy
 
@@ -140,17 +143,57 @@ class RegentPolicy(BasePolicy):
             more_obs["exp_lamda_distances"] = np.exp(-self._lamda * np.array(distances)).reshape(-1, 1)
             print(f'exp_lamda_distances: {more_obs["exp_lamda_distances"]}')
         return {**obs, **more_obs}
+    
+    def save_obs(self, obs: dict):
+        fol = f"obs_logs"
+        os.makedirs(fol, exist_ok=True)
+        current_datettime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        # save all images in one png
+        big_image = []
+        big_wrist_image = []
+        for ct in range(self._knn_k):
+            big_image.append(obs[f"retrieved_{ct}_image"])
+            big_wrist_image.append(obs[f"retrieved_{ct}_wrist_image"])
+        big_image.append(obs["query_image"])
+        big_wrist_image.append(obs["query_wrist_image"])
+        final_image = np.concatenate((np.concatenate(big_image, axis=1), np.concatenate(big_wrist_image, axis=1)), axis=0)
+        Image.fromarray(final_image).save(f"{fol}/{current_datettime}.png")
+        # save everything else to json
+        with open(f"{fol}/{current_datettime}.json", "w") as f:
+            everything_else = {k: list(v) if isinstance(v, np.ndarray) else v for k, v in obs.items() if "image" not in k}
+            everything_else["final_image_shape"] = list(final_image.shape)
+            json.dump(everything_else, f, indent=4)
+        return current_datettime
+
+    def save_tokenized_inputs(self, inputs: dict, current_datettime: str):
+        fol = f"obs_logs"
+        os.makedirs(fol, exist_ok=True)
+        every_tokenized_input = {}
+        for k, v in inputs.items():
+            if "token" in k:
+                assert isinstance(v, np.ndarray) and v.dtype in [np.bool_, np.int64]
+                every_tokenized_input[k] = v.astype(np.int32).tolist()
+        with open(f"{fol}/{current_datettime}_token_inputs.json", "w") as f:
+            json.dump(every_tokenized_input, f, indent=4)
 
     @override
-    def infer(self, obs: dict) -> dict:  # type: ignore[misc]
+    def infer(self, obs: dict, debug: bool = True) -> dict:  # type: ignore[misc]
         # Retrieval
         print()
         logger.info(f'retrieving...')
         obs = self.retrieve(obs)
+        # for debugging, save everything in obs
+        if debug:
+            logger.info(f'saving obs...')
+            current_datettime = self.save_obs(obs)
         # Make a copy since transformations may modify the inputs in place.
         logger.info(f'transforming...')
         inputs = jax.tree.map(lambda x: x, obs)
         inputs = self._input_transform(inputs)
+        # for debugging, save tokenized inputs
+        if debug:
+            logger.info(f'saving tokenized inputs...')
+            self.save_tokenized_inputs(inputs, current_datettime)
         # Make a batch and convert to jax.Array.
         logger.info(f'batching...')
         inputs = jax.tree.map(lambda x: jnp.asarray(x)[np.newaxis, ...], inputs)

@@ -342,7 +342,7 @@ class TokenizeFASTInputsRegent(DataTransformFn):
             new_data[f"{prefix}token_loss_mask"] = loss_mask
         prefix = "query_"
         state, actions, prompt = data[f"{prefix}state"], data.get(f"{prefix}actions"), data.pop(f"{prefix}prompt") # use get for actions since it will not be there at eval time
-        tokens, token_mask, ar_mask, loss_mask = self.tokenizer.tokenize(prompt, state, actions, dont_pad=data.pop("inference_time", False))
+        tokens, token_mask, ar_mask, loss_mask = self.tokenizer.tokenize(prompt, state, actions, dont_pad=data.get("inference_time", False))
         new_data[f"{prefix}tokenized_prompt"] = tokens
         new_data[f"{prefix}tokenized_prompt_mask"] = token_mask
         new_data[f"{prefix}token_ar_mask"] = ar_mask
