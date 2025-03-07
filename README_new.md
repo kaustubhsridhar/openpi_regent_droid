@@ -74,9 +74,9 @@ python quick_view_retrieval_preprocessed_sequences.py --chosen_id scene_id_and_o
 * train pi0_fast_droid_regent
 ```bash
 # retrieval augmented finetuning
-CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=second_try --overwrite &> log_2.txt &
+CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=fourth_try_query_loss_only --overwrite &> logs/log_4.txt &
 # adding interpolation below
-CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=second_try_with_interpolation --overwrite &> log_with_interpolation_2.txt &
+CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=second_try_with_interpolation --overwrite &> logs/log_with_interpolation_2.txt &
 ```
 
 ## inference 

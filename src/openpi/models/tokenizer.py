@@ -51,7 +51,8 @@ class FASTTokenizer:
 
     def tokenize(
         self, prompt: str, state: np.ndarray, actions: np.ndarray | None, 
-        dont_pad: bool = False
+        dont_pad: bool = False,
+        dont_loss: bool = False,
     ) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
         cleaned_text = prompt.lower().strip().replace("_", " ")
 
@@ -82,7 +83,10 @@ class FASTTokenizer:
         tokens = prefix_tokens + postfix_tokens
         token_mask = [True] * len(tokens)
         ar_mask = [0] * len(prefix_tokens) + [1] * len(postfix_tokens)
-        loss_mask = [False] * len(prefix_tokens) + [True] * len(postfix_tokens)  # Loss on postfix only
+        if dont_loss:
+            loss_mask = [False] * len(prefix_tokens) + [False] * len(postfix_tokens) # no loss on prefix or postfix
+        else:
+            loss_mask = [False] * len(prefix_tokens) + [True] * len(postfix_tokens)  # Loss on postfix only
 
         # Pad tokens to max length
         tokens_len = len(tokens)

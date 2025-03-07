@@ -277,8 +277,6 @@ class Pi0FASTRegent(_model.BaseModel):
         assert num_observations == self.num_retrieved_observations + 1
         list_of_input_token_embeddings = []
         list_of_attn_masks = []
-        list_of_loss_masks = []
-        list_of_targets = []
         for i in range(num_observations):
             prefix = f"retrieved_{i}_" if i < self.num_retrieved_observations else "query_"
             this_observation = _model.extract_observation_from_regent_observation(regent_observation, prefix)
@@ -292,22 +290,22 @@ class Pi0FASTRegent(_model.BaseModel):
 
             list_of_input_token_embeddings.append(this_input_token_embeddings)
             list_of_attn_masks.append(this_attn_mask)
-            list_of_loss_masks.append(this_observation.token_loss_mask[:, 1:])
 
-            # Compute one-hot targets: we predict *next* token, so shift the input tokens by one.
-            # FYI, query_observation is the last observation in the batch
-            this_targets = jax.nn.one_hot(
-                this_observation.tokenized_prompt[:, 1:],
-                self.PaliGemma.llm.module.vocab_size,
-            )
-            list_of_targets.append(this_targets)
+            if self.use_action_interpolation:
+                if i == 0:
+                    first_targets = jax.nn.one_hot(this_observation.tokenized_prompt[:, 1:],
+                                                   self.PaliGemma.llm.module.vocab_size,
+                                                   )
 
         # combine most lists along the num tokens axis
         input_token_embeddings = jnp.concatenate(list_of_input_token_embeddings, axis=1)
         batch_size, seq_len = input_token_embeddings.shape[0:2]
         attn_mask = self.combine_attn_masks(list_of_attn_masks, batch_size, seq_len, num_observations)
-        loss_mask = jnp.concatenate(list_of_loss_masks, axis=1)
-        targets = jnp.concatenate(list_of_targets, axis=1)
+        loss_mask = this_observation.token_loss_mask[:, 1:]
+        targets = jax.nn.one_hot(
+            this_observation.tokenized_prompt[:, 1:],
+            self.PaliGemma.llm.module.vocab_size,
+        )
 
         print(f'input_token_embeddings shape: {input_token_embeddings.shape}')
         print(f'attn_mask shape: {attn_mask.shape}')
@@ -325,13 +323,13 @@ class Pi0FASTRegent(_model.BaseModel):
         # Only decode logits for the target tokens to save memory
         # (decoding matmul is large because it is a seq_len x vocab_size dense layer).
         logits, _ = self.PaliGemma.llm(
-            pre_logits=pre_logits[:, decode_indices],
+            pre_logits=pre_logits[:, -targets.shape[1]:],
         )
         print(f'logits shape: {logits.shape}')
 
         if self.use_action_interpolation:
-            new_logits = self.interpolate_actions(logits=logits, first_targets=targets[:, :self.max_token_len - 1, :], 
-                                                  exp_lamda_distances=regent_observation.exp_lamda_distances)
+            new_logits = self.interpolate_actions(logits=logits, first_targets=first_targets, 
+                                                  exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :])
             print(f'new_logits shape: {new_logits.shape}')
             # clamp the logits to avoid nan from log(0) and instabilities from log(1)
             epsilon = 1e-9
@@ -415,6 +413,9 @@ class Pi0FASTRegent(_model.BaseModel):
         temperature: float = 0.0,
     ) -> _model.Actions:
         prefix_token_embeddings, prefix_attn_mask, first_targets, max_decoding_steps, query_prompt_len, batch_size, prefix_mask = self.sample_actions_multiple_observations_processing(regent_observation)
+
+        # # overwrite max_decoding_steps to be 10*8 = 80 (for horizon * action_dim)
+        # max_decoding_steps = 80
 
         # left to right align all input token sequences
         prefill_size = prefix_token_embeddings.shape[1]
