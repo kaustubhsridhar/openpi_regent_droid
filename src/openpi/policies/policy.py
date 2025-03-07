@@ -120,7 +120,7 @@ class RegentPolicy(BasePolicy):
 
     def retrieve(self, obs: dict) -> dict:
         camera = obs.pop("camera")
-        more_obs = {}
+        more_obs = {"inference_time": True}
         # embed
         query_embedding = embed(obs["query_image"], self)
         assert query_embedding.shape == (1, 2048), f"{query_embedding.shape=}"
@@ -158,8 +158,8 @@ class RegentPolicy(BasePolicy):
         self._rng, sample_rng = jax.random.split(self._rng)
         logger.info(f'sampling...')
         outputs = {
-            "state": inputs["query_state"],
-            "actions": self._sample_actions(sample_rng, _model.RegentObservation.from_dict(inputs, num_retrieved_observations=self._knn_k), **self._sample_kwargs),
+            "query_state": inputs["query_state"],
+            "query_actions": self._sample_actions(sample_rng, _model.RegentObservation.from_dict(inputs, num_retrieved_observations=self._knn_k), **self._sample_kwargs),
         }
 
         # Unbatch and convert to np.ndarray.

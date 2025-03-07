@@ -352,7 +352,7 @@ class RegentDroidDataConfig(DataConfigFactory):
         # replace the transforms below with your own.
         data_transforms = _transforms.Group(
             inputs=[droid_policy.RegentDroidInputs(action_dim=model_config.action_dim, num_retrieved_observations=model_config.num_retrieved_observations)],
-            outputs=[droid_policy.DroidOutputs()],
+            outputs=[droid_policy.RegentDroidOutputs()],
         )
 
         # One additional data transform: pi0 models are trained on delta actions (relative to the first
@@ -382,7 +382,7 @@ class RegentDroidDataConfig(DataConfigFactory):
                         ),
                     ],
                     outputs=[
-                        _transforms.ExtractFASTActions(
+                        _transforms.ExtractFASTActionsRegent(
                             _tokenizer.FASTTokenizer(model_config.max_token_len),
                             action_horizon=model_config.action_horizon,
                             action_dim=model_config.action_dim,

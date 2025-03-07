@@ -217,6 +217,20 @@ class Pi0FASTRegent(_model.BaseModel):
         attn_mask = jnp.logical_or(attn_mask, jnp.tril(jnp.ones((batch_size, seq_len, seq_len), dtype=bool)))
         return attn_mask
     
+    def combine_attn_masks_inference_time(self, list_of_attn_masks, batch_size, seq_len, num_observations, retrieval_block_len, query_block_len):
+        # at inference time, different from the above, we have a query block that is shorter than the retrieval blocks since it's prompt doesnt have actions or padding
+        assert seq_len == (num_observations - 1) * retrieval_block_len + query_block_len
+        attn_mask = jnp.zeros((batch_size, seq_len, seq_len), dtype=bool)
+        for i in range(num_observations-1):
+            attn_mask = attn_mask.at[:, i*retrieval_block_len:(i+1)*retrieval_block_len, i*retrieval_block_len:(i+1)*retrieval_block_len].set(list_of_attn_masks[i])
+        # set the query block separately at inference time
+        query_start = (num_observations-1) * retrieval_block_len
+        query_end = query_start + query_block_len
+        attn_mask = attn_mask.at[:, query_start:query_end, query_start:query_end].set(list_of_attn_masks[num_observations-1])
+        # finally, do a logical or with a lower triangular mask
+        attn_mask = jnp.logical_or(attn_mask, jnp.tril(jnp.ones((batch_size, seq_len, seq_len), dtype=bool)))
+        return attn_mask
+    
     def interpolate_actions(self, logits, first_targets, exp_lamda_distances):
         # assert the input shapes
         batch_size, decode_len, vocab_size = logits.shape
@@ -330,16 +344,15 @@ class Pi0FASTRegent(_model.BaseModel):
         rng: at.KeyArrayLike,
         regent_observation: _model.RegentObservation,
         *,
-        max_decoding_steps: int | at.Int[at.Array, ""] = 256,
         temperature: float = 0.0,
     ) -> _model.Actions:
         # TODO: this is a hack to get the image keys.
         num_observations = self.num_retrieved_observations + 1
         assert num_observations == self.num_retrieved_observations + 1
         list_of_prefix_token_embeddings = []
-        list_of_prefix_masks = []
         list_of_prefix_attn_masks = []
         for i in range(num_observations):
+            # extract this observation
             prefix = f"retrieved_{i}_" if i < self.num_retrieved_observations else "query_"
             this_observation = _model.extract_observation_from_regent_observation(regent_observation, prefix)
             this_observation = _model.preprocess_observation(
@@ -351,58 +364,59 @@ class Pi0FASTRegent(_model.BaseModel):
             this_prefix_attn_mask = make_attn_mask(this_prefix_mask, this_prefix_ar_mask)
 
             list_of_prefix_token_embeddings.append(this_prefix_token_embeddings)
-            list_of_prefix_masks.append(this_prefix_mask)
             list_of_prefix_attn_masks.append(this_prefix_attn_mask)
 
-            # get the first targets (of the first retrieved observation)
+            # get the length of a retrieved prompt
             if i == 0:
-                first_targets = this_observation.tokenized_prompt[:, 1:]
-                print(f'first_targets before one hot: {first_targets} [shape: {first_targets.shape}]')
-                first_targets = jax.nn.one_hot(
-                    first_targets,
-                    self.PaliGemma.llm.module.vocab_size,
-                )
+                retrieval_prompt_len = this_observation.tokenized_prompt.shape[1]
+                retrieval_block_len = this_prefix_token_embeddings.shape[1]
+                # get the first targets for the interpolation
+                if self.use_action_interpolation:
+                    first_targets = this_observation.tokenized_prompt[:, 1:]
+                    print(f'first_targets before one hot: {first_targets} [shape: {first_targets.shape}]')
+                    first_targets = jax.nn.one_hot(
+                        first_targets,
+                        self.PaliGemma.llm.module.vocab_size,
+                    )
+
+            # get the length of the last/query prompt
+            if i == num_observations - 1:
+                query_prompt_len = this_observation.tokenized_prompt.shape[1]
+                query_block_len = this_prefix_token_embeddings.shape[1]
+                print(f'query_prompt_len: {query_prompt_len}')
+                max_decoding_steps = retrieval_prompt_len - query_prompt_len
+                print(f'max_decoding_steps: {max_decoding_steps}')
+
 
         # combine all input token embeddings and attn masks along the num tokens axis
         prefix_token_embeddings = jnp.concatenate(list_of_prefix_token_embeddings, axis=1)
-        prefix_mask = jnp.concatenate(list_of_prefix_masks, axis=1)
         batch_size, seq_len = prefix_token_embeddings.shape[0:2]
-        prefix_attn_mask = self.combine_attn_masks(list_of_prefix_attn_masks, batch_size, seq_len, num_observations)
+        prefix_attn_mask = self.combine_attn_masks_inference_time(list_of_prefix_attn_masks, batch_size, seq_len, num_observations, retrieval_block_len, query_block_len)
         print(f'prefix_token_embeddings shape: {prefix_token_embeddings.shape}')
-        print(f'prefix_mask shape: {prefix_mask.shape}')
         print(f'prefix_attn_mask shape: {prefix_attn_mask.shape}')
 
-        # left to right align all input token sequences
-        prefix_token_embeddings, prefix_mask, prefix_attn_mask = left_to_right_align(
-            prefix_token_embeddings, prefix_mask, prefix_attn_mask
-        )
-        prefill_size = prefix_token_embeddings.shape[1]
-        prefill_len = jnp.sum(prefix_mask, axis=-1)
-        prefix_start = prefill_size - prefill_len
-
         # first fill KV cache with a forward pass of the prefix
-        # pad attention mask to set the size of the KV cache (prefill_size + max_decoding_steps)
-        prefix_attn_mask = jnp.pad(prefix_attn_mask, ((0, 0), (0, 0), (0, max_decoding_steps)))
-        prefix_positions = jnp.cumsum(prefix_mask, axis=-1) - 1
         prefix_logits, kv_cache, _ = self.PaliGemma.llm(
-            embedded_prefix=prefix_token_embeddings, mask=prefix_attn_mask, positions=prefix_positions, decode=True
+            embedded_prefix=prefix_token_embeddings, mask=prefix_attn_mask
         )
+        print(f'prefix_logits shape: {prefix_logits.shape}')
+        print(f'kv_cache: len {len(kv_cache)} tuple with idx {kv_cache[0]}, k_cache shape {kv_cache[1].shape}, v_cache shape {kv_cache[2].shape}')
 
         # prepare decoding -- final logit decodes the first token
         last_logit_old = prefix_logits[:, -1:]
         original_dtype = last_logit_old.dtype
+        print(f'last_logit_old shape: {last_logit_old.shape} and dtype {original_dtype}')
 
         # possible action interpolation
         if self.use_action_interpolation:
             print(f'step: 0 / {max_decoding_steps}')
             print(f'full first_targets shape: {first_targets.shape}')
             print(f'exp_lamda_distances for only last query observation shape: {regent_observation.exp_lamda_distances[:, -1:, :].shape}')
-            print(f'last_logit_old shape: {last_logit_old.shape}')
-            last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, 0:1, :], 
+            last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, 0+query_prompt_len:1+query_prompt_len, :], 
                                                   exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :]).astype(original_dtype)
-            print(f'last_logit shape: {last_logit.shape}')
         else:
             last_logit = last_logit_old
+        print(f'last_logit shape: {last_logit.shape}')
 
         output_tokens = jnp.zeros((last_logit.shape[0], max_decoding_steps))
 
@@ -423,27 +437,31 @@ class Pi0FASTRegent(_model.BaseModel):
 
             # Decode one step
             token_embedding = self.PaliGemma.llm(token, embed_only=True)
-            positions = prefill_len[:, None] + step + 1
-            mask = jnp.logical_and(
-                jnp.arange(prefill_size + max_decoding_steps)[None, None, :] >= prefix_start[:, None, None],
-                jnp.arange(prefill_size + max_decoding_steps)[None, None, :]
-                < (jnp.broadcast_to(prefill_size + step + 1, (prefix_start.shape[0], 1, 1))),
-            )
+            
+            # Create a proper causal attention mask for decoding
+            # The mask should be (batch_size, 1, 1, prefix_len + current_pos)
+            # where prefix_len is the length of the sequence in the KV cache
+            batch_size = token_embedding.shape[0]
+            prefix_len = cache[1].shape[2]  # Get the sequence length from the KV cache
+            
+            # Create a mask that allows the current token to attend to all previous tokens
+            decode_mask = jnp.ones((batch_size, 1, 1, prefix_len), dtype=jnp.bool_)
+            
             last_logit_old, kv_cache, _ = self.PaliGemma.llm(
-                embedded_prefix=token_embedding, mask=mask, positions=positions, decode=True, kv_cache=cache
+                embedded_prefix=token_embedding, kv_cache=cache, mask=decode_mask
             )
 
             # possible action interpolation
+            print(f'last_logit_old shape: {last_logit_old.shape}')
             if self.use_action_interpolation:
                 print(f'step: {step} / {max_decoding_steps}')
-                print(f'last_logit_old shape: {last_logit_old.shape}')
-                first_targets_slice = jax.lax.dynamic_slice(first_targets, (0, step+1, 0), (first_targets.shape[0], 1, first_targets.shape[2]))
+                first_targets_slice = jax.lax.dynamic_slice(first_targets, (0, step+1+query_prompt_len, 0), (first_targets.shape[0], 1, first_targets.shape[2]))
                 print(f'first_targets_slice shape: {first_targets_slice.shape}')
                 last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets_slice,
                                                       exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :]).astype(original_dtype)
-                print(f'last_logit shape: {last_logit.shape}')
             else:
                 last_logit = last_logit_old
+            print(f'last_logit shape: {last_logit.shape}')
 
             return last_logit, output_tokens, kv_cache, all_eos, step + 1
 

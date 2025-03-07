@@ -177,6 +177,37 @@ class Unnormalize(DataTransformFn):
         assert stats.q01 is not None
         assert stats.q99 is not None
         return (x + 1.0) / 2.0 * (stats.q99 - stats.q01 + 1e-6) + stats.q01
+    
+
+@dataclasses.dataclass(frozen=True)
+class UnnormalizeRegent(DataTransformFn):
+    norm_stats: at.PyTree[NormStats] | None
+    # If true, will use quantile normalization. Otherwise, normal z-score normalization will be used.
+    use_quantiles: bool = False
+
+    def __post_init__(self):
+        if self.norm_stats is not None and self.use_quantiles:
+            _assert_quantile_stats(self.norm_stats)
+
+    def __call__(self, data: DataDict) -> DataDict:
+        if self.norm_stats is None:
+            return data
+
+        # Make sure that all the keys in the norm stats are present in the data.
+        return apply_tree(
+            data,
+            self.norm_stats,
+            self._unnormalize_quantile if self.use_quantiles else self._unnormalize,
+            strict=False, # Changed this to False
+        )
+
+    def _unnormalize(self, x, stats: NormStats):
+        return x * (stats.std + 1e-6) + stats.mean
+
+    def _unnormalize_quantile(self, x, stats: NormStats):
+        assert stats.q01 is not None
+        assert stats.q99 is not None
+        return (x + 1.0) / 2.0 * (stats.q99 - stats.q01 + 1e-6) + stats.q01
 
 
 @dataclasses.dataclass(frozen=True)
@@ -311,7 +342,7 @@ class TokenizeFASTInputsRegent(DataTransformFn):
             new_data[f"{prefix}token_loss_mask"] = loss_mask
         prefix = "query_"
         state, actions, prompt = data[f"{prefix}state"], data.get(f"{prefix}actions"), data.pop(f"{prefix}prompt") # use get for actions since it will not be there at eval time
-        tokens, token_mask, ar_mask, loss_mask = self.tokenizer.tokenize(prompt, state, actions)
+        tokens, token_mask, ar_mask, loss_mask = self.tokenizer.tokenize(prompt, state, actions, dont_pad=data.pop("inference_time", False))
         new_data[f"{prefix}tokenized_prompt"] = tokens
         new_data[f"{prefix}tokenized_prompt_mask"] = token_mask
         new_data[f"{prefix}token_ar_mask"] = ar_mask
@@ -337,22 +368,22 @@ class ExtractFASTActions(DataTransformFn):
         }
     
 
-# @dataclasses.dataclass(frozen=True)
-# class ExtractFASTActionsRegent(DataTransformFn):
-#     tokenizer: _tokenizer.FASTTokenizer
-#     action_horizon: int
-#     action_dim: int
-#     num_retrieved_observations: int
-#
-#     def __call__(self, data: DataDict) -> DataDict:
-#         # Model outputs are saved in "{prefix}actions" or just "actions", but for FAST models they represent tokens.
-#         new_data = {}
-#         for key in [f"retrieved_{i}_actions" for i in range(self.num_retrieved_observations)] + ["query_actions", "actions"]:
-#             if key in data:
-#                 tokens = data.pop(key)
-#                 actions = self.tokenizer.extract_actions(tokens.astype(np.int32), self.action_horizon, self.action_dim)
-#                 new_data[key] = actions
-#         return {**data, **new_data}
+@dataclasses.dataclass(frozen=True)
+class ExtractFASTActionsRegent(DataTransformFn):
+    tokenizer: _tokenizer.FASTTokenizer
+    action_horizon: int
+    action_dim: int
+
+    def __call__(self, data: DataDict) -> DataDict:
+        if "query_actions" not in data:
+            return data
+        # Model outputs are saved in "actions", but for FAST models they represent tokens.
+        tokens = data.pop("query_actions")
+        actions = self.tokenizer.extract_actions(tokens.astype(np.int32), self.action_horizon, self.action_dim)
+        return {
+            **data,
+            "query_actions": actions,
+        }
 
 
 @dataclasses.dataclass(frozen=True)

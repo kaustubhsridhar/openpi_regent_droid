@@ -94,6 +94,10 @@ class RegentDroidInputs(transforms.DataTransformFn):
         if "exp_lamda_distances" in data:
             inputs["exp_lamda_distances"] = data["exp_lamda_distances"]
 
+        # Pass the inference_time flag to the model if it is present
+        if "inference_time" in data:
+            inputs["inference_time"] = data["inference_time"]
+
         return inputs
 
 
@@ -147,3 +151,9 @@ class DroidOutputs(transforms.DataTransformFn):
     def __call__(self, data: dict) -> dict:
         # Only return the first 8 dims.
         return {"actions": np.asarray(data["actions"][:, :8])}
+    
+@dataclasses.dataclass(frozen=True)
+class RegentDroidOutputs(transforms.DataTransformFn):
+    def __call__(self, data: dict) -> dict:
+        # Only return the first 8 dims.
+        return {"query_actions": np.asarray(data["query_actions"][:, :8])}

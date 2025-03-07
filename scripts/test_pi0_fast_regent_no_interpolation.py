@@ -32,6 +32,6 @@ example = {
         "query_prompt": demo["prompt"].item(),
         "camera": camera
     }
-action_chunk = policy.infer(example)["actions"] # camera can be "left" or "right"
+action_chunk = policy.infer(example)["query_actions"] # camera can be "left" or "right"
 print(f'{action_chunk.shape=}')
 print(f'{action_chunk=}')

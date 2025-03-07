@@ -50,7 +50,7 @@ class FASTTokenizer:
         self._fast_skip_tokens = 128  # Skip last 128 tokens in PaliGemma vocab since they are special tokens
 
     def tokenize(
-        self, prompt: str, state: np.ndarray, actions: np.ndarray | None
+        self, prompt: str, state: np.ndarray, actions: np.ndarray | None, dont_pad: bool = False
     ) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
         cleaned_text = prompt.lower().strip().replace("_", " ")
 
@@ -86,6 +86,10 @@ class FASTTokenizer:
         # Pad tokens to max length
         tokens_len = len(tokens)
         if tokens_len < self._max_len:
+            # When padding is not desired
+            if dont_pad:
+                return np.asarray(tokens), np.asarray(token_mask), np.asarray(ar_mask), np.asarray(loss_mask)
+        
             padding = [False] * (self._max_len - tokens_len)
             tokens = tokens + padding
             token_mask = token_mask + padding

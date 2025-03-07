@@ -1,0 +1,165 @@
+(openpi) (branch: main) ksridhar@ivy:~/openpi_regent_droid$ CUDA_VISIBLE_DEVICES=5 python scripts/test_pi0_fast_regent_no_interpolation.py
+16:59:04.530 [I] Loading model...                                                                 (2912076:policy_config.py:102)
+INFO:2025-03-06 16:59:05,120:jax._src.xla_bridge:945: Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+16:59:05.120 [I] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig' (2912076:xla_bridge.py:945)
+INFO:2025-03-06 16:59:05,121:jax._src.xla_bridge:945: Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+16:59:05.121 [I] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory (2912076:xla_bridge.py:945)
+16:59:05.133 [I] orbax-checkpoint version: 0.11.1                                                 (2912076:abstract_checkpointer.py:35)
+16:59:05.134 [I] Created BasePyTreeCheckpointHandler: pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=None (2912076:base_pytree_checkpoint_handler.py:332)
+16:59:05.163 [I] Restoring checkpoint from /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent/first_try/3000/params. (2912076:checkpointer.py:256)
+16:59:10.628 [I] [thread=MainThread] Failed to get flag value for EXPERIMENTAL_ORBAX_USE_DISTRIBUTED_PROCESS_ID. (2912076:multihost.py:375)
+16:59:10.630 [I] [process=0] /jax/checkpoint/read/bytes_per_sec: 1.0 GiB/s (total bytes: 5.5 GiB) (time elapsed: 5 seconds) (per-host) (2912076:base_pytree_checkpoint_handler.py:113)
+16:59:10.630 [I] Finished restoring checkpoint from /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent/first_try/3000/params. (2912076:checkpointer.py:259)
+16:59:10.631 [I] [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:restore (2912076:multihost.py:293)
+Some kwargs in processor config are unused and will not have any effect: vocab_size, action_dim, min_token, scale, time_horizon. 
+Some kwargs in processor config are unused and will not have any effect: vocab_size, action_dim, min_token, scale, time_horizon. 
+16:59:13.740 [I] Loaded norm stats from /home/ksridhar/openpi_regent_droid/assets/pi0_fast_droid_regent/droid (2912076:config.py:167)
+16:59:13.741 [I] Loaded norm stats from checkpoints/pi0_fast_droid_regent/first_try/3000/assets/droid (2912076:checkpoints.py:109)
+
+16:59:13.746 [I] loading demos from regent_droid_preprocessing/collected_demos/2025-03-04...      (2912076:policy.py:103)
+
+16:59:13.863 [I] building retrieval index...                                                      (2912076:policy.py:110)
+16:59:13.866 [I] Using 8 omp threads (processes), consider increasing --nb_cores if you have more (2912076:quantize.py:193)
+16:59:13.900 [I] Launching the whole pipeline 03/06/2025, 16:59:13                                (2912076:decorators.py:27)
+16:59:13.900 [I] Reading total number of vectors and dimension 03/06/2025, 16:59:13               (2912076:decorators.py:27)
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 334.31it/s]
+16:59:14.031 [I] There are 3158 embeddings of dim 2048                                            (2912076:quantize.py:213)
+16:59:14.031 [I] >>> Finished "Reading total number of vectors and dimension" in 0.1305 secs      (2912076:decorators.py:38)
+16:59:14.032 [I]        Compute estimated construction time of the index 03/06/2025, 16:59:14           (2912076:decorators.py:27)
+16:59:14.032 [I]                -> Train: 16.7 minutes                                                         (2912076:quantize.py:217)
+16:59:14.033 [I]                -> Add: 0.1 seconds                                                            (2912076:quantize.py:217)
+16:59:14.033 [I]                Total: 16.7 minutes                                                            (2912076:quantize.py:217)
+16:59:14.034 [I]        >>> Finished "Compute estimated construction time of the index" in 0.0016 secs  (2912076:decorators.py:38)
+16:59:14.034 [I]        Checking that your have enough memory available to create the index 03/06/2025, 16:59:14 (2912076:decorators.py:27)
+16:59:14.036 [I] 27.5MB of memory will be needed to build the index (more might be used if you have more) (2912076:quantize.py:223)
+16:59:14.036 [I]        >>> Finished "Checking that your have enough memory available to create the index" in 0.0022 secs (2912076:decorators.py:38)
+16:59:14.036 [I]        Selecting most promising index types given data characteristics 03/06/2025, 16:59:14 (2912076:decorators.py:27)
+16:59:14.037 [I]        >>> Finished "Selecting most promising index types given data characteristics" in 0.0000 secs (2912076:decorators.py:38)
+16:59:14.038 [I]        Creating the index 03/06/2025, 16:59:14                                         (2912076:decorators.py:27)
+16:59:14.039 [I]                -> Instanciate the index HNSW15 03/06/2025, 16:59:14                           (2912076:decorators.py:27)
+16:59:14.043 [I]                >>> Finished "-> Instanciate the index HNSW15" in 0.0040 secs                  (2912076:decorators.py:38)
+16:59:14.044 [I]                -> Adding the vectors to the index 03/06/2025, 16:59:14                        (2912076:decorators.py:27)
+16:59:14.044 [I] The memory available for adding the vectors is 50.0GB(total available - used by the index) (2912076:build.py:107)
+16:59:14.045 [I] Using a batch size of 122070 (memory overhead 953.7MB)                           (2912076:build.py:88)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  5.36it/s]
+16:59:14.241 [I]        Computing best hyperparameters for index knn.index 03/06/2025, 16:59:14         (2912076:decorators.py:27)
+16:59:19.173 [I]        >>> Finished "Computing best hyperparameters for index knn.index" in 4.9318 secs (2912076:decorators.py:38)
+16:59:19.173 [I] The best hyperparameters are: efSearch=16383                                     (2912076:optimize.py:563)
+16:59:19.173 [I]        Compute fast metrics 03/06/2025, 16:59:19                                       (2912076:decorators.py:27)
+  0%|                                                                                                                                                                                            | 0/1 [00:00<?, ?it/s]
+16:59:24.499 [I]        >>> Finished "Compute fast metrics" in 5.3262 secs                              (2912076:decorators.py:38)
+16:59:24.500 [I]                >>> Finished "-> Adding the vectors to the index" in 10.4561 secs              (2912076:decorators.py:38)
+16:59:24.500 [I] {                                                                                (2912076:quantize.py:36)
+16:59:24.500 [I]        index_key: HNSW15                                                               (2912076:quantize.py:38)
+16:59:24.500 [I]        index_param: efSearch=16383                                                     (2912076:quantize.py:38)
+16:59:24.500 [I]        index_path: knn.index                                                           (2912076:quantize.py:38)
+16:59:24.500 [I]        size in bytes: 26299262                                                         (2912076:quantize.py:38)
+16:59:24.500 [I]        avg_search_speed_ms: 2.6154313307488337                                         (2912076:quantize.py:38)
+16:59:24.500 [I]        99p_search_speed_ms: 3.2449877890758216                                         (2912076:quantize.py:38)
+16:59:24.500 [I]        reconstruction error %: 0.0                                                     (2912076:quantize.py:38)
+16:59:24.500 [I]        nb vectors: 3158                                                                (2912076:quantize.py:38)
+16:59:24.500 [I]        vectors dimension: 2048                                                         (2912076:quantize.py:38)
+16:59:24.500 [I]        compression ratio: 0.9836905689596918                                           (2912076:quantize.py:38)
+16:59:24.500 [I] }                                                                                (2912076:quantize.py:39)
+16:59:24.500 [I]        >>> Finished "Creating the index" in 10.4618 secs                               (2912076:decorators.py:38)
+16:59:24.500 [I] >>> Finished "Launching the whole pipeline" in 10.5998 secs                      (2912076:decorators.py:38)
+
+16:59:24.518 [I] retrieving...                                                                    (2912076:policy.py:148)
+16:59:32.066 [I] transforming...                                                                  (2912076:policy.py:151)
+16:59:32.095 [I] batching...                                                                      (2912076:policy.py:155)
+16:59:32.492 [I] sampling...                                                                      (2912076:policy.py:159)
+query_prompt_len: 48
+max_decoding_steps: 132
+prefix_token_embeddings shape: (1, 4020, 2048)
+prefix_attn_mask shape: (1, 4020, 4020)
+prefix_logits shape: (1, 4020, 257152)
+kv_cache: len 3 tuple with idx Traced<ShapedArray(int32[18,1])>with<DynamicJaxprTrace>, k_cache shape (18, 1, 4020, 1, 256), v_cache shape (18, 1, 4020, 1, 256)
+last_logit_old shape: (1, 1, 257152) and dtype bfloat16
+last_logit shape: (1, 1, 257152)
+last_logit_old shape: (1, 1, 257152)
+last_logit shape: (1, 1, 257152)
+16:59:51.634 [I] unbatching...                                                                    (2912076:policy.py:166)
+outputs: {'actions': array([235248., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292., 235292.,
+       235292., 235292., 235292., 235292., 235292., 235292.],
+      dtype=float32), 'state': array([-2.7106628e-03, -5.9705591e-01, -8.3074592e-05, -2.5118172e+00,
+       -2.1793652e-02,  1.9078480e+00,  2.1103792e-02,  0.0000000e+00],
+      dtype=float32)}
+16:59:51.700 [I] final_outputs: {'actions': array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])} (2912076:policy.py:172)
+action_chunk.shape=(10, 8)
+action_chunk=array([[-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01],
+       [-4.51024157e-03,  1.61404632e-02,  1.44883636e-03,
+         3.11631333e-02,  1.04391526e-03, -2.07705610e-04,
+         4.28350419e-03,  4.46768843e-01]])
+(openpi) (branch: main) ksridhar@ivy:~/openpi_regent_droid$ 

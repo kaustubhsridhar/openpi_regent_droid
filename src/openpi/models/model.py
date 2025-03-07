@@ -246,7 +246,7 @@ class RegentObservation(Generic[ArrayT]):
     retrieved_19_state: at.Float[ArrayT, "*b s"] | None = None
 
     # Tokenized prompt.
-    query_tokenized_prompt: at.Int[ArrayT, "*b l"] | None = None
+    query_tokenized_prompt: at.Int[ArrayT, "*b l_query"] | None = None
     retrieved_0_tokenized_prompt: at.Int[ArrayT, "*b l"] | None = None
     retrieved_1_tokenized_prompt: at.Int[ArrayT, "*b l"] | None = None
     retrieved_2_tokenized_prompt: at.Int[ArrayT, "*b l"] | None = None
@@ -268,7 +268,7 @@ class RegentObservation(Generic[ArrayT]):
     retrieved_18_tokenized_prompt: at.Int[ArrayT, "*b l"] | None = None
     retrieved_19_tokenized_prompt: at.Int[ArrayT, "*b l"] | None = None
     # Tokenized prompt mask.
-    query_tokenized_prompt_mask: at.Bool[ArrayT, "*b l"] | None = None
+    query_tokenized_prompt_mask: at.Bool[ArrayT, "*b l_query"] | None = None
     retrieved_0_tokenized_prompt_mask: at.Bool[ArrayT, "*b l"] | None = None
     retrieved_1_tokenized_prompt_mask: at.Bool[ArrayT, "*b l"] | None = None
     retrieved_2_tokenized_prompt_mask: at.Bool[ArrayT, "*b l"] | None = None
@@ -293,7 +293,7 @@ class RegentObservation(Generic[ArrayT]):
     # pi0-fast model specific fields.
 
     # Token auto-regressive mask (for FAST autoregressive model).
-    query_token_ar_mask: at.Int[ArrayT, "*b l"] | None = None
+    query_token_ar_mask: at.Int[ArrayT, "*b l_query"] | None = None
     retrieved_0_token_ar_mask: at.Int[ArrayT, "*b l"] | None = None
     retrieved_1_token_ar_mask: at.Int[ArrayT, "*b l"] | None = None
     retrieved_2_token_ar_mask: at.Int[ArrayT, "*b l"] | None = None
@@ -315,7 +315,7 @@ class RegentObservation(Generic[ArrayT]):
     retrieved_18_token_ar_mask: at.Int[ArrayT, "*b l"] | None = None
     retrieved_19_token_ar_mask: at.Int[ArrayT, "*b l"] | None = None
     # Token loss mask (for FAST autoregressive model).
-    query_token_loss_mask: at.Bool[ArrayT, "*b l"] | None = None
+    query_token_loss_mask: at.Bool[ArrayT, "*b l_query"] | None = None
     retrieved_0_token_loss_mask: at.Bool[ArrayT, "*b l"] | None = None
     retrieved_1_token_loss_mask: at.Bool[ArrayT, "*b l"] | None = None
     retrieved_2_token_loss_mask: at.Bool[ArrayT, "*b l"] | None = None
