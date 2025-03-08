@@ -327,7 +327,7 @@ class TokenizeFASTInputs(DataTransformFn):
 
 @dataclasses.dataclass(frozen=True)
 class TokenizeFASTInputsRegent(DataTransformFn):
-    tokenizer: _tokenizer.FASTTokenizer
+    tokenizer: _tokenizer.FASTTokenizerRegent
     num_retrieved_observations: int
 
     def __call__(self, data: DataDict) -> DataDict:
@@ -335,16 +335,18 @@ class TokenizeFASTInputsRegent(DataTransformFn):
         for i in range(self.num_retrieved_observations):
             prefix = f"retrieved_{i}_"
             state, actions, prompt = data[f"{prefix}state"], data[f"{prefix}actions"], data.pop(f"{prefix}prompt")
-            tokens, token_mask, ar_mask, loss_mask = self.tokenizer.tokenize(prompt, state, actions, dont_loss=True) # no loss on retrieved prompts
-            new_data[f"{prefix}tokenized_prompt"] = tokens
+            prefix_tokens, postfix_tokens, token_mask, ar_mask, loss_mask = self.tokenizer.tokenize(prompt, state, actions, dont_loss=True) # no loss on retrieved prompts
+            new_data[f"{prefix}tokenized_prompt_prefix"] = prefix_tokens
+            new_data[f"{prefix}tokenized_prompt_postfix"] = postfix_tokens
             new_data[f"{prefix}tokenized_prompt_mask"] = token_mask
             new_data[f"{prefix}token_ar_mask"] = ar_mask
             new_data[f"{prefix}token_loss_mask"] = loss_mask
             # print(f'{prefix}token_loss_mask: {loss_mask}')
         prefix = "query_"
         state, actions, prompt = data[f"{prefix}state"], data.get(f"{prefix}actions"), data.pop(f"{prefix}prompt") # use get for actions since it will not be there at eval time
-        tokens, token_mask, ar_mask, loss_mask = self.tokenizer.tokenize(prompt, state, actions, dont_pad=data.get("inference_time", False))
-        new_data[f"{prefix}tokenized_prompt"] = tokens
+        prefix_tokens, postfix_tokens, token_mask, ar_mask, loss_mask = self.tokenizer.tokenize(prompt, state, actions, dont_pad=data.get("inference_time", False))
+        new_data[f"{prefix}tokenized_prompt_prefix"] = prefix_tokens
+        new_data[f"{prefix}tokenized_prompt_postfix"] = postfix_tokens
         new_data[f"{prefix}tokenized_prompt_mask"] = token_mask
         new_data[f"{prefix}token_ar_mask"] = ar_mask
         new_data[f"{prefix}token_loss_mask"] = loss_mask
@@ -372,7 +374,7 @@ class ExtractFASTActions(DataTransformFn):
 
 @dataclasses.dataclass(frozen=True)
 class ExtractFASTActionsRegent(DataTransformFn):
-    tokenizer: _tokenizer.FASTTokenizer
+    tokenizer: _tokenizer.FASTTokenizerRegent
     action_horizon: int
     action_dim: int
 

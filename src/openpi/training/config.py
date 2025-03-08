@@ -377,13 +377,13 @@ class RegentDroidDataConfig(DataConfigFactory):
                     inputs=[
                         _transforms.ResizeImagesRegent(224, 224, model_config.num_retrieved_observations),
                         _transforms.TokenizeFASTInputsRegent(
-                            _tokenizer.FASTTokenizer(model_config.max_token_len),
+                            _tokenizer.FASTTokenizerRegent(model_config.max_token_len),
                             num_retrieved_observations=model_config.num_retrieved_observations,
                         ),
                     ],
                     outputs=[
                         _transforms.ExtractFASTActionsRegent(
-                            _tokenizer.FASTTokenizer(model_config.max_token_len),
+                            _tokenizer.FASTTokenizerRegent(model_config.max_token_len),
                             action_horizon=model_config.action_horizon,
                             action_dim=model_config.action_dim,
                         )

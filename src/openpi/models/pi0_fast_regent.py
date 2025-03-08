@@ -168,7 +168,7 @@ class Pi0FASTRegent(_model.BaseModel):
     
     @at.typecheck
     def embed_inputs(
-        self, obs: _model.Observation
+        self, obs: _model.ObservationPrefixPostfix
     ) -> tuple[at.Float[at.Array, "b s emb"], at.Bool[at.Array, "b s"], at.Int[at.Array, "b s"]]:
         input_mask = []
         ar_mask = []
@@ -190,10 +190,11 @@ class Pi0FASTRegent(_model.BaseModel):
             ar_mask.append(0 * input_mask[-1])
 
         # add tokenized inputs
-        assert obs.tokenized_prompt is not None, "Tokenized prompt is required"
+        assert obs.tokenized_prompt_prefix is not None, "Tokenized prompt prefix is required"
+        assert obs.tokenized_prompt_postfix is not None, "Tokenized prompt postfix is required"
         assert obs.tokenized_prompt_mask is not None, "Tokenized prompt mask is required"
         assert obs.token_ar_mask is not None, "Token auto-regressive mask is required"
-        tokenized_inputs_embeddings = self.PaliGemma.llm(obs.tokenized_prompt, embed_only=True)
+        tokenized_inputs_embeddings = self.PaliGemma.llm(jnp.concatenate([obs.tokenized_prompt_prefix, obs.tokenized_prompt_postfix], axis=1), embed_only=True)
         token_embeddings.append(tokenized_inputs_embeddings)
         input_mask.append(obs.tokenized_prompt_mask)
         ar_mask.append(obs.token_ar_mask)
@@ -242,30 +243,27 @@ class Pi0FASTRegent(_model.BaseModel):
         new_attn_mask = new_attn_mask.at[:, -1, -1].set(True)
         return new_attn_mask
     
-    def interpolate_actions(self, logits, first_targets, exp_lamda_distances):
+    def interpolate_actions(self, logits, first_targets, exp_lamda_distances, inference_time=False):
         # assert the input shapes
-        batch_size, decode_len, vocab_size = logits.shape
-        if decode_len == 1:
-            # call from sample_actions
-            exp_lamda_distances_repeated = exp_lamda_distances
-            first_targets_repeated = first_targets
+        if inference_time:
+            assert logits.shape == (batch_size, 1, vocab_size)
+            assert first_targets.shape == (batch_size, 1, vocab_size)
+            assert exp_lamda_distances.shape == (batch_size, 1, 1)
+
+            # discrete interpolation
+            new_logits = exp_lamda_distances * first_targets + (1 - exp_lamda_distances) * jax.nn.softmax(logits, axis=-1)
         else:
-            # call from compute_loss
-            num_observations = self.num_retrieved_observations + 1
-            # assert decode_len == num_observations * (self.max_token_len - 1)
-            # assert first_targets.shape == (batch_size, self.max_token_len - 1, vocab_size)
-            # assert exp_lamda_distances.shape == (batch_size, num_observations, 1)
+            batch_size, logits_len, vocab_size = logits.shape
+            postfix_len = first_targets.shape[1]
+            assert logits_len == self.max_token_len - 1
+            assert postfix_len < logits_len # logits_len = prefix_len + postfix_len
+            assert first_targets.shape == (batch_size, postfix_len, vocab_size)
+            assert exp_lamda_distances.shape == (batch_size, 1, 1)
 
-            # repeat the exp_lamda_distances for each token in the decode_len
-            exp_lamda_distances_repeated = einops.repeat(exp_lamda_distances, "b o 1 -> b (o t) 1", t=self.max_token_len - 1)
-            # assert exp_lamda_distances_repeated.shape == (batch_size, decode_len, 1)
-            
-            # acquire and repeat the Retrieve-and-Play (first) targets
-            first_targets_repeated = einops.repeat(first_targets, "b t v -> b (o t) v", o=num_observations)
-            # assert first_targets_repeated.shape == (batch_size, decode_len, vocab_size)
-
-        # discrete interpolation
-        new_logits = exp_lamda_distances_repeated * first_targets_repeated + (1 - exp_lamda_distances_repeated) * jax.nn.softmax(logits, axis=-1)
+            # discrete interpolation
+            new_logits_prefix = logits[:, :-postfix_len, :]
+            new_logits_postfix = exp_lamda_distances * first_targets + (1 - exp_lamda_distances) * jax.nn.softmax(logits[:, -postfix_len:, :], axis=-1)
+            new_logits = jnp.concatenate([new_logits_prefix, new_logits_postfix], axis=1)
 
         return new_logits
 
@@ -280,7 +278,7 @@ class Pi0FASTRegent(_model.BaseModel):
         for i in range(num_observations):
             prefix = f"retrieved_{i}_" if i < self.num_retrieved_observations else "query_"
             this_observation = _model.extract_observation_from_regent_observation(regent_observation, prefix)
-            this_observation = _model.preprocess_observation(
+            this_observation = _model.preprocess_observation_prefix_postfix(
                 rng, this_observation, train=train, image_keys=list(this_observation.images.keys())
             )
 
@@ -293,9 +291,11 @@ class Pi0FASTRegent(_model.BaseModel):
 
             if self.use_action_interpolation:
                 if i == 0:
-                    first_targets = jax.nn.one_hot(this_observation.tokenized_prompt[:, 1:],
-                                                   self.PaliGemma.llm.module.vocab_size,
-                                                   )
+                    first_targets = jax.nn.one_hot(
+                            this_observation.tokenized_prompt_postfix,
+                            self.PaliGemma.llm.module.vocab_size,
+                            )
+                    print(f'first_targets shape: {first_targets.shape}')
 
         # combine most lists along the num tokens axis
         input_token_embeddings = jnp.concatenate(list_of_input_token_embeddings, axis=1)
@@ -303,7 +303,7 @@ class Pi0FASTRegent(_model.BaseModel):
         attn_mask = self.combine_attn_masks(list_of_attn_masks, batch_size, seq_len, num_observations)
         loss_mask = this_observation.token_loss_mask[:, 1:]
         targets = jax.nn.one_hot(
-            this_observation.tokenized_prompt[:, 1:],
+            jnp.concatenate([this_observation.tokenized_prompt_prefix[:, 1:], this_observation.tokenized_prompt_postfix], axis=1),
             self.PaliGemma.llm.module.vocab_size,
         )
 
@@ -328,8 +328,8 @@ class Pi0FASTRegent(_model.BaseModel):
         print(f'logits shape: {logits.shape}')
 
         if self.use_action_interpolation:
-            new_logits = self.interpolate_actions(logits=logits, first_targets=first_targets, 
-                                                  exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :])
+            new_logits = self.interpolate_actions(logits=logits, first_targets=first_targets, exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :],
+                                                  inference_time=False)
             print(f'new_logits shape: {new_logits.shape}')
             # clamp the logits to avoid nan from log(0) and instabilities from log(1)
             epsilon = 1e-9
@@ -357,7 +357,7 @@ class Pi0FASTRegent(_model.BaseModel):
             # extract this observation
             prefix = f"retrieved_{i}_" if i < self.num_retrieved_observations else "query_"
             this_observation = _model.extract_observation_from_regent_observation(regent_observation, prefix)
-            this_observation = _model.preprocess_observation(
+            this_observation = _model.preprocess_observation_prefix_postfix(
                 None, this_observation, train=False, image_keys=list(this_observation.images.keys())
             )
 
@@ -370,14 +370,12 @@ class Pi0FASTRegent(_model.BaseModel):
 
             # get the length of a retrieved prompt
             if i == 0:
-                retrieval_prompt_len = this_observation.tokenized_prompt.shape[1]
+                retrieval_prompt_len = this_observation.tokenized_prompt_prefix.shape[1] + this_observation.tokenized_prompt_postfix.shape[1]
                 retrieval_block_len = this_prefix_token_embeddings.shape[1]
                 # get the first targets for the interpolation
                 if self.use_action_interpolation:
-                    first_targets = this_observation.tokenized_prompt[:, 1:]
-                    print(f'first_targets before one hot: {first_targets} [shape: {first_targets.shape}]')
                     first_targets = jax.nn.one_hot(
-                        first_targets,
+                        this_observation.tokenized_prompt_postfix,
                         self.PaliGemma.llm.module.vocab_size,
                     )
                 else:
@@ -385,7 +383,7 @@ class Pi0FASTRegent(_model.BaseModel):
 
             # get the length of the last/query prompt
             if i == num_observations - 1:
-                query_prompt_len = this_observation.tokenized_prompt.shape[1]
+                query_prompt_len = this_observation.tokenized_prompt_prefix.shape[1] + this_observation.tokenized_prompt_postfix.shape[1]
                 query_block_len = this_prefix_token_embeddings.shape[1]
                 print(f'query_prompt_len: {query_prompt_len}')
                 max_decoding_steps = retrieval_prompt_len - query_prompt_len
@@ -440,9 +438,8 @@ class Pi0FASTRegent(_model.BaseModel):
         if self.use_action_interpolation:
             print(f'step: 0 / {max_decoding_steps}')
             print(f'full first_targets shape: {first_targets.shape}')
-            print(f'exp_lamda_distances for only last query observation shape: {regent_observation.exp_lamda_distances[:, -1:, :].shape}')
-            last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, 0+query_prompt_len:1+query_prompt_len, :], 
-                                                  exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :]).astype(original_dtype)
+            last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, 0+query_prompt_len:1+query_prompt_len, :], exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :],
+                                                  inference_time=True).astype(original_dtype)
         else:
             last_logit = last_logit_old
         print(f'last_logit shape: {last_logit.shape}')
@@ -486,9 +483,8 @@ class Pi0FASTRegent(_model.BaseModel):
                 print(f'step: {step} / {max_decoding_steps}')
                 first_targets_slice = jax.lax.dynamic_slice(first_targets, (0, step+1+query_prompt_len, 0), (first_targets.shape[0], 1, first_targets.shape[2]))
                 print(f'first_targets_slice shape: {first_targets_slice.shape}')
-                print(f'exp_lamda_distances for only last query observation shape: {regent_observation.exp_lamda_distances[:, -1:, :].shape}')
-                last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets_slice,
-                                                    exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :]).astype(original_dtype)
+                last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets_slice, exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :],
+                                                      inference_time=True).astype(original_dtype)
             else:
                 last_logit = last_logit_old
             print(f'last_logit shape: {last_logit.shape}')

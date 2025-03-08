@@ -135,3 +135,98 @@ class FASTTokenizer:
         if isinstance(tokens, list):
             tokens = np.array(tokens)
         return self._paligemma_tokenizer.vocab_size() - 1 - self._fast_skip_tokens - tokens
+    
+
+class FASTTokenizerRegent:
+    def __init__(self, max_len: int = 256, fast_tokenizer_path: str = "physical-intelligence/fast"):
+        self._max_len = max_len
+
+        # Download base PaliGemma tokenizer
+        path = download.maybe_download("gs://big_vision/paligemma_tokenizer.model", gs={"token": "anon"})
+        with path.open("rb") as f:
+            self._paligemma_tokenizer = sentencepiece.SentencePieceProcessor(model_proto=f.read())
+
+        # Instantiate FAST tokenizer
+        self._fast_tokenizer = AutoProcessor.from_pretrained(fast_tokenizer_path, trust_remote_code=True)
+        self._fast_skip_tokens = 128  # Skip last 128 tokens in PaliGemma vocab since they are special tokens
+
+    def tokenize(
+        self, prompt: str, state: np.ndarray, actions: np.ndarray | None, 
+        dont_pad: bool = False,
+        dont_loss: bool = False,
+    ) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+        cleaned_text = prompt.lower().strip().replace("_", " ")
+
+        # Convention: state gets discretized into 256 discrete bins (assumed range after normalization: [-1, 1])
+        discretized_state = np.digitize(state, bins=np.linspace(-1, 1, 256 + 1)[:-1]) - 1
+
+        # Convention: prefix includes prompt and string-representation of state, followed by ';'
+        state_str = " ".join(map(str, discretized_state))
+        prefix = f"Task: {cleaned_text}, State: {state_str};\n"
+        prefix_tokens = self._paligemma_tokenizer.encode(prefix, add_bos=True)
+
+        if actions is not None:
+            # Tokenize actions with FAST tokenizer --> map to last tokens in PaliGemma vocab
+            action_tokens = self._fast_tokenizer(actions[None])[0]
+            action_tokens_in_pg = self._act_tokens_to_paligemma_tokens(action_tokens)
+
+            # Convention: postfix contains 'Action:' followed by FAST tokens, followed by '|'
+            postfix_tokens = (
+                self._paligemma_tokenizer.encode("Action: ")
+                + action_tokens_in_pg.tolist()
+                + self._paligemma_tokenizer.encode("|")
+            )
+        else:
+            postfix_tokens = []
+
+        # always pad prefix tokens to 1/2 the max length
+        assert self._max_len % 2 == 0, "max_len must be divisible by 2 to pad prefix tokens to 1/2 the max length and postfix tokens to the rest"
+        if len(prefix_tokens) < self._max_len // 2:
+            prefix_padding = [False] * (self._max_len // 2 - len(prefix_tokens))
+        else:
+            raise ValueError(f"Prefix tokens length ({len(prefix_tokens)}) exceeds 1/2 the max length ({self._max_len // 2})! Increase the `max_token_len` in your model config.")
+        # pad postfix tokens if not dont_pad
+        if dont_pad:
+            postfix_padding = []
+        else:
+            postfix_padding = [False] * (self._max_len - len(prefix_tokens) - len(prefix_padding) - len(postfix_tokens))            
+
+        # Create output token sequence & masks
+        # AR mask is 0 on prefix (bidirectional attention) and 1 on postfix (causal attention to all previous tokens)
+        tokens_len = len(prefix_tokens) + len(prefix_padding) + len(postfix_tokens) + len(postfix_padding)
+        assert tokens_len == self._max_len
+        token_mask = [True] * len(prefix_tokens) + [False] * len(prefix_padding) + [True] * len(postfix_tokens) + [False] * len(postfix_padding)
+        ar_mask = [0] * len(prefix_tokens) + [False] * len(prefix_padding) + [1] * len(postfix_tokens) + [False] * len(postfix_padding)
+        if dont_loss:
+            loss_mask = [False] * tokens_len # no loss on prefix or postfix
+        else:
+            loss_mask = [False] * len(prefix_tokens) + [False] * len(prefix_padding) + [True] * len(postfix_tokens) + [False] * len(postfix_padding)  # Loss on postfix_tokens only
+
+        # pad prefix and postfix tokens
+        prefix_tokens = prefix_tokens + prefix_padding
+        postfix_tokens = postfix_tokens + postfix_padding
+
+        return np.asarray(prefix_tokens), np.asarray(postfix_tokens), np.asarray(token_mask), np.asarray(ar_mask), np.asarray(loss_mask)
+
+    def extract_actions(self, tokens: np.ndarray, action_horizon: int, action_dim: int) -> np.ndarray:
+        # Decode predicted output tokens
+        decoded_tokens = self._paligemma_tokenizer.decode(tokens.tolist())
+
+        # Extract actions from FAST model outputs
+        if "Action: " not in decoded_tokens:
+            print(f"WARNING: No `Action: ` found in decoded tokens: {decoded_tokens}, so returning zeros")
+            return np.zeros((action_horizon, action_dim), dtype=np.float32)
+
+        # Extract actions from decoded tokens
+        raw_action_tokens = np.array(
+            self._paligemma_tokenizer.encode(decoded_tokens.split("Action: ")[1].split("|")[0].strip())
+        )
+        action_tokens = self._act_tokens_to_paligemma_tokens(raw_action_tokens)
+        return self._fast_tokenizer.decode(
+            [action_tokens.tolist()], time_horizon=action_horizon, action_dim=action_dim
+        )[0]
+
+    def _act_tokens_to_paligemma_tokens(self, tokens: np.ndarray | list[int]) -> np.ndarray:
+        if isinstance(tokens, list):
+            tokens = np.array(tokens)
+        return self._paligemma_tokenizer.vocab_size() - 1 - self._fast_skip_tokens - tokens
