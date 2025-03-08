@@ -127,7 +127,7 @@ python scripts/collect_trajectory.py -n 20
 
 # Process the collected demos; give a few prompts to randomly sample from for each demo (assumtpions: any of these prompts would fit the demo)
 cd regent_droid_preprocessing
-CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-04 --prompts "pick up the pokeball and put it in the bowl" "put the pokeball in the bowl" "pick up the pokeball and place it in the bowl" &> logs/process_collected_demos/pokeball_bowl.log &
+CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-04 --prompts "pick up the pokeball and put it in the bowl" "pick up the pokeball and place it in the bowl" &> logs/process_collected_demos/pokeball_bowl.txt &
 
 # After running the above command, you will see a new file in each demo directory as follows:
 # │   │   ├── demo_0_taken_at_2025-03-04_00-17-49

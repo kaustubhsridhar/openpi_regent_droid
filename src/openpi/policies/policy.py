@@ -16,7 +16,7 @@ from openpi.models import model as _model
 from openpi.models import pi0_fast_regent as _pi0_fast_regent
 from openpi.shared import array_typing as at
 from openpi.shared import nnx_utils
-from openpi.policies.utils import embed
+from openpi.policies.utils import embed, load_policy
 import os
 from autofaiss import build_index
 import logging
@@ -133,12 +133,13 @@ class RegentPolicy(BasePolicy):
                                             metric_type='l2',
                                             nb_cores=8, # default: None # "The number of cores to use, by default will use all cores" as seen in https://criteo.github.io/autofaiss/getting_started/quantization.html#the-build-index-command
                                             )
+        # self._og_policy = load_policy()
 
     def retrieve(self, obs: dict) -> dict:
         camera = obs.pop("camera")
         more_obs = {"inference_time": True}
         # embed
-        query_embedding = embed(obs["query_image"], self)
+        query_embedding = embed(obs["query_wrist_image"], self)
         assert query_embedding.shape == (1, 2048), f"{query_embedding.shape=}"
         # retrieve
         topk_distance, topk_indices = self._knn_index.search(query_embedding, self._knn_k)
@@ -153,7 +154,10 @@ class RegentPolicy(BasePolicy):
             more_obs[f"retrieved_{ct}_prompt"] = self._demos[ep_idx]["prompt"].item()
         # Compute exp_lamda_distances if use_action_interpolation
         if self._use_action_interpolation:
-            distances = [np.linalg.norm(self._demos[ep_idx]["embeddings"][step_idx:step_idx+1] - query_embedding) for ep_idx, step_idx in retrieved_indices[0]]
+            first_embedding = self._demos[retrieved_indices[0, 0, 0]]["embeddings"][retrieved_indices[0, 0, 1]]
+            distances = [0.0] + [np.linalg.norm(self._demos[ep_idx]["embeddings"][step_idx:step_idx+1] - first_embedding) for ep_idx, step_idx in retrieved_indices[0, 1:]]
+            distances.append(np.linalg.norm(query_embedding - first_embedding))
+            print(f'distances: {distances}')
             more_obs["exp_lamda_distances"] = np.exp(-self._lamda * np.array(distances)).reshape(-1, 1)
             print(f'exp_lamda_distances: {more_obs["exp_lamda_distances"]}')
         return {**obs, **more_obs}
