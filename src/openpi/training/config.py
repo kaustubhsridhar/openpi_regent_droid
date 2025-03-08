@@ -610,7 +610,7 @@ _CONFIGS = [
         # REGENT NOTE:
         # max_token_len is used to pad the "text, state, action" tokens to the same length for each retrieved/query state; see tokenizer
         model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=5,
-                                                  use_action_interpolation=True, lamda=10.0,
+                                                  use_action_interpolation=True, lamda=1.0,
                                                   paligemma_variant="gemma_2b_lora",
         ),
         data=RegentDroidDataConfig(

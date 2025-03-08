@@ -24,7 +24,7 @@ demo_path = "regent_droid_preprocessing/collected_demos/2025-03-04_00-48-37/proc
 demo = np.load(demo_path)
 
 # run inference on a example 
-camera = "right"
+camera = "left"
 example = {
         "query_image": demo[f"{camera}_image"][0],
         "query_wrist_image": demo[f"wrist_image"][0],
