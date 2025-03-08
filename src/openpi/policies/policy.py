@@ -16,7 +16,7 @@ from openpi.models import model as _model
 from openpi.models import pi0_fast_regent as _pi0_fast_regent
 from openpi.shared import array_typing as at
 from openpi.shared import nnx_utils
-from openpi.policies.utils import embed #, load_policy
+from openpi.policies.utils import embed
 import os
 from autofaiss import build_index
 import logging
@@ -232,6 +232,102 @@ class RegentPolicy(BasePolicy):
         final_outputs = self._output_transform(outputs)
         print(f'final_outputs: {final_outputs}')
         return final_outputs
+
+    @property
+    def metadata(self) -> dict[str, Any]:
+        return self._metadata
+    
+
+class RetrieveAndPlayPolicy(BasePolicy):
+    def __init__(
+        self,
+        rng: at.KeyArrayLike | None = None,
+        demos_dir: str | None = None,
+        action_horizon: int | None = None,
+        og_policy: Policy | None = None,
+    ):
+        self._rng = rng or jax.random.key(0)
+        self._action_horizon = action_horizon
+        self._metadata = {}
+        # setup demos for retrieval
+        print()
+        logger.info(f'loading demos from {demos_dir}...')
+        self._demos = {demo_idx: np.load(f"{demos_dir}/{folder}/processed_demo.npz") for demo_idx, folder in enumerate(os.listdir(demos_dir)) if os.path.isdir(f"{demos_dir}/{folder}")}
+        self._all_indices = np.array([(ep_idx, step_idx) for ep_idx in list(self._demos.keys()) for step_idx in range(self._demos[ep_idx]["actions"].shape[0])])
+        _all_embeddings = np.concatenate([self._demos[ep_idx]["embeddings"] for ep_idx in list(self._demos.keys())])
+        assert _all_embeddings.shape == (len(self._all_indices), 2048), f"{_all_embeddings.shape=}"
+        self._knn_k = 1 # retrieved the 1 nearest neighbor
+        print()
+        logger.info(f'building retrieval index...')
+        self._knn_index, knn_index_infos = build_index(embeddings=_all_embeddings, # Note: embeddings have to be float to avoid errors in autofaiss / embedding_reader!
+                                            save_on_disk=False,
+                                            min_nearest_neighbors_to_retrieve=self._knn_k + 5, # default: 20
+                                            max_index_query_time_ms=10, # default: 10
+                                            max_index_memory_usage="25G", # default: "16G"
+                                            current_memory_available="50G", # default: "32G"
+                                            metric_type='l2',
+                                            nb_cores=8, # default: None # "The number of cores to use, by default will use all cores" as seen in https://criteo.github.io/autofaiss/getting_started/quantization.html#the-build-index-command
+                                            )
+        # setup the og policy for embedding only
+        self._og_policy = og_policy
+
+    def retrieve(self, obs: dict) -> dict:
+        camera = obs.pop("camera")
+        more_obs = {"inference_time": True}
+        # embed
+        query_embedding = embed(obs["query_wrist_image"], self._og_policy)
+        assert query_embedding.shape == (1, 2048), f"{query_embedding.shape=}"
+        # retrieve
+        topk_distance, topk_indices = self._knn_index.search(query_embedding, self._knn_k)
+        retrieved_indices = self._all_indices[topk_indices]
+        assert retrieved_indices.shape == (1, self._knn_k, 2), f"{retrieved_indices.shape=}"
+        # collect retrieved info
+        for ct, (ep_idx, step_idx) in enumerate(retrieved_indices[0]):
+            for key in ["state", "wrist_image"]:
+                more_obs[f"retrieved_{ct}_{key}"] = self._demos[ep_idx][key][step_idx]
+            more_obs[f"retrieved_{ct}_actions"] = get_action_chunk_at_inference_time(self._demos[ep_idx]["actions"], step_idx, self._action_horizon)
+            more_obs[f"retrieved_{ct}_image"] = self._demos[ep_idx][f"{camera}_image"][step_idx]
+            more_obs[f"retrieved_{ct}_prompt"] = self._demos[ep_idx]["prompt"].item()
+        return {**obs, **more_obs}
+    
+    def save_obs(self, obs: dict):
+        fol = f"obs_logs"
+        os.makedirs(fol, exist_ok=True)
+        current_datettime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        # save all images in one png
+        big_image = []
+        big_wrist_image = []
+        for ct in range(self._knn_k):
+            big_image.append(obs[f"retrieved_{ct}_image"])
+            big_wrist_image.append(obs[f"retrieved_{ct}_wrist_image"])
+        big_image.append(obs["query_image"])
+        big_wrist_image.append(obs["query_wrist_image"])
+        final_image = np.concatenate((np.concatenate(big_image, axis=1), np.concatenate(big_wrist_image, axis=1)), axis=0)
+        Image.fromarray(final_image).save(f"{fol}/{current_datettime}.png")
+        # save everything else to json
+        with open(f"{fol}/{current_datettime}.json", "w") as f:
+            everything_else = {k: v.tolist() if isinstance(v, np.ndarray) else v for k, v in obs.items() if "image" not in k}
+            everything_else["final_image_shape"] = list(final_image.shape)
+            json.dump(everything_else, f, indent=4)
+        return current_datettime
+
+    @override
+    def infer(self, obs: dict, debug: bool = True) -> dict:  # type: ignore[misc]
+        # Retrieval
+        print()
+        logger.info(f'retrieving...')
+        obs = self.retrieve(obs)
+        # for debugging, save everything in obs
+        if debug:
+            logger.info(f'saving obs...')
+            current_datettime = self.save_obs(obs)
+        # simply return the retrieved 1 nearest neighbor's actions
+        self._rng, sample_rng = jax.random.split(self._rng)
+        outputs = {
+            "query_actions": obs["retrieved_0_actions"].reshape(self._action_horizon, 8)
+        }
+        print(f'outputs: {outputs}')
+        return outputs
 
     @property
     def metadata(self) -> dict[str, Any]:

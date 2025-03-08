@@ -12,7 +12,8 @@ import openpi.shared.download as download
 from openpi.training import checkpoints as _checkpoints
 from openpi.training import config as _config
 import openpi.transforms as transforms
-
+import logging
+logger = logging.getLogger()
 
 @dataclasses.dataclass
 class PolicyConfig:
@@ -95,7 +96,6 @@ def create_trained_regent_policy(
         train_config: The training config to use to create the model.
         checkpoint_dir: The directory to load the model from.
         demos_dir: The directory to load the demos from.
-        camera: The camera to use for the policy. Options are "left" and "right".
         norm_stats: The norm stats to use for the policy. If not provided, the norm stats will be loaded
             from the checkpoint directory.
     """
@@ -127,4 +127,27 @@ def create_trained_regent_policy(
         use_action_interpolation=train_config.model.use_action_interpolation,
         lamda=train_config.model.lamda,
         action_horizon=train_config.model.action_horizon,
+    )
+
+def create_retrieve_and_play_policy(
+    demos_dir: str,
+) -> _policy.RegentPolicy:
+    """Create a regent policy from a trained checkpoint.
+
+    Args:
+        train_config: The training config to use to create the model.
+        demos_dir: The directory to load the demos from.
+    """
+    # set up og policy for image embedding only
+    logger.info('loading the og policy for image embedding only')
+    policy_name = "pi0_fast_droid"
+    train_config = _config.get_config(policy_name)
+    checkpoint_dir = download.maybe_download(f"s3://openpi-assets/checkpoints/{policy_name}")
+    og_policy = create_trained_policy(train_config, checkpoint_dir)
+    print()
+
+    return _policy.RetrieveAndPlayPolicy(
+        demos_dir=demos_dir,
+        action_horizon=10,
+        og_policy=og_policy,
     )

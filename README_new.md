@@ -74,9 +74,9 @@ python quick_view_retrieval_preprocessed_sequences.py --chosen_id scene_id_and_o
 * train pi0_fast_droid_regent
 ```bash
 # retrieval augmented finetuning
-CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=fourth_try_query_loss_only --overwrite &> logs/log_4.txt &
+CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=sixth_try_query_loss_only_more_capacity --overwrite &> logs/log_6.txt &
 # adding interpolation below
-CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=fourth_try_query_loss_only_with_interpolation --overwrite &> logs/log_with_interpolation_4.txt &
+CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=sixth_try_query_loss_only_with_interpolation_more_capacity --overwrite &> logs/log_with_interpolation_6.txt &
 ```
 
 ## inference 
@@ -136,7 +136,9 @@ CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collecte
 
 * example inference
 ```bash
-CUDA_VISIBLE_DEVICES=0 nohup python -u scripts/test_pi0_fast_regent.py &> log_test.txt &
+CUDA_VISIBLE_DEVICES=8 python -u scripts/test_pi0_fast_regent.py
+CUDA_VISIBLE_DEVICES=8 python -u scripts/test_pi0_fast_regent_no_interpolation.py
+CUDA_VISIBLE_DEVICES=8 python -u scripts/test_retrieve_and_play.py
 ```
 
 * run pi0 baseline on the robot
@@ -160,6 +162,9 @@ CUDA_VISIBLE_DEVICES=8 uv run scripts/serve_policy_regent.py policy:checkpoint -
 
 # (Alternatively) Run the server on ivy for regent with interpolation
 CUDA_VISIBLE_DEVICES=8 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/fourth_try_query_loss_only_with_interpolation/2000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-04
+
+# (Alternatively) Run the server on ivy for retrieve and play
+CUDA_VISIBLE_DEVICES=8 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-04
 
 # Run the client on the franka robot
 # Terminal 1:

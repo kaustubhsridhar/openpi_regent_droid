@@ -565,7 +565,7 @@ _CONFIGS = [
         # REGENT NOTE:
         # max_token_len is used to pad the "text, state, action" tokens to the same length for each retrieved/query state; see tokenizer
         model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=5,
-                                                  paligemma_variant="gemma_2b_lora",
+                                                  paligemma_variant="gemma_2b_lora_more_capacity",
         ),
         data=RegentDroidDataConfig(
             repo_id=None,
@@ -586,7 +586,7 @@ _CONFIGS = [
         # you chose above.
         freeze_filter=pi0_fast_regent.Pi0FASTRegentConfig(
             action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=5,
-            paligemma_variant="gemma_2b_lora",
+            paligemma_variant="gemma_2b_lora_more_capacity",
         ).get_freeze_filter_with_frozen_img_encoder(),
         # Turn off EMA for LoRA finetuning.
         ema_decay=None,
@@ -611,7 +611,7 @@ _CONFIGS = [
         # max_token_len is used to pad the "text, state, action" tokens to the same length for each retrieved/query state; see tokenizer
         model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=5,
                                                   use_action_interpolation=True, lamda=10.0,
-                                                  paligemma_variant="gemma_2b_lora",
+                                                  paligemma_variant="gemma_2b_lora_more_capacity",
         ),
         data=RegentDroidDataConfig(
             repo_id=None,
@@ -632,7 +632,7 @@ _CONFIGS = [
         # you chose above.
         freeze_filter=pi0_fast_regent.Pi0FASTRegentConfig(
             action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=5,
-            paligemma_variant="gemma_2b_lora",
+            paligemma_variant="gemma_2b_lora_more_capacity",
         ).get_freeze_filter_with_frozen_img_encoder(),
         # Turn off EMA for LoRA finetuning.
         ema_decay=None,
