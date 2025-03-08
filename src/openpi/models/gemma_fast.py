@@ -85,8 +85,8 @@ def get_config(variant):
                 "scan": True,
                 "remat_policy": "nothing_saveable",
                 "lora_configs": {
-                    "attn": lora.LoRAConfig(rank=256, alpha=256.0),
-                    "ffn": lora.LoRAConfig(rank=256, alpha=256.0),
+                    "attn": lora.LoRAConfig(rank=512, alpha=512.0),
+                    "ffn": lora.LoRAConfig(rank=512, alpha=512.0),
                 },
             }
         )
