@@ -16,7 +16,7 @@ from openpi.models import model as _model
 from openpi.models import pi0_fast_regent as _pi0_fast_regent
 from openpi.shared import array_typing as at
 from openpi.shared import nnx_utils
-from openpi.policies.utils import embed, load_policy
+from openpi.policies.utils import embed #, load_policy
 import os
 from autofaiss import build_index
 import logging

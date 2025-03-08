@@ -10,9 +10,9 @@ from openpi.shared.image_tools import resize_with_pad
 import einops
 import jax.numpy as jnp
 import logging
-from openpi.training import config
-from openpi.policies import policy_config
-from openpi.shared import download
+# from openpi.training import config
+# from openpi.policies import policy_config
+# from openpi.shared import download
 
 def init_logging():
     """Custom logging format for better readability."""
@@ -58,11 +58,11 @@ def process_inputs(inputs):
 		inputs = resize_with_pad(inputs, 224, 224)
 	return inputs
 
-def load_policy(policy_name="pi0_fast_droid"):
-	train_config = config.get_config(policy_name)
-	checkpoint_dir = download.maybe_download(f"s3://openpi-assets/checkpoints/{policy_name}")
-	policy = policy_config.create_trained_policy(train_config, checkpoint_dir)
-	return policy
+# def load_policy(policy_name="pi0_fast_droid"):
+# 	train_config = config.get_config(policy_name)
+# 	checkpoint_dir = download.maybe_download(f"s3://openpi-assets/checkpoints/{policy_name}")
+# 	policy = policy_config.create_trained_policy(train_config, checkpoint_dir)
+# 	return policy
 
 def embed(inputs, policy, return_bfloat16: bool = False):
 	inputs = process_inputs(inputs)
