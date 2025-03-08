@@ -126,4 +126,5 @@ def create_trained_regent_policy(
         demos_dir=demos_dir,
         use_action_interpolation=train_config.model.use_action_interpolation,
         lamda=train_config.model.lamda,
+        action_horizon=train_config.model.action_horizon,
     )

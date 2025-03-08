@@ -83,6 +83,17 @@ class FakeDataset(Dataset):
         return self._num_samples
     
 
+def get_action_chunk(action_joint_vels, action_gripper_pos, step_idx, action_horizon):
+    num_steps = len(action_joint_vels)
+    action_chunk = []
+    for i in range(action_horizon):
+        if step_idx+i < num_steps:
+            action_chunk.append(np.concatenate([action_joint_vels[step_idx+i], action_gripper_pos[step_idx+i]], axis=0))
+        else:
+            action_chunk.append(np.concatenate([np.zeros(action_joint_vels.shape[-1], dtype=np.float32), action_gripper_pos[-1]], axis=0))
+    return np.concatenate(action_chunk, axis=0)
+    
+
 class RegentDroidDataset(Dataset):
     def __init__(self, model_config: _pi0_fast_regent.Pi0FASTRegentConfig):
         # setup
@@ -129,6 +140,7 @@ class RegentDroidDataset(Dataset):
         self.all_query_indices = all_query_indices
         self.use_action_interpolation = model_config.use_action_interpolation
         self.lamda = model_config.lamda
+        self.action_horizon = model_config.action_horizon
 
     def __getitem__(self, index: SupportsIndex) -> dict:
         retrieved_indices = self.all_retrieved_indices[index, :, :]
@@ -147,7 +159,7 @@ class RegentDroidDataset(Dataset):
             data[f"{prefix}image"] = ep_data[ep_idx][random_ext_img][step_idx]
             data[f"{prefix}wrist_image"] = ep_data[ep_idx]["observation__wrist_image_left"][step_idx]
             data[f"{prefix}state"] = np.concatenate([ep_data[ep_idx]["observation__joint_position"][step_idx], ep_data[ep_idx]["observation__gripper_position"][step_idx]], axis=0)
-            data[f"{prefix}actions"] = np.concatenate([ep_data[ep_idx]["action_dict__joint_velocity"][step_idx], ep_data[ep_idx]["action_dict__gripper_position"][step_idx]], axis=-1)
+            data[f"{prefix}actions"] = get_action_chunk(ep_data[ep_idx]["action_dict__joint_velocity"], ep_data[ep_idx]["action_dict__gripper_position"], step_idx, self.action_horizon)
             data[f"{prefix}prompt"] = ep_metadata[ep_idx][random_lang_inst]
             if ct == 0:
                 first_embedding = ep_embeddings[ep_idx][step_idx]
@@ -158,7 +170,7 @@ class RegentDroidDataset(Dataset):
         data[f"{prefix}image"] = ep_data[query_ep_idx][random_ext_img][query_step_idx]
         data[f"{prefix}wrist_image"] = ep_data[query_ep_idx]["observation__wrist_image_left"][query_step_idx]
         data[f"{prefix}state"] = np.concatenate([ep_data[query_ep_idx]["observation__joint_position"][query_step_idx], ep_data[query_ep_idx]["observation__gripper_position"][query_step_idx]], axis=0)
-        data[f"{prefix}actions"] = np.concatenate([ep_data[query_ep_idx]["action_dict__joint_velocity"][query_step_idx], ep_data[query_ep_idx]["action_dict__gripper_position"][query_step_idx]], axis=0)
+        data[f"{prefix}actions"] = get_action_chunk(ep_data[query_ep_idx]["action_dict__joint_velocity"], ep_data[query_ep_idx]["action_dict__gripper_position"], query_step_idx, self.action_horizon)
         data[f"{prefix}prompt"] = ep_metadata[query_ep_idx][random_lang_inst]
         embeddings.append(ep_embeddings[query_ep_idx][query_step_idx])
 

@@ -78,6 +78,17 @@ class Policy(BasePolicy):
         return self._metadata
     
 
+def get_action_chunk_at_inference_time(actions, step_idx, action_horizon):
+    num_steps = len(actions)
+    action_chunk = []
+    for i in range(action_horizon):
+        if step_idx+i < num_steps:
+            action_chunk.append(actions[step_idx+i])
+        else:
+            action_chunk.append(np.concatenate([np.zeros(actions.shape[-1]-1, dtype=np.float32), actions[-1, -1:]], axis=0)) # combines 0 joint vels with last gripper pos
+    return np.concatenate(action_chunk, axis=0)
+    
+
 class RegentPolicy(BasePolicy):
     def __init__(
         self,
@@ -91,6 +102,7 @@ class RegentPolicy(BasePolicy):
         demos_dir: str | None = None,
         use_action_interpolation: bool | None = None,
         lamda: float | None = None,
+        action_horizon: int | None = None,
     ):
         self._sample_actions = nnx_utils.module_jit(model.sample_actions)
         self._input_transform = _transforms.compose(transforms)
@@ -101,6 +113,7 @@ class RegentPolicy(BasePolicy):
         self._model = model
         self._use_action_interpolation = use_action_interpolation
         self._lamda = lamda
+        self._action_horizon = action_horizon
         # setup demos for retrieval
         print()
         logger.info(f'loading demos from {demos_dir}...')
@@ -133,8 +146,9 @@ class RegentPolicy(BasePolicy):
         assert retrieved_indices.shape == (1, self._knn_k, 2), f"{retrieved_indices.shape=}"
         # collect retrieved info
         for ct, (ep_idx, step_idx) in enumerate(retrieved_indices[0]):
-            for key in ["state", "actions", "wrist_image"]:
+            for key in ["state", "wrist_image"]:
                 more_obs[f"retrieved_{ct}_{key}"] = self._demos[ep_idx][key][step_idx]
+            more_obs[f"retrieved_{ct}_actions"] = get_action_chunk_at_inference_time(self._demos[ep_idx]["actions"], step_idx, self._action_horizon)
             more_obs[f"retrieved_{ct}_image"] = self._demos[ep_idx][f"{camera}_image"][step_idx]
             more_obs[f"retrieved_{ct}_prompt"] = self._demos[ep_idx]["prompt"].item()
         # Compute exp_lamda_distances if use_action_interpolation
