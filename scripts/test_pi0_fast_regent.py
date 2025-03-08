@@ -8,8 +8,8 @@ init_logging()
 
 # params
 config_name = "pi0_fast_droid_regent_with_interpolation"
-exp_name = "second_try_with_interpolation"
-checkpoint_step = 1000
+exp_name = "fourth_try_query_loss_only_with_interpolation"
+checkpoint_step = 2000
 demos_dir = "regent_droid_preprocessing/collected_demos/2025-03-04"
 
 # setup
@@ -33,5 +33,3 @@ example = {
         "camera": camera
     }
 action_chunk = policy.infer(example)["query_actions"] # camera can be "left" or "right"
-print(f'{action_chunk.shape=}')
-print(f'{action_chunk=}')

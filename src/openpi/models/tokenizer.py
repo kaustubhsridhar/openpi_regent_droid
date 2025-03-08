@@ -194,7 +194,8 @@ class FASTTokenizerRegent:
         # Create output token sequence & masks
         # AR mask is 0 on prefix (bidirectional attention) and 1 on postfix (causal attention to all previous tokens)
         tokens_len = len(prefix_tokens) + len(prefix_padding) + len(postfix_tokens) + len(postfix_padding)
-        assert tokens_len == self._max_len
+        if not dont_pad:
+            assert tokens_len == self._max_len
         token_mask = [True] * len(prefix_tokens) + [False] * len(prefix_padding) + [True] * len(postfix_tokens) + [False] * len(postfix_padding)
         ar_mask = [0] * len(prefix_tokens) + [False] * len(prefix_padding) + [1] * len(postfix_tokens) + [False] * len(postfix_padding)
         if dont_loss:
@@ -206,7 +207,13 @@ class FASTTokenizerRegent:
         prefix_tokens = prefix_tokens + prefix_padding
         postfix_tokens = postfix_tokens + postfix_padding
 
-        return np.asarray(prefix_tokens), np.asarray(postfix_tokens), np.asarray(token_mask), np.asarray(ar_mask), np.asarray(loss_mask)
+        if len(postfix_tokens) == 0:
+            # happens at inference time when actions are not provided and dont_pad is True
+            postfix_tokens = None
+        else:
+            postfix_tokens = np.asarray(postfix_tokens)
+
+        return np.asarray(prefix_tokens), postfix_tokens, np.asarray(token_mask), np.asarray(ar_mask), np.asarray(loss_mask)
 
     def extract_actions(self, tokens: np.ndarray, action_horizon: int, action_dim: int) -> np.ndarray:
         # Decode predicted output tokens
@@ -218,13 +225,20 @@ class FASTTokenizerRegent:
             return np.zeros((action_horizon, action_dim), dtype=np.float32)
 
         # Extract actions from decoded tokens
+        print(f'decoded_tokens: {decoded_tokens}')
         raw_action_tokens = np.array(
             self._paligemma_tokenizer.encode(decoded_tokens.split("Action: ")[1].split("|")[0].strip())
         )
+        print(f'raw_action_tokens: {raw_action_tokens}')
         action_tokens = self._act_tokens_to_paligemma_tokens(raw_action_tokens)
-        return self._fast_tokenizer.decode(
+        print(f'action_tokens: {action_tokens}')
+        outputs = self._fast_tokenizer.decode(
             [action_tokens.tolist()], time_horizon=action_horizon, action_dim=action_dim
         )[0]
+        print(f'outputs before normalization: {outputs}')
+        assert outputs.shape == (action_horizon, action_dim)
+        outputs = outputs.reshape(-1)
+        return outputs
 
     def _act_tokens_to_paligemma_tokens(self, tokens: np.ndarray | list[int]) -> np.ndarray:
         if isinstance(tokens, list):

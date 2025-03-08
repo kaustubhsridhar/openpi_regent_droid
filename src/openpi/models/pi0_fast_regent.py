@@ -191,10 +191,13 @@ class Pi0FASTRegent(_model.BaseModel):
 
         # add tokenized inputs
         assert obs.tokenized_prompt_prefix is not None, "Tokenized prompt prefix is required"
-        assert obs.tokenized_prompt_postfix is not None, "Tokenized prompt postfix is required"
+        # assert obs.tokenized_prompt_postfix is not None, "Tokenized prompt postfix is required" # postfix can be None at inference time
         assert obs.tokenized_prompt_mask is not None, "Tokenized prompt mask is required"
         assert obs.token_ar_mask is not None, "Token auto-regressive mask is required"
-        tokenized_inputs_embeddings = self.PaliGemma.llm(jnp.concatenate([obs.tokenized_prompt_prefix, obs.tokenized_prompt_postfix], axis=1), embed_only=True)
+        if obs.tokenized_prompt_postfix is not None:
+            tokenized_inputs_embeddings = self.PaliGemma.llm(jnp.concatenate([obs.tokenized_prompt_prefix, obs.tokenized_prompt_postfix], axis=1), embed_only=True)
+        else:
+            tokenized_inputs_embeddings = self.PaliGemma.llm(obs.tokenized_prompt_prefix, embed_only=True)
         token_embeddings.append(tokenized_inputs_embeddings)
         input_mask.append(obs.tokenized_prompt_mask)
         ar_mask.append(obs.token_ar_mask)
@@ -246,7 +249,8 @@ class Pi0FASTRegent(_model.BaseModel):
     def interpolate_actions(self, logits, first_targets, exp_lamda_distances, inference_time=False):
         # assert the input shapes
         if inference_time:
-            assert logits.shape == (batch_size, 1, vocab_size)
+            assert logits.shape[1] == 1
+            batch_size, _, vocab_size = logits.shape
             assert first_targets.shape == (batch_size, 1, vocab_size)
             assert exp_lamda_distances.shape == (batch_size, 1, 1)
 
@@ -383,7 +387,10 @@ class Pi0FASTRegent(_model.BaseModel):
 
             # get the length of the last/query prompt
             if i == num_observations - 1:
-                query_prompt_len = this_observation.tokenized_prompt_prefix.shape[1] + this_observation.tokenized_prompt_postfix.shape[1]
+                if this_observation.tokenized_prompt_postfix is not None:
+                    query_prompt_len = this_observation.tokenized_prompt_prefix.shape[1] + this_observation.tokenized_prompt_postfix.shape[1]
+                else:
+                    query_prompt_len = this_observation.tokenized_prompt_prefix.shape[1]
                 query_block_len = this_prefix_token_embeddings.shape[1]
                 print(f'query_prompt_len: {query_prompt_len}')
                 max_decoding_steps = retrieval_prompt_len - query_prompt_len
@@ -438,7 +445,7 @@ class Pi0FASTRegent(_model.BaseModel):
         if self.use_action_interpolation:
             print(f'step: 0 / {max_decoding_steps}')
             print(f'full first_targets shape: {first_targets.shape}')
-            last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, 0+query_prompt_len:1+query_prompt_len, :], exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :],
+            last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets[:, 0:1, :], exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :],
                                                   inference_time=True).astype(original_dtype)
         else:
             last_logit = last_logit_old
@@ -470,9 +477,7 @@ class Pi0FASTRegent(_model.BaseModel):
                 < (jnp.broadcast_to(prefill_size + step + 1, (prefix_start.shape[0], 1, 1))),
             )
             print(f'mask shape: {mask.shape}')
-            print(f'mask values: {mask}')
             print(f'positions shape: {positions.shape}')
-            print(f'positions values: {positions}')
             print(f'token_embedding shape: {token_embedding.shape}')
             last_logit_old, kv_cache, _ = self.PaliGemma.llm(
                 embedded_prefix=token_embedding, mask=mask, positions=positions, decode=True, kv_cache=cache
@@ -481,7 +486,7 @@ class Pi0FASTRegent(_model.BaseModel):
             print(f'last_logit_old shape: {last_logit_old.shape}')
             if self.use_action_interpolation:
                 print(f'step: {step} / {max_decoding_steps}')
-                first_targets_slice = jax.lax.dynamic_slice(first_targets, (0, step+1+query_prompt_len, 0), (first_targets.shape[0], 1, first_targets.shape[2]))
+                first_targets_slice = jax.lax.dynamic_slice(first_targets, (0, step+1, 0), (first_targets.shape[0], 1, first_targets.shape[2]))
                 print(f'first_targets_slice shape: {first_targets_slice.shape}')
                 last_logit = self.interpolate_actions(logits=last_logit_old, first_targets=first_targets_slice, exp_lamda_distances=regent_observation.exp_lamda_distances[:, -1:, :],
                                                       inference_time=True).astype(original_dtype)

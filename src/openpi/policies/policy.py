@@ -174,7 +174,7 @@ class RegentPolicy(BasePolicy):
         Image.fromarray(final_image).save(f"{fol}/{current_datettime}.png")
         # save everything else to json
         with open(f"{fol}/{current_datettime}.json", "w") as f:
-            everything_else = {k: list(v) if isinstance(v, np.ndarray) else v for k, v in obs.items() if "image" not in k}
+            everything_else = {k: v.tolist() if isinstance(v, np.ndarray) else v for k, v in obs.items() if "image" not in k}
             everything_else["final_image_shape"] = list(final_image.shape)
             json.dump(everything_else, f, indent=4)
         return current_datettime
@@ -185,7 +185,10 @@ class RegentPolicy(BasePolicy):
         every_tokenized_input = {}
         for k, v in inputs.items():
             if "token" in k:
-                assert isinstance(v, np.ndarray) and v.dtype in [np.bool_, np.int64]
+                if v is None:
+                    every_tokenized_input[k] = v
+                    continue
+                assert isinstance(v, np.ndarray) and v.dtype in [np.bool_, np.int64], f"{k=}, {v.dtype=}"
                 every_tokenized_input[k] = v.astype(np.int32).tolist()
         with open(f"{fol}/{current_datettime}_token_inputs.json", "w") as f:
             json.dump(every_tokenized_input, f, indent=4)
@@ -222,11 +225,8 @@ class RegentPolicy(BasePolicy):
         # Unbatch and convert to np.ndarray.
         logger.info(f'unbatching...')
         outputs = jax.tree.map(lambda x: np.asarray(x[0, ...]), outputs)
-
-        print(f'outputs: {outputs}')
-
         final_outputs = self._output_transform(outputs)
-        logger.info(f'final_outputs: {final_outputs}')
+        print(f'final_outputs: {final_outputs}')
         return final_outputs
 
     @property
