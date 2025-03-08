@@ -76,7 +76,7 @@ python quick_view_retrieval_preprocessed_sequences.py --chosen_id scene_id_and_o
 # retrieval augmented finetuning
 CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=fourth_try_query_loss_only --overwrite &> logs/log_4.txt &
 # adding interpolation below
-CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=fifth_try_query_loss_only_with_interpolation_and_lamda_one --overwrite &> logs/log_with_interpolation_5.txt &
+CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=fourth_try_query_loss_only_with_interpolation --overwrite &> logs/log_with_interpolation_4.txt &
 ```
 
 ## inference 
