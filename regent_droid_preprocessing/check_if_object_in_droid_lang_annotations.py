@@ -6,7 +6,7 @@ import json
 import jax
 import jax.numpy as jnp
 from tqdm import tqdm
-from utils import myprint
+from openpi.policies.utils import myprint
 import random
 import os
 import io

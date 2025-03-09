@@ -1,7 +1,7 @@
 import numpy as np
 from collections import defaultdict
 import json
-from utils import myprint
+from openpi.policies.utils import myprint
 import os
 import argparse
 from PIL import Image

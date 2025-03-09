@@ -3,7 +3,7 @@ import tensorflow_datasets as tfds
 import numpy as np
 import json
 import argparse
-from utils import myprint
+from openpi.policies.utils import myprint
 os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"] = "false" # This prevents JAX from preallocating most of the GPU memory.
 
 # args

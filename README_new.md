@@ -40,16 +40,16 @@ python check_if_object_in_droid_lang_annotations.py --object_name pinecone
 
 * Preprocess the droid dataset groupings, regent-style! (ie by embedding images and doing retrieval to setup training sequences)
 ```bash
-# Embed (comment out the retrieval part in the code)
-CUDA_VISIBLE_DEVICES=${ITEMP} nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 &> logs/embed/scene_id_and_object_name_50_${ITEMP}th_SetOf20.log &
+# Embed (comment out the retrieval part in the main function)
+CUDA_VISIBLE_DEVICES=8 nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --num_episodes_to_retrieve_from_in_each_grouping 50 &> logs/embed/scene_id_and_object_name.log &
 
-# Retrieve (uncomment the retrieval part in the code and comment out the embedding part)
+# Retrieve (uncomment the retrieval part in the main function and comment out the embedding part)
 # for different embedding types, you can do:
-CUDA_VISIBLE_DEVICES=0 nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --embedding_type embeddings__exterior_image_1_left &> logs/retrieval_preprocessing/scene_id_and_object_name_50_exterior_image_1_left.log &
+nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --num_episodes_to_retrieve_from_in_each_grouping 20 --embedding_type embeddings__exterior_image_1_left &> logs/retrieval_preprocessing/scene_id_and_object_name_20_exterior_image_1_left.log &
 
-CUDA_VISIBLE_DEVICES=1 nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --embedding_type embeddings__wrist_image_left &> logs/retrieval_preprocessing/scene_id_and_object_name_50_wrist_image_left.log &
+nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --num_episodes_to_retrieve_from_in_each_grouping 20 --embedding_type embeddings__wrist_image_left &> logs/retrieval_preprocessing/scene_id_and_object_name_50_20_wrist_image_left.log &
 
-CUDA_VISIBLE_DEVICES=2 nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --embedding_type both &> logs/retrieval_preprocessing/scene_id_and_object_name_50_both.log &
+nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --num_episodes_to_retrieve_from_in_each_grouping 20 --embedding_type both &> logs/retrieval_preprocessing/scene_id_and_object_name_20_both.log &
 
 # Later write a single command with both embedding and retrieval uncommented below
 ## TODO
@@ -74,9 +74,11 @@ python quick_view_retrieval_preprocessed_sequences.py --chosen_id scene_id_and_o
 * train pi0_fast_droid_regent
 ```bash
 # retrieval augmented finetuning
-CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=seventh_try_query_loss_only_more_capacity --overwrite &> logs/log_7.txt &
+CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=ninth_try --overwrite &> logs/log_9.txt &
 # adding interpolation below
-CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=seventh_try_query_loss_only_with_interpolation_more_capacity --overwrite &> logs/log_with_interpolation_7.txt &
+CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=ninth_try_with_interpolation --overwrite &> logs/log_with_interpolation_9.txt &
+# lower lamda below
+CUDA_VISIBLE_DEVICES=0,1 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_lamda1 --exp-name=eight_try_with_interpolation_lamda1 --overwrite &> logs/log_with_interpolation_8_lamda1.txt &
 ```
 
 ## inference 
@@ -97,9 +99,10 @@ python scripts/collect_trajectory.py -n 20
 # You can see output at franka_ksridhar/data/success/date
 
 # copy the demos from the franka laptop to the folder here
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/2025-03-09 regent_droid_preprocessing/collected_demos/
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/2025-03-09* regent_droid_preprocessing/collected_demos/
 
 rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results/videos/0309/* videos_dont_delete/pi0_0309_pokeball_bowl/
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results/videos/0309/* videos_dont_delete/pi0_0309_idli_plate/
 
 rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_rnp/videos/0309/* videos_dont_delete/rnp_0309_pokeball_bowl/
 ```
@@ -138,7 +141,7 @@ CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collecte
 
 CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-08 --prompts "pick up the pokeball and put it in the bowl" &> logs/process_collected_demos/pokeball_bowl_2objs_leftright.txt &
 
-CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-09 --prompts "pick up the pokeball and put it in the bowl" &> logs/process_collected_demos/pokeball_bowl_3objs.txt &
+CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-09_bowlx1y0 --prompts "pick up the pokeball and put it in the bowl" &> logs/process_collected_demos/pokeball_bowl_3objs_bowlx1y0.txt &
 
 # After running the above command, you will see a new file in each demo directory as follows:
 # │   │   ├── demo_0_taken_at_2025-03-04_00-17-49
@@ -157,6 +160,10 @@ CUDA_VISIBLE_DEVICES=8 python -u scripts/test_retrieve_and_play.py
 # Run the server on ivy
 CUDA_VISIBLE_DEVICES=5 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid --policy.dir=s3://openpi-assets/checkpoints/pi0_fast_droid
 
+# If you want to run the server on the workstation in the lab
+cd ~/Projects/openpi-main/ 
+./run_pi0_exx.sh
+
 # Run the client on the franka robot
 # Terminal 1:
 startserver
@@ -164,6 +171,9 @@ startserver
 cd ~/droid_pi0/
 conda activate droid_pi0
 python3 scripts/main.py --remote_host=158.130.55.26 --remote_port=8000 --external_camera="right"
+
+# change the ip if you are running on the workstation in the lab
+python3 scripts/main.py --remote_host=158.130.52.14 --remote_port=8000 --external_camera="right"
 ```
 
 * run regent inference on the robot

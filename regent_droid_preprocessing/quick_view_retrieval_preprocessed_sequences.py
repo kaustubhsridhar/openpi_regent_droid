@@ -1,7 +1,7 @@
 import numpy as np
 from collections import defaultdict
 import json
-from utils import myprint, embed, load_policy, embed_with_batches
+from openpi.policies.utils import myprint, embed, load_dinov2, embed_with_batches
 import os
 import argparse
 from quick_view_grouping import get_ep_idx_to_info, get_chosen_id_to_ep_idxs

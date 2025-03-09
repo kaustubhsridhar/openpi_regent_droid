@@ -5,7 +5,7 @@ import json
 import numpy as np
 import os
 import logging
-from utils import embed
+from openpi.policies.utils import embed, EMBED_DIM
 logger = logging.getLogger("openpi")
 logger.setLevel(logging.INFO) # setting logging level to info
 os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"] = "false" # This prevents JAX from preallocating most of the GPU memory.
@@ -54,5 +54,5 @@ print(f'{action_chunk.shape=}\n') # (10, 8)
 # embeddings
 embed_exterior_image_1_left = embed(example["observation/exterior_image_1_left"], policy)
 embed_wrist_image_left = embed(example["observation/wrist_image_left"], policy)
-print(f'{embed_exterior_image_1_left.shape=}, {embed_exterior_image_1_left.dtype=}, {type(embed_exterior_image_1_left)=}\n') # (1, 2048), bfloat16, <class 'numpy.ndarray'>
-print(f'{embed_wrist_image_left.shape=}, {embed_wrist_image_left.dtype=}, {type(embed_wrist_image_left)=}\n') # (1, 2048), bfloat16, <class 'numpy.ndarray'>
+print(f'{embed_exterior_image_1_left.shape=}, {embed_exterior_image_1_left.dtype=}, {type(embed_exterior_image_1_left)=}\n') # (1, EMBED_DIM), bfloat16, <class 'numpy.ndarray'>
+print(f'{embed_wrist_image_left.shape=}, {embed_wrist_image_left.dtype=}, {type(embed_wrist_image_left)=}\n') # (1, EMBED_DIM), bfloat16, <class 'numpy.ndarray'>

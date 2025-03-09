@@ -99,29 +99,42 @@ class RegentDroidDataset(Dataset):
         # setup
         num_retrieved_observations = model_config.num_retrieved_observations
         knn_k = 100
+        assert num_retrieved_observations <= knn_k
         embedding_type = "embeddings__wrist_image_left" # retrieval based on embeddings of wrist images
-        indices_fol = f"regent_droid_preprocessing/droid_new_broken_up_indices/chosenIDscene_id_and_object_name_totepisodes95658_numepisodes2retrievefrom50_embtype{embedding_type}_knnk100"
+        indices_and_dists_fol = f"regent_droid_preprocessing/droid_new_broken_up_indices_and_distances/chosenIDscene_id_and_object_name_totepisodes95658_minnumepisodes50_numepisodes2retrievefrom20_embtype{embedding_type}_knnk100"
         embeddings_fol = "regent_droid_preprocessing/droid_new_broken_up_embeddings/chosenIDscene_id_and_object_name_totepisodes95658_minnumepisodes50"
 
-        # load indices
+        # load indices_and_dists
         all_retrieved_indices = []
         all_query_indices = []
-        indices_files = os.listdir(indices_fol)
-        indices_files = [os.path.join(indices_fol, f) for f in indices_files]
+        all_distances = []
+        indices_files = os.listdir(indices_and_dists_fol)
+        indices_files = [os.path.join(indices_and_dists_fol, f) for f in indices_files]
         for f in indices_files:
-            indices = np.load(f)
-            query_indices, retrieved_indices = indices["query_indices"], indices["retrieved_indices"][:, :num_retrieved_observations, :]
+            indices_and_dists = np.load(f)
+            query_indices, retrieved_indices = indices_and_dists["query_indices"], indices_and_dists["retrieved_indices"][:, :num_retrieved_observations, :]
+            distances = np.concatenate((indices_and_dists["distances"][:, :num_retrieved_observations], indices_and_dists["distances"][:, -1:]), axis=1)
             num_steps = query_indices.shape[0]
             assert retrieved_indices.shape == (num_steps, num_retrieved_observations, 2) and retrieved_indices.dtype == np.int32 
             assert query_indices.shape == (num_steps, 2) and query_indices.dtype == np.int32
             all_retrieved_indices.append(retrieved_indices)
             all_query_indices.append(query_indices)
+            all_distances.append(distances)
+
         all_retrieved_indices = np.concatenate(all_retrieved_indices, axis=0)
         all_query_indices = np.concatenate(all_query_indices, axis=0)
+        all_distances = np.concatenate(all_distances, axis=0)
         len_dataset = all_retrieved_indices.shape[0]
         print(f"len_dataset: {len_dataset}")
         assert all_retrieved_indices.shape == (len_dataset, num_retrieved_observations, 2) and all_retrieved_indices.dtype == np.int32
         assert all_query_indices.shape == (len_dataset, 2) and all_query_indices.dtype == np.int32
+        assert all_distances.shape == (len_dataset, num_retrieved_observations + 1) and all_distances.dtype == np.float64
+        
+        # normalize all_distances and convert to float32
+        max_dist_value = np.max(all_distances)
+        print(f'max distance value: {max_dist_value}')
+        all_distances = all_distances / max_dist_value
+        all_distances = all_distances.astype(np.float32)
 
         # load all data paths 
         ds_name = f"droid_new"
@@ -138,6 +151,7 @@ class RegentDroidDataset(Dataset):
         self.all_ep_embeddings_paths = all_ep_embeddings_paths
         self.all_retrieved_indices = all_retrieved_indices
         self.all_query_indices = all_query_indices
+        self.all_distances = all_distances
         self.use_action_interpolation = model_config.use_action_interpolation
         self.lamda = model_config.lamda
         self.action_horizon = model_config.action_horizon
@@ -151,7 +165,6 @@ class RegentDroidDataset(Dataset):
         ep_metadata = {ep_idx: json.load(open(self.all_ep_metadata_paths[ep_idx])) for ep_idx in ep_idxs}
         ep_embeddings = {ep_idx: np.load(self.all_ep_embeddings_paths[ep_idx]) for ep_idx in ep_idxs}
         data = {}
-        embeddings = []
         random_ext_img = np.random.choice(["observation__exterior_image_1_left", "observation__exterior_image_2_left"])
         random_lang_inst = np.random.choice(["language_instruction", "language_instruction_2", "language_instruction_3"])
         for ct, (ep_idx, step_idx) in enumerate(retrieved_indices):
@@ -161,10 +174,6 @@ class RegentDroidDataset(Dataset):
             data[f"{prefix}state"] = np.concatenate([ep_data[ep_idx]["observation__joint_position"][step_idx], ep_data[ep_idx]["observation__gripper_position"][step_idx]], axis=0)
             data[f"{prefix}actions"] = get_action_chunk(ep_data[ep_idx]["action_dict__joint_velocity"], ep_data[ep_idx]["action_dict__gripper_position"], step_idx, self.action_horizon)
             data[f"{prefix}prompt"] = ep_metadata[ep_idx][random_lang_inst]
-            if ct == 0:
-                first_embedding = ep_embeddings[ep_idx][step_idx]
-            elif ct > 0:
-                embeddings.append(ep_embeddings[ep_idx][step_idx])
         
         prefix = "query_"
         data[f"{prefix}image"] = ep_data[query_ep_idx][random_ext_img][query_step_idx]
@@ -172,11 +181,10 @@ class RegentDroidDataset(Dataset):
         data[f"{prefix}state"] = np.concatenate([ep_data[query_ep_idx]["observation__joint_position"][query_step_idx], ep_data[query_ep_idx]["observation__gripper_position"][query_step_idx]], axis=0)
         data[f"{prefix}actions"] = get_action_chunk(ep_data[query_ep_idx]["action_dict__joint_velocity"], ep_data[query_ep_idx]["action_dict__gripper_position"], query_step_idx, self.action_horizon)
         data[f"{prefix}prompt"] = ep_metadata[query_ep_idx][random_lang_inst]
-        embeddings.append(ep_embeddings[query_ep_idx][query_step_idx])
 
         if self.use_action_interpolation:
-            # compute distances between every observation and the first retrieved observation
-            distances = np.array([0.0] + [np.linalg.norm(embedding - first_embedding) for embedding in embeddings])
+            # read distances
+            distances = self.all_distances[index, :]
             # then compute exp(-lamda * distances)
             data["exp_lamda_distances"] = np.exp(-self.lamda * distances).reshape(-1, 1)
 

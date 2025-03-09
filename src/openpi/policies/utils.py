@@ -53,12 +53,16 @@ def process_dinov2(images):
 	# if batch dimension not present, add it
 	if len(images.shape) == 3:
 		images = images[np.newaxis, ...]
-	# if channel last, convert to channel first
+	# if resolution is not 224x224, change resolution to 224x224. 
+	if not (images.shape[1:3] == (224, 224) or images.shape[2:4] == (224, 224)):
+		# if channel first, convert to channel last before resolution change
+		if images.shape[1] == 3:
+			images = images.transpose(0, 2, 3, 1)
+		# actual resolution change
+		images = resize_with_pad_numpy(images, 224, 224)
+	# if channel last, convert to channel first before pytorch steps
 	if images.shape[3] == 3: 
 		images = images.transpose(0, 3, 1, 2)
-	# if resolution is not 224x224, change resolution to 224x224. 
-	if images.shape[2:4] != (224, 224):
-		images = resize_with_pad_numpy(images, 224, 224)
 	# convert uint8 numpy arrays to float32 tensors and normalize from [0,255] to [0,1]
 	images = torch.from_numpy(images).float() / 255.0
 	# normalize with imagenet mean and std

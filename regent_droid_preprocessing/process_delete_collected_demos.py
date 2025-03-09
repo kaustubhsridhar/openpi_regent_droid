@@ -4,7 +4,7 @@ import h5py
 import os
 import argparse
 from PIL import Image
-from utils import embed_with_batches, load_policy
+from openpi.policies.utils import embed_with_batches, load_dinov2
 from openpi_client.image_tools import resize_with_pad
 import logging
 logging.basicConfig(level=logging.INFO, force=True)
