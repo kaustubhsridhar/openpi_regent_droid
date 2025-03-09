@@ -10,11 +10,11 @@ from openpi_client.image_tools import resize_with_pad as resize_with_pad_numpy
 import logging
 import torch
 import torchvision.transforms as TorchVT
-
+import math
 IMAGENET_DEFAULT_MEAN = (0.485, 0.456, 0.406)
 IMAGENET_DEFAULT_STD = (0.229, 0.224, 0.225)
-EMBEDDING_TYPE = '16PATCHES' # 'CLS', 'AVG', '16PATCHES'
-EMBED_DIM = 16*768 # based on the choice of the embedding type arg above
+EMBEDDING_TYPE = '64PATCHES' # 'CLS', 'AVG', '16PATCHES'
+EMBED_DIM = int(EMBEDDING_TYPE.split('PATCHES')[0])*768 # based on the choice of the embedding type arg above
 
 def init_logging():
 	"""Custom logging format for better readability."""
@@ -79,12 +79,28 @@ def embed(images, dinov2):
 		elif EMBEDDING_TYPE == 'AVG': # average of num_tokens (e.g., num_tokens = 256 for 224x224 image since patch size is 14)
 			batch_embeddings = features["x_norm_patchtokens"] # (batch_size, num_tokens, 768)
 			batch_embeddings = batch_embeddings.mean(dim=1) # (batch_size, 768)
-		elif EMBEDDING_TYPE == '16PATCHES': # reduces 256 patches to 16 patches
+		elif 'PATCHES' in EMBEDDING_TYPE: # reduces 256 patches to N patches
 			batch_embeddings = features["x_norm_patchtokens"] # (batch_size, 256, 768)
 			batch_size = batch_embeddings.shape[0]
-			batch_embeddings = batch_embeddings.reshape(batch_size, 16, 16, 768) # (batch_size, 16, 16, 768)
-			batch_embeddings = batch_embeddings.mean(dim=2) # (batch_size, 16, 768)
-			batch_embeddings = batch_embeddings.reshape(batch_size, 16*768) # (batch_size, 16*768)
+			N_patches = int(EMBEDDING_TYPE.split('PATCHES')[0])
+			assert 256 % N_patches == 0, f"256 is not divisible by {N_patches=}"
+			assert math.sqrt(N_patches) ** 2 == N_patches, f"{N_patches=} must be a perfect square"
+			patches = []
+			rows, cols = 16, 16 # since 16*16 == 256
+			patch_rows, patch_cols = int(rows // math.sqrt(N_patches)), int(cols // math.sqrt(N_patches))
+			for i in range(0, rows, patch_rows):  # Step by patch height
+				for j in range(0, cols, patch_cols):  # Step by patch width
+					patch_indices_2d = [(r, c) for r in range(i, i + patch_rows) for c in range(j, j + patch_cols)]
+					patch_indices_in_flattened = [r * cols + c for r, c in patch_indices_2d]
+					# print(patch_indices_in_flattened)
+					patch = batch_embeddings[:, patch_indices_in_flattened, :] # (batch_size, 16, 768)
+					assert patch.shape == (batch_size, patch_rows*patch_cols, 768), f"{patch.shape=}"
+					patch = patch.mean(dim=1) # (batch_size, 768)
+					assert patch.shape == (batch_size, 768), f"{patch.shape=}"
+					patches.append(patch)
+			assert len(patches) == N_patches, f"{len(patches)=} {N_patches=}"
+			batch_embeddings = torch.cat(patches, dim=1) # (batch_size, 16*768)
+
 	return batch_embeddings.cpu().numpy()
 
 def embed_with_batches(images, dinov2, batch_size=256):
