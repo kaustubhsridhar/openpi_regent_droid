@@ -44,7 +44,17 @@ def load_policy(policy_name="pi0_fast_droid"):
 def embed(inputs, policy: Policy, return_bfloat16: bool = False):
 	inputs = process_inputs(inputs)
 	inputs_embeddings, _ = policy._model.PaliGemma.img(inputs, train=False) # jax array of shape (batch_size, 256, 2048), dtype bfloat16
-	inputs_embeddings = np.asarray(inputs_embeddings).mean(axis=1) # np array, averaged over patches, to get shape (batch_size, 2048), dtype bfloat16
+	inputs_embeddings = np.asarray(inputs_embeddings)
+
+	# We need to convert (batch_size, 256, 2048) to (batch_size, 16, 2048)
+	# 256 patches = 16x16 grid of patches
+	batch_size = inputs_embeddings.shape[0]
+	inputs_embeddings = inputs_embeddings.reshape(batch_size, 16, 16, 2048)
+	# Average over the second dimension to get (batch_size, 16, 2048)
+	inputs_embeddings = inputs_embeddings.mean(axis=2)
+	# Now reshape to (batch_size, 16*2048)
+	inputs_embeddings = inputs_embeddings.reshape(batch_size, 16*2048)
+	
 	if not return_bfloat16:
 		inputs_embeddings = inputs_embeddings.astype(np.float32) # convert to float32
 	return inputs_embeddings

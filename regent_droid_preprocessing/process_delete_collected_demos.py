@@ -25,7 +25,7 @@ logger.info(f'number of demo folders: {len(demo_folders)}')
 
 # iterate over the demo_folders and read the trajectory.h5 files and the frames
 for demo_folder in demo_folders:
-    filename = f'processed_demo_updated'
+    filename = f'processed_demo'
     if os.path.exists(f"{demo_folder}/{filename}.npz"):
         os.remove(f"{demo_folder}/{filename}.npz")
 

@@ -25,6 +25,7 @@ import json
 from PIL import Image
 logger = logging.getLogger()
 BasePolicy: TypeAlias = _base_policy.BasePolicy
+EMBED_DIM = 16*2048
 
 
 class Policy(BasePolicy):
@@ -120,7 +121,7 @@ class RegentPolicy(BasePolicy):
         self._demos = {demo_idx: np.load(f"{demos_dir}/{folder}/processed_demo.npz") for demo_idx, folder in enumerate(os.listdir(demos_dir)) if os.path.isdir(f"{demos_dir}/{folder}")}
         self._all_indices = np.array([(ep_idx, step_idx) for ep_idx in list(self._demos.keys()) for step_idx in range(self._demos[ep_idx]["actions"].shape[0])])
         _all_embeddings = np.concatenate([self._demos[ep_idx]["embeddings"] for ep_idx in list(self._demos.keys())])
-        assert _all_embeddings.shape == (len(self._all_indices), 2048), f"{_all_embeddings.shape=}"
+        assert _all_embeddings.shape == (len(self._all_indices), EMBED_DIM), f"{_all_embeddings.shape=}"
         self._knn_k = self._model.num_retrieved_observations
         print()
         logger.info(f'building retrieval index...')
@@ -140,7 +141,7 @@ class RegentPolicy(BasePolicy):
         more_obs = {"inference_time": True}
         # embed
         query_embedding = embed(obs["query_wrist_image"], self)
-        assert query_embedding.shape == (1, 2048), f"{query_embedding.shape=}"
+        assert query_embedding.shape == (1, EMBED_DIM), f"{query_embedding.shape=}"
         # retrieve
         topk_distance, topk_indices = self._knn_index.search(query_embedding, self._knn_k)
         retrieved_indices = self._all_indices[topk_indices]
@@ -255,7 +256,7 @@ class RetrieveAndPlayPolicy(BasePolicy):
         self._demos = {demo_idx: np.load(f"{demos_dir}/{folder}/processed_demo.npz") for demo_idx, folder in enumerate(os.listdir(demos_dir)) if os.path.isdir(f"{demos_dir}/{folder}")}
         self._all_indices = np.array([(ep_idx, step_idx) for ep_idx in list(self._demos.keys()) for step_idx in range(self._demos[ep_idx]["actions"].shape[0])])
         _all_embeddings = np.concatenate([self._demos[ep_idx]["embeddings"] for ep_idx in list(self._demos.keys())])
-        assert _all_embeddings.shape == (len(self._all_indices), 2048), f"{_all_embeddings.shape=}"
+        assert _all_embeddings.shape == (len(self._all_indices), EMBED_DIM), f"{_all_embeddings.shape=}"
         self._knn_k = 1 # retrieved the 1 nearest neighbor
         print()
         logger.info(f'building retrieval index...')
@@ -276,7 +277,7 @@ class RetrieveAndPlayPolicy(BasePolicy):
         more_obs = {"inference_time": True}
         # embed
         query_embedding = embed(obs["query_wrist_image"], self._og_policy)
-        assert query_embedding.shape == (1, 2048), f"{query_embedding.shape=}"
+        assert query_embedding.shape == (1, EMBED_DIM), f"{query_embedding.shape=}"
         # retrieve
         topk_distance, topk_indices = self._knn_index.search(query_embedding, self._knn_k)
         retrieved_indices = self._all_indices[topk_indices]

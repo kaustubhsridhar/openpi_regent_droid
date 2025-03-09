@@ -62,7 +62,7 @@ for demo_folder in demo_folders:
         
         if key == 'wrist_image':
             embeddings = embed_with_batches(frames, policy, batch_size=1) # there is some batch_norm effects that changes embeddings when batch_size = 1 vs > 1 # TODO: fix this
-            assert embeddings.shape == (num_steps, 2048), f'{embeddings.shape=}'
+            assert embeddings.shape == (num_steps, 16*2048), f'{embeddings.shape=}'
             processed_demo[f"embeddings"] = embeddings
 
     # randomly sample a prompt from the prompts
