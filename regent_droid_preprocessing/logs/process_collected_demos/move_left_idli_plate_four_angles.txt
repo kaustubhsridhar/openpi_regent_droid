@@ -1,0 +1,28 @@
+nohup: ignoring input
+Using cache found in /home/ksridhar/.cache/torch/hub/facebookresearch_dinov2_main
+/home/ksridhar/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/ksridhar/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/ksridhar/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+INFO:dinov2:using MLP layer as FFN
+INFO:__main__:loaded dinov2 for image embedding
+INFO:__main__:absolute path of the demo_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles'
+INFO:__main__:number of demo folders: 4
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-31-58'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-31-58/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-31-58/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-31-58/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-33-08'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-33-08/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-33-08/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-33-08/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-33-44'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-33-44/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-33-44/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-33-44/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-34-18'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-34-18/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-34-18/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_four_angles/2025-03-09_17-34-18/recordings/frames/varied_camera_2'

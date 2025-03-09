@@ -143,6 +143,10 @@ CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collecte
 
 CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-09_bowlx1y0 --prompts "pick up the pokeball and put it in the bowl" &> logs/process_collected_demos/pokeball_bowl_3objs_bowlx1y0.txt &
 
+CUDA_VISIBLE_DEVICES=4 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-09_move_left_idli_plate --prompts "move the idli plate to the left" &> logs/process_collected_demos/move_left_idli_plate.txt &
+
+CUDA_VISIBLE_DEVICES=4 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-09_move_right_idli_plate --prompts "move the idli plate to the right" &> logs/process_collected_demos/move_right_idli_plate.txt &
+
 # After running the above command, you will see a new file in each demo directory as follows:
 # │   │   ├── demo_0_taken_at_2025-03-04_00-17-49
 # │   │   │   ├── processed_demo.npz
@@ -185,7 +189,7 @@ CUDA_VISIBLE_DEVICES=8 uv run scripts/serve_policy_regent.py policy:checkpoint -
 CUDA_VISIBLE_DEVICES=8 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/fourth_try_query_loss_only_with_interpolation/2000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-04
 
 # (Alternatively) Run the server on ivy for retrieve and play
-CUDA_VISIBLE_DEVICES=8 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-09
+CUDA_VISIBLE_DEVICES=4 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-09_move_right_idli_plate
 
 # Run the client on the franka robot
 # Terminal 1:

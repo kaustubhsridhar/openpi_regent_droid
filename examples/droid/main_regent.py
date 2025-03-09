@@ -33,7 +33,7 @@ class Args:
     )
 
     # Rollout parameters
-    max_timesteps: int = 800
+    max_timesteps: int = 2000
     # How many actions to execute from a predicted action chunk before querying policy server again
     # 8 is usually a good default (equals 0.5 seconds of action execution).
     open_loop_horizon: int = 8
@@ -92,15 +92,15 @@ def main(args: Args):
     date = datetime.datetime.now().strftime("%m%d")
     # Get main category for this evaluation session
     main_category = input("Enter main category for this evaluation session: ")
-    os.makedirs(f"results/log/{date}", exist_ok=True)
-    markdown_file = f"results/log/{date}/eval_{main_category}.md"
+    os.makedirs(f"results_regent/log/{date}", exist_ok=True)
+    markdown_file = f"results_regent/log/{date}/eval_{main_category}.md"
 
 
     # Create markdown header
     with open(markdown_file, "a") as f:
         f.write(f"# Pi0-FAST Evaluation: {main_category}\n")
         f.write(f"Date: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n")
-        f.write("## Results\n\n")
+        f.write("## results_regent\n\n")
 
     while True:
         instruction = input("Enter instruction: ")
@@ -112,7 +112,7 @@ def main(args: Args):
         # Prepare to save video of rollout
         timestamp = datetime.datetime.now().strftime("%Y_%m_%d_%H:%M:%S")
 
-        joint_position_file = f"results/log/{date}/eval_{main_category}_{timestamp}_joints.csv"
+        joint_position_file = f"results_regent/log/{date}/eval_{main_category}_{timestamp}_joints.csv"
         # Create a filename-safe version of the instruction
         safe_instruction = instruction.replace(" ", "_").replace("/", "_").replace("\\", "_")[:50]  # limit length
         video = []
@@ -156,7 +156,7 @@ def main(args: Args):
                     # Ctrl+C will be handled after the server call is complete
                     with prevent_keyboard_interrupt():
                         # this returns action chunk [10, 8] of 10 joint velocity actions (7) + gripper position (1)
-                        pred_action_chunk = policy_client.infer(request_data)["actions"]
+                        pred_action_chunk = policy_client.infer(request_data)["query_actions"]
                     assert pred_action_chunk.shape == (10, 8)
 
                 # Select current action to execute from chunk
@@ -200,7 +200,7 @@ def main(args: Args):
         combined_video = np.concatenate([video_resized, wrist_video_resized], axis=2)
 
         date = datetime.datetime.now().strftime("%m%d")
-        save_dir = f"results/videos/{date}"
+        save_dir = f"results_regent/videos/{date}"
         os.makedirs(save_dir, exist_ok=True)
         save_filename = os.path.join(save_dir, f"{args.external_camera }_{safe_instruction}_{timestamp}.mp4")
   
@@ -257,7 +257,7 @@ def main(args: Args):
     # Save CSV alongside markdown
     csv_filename = markdown_file.replace(".md", ".csv")
     df.to_csv(csv_filename)
-    print(f"Results saved to {markdown_file} and {csv_filename}")
+    print(f"results_regent saved to {markdown_file} and {csv_filename}")
 
 
 def _extract_observation(args: Args, obs_dict, *, save_to_disk=False):
