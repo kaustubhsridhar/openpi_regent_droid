@@ -1,0 +1,28 @@
+nohup: ignoring input
+INFO:root:Loading model...
+INFO:2025-03-08 20:10:06,100:jax._src.xla_bridge:945: Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+INFO:jax._src.xla_bridge:Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+INFO:2025-03-08 20:10:06,102:jax._src.xla_bridge:945: Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+INFO:jax._src.xla_bridge:Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+INFO:absl:orbax-checkpoint version: 0.11.1
+INFO:absl:Created BasePyTreeCheckpointHandler: pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=None
+INFO:absl:Restoring checkpoint from /home/ksridhar/.cache/openpi/openpi-assets/checkpoints/pi0_fast_droid/params.
+INFO:absl:[thread=MainThread] Failed to get flag value for EXPERIMENTAL_ORBAX_USE_DISTRIBUTED_PROCESS_ID.
+INFO:absl:[process=0] /jax/checkpoint/read/bytes_per_sec: 317.7 MiB/s (total bytes: 5.4 GiB) (time elapsed: 17 seconds) (per-host)
+INFO:absl:Finished restoring checkpoint from /home/ksridhar/.cache/openpi/openpi-assets/checkpoints/pi0_fast_droid/params.
+INFO:absl:[process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:restore
+INFO:root:Norm stats not found in /home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/assets/pi0_fast_droid/droid, skipping.
+Some kwargs in processor config are unused and will not have any effect: vocab_size, scale, min_token, action_dim, time_horizon. 
+Some kwargs in processor config are unused and will not have any effect: vocab_size, scale, min_token, action_dim, time_horizon. 
+INFO:root:Loaded norm stats from /home/ksridhar/.cache/openpi/openpi-assets/checkpoints/pi0_fast_droid/assets/droid
+INFO:__main__:loaded pi0_fast_droid policy (only for embedding images)
+INFO:__main__:absolute path of the demo_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-08'
+INFO:__main__:number of demo folders: 2
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-08/2025-03-08_20-05-29'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-08/2025-03-08_20-05-29/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-08/2025-03-08_20-05-29/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-08/2025-03-08_20-05-29/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-08/2025-03-08_20-06-09'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-08/2025-03-08_20-06-09/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-08/2025-03-08_20-06-09/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-08/2025-03-08_20-06-09/recordings/frames/varied_camera_2'
