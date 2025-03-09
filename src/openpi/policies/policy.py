@@ -16,7 +16,7 @@ from openpi.models import model as _model
 from openpi.models import pi0_fast_regent as _pi0_fast_regent
 from openpi.shared import array_typing as at
 from openpi.shared import nnx_utils
-from openpi.policies.utils import embed
+from openpi.policies.utils import embed, embed_with_batches, load_dinov2, EMBED_DIM
 import os
 from autofaiss import build_index
 import logging
@@ -25,7 +25,6 @@ import json
 from PIL import Image
 logger = logging.getLogger()
 BasePolicy: TypeAlias = _base_policy.BasePolicy
-EMBED_DIM = 16*2048
 
 
 class Policy(BasePolicy):
@@ -245,7 +244,6 @@ class RetrieveAndPlayPolicy(BasePolicy):
         rng: at.KeyArrayLike | None = None,
         demos_dir: str | None = None,
         action_horizon: int | None = None,
-        og_policy: Policy | None = None,
     ):
         self._rng = rng or jax.random.key(0)
         self._action_horizon = action_horizon
@@ -270,13 +268,14 @@ class RetrieveAndPlayPolicy(BasePolicy):
                                             nb_cores=8, # default: None # "The number of cores to use, by default will use all cores" as seen in https://criteo.github.io/autofaiss/getting_started/quantization.html#the-build-index-command
                                             )
         # setup the og policy for embedding only
-        self._og_policy = og_policy
+        logger.info('loading dinov2 for image embedding...')
+        self._dinov2 = load_dinov2()
 
     def retrieve(self, obs: dict) -> dict:
         camera = obs.pop("camera")
         more_obs = {"inference_time": True}
         # embed
-        query_embedding = embed(obs["query_wrist_image"], self._og_policy)
+        query_embedding = embed(obs["query_wrist_image"], self._dinov2)
         assert query_embedding.shape == (1, EMBED_DIM), f"{query_embedding.shape=}"
         # retrieve
         topk_distance, topk_indices = self._knn_index.search(query_embedding, self._knn_k)

@@ -138,16 +138,7 @@ def create_retrieve_and_play_policy(
         train_config: The training config to use to create the model.
         demos_dir: The directory to load the demos from.
     """
-    # set up og policy for image embedding only
-    logger.info('loading the og policy for image embedding only')
-    policy_name = "pi0_fast_droid"
-    train_config = _config.get_config(policy_name)
-    checkpoint_dir = download.maybe_download(f"s3://openpi-assets/checkpoints/{policy_name}")
-    og_policy = create_trained_policy(train_config, checkpoint_dir)
-    print()
-
     return _policy.RetrieveAndPlayPolicy(
         demos_dir=demos_dir,
         action_horizon=10,
-        og_policy=og_policy,
     )

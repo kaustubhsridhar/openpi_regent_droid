@@ -4,21 +4,21 @@ import h5py
 import os
 import argparse
 from PIL import Image
-from utils import embed_with_batches, load_policy
+from openpi.policies.utils import embed_with_batches, load_dinov2, EMBED_DIM
 from openpi_client.image_tools import resize_with_pad
 import logging
 logging.basicConfig(level=logging.INFO, force=True)
 logger = logging.getLogger(__name__)
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--dir", type=str, required=True)
 parser.add_argument("--prompts", nargs="+", type=str, required=True)
 args = parser.parse_args()
 
-# load a policy (only for embedding images)
-policy_name = "pi0_fast_droid"
-policy = load_policy(policy_name)
-logger.info(f'loaded {policy_name} policy (only for embedding images)')
+# load model for embedding images
+dinov2 = load_dinov2()
+logger.info(f'loaded dinov2 for image embedding')
 
 # get current directory and append the dir argument to get demo_dir
 current_dir = os.path.dirname(os.path.abspath(__file__)) # get current directory
@@ -61,8 +61,8 @@ for demo_folder in demo_folders:
         processed_demo[key] = frames
         
         if key == 'wrist_image':
-            embeddings = embed_with_batches(frames, policy, batch_size=1) # there is some batch_norm effects that changes embeddings when batch_size = 1 vs > 1 # TODO: fix this
-            assert embeddings.shape == (num_steps, 16*2048), f'{embeddings.shape=}'
+            embeddings = embed_with_batches(frames, dinov2)
+            assert embeddings.shape == (num_steps, EMBED_DIM), f'{embeddings.shape=}'
             processed_demo[f"embeddings"] = embeddings
 
     # randomly sample a prompt from the prompts

@@ -6,28 +6,33 @@ Also includes init_logging function from the scripts/train_pi0_fast_regent.py fi
 import os
 from datetime import datetime
 import numpy as np
-from openpi.shared.image_tools import resize_with_pad
-import einops
-import jax.numpy as jnp
+from openpi_client.image_tools import resize_with_pad as resize_with_pad_numpy
 import logging
+import torch
+import torchvision.transforms as TorchVT
+
+IMAGENET_DEFAULT_MEAN = (0.485, 0.456, 0.406)
+IMAGENET_DEFAULT_STD = (0.229, 0.224, 0.225)
+EMBEDDING_TYPE = '16PATCHES' # 'CLS', 'AVG', '16PATCHES'
+EMBED_DIM = 16*768 # based on the choice of the embedding type arg above
 
 def init_logging():
-    """Custom logging format for better readability."""
-    level_mapping = {"DEBUG": "D", "INFO": "I", "WARNING": "W", "ERROR": "E", "CRITICAL": "C"}
+	"""Custom logging format for better readability."""
+	level_mapping = {"DEBUG": "D", "INFO": "I", "WARNING": "W", "ERROR": "E", "CRITICAL": "C"}
 
-    class CustomFormatter(logging.Formatter):
-        def format(self, record):
-            record.levelname = level_mapping.get(record.levelname, record.levelname)
-            return super().format(record)
+	class CustomFormatter(logging.Formatter):
+		def format(self, record):
+			record.levelname = level_mapping.get(record.levelname, record.levelname)
+			return super().format(record)
 
-    formatter = CustomFormatter(
-        fmt="%(asctime)s.%(msecs)03d [%(levelname)s] %(message)-80s (%(process)d:%(filename)s:%(lineno)s)",
-        datefmt="%H:%M:%S",
-    )
+	formatter = CustomFormatter(
+		fmt="%(asctime)s.%(msecs)03d [%(levelname)s] %(message)-80s (%(process)d:%(filename)s:%(lineno)s)",
+		datefmt="%H:%M:%S",
+	)
 
-    logger = logging.getLogger()
-    logger.setLevel(logging.INFO)
-    logger.handlers[0].setFormatter(formatter)
+	logger = logging.getLogger()
+	logger.setLevel(logging.INFO)
+	logger.handlers[0].setFormatter(formatter)
 
 def get_time():
 	return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -35,50 +40,57 @@ def get_time():
 def myprint(s):
 	print(f'{get_time()}: {s}')
 
-def process_inputs(inputs):
-	# outputs of this function need to be jax arrays of shape (batch_size, 224, 224, 3) with values in the range [-1, 1]
-	# inputs are expected to be np arrays of dtype uint8
-	assert isinstance(inputs, np.ndarray)
-	assert inputs.dtype == np.uint8
-	# if inputs is a single image, add a batch dimension
-	if len(inputs.shape) == 3:
-		inputs = inputs[np.newaxis, ...]
-	# convert to [-1, 1] float32
-	inputs = inputs.astype(np.float32) / 255.0 * 2.0 - 1.0
-	# if inputs is channel first, make it channel last
-	if inputs.shape[1] == 3:
-		inputs = einops.rearrange(inputs, 'b c h w -> b h w c')
-	# convert to jax array
-	inputs = jnp.asarray(inputs)
-	# if resolution is not 224x224, change resolution to 224x224. The resize_with_pad function below takes a jax array as input.
-	if inputs.shape[1:3] != (224, 224):
-		inputs = resize_with_pad(inputs, 224, 224)
-	return inputs
+def load_dinov2():
+	dinov2 = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitb14')
+	dinov2.eval()
+	if torch.cuda.is_available():
+		dinov2 = dinov2.cuda()
+	return dinov2
 
-def embed(inputs, policy, return_bfloat16: bool = False):
-	inputs = process_inputs(inputs)
-	inputs_embeddings, _ = policy._model.PaliGemma.img(inputs, train=False) # jax array of shape (batch_size, 256, 2048), dtype bfloat16
-	inputs_embeddings = np.asarray(inputs_embeddings)
-	
-	# We need to convert (batch_size, 256, 2048) to (batch_size, 16, 2048)
-	# 256 patches = 16x16 grid of patches
-	batch_size = inputs_embeddings.shape[0]
-	inputs_embeddings = inputs_embeddings.reshape(batch_size, 16, 16, 2048)
-	# Average over the second dimension to get (batch_size, 16, 2048)
-	inputs_embeddings = inputs_embeddings.mean(axis=2)
-	# Now reshape to (batch_size, 16*2048)
-	inputs_embeddings = inputs_embeddings.reshape(batch_size, 16*2048)
+def process_dinov2(images):
+	assert isinstance(images, np.ndarray)
+	assert images.dtype == np.uint8
+	# if batch dimension not present, add it
+	if len(images.shape) == 3:
+		images = images[np.newaxis, ...]
+	# if channel last, convert to channel first
+	if images.shape[3] == 3: 
+		images = images.transpose(0, 3, 1, 2)
+	# if resolution is not 224x224, change resolution to 224x224. 
+	if images.shape[2:4] != (224, 224):
+		images = resize_with_pad_numpy(images, 224, 224)
+	# convert uint8 numpy arrays to float32 tensors and normalize from [0,255] to [0,1]
+	images = torch.from_numpy(images).float() / 255.0
+	# normalize with imagenet mean and std
+	normalize = TorchVT.Normalize(IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD)
+	images = normalize(images)
+	# if gpu is available, move to gpu
+	if torch.cuda.is_available():
+		images = images.cuda()
+	return images
 
-	if not return_bfloat16:
-		inputs_embeddings = inputs_embeddings.astype(np.float32) # convert to float32
-	return inputs_embeddings
+def embed(images, dinov2):
+	images = process_dinov2(images)
 
-def embed_with_batches(inputs, policy, return_bfloat16: bool = False, batch_size: int = 256):
-	all_inputs_embeddings = []
-	for i in range(0, len(inputs), batch_size):
-		inputs_batch = inputs[i:i+batch_size]
-		inputs_embeddings = embed(inputs_batch, policy, return_bfloat16)
-		all_inputs_embeddings.append(inputs_embeddings)
-	return np.concatenate(all_inputs_embeddings, axis=0)
+	with torch.no_grad():
+		features = dinov2.forward_features(images) # dict_keys(['x_norm_clstoken', 'x_norm_regtokens', 'x_norm_patchtokens', 'x_prenorm', 'masks']) # shape of x_norm_regtokens = (batch_size, 0, 768)
+		if EMBEDDING_TYPE == 'CLS': # output of the CLS token
+			batch_embeddings = features["x_norm_clstoken"] # (batch_size, 768)
+		elif EMBEDDING_TYPE == 'AVG': # average of num_tokens (e.g., num_tokens = 256 for 224x224 image since patch size is 14)
+			batch_embeddings = features["x_norm_patchtokens"] # (batch_size, num_tokens, 768)
+			batch_embeddings = batch_embeddings.mean(dim=1) # (batch_size, 768)
+		elif EMBEDDING_TYPE == '16PATCHES': # reduces 256 patches to 16 patches
+			batch_embeddings = features["x_norm_patchtokens"] # (batch_size, 256, 768)
+			batch_size = batch_embeddings.shape[0]
+			batch_embeddings = batch_embeddings.reshape(batch_size, 16, 16, 768) # (batch_size, 16, 16, 768)
+			batch_embeddings = batch_embeddings.mean(dim=2) # (batch_size, 16, 768)
+			batch_embeddings = batch_embeddings.reshape(batch_size, 16*768) # (batch_size, 16*768)
+	return batch_embeddings.cpu().numpy()
 
-	
+def embed_with_batches(images, dinov2, batch_size=256):
+	all_embeddings = []
+	for i in range(0, len(images), batch_size):
+		images_batch = images[i:i+batch_size]
+		embeddings = embed(images_batch, dinov2)
+		all_embeddings.append(embeddings)
+	return np.concatenate(all_embeddings, axis=0)

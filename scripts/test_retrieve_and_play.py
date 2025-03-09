@@ -8,13 +8,13 @@ init_logging()
 
 # params
 config_name = "retrieve_and_play"
-demos_dir = "regent_droid_preprocessing/collected_demos/2025-03-04"
+demos_dir = "regent_droid_preprocessing/collected_demos/2025-03-08"
 
 # create a trained policy
 policy = _policy_config.create_retrieve_and_play_policy(demos_dir=demos_dir)
 
 # load a test demo
-demo_path = "regent_droid_preprocessing/collected_demos/2025-03-04_00-48-37/processed_demo.npz"
+demo_path = "regent_droid_preprocessing/collected_demos/2025-03-08/2025-03-08_20-06-09/processed_demo.npz"
 demo = np.load(demo_path)
 
 # run inference on a example 
