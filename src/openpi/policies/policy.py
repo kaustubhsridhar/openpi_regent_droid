@@ -133,13 +133,15 @@ class RegentPolicy(BasePolicy):
                                             metric_type='l2',
                                             nb_cores=8, # default: None # "The number of cores to use, by default will use all cores" as seen in https://criteo.github.io/autofaiss/getting_started/quantization.html#the-build-index-command
                                             )
-        # self._og_policy = load_policy()
+        # setup the dinov2 model for embedding only
+        logger.info('loading dinov2 for image embedding...')
+        self._dinov2 = load_dinov2()
 
     def retrieve(self, obs: dict) -> dict:
         camera = obs.pop("camera")
         more_obs = {"inference_time": True}
         # embed
-        query_embedding = embed(obs["query_wrist_image"], self)
+        query_embedding = embed(obs["query_wrist_image"], self._dinov2)
         assert query_embedding.shape == (1, EMBED_DIM), f"{query_embedding.shape=}"
         # retrieve
         topk_distance, topk_indices = self._knn_index.search(query_embedding, self._knn_k)
@@ -267,7 +269,7 @@ class RetrieveAndPlayPolicy(BasePolicy):
                                             metric_type='l2',
                                             nb_cores=8, # default: None # "The number of cores to use, by default will use all cores" as seen in https://criteo.github.io/autofaiss/getting_started/quantization.html#the-build-index-command
                                             )
-        # setup the og policy for embedding only
+        # setup the dinov2 model for embedding only
         logger.info('loading dinov2 for image embedding...')
         self._dinov2 = load_dinov2()
 

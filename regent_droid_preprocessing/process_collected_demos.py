@@ -31,6 +31,10 @@ logger.info(f'number of demo folders: {len(demo_folders)}')
 
 # iterate over the demo_folders and read the trajectory.h5 files and the frames
 for demo_folder in demo_folders:
+    if os.path.exists(f"{demo_folder}/processed_demo.npz"):
+        logger.info(f'{demo_folder=} already processed')
+        continue
+
     processed_demo = {}
     logger.info(f'processing {demo_folder=}')
     traj_h5 = h5py.File(f"{demo_folder}/trajectory.h5", 'r')

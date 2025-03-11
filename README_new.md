@@ -99,12 +99,16 @@ python scripts/collect_trajectory.py -n 20
 # You can see output at franka_ksridhar/data/success/date
 
 # copy the demos from the franka laptop to the folder here
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/2025-03-09* regent_droid_preprocessing/collected_demos/
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/2025-03-10* regent_droid_preprocessing/collected_demos/
 
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results/videos/0309/* videos_dont_delete/pi0_0309_pokeball_bowl/
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results/videos/0309/* videos_dont_delete/pi0_0309_idli_plate_apple/
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results/videos/0310/* videos_dont_delete/pi0_0309_pokeball_bowl/
 
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_rnp/videos/0309/* videos_dont_delete/rnp_0309_pokeball_bowl/
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_rnp/videos/0310/* videos_dont_delete/rnp_0310_move_forwards_idli_plate_topleftapple/
+```
+
+* Collect more training demos and transfer as follows:
+```bash
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/2025-03-10* regent_droid_preprocessing/collected_demos_training/
 ```
 
 * Process the collected demos as follows
@@ -147,6 +151,9 @@ CUDA_VISIBLE_DEVICES=4 nohup python -u process_collected_demos.py --dir=collecte
 
 CUDA_VISIBLE_DEVICES=4 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-09_move_right_idli_plate --prompts "move the idli plate to the right" &> logs/process_collected_demos/move_right_idli_plate.txt &
 
+CUDA_VISIBLE_DEVICES=4 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple --prompts "move the idli plate forwards" &> logs/process_collected_demos/move_forwards_idli_plate_topleftapple.txt &
+
+
 # After running the above command, you will see a new file in each demo directory as follows:
 # │   │   ├── demo_0_taken_at_2025-03-04_00-17-49
 # │   │   │   ├── processed_demo.npz
@@ -183,13 +190,13 @@ python3 scripts/main.py --remote_host=158.130.52.14 --remote_port=8000 --externa
 * run regent inference on the robot
 ```bash
 # Run the server on ivy for regent with interpolation
-CUDA_VISIBLE_DEVICES=8 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent --policy.dir=checkpoints/pi0_fast_droid_regent/fourth_try_query_loss_only/2000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-04
+CUDA_VISIBLE_DEVICES=8 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent --policy.dir=checkpoints/pi0_fast_droid_regent/ninth_try/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-09_bowlx0y0
 
 # (Alternatively) Run the server on ivy for regent with interpolation
-CUDA_VISIBLE_DEVICES=8 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/fourth_try_query_loss_only_with_interpolation/2000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-04
+CUDA_VISIBLE_DEVICES=8 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/ninth_try_with_interpolation/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-09_bowlx0y0
 
 # (Alternatively) Run the server on ivy for retrieve and play
-CUDA_VISIBLE_DEVICES=4 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-09_move_left_idli_plate_apple
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple
 
 # Run the client on the franka robot
 # Terminal 1:

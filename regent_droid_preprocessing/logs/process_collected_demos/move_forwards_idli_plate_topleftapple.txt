@@ -1,0 +1,42 @@
+nohup: ignoring input
+Using cache found in /home/ksridhar/.cache/torch/hub/facebookresearch_dinov2_main
+/home/ksridhar/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/ksridhar/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/ksridhar/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+INFO:dinov2:using MLP layer as FFN
+INFO:__main__:loaded dinov2 for image embedding
+INFO:__main__:absolute path of the demo_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple'
+INFO:__main__:number of demo folders: 12
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-01-44_topleftapple_idliplatex0.5y0.5_pull' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-02-11_topleftapple_idliplatex0y0.5_pull' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-02-40_topleftapple_idliplatex-0.5y0.5_pull' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-03-05_topleftapple_idliplatex-0.5y0_pull' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-03-36_topleftapple_idliplatex0y0_pull' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-04-05_topleftapple_idliplatex0.5y0_pull' already processed
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-32-41_topleftapple_idliplatex0.5y0.5_pull_recovery'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-32-41_topleftapple_idliplatex0.5y0.5_pull_recovery/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-32-41_topleftapple_idliplatex0.5y0.5_pull_recovery/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-32-41_topleftapple_idliplatex0.5y0.5_pull_recovery/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-33-16_topleftapple_idliplatex0y0.5_pull_recovery'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-33-16_topleftapple_idliplatex0y0.5_pull_recovery/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-33-16_topleftapple_idliplatex0y0.5_pull_recovery/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-33-16_topleftapple_idliplatex0y0.5_pull_recovery/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-33-53_topleftapple_idliplatex-0.5y0.5_pull_recovery'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-33-53_topleftapple_idliplatex-0.5y0.5_pull_recovery/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-33-53_topleftapple_idliplatex-0.5y0.5_pull_recovery/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-33-53_topleftapple_idliplatex-0.5y0.5_pull_recovery/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-34-24_topleftapple_idliplatex-0.5y0_pull_recovery'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-34-24_topleftapple_idliplatex-0.5y0_pull_recovery/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-34-24_topleftapple_idliplatex-0.5y0_pull_recovery/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-34-24_topleftapple_idliplatex-0.5y0_pull_recovery/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-34-59_topleftapple_idliplatex0y0_pull_recovery'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-34-59_topleftapple_idliplatex0y0_pull_recovery/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-34-59_topleftapple_idliplatex0y0_pull_recovery/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-34-59_topleftapple_idliplatex0y0_pull_recovery/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-35-19_topleftapple_idliplatex0.5y0_pull_recovery'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-35-19_topleftapple_idliplatex0.5y0_pull_recovery/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-35-19_topleftapple_idliplatex0.5y0_pull_recovery/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple/2025-03-10_14-35-19_topleftapple_idliplatex0.5y0_pull_recovery/recordings/frames/varied_camera_2'
