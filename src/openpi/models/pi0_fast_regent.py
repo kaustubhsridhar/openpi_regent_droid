@@ -135,6 +135,9 @@ class Pi0FASTRegentConfig(_model.BaseModelConfig):
                 nnx.All(nnx_utils.PathRegex(".*llm.*"), nnx.Not(nnx_utils.PathRegex(".*lora.*"))),
                 nnx_utils.PathRegex(".*img.*")
             )
+        else:
+            # freeze only image encoder
+            return nnx.All(nnx_utils.PathRegex(".*img.*"), nnx.Not(nnx_utils.PathRegex(".*llm.*")))
         return nnx.Nothing
 
 

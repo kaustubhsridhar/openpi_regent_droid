@@ -8,9 +8,9 @@ init_logging()
 
 # params
 config_name = "pi0_fast_droid_regent_with_interpolation"
-exp_name = "fourth_try_query_loss_only_with_interpolation"
-checkpoint_step = 2000
-demos_dir = "regent_droid_preprocessing/collected_demos/2025-03-04"
+exp_name = "ninth_try_with_interpolation"
+checkpoint_step = 3000
+demos_dir = "regent_droid_preprocessing/collected_demos/2025-03-09_bowlx0y0"
 
 # setup
 config = _config.get_config(config_name)
@@ -20,7 +20,7 @@ checkpoint_dir = f"checkpoints/{config_name}/{exp_name}/{checkpoint_step}"
 policy = _policy_config.create_trained_regent_policy(train_config=config, checkpoint_dir=checkpoint_dir, demos_dir=demos_dir)
 
 # load a test demo
-demo_path = "regent_droid_preprocessing/collected_demos/2025-03-04_00-48-37/processed_demo.npz"
+demo_path = "regent_droid_preprocessing/collected_demos/2025-03-09_bowlx1y0/2025-03-09_08-20-01_bowlx1y0_pokeballx0y0_recovery/processed_demo.npz"
 demo = np.load(demo_path)
 
 # run inference on a example 
