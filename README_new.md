@@ -38,10 +38,12 @@ python quick_view_grouping.py --chosen_id scene_id_and_object_name --min_num_epi
 ```bash
 python quick_view_grouping.py --chosen_id scene_id --min_num_episodes_in_each_grouping 50 --only_count
 ```
-Then, I ran the following LLM agent to create subgroups of the above groupings:
+Then, I ran the following LLM to create subgroups of the above groupings. This script also has verification to remove hallucinations or inform you of them. It also counts the number of subgroups with atleast 20 demos of which there are 260.
 ```bash
 python create_subgroups_of_groupings_with_llm.py
 ```
+Finally, the above script saves a "superdict" of {SceneID_GeminiTaskSummary: {ep_idx: language_instruction, ...}, ...} to the json file at `regent_droid_preprocessing/droid_groups/droid_new_superdict_of_subgroups_with_atleast_20_episodes.json`.
+
 
 * Check if an object exists in the droid dataset's language annotations
 ```bash
