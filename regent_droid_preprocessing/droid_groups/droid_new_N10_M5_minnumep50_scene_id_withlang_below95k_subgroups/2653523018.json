@@ -1,0 +1,84 @@
+
+{
+  "put_object_in_bowl": {
+    "56331": "Put the ketchup bottle in the bowl",
+    "72205": "Put the gray object in the bowl",
+    "23063": "Put the block in the bowl",
+    "85401": "Put the green object in the bowl",
+    "31522": "Pick up the green vegetable plush toy on the table and put it in the bowl",
+    "83499": "Put the yellow block in the bowl",
+    "16441": "Put the bottle in the bowl",
+    "8279": "Put the toy grapes in the bowl",
+    "91205": "Pick up the bottle and put it in the bowl",
+    "50164": "Put the green object in the bowl",
+        "90609": "Put the green object in the bowl"
+
+  },
+  "put_object_in_red_bowl": {
+    "81068": "Put the green object in the red bowl",
+    "17465": "Put the orange bottle in the red bowl",
+    "55876": "Put the green object in the red bowl",
+    "73966": "Put the green object in the red bowl",
+    "54769": "Put the green object inside the red bowl on the right"
+  },
+  "put_object_in_orange_bowl":{
+    "40035": "Pick up the sauce bottle from the table and put it in the orange bowl.",
+    "39933": "Put the green object inside the orange bowl"
+  },
+  "remove_object_from_bowl": {
+    "57244": "Remove the green object from the bowl.",
+    "32034": "Remove the yellow block out of the bowl",
+    "7489": "Remove the sauce bottle from the bowl",
+    "23387": "Remove the green object from the bowl"
+  },
+  "remove_object_from_red_bowl": {
+    "27905": "Take the red bottle out of the red bowl",
+    "92817": "Remove the green object from the red bowl",
+    "30234": "Remove the green grapes from the red bowl.",
+    "79179": "Remove the yellow cube from the red bowl and put it on the table",
+        "1378": "Remove the green object from the red bowl",
+    "3432": "Remove the green object from the red bowl",
+    "81750": "Take the orange bottle out of the red bowl",
+        "66673": "Remove the red sauce bottle from the red bowl"
+  },
+    "remove_object_from_orange_bowl": {
+    "14342": "Remove the green object from the orange bowl and put it on the table",
+    "80842": "Remove the green object out of the orange bowl",
+        "77905": "Remove the green object from the orange bowl and put it on the right side of the table",
+        "13685": "Pick up the green toy from the orange bowl and put it on the table."
+
+  },
+  "move_object_right": {
+    "62340": "Pick up the yellow block and slightly move it to the right.",
+    "22445": "Move the green object to the right",
+    "20400": "Move the green object to the right",
+    "79684": "Move the yellow object to the right",
+    "36829": "Move the plastic bread to the right.",
+        "8674": "Move the yellow object to the right"
+  },
+  "move_object_left": {
+    "62230": "Move the green object to the left",
+    "45504": "Move the bread to the left",
+        "29809": "Pick up the toy from the table and move it to the left.",
+    "64500": "Move the grey block to the left"
+
+  },
+  "move_object_forward": {
+    "93450": "Move the yellow block closer to you",
+    "19369": "Pick up the brown toy from the table and move it forward.",
+        "51798": "Move the yellow block to the front of the table",
+    "63217": "Move the turquoise object forward",
+    "44609": "Move the red bowl forward",
+        "57929": "Move the red bowl forward",
+    "36190": "Move the bowl forward"
+
+  },
+  "move_object_backward": {
+    "67865": "Move the block backwards",
+     "33139": "Move the grey cylinder to the back right side of the table."
+  },
+    "pick_up_and_put_on_table":{
+        "8092": "Pick up the red bottle from the bowl and put it on the table",
+        "43387": "Remove the cup from the bowl and put it on the table"
+    }
+}

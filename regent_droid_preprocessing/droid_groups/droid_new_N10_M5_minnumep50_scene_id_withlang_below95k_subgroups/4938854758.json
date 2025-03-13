@@ -1,0 +1,65 @@
+
+{
+  "put_pen_in_cup": {
+    "67077": "Put the pen in the mug",
+    "67213": "Put the pen in the mug",
+    "6161": "Put the pen in the yellow cup",
+    "18832": "Put the pen in the cup",
+    "42515": "Put the pen in the mug",
+    "6300": "Put the pen in the mug",
+    "28449": "Pick the pen and put it in the cup",
+    "49954": "Put the pen in the yellow cup",
+    "5795": "Pick up the pen and put it in the cup",
+    "88110": "Put the pen in the mug",
+    "36018": "Put the pen in the cup",
+    "52920": "Put the pen in the mug",
+    "78904": "Put the pen in the cup",
+    "89911": "Put the pen in the cup",
+    "54977": "Put the pen in the cup",
+    "10950": "Put the pen in the cup",
+    "51028": "Put the pen inside the cup",
+    "45018": "Put the pen in the cup",
+    "5343": "Pick up the pen and put it in the cup",
+    "75629": "Put the pen in the cup",
+    "1145": "Put the pen in the mug",
+    "14082": "Put the pen inside the yellow mug",
+	"57297": "Move the pen from the table and place it in the yellow cup"
+  },
+  "remove_pen_from_cup_and_put_on_table": {
+    "33157": "Take the pen out of the cup and put it on the table",
+    "69512": "Pick up the pen from the cup and put it on the table",
+    "16271": "Pick the pen from the cup and put it on the table",
+    "8976": "Remove the pen out of the cup and put it on the table",
+    "34715": "Remove the pen from the cup and put it on the table",
+    "46748": "Remove the pen from the yellow mug cup and put it on the table",
+    "80546": "Pick up the pen from the yellow cup and put it on the table.",
+    "89382": "Pick up the pen in the cup and put it on the table",
+    "13993": "Take the pen out of the cup and put it on the table",
+    "80823": "Remove the pen from the cup and put it on the table",
+    "46411": "Remove then pen out of the cup and put it on the table",
+    "46541": "Remove the pen from the cup and put it on the table",
+    "90965": "Pick up the pen from the cup and put it on the table",
+    "24684": "Take the pen from the yellow cup and put it on the table",
+    "79989": "Remove the pen from the mug and put it on the table",
+    "60052": "Remove the black and white pen from the yellow mug"
+  },
+    "put_marker_in_mug": {
+        "44332": "Remove the marker from the mug cup",
+        "2093": "Put the marker inside the mug cup",
+        "6655": "Put the marker inside the mug cup",
+        "28155": "Remove the marker from the cup.",
+        "55468": "Pick the marker from the cup and put it on the table"
+    },
+    "put_pen_on_table": {
+        "77262": "Put the pen on the table",
+        "18646": "Place the pen on the table",
+        "42601": "Place the pen on the table"
+    },
+    "remove_pen_from_cup":{
+        "78031": "Remove the pen from the cup",
+        "76368": "Remove the pen from the cup."
+    },
+	"put_spoon_in_cup":{
+		"35310": "Put the spoon in the cup"
+	}
+}

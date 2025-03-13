@@ -1,0 +1,89 @@
+
+{
+    "fold_cloth": {
+        "37891": "Fold the cloth on the table",
+        "44050": "Fold the white cloth",
+        "18937": "Fold the cloth on the table",
+        "57930": "Fold the cloth",
+        "38995": "Fold the cloth",
+        "51320": "Fold the cloth",
+        "60542": "Fold up the cloth",
+        "55462": "Fold the cloth on the table",
+        "64714": "Fold the cloth",
+        "18229": "Fold the cloth on the table",
+        "92468": "Fold the cloth on the table",
+        "73047": "Fold the cloth on the table",
+        "49049": "Fold the cloth on the table",
+        "83889": "Fold the cloth",
+        "35815": "Fold the cloth",
+        "89081": "Fold the white cloth",
+        "20944": "Fold the white cloth"
+
+    },
+    "fold_towel": {
+        "74770": "Fold the white towel",
+        "75811": "Fold the towel",
+        "16948": "Fold the white towel on the table.",
+        "80974": "Fold the towel",
+        "50258": "Fold the towel.",
+        "28346": "Fold the towel",
+        "727": "Fold the white towel",
+        "75014": "Fold the towel",
+        "10535": "Fold the white towel",
+        "12649": "Fold the towel",
+        "2440": "Fold the towel",
+        "60844": "Fold the white towel",
+       "72659": "Fold the white towel",
+       "53655": "Fold the white towel at the center"
+    },
+        "fold_towel_variations": {
+        "79959": "Fold the white towel into a triangle twice.",
+        "46739": "Fold the white towel twice",
+        "53525": "Fold the white towel on the table twice, diagonally.",
+        "50007": "Fold the white towel on the table twice, diagonally.",
+        "87409": "Fold the white towel into a triangle twice",
+        "6603": "Fold the white towel into a triangle twice",
+        "1795": "Fold the towel diagonally in half twice",
+        "40755": "Fold the towel diagonally twice",
+        "57652": "Fold the towel twice",
+        "17223": "Fold the towel into a triangle twice",
+        "57327": "Fold the towel diagonally twice",
+        "57203": "Fold the towel thrice",
+         "27594": "Fold the towel twice on the table"
+    },
+    "put_in_box": {
+        "75297": "Place the white cloth inside the orange box",
+        "23098": "Pick up the clothes from the table and put them in the box.",
+        "27716": "Put the shirts inside the box",
+        "63067": "Put the shirts inside the box",
+        "19561": "Pick up the pink shirt, then place it in the box",
+        "57471": "Place the peach t-shirt inside the box",
+        "42151": "Put the white cloth in the box",
+        "48478": "Put the cloth on the table into the box.",
+        "58741": "Pick up the clothes from the table and put them in the box.",
+        "85419": "Pick up the clothes from the table and put them in the box.",
+        "87468": "Put the bedsheets into the box"
+    },
+    "stack_cups": {
+        "1628": "Stack the cups",
+        "54477": "Stack the cups",
+        "64485": "Stack the cups",
+        "13300": "Stack all the cups together"
+
+    },
+    "put_marker_in_cup": {
+        "19031": "Put the marker in the cup",
+        "37112": "Put the marker into the cup",
+        "61206": "Put the marker inside the cup.",
+        "91451": "Pick up the marker and put it in the cup"
+    },
+   "no_action":{
+        "49813": "No action",
+        "89374": "No action",
+        "86371": "No action",
+        "82925": "No action",
+        "4506": "No action",
+        "47011": "No action"
+   }
+}
+

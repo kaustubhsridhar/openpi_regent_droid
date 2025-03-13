@@ -1,0 +1,135 @@
+
+{
+    "place_item_on_chair_backrest": {
+        "40000": "Put the leopard print cloth on the backrest of the chair",
+        "86144": "Pick a cloth in the basket and put it on the back rest of the chair",
+        "58511": "Place the animal print clothing on the backrest of the chair",
+        "71313": "Put the peach shirt on the backrest of the chair",
+        "60161": "Pick a cloth in the box and put it on the back rest of the chair",
+        "21288": "Put the orange shirt on the backrest of the chair",
+        "1326": "Put the blue scarf on the backrest of the chair",
+        "36162": "Put the black cloth on the backrest of the chair",
+        "78744": "Place the animal print clothing from the white box on the backrest of the chair",
+        "27268": "Put one sock on the backrest of the chair",
+        "94106": "Put one green sock on the backrest of the chair",
+        "57294": "Pick the sock from the box and put it on the back rest of the chair"
+
+    },
+    "place_item_on_chair_headrest": {
+        "79452": "Put the blue bandana on the head rest",
+        "67219": "Pick up the animal clothe and put it on the headrest of the chair",
+        "93881": "Put a cloth from the box on the head rest of the chair",
+        "16092": "Put the sparkly sock on the head rest",
+        "39143": "Hang the orange cloth on the head rest of the chair",
+        "75495": "Pick up the black cloth from the box and put it on the headrest of the chair",
+        "34029": "Put the orange cloth on the headrest chair",
+        "80642": "Pick up the black cloth from the box and put it on the headrest of the chair",
+        "54179": "Put the black cloth on the head rest",
+        "79305": "Pick up one cloth from the box and put it on the headrest of the chair",
+        "68568": "Pick up the orange cloth from the box and put it on the headrest of the chair, then pick up the black cloth  from the headrest of the chair and put it in the box",
+        "77147": "Pick up the black cloth from the box and put it on the headrest of the chair"
+
+    },
+      "place_black_item_on_chair_backrest": {
+        "64051": "Remove the black clothing from the storage bin and place it on backrest of the grey chair",
+        "10372": "Place one item of black clothing from the white box onto the backrest of the grey chair",
+        "38000": "Put the peach shirt on the backrest of the grey chair",
+        "13693": "Remove the peach clothing and the black clothing from the box and place them on the backrest of the grey chair",
+        "37764": "Place the black clothing on the backrest of the grey chair"
+    },
+        "hang_item_on_chair_back":{
+        "89627": "Remove the orange clothing from the white basket and hang it on the back of the chair",
+        "41099": "Remove the shirt from the white bin and hang it on the chair",
+        "48812": "Remove the black cloth from the basket and hang it on the chair",
+        "59565": "Remove the black clothing from the bin and hang it on the back of the chair",
+        "28897": "Hang the black shirt in the white basket on the back of the chair",
+        "41158": "Take the black cloth out of the basket and hang it on the back of the white chair",
+        "11575": "Hang the orange clothing on the back of the chair",
+        "3919": "Remove grey clothing from the white basket and hang it on the back of the chair",
+        "74017": "Remove the peach shirt from the white bin and hang it on the back of the chair",
+        "86318": "Remove the black shirt from the bin and hang it on the back of the chair",
+        "36338": "Hang the tie on the chair backrest",
+        "2552": "Pick up the grey clothing from the bin and hang it on the back of the chair",
+         "36327": "Hang the orange and peach clothes in the basket on the back of the chair"
+    },
+    "put_item_in_box": {
+        "29186": "Pick up the sock with green and white dots from the chair's headrest and place it inside the box",
+        "30240": "Remove the orange cloth from the backrest of the chair and place it inside the box",
+        "90694": "Turn the chair around, and then put the black tape in the box",
+        "38997": "Pick up the sock with green and white dots from the box and put it on the chair's headrest",
+        "68201": "Put the shiny object into the white box",
+        "81035": "Pick up the orange cloth from the chair's headrest and put it in the box",
+       "87253": "Pick up the cloth with green and white dots from the chair's headrest and place it inside the box",
+       "23850": "Pick up the clothes from the headrest of the chair and put them in the box",
+       "75073": "Move a cloth from the head rest and put the cloth in the box",
+       "19436": "Pick a cloth on the back rest of the chair and put it in the box",
+        "36124": "Put the black cloth in the box",
+        "42785": "Put the grey shirt inside the box.",
+        "49058": "Put the clothes from the chair backrest into the white box",
+        "35735": "Pick up the animal print cloth from the chair and put it in the box",
+         "91571": "Pick up the black cloth from the headrest of the chair and put it in the box",
+        "28089": "Move the clothes from the backrest to the box",
+        "64957": "Move the black cloth to the box",
+        "28100": "Move the black cloth from the chair head rest to the box",
+        "88556": "Put the beige shirt in the box",
+         "56154": "Pick up the blue cloth from the headrest of the chair and put it in the box"
+
+    },
+     "put_item_in_basket": {
+        "66113": "Put the green piece of clothing inside the basket.",
+        "82622": "Put the sock in the laundry basket",
+        "60133": "Put the orange cloth inside the basket.",
+        "32019": "Put the animal print cloth in the basket",
+        "74966": "Put the salmon shirt inside the basket.",
+         "56251": "Put the blue cloth in the basket.",
+        "81340": "Put the blue cloth and the shirt into the basket.",
+        "73666": "Put the black shirt into the basket.",
+        "27559": "Put the animal print cloth in the laundry basket",
+        "66001": "Put the black cloth in the laundry basket"
+     },
+
+    "put_item_on_chair":{
+        "32867": "Pick up the orange shirt and put it on the chair.",
+         "77924": "Remove the blue bandana from the basket and put it on the chair.",
+        "86815": "Pick up the black head sock from the container and put it on the chair.",
+        "27832": "Remove the shirt from the basket and put it on the chair.",
+        "6445": "Put the black shirt on the chair.",
+        "31541": "Pick up the black shirt in the basket and put it on to the chair."
+
+    },
+       "put_item_in_bin":{
+        "44659": "Pick up the shirt from the chair and put it in the white bin",
+         "62060": "Put the black shirt on the chair in the white bin",
+         "52402": "Put the orange thing on the chair in the white bin",
+         "1717": "Pick up the grey clothing from the chair and put it in the white bin",
+         "95176": "Put the orange shirt on the chair into the white bin"
+       },
+
+    "pick_up_item_from_box_and_put_on_chair_headrest":{
+    "65746": "Pick up the blue cloth from the box and put it on the chair's headrest",
+    "13149": "Pick up the cloth with green and white dots from the box and put it on the chair's headrest",
+    "62939": "Pick up the sock from the box and put it on the chair's headrest"
+    },
+
+    "remove_item_from_chair_backrest_and_put_in_bin":{
+        "70777": "Remove the black clothing from the backrest of the grey chair and put it inside the white storage bin",
+        "16586": "Remove the sock from the backrest of the grey chair and put it in the white storage bin",
+         "69980": "Remove the black clothing from the backrest of the grey chair and place it in the white storage container",
+        "37726": "Remove the clothes from the backrest of the grey chair and put them inside the white storage bin"
+
+    },
+    "pick_up_cloth_from_chair_and_put_in_container":{
+        "36926": "Pick up the light coloured cloth from the chair and put it in the container.",
+        "149": "Pick up the light coloured cloth from the chair and put it in the container.",
+        "28863": "Pick up the black cloth from the chair and put it in the container.",
+        "24891": "Pick up the striped cloth from the chair and put it in the container."
+    },
+     "put_item_from_bin_on_chair_back":{
+        "65205": "Pick up the peach shirt and blue bandana from the bin and put them on the back of the chair"
+     },
+    "remove_item_from_chair_put_in_basket":{
+        "10902": "Remove the black cloth from the chair and put it in the gray basket",
+        "38043": "Remove the clothes from the chair and put them in the basket"
+    }
+
+}

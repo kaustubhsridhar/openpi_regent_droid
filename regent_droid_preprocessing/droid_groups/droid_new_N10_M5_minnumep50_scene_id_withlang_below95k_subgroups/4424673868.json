@@ -1,0 +1,80 @@
+
+{
+    "stir_bowl": {
+        "48640": "Use the chopstick to stir in the white bowl",
+        "84563": "Use the chopstick to stir in the bowl",
+        "28270": "Use the chopstick to stir the blue blocks in the bowl.",
+        "60564": "Use the chopsticks to stir in the bowl",
+        "25790": "Use the chopsticks to stir the contents in the bowl.",
+        "52172": "Use one chopstick to stir the contents of the bowl",
+        "88917": "Stir the contents in the bowl",
+        "82330": "Pick up the stick and stir in the bowl",
+        "71093": "Stir the bowl with the straw"
+    },
+    "press_black_object": {
+        "29195": "Press on the black object",
+        "77339": "Press the top of the black object",
+        "25709": "Press on the black object",
+        "25314": "Press down on the black object"
+    },
+    "press_button_black_device": {
+        "36519": "Press a button on the black device",
+        "23862": "Press a button on the black device",
+        "68464": "Press a button on the black device.",
+        "17269": "Press down on the top of the black device.",
+        "18357": "Press down on the black device on the right."
+    },
+     "put_block_in_box": {
+        "89100": "Put the blue block in the bowl",
+        "54885": "Put the yellow block in the toy box",
+        "29391": "Put the yellow block in the wooden box",
+        "1844": "Put the blue block in the wooden box",
+        "40423": "Place the blue rectangular block in the wooden box through the square cutting on the lid"
+
+    },
+    "wipe_with_cloth_napkin": {
+        "76304": "Use the cloth to wipe the bowl",
+        "81445": "Use the white napkin to wipe the top of the blue box.",
+        "55019": "Use the napkin to wipe the rim of the bowl",
+        "23281": "Use the white napkin to wipe the counter.",
+        "73654": "Use the cloth to wipe the book",
+       "991": "Use the white napkin to wipe the blue book."
+    },
+    "close_box":{
+        "72593": "Close the wooden box",
+        "60170": "Close the cube-shaped object",
+        "66973": "Close the lid of the toy box"
+    },
+    "move_blue_bottle": {
+        "9247": "Bring the blue bottle closer to the book",
+        "2167": "Move the blue bottle to the left side of the table",
+        "54176": "Move the blue bottle closer to the white bowl"
+    },
+    "move_blue_block":{
+        "90832": "Move the blue block from the plate on the right, to the one on the left",
+        "85216": "Move the blue block from the left bowl to the right bowl",
+        "11079": "Move one blue block to the plate to the left",
+        "63462": "Move the blue bock to the brown box"
+    },
+   "put_lid_on":{
+        "91300": "Place the lid onto the bottle",
+        "36043": "Put the clear lid on the white and blue bottle.",
+        "68066": "Put the clear cap onto the bottle"
+   },
+    "remove_from_container":{
+        "5737": "Remove the lid from the blue bottle.",
+        "68235": "Remove the white lid from the clear lunchbox",
+        "42997": "Remove the cap from the blue bottle"
+    },
+    "place_blue_block":{
+        "17501": "Place the blue block on the table upright.",
+        "57569": "Put the blue block upright",
+        "17850": "Place one blue block on the white and blue plate"
+    },
+     "wipe_with_tissue_wipe":{
+        "981": "Pick up the wipe and clean the book",
+        "29144": "Pick up the wipe and clean the part of the  table near the box",
+        "80862": "Use the tissue to wipe the book"
+
+    }
+}

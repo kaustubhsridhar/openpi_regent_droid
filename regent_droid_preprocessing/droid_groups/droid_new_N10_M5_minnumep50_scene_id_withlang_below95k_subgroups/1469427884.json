@@ -1,0 +1,219 @@
+
+{
+    "Move object forward": {
+        "75779": "Move the stationary holder containing the green decorating ribbon forward",
+        "67772": "Move the black cup forward",
+        "33086": "Move the purple umbrella forwards.",
+        "51574": "Move the mug forwards.",
+        "76169": "Pick up the clear storage container with three square compartments and move it a little forward on the table",
+        "13017": "Move the colorless bowl forward",
+        "13042": "Pick up the empty clear case and move it forward",
+        "54002": "Move the left tray forward",
+        "49947": "Move the clear container forwards.",
+        "4930": "Move the mug forwards.",
+        "13191": "Move the black masking tape dispenser forward",
+        "13582": "Move the black cup forward",
+        "82857": "Move the black cup forward and place the purple marker first then the blue blade cutter",
+        "39862": "Move the black cup forward",
+        "95298": "Move the tape dispenser forwards."
+    },
+    "Move object backward": {
+        "43046": "Pick up the red ribbon tape and move it backward on the table",
+        "37595": "Move the black object backwards",
+        "70991": "Move the clear container in front backwards.",
+        "84988": "Move the tape dispenser backwards"
+
+    },
+    "Move object to the right": {
+        "45117": "Move the clear box to the right",
+        "57407": "Move the white disc under the box to the right.",
+        "57414": "Pick up the clear masking tape dispenser and move it to the right",
+        "47177": "Move the clear container at the front to the right.",
+        "71928": "Move the clear case with a blue object in it to the right",
+       "84164": "Pick up the black mug and move it to the right of the table in between the two scissors",
+        "10480": "Move the green object to the object on the right",
+       "25186": "Move the black masking tape dispenser to the right",
+       "29498": "Move the green marker to right",
+        "25415": "Move the black cup to the right",
+       "86366": "Move the black cup to the right",
+        "90590": "Move the black cup to the right",
+       "24126": "Move the red bow to the right",
+         "17928": "Move the container to the right",
+    "24444": "Move the container to the right",
+        "65363": "Move the tray to the right",
+         "79745": "Move the black box to the right.",
+        "26000": "Move the blue circular object to the right",
+        "56861": "Move the purple umbrella to the right",
+        "52919": "Shift the umbrella to the right",
+        "81636": "Move the scissors on the left to the right.",
+      "32443": "Move the purple umbrella forward and move the clear case to the right",
+       "52427": "Move the cup to the right",
+        "56705": "Move the black cup to the right",
+      "62805": "Move the black cup to the right, unstack the two clear cases and the stack them up again"
+
+    },
+        "Move object to the left": {
+        "67681": "Move the green and yellow ribbons to the left tray",
+        "51318": "Move the cup to the left",
+         "63859": "Move the plastic box to the left",
+        "86087": "Move the bow to the container on the left side",
+          "74605": "Move the container to the left",
+          "8720": "Move the umbrella to the left",
+        "27528": "Move the cup to the left",
+        "66439": "Move the black cup to the left",
+      "80413": "Move the tape slightly from the right to the left",
+         "87065": "Move the black tape dispenser to the left.",
+           "7207": "Move the tape dispenser to the left.",
+         "83003": "Move the green and white object to the left",
+      "83801": "Move the clear container at the front to the left.",
+        "16171": "Move the box to the left",
+     "20371": "Move the black object to the left",
+     "83347": "Move the cup to the left",
+     "79283": "Move the cup to the left",
+      "11716": "Move the tape dispenser to the left then move the blue and purple markers in the container on the left to the left.",
+        "38347": "Move the tape dispenser to the left",
+        "70208": "Move the black mug to the left.",
+        "25755": "Move the black cup slightly to the left",
+         "91062": "Move the clear square bowl to the left",
+        "13403": "Move the transparent tray to the left",
+           "46299": "Move the tape dispenser to the left",
+        "62584": "Move the two stationary holders to the left and separate them"
+    },
+      "Put marker in black cup": {
+
+        "67801": "Lift the blue marker next to the box to the right and put it in the black stationary cup",
+      "47310": "Put the sharpie in the cup",
+        "2161": "Put the marker into the cup",
+        "62209": "Put the marker inside the black cup",
+           "58196": "Pick up the blue marker and put it inside the black cup",
+        "25774": "Put the marker inside the black cup",
+            "54518": "Put a marker into the cup",
+     "1442": "Put the marker that is at the right of the black cup in the black cup",
+          "5624": "Pick up the marker and put it into the black cup",
+        "6136": "Put the left marker in the black cup",
+              "44846": "Pick up the white marker on the left and then put it in the black cup"
+    },
+    "Put object in container": {
+        "40975": "Pick up the yellow gift bow and put it in the clear storage container with an orange cloth",
+        "88145": "Put the match box inside the clear case on the left",
+       "84115": "Put the white object and red disc in the container at the back.",
+        "76020": "Put the circular object inside the container",
+        "45281": "Pick up the red ribbon tape and put it in the empty clear square container",
+         "33167": "Put the marker inside the container",
+        "90634": "Put the tape item in the container",
+      "6971": "Put the red disc in the clear container on the right.",
+          "54109": "Put the bow inside the container",
+       "87149": "Put the circular object inside the transparent box",
+          "35766": "Put the small block inside the container",
+        "5916": "Put the white object inside the container",
+       "1401": "Put the marker inside the container",
+        "44497": "Put the pen in the container",
+        "5649": "Put the blue object inside the container"
+    },
+    "Remove marker from container":{
+        "8237": "Remove the blue marker from the container at the front and place it in the container at the back.",
+      "76149": "Remove the marker from the container",
+      "53487": "Take the blue marker out of the clear container on the right.",
+         "2838": "Remove the purple marker from the clear container.",
+         "93078": "Remove the marker from the tray",
+     "52554": "Remove the marker from the right tray"
+
+    },
+    "Remove marker from black cup":{
+        "22884": "Remove the marker from the black cup",
+         "86820": "Remove the marker from the black cup",
+       "52022": "Remove the marker from the black cup and put it on the table",
+       "36477": "Remove the marker from the black cup and put it on the table",
+         "67073": "Remove the purple marker from the black cup and place it on the table"
+
+    },
+      "Remove object from container":{
+           "18487": "Remove an orange glove from the black box and put it on the table",
+        "84031": "Remove the brown object from the top compartment of the clear case on the left and put it on the table",
+        "59474": "Remove the orange glove from the container on the left and put it in the container on the right.",
+        "71850": "Remove the tape from the container on the left and put it on the table.",
+        "18645": "Remove the scissors from the container",
+         "53673": "Remove the white object from the top segment of the clear case on the left and put it on the table",
+     "72738": "Remove the green object from the container",
+     "53847": "Remove the object from the transparent pen holder to the right and put it on the table",
+          "10903": "move the object out of the box",
+        "51076": "Remove the object in the clear case on the left and put it on the table"
+      },
+    "Put object on table":{
+        "47141": "Put the mug on the table",
+        "87503": "Put the mug on the table",
+        "86348": "Put the brown object on the table",
+          "5297": "Put the wooden block on the table",
+             "9166": "move the object from the box and place it on the table",
+        "56452": "Put the scissors on the table"
+
+    },
+      "Put object in clear container":{
+          "76813": "Put the scissors in the empty clear object",
+           "282": "Pick up one pair of scissors, then place them in the clear object",
+        "20788": "Move the tape roll to the clear object next to the scissors",
+         "67880": "Put the marker in the transparent object",
+        "94345": "Shift the sharpies to the clear object, then put the mug on the pad",
+          "80027": "Put the clear object directly on the table",
+        "53886": "Transfer to the tape to another clear container",
+        "49852": "Put the wooden block into the plastic container",
+          "8156": "Place the red ribbon tape in the clear container",
+            "52453": "Put the clear masking tape into the clear case on the left",
+     "38757": "Put the brown thing into the plastic box",
+        "4465": "Put the marker into the clear box",
+            "9677": "Put one glove in the clear object",
+      "36312": "Pick up the orange thing from the stairs and put it into the clear box",
+             "3676": "Put the sellotape in the clear container at the front of the table."
+      },
+       "Stack containers":{
+            "39650": "Stack up the containers on the table",
+            "91030": "Stack up the containers on the table",
+              "73726": "Stack up the transparent containers"
+       },
+    "Put object in X bowl":{
+         "26692": "Put the wooden block in the left bowl",
+           "32900": "Put the marker closest to you in the bowl closest to you",
+          "12457": "Put the right scissors in the bowl furthest from you",
+     "82207": "Put the blue object in the second container from the left.",
+     "81180": "Put the marker in the bowl closest to you",
+        "23625": "Put the blue object in the bowl furthest from you",
+         "17060": "Put the tape in the left bowl"
+    },
+      "Place object upright":{
+        "53259": "Put the furthest tray upright",
+         "37": "Put the container upright",
+            "41129": "Remove the wooden block from the clear bowl and place it upright on the far right of the table",
+       "16673": "Place the black mug upright.",
+         "86709": "Place the black mug upright.",
+             "1362": "Place the clear container on the right upright.",
+               "34739": "Push the right transparent bowl upright"
+      },
+        "Remove scissors from container":{
+            "55298": "Remove the scissors out of the tray",
+            "2700": "Remove the scissors from the cup",
+            "18237": "Remove the scissors from the cup"
+        },
+        "Put object on black object":{
+            "53630": "Put the black cup on the black object on the left",
+           "51072": "Put the black cup on the black object on the left",
+            "56430": "Put the black cup on the black object",
+          "81435": "Put the black masking tape dispenser on the black object on the left",
+           "9092": "Put the black cup on the black object",
+          "51959": "Put the black object on top of the black box.",
+          "26975": "Put the tape dispenser on the black object"
+        },
+        "Put blue object in container":{
+            "83796": "Put the blue object from the clear container in the black mug.",
+              "91421": "Put the blue marker in the clear container on the right.",
+               "43650": "Put the white and blue object in the clear container on the left.",
+            "89059": "Put the blue marker in the container in the middle.",
+             "89768": "Put the blue object in the closest tray",
+             "91086": "Move the blue marker to the container at the back."
+        },
+        "Put object in left container":{
+            "59387": "Put the brown object inside the container to the left",
+             "11167": "Put the block inside the container to the left",
+             "83015": "Put the red disc in the stacked clear containers on the left.",
+            "71560": "Put the white tape in the clear container on the left."
+        }
+}

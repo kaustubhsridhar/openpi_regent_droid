@@ -1,0 +1,206 @@
+
+{
+    "close_coffee_maker": {
+        "88068": "Close the coffee maker",
+        "16903": "Close the coffeemaker",
+        "26136": "Close the coffee maker",
+        "20520": "Close the grey coffeemaker",
+        "17452": "Close the top opening of the coffee machine.",
+        "13874": "Close top lid of the coffee maker",
+        "73807": "Close the coffee maker",
+        "37474": "Close the coffee maker",
+        "70288": "Close the coffeemaker",
+        "46737": "Close the coffee maker",
+        "64187": "Close the coffee maker",
+        "15042": "Close the coffee maker",
+        "61142": "Close the coffee maker",
+        "75516": "Close the coffee maker",
+        "74558": "Close the coffee maker",
+        "68460": "Close the coffee maker",
+        "49001": "Close the coffee maker",
+        "7524": "Close the coffee maker",
+        "1264": "Close the coffeemaker",
+        "62299": "Close the coffeemaker",
+        "49121": "Close the lid of the coffee maker",
+        "76193": "Close the coffeemaker",
+        "39876": "Close the coffeemaker",
+        "73647": "Close the grey coffee maker",
+        "84374": "Close the top of coffee maker"
+    },
+    "open_coffee_maker": {
+        "26128": "Open the coffee maker lid",
+        "35861": "Open the coffee maker machine",
+        "93725": "Open the coffee maker lid",
+        "8734": "Open the coffee maker",
+        "90169": "Open the coffee maker",
+        "86617": "Open the coffee maker lid",
+        "46697": "Open the coffee maker lid",
+        "20590": "Open the grey coffeemaker",
+        "45141": "Lift up the lid on the coffee machine.",
+        "29325": "Open the coffee machine",
+        "78663": "Open the chamber of the grey coffeemaker",
+        "93444": "Open the top part of the coffee maker",
+        "88853": "Open the lid on the coffee machine",
+        "48933": "Open the coffee maker",
+        "80172": "Open the lid of the coffee maker",
+        "9007": "Open the coffee maker",
+        "75601": "Open the coffee maker",
+        "14661": "Open the coffee maker",
+        "46977": "Open the coffee maker",
+        "39834": "Open the coffee maker",
+        "49092": "Open the coffee maker",
+        "14585": "Open the coffee maker",
+        "23456": "Open the top of the coffee maker",
+        "87395": "Open the top of the coffee maker",
+        "15721": "Open the coffee maker",
+        "9687": "Open the coffee maker lid",
+        "12197": "Open the coffeemaker",
+         "2985": "Open the coffeemaker",
+         "27384": "Open the grey coffeemaker",
+         "48356": "Open the grey coffee maker",
+        "67441": "Open the top compartment of the coffee machine.",
+        "22477": "Open the top compartment of the coffee maker.",
+        "15265": "Open the top compartment of the coffee maker."
+
+    },
+    "open_coffee_maker_chamber": {
+        "62488": "Open the coffee machine chamber",
+        "89653": "Open the coffee machine chamber",
+        "15432": "Open the coffee machine chamber",
+        "78022": "Open the coffee machine chamber",
+        "58568": "Open the chamber on the grey coffeemaker",
+        "15114": "Open the coffeemaker chamber",
+        "82712": "Open the coffee machine chamber",
+        "49602": "Open the coffee machine chamber",
+        "23238": "Open the chamber of the coffeemaker",
+        "55295": "Open the compartment of the coffee machine."
+
+    },
+    "close_coffee_maker_chamber": {
+       "30987": "Close the lid of the coffee machine chamber",
+        "36107": "Close the lid on the coffee machine",
+        "60230": "Close the lid of the coffee machine chamber",
+        "74057": "Close the coffee machine chamber",
+        "64337": "Close the coffee machine chamber",
+        "57176": "Close the coffee machine chamber",
+       "36673": "Close the grey coffeemaker's chamber",
+        "26532": "Close the coffee machine chamber",
+        "34761": "Close the chamber of the coffee machine"
+    },
+      "close_coffee_maker_lid": {
+        "4614": "Close the lid of the grey machine",
+        "46702": "Close the lid of the coffee maker",
+        "28369": "Close the lid of the coffee marker",
+         "1815": "Close the lid of the machine",
+         "42795": "Close the lid of the coffee maker",
+         "73520": "Close the lid of the coffee maker and then open it",
+        "63324": "Close the lid of the coffee maker",
+        "75189": "Close the lid of the object"
+    },
+
+    "put_lid_on_jar": {
+        "29238": "Put the lid on the jar",
+        "71729": "Put the lid on top of the glass jar, put the black ladle inside the green bowl, take the ladle out of the bowl",
+        "44673": "Put the lid on top of the glass jar",
+        "94928": "Place the lid on the glass jar",
+        "49498": "Place the lid on the glass jar",
+        "63331": "Put the lid on top of the glass jar",
+        "6017": "Place the lid on the jar",
+        "35767": "Put the lid on the clear jar",
+        "17859": "Put the lid on the glass jar",
+        "15108": "Put the metal lid on the jar"
+
+    },
+    "put_lid_on_bottle": {
+        "51219": "Pick the lid on the table and put it on the bottle",
+        "540": "Pick the cap and put it on top of the bottle",
+        "74371": "Pick the lid on the table and put it on the bottle",
+        "22686": "Put the lid on the bottle",
+        "73921": "Pick the lid on the table and put it on the bottle",
+        "36220": "Pick the lid and put it on the bottle",
+        "44940": "Pick the lid on the table and place it on top of the bottle"
+    },
+    "remove_lid_from_jar": {
+        "27663": "Remove the lid from the glass jar and place it on the table",
+        "88181": "Remove the lid from the glass jar then place it back on the jar",
+        "64164": "Uncover the jar and put the lid on the table",
+        "46820": "Take the lid off the jar and put it on the tray",
+       "24496": "Remove the lid from the jar and put it on the table",
+        "47550": "Remove the lid from jar",
+        "48076": "Remove the lid from the glass jar",
+        "11238": "Remove the lid from the glass jar",
+        "89477": "Take the lid off the glass jar"
+
+    },
+
+    "put_spoon_on_table": {
+        "89770": "Put the spoon on the table",
+        "5469": "Put the spoon on the table",
+        "68401": "Put the black spoon on the table"
+    },
+     "put_whisk_on_table": {
+        "15879": "Place the whisk in the center of the table",
+        "7810": "Put the whisk on the table",
+        "83420": "Put the whisker on the table",
+        "18217": "Remove the whisk from the jar and put it on the table"
+    },
+      "put_spoon_in_jar": {
+        "94389": "Put the spoon in the glass jar",
+        "6643": "Pick the big spoon and put it in the glass jar"
+
+    },
+
+    "move_object_forward": {
+        "19983": "Move the lid forward.",
+        "34821":  "Remove the spoon from the jar and put it on the table, move the grey object backwards, put the whisk beside the spoon, and then move the glass jar forward",
+        "32507": "Move the glass jar forwards",
+        "87847": "Move the glass bottle forward",
+        "29042": "Slide the glass jar forward"
+    },
+     "move_object_backward": {
+       "56058": "Move the potted plant away from you",
+        "56686": "Move the bottle backwards",
+        "64774": "Move the whisker away from the green bowl"
+    },
+      "remove_lid_from_bottle": {
+        "68779": "Remove the lid from the bottle and put it on the table",
+        "63785": "Remove the lid from the bottle and put it on the table"
+    },
+     "put_item_in_bowl": {
+        "6155": "Pick the big spoon and put it in the white bowl",
+        "89291": "Put the spoon in the bowl",
+        "35238": "Put the black spoon in the green bowl"
+     },
+    "open_lid_keurig":{
+        "12885": "Open the water reservoir lid on the Keurig machine",
+        "16592": "Open the water reservoir lid on the Keurig machine"
+    },
+     "close_lid_keurig":{
+        "15977": "Close the water reservoir lid on the Keurig machine"
+     },
+    "move_bowl_right":{
+        "5189": "Move the bowl to the right",
+        "92399": "Move the bowl to the right",
+        "24307": "Move the white bowl to the right"
+    },
+      "remove_spoon_from_jar":{
+           "56172": "Remove the serving spoon from the bottle and put it on the table"
+      },
+    "press_button_coffee_machine":{
+        "57514": "Push the button to open the chamber of the coffee machine",
+        "21195": "Press the on/off button on the coffee machine.",
+        "11737": "Push the button on the coffee machine"
+    },
+     "put_whisk_in_bottle":{
+         "58061": "Put the whisk inside the transparent bottle",
+         "44322": "Put the whisker in the glass bottle"
+     },
+       "put_spoon_in_glass":{
+            "74892": "Put the dishing spoon in the glass cup",
+            "32634": "Get the black spoon and put it in the colourless glass"
+       },
+        "uncover_container":{
+            "88293": "Uncover the container"
+        }
+
+}

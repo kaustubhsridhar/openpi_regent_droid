@@ -1,0 +1,64 @@
+
+{
+    "wipe_pan_with_towel": {
+        "87683": "Wipe the pan with a towel",
+        "15890": "Use the right towel to wipe the pan",
+        "10645": "Use the towel to wipe the pan",
+        "7717": "Use the tea towel on the right to wipe the pan",
+        "17320": "Use the left towel to wipe the pan",
+        "29108": "Use the towel to wipe the pan",
+        "43446": "Use the left towel to wipe the pan",
+        "33080": "Use the towel to wipe the pan",
+        "11586": "Use the right white towel to wipe the pan",
+        "86089": "Wipe the pan with the towel",
+        "18378": "Use the towel to wipe the pan.",
+        "19546": "Use the left white towel to wipe the pan",
+        "83166": "Use the towel to wipe the pan",
+        "63456": "Wipe the pan with a towel",
+        "38250": "Use the left white towel to wipe the pan",
+        "37495": "Use the right white towel to wipe the pan",
+        "46970": "Use the towel to wipe the pan",
+        "44128": "Wipe the pan with the white towel",
+        "21988": "Use the towel to partially wipe the pan"
+
+    },
+    "wipe_pan_with_cloth": {
+        "65792": "Pick up the cloth from the counter and wipe the pan",
+        "38789": "Pick up the cloth from the counter and wife the pan",
+        "43910": "Wipe the pan with the dish cloth",
+        "33161": "Pick up the cloth from the counter and wipe the pan",
+        "73880": "Wipe the pan with the dish cloth",
+        "71328": "Wipe the pan with the dish cloth",
+        "46371": "Pick up the cloth from the counter and wipe the pan",
+        "84647": "Use the white cloth to wipe the pan",
+        "13992": "Pick up the kitchen cloth and wipe the pan",
+        "83496": "Use a dish cloth to wipe the pan",
+        "49845": "Pick the cloth and wipe the sauce pan",
+        "60371": "Pick up the cloth and wipe the pan",
+        "66645": "Wipe the pan with the dish cloth",
+        "67568": "Pick the cloth and wipe the pan with it",
+        "28153": "Pick the cloth and wipe the pan",
+        "31997": "Use the cloth to wipe the pan",
+        "638": "Wipe the pan with the dish cloth",
+        "33620": "Use the cloth to wipe the pan"
+    },
+        "wipe_black_pan_with_white_and_blue_towel": {
+        "12548": "Use the white and blue towel to wipe the black pan",
+        "14394": "Use the white and blue towel on the right to wipe the black pan.",
+        "1871": "Pick up the white and blue towel on the right and use it to wipe the black pan",
+        "6867": "Use the white and blue towel on the right to wipe the black pan",
+        "61862": "Use the white towel wipe the black pan"
+    },
+    "wipe_pan_and_return_items":{
+        "29243": "Pick the cloth and wipe the pan, then put it back on the counter",
+        "63487": "Pick up the white towel with blue stripes from the table, wipe inside the black pan, and put the towel back on the table."
+    },
+    "clean_pan_with_towel":{
+       "41633": "Pick up the towel and clean the frying pan",
+       "19883": "Use the left towel to clean the pan",
+       "13157": "Pick up the kitchen towel and clean the pan",
+       "46165": "Pick up the towel and wide the frying pan",
+       "8519": "Pick up the kitchen towel and wipe the pan",
+       "15185": "Pick up the towel on the left and use it to wipe the inside of the pan"
+    }
+}

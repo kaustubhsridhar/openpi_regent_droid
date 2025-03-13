@@ -1,0 +1,146 @@
+
+{
+    "stack_cans": {
+        "72822": "Stack up the cans on the table",
+        "63021": "Stack the lids then stack the cans",
+        "34463": "Unstack the cans then restack them the other way around",
+        "38898": "Take the lids off the cans than stack the cans"
+    },
+    "put_lid_on_can": {
+        "25609": "Swap the lids on the can",
+        "55841": "Put the lid on the can on the table then put the other can on top",
+        "83490": "Take the lid off of the can then put the can on the lid",
+        "69767": "Move the can to the right then put the lid on top",
+        "47259": "Move the can to the left then put the lid on top",
+        "79706": "Put the blue lid on top of the yellow tin on the left.",
+        "67364": "Put the green lid on the yellow tin"
+    },
+    "place_item_in_clear_container": {
+        "64670": "Pick up the yellow book and place it in the clear storage container",
+        "43269": "Put the yellow book in the clear container on the left",
+        "26582": "Put the white sunglasses in the clear container",
+      "86206": "Put the blue lid in the clear case on the left"
+
+    },
+        "place_item_in_cup":{
+            "93235": "Move the plastic cup to the left side of the table then put the green bottle in it",
+          "95296": "Put the silver cup in the plastic cup and put them in the clear case"
+    },
+    "place_item_on_block": {
+        "87591": "Pick up the white bottle on the table top and put it on top of the wooden block, pick up the wooden block with a white bottle on top and move it slightly to the right",
+        "24131": "Pick up the green hot sauce bottle to make it stand upright and place a wooden block on top of it",
+        "84100": "Turn the clear small jar with the red lid the right way up on the table, pick up the wooden block and put it on the clear small jar with a red lid"
+    },
+    "place_item_in_box": {
+        "1590": "Put the yellow book in the storage box",
+      "74420": "Pick up the clear cup and silver cup together and put them in the box"
+    },
+    "upright_bottle": {
+        "81978": "Make the laying bottle in the clear storage box stand upright in the storage box",
+        "70279": "Place the white bottle in the clear container upright.",
+        "7863": "Put the bottle with the blue lid upright and put it in the transparent storage box",
+      "37351": "Put the bottle in the clear case in a standing position",
+      "26094": "Place the green and red sauce bottles upright."
+    },
+    "upright_container": {
+     "78603": "Put the transparent container with the red lid upright",
+        "30019": "Remote the plastic cup and silver cup from the clear case and put them in an upright position",
+       "73915": "Pick up the container with a blue lid and place it the right way up on the table, pick up the container with a blue lid and put it in the clear storage container",
+      "68843": "Pick up the clear measuring cup and put it the right way up on the table",
+         "70227": "Put the container with the red lid upright and put the wooden block on top of it then place the container and block in the yellow tin on the left"
+    },
+
+    "turn_item_upside_down": {
+        "45725": "Pick up the clear measuring cup and place it upside down in the clear storage container",
+        "91559": "Put the box upside down",
+        "9641": "Place the container with the red lid upside down.",
+      "91932": "Put the measuring spoon upside down",
+      "23305": "Flip the blue box and place it upside down on the table",
+      "44183": "Pick up the clear cup and place it upside down on the table, pick up the clear measuring spoon and put it on top of the clear cup"
+
+    },
+        "turn_item_over":{
+          "18211": "Turn the grey box over",
+        "57664": "Turn the container with an orange lid on the over",
+          "77145": "Flip the white scoop over"
+        },
+     "move_item_forward":{
+        "73058": "Pick up the wooden block and move forward on the table, slide the book a little to the right, put the wooden block in between the book pages"
+     },
+        "move_item_backward": {
+            "31479": "Move the clear cup backwards and put the orange packet in the cup, put the green sauce bottle on the table then put the clear cup in the clear container",
+            "13332": "Move the clear measuring cup backwards then put one wooden block on top of it."
+        },
+      "set_bottles_upright":{
+        "57709": "Set the two bottles upright on the table"
+      },
+    "put_item_in_can":{
+        "61675": "Put the scoop in the orange can then put the can in the clear box"
+    },
+    "put_item_on_towel":{
+        "28952": "Place two wooden blocks on the striped towel then put the towel in the box",
+        "51104": "Put one wooden block on the striped towel and fold it once then put it inside the box.",
+        "48571": "Put the block in the middle of the towel then put the towel in the box"
+    },
+      "put_item_in_measuring_cup":{
+          "13397": "Put the bottle inside the measuring cup then put it inside the container"
+      },
+      "put_item_in_jar":{
+          "49444": "Put the bottle into the jar"
+      },
+    "put_item_in_shoe_box":{
+        "67775": "Pick up the white and orange bottle and put it in the shoe box, pick up the yellow bottle with a foil top from the table and put it in the shoe box, pick up the shoe box and put it on top of the crisper drawer"
+    },
+    "stack_blocks":{
+        "10254": "Stack the blocks correctly"
+    },
+      "put_item_in_opaque_cup":{
+          "39562": "Put the opaque cup upright, put the bottle on the table and then put the silver cup in the opaque cup"
+      },
+      "put_item_in_clear_cup":{
+        "81390": "Put the snack packet in the plastic cup then put the cup in the clear box"
+      },
+    "pour_contents":{
+         "37979": "Pick up the clear cup and pour its contents into the clear measuring spoon",
+          "42240": "Pour the contents of the plastic cup onto the table, put the green bottle in the plastic cup and then put the plastic cup in the clear case",
+        "39257": "Pour the contents in the clear measuring cup into the clear cup on the left",
+      "66364": "Pour the contents of the small plastic cup into the can on the left"
+
+    },
+    "put_item_in_clear_box":{
+        "57467": "Take the block off the green bottle then put the green bottle in the clear box",
+         "31473": "Put the scoop upside down on the blue lid then stack the cans in the clear box",
+      "15710": "Put the green can and the blue lid in the clear box"
+    },
+      "empty_cup":{
+          "46472": "Empty the plastic cup into the scoop"
+      },
+      "empty_scoop":{
+          "33168": "Empty the scoop into the green can"
+      },
+
+      "put_item_in_cup_in_container":{
+          "35252": "Put the packet in the cup into the container"
+      },
+      "stack_items":{
+          "23007": "Put the bowl with the blue lid on top of the yellow bowl and the put the measuring cup on top",
+           "22402": "Pick up the yellow can with a blue lid and put it on the yellow can without the lid and then pick up the measuring cup and put it on top of the stacked yellow cans",
+            "17309": "Put the right can on the left can, then put the measuring spoon on the can",
+            "47102": "Place the yellow can on top of the green lid"
+      },
+      "place_item_vertically":{
+           "74950": "Pick up the two horizontally laying wooden blocks and position them vertically on the table",
+            "2426": "Pick up the horizontally laying green hot sauce bottle and position it vertically on the table"
+      },
+
+    "put_item_on_book":{
+        "60501": "Put the wooden block in the middle of the book",
+        "72410": "Open the book and put a wooden block on the opened page",
+      "94063": "Place a book on the brown bottle"
+    },
+
+      "put_item_in_medicine_bottle_in_cup":{
+          "93090": "Put the medicine bottle into the cup the put the cup into the box"
+      }
+
+}

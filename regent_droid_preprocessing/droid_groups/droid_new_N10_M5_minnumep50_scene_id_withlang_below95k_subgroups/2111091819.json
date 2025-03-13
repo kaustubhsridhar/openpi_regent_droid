@@ -1,0 +1,65 @@
+
+{
+    "open_drawer": {
+        "92035": "Open the topmost drawer",
+        "39430": "Open the top drawer of the cabinet on the table",
+        "2734": "Open the top drawer",
+        "71355": "Open the top drawer of the cabinet",
+        "54478": "Open the middle drawer",
+        "21839": "Open the second drawer of the cabinet",
+        "10450": "Open the topmost drawer",
+        "14311": "Open the top drawer of the plastic cabinet"
+    },
+    "close_drawer": {
+        "83595": "Close the top drawer",
+        "37270": "Close the top drawer of the cabinet on the table",
+        "35096": "Close the topmost drawer of the small white cabinet",
+        "40185": "Close the bottom open drawer",
+        "49363": "Close the topmost drawer",
+        "76902": "Close the first top drawer",
+        "80106": "Close the middle drawer of the cabinet on the table",
+        "9709": "Close the middle drawer of the small white cabinet",
+        "19449": "Push the top drawer closed"
+    },
+    "move_item_left": {
+        "47521": "Move the white box from right to left",
+        "75578": "Move the blue pen to the left edge of the table",
+        "5064": "Move the marker to the left",
+        "3564": "Move the white cap to the left"
+    },
+    "move_item_right": {
+        "61706": "Move the yellow pen to the right",
+        "91759": "Move the yellow pen to the right"
+    },
+    "move_item_backward": {
+        "13604": "Move the pen holder backwards",
+        "33265": "Move the pink marker backward",
+        "63867": "Move blue pen backwards"
+    },
+     "put_marker_in_drawer": {
+        "54056": "Put the blue marker in the first top drawer of the cabinet",
+        "41313": "Pick up the red marker and put it in the middle drawer",
+        "25444": "Put the pink marker in the middle drawer"
+    },
+    "put_item_in_pen_holder":{
+        "8876": "Put the orange and white marker in the white pencil holder",
+        "45368": "Pick the black pen on the table and put it in the pen holder",
+        "30322": "Put the pink marker in the pen holder",
+        "54387": "Put the marker inside the stationary holder"
+    },
+    "remove_item_from_holder_and_place_on_table":{
+        "83045": "Take the white and blue marker out of the pen holder and put it on the table",
+        "47088": "Take the red marker out of the pen holder and put it on the desk",
+        "77428": "Take the black marker out of the holder and put it on the table"
+
+    },
+    "place_item_in_box":{
+      "44574": "Pick the marker and put it in the box",
+      "61759": "Put the orange marker inside the white box on the right",
+      "18676": "Put the green pen inside the white box"
+    },
+      "remove_lid_and_place_on_table":{
+        "77312": "Remove the lid from the spray bottle and put it on the table",
+        "13854": "Remove the lid from the white can on the table"
+    }
+}

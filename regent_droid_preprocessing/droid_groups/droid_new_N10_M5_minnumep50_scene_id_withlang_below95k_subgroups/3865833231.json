@@ -1,0 +1,78 @@
+
+{
+  "Pull Chair Out": {
+    "68992": "Partially pull the chair out away from the table",
+    "75044": "Pull out the chair",
+    "9037": "Pull out the chair"
+  },
+  "Push Chair In": {
+    "65218": "Push the white chair underneath the table.",
+    "65385": "Push the chair on the right underneath the table."
+  },
+  "Put Black Cap on Table": {
+    "32261": "Put the black cap on the table.",
+    "26605": "Put the black cap on the table."
+  },
+  "Put White Towel on Table": {
+    "65426": "Put the white towel on the table",
+    "34471": "Put the white towel on the table"
+  },
+  "Put Yellow Towel on Table": {
+    "80154": "Put the yellow towel on the table",
+    "10937": "Unhang the yellow towel from the stand and put it on the table."
+  },
+    "Put Hanger on Stand": {
+    "37918": "Put the hanger on the stand",
+    "44591": "Put the hanger on the white stand",
+        "24942": "Put the hanger on the stand",
+    "40686": "Put the hanger on the stand"
+  },
+    "Hang Towel on Stand":{
+        "62095": "Hang the yellow towel on the stand",
+    "39704": "Hang the white towel on the stand",
+        "50477": "Hang the towel on the white stand.",
+    "12721": "Hang the white towel on the white stand.",
+        "49657": "Hang the yellow towel on the stand"
+
+    },
+    "Move Object Forward":{
+        "92987": "Move the spatula forwards.",
+        "9592": "Move the stapler forward"
+    },
+    "Pick Up and Put Hang Wire on Table": {
+    "18193": "Pick up the hang wire from the stand and put it on the table",
+    "17098": "Pick up the hang wire from the stand and put it on the table"
+  },
+     "Take Hanger off Coat Hanger/Rack":{
+        "91051": "Take the hanger off the bottom right hook and hang it on the top left hook",
+        "5172": "Take the hanger off the coat hook and place it on the table",
+    "87037": "Take the hanger off of the coat hanger"
+    },
+    "Put Hanger on Table":{
+        "19175": "Put the hanger on the table"
+    },
+   "Put Hat on Coat Hanger/Rack":{
+       "49239": "Put the hat on the coat hanger",
+        "33616": "Hang the snapback on the coat rack"
+   },
+    "Remove and Put Cloth on Table": {
+    "82357": "Take the cloth off of the coat hanger and put it on the table",
+        "9183": "Unhook the yellow cloth from the coat hanger and put it on the table"
+
+    },
+    "Put on Top of Hook":{
+        "57113": "Move the brown hanger to the hook at the back.",
+        "72380": "Move the hanger to the bottom hook on the stand.",
+        "54758": "Move the yellow towel to one bottom hook on the stand."
+    },
+    "Hang on Coat Rack":{
+        "36664": "Hang the white towel on the coat rack",
+        "7361": "Pick up the clothing hanger on the table and hang it on the coat rack",
+        "25189": "Hang the brown coat hanger high up on the coat rack"
+    },
+  "Fold/Unfold Towel": {
+    "30491": "Fold the towel",
+    "66779": "Unfold the towel on the table"
+  }
+}
+

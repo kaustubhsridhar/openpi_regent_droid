@@ -1,0 +1,74 @@
+
+{
+    "Turn Tap On": {
+        "5750": "Turn the tap on using the tap faucet",
+        "29831": "Open the tap",
+        "24521": "Open the faucet"
+    },
+    "Turn Tap Off": {
+        "88149": "Close the running tap using the taps faucet",
+        "53985": "Close the tap",
+        "45829": "Close the faucet."
+    },
+    "Move Faucet": {
+        "27821": "Move the faucet to the right",
+        "80681": "Push the faucet to the right side of the sink.",
+        "4453": "Move the faucet to the left."
+    },
+    "Put Lid On Container": {
+        "80475": "Put the blue lid on the bowl then put them on the dish rack",
+        "52376": "Remove the bowl from the dish rack, then put the blue lid on the bowl",
+        "84199": "Put the lid on the lunch box, then put the lunch box on the rack",
+        "78124": "Put the blue lid on the lunch box",
+        "64929": "Put the blue lid on the lunch box and then lift the lunch box and put it on the cupboard",
+        "9688": "Put the blue lid on the lunchbox and then put the lunchbox in the drying rack"
+
+    },
+   "Place Item in Dish Rack": {
+        "84609": "Place the silver cup on the dishrack.",
+        "2251": "Put the silver cup on the dishrack",
+        "94938": "Put the container on the drying rack",
+        "92896": "Put the transparent lunch box upside down on the dish rack",
+        "33548": "Put the bowl on the edge of the dish rack"
+    },
+    "Place Item Under Faucet": {
+        "88577": "Hang the gloves under the tap",
+        "44562": "Put the silver cup under the running faucet then place it on the counter",
+        "86165": "Place the silver spoon under the running faucet then put it back on the right side of the counter.",
+        "82225": "Put the silver spoon under the running faucet then place it back on the counter."
+    },
+        "Move Sponge": {
+        "76930": "Pick up a green sponge on the left of the tap and put it in the sponge holder on the left side of the sink",
+        "18805": "Pick up the dirty sponge on the top left side of the sink and then put it in the rack on the left side of the sink",
+        "27593": "Move the faucet to the left, remove the sponge in the sink on the left side and put it on the top left of the sink",
+        "23499": "Remove the sponge from the case inside the sink on the left and put it on the top left side of the sink"
+
+    },
+        "Pour Contents into Sink":{
+        "8333": "Remove the lid from the container then pour out the contents in the container into sink",
+        "17184": "Pour the contents of the silver cup into the sink and then close the tap",
+        "62812": "Put the contents of the silver cup into the sink",
+        "87410": "Pour the water out of the silver cup into the sink"
+        },
+
+        "Put Item Backward":{
+            "6834": "Move the clear mug on the dishrack backwards",
+            "84695": "Remove the green bottle from the clear bowl on the right of the tap and move it backwards on the sink edge, pick up the clear bowl to the right of the tap and put it in the clear bowl which is in the dishes drying rack"
+        },
+
+    "Put Item in Silver Cup":{
+        "12473": "Pick up the brown lid from the silver cup and put it on the kitchen counter, pick up the green measuring spoon and put it in the silver cup",
+        "26437": "Put the bottle with the blue liquid in the silver cup, then put the silver cup on the rack"
+
+    },
+        "Put Item in Lunchbox":{
+         "55025": "Pick up the green measuring spoon and put it in the clear lunch box, pick up the silver spoon and put it in the clear lunch box, pick up the clear lunch box and put it in the sink",
+         "4405": "Pick up the clear lunch box turn, the clear lunch box and place it right side up on the kitchen counter, pick up the green measuring spoon and put it in the clear lunch box",
+         "26480": "Turn the lunchbox on the right side of the counter over and then put the green spoon in the lunchbox"
+    },
+        "Put Item in Container in Sink": {
+            "83678": "Put the yellow spoon and silver spoon in the bowl, then put the bowl in the sink",
+            "41857": "Stack the containers and put them in the sink",
+            "27583": "Put the spoon inside the container then put the container inside the sink"
+        }
+}

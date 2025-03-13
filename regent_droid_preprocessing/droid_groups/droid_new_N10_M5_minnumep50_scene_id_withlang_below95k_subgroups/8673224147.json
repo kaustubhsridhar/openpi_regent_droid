@@ -1,0 +1,52 @@
+
+{
+    "move_right": {
+        "93459": "Move the silver cutlery holder to the right.",
+        "12714": "Move the clear bowl to the right",
+        "81325": "Move the silver spatula in the silver bucket slightly to the right in the bucket"
+    },
+    "move_left": {
+        "6354": "Move the plastic bowl to the left",
+        "61404": "Move the left bowl to the left",
+        "11112": "Move the right bowl to the left"
+    },
+    "move_forward": {
+        "88728": "Move the silver object forward"
+    },
+    "put_in_lunch_box": {
+        "28690": "Put the orange lid in the lunch box",
+        "67226": "Pick up the heart shaped cookie cutter and put it in the clear lunch box",
+        "17435": "Put the green pack in the lunch box",
+        "40763": "Put the candy bar in the lunch box",
+        "12118": "Place the clear scoop in the lunchbox"
+    },
+        "put_on_microwave": {
+        "89126": "Put the cookie cutter on the microwave",
+        "55727": "Put the silver plate on the microwave",
+        "32846": "Put the clear container on top of the microwave.",
+        "1626": "Put the blue lid on top of the microwave."
+    },
+    "put_on_coffee_machine": {
+        "5640": "Put the cooking stick on top of the coffee machine",
+        "92481": "Place the orange cookie cutter on top of the coffee machine",
+        "48073": "Put the orange and white spoon on top of the coffeemaker",
+        "51530": "Put the dark blue lid on top of the coffeemaker",
+        "28018": "Put the metal plate on the coffee maker",
+        "9459": "Place the silver bowl on top of the coffee maker",
+        "92668": "Put one wooden spatula on top of the clear bowl on the coffeemaker"
+    },
+    "put_in_utensil_holder": {
+        "34076": "Pick up the silver spatula from the kitchen counter and put it in the utensil holder",
+        "52907": "Put the slotted ladle in the silver holder",
+        "39350": "Put the cooking stick in the pot having cooking utensils",
+        "2649": "Pick up the tongs then put them in the holder",
+        "18143": "Put the wooden cooking stick upright in the utensils box",
+        "94669": "Put the white serving spoon in the pot"
+    },
+    "transfer_between_lunchboxes":{
+        "88200": "Pick up the green object from the clear lunch box on the right and put it in the clear lunch box on the left",
+        "55660": "Pick up the green object from the clear lunch box on the left and place it in the clear lunch box on the right",
+        "61176": "Move the orange spoon from the left lunch box to the right lunch box"
+    }
+}
+

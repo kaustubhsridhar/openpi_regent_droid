@@ -1,0 +1,107 @@
+
+{
+    "orange_objects_to_bowl": {
+        "59428": "Put the orange rings in the black bowl",
+        "48177": "Put the orange objects around the table in the black bowl",
+        "50239": "Pick up the orange tokens from the table and put them in the bowl.",
+        "4163": "Pick up some of the orange objects from the table and put them in the bowl",
+        "8801": "Put the orange discs in the bowl",
+        "39090": "Pick up the orange tokens from the table and put them in the black bowl.",
+        "39666": "Pick up some of the orange objects from the table and put them in the bowl",
+        "14083": "Pick up the orange objects from the table and put them in the bowl",
+        "55632": "Pick up the orange objects from the table and put them in the bowl",
+        "67553": "Pick up the orange objects from the table and put them in the bowl"
+    },
+    "rings_to_bowl": {
+        "50799": "Pick the rings on the table and put them in the bowl",
+        "69242": "Put some of the rings in the bowl",
+        "54590": "Put some rings in the black bowl",
+        "32108": "Put some of the rings in the black bowl",
+       "17815": "Put some of the rings in the black bowl",
+        "62872": "Put the two rings in the bowl",
+        "9206": "Put the rings inside the black bowl"
+
+    },
+      "discs_to_bowl": {
+        "48738": "Put some of the discs on the table into the bowl",
+        "90766": "Put some of the discs on the table in the bowl",
+        "10938": "Put some of the orange discs on the table into the bowl",
+        "87286": "Put some of the discs on the table in the bowl",
+        "61193": "Put the discs on the table in the bowl"
+    },
+    "orange_circles_to_bowl":{
+        "70778": "Put the circles inside the black bowl.",
+        "37695": "Put the orange circles into the bowl.",
+        "72685": "Put the orange circles inside the black bowl.",
+        "86470": "Put two orange circles into the bowl."
+    },
+    "remove_orange_ring_from_object":{
+        "8825": "Pick the orange ring on the object and put it on the table",
+        "338": "Remove the orange ring from the wooden platform"
+    },
+      "orange_block_to_board_position":{
+        "55868": "Put the round orange block on the first position from the end closest to you on the wooden board",
+        "89258": "Put the round orange block on the number four on the wooden board",
+        "16296": "Put the orange object in the middle position on the wooden board"
+
+    },
+      "remove_object_and_place_on_table":{
+        "31409": "Remove the red ring from the left side of the wooden board and put it on the table",
+        "25412": "Pick up the orange object from the wooden holder and put it on the table.",
+        "54690": "Pick up the orange object from the wooden holder and put it on the table.",
+        "92543": "Pick up the orange token from the holder and put it on the table."
+
+      },
+    "orange_and_other_color_objects_to_bowl":{
+         "50281": "Put the blue, yellow and three orange squares inside the building.",
+         "50322": "Put the round yellow, orange, blue blocks and another orange block in the black bowl respectively",
+         "30371": "Put three orange rings and one blue ring inside the black bowl",
+         "2244": "Pick up the yellow, blue and orange objects from the table and put them in the bowl",
+        "90833": "Pick up the yellow and orange object from the table and put them in the bowl",
+        "86772": "Pick up the orange object from the right and yellow object from the left near the bowl and put them in the bowl",
+        "47880": "Put the blue and three orange round objects in the black bowl one at a time",
+        "11023": "Pick up the yellow and orange object on the table and put them in the bowl",
+        "20758": "Pick up some of the yellow and orange objects from the table and put them in the bowl",
+        "10526": "Put one round yellow block and two round orange blocks in the black bowl respectively one at a time",
+        "77601": "Pick the orange and blue rings and put them in the bowl",
+        "13613": "Put four round orange blocks in the black bowl",
+         "8551": "Place three orange rings and one blue ring inside the black bowl",
+        "16233": "Put a round yellow block and two round orange blocks in the bowl then put the last round yellow block in the bowl",
+        "30581": "Put the two yellow, the green and one orange circle into the bowl.",
+        "1454": "Place one yellow ring and five orange rings inside the black bowl",
+        "13230": "Place three orange rings inside the black bowl",
+        "7103": "Put one yellow ring and three orange rings inside the black bowl",
+        "33260": "Put the two round orange blocks next to each other in the black bowl one at a time",
+        "42994": "Put the round blue and orange blocks in the black bowl",
+        "17666": "Place the blue and orange rings inside the black bowl",
+         "47889": "Pick up four orange tiles and put them in the bowl"
+
+    },
+
+    "remove_circles_from_object":{
+      "6232": "Remove the orange circle from the wooden object.",
+      "15972": "Remove the green and orange circles from the wooden object.",
+      "47810": "Remove the yellow and orange circles from the woden objects."
+    },
+
+    "orange_object_on_wooden_object":{
+       "61530": "Pick up the orange object and put it on the wooden object",
+       "31429": "Put the orange circle on the wooden object.",
+       "56721": "Put the orange ring on the object"
+
+    },
+
+    "tokens_to_bowl":{
+        "31123": "Pick up the tokens from the table and put them in the black bowl."
+    },
+
+     "yellow_objects_to_bowl":{
+         "13203": "Put three yellow circles into the bowl."
+     },
+    "remove_orange_object_from_object_put_on_table": {
+        "74426": "Remove the orange object from the wooden object",
+        "63284": "Remove the second round orange object from the left and put it on the table",
+        "35534": "Remove the stacked orange and yellow rings from the wooden board and place them on the table"
+    }
+}
+

@@ -1,0 +1,60 @@
+
+{
+    "faucet_handle_backwards": {
+        "48129": "Push the faucet handle on the right backwards.",
+        "12860": "Push the faucet handles backwards.",
+        "7033": "Push the faucet on the left backwards then pour the liquid out of the purple bowl."
+    },
+    "faucet_handle_forwards": {
+        "91820": "Push the right faucet handle forwards.",
+        "49056": "Push the faucet handle on the right forwards."
+    },
+    "move_faucet_right": {
+        "25608": "Move the faucet handle to the right",
+        "89616": "Move the faucet head to the right and move the right faucet handle to the left"
+    },
+    "move_faucet_left": {
+        "13887": "Push the faucet head to the left and push the faucet handle on the left to the right",
+        "88321": "Push the faucet handle on the left to the right",
+        "20369": "Push the faucet handle of the tap on the left to the left"
+    },
+    "close_tap": {
+        "20114": "Close the tap",
+        "83636": "Close the tap",
+        "14564": "turn the tap off",
+        "69350": "Close the tap",
+        "76180": "Close the tap",
+        "7117": "Close the water to the kitchen faucet",
+        "46056": "Move the tap slightly to the left and then close it"
+    },
+   "put_yellow_plate_on_windowsill": {
+        "66105": "Put the yellow plate on the windowsill.",
+        "41036": "Put the yellow plate on the windowsill."
+    },
+    "put_sponge_on_dishrack": {
+       "73755": "Pick up the sponge in the sink and place it on the drying rack",
+       "23799": "Put the sponge on the dishrack."
+    },
+    "paper_towel_related": {
+        "46171": "Pull on the paper towel roll",
+        "47813": "Roll the paper towel upwards.",
+        "19151": "Partially pull the paper towel roll",
+        "62676": "Remove one piece of paper towel from the paper towel roll",
+        "52448": "Rip off one paper towel off the roll and place on the counter to the left of the sink",
+        "28472": "Roll up the paper towel roll",
+        "2918": "Pull down the paper towel"
+    },
+    "open_tap_left_handle": {
+        "71953": "Open the tap with the left handle",
+        "77896": "Turn the tap faucet to the right, then open the tap with the left handle"
+    },
+        "turn_on_water": {
+        "68757": "Turn on the water to the faucet by turning both handles",
+        "85894": "Turn on the water to the faucet"
+    },
+    "remove_kettle_lid": {
+        "61558": "Remove the lid from the silver kettle.",
+        "71999": "Remove the lid from the silver kettle then place the kettle on the dishrack."
+    }
+}
+

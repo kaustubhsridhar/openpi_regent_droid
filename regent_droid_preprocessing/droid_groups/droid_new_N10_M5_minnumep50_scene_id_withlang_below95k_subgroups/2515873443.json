@@ -1,0 +1,93 @@
+
+{
+    "wipe_counter_with_towel": {
+        "47109": "Use the towel to wipe the grey plate",
+        "64773": "Use the towel to wipe the counter",
+        "90889": "Use the towel to wipe the counter.",
+        "93066": "Use the towel to clean the plate",
+        "19853": "Wipe the counter with the towel",
+        "42899": "Wipe the counter using the towel",
+        "21525": "Use the towel to wipe the countertop",
+        "36155": "Use the towel to wipe the counter",
+        "52671": "Wipe the countertop with the towel",
+        "17192": "Pick up the towel from the countertop and wipe it on the countertop.",
+        "49832": "Use the towel to wipe the plate",
+        "76719": "Use the white towel to wipe the grey plate",
+        "85431": "Use the white towel to wipe the countertop",
+        "39112": "Use the white towel to wipe the countertop",
+        "42953": "Use the white towel to wipe the counter top",
+        "14798": "Wipe the countertop with the towel",
+        "41294": "Use the towel to wipe the countertop",
+        "65273": "Use the white towel to wipe the the plate",
+        "71127": "Use the towel to wipe the countertop",
+        "82905": "Use the white towel to wipe the plate",
+        "95450": "Use the towel on the left to wipe the grey plate",
+        "40412": "Use the towel to wipe the counter",
+        "64735": "Use the white towel to wipe the counter",
+        "18784": "Use the white towel to wipe the counter",
+        "56288": "Use the towel to wipe the counter",
+        "67810": "Use the towel to wipe the countertop",
+        "19942": "Use the towel to wipe the counter",
+        "44776": "Use the towel to wipe the countertop",
+        "81129": "Use the towel to wipe the counter",
+        "95338": "Use the towel to wipe the countertop",
+        "44014": "Use the towel to wipe the surface",
+        "82168": "Use the towel to wipe the grey plate",
+        "43518": "Use the towel to wipe the counter"
+    },
+    "wipe_counter_with_cloth": {
+        "59783": "Get the white cloth from the countertop, use it to wipe the cabinet on top, then put it back on the table",
+        "62856": "Wipe the counter with the white cloth",
+        "69384": "Use the cloth to wipe the counter",
+        "13": "Use the white cloth to wipe the table",
+        "62747": "Wipe the counter using the cloth",
+        "11933": "Take the cloth and wipe the plate",
+        "17054": "Use the cloth to wipe the plate",
+        "57373": "Use the cloth to wipe the counter",
+        "7712": "Wipe the counter with the cloth",
+        "18213": "Use the cloth and wipe the counter",
+        "18469": "Wipe the counter top using the cloth",
+        "34343": "Wipe the cabinet with the cloth",
+        "1345": "Pick the cloth and wipe the plate",
+        "16454": "Use the cloth to wipe the counter",
+        "19922": "Wipe the counter with the cloth",
+        "92118": "Use the cloth to wipe the countertop",
+        "59227": "Pick up the cloth from the table, wipe the grey plate with it and put the cloth back on the table.",
+        "32092": "Use the cloth to wipe the plate",
+        "57185": "Use the cloth to wipe the plate.",
+        "6117": "Use the cloth and wipe the table",
+        "23911": "Use the cloth to wipe the surface",
+        "41960": "Use the cloth to wipe the table.",
+        "46444": "Wipe the counter with the cloth",
+        "63990": "Use the cloth to wipe the counter",
+        "13433": "Use the cloth on the counter to wipe the countertop"
+    },
+     "wipe_plate_with_towel":{
+        "40490": "Wipe the plate with the towel, put the towel on the counter then move the plate backwards",
+        "74739": "Use the towel to wipe the plate"
+     },
+    "wipe_table_with_cloth": {
+       "33315": "Wipe the table with the white cloth",
+       "60349": "Use the cloth to wipe the table."
+    },
+   "wipe_cabinet_with_cloth": {
+        "63799": "Use the white cloth to wipe the cupboard",
+        "40143": "Use the white cloth to wipe the top of the cabinet"
+   },
+    "wipe_plate_with_cloth":{
+        "44963": "Wipe the grey plate with the white cloth on the countertop"
+    },
+    "no_action": {
+        "83203": "No action",
+        "54743": "No action"
+    },
+    "put_towel_on_countertop": {
+        "4679": "Pick up the towel and put the towel back on the countertop."
+    },
+    "wipe_cupboard_door_with_towel":{
+        "94840": "Use the towel to wipe the top cupboard door"
+    },
+    "wipe_table_with_towel":{
+        "92526": "Use the towel to wipe the table."
+    }
+}

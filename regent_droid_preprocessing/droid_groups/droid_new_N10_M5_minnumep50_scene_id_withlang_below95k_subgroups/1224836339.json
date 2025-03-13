@@ -1,0 +1,75 @@
+
+{
+    "close_cabinet_door": {
+        "70530": "Close the door of the cabinet.",
+        "76446": "Close the cabinet door",
+        "68772": "Close the cabinet door",
+        "19379": "Close the door of the cabinet",
+        "35000": "Close the cabinet door",
+        "28475": "Close the cabinet door",
+        "37863": "Close the door of the cabinet",
+        "39135": "Close the cabinet door",
+        "51311": "Close the door of the cabinet.",
+        "73236": "Close the open cabinet door",
+        "28649": "Close the open cabinet door on the right"
+
+    },
+    "open_cabinet_door": {
+        "4230": "Open the cabinet door",
+        "68543": "Open the cabinet door",
+        "13380": "Open the cabinet door",
+        "598": "Open the cabinet door",
+        "29526": "Open the cabinet door",
+        "56546": "Open the cabinet door",
+        "90620": "Open the cabinet door"
+    },
+    "close_cupboard_door": {
+        "23312": "Close the cupboard door",
+        "10066": "Close the cupboard door",
+        "39528": "Close the cupboard door"
+    },
+    "open_cupboard_door": {
+        "87815": "Open the cupboard",
+        "37556": "Open the cupboard door",
+        "9051": "Open the cupboard door"
+    },
+        "close_drawer": {
+        "79200": "Close the drawer.",
+        "83050": "Close the drawer"
+    },
+    "open_top_cabinet_door": {
+        "35182": "Open the top cabinet door",
+        "2676": "Open the top cabinet door",
+        "93377": "Open the door on the upper cabinet",
+        "38879": "Open the upper cabinet door",
+       "82281": "Open the upper left cabinet door."
+    },
+        "move_object_left": {
+        "15749": "Move the yellow plushie to the left",
+        "42853": "Move the banana to the left",
+        "95462": "Move the orange plush toy to the left",
+        "55037": "Move the green block on top of the cabinet to the left"
+
+    },
+    "move_object_right": {
+        "43189": "Move the yellow plush toy to the right",
+        "1975": "Move the yellow plush toy to the right",
+        "60914": "Move the green block to the right",
+        "33655": "Move the green block to the right"
+
+    },
+    "move_object_forward": {
+        "15874": "Move the yellow plush toy on top of the cabinet forwards",
+        "56457": "Move the green block closer to you",
+        "42669": "Move the green object closer to you",
+       "95160": "Pick up the green block and slightly move it forward.",
+        "25432": "Move the yellow ball forward"
+    },
+    "move_object_backward": {
+        "17449": "Move the green block away from you",
+        "86857": "Move the yellow push toy on top of the cabinet backwards"
+    },
+    "close_cupboard_drawer":{
+        "88576": "Close the cupboard drawer"
+    }
+}

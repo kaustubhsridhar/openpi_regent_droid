@@ -1,0 +1,45 @@
+
+{
+    "wallet_tasks": {
+        "46097": "Close the black wallet",
+        "24477": "Close the wallet on the table",
+        "72349": "Open the wallet",
+        "22956": "Open the wallet"
+    },
+    "towel_wiping_tasks": {
+        "90901": "Use the white towel to wipe the inside of the gray cup",
+        "66079": "Use the towel to wipe in the white mug",
+        "4825": "Use the towel to wipe in a mug",
+        "94458": "Use the towel to wipe the inside of the light gray mug",
+        "19043": "Use the white towel to wipe the cup in the left front"
+    },
+    "lid_tasks": {
+        "77579": "Uncover the bottle and put the lid on the table",
+        "72573": "Take the lid and put it on the bottle",
+        "65526": "Pick the green lid on the table and put it on the bottle"
+    },
+    "move_item_forward": {
+        "7307": "Move the bottle forward",
+        "39147": "Move the white bar of soap forward"
+    },
+    "move_item_backward": {
+        "42458": "Move the silver stand backwards"
+    },
+      "move_item_right": {
+        "26416": "Move the coffeemaker to the right",
+        "78641": "Pick the object and move it to the right on the counter",
+        "68811": "Move the grey bin to the right"
+    },
+        "paper_towel_holder_tasks": {
+        "3975": "Remove the handle towel roll from the grey bin and place it on the silver stand",
+        "68488": "Take the paper towel core and place it on the paper towel stand",
+        "68095": "Take the empty paper roll and put it on the silver holder"
+    },
+        "coffee_maker_lid_tasks":{
+        "11063": "Open and close the lid of the machine",
+        "81980": "Open the silver coffeemaker",
+        "5463": "Close the coffeemaker",
+        "38242": "Lift the top of the coffee maker"
+    }
+}
+

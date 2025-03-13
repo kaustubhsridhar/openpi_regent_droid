@@ -1,0 +1,76 @@
+
+{
+    "close_laptop": {
+        "19458": "Close the lid of the laptop",
+        "6092": "Close the laptop",
+        "53071": "Close the laptop.",
+        "35159": "Close the laptop",
+        "78831": "Close the laptop",
+        "60264": "Fold the laptop"
+    },
+    "open_laptop": {
+        "31688": "Open the laptop.",
+        "6999": "Open the laptop",
+        "41694": "Open the laptop"
+    },
+    "press_key_on_keyboard": {
+        "58391": "Press a key on the keyboard",
+        "60463": "Press one key on the keyboard",
+        "45006": "Press a key on the keyboard.",
+        "44501": "Press a button on the keyboard"
+    },
+    "press_key_on_laptop": {
+        "48190": "Press a key on the laptop.",
+        "16960": "Press a key on the laptop then close the laptop.",
+        "59634": "Press a key on the laptop."
+    },
+      "move_object_right": {
+        "72192": "Move the sprite can to the right of the laptop",
+        "79365": "Move the green can to the right",
+        "13398": "Move the green can to the right.",
+        "31852": "Move the can to the right"
+
+    },
+    "move_object_left": {
+        "88856": "Move the spoon to the left",
+        "11745": "Move the tissue box to the left.",
+        "35960": "Move the artificial bun to the left"
+    },
+    "move_object_forward": {
+        "91817": "Move the blue and white bowl forward",
+        "63846": "Move the blue and white plate closer to the can"
+    },
+    "move_object_backward": {
+        "59337": "Move the white bowl backwards."
+    },
+    "stir_with_spoon": {
+        "90887": "Spoon some of the content with the spoon",
+        "42508": "Use the spoon to stir the bowl",
+        "63533": "Use the spoon to stir the contents in the bowl",
+        "95149": "Use the silver spoon to stir the blocks in the bowl.",
+        "11954": "Uss the spoon to stir the contents in the bowl",
+        "26680": "Use the silver spoon to stir the blocks in the bowl.",
+        "83703": "Use the silver spoon to stir the blue blocks in the bowl.",
+        "50171": "Use the silver spoon to stir the contents in the white bowl."
+    },
+    "wipe_with_napkin": {
+        "92664": "Use the white napkin to wipe the tabletop.",
+        "57828": "Use the white napkin from the box to wipe the counter.",
+        "21866": "Use the white napkin to wipe the laptop screen.",
+        "68861": "Use a napkin to wipe the laptop screen"
+       },
+    "wipe_with_paper_towel": {
+        "77489": "Use the paper towel to wipe the table",
+        "31740": "Take the tissue paper out of the dispenser and wipe the table with it",
+        "77946": "Use the tissue to wipe the counter"
+    },
+     "wipe_laptop_screen":{
+        "84258": "Use the tissue to clean the laptop's screen",
+        "50532": "Use the paper towel to clean the screen of the laptop",
+        "91252": "Wipe the computer screen using the paper towel"
+     },
+    "put_green_block_on_white_plate": {
+        "15110": "Put one green block on the white plate.",
+        "81714": "Put one green block on the white plate."
+    }
+}

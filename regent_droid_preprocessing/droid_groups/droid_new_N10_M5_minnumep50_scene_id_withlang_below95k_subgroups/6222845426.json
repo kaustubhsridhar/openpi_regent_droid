@@ -1,0 +1,57 @@
+
+{
+    "keys_on_tray": {
+        "76816": "Put the keys on the square tray",
+        "20202": "Put the car key on the tray"
+    },
+    "black_object_on_tray": {
+        "40459": "Put the small black object on the tray",
+        "28434": "Put the black object on the round tray",
+        "82475": "Put the black gadget on the huge tray",
+        "77121": "Pick the black object on the table and place it on the tray",
+        "66389": "Put the black object onto the tray.",
+        "68574": "Put a black object on the circle shaped tray",
+        "64607": "Take the black object and put it in the tray"
+    },
+    "object_on_plate": {
+        "93250": "Pick the object and put it on the plate",
+        "23399": "Pick the object on the table and put it on the plate",
+        "2168": "Move the object to the black plate"
+    },
+    "object_in_bowl": {
+        "46767": "Take the black object from the desk and put it in the bowl",
+        "91848": "Pick up the black object and put it in the bowl"
+
+    },
+    "object_from_table_to_plate": {
+       "34352": "Pick up the object from the table and put it in the plate.",
+        "44221": "Pick up the object from the table and put it in the plate."
+    },
+    "object_from_table_to_tray":{
+        "15767": "Put the object on the table onto the tray.",
+        "73973": "Pick up the object from the table and put it in the tray"
+
+    },
+     "torch_on_tray": {
+        "2580": "Place a torch on the round tray",
+        "13497": "Place the torch on the round tray"
+    },
+    "keys_on_blue_white_object":{
+        "45153": "Put two sets of keys on top of the blue and white object.",
+        "35823": "Put the two sets of keys on top of the blue and white object."
+    },
+     "remote_on_right_tray":{
+        "77243": "Pick up the remote from the table and place it on the tray on the right",
+        "54649": "Pick up the remote from the table and place it on the tray on the right side of the table"
+
+     },
+    "flashlight_on_right_tray":{
+        "62762": "Place the black torch on the tray on the right",
+        "94204": "Place one black flashlight on the tray on the right"
+    },
+      "objects_from_table_to_right_tray":{
+          "94335": "Pick up the objects from the table and place them on the tray to the right"
+      }
+
+}
+

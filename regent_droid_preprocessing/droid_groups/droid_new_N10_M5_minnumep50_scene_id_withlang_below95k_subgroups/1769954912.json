@@ -1,0 +1,70 @@
+
+{
+    "keyboard_press": {
+        "61699": "Press the key on the keyboard",
+        "46348": "Press a key on the keyboard",
+        "33791": "Press the key on the keyboard",
+        "92195": "Press the leftmost key on the keyboard",
+        "36134": "Press a white key on the keyboard",
+        "80042": "Press the rightmost key on the keyboard",
+        "62125": "Press a key on the right side of the keyboard",
+        "35249": "Press the first d key from the right on the keyboard",
+        "80949": "Push the key on the keyboard",
+        "75706": "Press the middle white key on the keyboard",
+        "95292": "Press the leftmost c key on the keyboard",
+        "77889": "Push a black key on the keyboard",
+        "65355": "Press a key on the keyboard",
+        "50129": "Press one black key on the left side of the keyboard",
+        "9694": "Press a key on the keyboard",
+        "5601": "Press the rightmost c sharp note on the keyboard",
+        "42858": "Push the first a key from the left on the keyboard",
+        "62186": "Press a key on the keyboard",
+        "47214": "Press the key on the keyboard",
+        "90093": "Press one white key on the left side of the keyboard",
+        "70391": "Press the a key on the keyboard",
+        "25362": "Press the first e key form the right on the keyboard"
+
+    },
+    "piano_press": {
+        "37897": "Press a white key on the middle of the piano",
+        "45206": "Press a black key in the middle of the piano",
+        "167": "Press a white key in the middle of the piano",
+        "47269": "Push the fifth black key from the left on the keyboard",
+        "45904": "Press a black key on the left third last key of the piano",
+        "39253": "Press a middle black key of the piano",
+        "52059": "Press a second last black key on the right part of the piano",
+        "36193": "Press a white key on the middle of the piano",
+        "72562": "Press a black key on the middle keys of the piano",
+        "10111": "Press a black key on the piano"
+    },
+        "upright_basket": {
+        "4640": "Make the laying desktop pen and pencil storage basket stand upright",
+        "37318": "Place the basket upright",
+        "91855": "Position the bin upright",
+        "84828": "Place the basket upright",
+        "28788": "Place the basket upright",
+        "23037": "Flip the gray bin and place it the right way up on the table"
+    },
+    "upright_penholder_put_item":{
+        "28590": "Set the penholder upright on the table then put the pencil in it",
+        "78183": "Set the pen holder upright on the table then put the stick of glue in it",
+        "80878": "Set the penholder upright on the table"
+    },
+    "put_glue_stick_in_basket": {
+        "31873": "Remove the paper glue stick from the desktop pen and pencil basket facing up bottom, flip the desktop pen and pencil basket to make it stand upright and move the paper glue stick inside the desktop pen and pencil basket",
+        "39297": "Remove the glue stick from the top of the basket and turn the basket upright then put both glue sticks in the basket",
+        "91922": "Put a stick of glue in the penholder",
+        "28829": "Pick up the paper glue stick on the left and put in the desktop pen and pencil basket",
+       "48195": "Pick up the glue stick to the right and move it close to the glue stick on the left, pick up both glue sticks together and put them in the gray pen holder",
+        "94677": "Pick up the glue stick on the left and put it in the gray pen holder",
+        "16956": "Put the glue sticks in the basket"
+    },
+    "close_case": {
+        "24004": "Close the grey case",
+        "18917": "Close the white case"
+    },
+     "put_bottle_in_basket":{
+        "75324": "Put the basket upright, then put the bottle in the basket",
+        "13041": "Put the container upright then put the orange and white object inside"
+     }
+}

@@ -1,0 +1,94 @@
+
+{
+    "coffee_machine_on": {
+        "60496": "Turn on the coffee machine",
+        "66268": "Turn on the coffeemaker",
+        "23139": "Turn on the switch on the coffee maker"
+    },
+    "coffee_machine_off": {
+        "12162": "Turn off the coffee machine",
+        "44952": "Turn off the coffeemaker",
+        "41451": "Switch off the coffeemaker"
+    },
+    "toaster_left_lever_down": {
+        "94360": "Push down the left lever of the toaster",
+        "61016": "Push the left lever down"
+    },
+    "toaster_right_lever_down": {
+        "13186": "Push down the right toaster switch",
+        "51325": "Push down the right button of the toaster."
+    },
+        "toaster_right_lever_up": {
+        "10933": "Move the right lever to the top",
+        "13254": "Push the press handle on the toaster up",
+        "2890": "Lift up the right button of the toaster."
+    },
+    "toaster_lever_down": {
+        "81766": "Push the toaster lever down"
+    },
+      "toaster_on": {
+        "70018": "Turn on the right side of the toaster",
+        "84771": "Turn on the bread toaster"
+    },
+    "toaster_off":{
+        "3680": "Turn off the left side of the toaster"
+    },
+   "toaster_bottom_left_button": {
+        "927": "Press the button on the bottom left corner of the toaster"
+    },
+    "toaster_bottom_right_button":{
+        "83775": "Press the button on the bottom right corner of the toaster"
+    },
+     "cup_to_bowl": {
+        "29613": "Pour the things in the cup into the bowl",
+        "56878": "Pour the things in the cup into the glass bowl"
+    },
+    "close_cabinet_door": {
+        "19210": "Close the open cabinet door",
+        "94509": "Close the top cupboard door",
+        "32190": "Close the cupboard",
+        "88669": "Close the cupboard door",
+        "28775": "Close the kitchen cabinet door",
+        "33401": "Close the open cupboard",
+        "50943": "Close the open cabinet door"
+
+    },
+        "close_right_cabinet_door": {
+        "45008": "Close the right door of the top cabinet to the right"
+    },
+     "close_bottom_left_cabinet_door":{
+        "56903": "Close the bottom cabinet door on the left"
+     },
+      "close_white_cabinet_door":{
+        "1477": "Close the bottom door of the white cabinet."
+    },
+    "open_right_cabinet_door": {
+        "8863": "Open the right door of the cabinet above the coffeemaker",
+        "51105": "Open the first top kitchen cabinet on the right",
+        "48713": "Open the door on the right side of the cupboard",
+        "32481": "Open the top right cabinet door",
+        "86883": "Open the rightmost cupboard door"
+    },
+        "open_left_cabinet_door":{
+        "22326": "Open the bottom left cabinet door",
+        "42309": "Open the left bottom cabinet door",
+        "30183": "Open the left cabinet door",
+        "58859": "Open the top left cupboard door"
+
+    },
+        "open_third_cabinet_from_left":{
+        "25411": "Open the left door of the third upper cabinet from the left",
+        "20858": "Open the third upper cabinet from the left"
+    },
+     "open_misc_cabinet":{
+        "78648": "Open the third cabinet door from the right"
+     },
+     "tap_open_close": {
+        "25268": "Open the right handle of the tap, then close it",
+        "3274": "Open and close the right tap"
+     },
+    "microwave_door_close":{
+        "26175": "Close the door of the microwave"
+    }
+}
+

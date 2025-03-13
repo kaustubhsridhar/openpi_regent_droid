@@ -1,0 +1,103 @@
+
+{
+    "Place_on_table": {
+        "47488": "Put the right green block on the table",
+        "44684": "Pick up the green object and put it on the table",
+        "1810": "Pick up the triangular block and put it on the table",
+        "47418": "Put the blue block on the table",
+        "30397": "Put the orange block on the table",
+        "62799": "Put the yellow block on the table",
+        "90447": "Remove the orange object from the toy tower and put it on the table",
+        "11995": "Put the green block on the table",
+        "49243": "Put the blue block on the table.",
+        "67925": "Put the yellow cube on the table",
+        "76651": "Pick the green block and put it on the table",
+        "11376": "Remove the plastic rod from the toy tower and put it on the table",
+        "22610": "Remove the square yellow block from on top of the other yellow block and put it on the table"
+    },
+    "Put_blue_on_orange": {
+        "78236": "Pick up the blue block and place it on the orange block",
+        "20809": "Put the blue block on top of the orange block"
+    },
+    "Put_orange_on_blue": {
+        "22291": "Place the orange block on top of the blue block at the back of the table",
+        "8628": "Put the orange block on top of the blue block on the far right",
+        "44984": "Put the green block over the blue block"
+    },
+        "Put_yellow_on_orange": {
+        "2728": "Put the yellow block on the orange block",
+        "41597": "Put the yellow block on top of the orange block"
+
+    },
+    "Put_blue_on_green": {
+        "60816": "Put the blue block on the green block",
+        "33954": "Put the blue block on the green block"
+    },
+    "Put_on_yellow": {
+        "26757": "Put the rectangular block on the yellow block",
+        "69517": "Put the blue block on the yellow block",
+        "56237": "Put one green triangular block on the yellow block",
+        "39125": "Put the rectangular block on the yellow block"
+    },
+        "Put_green_on_blue":{
+            "7450": "Pick up the green rectangular block and place it on top of the blue block on the right",
+            "48066": "Pick up the green block on the left and place it on top of the blue block",
+            "7135": "Put the left green block on the blue block"
+        },
+    "Move_right": {
+        "32529": "Move the blue rectangular block to the right",
+        "6441": "Move the blue arch to the right",
+        "36572": "Move the orange block to the right"
+    },
+    "Move_left": {
+        "83757": "Move the blue block from the right to the left",
+        "41428": "Move the yellow block to the blue block to the left"
+    },
+    "Move_backward": {
+        "32187": "Move the orange block backwards",
+        "33607": "Move the yellow rectangular block backward"
+    },
+    "Move_forward": {
+        "51158": "Move the blue cylindrical block forward"
+    },
+    "Remove_top": {
+        "263": "Remove the blue block from the top of the stack",
+        "56612": "Remove the topmost green block",
+        "69970": "Remove the green triangle from the top of the stack.",
+        "54248": "Remove the orange block from the top of the stack."
+    },
+       "Put_yellow_on_blue":{
+            "87577": "Move the yellow block to the top of the blue block on the right.",
+            "47697": "Put the yellow cube on top of the blue block at the back of the table on the right"
+        },
+    "Pick_up_put_on_object":{
+        "35538": "Pick up the green object and put it on the red object",
+        "72937": "Pick up the orange object and put it on top of the green object",
+        "78954": "Pick up the orange object and put it on the green object",
+        "76665": "Pick up the yellow object from the orange object and put it on the blue object",
+        "27003": "Pick up the orange object and put it on top of the blue object"
+
+    },
+        "Put_on_top_of_stack":{
+            "33120": "Put the blue block on top of the stacked blocks",
+           "32346": "Put the yellow rectangular block on top of the stacked blocks at the front.",
+           "10486": "Put the yellow block on top of the stack of blocks"
+        },
+        "Put_green_on_yellow":{
+            "82661": "Put the green block on top of the yellow blocks"
+        },
+    "No_action":{
+        "17010": "No action",
+        "4725": "No action"
+    },
+     "Put_yellow_on_green":{
+        "45650": "Put the yellow block on the green block"
+     },
+    "Put_green_on_orange":{
+        "29416": "Put the green block on top of the orange block"
+    },
+      "Put_top_green_on_yellow":{
+          "7918": "Pick up the top green block and put it on the yellow block."
+      }
+}
+

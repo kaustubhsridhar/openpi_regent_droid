@@ -1,0 +1,68 @@
+
+{
+    "move_to_left": {
+        "39432": "Move the black clothing to the left side of the sofa",
+        "56841": "Move the bag to the left side of the sofa",
+        "29732": "Move the bag to the left",
+        "32890": "Move the charger to the left",
+        "47764": "Move the backpack to the left side of the couch",
+        "32976": "Move the blue bag to the left",
+        "76497": "Move the clothing to the left side of the sofa",
+        "75991": "Move the white cloth on top of the grey backpack to the left side of the sofa",
+        "6461": "Move the black bag to the left",
+        "76104": "Move the cloth on the couch to the left",
+        "14749": "Move the cable to the left",
+        "76731": "Move the pair of jeans to the left",
+        "18176": "Push the clothing to the left side of the sofa",
+        "19189": "Pick the black cloth and put it on the left of the couch"
+
+    },
+    "move_to_right": {
+        "3171": "Move the black clothing and the jean trousers to the right",
+        "74341": "Move the jeans to the right corner",
+        "4719": "Move a cloth to the right",
+        "45724": "Move the cloth to the right, closer to the bag",
+        "28317": "Move the cloth to the right",
+        "21160": "Move the bag to the right",
+        "31434": "Pick up part of the white cable from the couch and move it to the right.",
+        "15086": "Move the gray backpack to the right of the couch",
+        "55674": "Move the black cloth to the right of the couch",
+        "40321": "Move the bag to the right and place the blue cloth inside it",
+        "59240": "Move the pillow cases to the right",
+        "24494": "Move the cable to right",
+      "55225": "Move the charging cable from left to right",
+        "23995": "Move the blue clothing to the right",
+        "56765": "Pull the pair of jeans to the right",
+        "33257": "Move the white cable to the right side of the sofa",
+        "91129": "Move the black bag to the right"
+    },
+        "place_jeans_on_armrest": {
+        "70761": "Put the blue jeans on the armrest of the sofa",
+        "231": "Put the blue jeans on the left armrest",
+        "29615": "Place the blue jeans on the left armrest of the sofa",
+        "30578": "Put the pair of jeans on the arm rest"
+
+    },
+
+    "put_item_in_bag": {
+        "25761": "Put the sock in the bag",
+        "82105": "Put the striped cloth in the bag",
+        "9071": "Put the black object in the bag",
+        "61903": "Place the white fabric and the black fabric in the bag",
+        "38355": "Pick the white cloth on the couch and put it in the bag"
+    },
+      "move_backward": {
+        "56053": "Move the jean trousers slightly backward."
+    },
+        "place_white_cloth_on_armrest": {
+        "48142": "Place the white cloth on the armest",
+        "80946": "Put the white object on the arm of the couch"
+    },
+      "move_cable_to_center":{
+        "4736": "Move the cable to the center of the couch"
+      },
+      "straighten_cable":{
+          "70483": "Straighten the charging cable."
+      }
+}
+

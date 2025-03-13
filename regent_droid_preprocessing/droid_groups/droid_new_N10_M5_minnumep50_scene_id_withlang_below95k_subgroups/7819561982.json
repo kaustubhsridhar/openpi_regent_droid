@@ -1,0 +1,96 @@
+
+{
+    "remove_marker_from_cup_place_on_table": {
+        "23172": "Remove the marker from the cup and place it on the table",
+        "44294": "Take the marker from the cup and put it on the table",
+        "9781": "Take the marker out of the cup and put it on the table",
+        "52158": "Take the marker out of the cup and put it on the table",
+        "94931": "Pick the marker from the cup and put it on the table",
+        "46545": "Take the marker out of the cup and place it on the table",
+        "51171": "Pick up the marker from the cup and place it on the table"
+    },
+    "remove_marker_from_mug_place_on_table": {
+        "30468": "Remove the marker from the grey mug",
+        "20651": "Remove the marker from the mug cup and place it on the table",
+        "78275": "Remove the marker from the mug cup and place it on the table",
+        "17532": "Take the marker out of the mug and put it on the table"
+
+    },
+    "remove_pen_from_mug_place_on_table":{
+        "88475": "Remove the pen from the mug and put it on the table",
+        "81975": "Pick up the pen from the mug cup and put it on the table."
+    },
+    "remove_pen_from_mug":{
+        "31540": "Remove the pen from the mug."
+    },
+        "remove_orange_marker_from_cup_place_on_table":{
+        "67497": "Remove the orange marker from the cup",
+        "95542": "Remove the orange marker from the cup and put it on the table",
+        "84424": "Remove the orange marker from the clear cup"
+    },
+    "remove_black_marker_from_mug_place_on_table":{
+        "79467": "Remove the black marker from the grey mug and put it on the table"
+    },
+    "remove_marker_from_bowl_place_on_table": {
+        "53403": "Remove the marker from the bowl and put it on the table",
+        "64945": "Take the marker out of the bowl and put it on the table",
+        "25907": "Remove the marker from the bowl and put it on the table"
+    },
+    "put_marker_in_cup": {
+        "73751": "Pick the marker on the table and put it in the cup",
+        "95399": "Put the marker in the cup",
+        "6839": "Put the marker inside the cup",
+        "81718": "Put the marker in the cup",
+        "46169": "Put the marker in the cup",
+        "12781": "Put the marker in the cup",
+        "64110": "Put the orange marker in the cup"
+    },
+     "put_marker_in_mug": {
+        "83248": "Put the marker in the mug",
+        "18484": "Put the marker in the mug on the table",
+        "19284": "Put the black marker in the mug",
+        "56310": "Pick up the marker and put it inside the white mug"
+     },
+    "put_pen_in_mug":{
+        "82353": "Put the pen inside the mug",
+        "89657": "Pick up the pen from the table and put it in the mug cup."
+
+    },
+    "put_pen_in_cup":{
+       "27262": "Pick up the pen and put it in the cup"
+    },
+       "put_marker_in_bowl": {
+        "75911": "Pick up the marker and put it in the blue bowl",
+        "33846": "Move the marker from the table and put it into the blue bowl",
+        "21471": "Put the marker in the bowl on the table",
+        "45797": "Put the marker in the bowl"
+    },
+        "put_pen_in_bowl":{
+        "52943": "Put the pen in the teal bowl",
+        "63824": "Put the green pen inside the green bowl"
+    },
+        "move_cup_to_left":{
+        "45613": "Move the cup to the left",
+        "58992": "Move the cup the left"
+    },
+    "move_white_mug":{
+        "60324": "Move the white mug to the center of the table",
+        "5690": "Move the white mug to the left side of the table"
+    },
+    "move_mug_to_right_side_of_table":{
+        "90873": "Move the white and green mug to the right side of the table"
+    },
+    "move_glass_cup_to_right":{
+        "9202": "Move the glass cup to the right."
+    },
+     "take_pen_out_of_cup_put_on_table":{
+        "10505": "Take the pen out of the glass and put it on the table",
+        "42332": "Pick up the pen from the white cup and put it on the table."
+    },
+     "take_marker_from_table_put_in_cup":{
+        "28772": "Take the marker from the table and place in the white cup"
+     },
+     "rotate_marker_to_right":{
+        "32355": "Rotate the marker to the right"
+     }
+}

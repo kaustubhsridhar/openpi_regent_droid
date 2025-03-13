@@ -1,0 +1,194 @@
+
+{
+    "put_bottles_on_tray": {
+        "29245": "Put the bottles on the tray",
+        "30824": "Put the bottles on the tray",
+        "74894": "Put the bottles on the tray",
+        "66823": "Put the bottles on the tray",
+        "22285": "Put the bottles on the tray",
+        "4946": "Put the bottles on the tray",
+        "9574": "Put the bottles on the tray",
+        "17820": "Put the bottles on the tray",
+        "40911": "Put the bottles on the tray",
+        "58334": "Put the bottles on the tray",
+        "22002": "Put the bottles on the tray"
+    },
+    "put_bottles_on_white_tray": {
+        "61126": "Put the bottles on the white tray"
+    },
+    "put_bottles_and_red_object_on_plate": {
+        "88580": "Put the bottles and the red object on the plate",
+        "65578": "Put the bottles and the red object on the plate",
+        "3243": "Put the bottles and the red object on the plate"
+    },
+    "put_bottles_and_orange_plushie_around_white_plate_on_white_plate": {
+        "5136": "Put the bottles and orange plushie around the white plate on the white plate",
+        "52774": "Put the bottles and orange plushie that are around the white plate on the white plate",
+        "95277": "Put the bottles and orange plushie surrounding the white plate on the white plate",
+        "70222": "Put the bottles and orange plushie that are around the white plate on the white plate",
+        "44245": "Put all the bottles and the orange plushie that are around the white plate on the white plate",
+        "81693": "Put the bottles and the orange plushie surrounding the white plate on the white plate",
+        "34151": "Put the bottles and orange plushie surrounding the white plate on the white plate",
+        "44432": "Put the bottles and the orange plushie surrounding the white plate on the white plate",
+        "33707": "Put the bottles and the orange plushie surrounding the white plate on the white plate",
+        "8157": "Put all the bottles and the orange plushie surrounding the white plate on the white plate",
+        "6630": "Put all the bottles and the orange plushie surrounding the white plate, on the white plate",
+        "48620": "Put the bottles and orange plushie surrounding the white plate on the white plate",
+        "31217": "Put the bottles and orange plushie that are around the white plate on the white plate",
+        "73037": "Put the bottles and the orange plushie that are around the white plate on the white plate"
+    },
+   "put_all_objects_around_white_plate_into_white_plate": {
+        "22549": "Put all the objects around the white plate into the white plate",
+        "34187": "Put the bottles and the orange object around the plate into the white plate"
+    },
+        "put_containers_on_white_plate": {
+        "15906": "Put the containers on the white plate",
+        "89755": "Organize all the containers on the white plate",
+        "58062": "Put all the containers on the white plate",
+         "780": "Organize all the containers on the white plate",
+        "35574": "Pile up the plastic cups and put all the containers on the white plate"
+
+    },
+    "put_objects_surrounding_plate_onto_plate": {
+        "12849": "Put all the objects surrounding the plate onto the plate.",
+        "35474": "Put all the objects surrounding the plate on to the plate.",
+        "20933": "Put all the objects surrounding the plate on the plate.",
+        "15818": "Put the objects surrounding the plate on to the plate.",
+        "27619": "Put all the items surrounding the plate on to the plate."
+
+    },
+    "arrange_objects_surrounding_white_plate_on_plate": {
+        "4669": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "48222": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "89191": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "56947": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "71834": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "39588": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "61633": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+       "19209": "Pick up all the items surrounding the white plate and arrange them on the plate",
+        "56594": "Gather all the objects surrounding the white plate and arrange them on the plate",
+        "85269": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "26904": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "16169": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "31086": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "72565": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "19834": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "35202": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "10137": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "59293": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "27098": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+        "18893": "Pick up all the objects surrounding the white plate and arrange them on the plate",
+       "64289": "Pick up all the objects surrounding the white plate and arrange them on the plate, then pick up the cups and put them together",
+        "44543": "Put the objects surrounding the white plate on to the plate."
+    },
+    "place_containers_and_strawberry_on_white_plate":{
+        "80951": "Place the containers and strawberry plush toy on the white plate",
+        "82510": "Place the containers and strawberry on the counter onto the white plate",
+        "85116": "Put the containers and strawberry toy on the white plate",
+        "95398": "Place the strawberry and containers on the white plate",
+       "57139": "Put the containers and strawberry plush toy on the white plate",
+        "81789": "Put the containers and strawberry on the white plate",
+        "89013": "Place the containers and strawberry toy on the white plate",
+        "20456": "Put the containers and strawberry toy on the white plate",
+        "30194": "Put the containers and strawberry toy on the white plate"
+    },
+     "place_containers_and_orange_toy_on_white_plate":{
+        "24676": "Place the containers and orange toy on the white plate",
+        "81519": "Place the containers and the orange toy on the white plate",
+        "47744": "Place the containers and orange toy on the white plate",
+        "74956": "Place the containers and orange toy on the white plate",
+        "69564": "Place the six containers and orange plush toy on the white plate",
+        "16758": "Place the containers and orange plush toy on the white plate"
+
+     },
+      "put_bottles_and_orange_plushie_on_white_plate":{
+        "78510": "Put all the bottles and the orange plushie on the white plate",
+         "52551": "Put the bottles and orange plushie on the white plate one at a time",
+          "86837": "Place the bottles and orange plush toy on the white plate"
+      },
+
+    "pick_up_bottles_from_table_and_put_on_white_plate": {
+        "51801": "Pick up the bottles from the table and put them on the white plate.",
+        "73328": "Pick up the bottles from the table and put them on the white plate.",
+        "93375": "Pick up the bottles from the table and put them on the white plate."
+    },
+    "pick_up_bottles_and_small_containers_from_table_and_put_on_white_plate": {
+        "54362": "Pick up the bottles and small containers from the table and put them on the white plate.",
+        "1678": "Pick up the bottles and small containers from the table and put them on the white plate.",
+        "75485": "Pick up the bottles and small containers from the table and put them on the white plate.",
+       "39762": "Pick up the bottles and small containers from the table and put them on the white plate.",
+        "25978": "Pick up the bottles and small containers from the table and put them on the white plate."
+    },
+      "put_bottles_and_red_plushy_on_plate":{
+        "91717": "Put the bottles and red plushy on the plate",
+        "79654": "Put the bottles and red plushy on the plate",
+        "92479": "Put the bottles and red plushy on the plate"
+
+      },
+    "put_bottles_and_plushy_on_plate":{
+           "59741": "Put the bottles and the plushy on the plate"
+    },
+     "put_bottles_on_plate":{
+        "94784": "Put the bottles on the orange object on the plate",
+        "68016": "Put the bottles on the red object on the plate"
+     },
+    "put_bottles_and_small_containers_on_white_plate":{
+        "86155": "Pick up the bottles and small containers and put them on the white plate.",
+        "83917": "Pick up the bottles and small containers and put them on the white plate."
+    },
+    "put_objects_from_table_on_plate":{
+        "12918": "Put the objects on the table on to the plate.",
+        "86262": "Put the objects on the table onto the plate.",
+        "47210": "Put the bottles and the red plushy on the table onto the plate",
+        "79096": "Put the bottles and the orange plushy on the table onto the plate",
+        "72005": "Put the bottles and red plushy on the table onto the plate",
+        "21803": "Pick up the bottles from the table and put them on the plate.",
+        "1861": "Pick up the bottles from the table and put it on the plate."
+
+    },
+       "pick_up_object_from_table_put_on_white_plate":{
+        "10608": "Pick up the objects from the table and put them on the white plate.",
+         "64887": "Pick up the objects from the countertop and put them on the white plate."
+       },
+    "put_orange_object_and_bottles_on_plate":{
+        "54405": "Put the orange object and the bottles on the plate",
+        "19290": "Put the bottles and the orange object on the plate"
+    },
+     "put_bottles_and_orange_ball_in_plate":{
+        "29372": "Pick up all the bottles and the orange ball from the table and put them in the plate",
+        "95597": "Put all the bottles and the orange ball in the plate",
+        "60766": "Put all the bottles and the orange ball in the plate, and then use the blue object to clean the table"
+     },
+     "put_all_bottles_and_orange_plushie_on_white_plate_backward":{
+        "26864": "Move the bottle on the white plate away from you then put all the bottles and the orange plushie on the white plate"
+     },
+      "put_three_bottles_on_white_plate_stack_cups":{
+        "50518": "Put three bottles on the white plate then stack clear cups together then put the rest of the bottles on the white plate"
+      },
+     "put_small_bottles_and_orange_object_in_plate":{
+        "36179": "Pick up all the smaller bottles and the orange object, and put them in the plate"
+     },
+     "put_container_and_plush_toy_on_white_plate":{
+        "17827": "Put the plush toy and all the containers on the white plate"
+     },
+      "stack_clear_cups_put_bottles_and_red_plushy_on_plate":{
+        "72371": "Put the bottles and red plushy on the plate. Stack the clear cups"
+      },
+    "place_bottles_and_strawberry_on_white_plate":{
+        "27566": "Place the bottles and the strawberry on the white plate"
+    },
+     "put_left_clear_cup_then_bottles_and_orange_surrounding_white_plate":{
+        "83887": "Put the left clear cup in the clear cup near the moose, then put the bottles and orange plushie surrounding the white plate on the white plate"
+     },
+      "pick_bottles_and_red_object_put_on_plate":{
+        "262": "Pick the bottles and a red object and put them on the plate"
+      },
+        "put_objects_on_table_onto_tray":
+      {
+        "40440": "Put the objects on the table onto the tray"
+      },
+       "place_bottles_and_orange_toy_on_white_plate":{
+        "42849": "Place the bottles and orange toy on the white plate"
+    }
+
+}

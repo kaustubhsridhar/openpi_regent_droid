@@ -1,0 +1,95 @@
+
+{
+    "no_action": {
+        "23045": "No action",
+        "36501": "No action",
+        "17699": "No action",
+        "16086": "No action",
+        "9702": "No action",
+        "38130": "No action"
+    },
+    "stir_with_spoon": {
+        "25604": "Pick up the spoon and mix the objects in the white bowl",
+        "40720": "Use the spoon to stir in the closest bowl, then transfer a spoonful of contents from the closest bowl to the furthest bowl",
+        "57382": "Use the silver spoon to stir the contents in the white bowl on the right.",
+        "32053": "Use the silver spoon to stir the contents in the white bowl.",
+        "30141": "Use the silver spoon to stir the contents in the white bowl.",
+        "94022": "Use the spoon to stir in the right bowl",
+        "10862": "Stir the objects in the bowl using the silver spoon",
+        "10717": "Use the silver spoon to stir the contents in the white bowl on the right."
+    },
+    "remove_lid": {
+        "94220": "Take the lid off the jar",
+        "90129": "Remove the lid from the flusk",
+        "15261": "Remove the lid from the black cup",
+        "68729": "Remove the lid from the black thermos.",
+        "4590": "Remove the clear lid from the black thermos.",
+        "50297": "Remove the lid from the black thermos."
+    },
+    "open_cabinet": {
+        "46346": "Open the left upper cabinet door.",
+        "12203": "Open the cabinet door",
+        "20423": "Open the left upper cabinet door."
+    },
+        "open_and_close_cabinet": {
+        "85554": "Open and close the cabinet",
+        "83409": "Open and close the top left cabinet door",
+        "95614": "Open then close the top left cabinet door",
+        "75170": "Open the left door of the cabinet above the black thermos then close it."
+    },
+    "put_lid_on_thermos": {
+        "45220": "Put the clear lid on top of the black thermos.",
+        "20320": "Put the clear lid on the black thermos.",
+        "31350": "Put the clear lid on the black thermos."
+    },
+       "wipe_with_paper_towel": {
+        "76819": "Use the paper towel to wipe the counter top",
+        "74287": "Use the paper towel to clean the left part of the counter",
+        "14293": "Wipe a portion of the counter using the paper towel",
+        "95204": "Use the paper towel to wipe the surface",
+        "47724": "Use the paper towel to clean the surface"
+    },
+    "wipe_with_napkin": {
+        "15529": "Use the napkin to wipe the table",
+        "10303": "Use the napkin to wipe the surface",
+        "46912": "Use the napkin to wipe the surface"
+    },
+     "fold_napkin": {
+        "25769": "Flip the napkin over",
+        "64255": "Fold the napkin",
+        "22601": "Fold the white napkin in half.",
+        "93276": "Fold the white napkin."
+    },
+      "unfold_napkin": {
+            "83044": "Unfold the napkin."
+      },
+      "transfer_bowl_contents":{
+            "31018": "Move the contents of one bowl to the next bowl",
+            "37451": "Transfer a spoonful of contents from the bowl closest to you to the bowl furthest from you",
+            "349": "Scoop up the beans from the bowl on the right and put them to the bowl on the left"
+      },
+      "put_lid_on_container":{
+            "82771": "Put the lid on the coffee mug",
+            "48856": "Put the lid on the black mug",
+            "93139": "Put the lid on the black cup, then move the cup backwards",
+            "67830": "Pick up the lid and put it on the bottle"
+      },
+      "pick_up_and_put_in_box":{
+        "18826": "Pick up the red object from the box and put it on the table",
+        "94769": "Remove the orange object from the box",
+        "75577": "Pick up the coffee pod from the counter and put it in the box.",
+        "28096": "Pick up the ball and put it in the box",
+        "79058": "Put the coffee pod in the brown box",
+        "9471": "Put the orange toy inside the white box."
+
+      },
+       "wipe_with_cloth":{
+          "3883": "Wipe the counter top with the white cloth",
+          "36525": "Use the tissue to wipe the counter",
+           "59768": "Use the towel to wipe the counter"
+       },
+      "fold_paper_towel": {
+        "35267": "Fold the paper towel on the table",
+        "74682": "Unfold the paper towel"
+      }
+}

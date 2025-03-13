@@ -1,0 +1,60 @@
+
+{
+    "close_coffeemaker": {
+        "58764": "Close the lid of the coffee maker",
+        "73643": "Close the coffee marker",
+        "79167": "Close the lid on the coffeemaker.",
+        "72532": "Close the lid of the coffeemaker",
+        "80741": "Close the chamber on the coffeemaker."
+    },
+    "open_coffeemaker": {
+        "41932": "Open the coffeemaker.",
+        "81502": "Open the lid of the coffee maker",
+        "4193": "Open the coffee maker machine"
+    },
+    "put_tongs_on_wooden_stand": {
+        "10922": "Put the black tongs on top of the wooden stand.",
+        "62844": "Place the stacked coffee cups on the left upright then put the black tongs on top of the wooden stand."
+    },
+     "put_item_in_cup": {
+        "32640": "Put the orange object inside the cup",
+        "6420": "Put the tongs in the cup",
+        "28964": "Move the cup to the left and put the straw in the cup",
+        "19644": "Place the tongs inside the cup",
+        "18761": "Put the fork inside the cup",
+        "71873": "Put the items on the table in the cup"
+
+    },
+    "remove_item_from_cup":{
+        "2064": "Remove the cup from another cup and put it on the table",
+        "52027": "Take the white item out of the coffee cup",
+        "68810": "Take the straw out of the cup",
+        "90237": "Pick up the orange object from the cup and put it in the utensil holder"
+    },
+
+    "stack_cups": {
+        "38068": "Pick up the cup and stack it on the other cup on the right",
+        "50235": "Put the cup on the left into the one on the right",
+        "89715": "Stack the two coffee cups together."
+    },
+    "put_coffee_pod_in_coffeemaker":{
+        "83355": "Put the coffee pod in the coffee maker",
+        "94955": "Put one coffee pod in the coffeemaker."
+    },
+    "remove_coffee_pod_from_coffeemaker":{
+        "94871": "Remove the coffee pod from the coffeemaker.",
+        "86046": "Remove the coffee pod from the coffee maker and place it on the table"
+    },
+      "close_bin": {
+        "9028": "Close the silver bin.",
+        "95472": "Close the bin"
+    },
+    "open_bin":{
+        "4115": "Open the recycling bin",
+        "3401": "Open the lid of the silver bin"
+    },
+      "move_object_backward": {
+        "87226": "Push the wooden rack backwards"
+      }
+}
+

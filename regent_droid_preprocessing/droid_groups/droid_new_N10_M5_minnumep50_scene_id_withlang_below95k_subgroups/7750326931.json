@@ -1,0 +1,69 @@
+
+{
+  "press_remote_button": {
+    "45185": "Press the button on the remote",
+    "20612": "Press a button on the remote",
+    "33427": "Press a button on the remote control.",
+    "11156": "Press a button on the grey remote.",
+    "40603": "Press the button on the remote",
+    "83503": "Press a button on the remote",
+    "91829": "Press a button on the remote control.",
+    "38218": "Press the center button of the small grey remote",
+    "50790": "Press the top button of the grey remote",
+    "42862": "Press a button on the remote control.",
+    "31987": "Press the button on the remote"
+  },
+  "wipe_table_with_cloth": {
+    "27525": "Use the black towel to clean the table",
+    "33413": "Wipe the table with the black cloth",
+    "83204": "Use the black rag to clean the table",
+    "63120": "Use a cloth to wipe the table",
+    "70572": "Use the towel to wipe the table",
+    "45499": "Wipe the table with the grey towel",
+    "77776": "Wipe the table with the black cloth",
+    "89296": "Use the dark grey towel to wipe the table.",
+    "72301": "Pick up the black cloth and wipe the table",
+    "8555": "Clean the table with the white cloth",
+    "4860": "Use the towel to wipe the table."
+  },
+  "stir_with_spoon": {
+    "21514": "Use the spoon to stir in the bowl",
+    "8899": "Use the spoon to stir in the bowl",
+      "46568": "Use the silver spoon to stir the contents in the black and white bowl on the left."
+  },
+    "stir_with_spatula": {
+    "51514": "Use the spatula to stir the contents in the bowl"
+    },
+  "close_box": {
+    "83469": "Close the wooden box",
+    "50197": "Close the shape sorter box",
+    "13154": "Close the box",
+    "79610": "Close the lid of the shape sorter"
+  },
+  "open_box": {
+    "81951": "Open the wooden box",
+    "86054": "Slide open the top of the toy box",
+    "15176": "Slide open the lid of the brown box",
+    "74848": "Slide open the box on the table"
+
+  },
+  "fold_cloth": {
+    "50712": "Fold the grey towel",
+    "35611": "Fold the black napkin",
+    "69083": "Fold the black cloth",
+    "23138": "Fold the towel on the table"
+  },
+    "move_remote":{
+        "86346": "Move the grey remote control to the left.",
+        "80244": "Move the small grey remote slightly to the right"
+    },
+    "slide_lid_closed":{
+      "4022": "Slide closed the lid of the toy box",
+      "83783": "Slide the lid on top of the wooden toy box closed."
+    },
+  "slide_lid_open":{
+      "45484": "Slide the lid off of the shape sorting box",
+      "48717": "Open the id of the shape sorter by sliding the lid forward"
+  }
+}
+

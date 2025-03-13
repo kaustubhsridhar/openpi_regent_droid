@@ -1,0 +1,114 @@
+
+{
+    "place_jacket_on_backrest": {
+        "76320": "Place the jean jacket on the backrest of the black chair",
+        "7753": "Hang the denim jacket over the backrest of the chair",
+        "24729": "Hang the denim jacket over the backrest of the chair",
+        "91908": "Take the coat from the seat of the chair and place it on the backrest",
+        "74504": "Hang the jean jacket on the backrest of the chair",
+        "17678": "Hang the jean jacket on the backrest of the black chair",
+        "38174": "Hang the denim jacket over the backrest of the chair",
+        "52051": "Hang the denim jacket over the back of the chair",
+        "11607": "Pick the denim jacket and place it on the back of the chair",
+        "79199": "Hang the denim jacket over the backrest of the chair",
+        "28533": "Hang the blue jean jacket on the backrest of the chair",
+        "59820": "Hang the coat on the backrest of the chair",
+        "75894": "Put the jeans on the backrest of the chair",
+        "77173": "Put the jeans on the backrest of the chair",
+        "91527": "Put the jeans on the backrest of the chair",
+        "61323": "Pick the cloth and put it on the back rest of the chair",
+        "25613": "Remove the jean jacket from the backrest of the chair, place the jacket on the backrest, remove the jacket from the backrest"
+
+    },
+    "place_jacket_on_seat": {
+        "51248": "Put the the jacket on the seat",
+        "25653": "Move the denim cloth to the seat of the chair",
+        "81486": "Remove the jacket from the top rall and place it on the seat",
+        "29851": "Put the denim jacket on the seat of the chair",
+        "698": "Take the jacket off the back of the chair and put it on the seat",
+        "5512": "Take the jacket off the back of the chair and put it on the seat",
+        "40324": "Put the jacket on the seat",
+        "70571": "Put the jean jacket on the seat of the chair",
+        "55750": "Put the denim jacket on the seat of the chair",
+        "93672": "Place the denim jacket on the seat of the black chair",
+        "7493": "Drop the coat onto the seat of the chair",
+        "73746": "Pick up the blue jacket and put it on top of the chair",
+        "50685": "Put the denim on top of the chair",
+    "28976": "Put the jacket on the head rest",
+    "845": "Pick up the jacket and place it on the headrest of the chair"
+    },
+        "remove_jacket_from_backrest_place_on_seat": {
+        "33908": "Take the cloth on the backrest and put it on the chair",
+        "42765": "Move the denim cloth from the chair back to the seat of the chair",
+        "59273": "Pick the cloth on the back rest and put it on the chair",
+        "12691": "Remove the denim jacket from the back of the black  chair and place it on the seat of the chair",
+        "38300": "Remove the denim jacket from the chair backrest and put it on the seat",
+        "21977": "Take the cloth on the back rest and put it on the chair",
+        "39928": "Move the denim jacket from the back rest to the seat of the chair",
+    "48216": "Remove the hoodie from the backrest of the black chair",
+    "39587": "Remove the jean jacket from the backrest of the black chair"
+    },
+    "slide_curtain_right": {
+        "16924": "Slide the curtain to the right",
+        "40110": "Slide the curtain to the right",
+        "61797": "Slide the curtain to the right",
+        "69615": "Slide the curtain to the right",
+        "68353": "Slide the curtain to the right"
+
+    },
+    "move_curtain_right": {
+        "4791": "Move the curtain to the right",
+        "56016": "Move the curtains to the right",
+        "61681": "Move the curtain to  the right",
+        "40308": "Move the curtain to the right",
+        "10146": "Move the curtain to the right",
+        "44531": "Move the curtain to the right"
+
+    },
+    "slide_curtain_left": {
+        "77364": "Slide the curtain to the left",
+        "72255": "Pull the curtain to the left",
+        "79954": "Move the curtain to the left",
+        "54375": "Slide the curtain to the left",
+    "23367": "Pull the grey curtain to the left.",
+    "65920": "Pull the curtain to the left",
+        "55178": "Slide the curtain to the left",
+    "45244": "Move the curtain to the left",
+    "65872": "Move the curtains to the left"
+
+    },
+    "draw_curtain_closed": {
+        "18974": "Draw the curtain closed",
+        "37515": "Draw the curtain closed",
+        "43481": "Draw the curtain closed"
+    },
+        "open_curtain": {
+        "78909": "Open the curtain from left to right",
+        "47207": "Open the curtains",
+          "77025": "Open the curtain from left to right",
+        "39168": "Open the curtain.",
+    "21396": "Slide the curtain open"
+
+    },
+      "draw_curtain": {
+        "88738": "Draw the curtain",
+        "15170": "Draw the curtain"
+      },
+    "close_curtain":{
+        "81155": "Close the curtain"
+    },
+    "draw_curtain_right":{
+        "2686": "Draw the curtain to the right"
+
+    },
+  "put_pen_on_table":{
+    "11798": "Put the sharpie on the table",
+    "29387": "Put the pen on the table"
+  },
+  "misc_tasks":{
+      "6361": "Unhang the jean jacket",
+    "9612": "Draw the curtain open then close the curtain",
+        "55882": "Open the bottom drawer"
+  }
+
+}

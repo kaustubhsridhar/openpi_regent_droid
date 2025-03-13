@@ -1,0 +1,62 @@
+
+{
+    "put_cutlery_in_drawer": {
+        "28726": "Put the fork in the drawer",
+        "26681": "Put the knife inside the drawer",
+        "43072": "Put the spoon into the drawer",
+        "74834": "Put a knife in the drawer",
+        "84611": "Put the fork in the kitchen drawer",
+        "63752": "Put the spoon in the drawer"
+    },
+    "rinse_bowl_under_faucet": {
+        "92853": "Put the blue bowl under the running faucet then place it back on the counter",
+        "37591": "Place the orange bowl under the running faucet then put the bowl back on the counter",
+        "61168": "Rinse the orange bowl under the faucet",
+        "88356": "Turn the faucet on then rinse the orange bowl under it",
+        "39676": "Pick up the upside down positioned blue bowl and rinse it under the running tap before putting it down in its original position"
+    },
+    "pour_bowl_contents_into_sink": {
+        "49760": "Pour the content in the blue bowl at the edge of the sink into the sink",
+        "10413": "Pour the contents of the orange bowl into the sink, put it back on the sink and then close the tap",
+        "28433": "Pour out the water in the orange and blue bowls",
+        "86953": "Pour the water in the bowl in the sink",
+        "40366": "Pour the contents of the blue bowl into the sink, put the big silver spoon in the blue bowl and then put them in the sink",
+        "72114": "Pour the water in the blue bowl in the sink, drawer some water and pour it in the sink, repeat and put then bowl on the sink",
+        "84356": "Pour the content in the orange bowl into the sink and place it next to the blue bowl, remove the spoon on bowl and place it on right side of the blue bowl, pick up the orange bowl and stack it into the blue bowl and move the stacked bowls into the sink",
+        "5080": "Put the blue bowl on the counter in front of the sink and spill the liquid in the orange bowl into the sink then set it down on the counter next to the blue bowl.",
+        "7645": "Pour the liquid from the blue bowl into the sink."
+    },
+     "put_sponges_in_holder": {
+        "31774": "Put the two sponges in the sponge holder",
+        "20161": "Remove the transparent cutlery holder from the drawer, put it on the countertop and then put the green and white sponges inside it.",
+        "78265": "Pick up the clear storage container from the open drawer and put it on the kitchen counter, pick up the white sponge and the green sponge from the table one by one and put them in the clear storage container"
+
+    },
+    "open_drawer":{
+        "58601": "Open the left drawer fully",
+        "11043": "Open the left drawer of the cabinet"
+    },
+     "close_drawer":{
+        "16102": "Close the open drawer"
+
+    },
+     "put_bowl_in_sink":{
+        "21317": "Pick up the orange bowl and put it in the sink, pick up the blue bowl and put it on the kitchen counter in front of the sink, pick up the green container and put it in the blue bowl, move the blue bowl to the kitchen counter next to the tap",
+        "17763": "Put the orange bowl in the blue bowl and then put them in the sink"
+
+    },
+     "rotate_plate":{
+        "45493": "Pick up the plate, turn it around, then place it back on the plate rack",
+        "33781": "Pick up the plate from the dish rack, turn it one hundred and eighty degrees clockwise and put it back in the dish rack"
+
+    },
+    "put_item_on_red_towel":{
+        "26720": "Put one silver spoon from the right side of the open drawer on the red towel",
+        "74354": "Pick up the table knife and put it on the red towel",
+         "82335": "Pick up the dinner knife of the counter top and move it onto the red towel that is on the counter top"
+
+    },
+
+     "put_bowl_on_dish_rack":
+        {"4912": "Pick up the orange bowl from the blue bowl and put it in the sink, pick up the blue bowl and put it on the dish rack, pick up the orange bowl and put it on the dish rack"}
+}

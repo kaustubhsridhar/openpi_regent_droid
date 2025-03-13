@@ -1,0 +1,91 @@
+
+{
+    "move_right": {
+        "54799": "Move the bottle to the far right of the table",
+        "32315": "Move the bottle to the right side of the table",
+        "93249": "Move the bottle to the right side of the table",
+        "79426": "Move the bottle to the right",
+        "44084": "Move the white bottle resting on the silver object to the right side of the table",
+        "78917": "Remove the bottle from the silver object and set it down on the right side of the table",
+        "78428": "Move the bottle to the right",
+        "11381": "Move the bottle to the right",
+        "95377": "Move the bottle to the right side of the table",
+        "55939": "Move the bottle to the right",
+        "89237": "Move the bottle to the right",
+        "80041": "Move the white bottle to the right side of the table",
+        "86730": "Move the bottle to the right",
+        "95460": "Pick up the medicine bottle and move it to the right.",
+        "71398": "Move the bottle to the right.",
+        "61175": "Move the bottle to the right",
+        "34046": "Move the bottle to the right",
+        "74526": "Move the white bottle to the right",
+        "52159": "Move the bottle to the right",
+        "79223": "Move the bottle to the far right",
+        "27323": "Pick the bottle and move it to the right on the table",
+        "86514": "Move the white bottle to the right"
+
+    },
+    "move_left": {
+        "41519": "Move the object to the left",
+        "4686": "Move the bottle to the left",
+        "5713": "Slide the medicine bottle to the left.",
+        "50886": "Move the bottle to the left",
+        "40189": "Move the bottle to the left",
+        "89416": "Move the white bottle to the left",
+        "61776": "Move the object to the left side of the table",
+        "48986": "Move the bottle to the left",
+        "94573": "Move the bottle to the left side of the table",
+        "36721": "Pick up the small bottle and put it on the left side of the table",
+         "19331": "Move the bottle to the left",
+        "13768": "Move the bottle to the left",
+        "56266": "Move the bottle to the left.",
+        "81880": "Pick the bottle and move it to the left of the table",
+       "55795": "Move the bottle on the table slightly to the left"
+    },
+    "move_forward": {
+        "7696": "Pick up the vial and move it forward",
+        "38495": "Move the bottle forward",
+        "36990": "Move the bottle forward",
+        "53392": "Move the white bottle forward.",
+        "45729": "Move the white bottle forward",
+        "9971": "Move the bottle forward",
+        "45341": "Move the bottle forward",
+        "40251": "Move the bottle forward",
+        "2379": "Move the bottle forward",
+        "26048": "Move  the bottle forward",
+        "75738": "Move the bottle forward",
+        "2288": "Move the white bowl towards you",
+      "42212": "Pick up the vial and move it to the left, bring it back and put it down again, pick it up and move it forward"
+    },
+    "move_backward": {
+        "54814": "Move the bottle backwards",
+        "14377": "Move the bottle away from you",
+        "71214": "Move the bottle backwards",
+        "53927": "Move the bottle backwards",
+        "24921": "Move the bottle backwards",
+        "13233": "Move the bottle backward",
+        "19412": "Move the bottle backward",
+        "36315": "Move the white bottle away from you",
+        "40328": "Pick up the bottle and move it backwards."
+    },
+        "place_on_table": {
+        "48178": "Place the bottle on the table",
+        "71224": "Place the bottle on the table",
+        "60486": "Remove the bottle from the box and put it on the table",
+         "66662": "Put the bottle on the table",
+        "18050": "Put the bottle on the table on silver plate",
+        "28820": "Remove the object from the book and place it on the table",
+       "47805": "Pick up the bottle and put it back down on the table",
+        "41170": "Put the white bottle on the table",
+          "45939": "Put the bottle on the table",
+        "67018": "Take the bottle on the book and put it on the table"
+
+    },
+  "place_middle_of_table":{
+      "42594": "Move the bottle to the middle of the table",
+      "35049": "Put the bottle in the middle of the table",
+        "45297": "Place the bottle in the middle of the table",
+        "61886": "put the bottle in the middle of the table",
+      "39291": "Move the white bottle from the scale to the middle of the table"
+  }
+}

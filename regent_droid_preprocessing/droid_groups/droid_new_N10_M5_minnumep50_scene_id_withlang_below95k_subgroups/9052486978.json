@@ -1,0 +1,80 @@
+
+{
+    "Pouring": {
+        "3842": "Pour the things in the small orange cup into the glass bowl",
+        "48904": "Pour the contents of the white cup into the glass cup",
+        "61962": "Pour the contents of the pink cup into the white cup",
+        "93580": "Pour the contents in the white mug onto the silver pan",
+        "61845": "Pour some of the contents in the orange cup into the white bowl",
+        "90909": "Pour the contents in the red cup into the white bowl on the left",
+        "33694": "Pick the small orange cup and pour its contents into the glass cup",
+        "32172": "Pour some contents from the white mug into the silver pan.",
+        "42050": "Pour the contents in the orange cup into the white bowl",
+        "87364": "Pour the contents in the red cup into the white bowl",
+        "31052": "Pour the contents in the pink mug into the silver bowl",
+        "81974": "Remove the silver lid from the silver pan, pour some of the contents in the white cup into the silver pan",
+        "25193": "Pour the contents from the  white cup into the glass cup then put the white cup on the table",
+        "16362": "Pour the contents of the cup into the pot"
+    },
+    "Lid Removal and Placement": {
+        "34050": "Remove the lid from the silver pan",
+        "50564": "Remove the lid from the jar and put it on the table",
+        "71848": "Remove the lid from the glass object and put it on the table",
+        "42409": "Uncover the jar and put the lid on the table",
+        "84653": "Remove the lid from the jar and put it on the table",
+        "55088": "Pick up the lid off the silver pot and put it on the table",
+        "85691": "Take the lid from the silver pot and put it on the table",
+        "55371": "Take the lid off of the pan and put it on the table",
+        "3022": "Remove the lid from the transparent jar"
+    },
+    "Lid Closing/Covering": {
+       "3718": "Put the lid on the jar on the table",
+       "63379": "Pick up the lid from the table and put it on the frying pan",
+       "20501": "Put the glass lid on top of the glass container",
+       "52914": "Cover the pan with the lid",
+       "68541": "Pick the lid on the pot and place it on the pan",
+       "95169": "Put the glass lid on the glass jar",
+       "31046": "Pick up the lid and close the jar",
+       "29514": "Cover the pan with the lid on the table",
+      "37581": "Close the glass jar with the glass lid on the table",
+       "51663": "Close the lid on the jar",
+       "48219": "Put the silver lid on the pot",
+        "78839": "Take the clear lid from the table and put it on the clear cup"
+    },
+     "Kettle Lid Opening": {
+        "71559": "Open the lid of the kettle",
+        "59537": "Push the button to open the kettle lid",
+        "73526": "Press the button to open the lid of the kettle",
+        "51520": "Open the lid of the electric kettle.",
+        "22099": "Open the lid of the colourless electric kettle.",
+        "11774": "Open the kettle lid",
+         "51230": "Put the white bowl on the scale, open the lid on the electric kettle"
+
+    },
+      "Kettle Button Pressing":{
+        "66440": "Push the button on the handle to open the lid",
+        "93102": "Press the switch on the handle of the kettle",
+        "26571": "Press the button on the handle of the kettle",
+        "50003": "Press the black switch on the handle of the electric kettle"
+      },
+    "Moving Objects Right": {
+        "49178": "Move the object to the right",
+        "68127": "Move the seasoning bottle to the right",
+        "84935": "Move the glass container to the right",
+        "68719": "Move the orange cup to the right"
+    },
+    "Moving Objects Forward/Towards You": {
+        "86065": "Move the white mug forward.",
+        "46272": "Move the glass cup towards you",
+        "93517": "Move the red cup to the front of the desk"
+
+    },
+    "Moving Objects Backward/Away":{
+        "46148": "Move the white bottle backwards",
+        "55990": "Move the silver pot to the back left corner of the desk"
+
+    },
+       "Moving Objects Left":{
+        "67860": "Move the salt cellar to the left"
+       }
+}

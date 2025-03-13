@@ -1,0 +1,132 @@
+
+{
+    "orange_object_in_bowl": {
+        "36869": "Pick up the orange object and put it in the bowl.",
+        "86545": "Put the orange object into the bowl.",
+        "78363": "Pick up the orange object tool and put it in the bowl",
+        "78877": "Pick up the object tool and put it in the bowl",
+        "73250": "Put the orange object inside the bowl.",
+        "8232": "Pick up the orange object and put it in the bowl.",
+        "58413": "Put the orange object in the bowl",
+        "17468": "Pick up the orange object and put it in the bowl.",
+        "74312": "Pick the orange object and put it in the bowl",
+        "84583": "Put the orange object in the bowl",
+        "25192": "Put the orange object in the bowl",
+        "35467": "Put the orange object into the bowl.",
+        "39077": "Pick up the orange object and put it in the bowl",
+        "7861": "Pick up the orange object and put it in the bowl.",
+        "16055": "Pick up the orange object and put it in the bowl",
+        "93833": "Pick up the orange object tool and put it in the bowl",
+        "27850": "Pick up the orange object tool and put it in the bowl",
+        "68304": "Put the orange object in the bowl",
+        "93919": "Pick up the orange object and put it in the bowl",
+        "63204": "Pick up the orange object tool and put it in the bowl",
+        "24296": "Pick up the orange object tool and put it on the bowl",
+        "45817": "Pick up the orange object tool and put it in the bowl",
+        "77551": "Put the orange object in the bowl",
+        "60671": "Put the orange object in the bowl",
+        "85772": "Put the orange object in the bowl",
+        "36621": "Pick up the orange object and put it in the bowl",
+        "66332": "Pick up the orange object and put it in the bowl",
+        "62751": "Pick up the orange object tool and put it in the bowl",
+        "5921": "Put the orange object in the bowl",
+        "50988": "Pick the orange object and put it in the bowl",
+        "42806": "Pick up the orange object tool and put it in the bowl",
+        "82235": "Put the orange object in the bowl",
+        "93009": "Pick up the orange object and put it in the bowl",
+        "59776": "Put the orange object into the bowl.",
+        "21361": "Put the orange tool in the bowl",
+        "72070": "Pick up the orange object tool and put it in the bowl",
+        "18827": "Put the orange object in the bowl",
+        "44939": "Put the orange object in the bowl",
+        "39103": "Pick the tool with the orange handle and put it in the bowl"
+
+    },
+    "red_object_in_bowl": {
+        "23603": "Put the red object in the bowl",
+        "36414": "Put the red object in the bowl",
+        "86084": "Put the red object in the bowl",
+        "56918": "Put the red object in the bowl",
+        "83077": "Put the red object in the bowl",
+        "7832": "Put the red object in the bowl",
+        "17063": "Put the red object in the bowl",
+        "8872": "Put the red object in the bowl",
+        "89341": "Put the red object in the bowl",
+        "72965": "Put the red object in the bowl",
+        "21783": "Put the red object in the bowl",
+        "74531": "Put the red object in the bowl",
+        "83872": "Put the red object in the bowl",
+        "70581": "Put the red object in the bowl",
+        "19894": "Put the red object in the bowl",
+        "71125": "Put the red object in the bowl"
+    },
+    "orange_object_in_black_bowl": {
+        "57867": "Put the orange object in the black bowl",
+        "81438": "Put the orange object in the black bowl",
+        "34364": "Pick up the orange object and put it in the black bowl.",
+        "41564": "Put the orange object into the black bowl.",
+        "51844": "Put the orange object into the black bowl.",
+        "31402": "Put the orange object in the black bowl",
+        "26304": "Put the orange object in the black bowl",
+        "45312": "Put the orange object in the black bowl",
+       "55169": "Put the orange object in the black bowl",
+        "5539": "Put the orange object inside the black bowl.",
+        "49574": "Pick up the orange object and put it in the black bowl.",
+        "38368": "Pick up the orange object and put it in the black bowl.",
+        "94147": "Put the orange object into the black bowl.",
+        "16361": "Put the orange object into the black bowl.",
+        "18817": "Pick up the orange object and put it in black bowl."
+
+    },
+    "wrench_in_black_bowl": {
+        "17433": "Put the metal object with the orange handle in the black bowl",
+        "74267": "Put the wrench in the black bowl",
+        "20563": "Put the metal object with the orange handle in the black bowl",
+        "41557": "Put the metal object with an orange handle in the black bowl",
+        "19064": "Put the wrench in the black bowl",
+        "87684": "Place the wrench inside the black bowl",
+        "8342": "Put the metal object with the orange handle in the black bowl",
+        "75437": "Put the wrench in the black bowl",
+        "14511": "Put the metal object with the orange handle in the black bowl",
+        "48305": "Pick up the wrench from the toolbox and place it inside the black bowl",
+        "20659": "Put the metal object with the orange handle in the black bowl",
+        "24766": "Place the wrench in the black bowl",
+        "41708": "Place the wrench inside the black bowl",
+        "65438": "Put the metal object with the orange handle in the black bowl",
+        "5377": "Remove the wrench from the tool box and and put it inside the black bowl",
+         "72124": "Place the wrench in the black bowl",
+        "31167": "Put the metal object with the orange handle in the black bowl",
+        "18389": "Put the metal object with the orange handle in the black bowl",
+        "80870": "Put the metal object with the orange handle in the black bowl",
+        "73610": "Remove the tool from the tool box and put it in the black bowl",
+        "18318": "Remove the wrench from the tool box and put it inside the black bowl",
+        "75192": "Put the metal object with the orange handle in the black bowl",
+        "23266": "Put the metal object with the orange handle in the bowl"
+
+    },
+      "wrench_in_bowl":{
+        "49788": "Put the wrench in the bowl",
+        "18187": "Put the wrench inside the bowl",
+        "7019": "Put the wrench in the bowl",
+        "45953": "Put the wrench in the bowl"
+      },
+    "remove_wrench_put_in_bowl":{
+        "46293": "Remove the wrench from the tool box and put it in the bowl",
+        "35688": "Remove the wrench from the tool box and put it in the bowl",
+        "46385": "Remove the wrench from the blue tool box and put it in the bowl",
+         "79639": "Take the wrench out of the tool box and place it in the bowl"
+
+    },
+     "remove_screwdriver_put_in_bowl":{
+        "2792": "Remove the screwdriver from the object and put it in the bowl",
+        "69054": "Remove the screwdriver from the object and put it in the bowl",
+        "5593": "Remove the screwdriver from the object and put it in the bowl",
+        "51668": "Take the orange screwdriver from the blue surface and put it in the bowl"
+     },
+    "red_object_in_black_bowl":{
+        "49994": "Put the red object in the black bowl"
+    },
+      "screwdriver_in_black_bowl":{
+          "31602": "Put the screwdriver in the black bowl"
+      }
+}

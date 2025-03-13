@@ -1,0 +1,434 @@
+
+{
+    "put_glass_lid_on_black_pot": {
+        "82461": "Put the glass lid on the black pot",
+        "33836": "Put the glass lid on the black pot.",
+        "73798": "Put the glass lid on the black pot.",
+        "86641": "Put the glass lid on the black pot",
+        "69269": "Put the glass lid on the black pot",
+        "16039": "Put the glass lid on the black pot.",
+        "71998": "Put the glass lid on the black pot.",
+        "75087": "Put the glass lid on the black pot.",
+        "52668": "Put the glass lid on the black pot.",
+        "68562": "Put the glass lid on the black pot."
+
+    },
+    "remove_glass_lid_from_black_pot": {
+        "85576": "Remove the glass lid from the black pot.",
+        "51298": "Remove the glass lid from the black pot and put it on the table",
+        "3759": "Remove the glass lid from the black pot.",
+        "82292": "Remove the glass lid from the black pot.",
+        "4502": "Remove the glass lid from the top of the black pot."
+    },
+    "put_lid_on_pot": {
+        "81933": "Put the glass lid on the pot",
+        "14907": "Put the lid on the pot",
+        "68161": "Put the lid on the pot",
+        "29825": "Put the lid on the pot",
+        "89215": "Put the lid on the black pot",
+        "68816": "Put the glass lid on the pot",
+        "83256": "Put the lid on the pot",
+        "6585": "Put the lid on the pot",
+        "26554": "Put the lid on the pot",
+        "10727": "Pick up the lid from the table and put it on the pot"
+    },
+     "close_middle_drawer": {
+        "83481": "Close the middle drawer",
+        "13381": "Close the middle drawer",
+        "25179": "Close the middle drawer.",
+        "72034": "Close the middle drawer",
+        "19430": "Close the middle drawer."
+    },
+    "remove_lid_from_pot": {
+        "76821": "Remove the lid from the pot",
+        "66131": "Take the lid off the pot",
+        "27828": "Take the lid off of the pot",
+        "36027": "Remove the lid from the pot",
+        "84195": "Remove the lid from the pot",
+        "82660": "Remove the lid from the pot",
+        "23988": "Remove the lid from the pot",
+        "44877": "Remove the lid from the pot",
+        "21312": "Remove the lid from the pot",
+        "92439": "Remove the lid from the pot",
+       "1509": "Remove the lid from the pot"
+
+    },
+        "open_top_left_cabinet_door": {
+        "605": "Open the top left cabinet door, remove the orange cup from the top cabinet and put it on the table",
+        "64761": "Open the top left cabinet door",
+        "47908": "Open the top left cabinet door",
+        "48462": "Open the top left cabinet door",
+        "79205": "Open the top left cabinet door",
+        "35165": "Open the top cabinet door on the left"
+    },
+    "close_top_left_cabinet_door": {
+        "35409": "Close the top left cabinet door",
+        "91045": "Close the top left cabinet door",
+        "16838": "Close the top left cabinet door",
+        "41691": "Close the left topmost cabinet door.",
+        "12577": "Close the topmost shelf's left door",
+        "33726": "Close the left door of the top cupboard"
+    },
+    "open_top_right_cabinet_door": {
+        "17614": "Open the top right cabinet door",
+        "1239": "Open the top right cabinet door",
+        "64401": "Open the top right cabinet door"
+    },
+    "close_top_right_cabinet_door": {
+        "73350": "Close the top right cabinet door",
+        "45746": "Close the top right cabinet door",
+        "36773": "Close the top right cabinet door",
+        "64988": "Close the top right cabinet door",
+        "30479": "Close the top shelf's right door"
+    },
+    "close_cabinet_door": {
+        "78471": "close the cabinet door",
+        "14603": "Close the open cabinet door.",
+        "31529": "Close the cabinet door",
+        "45923": "Close the cabinet door",
+        "84939": "Close the cabinet door",
+        "62931": "Close the open cabinet door",
+        "17375": "Close the open cabinet door."
+    },
+     "open_cabinet_door":{
+        "58915": "Open the cabinet door",
+        "73259": "Open the cabinet door",
+        "62858": "open the cabinet door"
+     },
+    "open_left_door_middle_shelf": {
+        "43043": "Open the right door of the middle shelf",
+        "40627": "Open the left door of the middle shelf",
+        "59201": "Open the left door of the middle shelf",
+        "77039": "Open the left door of the middle shelf",
+        "26461": "Open the right door of the middle shelf"
+    },
+
+    "close_left_door_middle_shelf": {
+        "13888": "Close the left cabinet of the middle shelf",
+        "44623": "Close the left cabinet door of the middle shelf",
+        "40334": "Close the left cabinet door of the middle shelf",
+        "20882": "Close the left door of the middle shelf"
+    },
+    "open_middle_left_cabinet_door": {
+        "45750": "Open the middle left cabinet door",
+        "39722": "Open the middle left cabinet door",
+        "13126": "Open the left middle cabinet door.",
+       "17894": "Open the left middle cabinet door",
+        "18689": "Open the middle left cabinet door and remove the cloth from the middle cabinet"
+
+    },
+    "close_middle_left_cabinet_door": {
+        "9896": "Close the left side door of the middle cabinet",
+        "81064": "Close the middle left cabinet door",
+        "1383": "Close the middle left cabinet door",
+        "80845": "Close the middle left cabinet door",
+        "50098": "Close the middle cabinet door on the left",
+        "91039": "Close the left middle cabinet doors"
+    },
+    "open_middle_right_cabinet_door":{
+        "59914": "Open the right cabinet door of the middle section",
+        "53705": "Open the middle right cabinet door",
+        "14166": "Open the right middle cabinet door",
+        "74653": "Open the middle right cabinet door",
+        "92502": "Open the middle right cabinet door"
+    },
+
+    "close_middle_right_cabinet_door":{
+        "95313": "Close the middle right cabinet door",
+        "30132": "Close the right middle cabinet door"
+    },
+     "close_right_door_middle_shelf": {
+        "38038": "Close the right cabinet door of the middle shelf",
+        "80566": "Close the right door of the middle shelf",
+        "84825": "Close the right door of the second shelf"
+    },
+
+    "put_towel_in_middle_cabinet": {
+        "71187": "Put the towel in the middle cabinet",
+        "40484": "Put the towel in the middle drawer",
+        "90665": "Pick up the towel from the table and put it in the cabinet",
+        "89652": "Put one towel in the middle cabinet",
+        "56886": "Put the blue and white towel in the open cabinet",
+        "10807": "Pick up the white and red towel on the right and place it in the open cabinet",
+        "32321": "Pick up one white towel from the table and put it in the middle compartment of the cabinet.",
+        "42619": "Place one towel inside the middle shelf",
+        "60567": "Put one towel in the middle cabinet, then close the right and left doors of the cabinet, respectively",
+        "85148": "Pick up a cloth and put it on the middle shelf",
+        "29358": "Put one towel in the middle cabinet",
+        "32561": "Put the cloth inside the middle shelf compartment",
+        "19771": "Put the towel inside the shelf in the middle",
+        "33087": "Put one towel in the middle cabinet",
+        "74102": "Move the towel to the cabinet in the middle",
+        "36079": "Put one towel in the middle cabinet",
+        "69368": "Put the towel in the middle cabinet",
+       "71376": "Put the towel in the middle cabinet",
+        "80729": "Pick up the white tea towel with a red line from the table and put it in the middle open cabinet",
+        "13785": "Put one blue and white towel in the open cabinet.",
+        "36834": "Put the white and blue towel inside the open cabinet",
+        "15039": "Pick up the towel from the table and place it in the cabinet",
+                "40139": "Pick up the white and blue towel from the table and put it in the open cabinet",
+        "82620": "Place one white and blue towel inside the open cabinet",
+        "44806": "Pick up the cloth and put it in the cabinet",
+        "89962": "move the cloth from the table and place it in the cabinet"
+
+    },
+    "remove_towel_from_middle_cabinet": {
+        "30253": "Remove one towel from the middle cabinet",
+        "1582": "Remove one towel from the middle cabinet and place it on the table.",
+       "12475": "Remove one towel from the middle cabinet",
+       "12011": "Remove one towel from the middle cabinet",
+       "13286": "Remove one towel from the middle cabinet",
+       "18296": "Remove one towel from the middle cabinet",
+       "1452": "Remove one white towel from the middle cabinet",
+        "32140": "Remove one towel from the middle compartment of the cabinet",
+         "74844": "Remove the towel from the middle compartment",
+        "88675": "Open the doors of the middle shelf, remove the towel from inside the shelf and put it on the table",
+        "20166": "Remove the towel from the middle shelf and put it on the table",
+        "869": "Remove a towel from the middle shelf and put it on the table",
+        "84357": "Remove a towel from the middle shelf and put it on the table",
+        "86308": "Pick up one tea towel from the middle cabinet and put it on the table",
+        "40300": "Take the hand towels out of the middle compartment"
+
+    },
+    "remove_towel_from_drawer":{
+        "58940": "Take the towel from the middle drawer",
+        "43583": "Remove the towel from the middle drawer",
+        "16120": "Remove the towel from the drawer",
+        "42295": "Take out the towel from the middle drawer."
+
+    },
+    "open_left_door_topmost_cabinet":{
+        "54414": "Open the left door of the topmost cabinet.",
+        "59727": "Open the left door of the topmost cabinet.",
+        "77014": "Open the left and right doors of the topmost cabinet."
+    },
+    "close_left_door_middle_cabinet":{
+        "30741": "Close the left door of the middle cabinet.",
+        "94833": "Close the left door of the middle cabinet, close the right door of the middle cabinet",
+        "69084": "Close the left door of the middle cabinet"
+    },
+      "close_left_cabinet_door":{
+        "57284": "Close the left cabinet door",
+        "93419": "Close the left cabinet door."
+      },
+    "open_left_cabinet_door_middle_segment":{
+        "19480": "Open the left door on the second cabinet",
+        "89318": "Open the left door on the middle cabinet",
+        "71148": "Open the left door on the middle cabinet.",
+        "76119": "Open the left cabinet door of the middle segment",
+        "6922": "Open the left door on the middle cabinet"
+
+    },
+    "close_door_middle_compartment": {
+        "26154": "Close the door to the middle compartment",
+        "63559": "Close the door to the middle compartment",
+        "82037": "Close the door the middle compartment",
+        "85331": "Close the door to the middle compartment",
+        "108": "Close the right door of the middle compartment of the cabinet."
+    },
+     "put_silver_bowl_in_top_cabinet":{
+        "36410": "Put the silver bowl inside the top cabinet",
+        "13886": "Put the silver bowl in the top cabinet",
+        "56466": "Put the silver bowl in the top cabinet door"
+    },
+    "remove_silver_bowl_from_top_cabinet":{
+        "66230": "Remove the silver bowl from the top cabinet and put it on the table",
+        "25039": "Remove the silver bowl from the top cabinet and put it on the table",
+        "60286": "Remove the silver bowl from the open cabinet and put it on the table",
+        "30452": "Remove the silver dish from the top cabinet"
+    },
+    "put_red_cup_in_top_cabinet":{
+        "53101": "Put the red cup into the top compartment",
+        "77253": "Pick up the red cup and place it at the top shelf of the cabinet"
+    },
+    "remove_red_cup_from_top_cabinet":{
+        "12978": "Remove the red cup from the top cabinet",
+        "1780": "Remove the red cup from the top cabinet",
+         "59112": "Remove the cup from the top cabinet",
+         "44792": "Remove the red cup from the top shelve of the cabinet and put it on the table"
+    },
+       "put_orange_cup_in_top_cabinet":{
+        "25172": "Put the orange cup in the top shelf",
+        "18577": "Put the orange cup in the top cabinet",
+        "60171": "Put the orange cup in the top compartment"
+    },
+      "remove_orange_cup_from_top_cabinet":{
+          "33718": "Remove the orange cup from the top cabinet and put it on the table"
+      },
+      "remove_jar_from_top_cabinet":{
+        "91698": "Remove the jar from the first top cabinet",
+        "85314": "Remove the jar from the top cabinet",
+        "51578": "Remove the jar from the top cabinet",
+        "33761": "Remove the jar from the top cabinet"
+
+      },
+      "remove_jug_from_topmost_cabinet":{
+        "68260": "Remove the jug from the topmost shelf",
+        "31563": "Remove the jug from the topmost cabinet."
+      },
+      "put_jug_in_topmost_cabinet":{
+        "72970": "Put the clear jug in the topmost cabinet.",
+        "95214": "Put the jug in the topmost shelf"
+      },
+       "open_top_cabinet":{
+         "3694": "Open the top cabinet",
+         "3431": "Open the door to the top compartment"
+       },
+        "open_right_door_cabinet":{
+          "41143": "Open the second right door of the cabinet",
+          "82162": "Open the right door on the second cabinet",
+          "91021": "Open the right door of the cabinet",
+            "21879": "Open the right cupboard",
+            "5381": "Open the cabinet's right door",
+            "25009": "Open the right door of the cabinet in the middle"
+
+        },
+
+       "close_right_cabinet_door":{
+          "87952": "Close the right cabinet door."
+
+       },
+        "put_red_mug_in_topmost_cabinet":{
+          "29207": "Put the red mug in the open upper cabinet.",
+          "81467": "Put the red mug in the topmost cabinet."
+        },
+        "remove_red_mug_from_topmost_cabinet":{
+            "91896": "Remove the red mug from the open topmost cabinet and put it on the table.",
+          "41231": "Remove the red mug from the topmost cabinet."
+        },
+        "put_clear_jar_in_topmost_shelf":{
+            "84129": "Put the clear jar in the top most shelf",
+            "60152": "Place the measuring cup on the top shelf"
+        },
+        "put_cup_in_top_cabinet": {
+            "20496": "Take the cup out of the top compartment",
+            "54082": "Put the cup into the top compartment",
+            "50011": "Put the cup inside the top drawer"
+        },
+        "move_red_cup_to_table":{
+          "49152": "Move the red cup to the table",
+          "38488": "Shift the red cup to the table"
+        },
+
+        "remove_towel_and_put_on_table": {
+            "57932": "Remove the towel from the open cabinet and put it on the table",
+            "43809": "Remove the towel from the cabinet and put it on the table",
+            "38893": "Remove the towel from the cabinet and put it on the table",
+             "95064": "Take the cloth in the cabinet and put it on the table",
+            "43731": "Remove the towel from the cupboard"
+
+        },
+
+        "open_drawer": {
+            "11911": "Open the drawer",
+            "82567": "Open the drawer in the middle compartment",
+            "26355": "Open the middle drawer",
+            "25395": "Open the top drawer"
+        },
+
+        "close_top_drawer": {
+            "58884": "Close the top drawer.",
+            "7236": "Close the left door of the top drawer",
+            "43346": "Close the 2nd drawer doors.",
+            "48365": "Close the right side door on the middle drawer"
+        },
+        "put_bowl_in_cabinet":{
+          "9364": "Put the bowl in the cabinet",
+          "78691": "Transfer the bowl to the open cabinet"
+        },
+        "open_middle_cabinet": {
+            "92258": "Open the middle cabinet",
+            "28408": "Open the doors on the middle cabinet.",
+            "94317": "Open the cabinet doors in the middle",
+             "82385": "Open the right and left middle cabinet doors, respectively",
+            "84442": "Open the middle cupboard door"
+
+        },
+          "open_cabinet":{
+              "22078": "Open the cabinet",
+                "35989": "Open the doors to the compartment"
+
+          },
+
+         "put_lid_on_counter": {
+            "11356": "Put the lid on the counter",
+            "30816": "Put the pot's lid on the counter",
+            "13103": "Pick up the lid from the pot and put it on the counter",
+            "14291": "Put the glass lid on the counter."
+        },
+
+         "remove_lid_from_pot_and_place_on_counter":{
+           "87948": "Remove the lid from the black pot and place it on the counter",
+           "69519": "Remove the lid from the pot and place it on the counter top"
+         },
+        "cover_pot": {
+            "56929": "Cover the pot with the lid",
+            "50375": "Cover the pot",
+            "81348": "Use the lid to cover the pot",
+            "76727": "Uncover the pot"
+
+        },
+        "remove_item_from_cabinet_and_put_on_table":{
+          "90258": "Remove the clear jug from the open upper cabinet and put it on the table.",
+          "30272": "Take the bowl in the cabinet and put it on the table",
+          "66131": "Take the lid off the pot",
+          "19607": "Pick up the colourless cup from the top compartment of the cabinet and put it on the table.",
+          "31605": "Open the doors of the second cabinet, remove one towel and put it on the table",
+          "79257": "Remove the lid from the pot and place it on the table"
+        },
+        "open_topmost_cabinet_doors":{
+          "91809": "Open the two doors of the topmost shelf",
+          "75494": "Open the topmost cabinet doors"
+        },
+         "put_clear_jug_in_cabinet": {
+            "52494": "Put the clear jug in the open upper cabinet."
+        },
+        "close_multiple_doors": {
+            "94833": "Close the left door of the middle cabinet, close the right door of the middle cabinet",
+            "10986": "Close the middle left and right cabinet doors",
+            "81680": "Close the left and right cabinet doors, respectively",
+            "38771": "Close the top left and right cabinet doors",
+            "7842": "Close the doors to the top compartment"
+        },
+        "open_doors_second_cabinet":{
+           "94699": "Open the doors of the second shelf of the cabinet"
+        },
+        "move_middle_left_cabinet_door":{
+            "6825": "Move the middle left cabinet door",
+            "5641": "Close the left door on the topmost cabinet."
+
+        },
+
+        "close_second_cabinet":{
+            "24714": "Close the left door of the second cabinet",
+            "13546": "Close the left door of the second cabinet"
+        },
+
+         "remove_white_and_blue_towel_from_cabinet":{
+              "61622": "Remove the white and blue towel from the second cabinet",
+                "51407": "Close the open left door of the top shelf"
+
+         },
+        "remove_item_from_top_cabinet":{
+           "12978": "Remove the red cup from the top cabinet",
+          "8880": "Remove the red cup from the top drawer"
+        },
+        "put_item_in_top_cabinet":{
+          "13931": "Put the red cup inside the middle cabinet",
+          "85532": "Pick up the cup from the table and put it in the cabinet"
+
+        },
+        "close_top_cupboard":{
+          "13084": "Close the top cupboard",
+          "16670": "Push closed the door on the top compartment",
+          "36760": "Close the door on the top compartment"
+        },
+         "open_right_cabinet_door_middle_compartment":{
+          "50911": "Open the right cabinet door of the middle compartment",
+          "37572": "Open the right cabinet door of the middle compartment"
+
+        },
+        "remove_jug_from_table_and_put_in_cabinet":{
+          "57931": "Remove the jug from the table and put it in the open cabinet"
+        }
+}

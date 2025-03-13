@@ -1,0 +1,227 @@
+
+{
+    "put_straw_in_cup": {
+        "27136": "Pick up the straw and place it inside the cup",
+        "55822": "Place the straw in the cup",
+        "94266": "Put the straw in the cup",
+        "20036": "Put the straw in the jar",
+        "55369": "Put the straw in the plastic cup",
+        "83543": "Put the straw in the plastic cup",
+        "25730": "Put the straw inside the plastic cup",
+        "13971": "Put the straw in the cup",
+        "69780": "Put the straw inside the cup",
+        "76458": "Pick up the clear straw and put it into the cup through the top hole of the lid",
+        "43692": "Put the straw into the cup",
+        "70333": "Put the straw in the cup",
+        "63692": "Place the straw in the cup",
+        "42189": "Put the straw in the cup",
+        "86226": "Put the straw in the plastic cup",
+        "5352": "Put the straw inside the cup",
+        "32521": "Pick up the straw and put it in the cup",
+        "93966": "Put the straw into the cup",
+        "55059": "Lift the straw from the table and put it in the cup",
+        "64306": "Lift the straw from the file and put it in the cup",
+        "78653": "Lift the straw from the table and put it the  cup",
+        "64329": "Pick up the clear straw and put it through the top hole into the clear plastic cup",
+        "70512": "Put the straw inside the cup",
+        "16242": "Put the straw inside the plastic cup",
+        "43895": "Put the straw into the cup through the lid",
+        "54657": "Put the straw in the cup",
+        "18313": "Put the straw inside the cup",
+        "37258": "Pick up the clear straw and put it through the top hole into the clear plastic cup",
+        "19868": "Put the straw in the plastic cup",
+        "63906": "Put the straw in the plastic cup",
+        "18859": "Put the straw inside the plastic cup",
+        "63926": "Lift the straw from the table and put it in the cup",
+        "29171": "Put the straw in the cup",
+        "78075": "Put the straw in the cup."
+    },
+    "close_zipper_black_jacket": {
+        "24616": "Close the zip on the black jacket.",
+        "41059": "Close the zip on the black jacket.",
+        "75912": "Close the zipper on the black jacket.",
+        "9914": "Close the zipper on the black jacket.",
+        "33983": "Close the zipper on the black jacket.",
+        "91846": "Close the zipper on the black jacket.",
+        "57650": "Close the zipper on the black jacket.",
+        "31119": "Close the zipper on the black jacket.",
+        "46488": "Close the zip on the black jacket.",
+        "10657": "Close the zipper on the black jacket.",
+        "52153": "Close the zip on the black jacket.",
+        "29115": "Close the zipper on the black jacket.",
+        "54119": "Close the zipper on the black jacket."
+
+    },
+    "close_zipper_black_vest": {
+        "78366": "Close the zipper of the black vest",
+        "41524": "Close the zipper of the black vest",
+        "45114": "Pull the zipper of the black vest up",
+        "72356": "Close the zipper of the black vest",
+        "73474": "Close the zipper of the black vest",
+        "48885": "Pull the zipper of the black vest upwards",
+        "11007": "Pull the zipper of the black vest upwards",
+        "26911": "Close the zipper of the black vest",
+        "38691": "Pull the zipper of the black vest up",
+        "75689": "Close the zipper of the black vest",
+        "17831": "Pull the zipper of the black vest up",
+        "37326": "Close the zipper of the black vest",
+        "28653": "Close the zipper of the black vest"
+    },
+    "close_zipper_jumper": {
+        "66648": "Pull the zipper closed on the jumper",
+        "23683": "Pull closed the zipper on the jumper",
+        "41161": "Pull closed the zipper on the jumper",
+        "2292": "Close the zipper on the jumper",
+        "24398": "Close the zipper on the jumper",
+        "65933": "Close the zipper on the jumper",
+        "34154": "Pull closed the zipper on the jumper",
+        "72987": "Close the zipper on the black jumper."
+    },
+    "zip_up_black_jumper": {
+       "7701": "Zip up the black jumper",
+        "10294": "Zip up the black jumper",
+        "45826": "Zip up the back jumper fully",
+        "66346": "Zip up the black jumper fully",
+        "1858": "Zip up the black jumper",
+        "29585": "Zip up the black jumper",
+        "64479": "Zip up the black jumper"
+    },
+    "zip_up_jersey": {
+        "22151": "Zip up the jersey",
+        "80092": "Zip up the jersey",
+        "24991": "Zip up the jersey"
+    },
+       "zip_closed_jersey": {
+        "73239": "Zip closed the black jersey",
+        "89666": "Zip closed the jersey",
+        "69433": "Zip closed the black jersey",
+        "64357": "Zip closed the black jersey"
+
+    },
+        "close_zip_jersey": {
+        "26143": "Close the zip of the jersey",
+        "64046": "Close the zip of the jersey",
+        "29827": "Close the zip of the jersey",
+        "169": "Close the zip of the jersey",
+        "47373": "Close the zip of the jersey",
+        "66885": "Close the zip of the jersey",
+        "3460": "Close the zip of the jersey",
+        "64909": "Close the zip of the jersey",
+         "58826": "Close the zip of the jersey",
+        "72180": "Close the zip of the jersey",
+        "55647": "Close the zip of the jersey"
+    },
+
+    "close_purple_file_holder": {
+        "92171": "Close the purple file holder",
+        "69167": "Close the purple file holder",
+        "86105": "Close the purple file holder",
+        "73887": "Close the purple file holder",
+        "35539": "Close the purple file holder",
+        "3404": "Close the purple file holder",
+        "70057": "Close the purple file holder",
+        "17396": "Close the purple file holder"
+    },
+    "open_purple_file_holder": {
+        "6727": "Open the purple file holder",
+        "41071": "Open the purple file holder",
+        "45845": "Open the purple file holder",
+        "8517": "Open the purple file holder",
+        "82822": "Open the purple file holder",
+        "8688": "Open the purple file holder",
+        "94653": "Open the purple file holder"
+    },
+    "close_purple_folder": {
+        "2726": "Close the purple folder.",
+        "85189": "Close the purple folder.",
+        "20687": "Close the purple folder.",
+        "86740": "Close the purple folder.",
+        "30554": "Close the purple folder.",
+        "79734": "Close the purple folder.",
+        "85927": "Close the purple folder.",
+        "82171": "Close the purple folder."
+    },
+     "open_purple_folder": {
+        "80939": "Open the purple folder.",
+        "25359": "Open the purple folder.",
+        "43279": "Open the purple folder.",
+        "70491": "Open the purple folder.",
+       "53639": "Open the purple folder.",
+        "39406": "Open the purple folder.",
+        "936": "Open the purple folder.",
+        "55177": "Open the purple folder."
+
+    },
+    "close_folder": {
+        "57449": "Close the folder",
+        "14954": "Close the folder",
+        "63741": "Close the folder",
+        "57301": "Close the folder"
+    },
+    "open_folder": {
+        "22126": "Open the folder",
+        "78469": "Open the folder",
+        "87758": "Open the folder completely",
+        "81316": "Open the folder",
+        "76743": "Open the folder",
+        "24832": "Open the folder",
+        "58623": "Open up the folder",
+        "37099": "Open the folder on the towel"
+    },
+      "close_file": {
+        "10362": "Close the file",
+        "79595": "close the file",
+        "28998": "Close the file",
+        "22889": "close the file",
+        "94672": "Close the file",
+        "28579": "Close the open file"
+    },
+    "open_file": {
+        "89167": "open the file",
+        "6244": "Open the file",
+        "82262": "Open the file",
+        "54250": "Open the file"
+    },
+    "close_purple_file": {
+        "22619": "Close the purple file",
+        "26940": "Close the purple file on the table",
+        "880": "Close the purple file",
+        "25989": "Close the purple file",
+        "17838": "Close the purple file"
+    },
+    "open_purple_file": {
+        "12909": "Open the purple file",
+        "34945": "Open the purple file",
+        "92411": "Open the purple file",
+        "88020": "Open the purple file"
+    },
+     "close_book": {
+        "36409": "Close the book",
+        "57501": "Close the book",
+        "31727": "Close the book"
+     },
+    "close_purple_book":{
+        "25162": "Close the purple book",
+        "22647": "Close the purple book"
+    },
+    "zip_up_coat":{
+        "8201": "zip up the coat",
+        "65798": "zip up the coat"
+    },
+    "zip_up_cloth": {
+        "82045": "Move the pen and pods to the right then after zip up the cloth",
+        "16216": "Zip up the cloth",
+        "59385": "Zip the cloth"
+    },
+     "fully_zip_fleece_jacket":{
+        "5820": "Completely zip the fleece jacket up",
+        "63735": "Completely zip up the fleece jacket",
+        "82755": "Fully zip up the fleece jacket",
+        "40907": "Fully zip up the fleece jacket"
+     },
+     "zip_up_jumper":{
+        "82897": "Zip up the jumper",
+        "93154": "Zip up the jumper"
+     }
+}
+

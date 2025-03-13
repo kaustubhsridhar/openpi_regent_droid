@@ -1,0 +1,111 @@
+
+{
+    "lid_on_pot": {
+        "64058": "Put the lid on the pot",
+        "34912": "Pick up the glass lid and put it on the pot",
+        "17534": "Use the lid to cover the pot",
+        "42398": "Put the glass lid on the pot"
+    },
+    "close_pot": {
+        "42089": "Close the pot"
+    },
+   "remove_lid_from_pot": {
+        "57857": "Remove the glass lid from the black pot.",
+        "52482": "Remove the lid from the black pot",
+        "10077": "Take the lid off the pot"
+    },
+    "put_spoon_in_pot": {
+        "62993": "Put the spoon in the pot",
+        "43164": "Put the silver spoon inside the pot",
+        "8452": "Place the spoon in the pot",
+        "56665": "Pick up the spoon from the black cloth and put in the black pot",
+        "11633": "Pick up one silver spoon and put it in the black pot"
+    },
+    "object_upright": {
+        "12899": "Place the car upright.",
+        "22682": "Pick the trash can up and make it stand upright",
+        "22241": "Put the bin upright",
+        "60155": "Put the toy car upright",
+        "37633": "Place the toy car upright.",
+        "61260": "Place the helmet upright.",
+        "17786": "Position the toy upright",
+        "58237": "Turn the right blue object upright"
+    },
+    "turn_over": {
+        "74264": "Turn the hand broom over making it stand on its bristles",
+        "74971": "Turn the toy car on the left over",
+        "94438": "Turn the brush over",
+        "14063": "Turn the hand broom over and make it stand on its bristles",
+        "75570": "Flip over the dustpan",
+         "53653": "Flip the car over.",
+        "55702": "Put the toy car upside down",
+        "66876": "Turn the blue cup on the washing machine over",
+        "66991": "Turn the blue cups over"
+
+    },
+     "move_dustpan_forward": {
+        "14551": "Move the dustpan forward"
+    },
+    "hang_on_hook_or_rack": {
+        "18454": "Hang the small brush on the top rack",
+        "88886": "Hang the dust pan on the hook",
+        "20973": "Hang the brush on the shelf"
+
+    },
+    "put_on_shelf":{
+        "32349": "Put the left scoop on the shelf",
+        "81683": "Put the orange book on the shelf",
+        "39138": "Put the magazine on the first bottom shelf",
+        "55261": "Put the helmet on the shelf"
+    },
+    "put_in_blue_box":{
+        "42080": "Remove the purple cup from the rack and put it in the blue box",
+        "41739": "Stack the two measuring cups together then put them in the blue box.",
+        "88916": "Stack the blue measuring cups together then put them in the blue box."
+    },
+    "put_item_on_top_of_washing_machine":{
+        "56121": "Pick up the black container from the right side of the shelf and put it on the left washing machine.",
+        "72022": "Take the black can off of the shelf and out it on the washing machine",
+        "81246": "Remove the light blue bowl from the bottom rack and put it on the washing machine on the left",
+        "14323": "Remove the orange spoon from the wooden utensil holder and put it on the left washing machine"
+    },
+     "put_spoons_in_rack_or_drawer":{
+        "79984": "Put both the grey and orange spoons in the brown rack",
+        "1192": "Put the spoons in the cutlery rack",
+        "65196": "Put the spoons on the in the drawer that's on the table",
+        "85714": "Put one spoon in the basket",
+        "64843": "Put the silver spoon in the second furthest compartment of the rack, then the orange spoon in the second closest compartment of the rack"
+
+     },
+     "put_item_in_pot_holder": {
+        "93498": "Remove the spoon from the pot, put it on the pot holder, remove the lid from the pot and put it in the pot holder"
+     },
+     "put_glass_lid_related":{
+        "91901": "Remove the spoon from the pot, put it on the potholder on the right and then close the pot with the glass lid fully",
+        "58313": "Remove the glass lid from the pot and put it on the pot holder on the right",
+        "6015": "Pick up the clear oven pot lid and put it on the black oven mat",
+        "12678": "Use the black pot holder to remove the glass lid from the pot.",
+        "40919": "Put the glass lid on top of the pan."
+     },
+     "take_paper_from_orange_box":{
+         "81726": "Remove one paper from the orange box.",
+         "71626": "Remove one paper towel from the orange box"
+     },
+    "put_measuring_cup_on_blue_box":{
+        "49901": "Close the lid of the blue cleaning powder box, pick up the blue measuring cup and put it on the blue cleaning powder box",
+        "80787": "Put the blue measuring cup on the right side of the blue box."
+    },
+      "hang_measuring_cup_on_box":{
+        "35111": "Pick up the measuring cup on the right and hang it on the box.",
+        "74047": "Hang the blue measuring cup on the right side of the blue box."
+      },
+      "place_pan": {
+        "56109": "Put the pan on the first bottom shelf",
+        "62421": "Put the pan on top of the black pot."
+      },
+      "rotate_turn_around":{
+        "69031": "Turn the dust pan around",
+        "15813": "Rotate the measuring cup at the top of the stack."
+      }
+}
+

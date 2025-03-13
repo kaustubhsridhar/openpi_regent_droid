@@ -1,0 +1,64 @@
+
+{
+    "arrange_pillows_right": {
+        "65815": "Arrange the small pillows on the right side of the couch",
+        "28185": "Arrange the pillows to the right",
+        "39577": "Put the two pillows properly on the right side of the couch",
+        "78491": "Take the pillows and move them to the right of the couch",
+        "26785": "Arrange the small pillows on the right side of the sofa",
+        "15144": "Move the pillow to the right",
+        "2617": "Move the small pillow to the right side of the sofa",
+        "70844": "Put the two pillows on the right end of the chair",
+        "8639": "Move the big pillow to the right side of the couch",
+        "53836": "Place the two small pillows on the right side of the sofa",
+        "15826": "Move white pillow to the right arm rest side of the couch",
+        "46305": "Pick up the two pillows and move them to the right side of the couch",
+        "55149": "Arrange the cushions neatly on the right side of the sofa.",
+        "29689": "Arrange the pillows neatly to the right",
+        "51707": "Arrange the two pillows neatly to the right",
+        "92671": "Move the small pillows to the right"
+    },
+    "place_pillows_against_right_armrest": {
+        "38658": "Set the striped pillows against the armrest",
+        "5680": "Place the striped pillows against the right armrest",
+        "78786": "Arrange the two small pillows against the right armrest of the sofa",
+        "25667": "Arrange the small pillows against the armrest on the right",
+        "77254": "Set the striped pillows against the armrest",
+        "71788": "Place the striped pillows against the right armrest",
+        "62718": "Set the striped pillows against the armrest"
+    },
+    "place_pillows_against_armrest":{
+        "27681": "Put the pillows upright against the armrest of the couch",
+        "67873": "Move the pillows from the middle of the couch and set them against the armrest",
+        "53320": "Put the pillow upright against the armrest",
+        "52819": "Put the pillows upright against the arm rest",
+        "4192": "Put the pillows upright against the armrest",
+        "87143": "Put the pillows upright against the armrest",
+        "57192": "Set the two pillows against the armrest"
+    },
+   "arrange_pillows_one_in_front_of_other_against_armrest": {
+        "49280": "Put the cushions, one in front of the other, against the right arm rest",
+        "27292": "Arrange the cushions, one in front of the other, against the armrest",
+        "43041": "Arrange the cushions, one in front of the other, against the armrest",
+        "22504": "Arrange the cushions, one in front of the other, against the arm rest"
+   },
+   "place_pillow_against_right_armrest_move_other_right": {
+        "15876": "Place the small pillow against the right armrest of the sofa, place the pillow in the middle of the sofa in front of the small pillow on the right",
+        "10129": "Move the small pillow to the right armrest, move the pillow in the middle of the sofa to the right",
+        "76605": "Place the small pillow against the right armrest, move the pillow in the middle of the couch to the right side of the couch",
+        "6895": "Place the small pillow against the right armrest, move the pillow in the middle to the right side of the sofa",
+        "53699": "Move the pillow in the middle of the couch to the right side"
+
+   },
+    "stack_pillows":{
+        "18108": "Stack the pillows at the edge of the sofa.",
+        "80498": "Stack the two pillows against each other."
+    },
+     "move_pillows_left":{
+        "24806": "Move the small pillows to the left arm of the sofa"
+     },
+    "place_cup_in_bowl":{
+        "22591": "Place the orange cup in the black bowl"
+
+    }
+}

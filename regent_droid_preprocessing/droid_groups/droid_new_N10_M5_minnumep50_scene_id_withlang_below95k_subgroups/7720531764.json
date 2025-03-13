@@ -1,0 +1,116 @@
+
+{
+    "move_object_left": {
+        "20486": "Move the silver pot to the left",
+        "35412": "Move the silver pot to the left",
+        "80064": "Move the mug to the left",
+        "5855": "Move the mug cup to the left",
+        "46303": "Move the sauce bottle on the left to the left",
+        "71962": "Move the pot to the left",
+        "29581": "Pick the sauce bottle and move it to the left on the table"
+    },
+    "move_object_right": {
+        "44548": "Move the cup to the right",
+        "22546": "Pick up the sauce bottle from the table and move it to the right.",
+        "6229": "Move the source bottle to the right",
+        "87691": "Move the larger blue toy slightly to the right",
+        "84251": "Move the bottle to the right",
+        "25941": "Move the silver pot to the right"
+    },
+    "move_object_forward": {
+        "8266": "Move the blue cup forward",
+        "63798": "Move the white mug forward.",
+        "68416": "Move the blue three piece Lego forward"
+    },
+    "move_object_backward": {
+        "42071": "Move the bottle on the right backwards",
+        "81333": "Move the sauce bottle on the right side of the table backwards"
+    },
+    "place_block_on_table": {
+        "70660": "Remove the blue building block from on top of the green building block and put it on the table",
+        "32790": "Take the green building block and put it on the table",
+        "52321": "Pick up the blue block from the other blocks and put it on the table.",
+        "75374": "Take the green block and put it on the table",
+        "39549": "Put the right blue legos on the table",
+        "79022": "Remove the yellow block from the tower and put it on the table",
+       "21736": "Pick up the green object from the blue object and put it on the table",
+        "36113": "Remove the blue toy from the top of the toy tower and put it on the table",
+        "17305": "Remove the green block from the top of the yellow block and place it on the table",
+         "60901": "Move the green legos from the top of yellow legos to the table"
+
+    },
+        "place_blue_block_on_yellow_block": {
+        "49774": "Place the blue block on the yellow block",
+        "69942": "Put the small blue block on the yellow block"
+    },
+     "stack_blocks": {
+        "18957": "Stack the blocks on the table",
+        "18462": "Pick up the blue toy block and stack it on top of the orange toy block",
+        "88119": "Stack the long yellow block on the red block",
+         "30384": "Stack the blue building block on the right on top of the orange building block",
+        "49942": "Stack the blue block on top of the yellow and blue blocks",
+        "73704": "Stack the two stacks of building blocks together"
+    },
+
+    "put_sauce_bottle_in_basket": {
+        "62469": "Put a sauce bottle in the basket",
+        "28512": "Put the sauce bottle in the basket"
+    },
+"put_item_on_table":{
+        "44174": "Take the fork from the rack and put it on the table",
+        "91414": "Remove the spoon from the rack and put it on the table",
+        "82783": "Take a fork from the rack and put it on the table",
+         "90977": "Move the fork from the utensil holder to the table",
+        "74092": "Put the knife on the table",
+        "63398": "Remove one fork from the basket and put it on the table"
+    },
+
+    "pour_liquid_into_pot":{
+        "21105": "Pour the liquid in the blue cup into the silver pot",
+        "672": "Pick up the orange cup and pour its contents in the silver pot.",
+        "30030": "Pick up the orange cup from the table, pour its contents in the silver pot and put the orange cup back on the table."
+    },
+  "put_lid_on_pot":{
+      "48315": "Place the lid on the pot",
+        "16696": "Put the silver lid on top of the silver pot"
+  },
+  "place_yellow_block_on_other_blocks":{
+      "94258": "Place the yellow block on the stacked blocks",
+        "69266": "Stack the three part yellow Lego on the stacked yellow Lego",
+        "10085": "Place the orange block on top of the yellow block near the blue one"
+
+  },
+"put_item_in_rack":{
+   "40065": "Take the fork and put it in the black cutlery holder",
+     "57622": "Remove the fork from the table and put it in the black basket",
+    "67994": "Put the fork in the black rack",
+        "27048": "Pick up the straw from the table and put it in the black rack"
+},
+    "combine_lego_stacks":{
+   "72751": "Take the blue legos at the right of the yellow legos and put on the yellow legos farthest from you",
+        "26674": "Attach the stack of lego's to the yellow lego",
+        "3125": "Take the blue legos at the left of the green legos and put them on the blue legos",
+           "12387": "Put both blue legos on the table then put the green legos on the yellow legos",
+      "80088": "Take the green legos and put it on the yellow legos",
+      "63332": "Put the stack of Lego's on the right on the stack of Lego's on the left",
+         "81404": "Align the blue and orange legos together then put the purple legos on top of the blue and orange legos"
+
+  },
+  "put_item_in_box":{
+      "50756": "Put the sauce bottle on the right inside the box",
+      "75598": "Remove the sauce bottle from the table and place it inside the wooden box on the table",
+        "50520": "Pick the bottle on the table and place it in the box"
+
+  },
+     "stack_block_on_top_of_other":
+  {
+      "55334": "Take the blue block on the right and place it on top of the blue block at the center",
+       "48206": "Pick up the combined blue and yellow blocks and put it on top of the blue block.",
+      "11967": "Pick the green block on the table and put it on top of the blue block",
+      "49462": "Get the small yellow building block and put it on top of the building blocks on the left",
+        "79226": "Put the yellow and blue stack of blocks on top of the yellow and green stack of blocks",
+      "421": "Put the blue-yellow building block on top of the orange building block",
+       "1903": "Take the yellow block and put it on the blue block",
+      "66772": "Put the blue building block on the right most stack of blocks"
+  }
+}

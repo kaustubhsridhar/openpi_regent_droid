@@ -1,0 +1,145 @@
+
+{
+  "place_cloth_on_table": {
+    "20480": "Take the white cloth from the black hanger and place it on the table",
+    "51732": "Put the cloth on the table",
+    "13356": "Place the cloth on the table",
+    "24137": "Put the cloth on the table",
+    "17499": "Unhang the white cloth from the black object and put it on the table",
+    "63613": "Take the cloth and put it on the table",
+    "7809": "Put the cloth on the table",
+    "29836": "Pick up the white cloth and put it on the table",
+    "37029": "Unhang the cloth and put it on the table",
+    "60589": "Take the cloth on the stand and put it on the table",
+    "26308": "Take the white cloth off the stand and place it on the table",
+    "20681": "Put the cloth on the table",
+    "8947": "Take the cloth down and place it on the table",
+    "66878": "Take the cloth off the stand and put it on the table",
+    "59218": "Take the cloth off the black stand and put it on the table",
+    "83798": "Take the cloth on the object and put it on the table",
+    "90458": "Take the cloth off the stand and put it on the table",
+    "58214": "Put the cloth on the table",
+    "1409": "Drop the cloth from the stand onto the table",
+    "32174": "Unhang the cloth and put it on the table",
+    "59321": "Pick the cloth on the object and put it on the table",
+    "14267": "Put the cloth on the table",
+    "88009": "Take the white cloth off the black stand and put it on the table",
+    "20940": "Unhang the white cloth from the black stand and put it on the table",
+    "64977": "Unhang the cloth and put it on the table",
+    "17378": "Put the cloth on the table",
+    "35832": "Unhang the cloth and put it on the table",
+     "85778": "Take the white cloth from the black hanger and place it on the table"
+
+  },
+  "hang_cloth_on_stand": {
+    "39950": "Hang up the white cloth on the stand",
+    "75280": "Hang the white cloth on the black stand",
+    "50720": "Pick up the white cloth and put it on the black stand",
+    "35384": "Hang the cloth on the black stand",
+    "46667": "Hang the white cloth on the black stand",
+    "65640": "Hang the white towel on the black stand",
+    "66664": "Hang the white cloth on the black frame",
+    "19072": "Hang the white cloth on the black frame",
+    "26815": "Hang the white cloth on the black stand",
+     "52940": "Pick the cloth on the table and put it on the black stand",
+    "46297": "Hang the cloth on the black stand",
+    "29409": "Put the cloth on the stand",
+    "77574": "Hang the white and green cloth on the black stand",
+    "53561": "Hang the white cloth on the extended black object, take it down, and hang it again",
+    "6973": "Hang the white cloth on the black object",
+     "94033": "Hang the white cloth on the black stand",
+    "46928": "Take the cloth from the table, hang it on the black stand, drop it from the stand, then pick it up and hang it on the stand",
+    "87029": "Hang the white cloth on the black stand",
+    "10231": "Get the kitchen towel from the table and place it on the black stand",
+    "35313": "Hang the cloth on the black stand",
+    "20860": "Pick up the cloth from the table and hang it on the black stand",
+      "70437": "Put the white cloth on the black stand",
+      "32958": "Hang the cloth on the stand",
+      "95078": "Hang the white cloth on the black stand",
+    "39903": "Hang the white cloth on the black stand",
+     "10148": "Hang the white cloth on the black stand",
+        "21418": "Hang the white cloth on the stand"
+
+  },
+  "remove_cloth_from_stand": {
+    "55309": "Remove the white cloth from the black stand",
+    "34958": "Remove the white cloth from the black stand",
+    "6259": "Remove the cloth from the black frame",
+     "76508": "Unhang the white cloth from the black stand",
+    "65777": "Remove the white cloth from the black stand",
+        "18343": "Remove the white cloth from the black stand",
+         "428": "Remove the white cloth from the black stand",
+    "22449": "Remove the white cloth from the black stand",
+       "20438": "Remove the white cloth from the black stand",
+    "17907": "Remove the white cloth from the black stand",
+    "30707": "Remove the white cloth from the black stand",
+    "57722": "Remove the white cloth from the black stand",
+     "17182": "Unhang the white cloth from the black frame",
+      "61226": "Unhang the white cloth from the black stand",
+    "59200": "Unhang the white cloth from the black stand",
+        "66416": "Unhang the white cloth from the stand",
+    "20307": "Unhang the cloth from the stand",
+    "3974": "Unhang the cloth from the stand"
+
+  },
+   "place_towel_on_table":{
+        "71259": "Put the towel on the table",
+       "6847": "Pick up the white towel from the tripod and put it on the table.",
+    "13504": "Move the white towel from the black hanger and place it on the table",
+       "30913": "Move the white towel from the metallic object and put it on the table",
+        "83144": "Remove the towel from the rack and put it on the table.",
+        "46290": "Pick up the towel hanged from the metallic object and put it on the table",
+       "18155": "Remove the towel from the bar and put it on the table",
+     "19855": "Take the towel and place it on the table",
+    "70593": "Put the towel on the table",
+   "72037": "Pick up the towel and put it on the table",
+     "11540": "Remove the kitchen towel from the black object and place it on the table"
+
+   },
+   "put_cloth_on_rod":{
+       "60547": "Put the cloth on the black rod",
+       "46828": "Put the cloth on the black rod",
+       "60223": "Put the cloth on the black rod",
+        "85492": "Put the cloth on the black rod",
+       "48580": "Put the cloth on the black rod"
+
+   },
+
+    "hang_general":{
+       "3463": "Hang the cloth",
+      "44330": "Hang the cloth on the stand",
+       "39719": "Hang the cloth on the stand",
+       "20282": "Hang the cloth on the stand",
+        "9564": "Hang the cloth on the stand",
+    "65891": "Hang the cloth on the stand",
+     "41372": "Hang the cloth on the stand",
+    "48031": "Hang the cloth on the stand",
+      "37294": "Hang the cloth on the stand",
+      "48576": "Hang the cloth on the stand",
+        "48583": "Hang the cloth on the stand",
+       "47567": "Hang the cloth on the stand",
+        "8142": "Hang the cloth on the object",
+      "43268": "Pick the cloth and hang it on the object"
+   },
+      "pick_towel_put_tripod": {
+        "48136": "Pick up the towel from the table and put it on the black tripod",
+          "4763": "Pick up the towel from the table and put it on the tripod.",
+        "39655": "Pick up the white towel from the table and put it on the black tripod"
+
+    },
+      "put_towel_on_rack":{
+      "79403": "Put the towel on the rack.",
+      "58989": "Hang the towel on the rack on the table",
+       "20949": "Put the towel on the rack on the table"
+      },
+     "hang_towel_black_object":{
+        "30411": "Hang the towel on top of the black thing on the table",
+        "54072": "Hang the towel on the black clamp stand on the table",
+        "40163": "Put the towel on the black thing on top of the table"
+
+     },
+     "pick_cloth_put_tripod":{
+        "82549": "Pick up the cloth from the table and put it on the tripod.",
+       "74737": "Pick up the cloth from the table and put it on on the tripod."
+     }
+}

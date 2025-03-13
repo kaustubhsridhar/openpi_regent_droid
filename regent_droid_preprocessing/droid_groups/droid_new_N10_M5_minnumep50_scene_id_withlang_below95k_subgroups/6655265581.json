@@ -1,0 +1,141 @@
+
+{
+    "stack_blue_cups": {
+        "26626": "Stack all the blue cups on the kitchen counter together, pick up the stacked blue cups and put them on the bottom shelf of the top open cabinet",
+        "74321": "Stack all the blue cups on the kitchen counter together, pick up the blue stacked cups and place them upside down on the bottom shelf of the open cabinet",
+        "14295": "Stack all the blue cups together, flip the stacked blue cups and place them upside down on the kitchen counter"
+    },
+    "pour_water_from_blue_cup_into_pot": {
+        "82444": "Pour the water out of the blue cup into the larger pot then whisk it",
+        "24620": "Pour the content in the light blue cup into the pot on the right plate and pick up the yellow cube and put it in the pot on the left plate",
+        "21432": "Pour the water from the blue cup into the larger pot then put the yellow block in the same pot"
+
+    },
+   "put_lid_on_pot": {
+        "69937": "Put the lid on the pot",
+        "48273": "Remove the small pot from the other pot, put it on the bottom right stove plate and then put the lid on the pot on the right",
+        "72529": "Move the open pot to the back right plate of the stove then place the lid on it",
+        "56733": "Pick up the silver pot lid with the blue cloth and put it on the silver pot on the bottom left side of the stove"
+    },
+
+    "pour_liquid_from_cup_into_pots": {
+        "90730": "Pour the liquid from the cup into the two pots then put the silver lid on the big silver pot.",
+        "82199": "Pour some water from the cup into both pots"
+    },
+    "pour_water_from_pot_to_pot": {
+        "94837": "Pour the liquid from the silver pot on the right into the silver pot on the left.",
+        "84849": "Pour the liquid from the silver pot on the right into the pot on the left."
+    },
+    "put_blue_bowl_on_dish_rack": {
+        "70658": "Pick up the blue bowl and put it on the dish rack",
+        "76345": "Pick up the silver fork and silver spoon together from the blue bowl and put them in the dish rack, pick up the blue bowl from the sink and put it in the dish rack",
+       "6129": "Pick up the blue bowl from the sink and put it in the silver dish rack",
+        "1899": "Pick up the blue bowl and pour out all the water into the sink, put the blue bowl on the dish rack"
+    },
+    "put_bowl_in_sink": {
+       "82279": "Remove the cup from the bowl, then put the bowl in the sink"
+    },
+    "move_pot_backward": {
+        "10842": "Use the blue fabric to place the silver lid on the stove then move the pot on the left backwards",
+        "8531": "Use the blue paper towel to move the right pot backwards",
+        "74214": "Move the lid from the pot on the right front to the pot on the left back of the stove, then use a blue cloth to move the pot on the right backwards"
+    },
+    "move_faucet_to_left": {
+        "69148": "Push the faucet to the left",
+        "82079": "Push the tap to the left, lift the tap handle upwards"
+   },
+    "move_faucet_to_right": {
+        "71789": "Turn the faucet to the right",
+       "18556": "Move the faucet head to the right and then open the tap",
+       "31716": "Move the tap to the right"
+
+    },
+
+    "turn_faucet_off": {
+        "94248": "Turn the faucet off",
+        "92282": "Turn the faucet off",
+        "46006": "Close the tap",
+        "83426": "Close the tap"
+
+    },
+
+    "put_cup_in_cabinet_upside_down":{
+        "75920": "Pick up the cup at the front of the counter and place it upside down on the bottom shelf of the open upper cabinet",
+        "50044": "Turn the cup close to the edge upside down, then put it in the cabinet"
+    },
+     "put_cup_in_top_cabinet": {
+        "39715": "Put the blue cup in the top cabinet"
+    },
+     "put_cup_on_bottom_shelf_of_top_cabinet": {
+        "63577": "Pick up the light blue cup and put it in the bottom shelf of the top wall cabinet"
+    },
+
+    "push_faucet_handle_upwards": {
+        "43089": "Push the faucet to the center of the sink then push the faucet handle upwards.",
+        "70471": "Push the faucet handle upwards then push the faucet to the right, place the cup at the front of the counter under the running faucet then put it back on the counter",
+         "4430": "Push the faucet to the right then push the faucet handle upwards"
+
+    },
+     "push_faucet_handle_downwards": {
+        "2141": "Pick up the gray cup from the sink and put it on the kitchen counter, push the tap handle downwards",
+        "12401": "Push the faucet handle downwards"
+
+    },
+   "stack_grey_cups": {
+        "36350": "Stack up the three grey cups and then turn them over"
+   },
+    "place_utensils_in_drying_rack": {
+        "90656": "Move the spoon to the right compartment of the utensil drying rack, move the green knife to the middle compartment and then move the fork to the right compartment",
+        "94011": "Place the fork in the right compartment, the spoon in the left compartment and the knife in the middle compartment"
+    },
+   "move_pot_to_left": {
+        "22677": "Use the towel to move the pot on the right to the left front plate"
+   },
+  "place_towel_on_oven_handle": {
+    "49194": "Pick up the kitchen towel and hang it on the oven door handle",
+      "86401": "Hang the floral cloth on the handle of the oven"
+  },
+    "put_bottle_upright": {
+        "674": "Put the soap bottle upright",
+         "14826": "Put the bottle upright",
+         "69579": "Put the bottle on the window seal upright"
+
+    },
+      "put_kettle_on_burner": {
+        "44657": "Put the transparent kettle on the stove",
+        "54745": "put the transparent kettle on the stove"
+
+    },
+     "pour_water_in_sink": {
+         "36650": "Put the blue bowl under the running water, pour the water in the sink, put the blue bowl under the running water again, pour the water in the sink and then put the bowl back on the counter",
+         "86885": "Put the blue bowl under the running water and pour out its contents into the sink twice and then put the bowl back on the sink"
+
+     },
+     "pour_water_from_blue_bowl": {
+        "14048": "Slide the blue bowl to the left side of the sink, pick up the blue bowl and pour out all the water in it into the sink, put the blue bowl back in the sink",
+        "1899": "Pick up the blue bowl and pour out all the water into the sink, put the blue bowl on the dish rack",
+        "68597": "Pour the liquid from the blue bowl into the sink"
+     },
+      "unstack_cups": {
+        "49873": "Unstack the cups and empty the bottom cup then restack them",
+        "17171": "Unstack the cups on the plate rack"
+
+      },
+       "move_cup_to_shelf_above": {
+        "43340": "Move the cup to the shelf above it"
+       },
+         "pour_water_out_of_cup": {
+            "86887": "Pour the water out of the blue cup"
+         },
+        "move_cup_from_top_shelf_to_bottom_shelf": {
+          "94324": "Move the cup from the top shelf to the bottom shelf"
+        },
+         "place_bowl_upright_on_dish_rack":{
+            "16710": "Position the bowl upright on the dish rack"
+         },
+
+    "put_paper_towel_on_holder": {
+         "31744": "Put the paper towel on the paper towel holder",
+         "89950": "Place the paper towel roll on its holder"
+    }
+}

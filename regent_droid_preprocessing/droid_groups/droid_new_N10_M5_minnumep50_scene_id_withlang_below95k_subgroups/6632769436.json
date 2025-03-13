@@ -1,0 +1,59 @@
+
+{
+    "Wipe Table": {
+        "74625": "Pick up the napkin and wipe the table",
+        "14469": "Use the paper towel to wipe the table",
+        "7447": "Use the white paper towel to wipe the table.",
+        "93846": "Use the white napkin to wipe the table.",
+        "68346": "Use the napkin to wipe the table",
+        "46316": "Use the white napkin to wipe the table.",
+        "54015": "Use the napkin to wipe the table"
+    },
+    "Move Object Forward": {
+        "74389": "Move the green ball forward",
+        "10435": "Move the toy car forward",
+        "19498": "Push the car towards you",
+        "49398": "Move the black clamp forwards."
+    },
+    "Move Object Backward": {
+        "13818": "Move the car toy slightly backward on the table",
+        "6099": "Move the clear cup to the back of the table."
+    },
+    "Put Object in Clear Cup": {
+        "13968": "Put the wooden block in the clear cup.",
+        "66081": "Put the tennis ball in the clear cup.",
+        "83176": "Put the marker in the plastic cup",
+        "760": "Put the marker inside the clear cup"
+    },
+      "Move Object to the Left": {
+        "14887": "Move the clear cup to the left.",
+        "40378": "Move the clear cup to the left.",
+        "62568": "Move the clear plastic to the left.",
+        "56659": "Move the ball to the left"
+    },
+    "Move Object to the Right": {
+        "9360": "Move the tennis ball to the right side of the toy car",
+        "9122": "Move the car toy to the right",
+        "22237": "Move the green ball to the right",
+        "89198": "Pick up the cup and move it to the right"
+    },
+      "Remove Object From Clear Cup":{
+        "81059": "Remove the tennis ball from the clear cup.",
+        "89613": "Take the yellow bowl out of the clear cup."
+      },
+    "Put Green Ball in Yellow Bowl":{
+        "31981": "Put the green ball in the yellow bowl."
+    },
+     "Wipe Counter": {
+        "42044": "Use the towel to wipe the counter",
+        "46926": "Wipe the counter"
+    },
+    "Manipulate Cup":{
+        "42767": "Put the cup upside down",
+        "93810": "Lay down the cup"
+    },
+     "Move Car Toy":{
+        "46471": "Move the car toy"
+     }
+}
+

@@ -1,0 +1,119 @@
+
+{
+    "purple_object_to_plate": {
+        "66051": "Pick up the purple plush toy and place it on the plate",
+        "66587": "Pick the purple object and put it on the plate",
+        "58968": "Put the purple toy on the white plate",
+        "50777": "Put the purple plushy on the black plate",
+        "22638": "Put the purple plushy on the cream colored plate",
+        "15472": "Put the purple object in the cream white plate",
+        "80506": "Put the purple plushy on the white plate",
+        "93316": "Put the purple plushy on the cream plate",
+        "10388": "Pick up the purple plush toy and put it on the plate",
+        "25237": "Put the purple plushy on the white plate",
+        "28849": "Put the purple object inside the plate",
+        "70870": "Put the purple object into the white plate",
+        "90849": "Put the purple plushy on the cream plate",
+        "15085": "Put the purple object on the plate.",
+        "82696": "Put the purple plush toy on the beige plate",
+        "25375": "Pick up the purple plush toy and put it on the plate",
+        "64847": "Put the purple plush toy onto the plate",
+        "4435": "Put the purple object into the plate",
+        "82773": "Put the purple plush toy on the white plate",
+        "6494": "Put the purple plushie on the white plate",
+        "81761": "Put the purple plush toy on the white plate",
+        "53611": "Shift the purple toy to the white plate",
+        "75141": "Put the purple ball in the cream white plate",
+        "40351": "Put the purple plush toy in the white plate",
+        "68028": "Put the purple plush toy on the plate",
+        "52539": "Put the purple plush toy inside the white plate",
+        "14673": "Put the purple plushie on the white plate",
+        "54235": "Put the purple object on the cream white plate",
+        "47334": "Put the purple plushy on the white plate"
+    },
+    "purple_object_to_bowl": {
+        "61960": "Put the purple plushy in the bowl",
+        "10": "Put the purple plush toy in the white bowl.",
+        "34316": "Pick up the purple plush toy and put it on the bowl",
+        "3612": "Put the purple plush toy on the white bowl",
+        "44160": "Place the purple plush toy in the white bowl",
+        "16552": "Put the purple plushie on the white bowl",
+        "51896": "Put the purple object in the cream white bowl",
+        "38545": "Pick the purple object and put it in the bowl",
+        "44296": "Put the purple plush toy on the white bowl",
+        "1801": "Put the purple object inside the bowl",
+        "77602": "Pick up the purple toy and put it in the bowl.",
+        "3884": "Put the purple plush toy in the white bowl.",
+        "40756": "Put the purple plushie in the white bowl",
+        "1360": "Pick the purple object and put it in the bowl",
+        "14157": "Put the purple plush toy on the bowl",
+        "75129": "Put the purple plushie in the white bowl",
+        "11153": "Put the purple plushie in the white bowl",
+        "60317": "Put the purple plushie on the white bowl",
+        "12716": "Put the purple object in the bowl",
+        "47025": "Put the purple toy in the white bowl",
+       "18902": "Put the purple plushy in the cream bowl",
+        "16191": "Put the purple plushie in the white bowl",
+        "56537": "Pick up the purple object and put it in the bowl",
+         "35753": "Put the purple ball inside the bowl"
+
+    },
+    "purple_object_to_table": {
+       "43527": "Move the purple object from the plate to the table",
+       "83047": "Pick up the purple plushy and put it on the table",
+        "75886": "Pick the purple object and put it on the table",
+        "93439": "Put the purple plushie on the table",
+        "38671": "Put the purple plushie on the table",
+        "36131": "Put the purple plushy on the table",
+        "50112": "Put the purple plushy on the table",
+        "42975": "Put the purple plush toy onto the table",
+        "53745": "Put the purple plushie on the table"
+    },
+     "purple_object_from_plate_to_table":{
+        "25122": "Pick up the purple plush toy from the bowl and put it on the table",
+        "67660": "Remove the purple plushy from the plate and put it on the table",
+         "25718": "Pick the purple object on the plate and put it on the table",
+         "25288": "Pick up the purple plush toy from the plate and put it on the table",
+        "22416": "Pick up the purple plush toy from the plate and put it on the table",
+        "79254": "Pick the purple object on the plate and put it on the table"
+
+     },
+    "purple_object_from_bowl_to_table": {
+        "56470": "Pick up the purple toy from the bowl and put it on the table.",
+        "39064": "Pick up the purple object from the bowl and put it on the table",
+       "18688": "Pick the purple object in the bowl and put it on the table",
+       "50436": "Remove the purple object from the bowl and put it on the table",
+       "84278": "Pick the purple object in the bowl and put it on the table",
+        "70958": "Remove the plush toy from the white bowl and place it on the table",
+       "71090": "Take the purple object in the bowl and put it on the table",
+        "15771": "Pick up the purple toy from the bowl and put it on the table"
+
+    },
+
+    "purple_object_from_table_to_plate": {
+        "5310": "Pick up the purple plush toy from the table and put it on the plate",
+        "14547": "Pick up the eggplant plush toy from the table and put it on the plate",
+        "94435": "Pick up the purple plush toy from the table and put it on the plate",
+        "3332": "Pick up the purple toy from the table and put it in the plate.",
+        "56304": "Pick up the purple plush toy on the table and put it on the plate"
+     },
+    "purple_object_from_table_to_bowl":{
+        "28277": "Pick up the purple toy from the table and put it in the bowl.",
+        "44901": "Pick up the purple plush toy from the table and put it on the bowl",
+        "54145": "Pick up the purple toy from the table and put it in the bowl."
+    },
+    "remove_purple_object_from_plate": {
+        "28718": "Remove the purple plush toy from the white plate",
+        "1627": "Remove the purple object from the plate.",
+        "87145": "Remove the purple object from the plate",
+        "2212": "Remove the purple plush toy from the plate"
+    },
+
+      "close_oven":{
+        "85540": "Close the toaster oven.",
+        "61991": "Close the oven door",
+        "66766": "Close the oven door",
+        "19939": "Close the oven door.",
+        "2907": "Close the toaster oven door"
+      }
+}

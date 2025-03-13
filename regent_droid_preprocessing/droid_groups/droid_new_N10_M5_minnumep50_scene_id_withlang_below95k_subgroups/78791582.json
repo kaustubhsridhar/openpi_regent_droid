@@ -1,0 +1,85 @@
+
+{
+    "open_box": {
+        "29763": "Open the box",
+        "27468": "Open the box",
+        "85846": "open the box",
+        "20715": "Open the box on the table",
+        "46040": "Fully open the small box",
+        "71151": "Open the wooden box"
+
+    },
+    "close_box": {
+        "64542": "Close the cardboard box",
+        "83097": "Close the storage box",
+        "93862": "Close the brown box.",
+        "33002": "Close the box",
+        "42958": "Close the brown box.",
+        "91990": "Close the wooden cube completely",
+         "57963": "Completely close the cube-shaped object",
+        "63092": "Close the wooden object completely"
+    },
+    "open_brown_box": {
+        "42347": "Open the brown box.",
+        "19356": "Open the brown box."
+    },
+      "press_remote_button": {
+        "5126": "Press a button on the remote control.",
+        "36938": "Press the button on the remote",
+        "16066": "Press a button on the remote",
+        "81762": "Press the center button on the remote",
+        "72085": "Press a button on the remote control.",
+        "90562": "Press a button the remote control"
+    },
+    "wipe_with_napkin": {
+        "4127": "Use a napkin to wipe the table top",
+        "95647": "Use a napkin to wipe a spot on the right",
+        "23311": "Use the white napkin to wipe the table.",
+        "61824": "Wipe the cardboard box with the napkin",
+        "36396": "Use the tissue to wipe a spot on the right",
+        "17935": "Use the napkin to wipe the shape sorter"
+
+    },
+     "wipe_with_paper_towel": {
+        "21732": "Wipe the table with the paper towel",
+        "35881": "Use the paper towel to clean the remote",
+        "2880": "Use paper towel to wipe the remote",
+        "16643": "Clean the remote with a paper towel"
+    },
+
+    "put_foam_in_box": {
+        "44045": "Take the packing foam out of the cardboard box",
+        "89093": "Take the packing foam out of the cardboard box",
+        "85404": "Put the packing foam into the cardboard box",
+         "13062": "Put the white foam in the cardboard box, then close the lid of the box"
+    },
+   "put_block_in_box": {
+        "76291": "Put the blue block in the wooden toy box.",
+        "40349": "Put the green block in the wooden box.",
+       "60631": "Put one wooden block from the black and white bowl inside the wooden toy box.",
+       "56654": "Put one square and yellow block in the wooden toy box."
+
+    },
+     "move_remote":{
+        "9291": "Move the remote to the right slightly",
+        "73315": "Move the grey remote to the left",
+        "17799": "Move the grey remote to the right"
+     },
+    "close_lid":{
+        "7463": "Close the lid of the toy box",
+        "20335": "Close the lid of the shape sorter"
+
+    },
+     "open_lid":{
+        "6230": "Open the lid of the shape sorter",
+        "6933": "Open the lid on the cube"
+     },
+    "put_lid_on_container":{
+         "86354": "Put the white lid on the clear container.",
+         "23395": "Place the white lid on the tote"
+    },
+      "slide_lid_forward":{
+        "6207": "Slide the lid on the wooden toy box forwards.",
+        "28978": "Slide the lid on the wooden toy box forwards."
+      }
+}

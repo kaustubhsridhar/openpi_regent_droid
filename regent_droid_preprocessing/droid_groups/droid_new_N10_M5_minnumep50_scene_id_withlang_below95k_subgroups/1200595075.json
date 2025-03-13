@@ -1,0 +1,90 @@
+
+{
+    "move_forward": {
+        "17281": "Move the shoe on the right forward",
+        "64716": "Push the left side of the shoe rack  on the table forward slightly",
+        "80375": "Pick up the sneakers and move them forward on the table"
+    },
+    "place_item_on_table": {
+        "37154": "Put the trainer on the table",
+        "54307": "Place the hat on the table",
+        "76324": "Put the paper towel on top of the table",
+        "87227": "Pick up the hanging object with a net on it and put it on the table",
+        "12354": "Unhook the fishing hat from the wall hook and place it on the table using the hat adjusting string"
+    },
+     "hang_item": {
+        "37907": "Hang the hat on the hook on the left",
+        "58287": "Pick up the kitchen paper and hang it on the third black rack from the bottom",
+        "84152": "Hang the hat on the stand.",
+        "18642": "Hang the white paper on the black stand.",
+        "39641": "Hang the cleaning brush on the wire"
+
+    },
+    "place_item_on_board": {
+       "56835": "Remove the white and green brush from the wall tools hanger and put it on board on the counter top",
+        "27470": "Put the white can on the wooden boar, then put the batteries in the can",
+         "28412": "Pick up the clear lunch box and put it on the wooden board, pick up the object from the clear lunch box and put it on the table, pick up the silver bowl and put it in the clear lunch box"
+    },
+    "put_item_in_bowl":{
+        "9620": "Pick up the two batteries and put them in the silver bowl",
+        "87531": "Remove the silver bowl from the transparent lunch box , put it on the chopping board and put the brown  object in the silver bowl"
+    },
+   "stand_item_upright": {
+        "16665": "Set the green bottle upright on the table",
+        "64569": "Put the brush upright",
+        "41169": "Put the brush upright",
+       "67771": "Pick up the batteries on top of the chopping board and make them stand upright on the board"
+
+    },
+
+    "pour_contents_into_cap_or_lid": {
+        "9546": "Pour some of contents of the container into the cap",
+        "8301": "Pour some fabric softener into its lid"
+    },
+
+     "place_cap_on_container": {
+        "72679": "Place the bottle cap on the bottle",
+        "64379": "Put the white cap on the bottle on the left and then put the clear cap on the bottle on the right"
+
+     },
+      "put_item_in_bowl_2":{
+        "84403": "Take a metal object out of the plastic bowl and place it into the metal bowl then put the metal bowl into the plastic bowl",
+        "62702": "Put the metal bowl in the clear bowl"
+
+      },
+    "place_item_in_a_rack":{
+        "12036": "Place the left trainer on the middle shelf of the shoe rack",
+        "23932": "Put the glove on the bottom shelf of the black rack."
+    },
+    "use_brush":{
+        "4380": "Use the white and green brush to scrub the wooden board",
+        "82937": "Use the blue brush to sweep the top shelf of the black rack",
+        "41832": "Pick up the blue brush and use it to brush the second rail of the rack and then place it to the right side of the shoe rack when done brushing"
+
+    },
+      "put_on_top": {
+        "49843": "Pick up the lid of the detergent and put it on the drying machine",
+       "58325": "Pick up the cream hat and put it on the white cylindrical container to the left",
+       "78832": "Put the hat on the white can"
+
+    },
+     "place_batteries_on_board_vertically":{
+        "39452": "Pick up the batteries and place them standing vertically on the wooden board one by one"
+     },
+       "pick_up_and_put_brush_on_board":{
+         "10163": "Pick up the green and white brush and put it on the brown board, pick up the green and white brush and scrub the brown board, put the green and white brush on the brown board",
+        "10454": "Pick up the green and white brush and put it on the brown object on the table"
+
+       },
+
+    "flip_or_turn_item": {
+        "11910": "Flip the white lid, pick up the white lid and place it on the detergent the right way up",
+        "470": "Turn over the hat on the table",
+        "78052": "Turn the tin upside down"
+    },
+        "remove_lid_or_cap":{
+            "671": "Remove the black lid from the bottle",
+            "55458": "Take the caps off the containers"
+        }
+}
+

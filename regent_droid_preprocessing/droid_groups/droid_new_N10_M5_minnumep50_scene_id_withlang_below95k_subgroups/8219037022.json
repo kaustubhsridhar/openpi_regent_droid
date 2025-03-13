@@ -1,0 +1,60 @@
+
+{
+    "close_drawer": {
+        "18437": "Close the top drawer",
+        "55988": "Close the open drawer",
+        "44096": "Close the open drawer",
+        "9438": "Close the opened cabinet drawer",
+        "45049": "Close the open drawer",
+        "17255": "Close the drawer door"
+    },
+    "open_top_drawer": {
+        "28203": "Open the top drawer",
+        "41178": "Open the top drawer on the chest of drawers",
+        "8296": "Open the top drawer",
+        "79727": "Open the top drawer",
+        "81394": "Open the top drawer"
+    },
+    "turn_off_light_switch": {
+        "70017": "Switch off the light switch",
+        "58312": "Turn the left light switch off",
+        "62800": "Switch off the light switch",
+        "82409": "Turn off the light switch",
+        "40048": "Turn the left light switch off"
+    },
+    "open_second_drawer": {
+        "55362": "Open the second the drawer from the top on the cabinet",
+        "51811": "Open the second drawer from the top"
+    },
+    "close_top_drawer_after_interaction": {
+        "60938": "Pull open the top drawer on the chest of drawers, put the maroon cap into the drawer, push the top drawer closed",
+        "14227": "Open the topmost drawer and remove the maroon cap and place it on the shelf above the drawer then close the drawer.",
+        "72736": "Put the small white drawer in the top drawer and then close the drawer",
+        "58791": "Open the top drawer on the chest of drawers, pick up the red head sock and put it on the first shelf from the bottom, close the top drawer",
+        "89767": "Slide the black and gray pencil case into the open drawer, close the open drawer",
+        "32337": "Open the top drawer, then put the orange head sock inside and close the drawer",
+        "24931": "Put the grey and black bag in the open drawer then close the drawer"
+
+    },
+     "open_drawer_take_out_item": {
+        "90934": "Open the drawer and take the book out"
+     },
+    "put_item_in_open_drawer":{
+        "90262": "Open the drawer and put the cap into it",
+        "22968": "Pick up the chain with a pink band and put it in the open drawer"
+    },
+    "open_fridge_door":{
+        "30518": "Open the right fridge door",
+        "35582": "Open the top right refrigerator door"
+
+    },
+     "close_fridge_door": {
+        "15342": "Close the top right refrigerator door"
+    },
+    "remove_green_bottle_from_fridge":{
+       "10321": "Take the green bottle out of the refrigerator door",
+       "54737": "Remove the green bottle from the shelf on the fridge door",
+       "40952": "Remove the green bottle from the fridge"
+    }
+}
+

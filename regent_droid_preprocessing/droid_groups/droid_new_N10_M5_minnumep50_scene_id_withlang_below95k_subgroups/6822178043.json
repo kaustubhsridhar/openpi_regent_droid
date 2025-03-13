@@ -1,0 +1,58 @@
+
+{
+    "move_to_right": {
+        "90257": "Move the black ribbon to the right",
+        "87675": "Move the black cloth to the right",
+        "34082": "Move the gloves to the right",
+        "57017": "Move the purse to the right",
+        "91593": "Move the yellow sachet to the right",
+        "11728": "Move the yellow object to the right",
+        "38994": "Move the object to the right"
+    },
+    "move_to_left": {
+        "78898": "Move the Tubes and the brown object from the right to the left",
+        "29502": "Move the white and brown toy to the left side of the desk",
+        "64707": "Pick the stuffed animal and move it to the left on the desk",
+        "73308": "Move both tubes to the left",
+        "38391": "Move the glove to the left"
+
+    },
+    "put_in_drawer": {
+        "49025": "Put the yellow object in the open drawer",
+        "66316": "Place the yellow packet in the drawer",
+        "36624": "Pick up the black object and put it in the open drawer.",
+        "26141": "Put the pair of socks in the drawer",
+        "16432": "Put the black object on the table top into the drawer",
+        "60865": "Put the plush toy in the drawer",
+        "47684": "Put the plush toy inside the open drawer",
+        "76625": "Put the black thing and the packet in the drawer on the table",
+        "30936": "Pick up the small tube and put it on the drawer",
+        "29425": "Put the white tube in the drawer",
+        "61556": "Pick the pair of gloves on the desk and put them in the drawer",
+        "26109": "Place the black purse in the drawer"
+    },
+    "close_drawer": {
+        "18871": "Close the drawer on the right",
+        "72692": "Close the first top drawer"
+    },
+    "move_away_from_computer":{
+        "41237": "Take the stuffed toy away from the computer and put it on the table",
+        "91367": "Move the stuffed toy away from the computer"
+    },
+    "move_object_from_sliding_tray_to_x":{
+        "40206": "Move the orange packet from the table top to the sliding tray",
+        "21665": "Move the orange packet from the sliding tray to the computer monitor base",
+        "31969": "Move the black case from the sliding tray to the table top"
+    },
+    "move_x_to_left_side_of_desk":{
+           "12450": "Move the black glove on the right to the left side of the desk",
+           "48799": "Move the green packet and black bag from the sliding tray to the left side of the table",
+           "13005": "Place the set of socks in the left side of the desk",
+           "83834": "Move the purple cloth to the left side of the desk then move the papers to the left side as well",
+            "42337": "Put the black object on the left side of the table"
+    },
+      "move_x_to_right_side_of_desk":{
+          "35718": "Move the plush toy and one white tube to the right side of the desk",
+           "10968": "Take the brown plush toy from the monitor and place it on the right side of the desk"
+      }
+}

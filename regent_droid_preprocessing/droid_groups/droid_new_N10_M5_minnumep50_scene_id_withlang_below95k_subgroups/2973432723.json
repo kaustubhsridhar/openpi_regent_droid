@@ -1,0 +1,89 @@
+
+{
+    "move_faucet_left": {
+        "47875": "Move the faucet spout to the left and close the tap",
+        "61191": "Move the faucet to the left, push the faucet handle down then to the right",
+        "2826": "Slide the spout to the left",
+        "2059": "Move the faucet to the left",
+        "41229": "Move the spout to the left and close the tap",
+        "89104": "Push the faucet to the left",
+        "13593": "Slide the spout to the left",
+        "78626": "Move the faucet spout to the left",
+        "15404": "Push the faucet of the sink to the left and close the tap.",
+        "43564": "Slide the spout to the left, then close the faucet",
+        "88769": "Move the faucet to the left and push the handle upwards",
+        "4318": "Push the faucet to the left",
+        "80479": "Push the faucet to the left"
+    },
+    "move_faucet_right": {
+        "65923": "Move the faucet to the right",
+        "57607": "Push the faucet to the right",
+        "13200": "Push the faucet to the right",
+        "78388": "Push the faucet to the right",
+        "39094": "Push the faucet of the sink to the right.",
+        "25173": "Push the faucet handle downward, push the faucet to the right",
+        "55895": "Move the tap to the right",
+        "78531": "Move the faucet tap to the right then close it",
+        "18766": "Move the faucet handle to the right"
+
+    },
+    "turn_tap_nozzle_right": {
+        "40606": "Move the tap nozzle to the right",
+        "84543": "Turn the tap nozzle to the right then pull up the tap lever",
+         "73468": "Move the faucet nozzle to the right and push the faucet handle down"
+    },
+    "turn_tap_nozzle_left":{
+        "49482": "Move the tap nozzle from right to left",
+        "83684": "Move the nozzle from right to left",
+        "4478": "Move the nozzle from right to left then close the faucet.",
+        "21242": "Turn the tap nozzle to the left and the tap handle to the right",
+        "3180": "Turn the tap nozzle to the left then move the tap handle up and down"
+    },
+    "turn_tap_nozzle_middle": {
+        "60165": "Turn the tap nozzle from the right to the middle then lift the tap handle",
+        "27967": "Turn the tap nozzle from the left to the middle",
+        "82501": "Turn the tap nozzle from the left to the middle",
+        "51812": "Turn the tap nozzle from the left to the middle then lift up the tap handle",
+        "6899": "Turn the tap nozzle from the right to the middle then open the tap"
+    },
+     "move_faucet_center": {
+        "63048": "Slide the tap to the center of the sink and press down the  tap handle",
+        "78554": "Push the faucet to the center of the sink, push the faucet handle upwards",
+        "45407": "Push the faucet to the center of the sink",
+        "60017": "Slide the spout to the center"
+    },
+    "open_tap": {
+        "42637": "Open the tap",
+        "13277": "Open the tap"
+    },
+      "push_faucet_handle_down":{
+        "93780": "Push the faucet handle downwards",
+        "28067": "Move the faucet handle to the left and push the faucet handle downwards"
+    },
+    "turn_faucet_right":{
+       "49392": "Turn the faucet to the right",
+       "32635": "Turn the faucet fully to the right"
+    },
+    "turn_faucet_left_lift_handle":{
+        "78739": "Turn the faucet to the left and then lift the handle"
+    },
+   "lift_tap_handle_and_rotate_spout":{
+        "65129": "Push the faucet up and rotate the spout from left to the middle"
+   },
+    "close_tap_move_spout_right":{
+        "37231": "Close the tap and move the spout to the right"
+    },
+      "turn_tap_handle_up":{
+        "55936": "Turn the tap handle up"
+    },
+       "open_tap_nozzle_left_push_handle_down": {
+            "8490": "Open the tap nozzle to the left then push the tap handle down"
+       },
+    "push_faucet_right_handle_up":{
+        "24367": "Push the faucet to the right and the faucet handle upwards"
+    },
+    "no_action": {
+        "38098": "No action"
+    }
+}
+

@@ -1,0 +1,368 @@
+
+{
+    "close_lid_clear_container": {
+        "45276": "Close the lid on the clear container",
+        "88279": "Close the clear container",
+        "51433": "Close the lid of the clear container",
+        "94450": "Close the lid on the clear container",
+        "76189": "Close the lid of the clear container",
+        "15362": "Close the lid on the clear container",
+        "70468": "Close the lid on the clear container",
+        "42447": "Close the lid on the clear container",
+        "63042": "Close the lid on the clear container",
+        "32543": "Close the lid of the clear container",
+        "85780": "Close the lid on the clear container",
+        "59920": "Close the clear container",
+        "12875": "Close the clear container",
+       "30024": "Close the clear container",
+       "11952": "Close the clear container",
+         "56391": "Close the clear container",
+        "48234": "Close the clear container"
+
+    },
+    "turn_off_extension_cord": {
+        "75918": "Turn off the switch of the extension cord",
+        "8366": "Switch off the extension cord",
+        "18608": "Turn off the first switch on the extension cord",
+        "57572": "Turn off the extension cable",
+        "26846": "Turn off the white extension cable",
+        "33104": "Turn off the extension cable",
+        "27028": "Switch off the extension cord",
+        "16944": "Turn off the extension cord",
+        "47677": "Switch off the extension cord",
+        "62114": "Switch off the extension cord",
+        "68331": "Turn off the extension cord switch",
+        "54037": "Switch off the extension cable",
+        "4898": "Turn off the switch on the extension cord",
+        "60267": "Turn off the switch on the extension cord",
+        "39789": "Turn off the extension cable",
+        "17520": "Turn off the first switch on the extension cord",
+        "9679": "Turn off the extension cord",
+        "62937": "Turn off the white extension cable",
+        "60470": "Turn off the extension cord switch",
+        "63362": "Turn off the extension cord switch",
+         "95507": "Turn off the extension cable",
+        "19899": "Turn off the extension cable",
+        "31467": "Switch off the extension cable",
+        "21522": "Switch off the extension cord",
+        "9033": "Switch off the extension cord",
+        "67356": "Turn off the extension cable",
+        "40097": "Turn off the switch on the extension cord",
+        "54043": "Flick off the switch on the extension cord"
+
+    },
+    "turn_on_extension_cord":{
+        "16558": "Turn on the white extension cable",
+        "59645": "Turn on the extension cable",
+        "74008": "Turn on the switch of the extension cord",
+        "68196": "Turn on the switch of the extension cord",
+        "37490": "Switch on the extension cord",
+        "47862": "Turn on the switch of the extension cord",
+        "84739": "Switch on the extension cord",
+      "24441": "Turn on the extension cord switch",
+        "77735": "Turn on the extension cable",
+        "89814": "Turn on the extension cable",
+      "48898": "Turn on the extension cable",
+      "82774": "Turn on the extension cable",
+        "77150": "Switch on the extension cord",
+         "50400": "Turn on the extension cord",
+        "86756": "Turn on the extension cable"
+
+    },
+
+    "turn_on_adapter": {
+        "81938": "Turn on the big switch on the adapter",
+        "28692": "Turn on the big switch on the adapter",
+        "55346": "Turn on the adapter switch",
+        "57456": "Turn on the switch on the adapter",
+        "78034": "Turn on the big switch on the adapter",
+        "14609": "Turn on the main adapter switch",
+        "55586": "Turn on the switch on the adapter",
+        "31023": "Switch on the main adapter switch",
+         "43927": "Turn on the switch of the adapter",
+        "80799": "Turn on the main adapter switch",
+        "89020": "Turn on the switch on the adapter",
+        "71117": "Turn on the switch on the adapter",
+        "34294": "Turn on the main switch on the adapter",
+        "26415": "Turn on the switch on the adapter",
+      "63367": "Turn on the main adapter switch",
+        "74381": "Turn on the adapter",
+      "88053": "Turn on the switch on the adapter",
+      "15347": "Switch on the adapter"
+    },
+    "turn_off_adapter": {
+       "77929": "Turn off the big switch on the adapter",
+        "29093": "Turn off the switch on the adapter",
+        "12778": "Turn off the switch of the adapter",
+        "57013": "Turn off the switch of the adapter",
+        "13048": "Turn off the big switch on the adapter",
+        "5736": "Turn off the adapter switch",
+        "7829": "Turn off the switch on the adapter",
+        "60429": "Turn off the switch on the adapter",
+      "49085": "Turn off the main adapter switch",
+        "68922": "Turn off the adapter",
+       "12174": "Turn off the adapter",
+        "64489": "Switch off the adapter",
+       "38056": "Turn off the switch on the adapter"
+
+    },
+     "close_the_box": {
+        "63550": "Open the box",
+        "92295": "Close the box",
+        "8362": "Close the box",
+         "35355": "Close the box",
+        "39487": "Close the box",
+        "62067": "Close the box"
+     },
+
+    "open_clear_container": {
+        "76008": "Open the lid of the clear container",
+        "57676": "Open the clear container on the left, close the container",
+        "31538": "Open the clear container",
+        "25155": "Open the clear container, remove one of the bottles that are inside it, and then put the bottle on the table",
+       "58444": "Open the clear container and put the thing on the table in it",
+      "50332": "Open the clear container",
+        "62275": "Open the clear container, put the bottle on the table inside the clear container"
+
+    },
+      "close_bowl_lid": {
+        "43022": "Close the lid of the bowl",
+        "49376": "Close the lid of the bowl",
+         "27174": "Close the lid of the bowl",
+        "35902": "Close the lid of the bowl",
+        "18026": "Close the lid of the bowl",
+        "92073": "Close the lid of the bowl",
+        "62031": "Close the lid of the bowl"
+
+      },
+    "open_bowl_lid":{
+        "80164": "Open the lid of the bowl",
+        "92709": "Open the lid of the clear bowl",
+        "19786": "Open the lid of the clear bowl",
+         "37933": "Open the lid on the colorless bowl",
+        "76732": "Open the lid of the clear bowl",
+         "60822": "Open the lid to the clear bowl"
+
+    },
+     "close_colorless_bowl_lid":{
+        "1435": "Close the lid of the colourless bowl",
+        "1586": "Close the lid of the colourless bowl",
+        "36026": "Close the load of the colourless bowl",
+        "67121": "Close the lid of the clear bowl",
+         "85794": "Close the lid of the clear bowl",
+        "14995": "Close the lid of the clear bowl"
+     },
+      "close_container":{
+        "69945": "Close the container",
+        "55818": "Close the container",
+        "62062": "Close the container",
+        "68715": "Close the lid of the container"
+
+      },
+    "open_container":{
+        "76103": "Open the container",
+        "61871": "Open the container",
+       "60142": "Open the lid of the container",
+        "48372": "Open the container",
+       "85208": "Open the container on the table",
+        "36853": "Open the container on the table"
+
+    },
+       "open_box":{
+        "21113": "Open the box, pick an object then place it on the purple mat",
+        "37709": "Open the box and turn off the big switch on the adapter",
+        "5068": "Open the box then turn off the big switch on the adapter"
+
+       },
+    "close_plastic_container":{
+       "61467": "Close the plastic container.",
+        "94600": "Close the plastic container.",
+       "38201": "Close the plastic container."
+    },
+     "place_bottle_on_mat":{
+        "24585": "Place a bottle on the purple mat",
+        "27241": "Place a bottle on the purple mat"
+     },
+      "put_bottle_in_container":{
+        "57878": "Put the bottle in the container",
+         "66744": "Put the bottle in the container",
+        "17790": "Place the bottle on the table in the container",
+        "11357": "Place the bottle in the clear container",
+        "35725": "Put the bottle on the table in the container",
+        "68439": "Move the bottle from the table to the container",
+        "46380": "Put the bottle on the right inside the clear container",
+        "61270": "Put the bottle on the blue mat in the container",
+        "23232": "Put the bottle close to the clear container inside it",
+        "60858": "Pick up the bottle from the table and place it inside the clear container on the left",
+        "83402": "Pick up the bottle from the placemat and put it inside the clear container on the left",
+         "34405": "Put the bottle on the table inside the clear container on the left",
+        "26414": "Put the bottle on the table inside the clear container on the right",
+        "87700": "Pick up the bottle from the table and put it in the clear container",
+        "74117": "Put a bottle from the table into the clear container"
+    },
+      "put_bottle_in_bowl":{
+        "10305": "Put one bottle in the bowl",
+        "63569": "Put the bottle in the clear bowl",
+        "6488": "Take the upright bottle and put it in the clear bowl",
+        "90578": "Pick up the bottle and put it in the bowl",
+          "91795": "Put the right bottle on the table into the colourless bowl",
+        "76729": "Take the right bottle from the table and put it in the clear bowl",
+        "46227": "Take the bottle at the left and put it in the clear bowl"
+
+      },
+     "pick_bottle_put_in_container":{
+        "75999": "Pick a bottle from the table and put it in the container",
+        "48428": "Pick a bottle from the table and put it in the container and then turn off the switch on the adapter",
+        "7594": "Pick one bottle from the table and place it inside the container",
+         "36590": "Pick up one bottle from the table and put it inside the container",
+        "40469": "Pick up one bottle from the table and place it inside the container on the left",
+        "22373": "Pick up the bottle from the table and put it in the container",
+        "2389": "Pick up the bottle from the table and place it inside the clear container"
+
+     },
+      "pick_bottle_put_in_bowl":{
+        "22754": "Take one bottle from the table and put it in the bowl",
+        "39275": "Take the bottle from the table and put it in the bowl",
+        "43550": "Take the bottle from the table and put it in the bowl",
+        "75277": "Take the bottle from table and put it in the bowl",
+       "4911": "Pick up the small bottle and put it in the bowl",
+        "13652": "Pick up a vial and put it in the bowl",
+        "80456": "Pick up the vial and put it in the transparent bowl"
+
+
+      },
+     "remove_bottle_from_container_place_on_table":{
+        "6453": "Remove one bottle from the container and put it on the left side of the table",
+        "90705": "Remove one bottle from the container and put it on the purple placemat",
+        "3381": "Remove one bottle from the container and place it on the table",
+        "32071": "Remove one bottle from the container and place it on the table",
+        "67490": "Remove one bottle from the container and place it on the table",
+        "83606": "Remove a bottle from the container and put it on the table",
+        "56754": "Pick up a bottle from the container and put it on the table",
+        "22963": "Take a bottle from the clear container and put it on the table"
+
+     },
+      "remove_bottle_from_box_place_on_mat":{
+        "82074": "Take a bottle out of the box and put it on the mat",
+        "42873": "Take a bottle out of the box and put it on the mat"
+
+      },
+     "move_bottle_container_to_table":{
+        "28728": "Move a bottle from the container to the table",
+        "61579": "Move a bottle from the container to the table",
+        "70138": "Move a bottle from the container to the table",
+        "12971": "Move a bottle from the container to the table",
+        "53768": "Pick a bottle from the container and put it on the table"
+
+     },
+        "move_bottle_container_to_mat":{
+        "10587": "Move a bottle from the container to the mat",
+        "11289": "Move a bottle from the container to the mat"
+     },
+       "move_bottle_table_to_container":{
+        "86242": "Move the bottle from the table to the clear container"
+       },
+      "remove_bottle_from_bowl_place_on_table":{
+        "56230": "Pick up the bottle from the bowl and put it on the table",
+        "38680": "Pick up the bottle from the bowl and put it on the table",
+        "36636": "Remove one bottle from the bowl and put it on the table",
+         "78901": "Take the bottle from the bowl and put it on the table"
+
+      },
+     "close_plastic_box":{
+        "7376": "Close the plastic box on the table",
+        "54504": "Close the plastic box on the table"
+     },
+     "press_power_button_extension_cord":{
+        "28785": "Press the power button on the extension cord",
+        "58881": "Press the power button on the extension cord.",
+         "41735": "Press the power button on the extension cord.",
+        "78283": "Press the power button on the extension cord.",
+         "86806": "Press the power switch on the extension cord"
+     },
+     "remove_bottle_from_clear_box":{
+        "41212": "Remove one bottle from the clear box",
+        "28938": "Remove two bottles from the clear box and put them on the table",
+        "31927": "Remove one bottle from the clear box",
+        "42193": "Remove one bottle from the clear box",
+        "44376": "Remove two bottles from the clear box",
+         "15983": "Remove one bottle from the clear box",
+        "68629": "Remove one bottle from the clear box"
+
+     },
+     "remove_bottle_from_clear_bowl_place_on_table":{
+          "27293": "Remove one bottle from the clear bowl and place it on the table",
+        "72508": "Take one bottle from the clear bowl and put it on the table",
+        "85131": "Remove one bottle from the clear bowl and put it on the table"
+     },
+     "put_bottle_in_box":{
+        "6660": "Pick the bottle on the table and put it in the box",
+        "73003": "Pick the bottle on the mat and put it in the box",
+        "52561": "Pick the bottle on the mat and put it in the box",
+        "63199": "Pick the bottle from the mat and place it in the box",
+        "80643": "Pick the small bottle and put it in the plastic box"
+     },
+     "close_box_lid":{
+        "69678": "Close the lid to the box on the table",
+        "25075": "Close the lid of the plastic storage box",
+      "3592": "Close the lid of the box on the table"
+     },
+     "open_container_lid":{
+        "45720": "Open the lid of the clear container",
+        "93609": "Open the lid of the clear container",
+        "9892": "Open the lid of the clear container",
+        "47656": "Open the lid on the clear container",
+        "9660": "Open the lid on the the clear container",
+        "74835": "Open the lid on the container, turn on the extension cable",
+        "67115": "Open the lid of the container then put the bottle on the table in the container",
+        "7225": "Open the lid of the container",
+         "61056": "Open the lid of the plastic container."
+     },
+
+       "flick_switch_extension_cord": {
+        "51351": "Flick the last switch on the extension cord, then open the plastic box on the table",
+        "64321": "Flick the last switch on the extension cord",
+        "33316": "Flick the switch on the extension cord",
+        "63984": "Turn off the last switch on the extension cord"
+
+       },
+        "close_pack_with_bottles":{
+            "53482": "Close the pack with bottles",
+            "51051": "Close the pack with bottles on the table",
+            "24095": "Close the pack containing bottles on the table"
+
+        },
+    "put_object_in_bowl":{
+       "43154": "Pick up the two objects and put them in the bowl",
+       "61917": "Pick up the object from the table and put it in the bowl",
+       "57840": "Pick up the object and place it in the bowl",
+       "13292": "Put the white object into the bowl.",
+       "35621": "Pick up the bottle, put it in the bowl and close it"
+
+    },
+    "remove_object_from_bowl_put_on_table":{
+      "59989": "Pick up the object from the bowl and put it on the table",
+      "36036": "Pick up on object from the bowl and put it on the table"
+    },
+     "open_plastic_container":{
+        "41424": "Open the plastic container on the table",
+        "41690": "Open the plastic container on the table"
+
+     },
+    "put_object_in_container":{
+        "18551": "Put one of the things on the table in the clear container",
+        "12446": "Put the white thing on the table in the clear container",
+        "38677": "Put the object in the clear container",
+        "73324": "Pick the object and put it in the container",
+        "40481": "Put the thing on the blue mat in the clear container"
+     },
+     "take_object_from_box_put_on_table":{
+        "17542": "Take the object in the plastic box and put it on the table",
+        "1977": "Take one of the object out of the box and put it on the table"
+     },
+      "take_object_out_of_container":{
+        "41773": "Remove one object from the container on the table",
+        "79667": "Remove one object from the container on the table"
+
+      }
+}

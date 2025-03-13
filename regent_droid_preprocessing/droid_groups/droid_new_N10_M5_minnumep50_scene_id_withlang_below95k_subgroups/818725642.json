@@ -1,0 +1,109 @@
+
+{
+  "remove_orange_object_from_wooden_object_and_put_on_table": {
+    "91153": "Remove the orange circle from the wooden object.",
+    "71200": "Pick up the orange object from the wooden object and put it on the table",
+    "19490": "Pick up the orange object from the wooden object and put it on the table",
+    "70746": "Pick up the second orange object to the right from the wood and put it on the table",
+    "34442": "Pick up any orange object from the wood and put it on the table",
+    "14988": "Pick up the yellow object from the wooden object and put it on the table",
+    "2203": "Pick up the orange object from the wooden object and put it on the table",
+    "71342": "Remove the orange object from the thing and put it on the table",
+    "75987": "Pick up the orange object from the wooden object and put it on the table",
+    "89345": "Pick up one orange object from the wooden object and put it on the table",
+    "34086": "Pick up the orange object from the wooden object and put it on the table",
+    "14694": "Pick up the orange object from the wooden object and put it on the table",
+    "27523": "Pick up the yellow object from the wooden object and put it on the table",
+    "79259": "Pick up one orange object from the wooden object and put it on the table",
+    "34792": "Pick up one orange object from the wooden object and put it on the table",
+    "26566": "Pick up the orange object from the wooden object and put it on the table",
+    "67512": "Pick up the orange objects and put them on the table"
+  },
+  "remove_orange_ring_from_wooden_object_and_put_on_table": {
+    "16427": "Remove one orange ring from the wooden platform",
+    "76346": "Remove the orange ring from the left side of the wooden stand",
+    "1646": "Remove one orange ring from the right side of the board and put it on the table",
+    "54402": "Remove the last ring to the right of the wooden platform",
+        "64358": "Remove one orange ring from the right side of the wooden board"
+  },
+  "remove_orange_disc_from_wooden_rack_and_put_on_table": {
+    "63081": "Remove an orange disc from the wooden rack and put it on the table",
+    "14455": "Detach an orange disc from the wooden rack and put it on the table",
+    "34069": "Detach an orange disc from the wooden rack and put it on the table",
+    "77266": "Detach two orange discs from the right end of the wooden rack and put them on the table"
+  },
+   "put_yellow_block_on_wooden_tray_compartment": {
+        "77883": "Put a yellow block from the table in the second compartment from the right of the wooden tray",
+        "32334": "Put a yellow block in the second compartment from the left of the wooden tray",
+        "63591": "Put the yellow block on the table in the first compartment from the right of the wooden tray"
+  },
+  "put_yellow_square_on_wooden_object": {
+    "2263": "Put the yellow square on the wooden object.",
+    "12579": "Put the yellow square toy on the wooden object.",
+        "26020": "Put the yellow square on the wooden object.",
+        "46582": "Pick the yellow square and put it on the wooden object",
+        "63334": "Put the square on the wooden object."
+  },
+    "put_orange_ring_on_wooden_board": {
+    "69693": "Place the orange ring on the left on the wooden board",
+        "50786": "Pick up the orange ring on the right and place it on the wooden board",
+        "52404": "Place one orange ring on the right side of the wooden board",
+        "44969": "Put the orange rings on the wooden board"
+
+  },
+   "pick_up_orange_object_from_table_and_put_on_wooden_object": {
+    "74135": "Pick up the orange object from the table and put it on the wooden object",
+        "9144": "Pick up the orange object from the table and put it on the wooden object"
+   },
+    "put_orange_circle_on_wooden_object":{
+        "88263": "Put the orange circle on the wooden object.",
+        "94442": "Stack the orange circle on the wooden object.",
+        "49048": "Put an orange circle from the wooden object.",
+        "996": "Put the orange circle onto the wooden object."
+    },
+      "pick_up_yellow_object_and_put_on_table": {
+        "71319": "Pick up the yellow and orange circles from the wooden object then put them on the table.",
+            "81217": "Unhang the yellow object from the wooden object and put it on the table"
+      },
+        "put_orange_disc_on_wooden_rack":{
+            "42573": "Pick up an orange disc from the table and put it on the second rod from the top of the wooden rack",
+            "57253": "Put an orange disc from the table onto the wooden rack",
+            "27560": "Put an orange disc on the empty rod of the wooden rack"
+        },
+        "move_object_forward":{
+            "63210": "Move the object forward near the blue box",
+            "76626": "Move the wooden object forward and then remove the orange circle."
+
+        },
+       "put_yellow_ring_on_wooden_platform": {
+
+            "20729": "Put the yellow ring on the wooden platform",
+            "29543": "Put the yellow ring on the wooden platform"
+       },
+        "pick_up_orange_ring_and_put_on_object":{
+            "87172": "Pick the orange ring and put it on the wooden object on the left of the table",
+            "47072": "Pick the orange ring and put it on the object"
+        },
+
+        "pick_up_token_from_holder_and_put_on_table":{
+            "27207": "Pick up the tokens from the holder and put them on the table.",
+            "31615": "Pick up the orange token from the holder and put it on the table.",
+            "15799": "Pick up one token from the holder and put it on the table.",
+            "6471": "Pick up the yellow tokens from the holder and put them on the table."
+        },
+    "remove_round_orange_block_from_wooden_board_and_put_on_table":{
+        "52788": "Move the round orange block from the second position from the right on the wooden board to the table",
+        "84628": "Remove one round orange object from the second position on the wooden board and put it on the table",
+        "78540": "Remove the right round orange block on the wooden board and put it on the table",
+        "65948": "Remove the round orange block from the position farthest from you on the wooden board and put it on the table",
+        "48017": "Remove the round orange blocks from the wooden board and put them on the table"
+    },
+      "pick_up_orange_circle_and_put_on_table":{
+          "73495": "Pick up an orange circle and put it on the table.",
+          "48939": "Pick up an orange circle and put it on the table."
+      },
+      "place_yellow_block_on_board":{
+          "71215": "Place the yellow square block on the board at the front of the table",
+          "77935": "Put the yellow square on the wooden board"
+      }
+}

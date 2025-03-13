@@ -1,0 +1,154 @@
+
+{
+    "place_fork_in_drying_rack": {
+        "25104": "Put the fork in the drying rack",
+        "21029": "Place the fork and one spoon in the cutlery rack",
+        "83804": "Put the fork in the drying rack",
+        "20149": "Put the fork inside the drying rack",
+        "56283": "Put one fork inside the drying rack"
+    },
+    "place_spoon_in_drying_rack": {
+        "22051": "Put one spoon in the dish rack",
+        "30289": "Pick up the pink cup and spoon and put them in the drying rack",
+        "80630": "Pick up the spoon and place it in the cutlery provision on the drying rack",
+        "19718": "Place the spoon on the dish rack",
+        "23351": "Put a spoon into the plate rack",
+        "59197": "Put the orange spoon inside the drying rack",
+        "9954": "Pick up the silver spoon from the counter and put it on the dishrack.",
+        "19348": "Put one silver spoon on the dishrack.",
+        "78239": "Put one silver spoon on the dishrack.",
+        "31036": "Place some cutlery on the dishrack."
+
+    },
+    "place_knife_in_drying_rack": {
+        "72298": "Put the knife inside the drying rack.",
+        "23670": "Remove the silver knife from the utensil holder and put it in the drying rack",
+        "15105": "Pick up the knife from the counter and put it on the dish dryer",
+       "14233": "Put the two butter knives in the drying rack"
+    },
+     "place_silver_fork_on_dishrack": {
+        "75938": "Put the silver fork on the dishrack.",
+        "39867": "Put the silver fork on the dishrack."
+    },
+    "place_silver_spoon_on_dishrack":{
+        "48869": "Remove the orange spoon, silver spoon and silver fork from the cutlery holder and place them on the dishrack."
+    },
+    "place_silver_knife_on_dishrack": {
+        "40666": "Put the silver knife on the dishrack."
+    },
+      "remove_silver_spoon_from_dishrack": {
+        "41636": "Remove the silver spoon from the drying rack and put it in the utensil holder on the right",
+        "43428": "Remove the silver spoon from the drying rack and put it on the table",
+        "78586": "Remove one silver spoon from the dishrack.",
+        "26592": "Remove one silver spoon from the dish rack and place the spoon from the yellow plate on the cutlery holder."
+    },
+    "remove_spoon_from_dish_rack": {
+        "65773": "Remove the spoon from the dish rack",
+        "42311": "Remove one spoon from the dish rack"
+    },
+      "remove_fork_from_dishrack":{
+        "26233": "Remove the fork, knife and spoon from the dish rack",
+        "14084": "Take the fork out of the dishrack."
+    },
+        "remove_knife_from_dishrack": {
+            "57003": "Take the knife off of the dish rack",
+             "49531": "Remove the knife from the drying rack and put it in the utensil holder on the right"
+        },
+        "remove_cup_from_dishrack":{
+            "65622": "Remove the purple cup from the dishrack.",
+            "743": "Remove the blue measuring cup from the dishrack."
+
+        },
+       "remove_silver_knife_from_dishrack":{
+            "1971": "Remove the silver knife from the dishrack."
+       },
+    "place_cup_on_dishrack":{
+        "38401": "Put the pink cup on the dish rack",
+        "78259": "Place the pink cup on the dish rack",
+        "79037": "Place the blue and green cups on the drying rack",
+         "83844": "Place the cup upside down on the dishrack."
+    },
+     "place_bowl_on_dishrack":{
+        "58030": "Put the blue bowl inside the drying rack",
+        "51897": "Put the blue bowl on the dishrack.",
+        "68994": "Put the blue bowl on the drying rack"
+     },
+    "place_item_on_table": {
+        "81944": "Put the fork on the table",
+         "94796": "Put the spoon on the table",
+        "73781": "Put the cup on the table and put the bowl in the dishes tray",
+        "6482": "Put the cup on the table"
+    },
+    "place_item_on_counter":{
+        "82617": "Put the plate on the countertop",
+        "39746": "Put the bottle on the counter",
+        "82328": "Put the cup on the counter",
+        "60842": "Put the cup on the counter"
+
+    },
+     "place_item_in_cutlery_holder":{
+        "29751": "Place two silver forks in the grey cutlery holder.",
+        "50286": "Put the silver spoon from the counter in the cutlery holder on the dishrack.",
+        "91874": "Put the silver knife in the cutlery holder.",
+        "39830": "Put the orange spoon in the cutlery holder.",
+         "47041": "Put one silver spoon on the cutlery holder then remove the purple spoon from the holder and place it on the counter."
+     },
+      "place_item_in_dishes_tray":{
+        "47164": "Put the cups in the dishes tray upside down",
+        "32021": "Put the spoon in the dishes tray"
+
+      },
+     "move_item_backward":{
+        "72752": "Move the bowl backwards"
+     },
+    "move_item_to_right":{
+        "48875": "Move the purple cup to the right.",
+        "84567": "Move the green cup to the right and put it upside down",
+        "15712": "Move the blue object to the right"
+    },
+        "move_item_to_left":{
+        "46429": "Move the fork to the left"
+
+    },
+    "turn_rack":{
+        "43524": "Turn the drying rack",
+        "52799": "Turn the left rack to the right",
+        "29335": "Rotate the dishrack.",
+        "67416": "Turn the dish rack to the left",
+        "67513": "Turn the plate rack to the left"
+
+    },
+     "fold_towel":{
+        "80497": "Fold the towel once",
+        "71493": "Fold the yellow towel twice from left to right.",
+        "43410": "Fold the yellow towel from left to right then move it to the left.",
+        "53235": "Fold the yellow towel and move it to the right"
+     },
+     "unfold_towel":{
+        "23323": "Unfold the yellow towel.",
+        "865": "Unfold the yellow towel."
+     },
+      "flip_switch":{
+          "44248": "Switch on the light",
+          "40295": "Flip the switch on the wall",
+          "41954": "Flip the switch"
+      },
+    "place_spatula_on_dish_rack":{
+ 		"23796": "Place the spatula on the dish rack"
+    },
+       "put_tongs_in_drying_rack":{
+           "38620": "Put the tongs in the drying rack"
+       },
+    "put_soap_bottle_in_drying_rack":{
+        "75313": "Put the soap bottle in the drying rack"
+    },
+    "put_spoons_on_plate":{
+        "13964": "Put the spoons on the plate"
+    },
+      "put_spoon_in_tray":{
+          "53688": "Put the spoon in the tray"
+      },
+      "put_forks_in_tray":{
+          "90321": "Put the forks in the gray tray"
+      }
+}

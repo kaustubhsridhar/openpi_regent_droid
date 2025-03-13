@@ -1,0 +1,109 @@
+
+{
+    "put_object_in_bowl": {
+        "93960": "Pick up the lightning av digital adapter and put it in the bowl",
+        "46333": "Put the blue tape inside the bowl",
+        "10654": "Put the dongle into the bowl",
+        "29214": "Put the keys in the brown bowl",
+        "70829": "Put the glasses in the key bowl",
+        "14639": "Put the red wagon in the wooden bowl.",
+        "92340": "Put the sunglasses in the silver bowl",
+        "17463": "Pick up the black sun glasses and put them in the brown bowl",
+        "31677": "Put the brown object inside the silver bowl",
+        "48712": "Put the cord in the bowl",
+        "5319": "Put the glasses in the key bowl",
+        "5195": "Pick up the sun glasses and put them in the brown bowl",
+        "54864": "Pick up the red object with wheels and put it in the brown bowl",
+        "35929": "Pick up the black shades and put them in the brown bowl"
+    },
+    "put_calculator_in_silver_bowl": {
+        "80455": "Put the calculator in the silver bowl",
+        "65617": "Put the calculator in the silver bowl",
+        "15475": "Put the calculator in the silver bowl"
+    },
+   "move_item_to_right": {
+        "5262": "Move the wooden plate to the right",
+        "22442": "Move the white circular object to the right",
+        "603": "Move the white thing to the right",
+        "13813": "Move the toy cart to the right"
+
+    },
+    "move_item_to_left": {
+        "48666": "Pick up the red trolley and move it to the left side of the table",
+        "93124": "Pick up the shades and move them to the left side of the table",
+        "47972": "Move the red wagon to the left"
+    },
+        "move_silver_bowl_forward": {
+        "8124": "Move the silver bowl forward"
+    },
+       "move_silver_bowl_to_left":{
+        "92390": "Move the silver bowl to the left and remove the glasses from the silver bowl and put it on the table",
+        "73660": "Take the metal bowl off of the wooden plate and place it on the left"
+
+    },
+    "put_blue_masking_tape_on_something": {
+        "73990": "Pick up the blue masking tape and put it on top of the compact disk cover",
+       "85010": "Pick up the blue masking tape and put it on the table next to the calculator",
+       "68531": "Put the calculator on the blue tape",
+        "29384": "Put the calculator on the blue seal tape",
+       "25820": "Put the blue seal tape in the key bowl",
+        "86520": "Put the blue masking tape on the wooden plate",
+        "29181": "Put blue masking tape on the wooden tray"
+
+    },
+        "put_glasses_on_tray":
+    {
+        "43998": "Put the glasses on the tray"
+    },
+    "put_sunglasses_on_something":{
+        "54943": "Put the sunglasses on the right side of the table",
+        "3406": "Put the sunglasses on the coaster"
+
+    },
+    "put_toy_cart_on_table": {
+        "53417": "Put the toy cart on the table"
+    },
+     "put_toy_cart_on_tray":{
+        "67482": "Put the toy cart on the tray"
+    },
+    "put_keys_on_tray": {
+        "16529": "Put the keys on the tray"
+    },
+    "put_wagon_on_table":{
+        "77855": "Put the red wagon on the table"
+    },
+    "put_pen_on_tray":{
+        "44509": "Put the pen on the wooden tray."
+    },
+        "put_object_on_coaster":{
+        "46099": "Put the calculator on the coaster"
+    },
+     "put_silver_bowl_on_plate":{
+        "4888": "Put the silver bowl on the wooden plate"
+    },
+    "put_glasses_in_bowl": {
+        "70829": "Put the glasses in the key bowl",
+        "5319": "Put the glasses in the key bowl"
+    },
+    "put_wagon_in_bowl":{
+        "13477": "Put the wagon in the silver bowl"
+    },
+      "put_white_cable_on_plate": {
+        "60086": "Put the white cable inside the wooden plate"
+      },
+    "put_white_cord_on_tray":{
+         "33831": "Place the white cord on the tray"
+    },
+    "put_toy_cart_on_plate":{
+        "15444": "Put the toy cart in the wooden plate"
+    },
+    "move_tape_to_bowl":{
+        "53839": "Move the tape to the metal bowl"
+    },
+    "move_sunglasses_to_bowl":{
+      "91602":  "Move the sunglasses from the tray to the silver bowl"
+    },
+    "move_item_to_table": {
+        "54843": "Move the cable from the tray to the table"
+    }
+}

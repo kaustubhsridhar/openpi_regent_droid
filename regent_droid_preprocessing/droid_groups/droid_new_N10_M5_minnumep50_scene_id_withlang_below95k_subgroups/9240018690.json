@@ -1,0 +1,58 @@
+
+{
+    "Pour contents of cup into bowl": {
+        "75016": "Pour the contents of the mug into the cup",
+        "11404": "Pour the contents from the pink cup into the white bowl",
+        "4621": "Pour the liquid in the pink cup into the white bowl on the scale",
+        "84118": "Pour the contents in the red cup into the white bowl",
+        "2854": "Pick up the blue cup and pour the water in the white bowl",
+        "34478": "Pour the water out of the purple cup into the white bowl",
+        "52657": "Pour the liquid in the pink cup into the white bowl",
+        "1330": "Pour the liquid from the pink cup into the white bowl",
+        "3642": "Pour the contents of the cup into the bowl",
+        "58712": "Pour the contents of the pink cup into the white bowl",
+        "54629": "Pour the water out of the blue cup into the white bowl",
+        "6771": "Pour the contents in the pink cup into the white bowl"
+    },
+    "Put Rubik's cube in wooden box": {
+        "38286": "Put the rubik's cube in the wooden box",
+        "34323": "Put the cello tape holder in the wooden box",
+        "17209": "Place the small Rubik's cube inside the wooden box",
+        "15172": "Put the small Rubik's cube in the wooden box",
+        "82253": "Put the smaller Rubik's cube in the wooden box",
+        "2492": "Put the Rubik's cube on the right into the wooden box"
+    },
+    "Take Rubik's cube out of box and put on table": {
+        "41859": "Take the rubik's cube out of the box and put it on the table",
+        "27418": "Remove the Rubik's cube from the wooden box and put it on the table",
+        "25333": "Take the Rubik's cube out of the wooden box and put it on the table"
+    },
+    "Turn on lamp": {
+        "12816": "Turn on the desk lamp",
+        "90417": "Turn on the light",
+        "91594": "Turn on the side lamp.",
+        "47968": "Turn on the lamp",
+        "42595": "Turn the lamp on."
+    },
+    "Turn off lamp": {
+        "66970": "Turn off the reading lamp",
+        "90166": "Turn off the lamp",
+        "65778": "Turn off the desk lamp switch"
+    },
+    "Press button on scale": {
+        "9353": "Press the button on the right side of the scale",
+        "76181": "Press a button on the scale",
+        "31975": "Press the button on the scale"
+    },
+    "Move wooden box": {
+        "50362": "Move the wooden box to the left",
+        "26075": "Move the wooden box to the right"
+    },
+     "Move object backwards/away": {
+        "47854": "Move the block on the left slightly backwards"
+    },
+    "Move object forward/towards":{
+        "3645": "Move the rubik's cube next to the green block closer to you"
+    }
+}
+

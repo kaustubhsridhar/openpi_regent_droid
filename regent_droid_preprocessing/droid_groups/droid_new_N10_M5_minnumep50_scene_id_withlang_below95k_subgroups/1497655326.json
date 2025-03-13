@@ -1,0 +1,48 @@
+
+{
+    "move_left": {
+        "32013": "Move the towel to the left",
+        "30992": "Move the blue towel to the left.",
+        "9928": "Move the towel to the left",
+        "42587": "Move the black box to the left."
+    },
+    "move_forward": {
+        "27993": "Move the pillow forward",
+        "84714": "Move the lamp forward"
+    },
+    "move_backward": {
+        "4872": "Move the lamp backwards."
+    },
+    "put_cloth_on_chair": {
+        "87430": "Pick up the blue cloth and put it on the chair",
+        "30269": "Pick up the blue cloth and put it on the chair",
+        "22631": "Put the cloth on the chair"
+    },
+    "put_on_back_of_chair": {
+        "36616": "Put the towel on the back of the chair",
+        "15378": "Put the blue cloth on the backrest of the chair",
+        "48155": "Put the hanger on the backrest of the chair",
+        "17607": "Put the blue cloth on the backrest of the chair",
+        "42314": "Put the blue sheet on the back of the chair"
+    },
+    "close_drawer": {
+        "61858": "Close the open drawer",
+        "83371": "Close the drawer",
+        "49583": "Close the drawer",
+        "82368": "Close the open topmost drawer on the right.",
+        "81473": "Close the right drawer."
+    },
+    "open_drawer": {
+        "44429": "Pull open the top drawer on the right",
+        "49935": "Open the topmost drawer on the right.",
+        "29036": "Open the topmost drawer on the right.",
+        "80625": "Pull open the drawer on the right",
+        "94963": "Open the rightmost drawer, and then move the white toy to the counter",
+        "30331": "Open the central topmost drawer."
+    },
+    "unfold_cloth": {
+        "89418": "Unfold the cloth",
+        "89707": "Unfold the cloth"
+    }
+}
+

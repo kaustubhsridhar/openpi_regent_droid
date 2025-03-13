@@ -1,0 +1,192 @@
+
+{
+    "open_top_drawer": {
+        "2055": "Open the top drawer and put the sock in it",
+        "41030": "Open the top drawer of the cabinet.",
+        "71": "Open the topmost drawer.",
+        "20581": "Open the top drawer",
+        "61581": "Open the topmost drawer",
+        "4366": "Open the first top drawer",
+        "18715": "Open the top drawer, place the tray inside it then put the screwdriver on the tray",
+        "4419": "Open the top drawer of the cabinet",
+        "68015": "Open the top drawer",
+        "57543": "Open the top drawer.",
+        "29289": "Open the topmost drawer",
+        "48147": "Open the topmost drawer",
+        "52198": "Open the topmost drawer",
+        "49081": "Open the top drawer of the cabinet.",
+        "40136": "Open the top drawer.",
+        "43750": "Open the top drawer",
+         "38550": "Open the top drawer of the cabinet"
+
+    },
+    "close_drawer": {
+        "86221": "Close the drawer.",
+        "25354": "Close the open drawer",
+        "21970": "Close the open drawer",
+        "1940": "Close the first top drawer"
+    },
+     "close_top_compartment": {
+        "10918": "Close the top compartment of the dresser",
+        "87153": "Close the top compartment of the dresser"
+    },
+    "pull_out_nightstand_shelf": {
+        "24626": "Pull out the nightstand shelf",
+        "53459": "Pull out the top nightstand shelf",
+        "31475": "Pull out the nightstand shelf",
+        "62543": "Pull out the top shelf of the nightstand",
+        "66792": "Pull the nightstand shelf out",
+        "68884": "Pull out the nightstand shelf",
+        "36214": "Pull out the nightstand shelf",
+       "75079": "Pull out the nightstand drawer",
+        "38136": "Pull out the topmost shelf on the nightstand"
+    },
+    "push_in_nightstand_shelf": {
+        "18792": "Push the nightstand shelf backwards",
+        "64106": "Push the nightstand shelf",
+        "66177": "Push the nightstand shelf",
+       "41794": "Push the nightstand shelf backwards",
+        "13556": "Push the nightstand shelf backwards",
+       "3768": "Push the nightstand shelf closed",
+        "75479": "Push the nightstand shelf",
+        "87652": "Push the nightstand shelf backwards",
+        "13348": "Push the white plate on the nightstand backwards"
+    },
+    "pull_out_table": {
+        "88117": "Pull the pull out table out",
+        "2434": "Pull the pull out table out",
+        "84815": "Pull the pull out table out",
+        "8123": "Pull the pull out table out then place the sponge on it",
+        "28243": "Pull out the pullout table"
+    },
+    "push_in_pullout_table": {
+        "15037": "Push the pull out table in",
+        "72451": "Push in the pullout table",
+        "56899": "Pull and push the pullout table",
+        "38591": "Close the pull out slide"
+    },
+    "put_item_on_windowsill": {
+        "38941": "Put the screwdriver on the window sill",
+        "55383": "Place the sock on the window sill",
+        "86152": "Pick up the earphone case and move it to the window sill",
+        "20679": "Put the black sock on the window sill",
+        "51280": "Pick the bottle and put it on the windowsill",
+       "30836": "Move the spray bottle to the windowsill",
+        "14678": "Move the can from the nightstand to the windowsill",
+        "74086": "Pick up the blue can and put it on the windowsill",
+       "86410": "Put the red cap on the window sill",
+        "6878": "Place the lemon on the windowsill",
+        "76438": "Pick the bottle on the drawer and put it on the windowsill",
+        "56106": "Move the cup to the window sill",
+       "80712": "Move the white cup to the windowsill",
+        "41433": "Pick the sock on the chair's shoulder and put it on the windowsill",
+       "43490": "Put the sock on the windowsill on the armrest",
+        "93632": "Pick up the spray bottle from the nightstand and place it on the windowsill",
+        "68216": "Put the sock on the window ledge",
+       "23516": "Put the spray bottle on the window sill",
+        "75604": "Place the white mug on the windowsill",
+       "22116": "Put the sock on the windowsill",
+      "30284": "Take the object and put it on the window seal",
+        "85127": "Move the white cup to the window sill"
+    },
+
+    "put_item_in_bowl": {
+        "53565": "Pick up the ball and put it in the bowl",
+       "6972": "Put the sock in the black bowl",
+      "14739": "Put the black glasses case in the bowl",
+      "32723": "Put the sock, lemon, airpods case, and bottle in the bowl",
+       "38227": "Place the sponge in the bowl",
+      "27891": "Pick up the cup and place it in the bowl"
+
+    },
+       "put_lemon_on_plate": {
+        "76112": "Put the lemon on the white plate",
+        "62043": "Put the lemon on the plate"
+
+    },
+    "put_item_on_nightstand": {
+       "32911": "Place the ball on the nightstand",
+        "14710": "Remove the screwdriver from the box and put it on the nightstand",
+       "78205": "Remove the black sock from the window sill and place it on top of the nightstand",
+        "88585": "Take the screwdriver from the windowsill and move it to the nightstand",
+       "87382": "Put the can directly on the nightstand",
+      "30069": "Remove the white object from the black bowl on the window sill and place it on the nightstand",
+      "34617": "Move the lemon from the windowsill to the nightstand"
+
+    },
+
+    "move_item_forward": {
+        "10330": "Move the spray bottle forward",
+        "37328": "Move the lemon forward",
+       "31784": "Move the plate forward"
+    },
+     "open_sliding_tray":{
+        "74179": "Open the sliding tray then put the white case and lemon on it",
+        "72981": "Open the sliding tray",
+        "83483": "Open the drawer tray"
+     },
+     "close_sliding_drawer":{
+         "2129": "Put the green ball on the black dish and then close the sliding drawer",
+         "92860": "Put the black dish on the nightstand, put the sock in the black dish, and then close the sliding drawer"
+     },
+    "close_sliding_tray":{
+        "85850": "Close the sliding tray",
+        "51160": "Close the sliding tray"
+    },
+      "pull_out_sliding_tray":{
+          "60121": "Pull out the sliding tray"
+      },
+    "put_item_on_plate":{
+        "74714": "Put the sock on the black plate",
+        "35682": "Put the key on the white plate"
+    },
+        "open_flat_drawer": {
+        "79650": "Open the top flat drawer",
+        "11414": "Open the flat drawer",
+        "76577": "Open the first flat drawer of the side cabinet",
+        "2683": "Open the top flat drawer of the cabinet"
+
+    },
+    "close_flat_drawer":{
+        "78038": "Close the flat drawer"
+    },
+     "put_item_in_drawer": {
+        "76472": "Put the screwdriver in the drawer",
+        "6467": "Take the sock off the arm of the sofa and put it in the drawer",
+        "27260": "Take the lemon out of the bowl and put it in the drawer"
+    },
+        "put_item_on_drawer":{
+            "57366": "Take the blue cap on the windowsill and put it on the black cap on the drawer",
+            "20541": "Take the cap on the windowsill and put it on the drawer",
+            "12417": "Take the sock on the windowsill and put it on the drawer",
+            "63862": "Take the tennis ball on the windowsill and put it on the drawer",
+            "95442": "Take the bottle on the seal and put it on the drawer",
+            "76416": "Pick up the toy and black plate from the window and put it on the drawer.",
+            "56710": "Pick up the bottle from the window and put it on the drawer.",
+            "64256": "Pick up one piece of socks and put it on top of the drawer"
+    },
+     "put_item_on_pullout_table":{
+         "60820": "Take the sock from the windowsill and put it on the pullout table",
+         "73893": "Take the lemon from the plate and put it on the pullout table",
+          "22967": "Move the lemon from the plate to the pullout table",
+          "26488": "Pick up the black cap and put it on the pullout table"
+     },
+       "put_item_on_sliding_tray":{
+           "2116": "Put the sock on the sliding tray",
+            "4456": "Remove the ball from the box and put it on the sliding tray",
+           "79101": "Put the mug on the sliding tray",
+            "83468": "Put the blue container on the sliding tray",
+           "78365": "Put the ball on the sliding tray on the windowsill"
+
+       },
+    "put_item_in_top_drawer":{
+        "78754": "Put the black and yellow cap in the top drawer",
+        "78405": "Put the maroon cap on top of the blue cap in the top drawer",
+        "32562": "Put the screwdriver in the top drawer"
+    },
+
+    "place_item_on_nightstand_shelf":{
+         "26076": "Pick up the white mug from the top of the nightstand and place it on the nightstand shelf",
+        "67223": "Put the white mug on the nightstand shelf, place the mug on the top of the night stand"
+    }
+}

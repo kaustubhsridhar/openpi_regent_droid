@@ -1,0 +1,78 @@
+
+{
+    "close_oven": {
+        "9217": "Close the oven door",
+        "787": "Close the oven door",
+        "74913": "Close the oven door",
+        "88925": "Close the door to the oven",
+        "14565": "Close the oven"
+    },
+    "open_oven": {
+        "3468": "Open the oven",
+        "38298": "Open the 3 in 1 machine's oven door",
+        "71256": "Open the oven door",
+        "86650": "Open the oven"
+    },
+     "open_microwave": {
+        "34693": "Open the microwave door"
+    },
+    "push_in_oven_rack_and_close": {
+        "85638": "Push in the tray in the oven then close the door.",
+        "54936": "Push in the wire rack and close the oven door"
+    },
+    "pour_orange_cup_onto_gray_plate": {
+        "39565": "Pour the contents in the orange cup onto the grey plate.",
+        "41868": "Pour the contents from the orange cup onto the gray plate",
+        "62952": "Pour the contents in the orange cup onto the grey plate"
+    },
+    "pour_orange_cup_onto_plate": {
+       "10532": "Pour the things in the orange cup onto the plate",
+        "70819": "Pour the contents of the orange cup onto the plate"
+    },
+    "pour_orange_cup_onto_tray":{
+        "54687": "Pour the contents of the orange cup onto the tray",
+        "94630": "Pour the contents of the orange cup onto the oven tray"
+    },
+    "pour_orange_cup_onto_black_tray":{
+        "39955": "Pour the potato chips out of the orange cup and onto the black tray, pour the potato chips from the dark blue cup and onto the black tray",
+        "13884": "Pour the content of the orange cup onto the black tray"
+    },
+    "pour_blue_cup_onto_plate": {
+        "4520": "Pour the contents of the blue cup onto the plate",
+        "68340": "Pour the contents of the blue cup onto the plate",
+        "11114": "Pour the contents from the blue and orange cup into the plate."
+
+    },
+    "pour_fries_from_black_pot_onto_gray_plate":{
+        "49585": "Pour the fries out of the black pot and onto the grey plate",
+        "61114": "Pour the chips from the black pot onto the gray plate",
+        "18924": "Get the black pot and pour its contents onto the gray plate"
+    },
+        "pour_green_cup_onto_gray_plate":{
+        "4128": "Pour the fries out of the green cup and onto the grey plate",
+        "63545": "Pour the chips from the green cup onto the gray plate then put the green cup in the orange cup",
+        "90180": "Pick up the green cup from the table and pour its contents in the grey plate."
+    },
+     "pour_from_cup_onto_plate":{
+        "42757": "Pour the chips from the blue cup onto the gray plate",
+        "85259": "Pour the contents of the green cup onto the plate, then put it in the blue cup",
+        "42910": "Pour the potato fries in the blue cup on the plate",
+          "44579": "Pour the fries out of the dark blue cup and onto the grey plate",
+          "34533": "Pour out the potato chips from the black measuring cup and put them on the grey plate",
+           "82885": "Pour the fries out of the black pot onto the plate"
+     },
+
+    "press_button_on_breakfast_maker": {
+        "65070": "Press the button on top of the breakfast maker",
+        "19785": "Push the button on the top of the breakfast maker",
+        "54937": "Press the red switch on the right side of the breakfast station"
+    },
+        "open_coffee_maker":{
+        "52885": "Press the button on the top of the coffeemaker to open the chamber",
+        "47811": "Open the coffee maker"
+    },
+    "close_coffee_maker":{
+        "40581": "Press the top of the coffee maker to open the bowl and push it back to close it",
+        "28859": "Press the button on the coffee maker and close the cup filter afterward"
+    }
+}

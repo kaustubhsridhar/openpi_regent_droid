@@ -1,0 +1,133 @@
+
+{
+    "close_tap": {
+        "68623": "Open the tap",
+        "4627": "Close the tap then open it",
+        "88086": "Close the tap",
+        "89647": "Turn off the faucet of the sink.",
+        "29746": "Close the faucet then open it again",
+        "40507": "Open the faucet then close the faucet",
+        "50760": "Close the tap",
+        "78480": "Close the faucet",
+        "41118": "Close the faucet using the faucet handle on the right",
+        "16062": "Close the tap",
+        "30926": "Close the tap",
+        "30430": "Close the tap",
+        "38626": "Close the tap",
+        "77563": "Turn off the faucet",
+        "45314": "Close the faucet",
+        "33062": "Close the tap",
+        "3371": "Close the tap",
+        "90445": "Close the tap",
+        "95581": "Close the tap",
+        "60770": "Close the tap",
+        "68962": "Close the tap",
+        "25465": "Close the tap",
+        "43401": "Close the tap",
+        "58285": "Close the tap",
+        "76212": "Turn off the faucet",
+        "45041": "Close the tap"
+    },
+    "open_tap": {
+       "68623": "Open the tap",
+       "35447": "Open the tap",
+       "81031": "Open the tap",
+        "56491": "Open the tap",
+        "39596": "Open the faucet",
+        "40632": "Open the tap",
+        "65260": "Open the tap",
+         "88269": "Open the faucet",
+        "73998": "Open the faucet",
+        "81168": "Open the tap",
+        "43339": "Open the tap",
+        "67952": "Open the tap",
+        "62867": "Open the tap",
+        "41887": "Open the faucet",
+        "61359": "Open the tap",
+ "44797": "Open the tap",
+        "47367": "Open the tap"
+
+    },
+    "close_drawer": {
+        "79897": "Close the drawer",
+        "55377": "Close the open drawer",
+        "27223": "Close the top drawer to the right",
+        "24155": "Close the open drawer",
+        "29310": "Close the open drawer",
+        "36539": "Close the top drawer of the cabinet.",
+        "6352": "Close the open drawer",
+        "51970": "Close the open drawer",
+        "8457": "Close the drawer",
+        "26418": "Close the open drawer",
+        "8524": "Close the drawer",
+        "19295": "Close the drawer",
+        "47458": "Close the top drawer",
+        "29540": "Close the open drawer on the right",
+        "39788": "Close the kitchen drawer on the right",
+        "84406": "Close the top drawer.",
+        "1430": "Close the drawer",
+        "61923": "Close the open drawer on the right",
+        "75764": "Close the top drawer of the kitchen unit",
+         "55130": "Close the open drawer"
+    },
+     "put_wooden_spoon_in_cup": {
+        "43036": "Put the wooden spoon in the cup",
+        "28724": "Open the tap and put the wooden spoon in the cup",
+        "87734": "Put the wooden spoon in the cup on the dish rack",
+        "54024": "Put the wooden spoon in the cup"
+     },
+    "put_sponge_in_drawer":{
+        "12995": "Put the sponge in the open drawer",
+        "83219": "Put the yellow sponge in the drawer",
+        "28509": "Place the yellow sponge inside the open drawer",
+        "19943": "Put the sponge in the drawer"
+
+    },
+      "put_item_in_drawer": {
+        "33300": "Put the orange packet in the open drawer, remove the yellow sponge from the open drawer and use it to wipe the counter",
+        "21104": "Place the white and blue pump bottle inside the open drawer",
+           "68873": "Slide the light blue can opener into the open drawer.",
+        "59681": "Place the orange pack inside the open drawer, take the pack out of the drawer and put it on the countertop",
+        "28493": "Put the  blue can opener in the open drawer",
+        "36731": "Put the orange packet in the open drawer",
+        "1411": "Put the paper roll in the open drawer",
+            "69995": "Put the blue utensil into the drawer.",
+        "10680": "Put the yellow pack in the open drawer on the right",
+        "12742": "Put the spray bottle inside the open drawer"
+      },
+    "move_item_left": {
+        "83997": "Move the bottle of dishwashing soap to the left",
+        "90653": "Remove the can opener from the top of the chopping board and move it to the left side of the counter",
+        "11355": "Move the spray bottle to the left, open the faucet",
+        "25788": "Pick up the spray bottle and move it to the left. Pick up the sponge from the drawer and put it on the countertop",
+         "51002": "Move the orange packet to the left",
+         "7085": "Move the bottle to the left"
+
+    },
+      "move_item_right": {
+        "30748": "Pick up the white bottle from the countertop and move it to the right.",
+        "43087": "Push the faucet handle to the right",
+           "38162": "Move the cup to the right",
+             "22795": "Move the faucet handle to the right",
+           "78804": "Move the dish soap to the right side of the counter"
+      },
+       "move_item_forward": {
+           "30555": "Push the faucet handle forward",
+           "2396": "Move the bottle forward",
+           "64878": "Move the dish soap forward"
+       },
+    "move_item_backward":{
+        "81729": "Move the bottle of dishwashing liquid away from the faucet"
+    },
+     "put_spoon_in_drawer":{
+          "10421": "Remove the wooden spoon from the chopping board and put it in the open drawer",
+          "18232": "Put the wooden spoon in the drawer",
+          "64855": "Pick the wooden spoon and put it in the drawer",
+            "78246": "Put the wooden spoon in the drawer"
+     },
+        "move_sponge":{
+            "54926": "Move the yellow sponge to the right corner close to you of the wooden board",
+            "16016": "Move the yellow sponge to the right side of the countertop",
+            "11237": "Move the sponge to the front of the sink"
+        }
+}

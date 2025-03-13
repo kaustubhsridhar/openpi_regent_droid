@@ -1,0 +1,103 @@
+
+{
+    "move_left": {
+        "80009": "Move the masking tape to the left",
+        "20655": "Move the small yellow block on the left to the left",
+        "4784": "Move the blue block to the left",
+        "39637": "Pick up the paper cup and move it to the left.",
+        "49926": "Move the orange cup to the left",
+        "78089": "Move the tin of sugar to the left",
+        "84789": "Move the black and silver tool to the left",
+        "87333": "Move the blue building blocks to the left",
+        "34678": "Move the blue building block on the right to the left",
+        "40389": "Pick up one of the blue block from the table and move it to the left.",
+        "56816": "Move the tall stack of blocks to the left"
+    },
+    "move_right": {
+        "36423": "Move the black object to the right.",
+        "53004": "Move the two piece block to the right",
+        "6422": "Move the pen holder to the right",
+        "13132": "Move the black masking tape to the right",
+        "79343": "Move the blue stack of blocks to the right"
+    },
+    "move_forward": {
+        "79417": "Move the black tray forward",
+        "66661": "Move the green block in the back on the right forward",
+        "84755": "Bring the black box forward",
+        "50626": "Move the blue block at the back of the counter forwards",
+        "88874": "Move a blue block to the right then move a green block forward"
+    },
+    "move_backward": {
+        "19091": "Move the red block backwards",
+        "80854": "Move the yellow block backward",
+        "60306": "Remove the green block from the blue one and put it on the table, move the building block tower slightly to the right, and then move the blue block backwards"
+    },
+    "put_lid_on_pot": {
+        "87638": "Pick the silver lid on the counter and put it on the pot",
+        "34981": "Pick up the silver lid and put it on the silver pot.",
+        "8931": "Pick up the silver lid from the table and put it on the silver pot.",
+        "93425": "Take the lid from the table and put it on the silver pot",
+        "86962": "Pick the lid on the counter and put it on the pot",
+        "13248": "Pick the lid on the counter and put it on the pot",
+        "31742": "Place the lid on the pot"
+    },
+    "put_lid_on_table": {
+        "6886": "Take the lid off of the silver pot and put it on the table",
+        "21749": "Pick up the lid off the silver pot and put it on the table.",
+         "12282": "Take the lid from the silver pot and put it on the table",
+        "33597": "Put the silver lid on the table"
+
+    },
+      "put_in_bowl":{
+        "78476": "Put the blue building block closest to the wooden bowl into it",
+        "78040": "Pick the small yellow block on the counter and put it in the bowl",
+        "88422": "Put the green block in the bowl",
+         "84854": "Take the yellow building block from the counter and put it in the bowl",
+        "1437": "Get the yellow block from the wooden object and place it in the wooden bowl",
+        "41238": "Put the blue Lego's on the counter in the bowl",
+        "5413": "Pick up the green block from the countertop and put it in the wooden bowl on the right"
+    },
+        "put_on_wooden_object":{
+            "62510": "Put the orange lego on the wooden object",
+            "87782": "Pick up the yellow toy and put it on the wooden object"
+    },
+        "put_on_top_of_block":{
+            "95252": "Pick a blue block and put it on top of a yellow block",
+           "48779": "Pick up the green block on the right and place it on top of the yellow block on the left",
+            "57496": "Place the green block on the front left on top of the square blue block",
+            "89511": "Pick up the yellow block from the front of the counter and place it on top of the square blue block"
+
+        },
+    "put_in_cup":{
+        "48160": "Put the orange cup in the red cup",
+        "42055": "Put the small orange cup in the big orange cup",
+        "2660": "Pick up the little orange cup and place it inside the bigger cup",
+        "79229": "Put the orange cup inside the red cup"
+    },
+
+    "put_on_table":{
+        "19040": "Take the masking tape from on top of the box and put it on the table",
+        "15234": "Unstick the yellow Lego from the blue one and put it on the table",
+         "93152": "Take the orange legos from the wood and put it on the table",
+         "10097": "Put the scissors on the table"
+
+    },
+     "put_on_counter":{
+        "59573": "Place the black masking tape on the counter",
+        "14016": "Put the measuring spoon on the counter",
+        "19900": "Remove the spoon from the rack and put it on the counter"
+     },
+      "put_on_box":{
+        "37983": "Put the tape on the wooden box",
+        "17697": "Put the black tape on the wooden box",
+        "10586": "Put the coffee creamer bottle on top of the wooden box",
+         "35094": "Place the stacked blue blocks on top of the wooden box"
+
+      },
+
+    "put_in_black_object":{
+        "56906": "Put the measuring cup into the black object.",
+        "24706": "Put the scissors inside the black object",
+        "50143": "Put the scissors in the black object"
+    }
+}

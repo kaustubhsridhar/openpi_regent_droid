@@ -1,0 +1,97 @@
+
+{
+    "place_blue_cup_in_sink": {
+        "86592": "Put the blue cup in the sink",
+        "17089": "Pick up the dark blue cup from the edge of the countertop and put it in the sink.",
+        "35535": "Take the blue cup from the dish rack and put it in the sink",
+        "82157": "Pick up the blue cup and place it in the sink",
+        "60466": "Pick up the blue cup from the dish rack and put it in the sink."
+    },
+    "place_item_on_dish_rack": {
+        "22660": "Put the blue object on the dish rack",
+        "29586": "Put the blue pan on the the dish dryer",
+        "51980": "Move the lid from the sink to the dish rack",
+        "26526": "Put the knife on the dish rack in the sink"
+    },
+    "remove_item_from_sink_place_on_dish_rack": {
+        "18083": "Take the blue mug from the sink and put it on the dish rack",
+        "81065": "Pick the blue pot from the sink and place it in the rack",
+       "37446": "Pick up the blue cup from the sink and place it on the dish rack",
+        "84807": "Take the mug out of the sink and put it on the dish rack",
+        "36840": "Move the mug from the sink to the dish rack",
+        "66146": "Take the mug from the sink and put it on the dish rack",
+        "61684": "Move the blue mug from the sink to the dish rack"
+
+    },
+    "remove_item_from_dish_rack_place_in_sink":{
+        "51329": "Remove the blue mug from the rack and put it in the sink.",
+        "85251": "Remove the blue cup from the drying rack and put it in the sink.",
+        "10262": "Pick up the blue cup from the dish rack and put it in the sink.",
+        "25662": "Remove the black bowl from the dishrack and place it in the sink",
+        "22347": "Remove the thermos from the dishrack and place it in the sink",
+        "80505": "Remove the dark blue thermos from the dish rack and place it inside the sink"
+    },
+        "put_lid_on_cup_in_sink": {
+        "82212": "Pick up the lid from the edge of the countertop and put it on the cup in the sink.",
+        "27192": "Pick up the lid and put it on the cup in the sink",
+        "44348": "Attach the lid on the dish rack onto the cup in the sink",
+        "41514": "Pick up the lid from the rack and close the thermocup inside the sink"
+
+    },
+    "remove_lid_from_cup_in_sink_place_on_counter":{
+       "71448": "Remove the lid from the cup in the sink and put it on the sink counter",
+        "22169": "Take the lid off of the blue cup in the sink and place it on the edge outside of the sink",
+        "47015": "Take the top off the cup in the sink and put it on the counter",
+       "7513": "Take the top off the cup in the sink and put it on the counter"
+    },
+
+     "place_cup_in_sink_on_dish_rack":{
+      "94242": "Put the blue cup in the sink on the dish rack",
+      "32240": "Put the cup in the sink on the dish rack"
+     },
+
+    "place_blue_object_in_sink":{
+        "6506": "Put the blue object inside the sink",
+        "40939": "Pick up the light blue object and put it in the sink"
+    },
+    "put_lid_on_thermos":{
+        "4687": "Place the silver lid on the right on top of the dark blue thermos in the sink",
+        "14306": "Place the lid on the dark blue thermos"
+    },
+     "hang_cup_on_rack":{
+        "61670": "Pick up the blue cup from the sink and hang it on the dish rack.",
+        "65638": "Take the cup out of the sink and hang it on the cup holder"
+     },
+    "move_lid_backward":{
+        "3070": "Move the lid away from the edge of the counter"
+    },
+     "place_blue_pan_on_dish_rack":{
+        "352": "Take the blue pan out of the sink and place it on the dishrack"
+     },
+    "put_thermos_cup_lid_on_thermos_cup_in_sink":{
+      "23510": "Put the thermos cup lid on the thermos cup in the sink"
+    },
+    "put_lid_on_cup":{
+        "27056": "Take the lid and put it on the cup"
+    },
+       "place_pot_in_sink":{
+        "40575": "Place the blue pot in the sink"
+    },
+     "put_cup_in_sink":{
+        "13479": "Put the cup in the sink",
+        "22194": "take the cup from the  kitchen holder and put it in the sink"
+     },
+      "put_cup_upright_in_sink":{
+        "30220": "Pick up the cup in the sink and position it upright on the right within the sink",
+        "84931": "Pick up the cup in the sink and put it upright"
+    },
+     "remove_thermos_from_sink_place_on_dish_rack":{
+        "87532": "Remove the dark blue thermos from the sink and place it on the dishrack"
+     },
+    "remove_knife_from_dish_rack_and_put_it_in_sink":{
+        "59517": "Remove the knife from the dish rack and put it in the sink"
+    },
+      "put_lid_on_cup_press_on_lid":{
+        "65399": "Move the clear lid from the top of the black bowl to the top of the cup and press on the lid"
+      }
+}

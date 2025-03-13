@@ -1,0 +1,60 @@
+
+{
+    "move_object_right": {
+        "12569": "Move the orange packet to the right",
+        "61598": "Move the black cup to the right",
+        "34894": "Move the black mug to the right.",
+        "27903": "Move the cloth to the right"
+    },
+    "move_object_left": {
+        "71048": "Move the black mug to the left then put a bean inside the can",
+        "39995": "Move the white and yellow pack to the left"
+    },
+        "put_spoon_in_container": {
+        "30626": "Put the spoon inside the jug",
+        "14272": "Put the spoon in the cup",
+        "38344": "Put the spoon inside the glass",
+        "66668": "Transfer the spoon to the jug"
+    },
+    "put_black_object_in_jar": {
+        "66477": "Put the black object in the jar",
+        "27518": "Put the black object in the jar"
+    },
+    "put_remote_on_gray_mat": {
+        "3478": "Pick up the black remote control and put it on the gray oven mat",
+        "29640": "Pick up the black remote from the clear measuring cup and put it on the gray oven mat",
+        "78174": "Pick up the black remote and put it no the gray oven mat"
+    },
+    "put_brown_object_in_can": {
+        "67495": "Put the brown object in the can",
+        "47983": "Put the brown object in the can"
+    },
+    "put_spoon_on_mat":{
+        "7781": "Put the spoon on the mat",
+        "10087": "Put the spoon onto the grey mat"
+    },
+        "pour_contents_into_container": {
+        "71039": "Pour the contents out of the yellow tin and into the clear jug.",
+        "38895": "Pour the contents in the jug into the clear bowl.",
+         "34002": "Pour the coffee grinds in the bowl into the can",
+        "5979": "Pour the contents from the glass cup into the black cup",
+        "34806": "Pick up the yellow can and pour some of the substance into the  clear square lunch box"
+
+    },
+    "move_fork":{
+        "57281": "move the fork"
+    },
+        "put_item_in_jug":{
+            "90838": "Put the silver fork and spoon in the jug.",
+            "21092": "Put the towel inside the jug",
+            "18521": "Remove the clear bowl from the clear jug and place it on the table then put the silver fork and spoon in the jug."
+
+        },
+        "place_item_in_measuring_cup":{
+            "16547": "Place the green lid in the measuring cup"
+        },
+        "put_bowl_in_jar": {
+            "82280": "Put the bowl in the jar"
+        }
+
+}

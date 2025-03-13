@@ -1,0 +1,107 @@
+
+{
+    "close_cup_lid": {
+        "63491": "Close the lid of the cup",
+        "36379": "Close the lid of the cup",
+        "63098": "Close the lid of the cup",
+        "18629": "Close the lid of the cup",
+        "14216": "Close the lid of the cup",
+        "13210": "Close the lid of the cup",
+        "86998": "Close the lid of the cup",
+        "86494": "Close the lid of the cup"
+    },
+    "open_flask": {
+        "7689": "Open the mouth of the flask",
+        "78368": "Open the flask",
+        "29442": "Open the flask",
+        "4410": "Open the flask"
+    },
+    "close_flask": {
+        "13908": "Close the opening of the flask",
+        "83549": "Close the flask",
+        "62730": "Close the lid of the flask",
+        "41388": "Close the flusk.",
+        "73165": "Close the white flask"
+    },
+    "open_cup_lid": {
+        "37078": "Open the lid on the cup",
+        "69393": "Open the lid of the cup",
+        "69846": "Open the lid of the thermos cup",
+        "76734": "Open the lid of the flask"
+
+    },
+    "remove_lid_from_white_mug": {
+        "55315": "Remove the lid from the white mug",
+        "60491": "Remove the lid from the white mug"
+    },
+     "remove_silver_lid_from_white_mug": {
+        "50782": "Remove the silver lid from the white mug",
+        "92804": "Remove the silver lid from the top of the white mug",
+        "7965": "Remove the silver lid from the top of the white mug",
+        "3899": "Remove the silver lid from the white mug",
+        "41329": "Remove the silver lid from the white mug",
+        "7077": "Remove the silver lid from the top of the white mug",
+        "87999": "Remove the silver lid from the top of the white mug",
+         "9188": "Remove the silver lid from the white mug"
+    },
+    "close_sliding_lid_travel_mug": {
+        "46083": "Open then close the sliding lid on the travel mug",
+        "40120": "Close the sliding lid on the travel mug",
+        "8906": "Close the sliding lid on the travel mug",
+        "94473": "Close the drinking lid on the travel mug",
+        "65327": "Close the sliding lid on the travel mug",
+        "84864": "Close the sliding lid on the travel mug",
+        "88486": "Close the sliding lid on the travel mug"
+    },
+    "open_sliding_lid_travel_mug": {
+        "28202": "Open the sliding lid on the top of the travel mug",
+        "35628": "Open the sliding lid on the travel mug",
+        "51041": "Open the sliding lid on the travel mug",
+        "19426": "Open the sliding lid on the travel mug"
+    },
+    "close_slider_on_top_of_cup": {
+        "22024": "Close the slider on the top of the cup",
+        "74795": "Slide the nozzle to close the drinking hole of the cup",
+        "35900": "Move the slider to close the opening on the top of the cup",
+        "4165": "Slide the object to close the drinking hole of the cup",
+        "85109": "Move the slider to close the opening on the top of the cup",
+        "31699": "Slide the nozzle to close the drinking hole of the cup",
+        "1122": "Close the slider on the top of the cup",
+        "81915": "Close the slider on the top of the cup",
+        "68327": "Close the slider on the top of the lid of the cup"
+    },
+      "open_slider_top_of_cup":{
+        "71280": "Open the black slider on the top of the cup",
+        "8492": "Open the black slider on the lid of the cup",
+        "48096": "Open the slider on the top of the cup"
+    },
+    "move_object_in_cup": {
+        "2637": "Move the object in the cup",
+        "78960": "Move the object in the cup",
+        "36996": "Move the object in the cup",
+        "79055": "Move the object in the cup",
+        "84754": "Move the object in the cup",
+        "85460": "Move the object in the cup"
+    },
+     "move_black_thing_on_mug": {
+        "67233": "Move the black thing on top of the mug",
+        "10929": "Move the black thing on the mug",
+        "7475": "Move the black thing on the mug",
+        "65909": "Move the black thing on the mug",
+        "40375": "Poke the black thing on the mug"
+     },
+    "close_lid":{
+        "22708": "Closed the lid",
+        "93985": "Close the lid"
+    },
+    "slide_lid_of_cup_closed":{
+        "38093": "Slide the lid of the cup closed",
+        "48919": "Slide the lid of the white cup closed"
+    },
+       "slide_lid_of_cup_open": {
+        "4881": "Slide the lid of the cup open"
+    },
+     "slide_lid_on_cup":{
+         "62175": "Slide the lid on the cup"
+     }
+}

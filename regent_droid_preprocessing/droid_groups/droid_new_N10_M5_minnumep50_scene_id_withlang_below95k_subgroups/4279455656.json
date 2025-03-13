@@ -1,0 +1,158 @@
+
+{
+    "open_drawer": {
+        "41473": "Open the top drawer",
+        "56043": "Open the top drawer",
+        "19844": "Open the top drawer",
+        "19424": "Pull out the topmost drawer.",
+        "34800": "Open the topmost drawer"
+    },
+    "close_drawer": {
+        "45719": "Close the top drawer",
+        "77609": "Close the top drawer",
+        "35659": "Close the top drawer"
+    },
+    "flip_book": {
+        "55811": "Flip the book over",
+        "93264": "Turn the book over",
+        "48311": "Flip the book upside down"
+    },
+   "turn_dice_over": {
+        "19118": "Turn over the dice on the table",
+        "51899": "Turn the dice over",
+        "63856": "Turn the dice over"
+    },
+    "flip_dice": {
+        "47150": "Flip the dice to the left once",
+        "68450": "Flip the dice"
+
+    },
+    "turn_cups_over": {
+        "95256": "Turn the pile of plastic cups over",
+        "48221": "Turn the stacked up plastic cups over",
+        "89712": "Put the plastic cups in an upside down position",
+        "45426": "Turn the plastic cups over",
+        "60323": "Flip the stack of cups over"
+    },
+    "press_button_remote": {
+        "22612": "Press the button on the remote control to turn off the light",
+        "27274": "Press a button on the remote",
+        "27403": "Press the button on the remote",
+        "10706": "Press a button on the remote control"
+    },
+    "press_button_device": {
+        "42583": "Press a button on the device",
+        "5724": "Push a button on the adapter",
+         "71879": "Press a button on the black alarm clock",
+        "9448": "Press the button in the middle of the arrows on the black remote",
+        "44801": "Push the far right button on the black digital clock",
+        "77611": "Press a button on the black remote",
+        "29504": "Press a button on the alarm clock on the right",
+        "52598": "Press the alarm button",
+        "76714": "Press a button on the bedside alarm clock radio",
+        "6424": "Press a left button on the bedside alarm clock radio"
+
+    },
+       "press_button_white_remote":{
+        "26492": "Push a button on the white remote"
+    },
+    "turn_remote_right": {
+        "1645": "Turn the black remote to the right",
+        "29402": "Turn the remote control to the right",
+        "76010": "Turn the remote to the right",
+        "12159": "Turn the black remote control to the right."
+    },
+    "turn_remote_general":{
+        "31390": "Turn the remote",
+        "74208": "Turn the remote controller"
+    },
+    "turn_remote_clockwise": {
+        "64326": "Turn the black remote clockwise.",
+        "56163": "Turn the black remote ninety degrees clockwise"
+    },
+    "rotate_bin_clockwise": {
+        "12372": "Turn the waste bin on the worktop clockwise once",
+        "50338": "Turn the waste bin on the counter top clockwise once",
+        "2352": "Turn the white bucket in a clockwise direction"
+    },
+      "move_object_left": {
+        "43014": "Move the black cable to the left.",
+        "13894": "Move the white bin a little to the left on the chest of drawers",
+        "48335": "Move the plush bear toy to the left corner",
+        "56714": "Move the black alarm clock to the left"
+    },
+    "move_object_right": {
+        "5223": "Move the black remote control to the right then turn it upside down",
+        "91322": "Pick up the white remote and move it to the right side of the cable on the brown surface",
+        "18795": "Move the orange object to the right",
+        "87453": "Lift the orange building block and put it to the right on the table"
+    },
+
+    "move_object_forward": {
+        "68104": "Move the cups forward then stack them",
+        "91346": "Move the red dice a little forward on the brown surface"
+    },
+    "move_object_backward": {
+        "5267": "Move the white lights remote controller backwards and press the on button on the lights remote controller",
+        "71941": "Move the alarm clock backwards",
+        "81682": "Move the red dice backward, then cover it with a paper towel"
+    },
+    "put_in_drawer":{
+        "28753": "Put the book into the drawer",
+        "72794": "Put the white fluffy toy in the open drawer",
+        "47264": "Put the remote inside the top drawer",
+        "17102": "Put the black remote in the open drawer",
+        "64815": "Put the white fluffy toy in the drawer",
+        "28549": "Put the blue book in the drawer"
+    },
+
+    "put_in_bin": {
+        "39493": "Put the white napkin in the bin",
+        "20746": "Pick up the empty packet of cheetos and put it in the bin",
+        "7066": "Put the empty packet in the bin",
+        "47552": "Put the orange packet in the white bin",
+        "61299": "Put the empty packet in the white trash bin"
+
+    },
+    "stack_cups": {
+        "28241": "Stack up the cups on the table",
+        "18541": "Stack the cups onto each other starting with the pink cup onto the blue cup and the finally the blue and pink cups onto the orange cup",
+        "8313": "Pick up the blue cup and put it on the orange cup, pick up the stacked blue and orange cups and put them on the pink cup",
+        "70415": "Pick up the blue cup which is between the pink key and the orange cups top and stack it onto the pink cup and then pick up the stack and put it onto the orange cup",
+        "79633": "Stack the cups into each other starting with the orange cup into blue cup and finally the stacked cups onto the pink cup",
+         "24434": "Stack the cups together.",
+         "41892": "Stack the cups into a pyramid",
+         "60335": "Pile up the plastic cups"
+    },
+     "unstack_objects": {
+        "44041": "Unstack the bowls on the chest",
+        "26640": "Unstack the cups"
+    },
+    "put_on_top": {
+        "46086": "Pick up the pink cup and put it on the blue cup",
+       "6829": "Put the orange cup on top of the blue cup"
+    },
+    "put_x_in_y_cup": {
+        "33489": "Pick up the pink cup and put it in the orange cup",
+        "54418": "Place the orange cup over the blue cup",
+        "50515": "Pick up the pink cup and put it in the orange cup, pick up the blue cup and put it in the pink cup",
+        "25066": "Pick up the orange cup and put it in the pink cup"
+
+    },
+       "put_x_in_y_bowl":{
+        "75002": "Put the pink cup in the green bowl and put the blue cup in the pink bowl",
+        "13814": "Put the blue cup in the pink cup, put them on the table and then put the pink bowl in the green bowl",
+        "35150": "Put the pink cup on the cabinet then place the blue cup in the pink bowl and put the pink cup in the green bowl"
+    },
+    "turn_to_left":{
+        "53135": "Turn the remote control to the left",
+        "30786": "Pick up the dice and turn it to the left once, put the dice back onto the top of the chest of drawers",
+        "53131": "Turn the die on its left side",
+        "15812": "Rotate the black remote to the left"
+    },
+      "place_upright":{
+        "48737": "Place the white bin upright.",
+        "30423": "Put the orange packet in the white bin then place the bin upright.",
+        "81287": "Put the black remote upright"
+      }
+}

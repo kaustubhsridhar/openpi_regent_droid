@@ -1,0 +1,121 @@
+
+{
+    "close_cabinet_door": {
+        "16405": "Close the cabinet door.",
+        "60949": "Close the door of the cabinet.",
+        "59044": "Close the door of the cabinet.",
+        "13509": "Close the cabinet door",
+        "21897": "Close the door of the cabinet",
+        "64934": "Close the door of the cabinet",
+        "28615": "Close the cabinet door",
+        "3558": "Close the cabinet door",
+        "70133": "Close the cabinet door"
+    },
+    "close_left_cabinet_door": {
+        "47690": "Close the left cabinet door",
+        "39499": "Close the left door",
+        "83744": "Close the left cabinet door",
+        "34207": "Close the left cabinet door"
+    },
+    "close_right_cabinet_door": {
+        "10741": "Close the right cabinet door"
+    },
+    "close_glass_door":{
+        "38479": "Push and close the glass door",
+        "66171": "Close the glass door on the right",
+        "45445": "Close the glass door"
+    },
+        "close_other_door": {
+        "42902": "Close the file cabinet door",
+        "58361": "Close the shelf door",
+        "28375": "Close the right side of the white cabinet",
+        "35285": "Close the lid on the black and yellow case"
+
+    },
+    "open_door": {
+        "80409": "Open the door",
+        "12096": "Open the door"
+    },
+    "open_left_cabinet_door": {
+        "93826": "Open the left cabinet door",
+        "41716": "Open the left cabinet door",
+        "81175": "Open the left cabinet door",
+        "83737": "Open the left file cabinet door",
+        "76763": "Open the left door"
+    },
+    "open_right_cabinet_door": {
+        "17070": "Open the right cabinet door",
+        "72366": "Open the right cabinet door",
+        "766": "Open the right cabinet door",
+        "19758": "Open the right cabinet door",
+        "12743": "Open the right cabinet door",
+        "26930": "Open the right door to the cabinet.",
+        "32569": "Open the right door",
+        "7586": "Open the right drawer of the cabinet",
+        "12753": "Open the right side of the cabinet drawer",
+        "39353": "Open the right-sided glass door"
+
+    },
+    "open_other_door_or_case":{
+        "30486": "Open the door of the cabinet.",
+        "18025": "Open the lid of the black briefcase",
+        "93048": "Open the cabinet drawer.",
+        "52157": "Open the cabinet door",
+       "54835": "Open the left glass door of the cabinet.",
+        "71154": "Open the case on the left"
+
+    },
+    "place_blue_handle": {
+        "39965": "Place the blue handle on the holder",
+        "26190": "Place the blue handle on the holder",
+        "70814": "Place the blue handle on the holder"
+    },
+    "egg_to_counter": {
+        "12320": "Take an egg out of the tray and place it on the counter",
+        "55859": "Take an egg from the tray and place it on the counter",
+        "34893": "Take one egg out of the tray and put it on the counter",
+        "9909": "Remove one egg from the tray and place it on the counter",
+        "13618": "Take one egg out of the tray and put it on the counter",
+        "45959": "Take one egg from the tray and put it on the counter",
+        "82923": "Remove the egg from the egg holder and put it on the counter"
+    },
+    "egg_to_table": {
+        "19993": "Pick up an egg from the yellow tray and place it on the table.",
+        "15392": "Take one egg from the carton and put it on the table",
+        "82128": "Remove an egg from the crate and put it on the table",
+        "11699": "Put the second egg from the second row of the egg tray on the table"
+    },
+    "egg_from_carton":{
+        "84646": "Remove one egg from the carton box",
+        "22466": "Remove the egg from the carton box",
+        "65006": "Remove one egg from the box and place it on the countertop"
+    },
+        "egg_other":{
+        "85550": "Put one egg from the carton onto the bench",
+        "81469": "Remove the egg on the second egg on the second row of the tray and put together with those on the counter",
+        "78564": "Pick an egg from the egg holder and put it on the workbench"
+    },
+    "pens_to_container": {
+        "62541": "Put the leftmost pen in the colourless bowl",
+        "94819": "Pick up the pen and put it in the box",
+        "40548": "Move some pens from the table to the storage box",
+        "67735": "Put a pen inside the container",
+        "16580": "Pick up the pen from the table and place it in the colourless container.",
+        "33565": "Put two pens in the plastic container on the left",
+        "54572": "Pick up one pen and put it in the bowl",
+        "2384": "Put the green pen in the plastic container on the left",
+        "75112": "Put the marker with the green cap in the storage container",
+        "7028": "Get the middle pen on the table and put it in the colourless box",
+        "31107": "Pick up the green pen and put it in the clear container on the left",
+        "56228": "Put a pen in the storage box",
+        "65473": "Put two of the pens on the workbench in the storage box",
+         "8699": "Put the pens inside the clear container on the left",
+        "77502": "Put two pens from the workbench in the storage box",
+        "30522": "Pick the three markers at the right and put them in the clear storage box",
+        "2962": "Put the black marker into the clear box",
+        "31715": "Put the green marker into the box.",
+         "9": "Pick the marker and put it in the plastic box",
+        "39471": "Take the markers and place them in the box",
+        "63602": "Pick up the blue marker and put it in the box"
+    }
+}

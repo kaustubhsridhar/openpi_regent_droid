@@ -1,0 +1,198 @@
+
+{
+    "put_lid_on_can": {
+        "67094": "Pick up the lid and put it on the spray can",
+        "92220": "Put the lid on the spray bottle",
+        "36426": "Put the lid on the spray can",
+        "66127": "Put the lid on the can",
+        "26171": "Pick up the black lid from the table and put it on the can.",
+        "31361": "Put the lid on the spray can",
+        "6869": "Put the black lid on the black bottle",
+        "18133": "Put the black cap on the can",
+        "70893": "Put the black lid on the can",
+        "78068": "Pick up the lid from the table and put it on the can.",
+        "22847": "Put the lid on the can",
+        "40288": "Place the lid on the spray can",
+        "69400": "Pick up the black lid from the table and put it on the white can.",
+        "38188": "Put the black lid on the bottle",
+        "77653": "Pick the black lid and put it on the bottle",
+        "59280": "Put the black lid on the white spray can",
+        "77817": "Put the lid on the can",
+        "46530": "Put the black lid on top of the spray can",
+        "52164": "Put the black lid on top of the spray can",
+        "19399": "Place the black lid on top of the white spray can",
+        "13306": "Put the black cap on the white can",
+        "88478": "Take the clear lid from the table and put it on the white can",
+        "50116": "Pick up the lid and close the bottle",
+         "3743": "Put the lid on the spray bottle.",
+        "26887": "Place the lid on the spray bottle",
+        "67102": "Pick the lid on the table and place it on the bottle",
+        "33437": "Put the top back on the bottle on the table",
+        "94048": "Pick the cover and put it on the bottle"
+
+    },
+    "remove_lid_and_put_on_table": {
+        "70187": "Remove the lid from the can and put it on the table",
+        "46685": "Take the cover off the can and put it on the table",
+        "12382": "Remove the lid from the bottle and put it on the table",
+        "92781": "Pick up the black lid from the spray bottle and put it on the table.",
+        "87158": "Uncover the can and put the lid on the table",
+        "39067": "Take the black lid from the top of the can and put it on the table",
+        "18087": "Remove the black cap from the can and put it on the table",
+        "50915": "Remove the lid from the spray bottle and put the lid on the table",
+        "73452": "Place the spray can lid on the table",
+        "91387": "Take the lid off the bottle and put it on the table",
+        "16769": "Take the black lid from the top of the white can and put it on the table",
+        "44974": "Remove the lid from the bottle and put it on the table",
+        "38354": "Put the lid of the can on the table",
+        "81946": "Take the lid off the spray can",
+        "61548": "Remove the lid of the container",
+         "66190": "Remove the lid from the top of the spray can",
+        "45848": "Remove the lid from the spray tin",
+        "58137": "Remove the black lid from the spray can",
+         "80256": "Remove the lid from the spray.",
+        "14247": "Remove the lid from the white spray can",
+        "27052": "Remove the lid from the spray can",
+       "19679": "Take the cover off the can",
+        "41391": "Take the cover off the can",
+         "37566": "Take the top off the bottle",
+        "63953": "Take the top off the bottle"
+
+    },
+    "move_measuring_tape_forward": {
+        "83449": "Move the measuring tape forward",
+        "11801": "Move the black measuring tape forwards",
+         "33552": "Move the measuring tape forward",
+         "34220": "Move the measuring tape forward",
+         "72629": "Move the cable forwards"
+    },
+    "move_measuring_tape_backward": {
+        "39216": "Move the measuring tape backwards",
+         "70514": "Move the measuring tape backwards",
+        "17888": "Move the cable backwards"
+
+    },
+    "move_measuring_tape_left": {
+        "64571": "Move the measuring tape slightly to the left",
+        "3185": "Move the measuring tape slightly to the left",
+        "44417": "Move the black measuring tape to the left"
+
+    },
+      "move_measuring_tape_right": {
+        "27750": "Move the measuring tape to the right",
+        "7975": "Move the black measuring tape to the right",
+        "87004": "Move the measuring tape slightly to the right"
+
+    },
+        "move_cable_left": {
+        "89699": "Move the cable to the left",
+        "55943": "Move the blue cable to the left",
+        "75509": "Move the cable to the left",
+        "29573": "Move the black cable to the left",
+        "69491": "Move the charging pin to the left"
+    },
+    "move_cable_right": {
+        "64179": "Move the cable to the right.",
+        "1731": "Move one end of the cable to the right",
+        "75103": "Move the cable to the right",
+       "90957": "Move the left sided end of the cable to the right",
+        "32660": "Move the black charging cable head to the right"
+
+    },
+    "hang_cloth_on_stand": {
+        "87666": "Hang the cloth on the stand",
+        "45207": "Hang the white cloth on the black stand",
+        "87250": "Hang the cloth on the stand",
+        "24980": "Hang the cloth on the stand",
+        "65432": "Hang the cloth on the stand",
+        "94658": "Hang the white cloth on the black stand",
+        "8056": "Pick the cloth and hang it on the object"
+
+    },
+    "unhang_cloth_put_on_table": {
+        "66057": "Unhang the cloth on the stand and place it on the table",
+        "58574": "Unhang the cloth from the stand",
+        "63219": "Unhang the cloth from the stand",
+       "53205": "Take the cloth off the stand and put it on the table"
+
+    },
+     "put_cloth_on_table": {
+        "47219": "Place the white cloth on the table",
+        "63304": "Put the cloth on the table",
+         "74238": "Take the cloth and put it on the table"
+
+    },
+       "put_towel_on_stand": {
+        "90642": "Pick up the towel from the table and put it on the tripod.",
+        "64216": "Pick up the towel from the table and put it on the metal bar."
+       },
+    "remove_cloth_from_stand_put_on_table":{
+        "53388": "Remove the white and green cloth from the black stand",
+        "24416": "Remove the white cloth from the black stand",
+       "10615": "Remove the white cloth from the black stand and place it on the table",
+        "38175": "Take the white towel from the black metal rod and put it on the table"
+
+    },
+
+    "fold_cloth":{
+        "35443": "Fold the white cloth",
+        "72869": "Fold the white cloth one time over",
+        "54633": "Fold the cloth once",
+         "7596": "Fold the towel once on the table"
+    },
+
+      "unravel_cable":{
+        "37535": "Unravel the blue cord on the table",
+        "44706": "Unravel the phone charger",
+        "41144": "Unravel the charger"
+    },
+     "untangle_cable":{
+        "55919": "Untangle the blue cable",
+        "1904": "Untangle the blue cable",
+        "9627": "Untangle the charger."
+
+    },
+        "put_cloth_on_stand":{
+        "1619": "Pick the cloth on the table and put it on the stand",
+         "94156": "Put the white cloth on the black stand"
+    },
+    "unfold_item":{
+      "35061": "Unfold the towel.",
+      "35722": "Unfold the cloth on the table",
+      "49559": "Unfold the towel on the table"
+    },
+        "place_item_center_table": {
+        "84808": "Place the measuring tape in the center of the table",
+        "72227": "Move the tape measure to the center of the table"
+    },
+        "put_lid_on_table":{
+        "64095": "Put the lid on the table",
+        "60536": "Put the lid on the table"
+
+    },
+     "spread_item": {
+        "48720": "Spread the cable on the table",
+        "13572": "Spread the charger cable",
+        "54212": "Spread the cloth"
+     },
+    "straighten_item":{
+      "44123": "Straighten the cloth",
+      "11893": "Pick up the the cable and put it straight on the table"
+    },
+
+    "coil_cable":{
+        "5893": "Coil the cord",
+        "73305": "Twist up the charger cable neatly",
+        "16220": "Use the blue cable on the table to make a smaller circle"
+    },
+    "unwind_cable":{
+        "91507": "Unwind the cable",
+        "77401": "Move the ends of cable to opposite sides"
+    },
+     "fold_charger":{
+        "15467": "Fold the charger on the table",
+        "52710": "Fold the charger on the table"
+
+     }
+
+}

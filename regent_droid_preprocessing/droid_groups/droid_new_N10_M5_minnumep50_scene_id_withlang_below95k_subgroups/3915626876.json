@@ -1,0 +1,54 @@
+
+{
+    "Fold Blue Cloth": {
+        "9858": "Fold the blue cloth in half",
+        "92185": "Fold the blue sheet once",
+        "19660": "Fold the blue cloth",
+        "29906": "Fold the blue cloth"
+    },
+    "Move Forward": {
+        "3712": "Move the wrapper forward",
+        "59043": "Move the blue towel forward",
+        "11366": "Move the pencil forward"
+    },
+    "Open Drawer": {
+        "33423": "Open the right drawer",
+        "52382": "Open the top right drawer",
+        "60716": "Pull open the drawer",
+        "3253": "Open the drawer",
+        "76597": "Open the topmost drawer on the bottom part of the cabinet.",
+        "55546": "Open the top right drawer",
+        "22642": "Open the drawer"
+    },
+     "Close Drawer": {
+        "30540": "Close the drawer on the left.",
+        "17128": "Close the open drawer on the right.",
+        "36200": "Close the drawer",
+        "90862": "Close the drawer"
+
+    },
+    "Put Cloth on Desk/Table":{
+        "78011": "Put the cloth on the desk",
+        "64454": "Put the cloth on the desk",
+        "95038": "Put the blue cloth on the table"
+    },
+    "Put Car in Black Box":{
+        "49374": "Put the car in the black box.",
+        "50152": "Put the car in the black box."
+    },
+      "Draw with Pencil":{
+          "78215": "Pick up the pencil and write on the white paper",
+          "84752": "Use the pencil to draw on the piece of paper",
+          "1481": "Use the pencil to draw around the coin"
+      },
+    "Put Item on Chair":{
+          "24454": "Hang the blue fabric on the backrest of the chair.",
+          "21781": "Put the coat hanger on the chair",
+          "18612": "Put the blue cloth on the backrest of the chair.",
+          "64565": "Pick up the blue cloth and put it on the chair"
+    },
+    "Fold Towel":{
+        "27388": "Fold the towel on the table"
+    }
+}
+

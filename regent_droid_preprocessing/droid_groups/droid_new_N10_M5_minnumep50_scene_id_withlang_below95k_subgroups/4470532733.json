@@ -1,0 +1,72 @@
+
+{
+    "close_microwave": {
+        "50604": "Close the microwave",
+        "82730": "Close the microwave",
+        "85955": "Close the microwave",
+        "23929": "Close the microwave",
+        "23679": "Close the microwave"
+    },
+    "close_microwave_door": {
+        "56464": "Close the microwave door",
+        "63291": "Close the microwave door",
+        "62917": "Close the microwave door"
+    },
+    "open_microwave_door": {
+        "58379": "Open the microwave door",
+        "53521": "Open the microwave door",
+        "58150": "Open the microwave door",
+        "33342": "Open the microwave door",
+        "74337": "Open the microwave door",
+        "91229": "Turn the spatula on the couch and then open the microwave door",
+        "67956": "Open the microwave door",
+        "89840": "Open the door of the red microwave",
+        "27755": "Open the microwave",
+        "44539": "Open the microwave fully"
+
+    },
+    "put_object_in_box": {
+        "1823": "Put the black nut closest to the storage box inside it",
+        "16810": "Put the blue object inside the box",
+        "28845": "Put the pen in the storage box",
+        "56763": "Put the black object in the storage box",
+        "80339": "Put the metal tool in the storage box",
+      "7088": "Take the red block and put it in the box",
+        "70586": "Put the yellow and black object in the box",
+        "77041": "Put the yellow box and the brown stick object in the box",
+        "19048": "Pick a black ring from the sofa and put it in the storage box",
+        "17001": "Pick the spatula and put it in the box",
+        "41574": "Pick up the object on the sofa and place it in the plastic box",
+        "83359": "Pick up the tool from the couch and put it in the box.",
+        "8649": "Move the yellow object from the couch to the box",
+        "26840": "Pick up a spoon and place it in the box"
+    },
+    "move_object_left": {
+        "43016": "Move the orange block to the left",
+        "21433": "Move the orange object on the sofa slightly to the left",
+        "65732": "Move the clear storage box to the left",
+        "34902": "Move the black disc to the left"
+    },
+    "move_object_right": {
+        "43304": "Slide the black discs to the right and then move the storage bin slightly to the right",
+        "42422": "Move the gray cloth to the right side of the black object",
+        "22517": "Move the silver spoon to the right side of the sofa",
+        "30476": "Put the silver spoon in the drawer, move the wrench and wooden spoon to the right side of the sofa"
+
+    },
+    "put_object_on_tray":{
+        "25753": "Pick up a butter knife from the couch and put it on the tray",
+        "55975": "Pick up the bottle and spoons and put them on the tray",
+        "39765": "Put the white fork on the tray",
+        "19550": "Put one spoon inside the tray",
+        "51038": "Put the blue thing on the horizontal compartment of the tray",
+        "46032": "Put a spoon in the right compartment of the tray"
+    },
+     "move_object_forward":{
+        "82097": "Pick up one silver spoon and move it forwards"
+     },
+    "move_object_backward":{
+        "72310": "Move the black ring on the right away from the T-shaped wrench tool"
+    }
+}
+

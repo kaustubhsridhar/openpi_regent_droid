@@ -1,0 +1,134 @@
+
+{
+    "move_object_left": {
+        "23044": "Move the mouse to the left",
+        "68126": "Move the yellow can to the left",
+        "21589": "Move the bottle to the left",
+        "54393": "Move the yellow can to the left",
+        "94885": "Move the mouse to the left",
+        "17477": "Move the rubber duck and the mouse to the left",
+        "37081": "Move the yellow soda can to the left side of the desk",
+        "64261": "Move the bottle to the left side of the desk",
+        "30206": "Move the rubber duck and the mouse to the left",
+        "73644": "Move the mouse to the left"
+
+    },
+    "move_object_right": {
+        "57376": "Move the mouse to the right side of the desk",
+        "109": "Move the yellow can to the right side of the desk",
+        "59622": "Move the yellow can to the right",
+        "21223": "Move the bottle to the right",
+        "61619": "Move the white bottle to the right edge of the table",
+        "27734": "Move the headphones to the right",
+        "88169": "Move the black headphones to the right side of the desk",
+        "37512": "Move the soda can to the right hand side of the table",
+        "57137": "Move the white bottle to the right",
+       "842": "Move the yellow can to the right of the desk lamp",
+        "44413": "Move the microphone to the right",
+        "61907": "Move the desk lamp to the right"
+
+    },
+        "move_object_forward": {
+        "48695": "Move the yellow can forward",
+        "94779": "Move the computer mouse forward.",
+        "4210": "Move the keyboard slightly forward",
+        "35973": "Push the keyboard forwards",
+        "78516": "Move the black lamp forward",
+        "13040": "Move the white paper forward",
+        "30665": "Move the microphone forward",
+        "68554": "Move the pink can forward",
+        "20459": "Move the mouse forward",
+        "81576": "Move the can towards you"
+    },
+    "move_object_backward": {
+        "10793": "Move the black mouse backwards",
+        "42042": "Move the pink can backward",
+        "40417": "Move the paper away from the computer"
+    },
+
+    "turn_off_lamp": {
+        "33820": "Switch off the black lamp on the table.",
+        "81439": "Turn off the lamp",
+        "21124": "Turn off the desk lamp",
+        "73393": "Turn off the desk lamp",
+        "85748": "Turn off the desk lamp",
+        "7926": "Switch off the desk lamp",
+        "59167": "Turn off the table lamp",
+        "81703": "Turn off the desk lamp",
+        "90579": "Switch off the desk lamp",
+        "7644": "Turn off the desk lamp",
+        "31165": "Turn off the desk lamp",
+        "79289": "Turn off the lamp",
+        "7615": "Turn off the lamp",
+        "46812": "Turn off the lamp"
+    },
+    "turn_on_lamp": {
+        "59437": "Switch on the desk lamp",
+        "52389": "Turn on the desk lamp",
+        "79108": "Turn on the desk lamp",
+        "65806": "Turn on the desk lamp",
+        "44392": "Turn the desk lamp on",
+        "66975": "Switch on the desk lamp",
+        "8622": "Switch on the desk lamp",
+        "86488": "Switch on the desk lamp",
+        "41924": "Turn on the desk lamp"
+
+    },
+    "press_escape_key": {
+        "1039": "Press the escape key on the keyboard",
+        "93828": "Press the escape key on the keyboard",
+        "55443": "Click the escape key",
+        "42135": "Press the escape button the keyboard",
+        "35088": "Press the escape key on the keyboard",
+        "69922": "Press the escape key on the keyboard",
+        "1403": "Click the escape key on the keyboard",
+        "73645": "Press the escape key on the keyboard",
+        "59882": "Press the escape key on the keyboard",
+        "88562": "Push the escape key on the keyboard"
+
+    },
+   "press_space_key": {
+        "84998": "Press the space key on the keyboard",
+        "84506": "Press the space key on the keyboard",
+        "21716": "Press the spacebar on the keyboard",
+        "29910": "Press the space button on the keyboard",
+        "61225": "Push the space key on the keyboard",
+       "61758": "Press the space key on the keyboard",
+        "64830": "Press the space key on the keyboard",
+        "77235": "Push the space key on the keyboard",
+        "52116": "Push the space key on the keyboard",
+         "8856": "Click the space button on the keyboard"
+    },
+        "press_keyboard":{
+            "7296": "Press a button on the keyboard.",
+            "26755": "Press a button on the keyboard",
+            "71322": "Press a key on the keyboard",
+            "63650": "Press a button on the keyboard",
+            "73903": "Press on the keyboard",
+            "81157": "Press the keyboard",
+            "79690": "Press a key on the keyboard",
+            "95058": "Press the keyboard",
+            "58202": "Press a key on the keyboard",
+            "8035": "Press on the keyboard",
+           "7561": "Press a key on the keyboard",
+           "31695": "Press a button on the keyboard",
+            "44486": "Press on the keyboard"
+        },
+
+        "place_can_upright": {
+            "25633": "Place the yellow can upright",
+            "74854": "Put the drink can upright",
+            "91210": "Pick up the yellow can and set it upright",
+            "60679": "Put the pink can upright",
+           "10031": "Put the pink can upright on the paper",
+            "8094": "Place the pink soda can upright on the paper"
+
+    },
+       "hang_headphones":{
+           "61473": "Hang the headsets on the desktop stand",
+           "11930": "Hang the headphones on the monitor stand",
+            "49353": "Hang the headphones behind the monitor",
+            "69041": "Hang the headsets on the back of the monitor",
+            "73141": "Hang the headphones on the back of the desktop"
+       }
+}

@@ -1,0 +1,74 @@
+
+{
+    "open_bin": {
+        "37760": "Open the silver bin."
+    },
+    "close_bin": {
+        "48721": "Close the recycling bin",
+        "43517": "Close the silver bin.",
+        "37626": "Close the lid on the bin"
+    },
+    "move_right": {
+        "73345": "Move the pen to the cup on the right",
+        "93832": "Move the paper cup to the right",
+        "32662": "Move the left cup to the right",
+        "68759": "Move the red and white mug to the right",
+        "28505": "Move the wooden holder to the right."
+    },
+    "move_left": {
+        "81929": "Move the paper towel roll to the left",
+        "46517": "Move the paper towel to the left"
+    },
+    "open_drawer": {
+        "38166": "Open the first top drawer"
+    },
+   "put_in_cabinet": {
+        "27650": "Put the plate in the top cabinet",
+        "9215": "Pick up the bowl and put it in the top cabinet",
+        "10353": "Put the paper cup inside the cabinet"
+    },
+    "remove_from_coffeemaker": {
+        "88451": "Remove the coffee pod from the coffeemaker",
+        "32117": "Take the coffee pod out of the coffee maker chamber."
+
+    },
+        "close_coffeemaker": {
+        "63368": "Close the lid of the coffee making machine",
+        "88059": "Close the lid of the coffee maker"
+    },
+      "open_coffeemaker": {
+        "53188": "Open the coffeemaker chamber.",
+        "94582": "Open the coffee maker"
+    },
+    "move_straw_right": {
+        "80921": "Move the straw to the right cup",
+        "40885": "Move the straw from the left cup to the right cup"
+    },
+    "put_in_mug": {
+        "51474": "Put the stick inside the white mug",
+        "95536": "Put the spoon in the mug cup",
+        "56243": "Put the pen in the mug on the left.",
+        "78430": "Put the clear stirrer in the mug on the left.",
+        "26057": "Put the paper cup inside the white mug"
+    },
+    "put_in_broken_mug":{
+        "40380": "Put the biggest mug piece in the broken cup",
+        "59463": "Put the green and blue blocks in the broken mug.",
+        "4062": "Put a piece of the mug inside the broken mug",
+        "61409": "Place one red piece inside the broken mug."
+
+    },
+    "put_coffee_pod_in_coffeemaker":{
+      "31154": "Put the coffee pod on the counter in the coffeemaker.",
+      "28283": "Put the coffee pod in the coffee maker",
+      "87794": "Put the capsule in the coffee machine",
+      "42976": "Put the white object inside the coffee machine"
+    },
+    "put_sachet_in_cup":{
+        "54998": "Put the white sachet inside the white cup on the left."
+    },
+    "put_in_left_cup":{
+        "7108": "Put the chopstick in the left cup"
+    }
+}
+

@@ -1,0 +1,81 @@
+
+{
+    "remove_items_from_white_storage_and_place_on_table": {
+        "5888": "Remove the towels and t-shirts from the white storage bin",
+        "54017": "Remove the t-shirts from the white storage container",
+        "41741": "Remove the clothes from the white storage container",
+        "58254": "Take the t-shirts and towel out of the white container and put them on the tabletop",
+        "40592": "Remove the clothes from the white bin and put them on the table",
+        "36803": "Take the t-shirts and towels out of the white storage bin and place them on the table",
+        "36827": "Take the clothing out of the white storage bin and put them on the table",
+        "47459": "Remove the yellow towel and peach t-shirt from the white storage bin and place them on the table"
+    },
+    "remove_shirts_from_basket": {
+        "50051": "Remove the shirts from the basket.",
+        "37514": "Remove the shirts from the basket and put them on the table.",
+        "91281": "Remove the shirts from the basket.",
+        "63538": "Remove the shirts from the basket and put them on the table."
+    },
+	"remove_shirts_from_white_bin_and_place_on_table":{
+	    "20876": "Remove the shirts from the bin and put them on the table",
+        "70827": "Remove the shirts from the white bin and put them on the table",
+        "23616": "Remove the shirts from the white bin and put them on the table",
+        "89923": "Remove the shirts from the white bin and put them on the table"
+	},
+    "remove_clothes_from_box_and_place_on_table": {
+        "55821": "Pick up the clothes from the box and put them on the table",
+        "3219": "Remove the clothes from the box and put them on the table",
+        "31380": "Pick up the clothes from the box and put them on the table",
+        "59256": "Remove the clothes from the box and put them on the table",
+        "28568": "Remove all the clothes from the box and put them on the table",
+        "41498": "Remove the clothes from the box and put them on the table",
+        "17951": "Remove the clothes from the storage box and put them on the table",
+        "60447": "Remove the clothes from the box and put them on the table",
+        "75025": "Pick the clothes in the box and put them on the table",
+        "36782": "Remove the clothes from the box and put them on the table",
+        "41139": "Remove the clothes from the box and put them on the table",
+        "89920": "Pick the clothes from the box and put them on the table",
+        "74181": "Remove the clothes from the box and put them on the table",
+        "18931": "Pick the clothes in the box and put them on the table",
+        "78033": "Pick up the clothes from the box and put them on the table"
+    },
+    "pick_up_clothes_from_container_and_place_on_table": {
+        "91923": "Pick up the clothes from the container and put them on the table.",
+        "92168": "Pick up the cloths from the plastic container and put them on the table.",
+        "2210": "Pick up the cloths from the plastic container and put them on the table.",
+        "10150": "Pick up the fabrics from the container and put them on the table.",
+        "57785": "Pick up the clothes from the container and put them on the table.",
+        "26688": "Pick up the clothes from the container and put them on the table.",
+        "84301": "Pick the clothes from the container and put them on the table."
+    },
+    "remove_towels_from_basket": {
+        "70432": "Remove the towels from the basket."
+    },
+    "remove_items_from_bowl_and_place_on_table": {
+        "45074": "Remove the towels from the white bowl",
+        "49470": "Remove all the objects from the white bowl",
+        "27718": "Remove the things from the bowl and put them on the table",
+        "67913": "Remove the clothes from the bowl and put them on the table",
+        "80493": "Remove all the clothes from the bowl and put them on the table",
+        "89076": "Remove the clothes from the white bowl and put them on the table",
+        "57208": "Remove the clothes and towels from the bowl and put them on the table"
+    },
+	"remove_items_from_box_and_place_on_table":{
+	    "8394": "Take the t-shirts and towel out of the box and put them on the table",
+        "29917": "Remove the towels and t-shirts from the box and place them on the table",
+        "70132": "Take the towels and t-shirts out of the box and place them on the table",
+        "77043": "Remove the two t-shirts and two towels from the white box and place them on the table"
+	},
+	"remove_clothes_from_storage_box":{
+		"91742": "Remove the clothes from the storage box",
+		"12005": "Remove the contents from the storage box and put them on the table",
+        "20169": "Remove the clothes and towels from the storage box and put them on the table",
+        "70732": "Move the shirts and towels from the storage box and put them on the table"
+
+	},
+    "pick_up_cloths_from_plastic_box_and_place_on_table":{
+        "87930": "Pick the cloths in the plastic box and put them on the table",
+        "72098": "Put the clothes in the plastic box and put them on the table"
+    }
+}
+

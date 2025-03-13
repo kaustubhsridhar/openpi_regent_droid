@@ -1,0 +1,70 @@
+
+{
+"put_yellow_toy_in_bowl": {
+"50048": "Put the yellow thing onto the bowl",
+"60932": "Put the yellow dog toy in the green bowl.",
+"94725": "Place the star shaped toy in the bowl",
+"83596": "Put the yellow plastic toy in the bowl",
+"10510": "Put the green toy in the bowl",
+"11185": "Put the yellow toy in the green bowl",
+"86453": "Put the yellow block in the bowl",
+ "47590": "Put the yellow thing into the bowl",
+"43115": "Put the yellow object inside the bowl",
+"7934": "Pick up the yellow bear on the left and put it in the green bowl."
+
+},
+"put_orange_toy_in_bowl": {
+"36513": "Pick up the orange toy from the table and put it in the green bowl",
+"77867": "Put the orange plastic toy in the green bowl",
+"83372": "Put the orange toy in the green bowl",
+"19126": "Put the orange object inside the bowl",
+"33209": "Put the orange toy in the green bowl"
+},
+"put_blue_toy_in_bowl": {
+"25903": "Pick up the stacked blue block and put it in the green bowl",
+"54575": "Pick up the blue toy from the table and put it in the green bowl",
+"81201": "Pick up the blue toy from the table and put it in the green bowl.",
+"49342": "Put the blue toy in the green bowl",
+"94548": "Pick up the light blue toy from the table and put it in the green bowl",
+"65250": "Put the blue toy in the green bowl",
+"51697": "Put the blue toy animal in the bowl"
+
+},
+"put_blue_block_in_bowl":{
+    "45256": "Put the blue block in the bowl",
+    "29660": "Put the blue block inside the bowl"
+},
+"put_green_toy_in_bowl":{
+     "54755": "Pick up the most forward green toy and put it in the green bowl",
+    "36068": "Put the green object in the bowl"
+},
+
+"remove_yellow_toy_from_bowl_and_put_on_table": {
+"34217": "Remove the yellow duck from the green bowl and put it on the table",
+"12212": "Remove the yellow plastic toy from the green bowl and put it on the table",
+    "89577": "Transfer the yellow object from the bowl to the table",
+"16690": "Take the yellow thing out of the bowl",
+    "92597": "Take the yellow thing out of the bowl"
+},
+"remove_orange_toy_from_bowl_and_put_on_table": {
+"44936": "Remove the orange toy from the green bowl and put it on the table",
+"90228": "Remove the orange toy from the green bowl and put it on the table",
+  "23264": "Pick up the orange toy from the green bowl and put it on the table"
+},
+"remove_blue_toy_from_bowl_and_put_on_table": {
+"87735": "Remove the blue toy in the green bowl and place it on the table",
+"41786": "Pick up the light blue toy from the green bowl and put it on the table",
+"56144": "Shift the item, which is in the bowl, to the table",
+    "11478": "Remove the light blue elephant from the bowl and put it on the table"
+
+},
+    "remove_green_toy_from_bowl_and_put_on_table":{
+         "88767": "Take the green animal toy out of the bowl and put it on the table",
+          "58617": "Remove the green toy from the green bowl and put it on the table",
+        "15317": "Remove one green object from the green bowl and put it on the table."
+    },
+"put_misc_on_table":{
+     "4650": "Put the orange toy on the table",
+    "56442": "Put the yellow block on the table"
+}
+}

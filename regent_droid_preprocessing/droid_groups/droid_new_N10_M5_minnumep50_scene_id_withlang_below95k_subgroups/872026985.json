@@ -1,0 +1,98 @@
+
+{
+    "move_object_forward": {
+        "28165": "Move the blue sponge forwards",
+        "72234": "Move the bottle of blue liquid forward",
+        "62379": "Move the bottle forward",
+        "8275": "Move the bowl forward"
+    },
+    "move_object_backward": {
+        "1108": "Move the detergent bottle backwards",
+        "36987": "Move the orange sachet backwards"
+    },
+    "move_object_towards_you": {
+        "34477": "Move the left bottle closer to you",
+        "44027": "Move the left bottle and the blue sponge closer to you, respectively"
+    },
+    "move_tap_right": {
+        "33669": "Move the tap to the right",
+        "33858": "Move the tap to the right"
+    },
+   "turn_faucet_on": {
+        "51335": "Turn the tap on",
+        "28830": "Turn on the faucet of the sink.",
+        "72135": "Turn on the faucet of the sink.",
+        "50813": "Open the faucet",
+        "29127": "Open the kitchen faucet",
+        "17399": "Open the tap",
+        "4861": "Open the tap faucet to the right"
+
+    },
+    "turn_faucet_off": {
+        "77969": "Close the tap",
+        "66968": "Close the tap",
+        "62748": "Close the water tap.",
+        "21671": "Turn off the faucet of the sink.",
+        "13231": "Close the faucet"
+    },
+      "turn_handle_right_clockwise": {
+        "39435": "Turn the handle on the right side of the faucet clockwise",
+        "81830": "Turn the faucet handle on the right clockwise"
+    },
+     "move_faucet_handle_left": {
+        "68708": "Move the faucet handle on the right to the left"
+     },
+    "pick_up_and_put_in_sink": {
+        "3721": "Pick the soap bottle and put it in the sink",
+        "73403": "Pick up the plate from the counter and put it in the sink",
+        "36287": "Pick up the bottle from the counter and put it in the sink",
+        "55542": "Pick up the bottle from the counter and put it in the sink"
+    },
+    "put_object_into_sink": {
+        "27812": "Put the spray bottle into the sink.",
+        "3766": "Put the spray bottle into the sink",
+        "591": "Move the bottle from the base top and put it in the sink"
+    },
+       "put_bowl_in_sink":{
+        "22775": "Put the white bowl in the sink",
+        "220": "Put the bowl in the sink",
+        "40691": "Pick the bowl and put it in the sink"
+
+    },
+        "remove_bowl_from_sink":{
+        "17180": "Take the white bowl out of the sink",
+        "94558": "Remove the white bowl from the sink and put it on the counter"
+    },
+    "pick_up_and_put_on_counter": {
+        "93184": "Pick up the bottle from the sink and put it on the counter",
+        "31505": "Remove the dish soap from the sink and put it on the counter",
+        "36536": "Pick up the bottle and put it on the counter",
+        "60846": "Remove the bottle from the sink and put it on the base top",
+      "61620": "Remove the dishwashing liquid from the sink and place it on the right side of the countertop",
+        "67019": "Pick the bowl in the sink and put it on the counter"
+
+    },
+    "put_into_bowl": {
+         "12565": "Put the ketchup packet into the white bowl",
+         "42708": "Put the orange card in the bowl",
+         "25674": "Pick up the sachet on the right and place it in the white bowl",
+         "40546": "Pick up a sachet from the counter and put it in the bowl"
+    },
+        "move_bowl_right":{
+        "27582": "Move the bowl to the right",
+        "58558": "Move the white bowl to the right side of the sink"
+
+    },
+          "remove_from_sink":{
+        "83487": "Remove the bottle out of the sink"
+
+    },
+    "clean_with_sponge":{
+        "39418": "Clean the counter with the sponge"
+
+    },
+        "move_sponge_right":{
+        "23019": "Move the sponge the sponge to the right"
+        }
+}
+

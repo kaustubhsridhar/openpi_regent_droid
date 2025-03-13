@@ -1,0 +1,90 @@
+
+{
+    "put_tennis_ball_in_container": {
+        "8192": "Put the tennis ball inside the container",
+        "67971": "Put the tennis ball on the left in the container.",
+        "23816": "Put the tennis ball in the black container.",
+        "54029": "Put the tennis ball into the package",
+        "6158": "Put one tennis ball in the black container.",
+        "75409": "Put the tennis ball in the canister",
+        "56219": "Put the tennis ball in the canister",
+        "59295": "Put the tennis ball into the canister",
+        "68257": "Put the tennis ball in the black container.",
+        "94001": "Put the tennis ball inside the container",
+        "57523": "Put the tennis ball in the black container.",
+        "24629": "Put one tennis ball into the tennis ball tube",
+        "12347": "Lift the tennis ball from the towel and put it in the tennis container",
+        "70203": "Put the tennis ball in the container",
+        "49598": "Pick up the tennis ball on the left and put it in the black container.",
+        "22597": "Put one tennis ball in the black container.",
+        "70095": "Lift the tennis ball to the right from the table and put it in the tennis container",
+        "66769": "Put the tennis ball in the container",
+        "84817": "Put the tennis ball into the cylinder",
+        "89041": "Put the tennis ball into the tube",
+        "15322": "Put the tennis ball inside the container",
+        "18910": "Put the tennis ball inside the canister",
+        "17009": "Put the tennis ball into the tube",
+        "25077": "Put the tennis ball into the tennis ball canister",
+        "8314": "Put the tennis ball in the black container.",
+        "40571": "Place the tennis ball on the left in the tennis ball container",
+        "67582": "Put a tennis ball in the small container"
+    },
+    "put_one_tennis_ball_in_container": {
+        "72709": "Put one tennis ball into the canister",
+        "50827": "Put one tennis ball in the container.",
+        "81947": "Put one tennis ball in the container.",
+        "52694": "Place one tennis ball inside the canister"
+    },
+    "put_green_ball_in_container": {
+        "32641": "Put the green ball on the right into the glass container",
+       "73493": "Put the green tennis ball inside the glass container",
+        "39966": "Put the green ball in the container",
+        "42813": "Put the left green ball in the container",
+        "42445": "Put the left green ball in the container",
+       "15602": "Put the left green ball in the container",
+        "25085": "Put the green ball in the container"
+
+    },
+        "put_green_ball_in_black_container":{
+        "4007": "Pick up the green ball and put it inside the black can with balls in it",
+        "30144": "Put the green ball inside the black container",
+        "77648": "Put the green ball inside the black container",
+        "723": "Put the green tennis ball inside the black container",
+        "66269": "Put the green ball inside the black container"
+    },
+    "put_ball_in_container": {
+        "83479": "Put the ball in the container",
+        "84437": "Put the ball in the container",
+        "20389": "Put the closest ball in the container"
+
+    },
+    "put_ball_in_cup":{
+        "35468": "Put a ball in the cup",
+        "2786": "Put the ball in the cup"
+    },
+      "place_tennis_ball_with_other_tennis_balls":{
+        "43259": "place the tennis ball with the other tennis balls"
+      },
+    "pick_up_green_tennis_ball_put_in_container":{
+       "24479": "Pick the green tennis ball on the right and place it in the clear cylindrical tennis ball container",
+        "78781": "Pick up the green tennis ball and put it in the storage container",
+        "78274": "Pick up the green tennis ball and put it into the cylindrical tennis ball container",
+       "92384": "Pick the green tennis ball on the right and put it into the cylindrical tennis container"
+    },
+    "put_one_ball_in_canister":{
+        "60388": "Put one ball inside the canister"
+    },
+    "shift_tennis_ball_canister":{
+        "81667": "Shift the tennis ball to the canister"
+    },
+        "pick_up_left_tennis_ball_put_cylindrical_container":{
+        "50089": "Pick up the tennis ball on the left and put it in the cylindrical tennis ball container",
+        "44775": "Pick the tennis ball to the left and place it in the cylindrical container"
+    },
+    "put_tennis_ball_inside_saver":{
+        "24237": "Pick up the tennis ball and put it inside the tennis ball saver on the table"
+    },
+"move_tennis_ball_to_jar":{
+   "18288": "move the tennis ball to the jar"
+}
+}

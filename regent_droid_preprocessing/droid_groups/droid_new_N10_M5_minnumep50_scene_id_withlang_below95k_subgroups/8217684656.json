@@ -1,0 +1,58 @@
+
+{
+    "put_object_in_pot": {
+        "91522": "Put the green block in the pot",
+        "59652": "Put the yellow plush toy inside the silver pot",
+        "17159": "Put the yellow plushy in the pot",
+        "89480": "Put the yellow block inside the silver pot",
+        "27150": "Put the brown object in the pot",
+        "66450": "Put the brown object in the pot",
+        "55073": "Put the brown object in the pot",
+        "81193": "Place the sponge inside the silver pot",
+        "35381": "Put the yellow object inside the pot",
+        "56640": "Put the brown object in the pot",
+        "78549": "Put the brown object in the pot",
+        "33754": "Pick up the plush toy from table and put it in the pot",
+        "11109": "Put the block in the pot",
+        "29925": "Pick up the plush toy and put it in the pot",
+        "23798": "Put the grey block into the silver pot"
+    },
+    "remove_object_from_pot": {
+        "35859": "Remove the block from the pot",
+        "10138": "Remove the plush toy from the pot and put it on the table",
+        "42400": "Remove the object from the pot.",
+        "9539": "Remove the plushy from the pot",
+        "12492": "Remove the yellow object from the pot",
+        "33783": "Remove the brown object from the pot",
+        "53494": "Pick up the object from the pot and put it on the table."
+
+    },
+    "move_object_left": {
+        "4485": "Move the green block to the left",
+        "5905": "Move the yellow object to the left",
+        "75184": "Move the silver pot to the left",
+        "22902": "Move the green block to the left",
+        "2936": "Move the orange towel to the left"
+    },
+    "move_object_forward": {
+        "1298": "Move the cube forward",
+        "9646": "Move the towel forward",
+        "9146": "Push the orange towel forwards.",
+        "55099": "Move the towel closer to you",
+        "62534": "Move the yellow cube forward",
+        "16584": "Move the orange towel forwards",
+        "25212": "Move the orange towel forwards."
+    },
+    "move_object_backward": {
+        "16159": "Move the cube backwards",
+        "44490": "Move the towel backwards."
+    },
+      "remove_object_from_bowl_and_place_on_table": {
+        "80926": "Pick up the object from the silver bowl and put it on the table.",
+        "90283": "Pick up the object from the silver pot and put it on the table.",
+        "4792": "Remove the yellow block from the silver bowl and put it on the table",
+        "6732": "Remove the yellow object from the silver bowl and put it on the table",
+        "15738": "Pick up the green block from the silver pot and put it on the table."
+    }
+}
+

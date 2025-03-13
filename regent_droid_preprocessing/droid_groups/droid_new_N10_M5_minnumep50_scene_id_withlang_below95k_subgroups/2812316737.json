@@ -1,0 +1,47 @@
+
+{
+    "folding_clothes": {
+        "74125": "Fold the pair of trousers",
+        "61199": "Fold the sleeves on the white t-shirt",
+        "95483": "Fold the blue cloth in half",
+        "81939": "Fold the black trousers in half",
+        "75005": "Fold the pair of pants",
+        "75562": "Fold the black cloth",
+        "42294": "Fold the black dress in half",
+        "59714": "Fold the towel",
+        "74952": "Fold the coat",
+        "34264": "Fold the green jersey",
+        "16735": "Fold the green cloth on the bed.",
+        "22624": "Fold the white t-sheet on the bed",
+        "3581": "Fold the orange towel twice",
+        "20722": "Fold the towel",
+        "93044": "Fold the sweatshirt"
+    },
+    "unfolding_clothes": {
+        "36353": "Unfold the green jersey.",
+        "44036": "Unfold the yellow towel",
+        "85720": "Unfold the blue towel.",
+        "14682": "Unfold the black shirt"
+    },
+    "opening_devices_or_books": {
+        "82692": "Open the tablet on the bed",
+        "61574": "Open the laptop",
+        "90136": "Open the front cover of the book",
+        "8059": "Open the book on the bed"
+    },
+    "closing_devices_or_books": {
+        "12177": "Close the book",
+        "34577": "Close the iPad on the bed.",
+        "92705": "Close the book",
+        "17473": "Close the tablet cover"
+    },
+     "straightening_clothes": {
+        "35114": "Straighten the blue and white blanket on the bed.",
+        "55466": "Straighten the white clothing"
+    },
+    "spreading_clothes":{
+        "51465": "Spread the black jacket",
+        "19069": "Lay the blue jeans out on the bed"
+    }
+}
+

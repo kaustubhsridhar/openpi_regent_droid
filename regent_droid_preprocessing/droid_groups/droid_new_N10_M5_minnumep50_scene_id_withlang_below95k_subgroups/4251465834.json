@@ -1,0 +1,108 @@
+
+{
+"coffee_machine_press_button": {
+    "11776": "Press the button on the coffee machine",
+    "75777": "Press a button on the coffeemaker.",
+    "91658": "Press the coffee maker button",
+    "9747": "Press a button on the coffeemaker",
+    "12825": "Press a button on the coffee maker",
+    "55833": "Press the coffee maker",
+    "67122": "Press a button on the coffee maker",
+    "28725": "Press a button on the coffeemaker.",
+    "12863": "Press a button on the coffee maker",
+    "59457": "Press a button on the coffee making machine",
+    "21070": "Press a button on the coffeemaker.",
+    "32351": "Press a button on the coffee maker",
+    "82536": "Press a button on the coffeemaker.",
+    "10373": "Press a button on the coffeemaker.",
+    "649": "Press a button on the coffee maker",
+    "61577": "Press a button on the coffeemaker",
+    "28309": "Press a button on the coffee maker",
+    "75928": "Press a button on the coffeemaker.",
+    "66735": "Press a button on the coffeemaker.",
+    "65210": "Press a button on the coffeemaker.",
+    "65723": "Press the coffee maker button",
+    "62656": "Press the button on the coffee machine",
+    "62660": "Press a button on the coffee making machine",
+    "89797": "Press a button on the coffee maker",
+    "10994": "Press a button on the coffee maker",
+    "25846": "Press a button on the coffee machine",
+    "64258": "Press a button on the coffee maker",
+    "7955": "Press a button on the coffee maker",
+    "59669": "Press a button on the coffee maker",
+    "95509": "Press a button on the coffee machine",
+    "71964": "Press a button on the coffee machine",
+    "39195": "Press a button on the coffee maker",
+    "35101": "Press a button on the coffeemaker.",
+    "17704": "Press a button on the coffee maker",
+    "11568": "Press a button on the coffee maker",
+    "45365": "Press a button on the coffee maker",
+    "57682": "Press the button on the coffee machine",
+    "6484": "Press a button on the coffeemaker.",
+    "33621": "Press a button on the coffee maker",
+    "83298": "Press a button on the coffeemaker",
+    "92005": "Press the button on the coffee machine",
+    "30580": "Press a button on the coffee maker",
+    "38772": "Press a button on the coffee maker",
+    "49536": "Press the coffee maker",
+    "55179": "Press a button on the coffeemaker.",
+    "68501": "Press a button on the coffee maker machine",
+    "82334": "Press a button on the coffee machine",
+    "82852": "Press a button on the coffee maker",
+    "13221": "Press a button on the coffee maker",
+    "58280": "Press a button on the coffeemaker",
+    "62394": "Press a button on the coffeemaker",
+    "62399": "Press a button on the coffeemaker",
+    "91076": "Press a button on the coffee maker",
+     "792": "Press a button on the coffeemaker.",
+    "55237": "Press a button on the coffeemaker",
+    "6098": "Press a button on the coffeemaker.",
+    "7124": "Press the buttons on the coffee making machine",
+    "4070": "Press a button on the coffeemaker.",
+    "92151": "Press a button on the coffeemaker"
+    },
+"coffee_machine_press_right_button": {
+    "66572": "Press a button on the right side of the coffee machine",
+    "3598": "Press the second rectangular button from the right on the coffee machine",
+     "11873": "Press a button on the right side of the coffee machine",
+    "8887": "Press a button on the right side of the coffee machine",
+    "82208": "Press a button on the right side of the coffee machine",
+    "39716": "Press the third rectangular button from the right",
+   "7557": "Press a button on the right side of the coffee machine",
+    "64412": "Press the button on the right side of the coffee machine",
+    "37821": "Press the far right rectangular button on the coffee machine",
+"50079": "Push the second button from the right on the coffee maker"
+
+    },
+
+"kettle_press_button": {
+    "27662": "Press the switch on the kettle",
+    "42019": "Press the on button on the electric kettle",
+    "7840": "Press the button on the white kettle",
+    "78592": "Press a button on the kettle",
+     "74028": "Press a switch on the kettle",
+    "55115": "Press the button on the white kettle",
+     "69869": "Press the button on the handle of the kettle.",
+     "67399": "Push the white button on the handle of the electric kettle"
+    },
+"kettle_turn_on":{
+    "75985": "Turn on the electric kettle using the on switch on it",
+    "49371": "turn on the kettle",
+     "84355": "Turn on the kettle",
+    "25841": "Press the electric kettle power button to turn it on"
+
+},
+"kettle_misc":{
+    "1587": "Turn off the kettle.",
+    "78060": "Flip the switch on the kettle"
+
+},
+"coffee_machine_misc":{
+    "85091": "Flip a switch on the right side of the coffee machine",
+    "6340": "Tap the right side of the coffee maker",
+ "59608": "Turn on the coffeemaker.",
+    "59773": "Turn on the coffee maker",
+    "43374": "Switch on the coffee machine",
+"19924": "Push the coffee maker backwards"
+}
+}

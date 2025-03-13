@@ -1,0 +1,107 @@
+
+{
+    "close_flask": {
+        "1569": "Close the flask",
+        "84104": "Close the flask lid",
+        "76429": "Close the lid of the flask",
+        "58543": "Close the flusk.",
+        "11522": "Close the lid on the flask",
+        "81630": "Close the mouth of the flask",
+        "79680": "Close the mouth of the flask",
+        "28068": "Close the flask",
+        "1967": "Close the flask"
+    },
+    "press_down_on_flask_lid": {
+        "77890": "Press down on the lid of the flask",
+        "84055": "Press down on the top of the flask to close the lid",
+        "90821": "Press down the lid on the flask",
+        "85716": "Press the lid of the flask",
+        "14555": "Press down on the lid of the flask",
+        "71949": "Press down on the top of the flask",
+        "15676": "Press down on the lid of the flask",
+        "41799": "Press down on the lid of the flask"
+    },
+    "open_flask": {
+        "42060": "Open the lid on top of the thermos flask",
+        "87233": "Open flask",
+        "21280": "Open the flask",
+        "91457": "Open the flask",
+        "45389": "Open the mouth of the flask",
+        "31656": "Open the flask"
+    },
+    "move_brush_up_and_down_in_flask": {
+        "26": "Move the bottle brush up and down repeatedly in the thermos flask",
+        "72308": "Move the bottle brush up and down repeatedly in the thermos flask",
+        "40602": "Move the brush inside the flask up and down",
+        "48816": "Move the brush inside the flask up and down",
+        "9000": "Move the brush inside the flask up and down",
+        "90941": "Move the brush inside the flask up and down",
+        "72583": "Move the brush inside the flask up and down",
+        "31730": "Move the brush inside the flask up and down"
+
+    },
+       "move_brush_up_and_down_in_silver_flask": {
+        "37058": "Move the brush inside the silver flask up and down",
+        "37117": "Move the brush inside the silver flask up and down",
+        "48110": "Move the brush inside the silver flask up and down"
+
+    },
+    "scrub_inside_of_flask": {
+        "36431": "Scrub the inside of the flask with the brush",
+        "95419": "Scrub the inside of the flask",
+        "1240": "Scrub the inside of the flask using the brush",
+        "44364": "Scrub inside the flask with the brush"
+    },
+    "use_brush_to_clean_flask":{
+        "40534": "Use the object to clean the flask",
+        "70136": "Use the object to clean the flask",
+        "53421": "Use the brush to clean the inside of the flask"
+    },
+    "use_brush_to_clean_silver_bottle":{
+        "64116": "Use the brush to clean the silver bottle",
+        "47248": "Use the brush to clean the inside of the silver bottle",
+        "93650": "Use the brush to clean the silver bottle"
+
+    },
+        "use_brush_to_scrub_inside_jar":{
+        "5719": "Use the the brush to scrub inside the jar",
+        "77994": "Use the brush to scrub inside the jar",
+        "26422": "Use the brush to scrub inside the jar"
+
+    },
+    "stir_contents_in_flask":{
+    "84492": "Stir the contents in the flusk.",
+    "33830": "Use the object to stir the contents in the jug",
+      "55241": "Stir the contents in the flusk."
+
+    },
+    "stir_contents_in_silver_flask":{
+    "64842": "Stir the contents in the silver flask.",
+    "36211": "Stir the contents in the silver flask."
+    },
+    "stack_cups":{
+        "56354": "Stack up the cups",
+        "31269": "Stack up the cups"
+    },
+
+    "press_top_of_bottle_to_close":{
+        "84057": "Press the top of the bottle to close",
+        "2444": "Press the top of the bottle to close"
+    },
+     "open_cap_on_silver_bottle":{
+        "77073": "Open the cap on the silver jar",
+        "17254": "Open the cap on the silver bottle"
+     },
+    "close_thermos_flask_lid": {
+        "85857": "Close the lid at the top of the thermos flask",
+        "58354": "Close the lid on the top of the thermos flask"
+    },
+      "press_nozzle_to_open_bottle":{
+        "26120": "Press the nozzle to open the drinking hole of the bottle",
+        "1486": "Press the nozzle to open the drinking hole of the bottle"
+    },
+      "press_down_on_silver_flask":{
+        "53990": "Press down on the top of the silver flask",
+        "84902": "Press down on the lid of the silver flask"
+    }
+}

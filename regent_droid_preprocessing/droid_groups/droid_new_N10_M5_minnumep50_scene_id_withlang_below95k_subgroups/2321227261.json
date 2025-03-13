@@ -1,0 +1,80 @@
+
+{
+    "close_shower_door": {
+        "74885": "Close the shower door",
+        "77980": "Close the shower door",
+        "61994": "Close the shower door",
+        "44614": "Close the shower door",
+        "39550": "Close the shower door",
+        "69721": "Close the shower door"
+    },
+    "open_shower_door": {
+        "30854": "Open the shower door and put the grey towel on the seat of the chair",
+        "92456": "Open the shower door",
+        "23108": "Open the shower door",
+        "59589": "Open the shower door.",
+        "36937": "Open the shower door",
+        "41677": "Open the shower door",
+        "56167": "Open the shower door",
+        "53238": "Open the shower door"
+    },
+     "open_door": {
+        "21387": "Open the door",
+        "72618": "Open the door",
+        "10182": "Open the door",
+        "73029": "Open the door",
+        "73188": "Open the door"
+    },
+    "close_door": {
+        "43928": "Close the door",
+        "35283": "Close the door",
+        "67427": "Close the door"
+    },
+    "open_glass_door": {
+        "60050": "Open the glass shower door",
+        "80159": "Open the glass door of the shower.",
+        "56290": "Open the glass door",
+        "16252": "Open the glass door"
+    },
+   "place_towel_on_chair_back":{
+        "75401": "Hang the cloth on the back of the chair",
+        "72714": "Move the towel to the backrest of the chair",
+        "58845": "Hang the dark towel on the back of the chair",
+        "63458": "Pick up the black towel from the sitting base and put it on the chair back of the chair.",
+        "58691": "Put the first towel on top of the backrest of the chair",
+        "72319": "Hang the grey towel on the back of the chair"
+   },
+    "put_towel_on_chair":{
+        "13056": "Pick up the small towel and place it on the chair",
+        "86021": "Pick the grey towel on the right and place it on the black chair",
+        "5549": "Put the towel on the chair.",
+        "75317": "Unhang the towel and put it on the chair",
+       "25572": "Take the gray towel from the towel rack and place it on the black chair"
+    },
+    "move_towel_from_backrest_to_seat":{
+        "6809": "Remove the towel from the backrest and put it on the seat of the chair",
+       "55974": "Move the gray towel from the backrest of the black chair to the seat of the chair"
+    },
+    "remove_towels_from_bar_put_on_black_seat":{
+        "73116": "Remove the towels from the bar and put them on the black seat",
+        "71972": "Remove the leftmost towel from the bar and put it on the black seat",
+        "48677": "Remove the leftmost towel from the bar and put it on the black seat",
+        "16971": "Remove the towels from the rail and place them on the seat of the black chair",
+        "7282": "Remove the towels from the rail and place them on the black chair"
+    },
+        "close_then_open_door": {
+        "64162": "Close then open the door"
+    },
+    "pull_glass_door_open":{
+        "4324": "Pull the glass door open",
+        "18279": "Pull the glass door open"
+    },
+    "close_glass_door":{
+        "5384": "Close the glass door",
+        "72131": "Close the glass shower door"
+
+    },
+        "open_shower_door_close_shower_door":{
+        "61239": "Open the shower door, push the shower door closed"
+    }
+}

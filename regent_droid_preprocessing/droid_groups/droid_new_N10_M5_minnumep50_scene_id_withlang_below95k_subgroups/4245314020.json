@@ -1,0 +1,59 @@
+
+{
+    "cover_pot": {
+        "71555": "Put the glass lid on the pot",
+        "58629": "Put the lid on the pot.",
+        "69003": "Cover the pot",
+        "1805": "Put the glass lid on the black pot",
+        "72847": "Put the glass lid on the black pot",
+        "23571": "Cover the pot",
+        "92820": "Pick up the glass lid from the table and put it on the black pot.",
+        "30495": "Put the lid on the black pot",
+        "74289": "Put the lid on the pot",
+        "6205": "Pick up lid and close the pot",
+        "43198": "Put the lid on the pot",
+        "77772": "Put the glass lid on the black pot",
+        "34141": "Cover the pot with a lid",
+        "8547": "Pick up the lid from the table and put it on the pot",
+        "68977": "Pick up the lid from the table and put it on the pot.",
+        "95098": "Put the glass lid on the black pot."
+    },
+    "uncover_pot": {
+        "23561": "Uncover the pot",
+        "79498": "Uncover the pot and put the lid on the table",
+        "15628": "Take the lid off of the pot",
+        "94089": "Remove the lid from the pot",
+        "5270": "Take the lid off the pot",
+        "44953": "Put the lid of the pot on the table",
+        "31258": "Remove the glass lid from the pot and put it on the table",
+        "52646": "Uncover the pot and put the lid on the table",
+        "4264": "Take the lid off of the pot",
+        "38582": "Remove the glass lid from the black pot",
+        "69954": "Uncover the pot",
+        "85075": "Remove the lid from the pot and put it on the table",
+        "50418": "Remove the glass lid from the black pit and put it on the table",
+        "47223": "Remove the lid from the pot",
+        "84102": "Pick up the lid from the black pot and put it on the table."
+    },
+    "turn_off_toaster": {
+        "34318": "Turn off the toaster",
+        "77846": "Turn off the toaster",
+        "44231": "Switch off the toaster",
+        "77019": "Switch off the toaster",
+        "58987": "Turn off the switch on the toaster"
+    },
+    "push_toaster_lever_up": {
+        "82689": "Push the toaster lever up",
+        "69273": "Release the lever on the toaster upwards."
+    },
+    "push_toaster_lever_down": {
+        "29990": "Press down on the press handle of the toaster",
+        "94059": "Push the toaster lever down",
+        "14966": "Push the lever on the toaster downwards",
+        "25401": "Push the button down on the toaster."
+    },
+   "move_objects_forward": {
+        "63607": "Move the yellow bottle and the salt cellar forwards"
+   }
+}
+

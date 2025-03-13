@@ -1,0 +1,47 @@
+
+{
+    "lid_on_jar": {
+        "58641": "Put the lid on top of the glass jar.",
+        "296": "Put the lid on the glass jar."
+    },
+    "item_on_plate": {
+        "74256": "Put the fork, spoon and small bottle on the plate",
+        "92582": "Pick up the fork from the table and put it on the plate",
+        "44064": "Put the silver spoon on the white plate.",
+        "50271": "Put the silver fork on the plate.",
+        "88043": "Put the spoon on the plate",
+        "11517": "Place the silver fork on the white plate."
+    },
+    "fork_next_to_spoon": {
+        "8748": "Put the fork next to the spoon",
+        "90049": "Put the fork next to the spoon"
+    },
+   "move_item_left": {
+        "34051": "Move the brown and grey objects on the right to the left.",
+        "57493": "Move the black mug to the left of the plate",
+        "84220": "Move the white towel to the left.",
+        "58063": "Move the cup to the left"
+    },
+    "move_item_right": {
+        "92243": "Move the cup to the right",
+        "16738": "Move the white cloth to the right"
+    },
+    "move_item_forward": {
+        "62127": "Remove the container from the black cup and move the black cup forward",
+        "8388": "Move the white placemat forwards.",
+        "86997": "Put the white object in the basket then move the basket forwards.",
+        "40930": "Move the black object with glass marbles forward",
+        "95099": "Move the cup forward"
+    },
+    "move_item_backward": {
+        "89959": "Move the brown box backwards",
+        "71420": "Move the black plate backwards"
+    },
+        "rotate_item":{
+        "68514": "Turn the basket around",
+        "13484": "Turn the table mat 90 degrees",
+        "74567": "Turn the plate to the right"
+    }
+
+}
+

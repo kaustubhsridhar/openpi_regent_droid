@@ -1,0 +1,118 @@
+
+{
+    "no_action": {
+        "48653": "No action",
+        "68672": "No action",
+        "24291": "No action"
+    },
+    "put_packet_in_bin": {
+        "88126": "Put the brown packet inside the bucket on the left",
+        "35203": "Put the brown packet inside the bucket on the left",
+        "10161": "Put the packet inside the bin",
+        "32739": "Place the packet of popcorns in the bin"
+    },
+    "put_object_in_bin": {
+        "18981": "Put the plastic inside the rubbish bin",
+       "11550": "Pick up a plastic bag on the left and put it in the clear bucket",
+       "11166": "Throw the clear object into the bin"
+
+    },
+     "pour_packet_into_bin": {
+        "39426": "Pour the contents in the black packet into the white bin.",
+        "6601": "Pour the contents from the black packet into the bin"
+    },
+    "upright_container": {
+        "87672": "Correct the bin's position",
+        "45773": "Put the bin upright",
+        "90780": "Make the jar stand upright",
+        "82183": "Position the jar vertically",
+        "48415": "Place the container on the right upright.",
+        "50022": "Place the jug upright.",
+        "48632": "Position the jug upright"
+    },
+    "rotate_spice_rack": {
+        "32878": "Twist around the rack of spices then put the white bottle on the rack",
+        "34570": "Twist around the spice rack then put the bottle on the rack",
+        "30680": "Turn the seasoning rack around, pick up the white container and put it in the slot of the rack"
+    },
+    "put_bottle_on_spice_rack": {
+        "82187": "Put the bottle onto the spice rack",
+        "58806": "Put the spice bottle on the spice rack"
+    },
+    "move_white_bottle_on_spice_rack": {
+        "50875": "Move the white spice bottle from the bottom of the spice rack and place it at the top rack of the spice rack",
+        "50450": "Remove the white container from the bottom right of the  seasoning rack and put it on the top of the seasoning rack",
+        "42882": "Rotate the silver stand then put the white container on the bottom shelf of the stand.",
+        "81518": "Move the white bottle from the top rack to the bottom rack",
+        "31835": "Take the bottle from the top shelf to the bottom shelf of the spice rack"
+    },
+    "straighten_bottle_on_rack": {
+        "9336": "Put the container lying on the seasoning rack in an upright position",
+        "16599": "Straighten the tilted bottle on the rack",
+        "75201": "Straighten the tilted spice bottle on the rack"
+    },
+   "place_items_using_spoon": {
+        "24614": "Use the silver spoon to place contents from the clear container on the right into the medium measuring cup.",
+        "67676": "Use the silver spoon to put some of the contents of the clear lunchbox into the middle silver pot on the left",
+       "23180": "Put one white object on the silver spoon then lift the spoon and put the object in the silver bowl.",
+        "55992": "Put some of the white items on the spoon and put the items on the spoon in the silver item",
+        "2752": "Put the orange objects on the silver spoon then use the spoon to place the objects in the small measuring cup.",
+        "24877": "Put the white object on the spoon then put it inside the silver object",
+        "92490": "Place one white object from the clear bowl on the wooden spoon., use the spoon to place the object in the large measuring cup.",
+        "92570": "Put the orange object on the spoon, then drop it into the pot",
+        "82418": "Put one white object on the silver spoon then use the spoon to put the object in the measuring cup at the front.",
+        "61911": "Place the petal on the spoon and empty it into the middle bowl on the left side of the wooden spoon"
+
+    },
+
+    "pour_into_cup": {
+        "593": "Pour the contents of the clear jug into the glass cup",
+        "49748": "Pour the contents of the plastic jar into the glass jar",
+        "47802": "Pour the contents of the plastic jar into the glass cup",
+        "85265": "Pour the contents of the clear jug into the glass cup",
+         "77101": "Pour the water in the jar into the glass cup"
+    },
+      "pour_into_other": {
+        "42752": "Pour the contents from the glass cup into the jar",
+        "55724": "Pour the contents in the packet into the silver bowl"
+    },
+     "remove_lid": {
+        "41007": "Remove the lid from the spice shaker on the first shelf to the left and put it on the  kitchen countertop",
+        "68199": "Take the lid off of the spice bottle",
+        "9384": "Remove the lid from the clear container and put it in the bin."
+    },
+    "press_toaster_button": {
+        "26149": "Press a button on the toaster",
+        "75953": "Press a button on the toaster",
+        "58238": "Press a button on the toaster.",
+        "16319": "Press a button on the toaster",
+        "85440": "Press a button on the toaster.",
+        "23843": "Press a button on the left side of the toaster"
+    },
+    "push_toaster_lever": {
+        "3155": "Push down the switch of the toaster",
+        "30817": "Push the toaster lever down",
+        "32884": "Push the lever of the toaster down",
+        "44229": "Push down the toaster lever",
+        "76997": "Push the lever on the toaster downwards.",
+        "89316": "Push the lever on the toaster downwards.",
+        "25044": "Push the lever on the toaster downwards.",
+        "61885": "Push the lever of the toaster down",
+        "43445": "Push the black toaster lever fully downwards"
+    },
+     "turn_object": {
+        "63003": "Turn the remote around",
+         "54267": "Turn the clear jug over rand put it on the grey potholder",
+          "33753": "Turn the plastic jar over",
+          "73093": "Flip the bottle over"
+     },
+
+    "turn_toaster": {
+        "22574": "Turn the grey toaster to the right",
+        "44117": "Turn the toaster to the right until it is fully horizontal to the counter",
+        "43617": "Slide the toaster from a vertical position to a horizontal position",
+        "5037": "Turn the toaster ninety degrees to the left",
+         "86780": "Turn the knob of the toaster to the right"
+
+    }
+}

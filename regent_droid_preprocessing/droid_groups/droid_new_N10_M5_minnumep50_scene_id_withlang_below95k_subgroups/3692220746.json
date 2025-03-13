@@ -1,0 +1,56 @@
+
+{
+    "paper_towel_roll_upright": {
+        "18178": "Put the paper towel roll in an upright position",
+        "92626": "Put the tissue roll upright"
+    },
+    "place_paper_towel_roll_on_holder": {
+        "40854": "Place the paper towel roll on its holder",
+        "44188": "Put the paper towel roll on its holder"
+    },
+    "lay_coffee_cup_on_counter": {
+        "86305": "Lay the coffee cup on the counter",
+        "50217": "Lay the coffee cup on the counter"
+    },
+    "put_item_in_left_bin": {
+        "13447": "Put the cup in the left bin",
+        "11164": "Put one piece of paper in the left bin",
+        "89526": "Put the piece of paper in the left bin",
+        "69572": "Pick up the small white paper on the right side of the counter and put it in the left bin",
+        "25798": "Put one small paper in the trash chute on the left",
+        "67141": "Pick up the paper bowl, press the paper bowl on the kitchen counter three times and put it into the left bin",
+        "61522": "Pick up the small white paper to the right of the serviette on the kitchen counter and put it in the left bin",
+        "36699": "Put the white paper in the left open trash disposer",
+        "90978": "Squeeze the paper cup three times, pick up the paper cup and put it in the left bin",
+        "57976": "Fold the white tissue on the left in half from left to right, pick up the folded tissue and put it in the left bin",
+        "27385": "Fold the rectangular white serviette, pick up the rectangular white serviette and put it in the left bin"
+    },
+    "turn_cup_upside_down": {
+        "702": "Turn the paper cup over",
+        "77276": "Turn the plastic cup upside down",
+        "72806": "Put the cup upside down"
+    },
+   "wipe_counter_with_paper_towel_or_napkin": {
+        "30126": "Use the right paper towel to clean the surface",
+        "68783": "Use the napkin in the middle to wipe the counter",
+        "94951": "Use the paper towel to wipe the counter"
+    },
+    "throw_item_in_left_bin":{
+        "39365": "Throw the tissue into the bin on the left",
+        "582": "Pick up the sachet on the left and throw it in the bin",
+        "75583": "Throw a paper towel through the left garbage shoot",
+        "63531": "Pick up the small plastic cup and throw it in the disposal opening on the left",
+        "82550": "Move the piece of tissue forward, pick up the white sachet and then throw it in the opening on the left",
+        "59250": "Throw the lid in the bin"
+    },
+      "empty_blue_packet_into_garbage_shoot":{
+        "44632": "Empty the blue packet into the garbage shoot",
+        "43871": "Pour the contents in the blue packet into the trash chute on the left"
+    },
+     "press_down_on_packet":{
+        "75434": "Press down on the blue and white packet nine times",
+        "86092": "Push down on the blue and white packet nine times"
+
+    }
+}
+

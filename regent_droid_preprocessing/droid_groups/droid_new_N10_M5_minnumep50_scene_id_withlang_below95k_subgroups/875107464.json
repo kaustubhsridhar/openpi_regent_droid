@@ -1,0 +1,65 @@
+
+{
+    "Move Left": {
+        "21260": "Move the cup to the compartment on the left",
+        "70418": "Move the cup to the left",
+        "90275": "Move the black marker to the left",
+        "72035": "Move the coffee cup to the left."
+    },
+    "Move Right": {
+        "4238": "Move the blue book to the right.",
+        "65977": "Move the black cable to the right.",
+        "89315": "Move the book to the right"
+    },
+    "Move Backwards": {
+        "38163": "Move the cup backwards",
+        "79792": "Move the wooden rail on the right backwards.",
+        "88513": "Push the wooden rail on the left backwards."
+    },
+    "Open Cabinet Door": {
+        "52363": "Open the cabinet door",
+        "1092": "Open the cabinet door at the center",
+        "82164": "Use the orange object to open the cabinet door"
+    },
+   "Close Cabinet Door": {
+        "38031": "Close the open cabinet door",
+        "75450": "Close the middle cabinet door",
+        "26525": "Close the cabinet",
+        "83058": "Close the desk's door"
+    },
+    "Put Item in Cup": {
+        "91398": "Put the marker in the coffee cup.",
+        "54673": "Pick up the marker and put it inside the paper cup",
+        "87768": "Place the marker in the cup",
+        "58604": "Put the black remote in the paper cup"
+
+    },
+    "Put Item on Top of Cabinet": {
+        "58418": "Put the cup on the top of the cabinet",
+        "61259": "Put the coffee cup on top of the cabinet.",
+        "11108": "Put the coffee cup on top of the cabinet.",
+        "82289": "Put the cable on the top of the cabinet"
+    },
+    "Put Orange Object in Blue Object": {
+        "20097": "Put the left orange disc in the blue board",
+        "36125": "Pick up the orange object and put it in the blue object",
+        "79777": "Put the orange chip in the blue gameboard.",
+        "46245": "Put the orange objects inside the blue object",
+        "91958": "Pick up one orange circular object and put in the blue frame",
+        "32086": "Put one orange disc in the blue board",
+        "19907": "Pick up the orange object and place it in the blue object"
+
+    },
+   "Place Item Upright": {
+        "6830": "Put the cup upright",
+        "48839": "Make the cup stand",
+        "46689": "Place the coffee cup upright.",
+        "69715": "Pick up the cup and make it stand upright"
+    },
+     "Put Item on Desk":{
+        "83024": "Put the white paper on the desktop.",
+        "1526": "Put the black cable on the desktop.",
+        "38264": "Put the black cable on the top part of the desk"
+     }
+}
+

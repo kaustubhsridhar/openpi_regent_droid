@@ -1,0 +1,73 @@
+
+{
+    "put_ropes_in_blue_box": {
+        "27392": "Place the white rope in the blue box",
+        "43276": "Put the two white ropes inside the blue box",
+        "93329": "Place the two white ropes inside the blue box",
+        "68124": "Put the ropes inside the blue box.",
+        "1071": "Place the white ropes inside the blue box",
+        "78385": "Put the white ropes in the blue box",
+        "47803": "Place the two white ropes inside the blue box",
+        "60760": "Put the white ropes inside the blue box",
+        "34142": "Put the white ropes inside the blue box",
+        "1502": "Put the ropes inside the blue box.",
+        "87136": "Put the white ropes inside the blue box"
+    },
+    "put_ropes_in_box": {
+        "93319": "Put the ropes inside the box.",
+        "58253": "Put the ropes in the carton box",
+        "81557": "Put the ropes in the box",
+        "42533": "Put the ropes in the box",
+        "46377": "Put the ropes into the box.",
+        "56887": "Put the ropes in the box",
+        "78424": "Put the rope in the box"
+    },
+     "put_strings_in_blue_box": {
+        "69785": "Put the strings in the blue box",
+        "76486": "Put the strings inside the blue box.",
+        "84183": "Put the string in the blue box"
+    },
+    "separate_white_ropes": {
+        "34697": "Separate the two white ropes",
+        "91918": "Separate the two white ropes",
+        "73505": "Separate the two white ropes",
+        "59944": "Separate the two white ropes",
+        "33245": "Separate the two white ropes"
+    },
+    "untangle_ropes_on_table": {
+        "74637": "Untangle the ropes on the table.",
+        "91315": "Untangle the ropes on the table",
+        "29375": "Untangle the rope on the table.",
+        "52037": "Untangle the rope on the table.",
+        "18126": "Untangle the rope on the table.",
+        "6957": "Untangle the two ropes on the table."
+    },
+    "pick_up_ropes_put_in_box": {
+        "41223": "Pick up the two small ropes from the table and put them in the blue box.",
+        "40851": "Pick up the ropes from the table and put them in the box",
+        "71706": "Pick up the ropes from the table and put them in the box",
+        "64862": "Pick up the ropes from the table and put them in the box"
+    },
+    "straighten_rope": {
+        "31700": "Straighten out the rope",
+        "35029": "Straighten the rope",
+        "13528": "Straighten the rope"
+    },
+   "unfold_rope":{
+        "89238": "Unfold the rope on the table",
+        "45768": "Unfold the rope on the table",
+        "52193": "Unfold the rope on the table"
+   },
+    "untangle_rope": {
+        "11693": "Untangle the rope",
+        "61051": "Untangle the rope."
+    },
+        "straighten_strings":{
+        "14212": "Straighten out the strings",
+        "6003": "Straighten out the string"
+    },
+     "put_strings_inside_box":{
+        "15852": "Put the strings inside the box."
+     }
+}
+

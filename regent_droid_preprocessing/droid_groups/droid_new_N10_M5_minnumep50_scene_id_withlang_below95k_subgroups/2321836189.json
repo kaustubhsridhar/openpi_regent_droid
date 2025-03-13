@@ -1,0 +1,95 @@
+
+{
+    "erase_whiteboard": {
+        "85055": "Use the eraser to wipe the white board on the table",
+        "43086": "Erase the whiteboard with the duster",
+        "84084": "Erase the drawing on the white board",
+        "63609": "Use the whiteboard eraser to clean the whiteboard",
+        "29311": "Use the black eraser to wipe the small whiteboard on the desk",
+        "82566": "Use the whiteboard eraser to erase the whiteboard on the desk",
+        "53910": "Pick up the duster and rub the white object",
+        "64210": "Pick up the board eraser and wipe the whiteboard with it.",
+        "72491": "Wipe the whiteboard with the black eraser",
+        "84340": "Wipe the whiteboard using the black eraser on the desk",
+        "2450": "Use the duster to clean the whiteboard",
+        "85439": "Use the duster to wipe the whiteboard"
+    },
+    "move_object_forward": {
+        "28679": "Move the black bottle forward",
+        "95546": "Move the screwdriver towards you",
+        "83388": "Move the red screwdriver forward and to the left",
+        "56296": "Move the screwdriver in front forwards"
+    },
+    "move_object_backward": {
+        "50861": "Move the black flask backwards"
+    },
+    "write_on_paper_with_marker": {
+        "66054": "Take the marker from the table and draw two line on the paper and put the marker on the table",
+        "61974": "Use the marker to write on the paper.",
+        "52406": "Pick up the marker and write on the piece of paper",
+        "31182": "Write the letter v on the paper using the marker",
+        "39281": "Pick up the marker on the table and write on the blank piece of paper"
+    },
+    "write_on_whiteboard_with_marker": {
+        "82134": "Use the black marker to write on the whiteboard",
+        "47360": "Use the marker to draw an asterisk on the whiteboard",
+        "38178": "Use the marker to write the letter K  on the whiteboard"
+    },
+        "put_item_in_clear_container": {
+        "35843": "Put the orange pliers from the table into the clear plastic container",
+        "49265": "Remove the red pair of scissors from the clear container on the right side of the table",
+        "50985": "Put the scissors inside the plastic container",
+        "70978": "Remove the scissors from the desk and put it in the clear container on the right",
+        "1446": "Put the blue bottle inside the plastic container on the right",
+        "89562": "Put the silver nail inside the clear container on the right"
+
+    },
+    "put_item_in_storage_box": {
+        "51791": "Pick the screwdriver on the table and put it in the storage box",
+        "5092": "Put the screwdriver in the storage box",
+                "33201": "Put the black and silver object in the storage box"
+    },
+        "put_item_on_whiteboard":{
+                "528": "Put the duster on the whiteboard",
+                "26366": "Put the screwdriver on the whiteboard",
+                "75228": "Put the silver object on top of the glass object on the white board"
+        },
+    "put_lid_on_container": {
+        "51419": "Put the silver lid on the clear bottle",
+        "37271": "Put the silver lid on the crystal column"
+    },
+    "remove_lid_from_container":{
+        "41555": "Take the small silver lid off the transparent object",
+        "92798": "Take the silver lid off the taller glass bottle",
+        "95361": "Remove the lid from the glass object on the right"
+    },
+    "move_item_left":{
+        "91841": "Move the water bottle to the left.",
+        "72974": "Move the cup to the left",
+        "41884": "Move the pliers to the left",
+        "53173": "Move the red screwdriver to the left",
+        "52221": "Move the black bottle to the left side of the desk"
+    },
+    "move_item_right":{
+      "642": "Move the scissors from left to right.",
+      "53563": "Move the glass bottle near the blue cup to the right",
+      "75622": "Move the screw driver slightly to the right"
+    },
+        "put_yellow_object_on_black_holder":{
+            "9967": "Take the yellow object in the black holder and put it on the table",
+            "85427": "Put the yellow object on the black stand",
+            "3893": "Put the yellow object that's closest to the black rack in it",
+            "24536": "Remove one yellow object from the table and put it on the black rack",
+            "60660": "Detach a yellow thing from the black object and put it on the table"
+
+        },
+        "put_tool_on_table":{
+           "60954": "Take one wrench from the tool holder and put it on the board",
+           "69731": "Take the small pliers out of the box and put them on the table",
+            "92401": "Take one tool out of the tool holder and put it on the counter",
+            "2737": "Remove the screwdriver handle from the bowl and put it on the table",
+           "78137": "Pick up one of the red objects from the box and place it on the table",
+           "60127": "Pick up a bolt from the box and set it on the table",
+           "90503": "Put the pair of scissors on the table"
+        }
+}

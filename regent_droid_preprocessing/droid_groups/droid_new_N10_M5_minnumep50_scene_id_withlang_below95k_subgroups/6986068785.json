@@ -1,0 +1,91 @@
+
+{
+    "lid_on_pot": {
+        "66052": "Use the blue cloth to put the silver lid on the pot",
+        "82440": "Use the blue towel to place the lid on the pot",
+        "63712": "Put the silver lid on the silver pot.",
+        "91422": "Pick up the silver pot lid and put it on the silver pot",
+        "38341": "Put the silver lid on the silver pot",
+        "94713": "Put the silver lid on the pot"
+    },
+    "remove_lid_put_on_table": {
+        "27668": "Remove the lid from the pot and put it on the table to the left of the pot",
+        "71193": "Use the blue towel on the lid to remove the lid from the pot and put it on the table on the left side of the pot on the table",
+        "27814": "Pick up the silver pot lid and put it on the table",
+        "68806": "Put the lid on the table",
+        "80058": "Pick up the silver pot lid and use it to push the key on the table to the right, put the silver pot lid on the table",
+        "64804": "Remove the lid from the pot and put it on the table",
+        "65338": "Remove the silver lid from the pot and put it on the table"
+    },
+    "fold_towel": {
+        "29712": "Use the corners to fold the towel",
+        "33872": "Fold the towel on the table",
+        "90245": "Fold the white towel twice",
+        "73867": "Fold the white towel into a triangle once.",
+        "17402": "Fold the white towel once using the top left towel corner onto the bottom right towel corner"
+    },
+    "put_spoon_and_fork_in_cup": {
+        "88105": "Pick up a fork and a spoon and place them on top of the green cup starting with the fork and then the spoon last",
+        "25868": "Put the fork and spoon in the green cup"
+    },
+     "put_item_in_bowl":{
+        "69733": "Pick up the spoon and fork next to the yellow bowl and put them in the yellow bowl starting with the spoon and end with the fork",
+        "92367": "Pick up the leggos and put them in the yellow bowl",
+        "52977": "Put the orange cup into the bowl"
+     },
+    "put_item_in_pot": {
+        "44047": "Pick up the spice bottle from the table and put it in the silver pot",
+        "2830": "Pick up the object from the orange cup and put it in the silver pot",
+         "75064": "Put the spatula in the pot",
+         "7037": "Put the towel inside the silver pot"
+
+    },
+    "remove_item_put_on_table":{
+        "17416": "Remove the jar from the orange cup and put it on the table.",
+        "15950": "Pick up the spice bottle from the silver pot and put it on the table",
+        "35075": "Move the silver object from the pot to the table"
+    },
+    "put_fork_on_spoon":{
+        "55854": "Pick up the silver fork and put it on the silver spoon",
+        "17751": "Put the fork on the spoon on the yellow bowl"
+    },
+    "unfold_towel":{
+        "89196": "Unfold the white napkin",
+        "78318": "Unfold the white towel twice"
+    },
+    "put_spoon_in_cup_in_bowl":{
+        "7220": "Pick up the spoon from the table and put it in the blue cup that is in the yellow bowl, pick up the fork and put it in the blue cup that is in the yellow bowl",
+        "84056": "Pick up the yellow cup and move it into the yellow bowl, pick up the metallic spoon and put it in the yellow cup that is in the yellow bowl",
+        "94515": "Put the yellow cup in the yellow bowl then put the spoon in the yellow cup"
+    },
+        "put_fork_in_cup":{
+            "7220": "Pick up the spoon from the table and put it in the blue cup that is in the yellow bowl, pick up the fork and put it in the blue cup that is in the yellow bowl",
+            "31039": "Pick up the silver fork and put it in the green cup"
+        },
+    "put_paper_towel_on_holder": {
+        "20257": "Put the paper towel roll on the paper towel roll holder",
+        "31657": "Put the paper towel on the paper towel holder",
+        "22478": "Put the paper towel on the stand"
+    },
+        "remove_paper_towel_roll":{
+            "70515": "Remove the paper towel roll from the silver stand",
+            "65956": "Remove the paper towel roll from the handle",
+            "48910": "Remove the paper towel roll from the paper towel roll stand and put it on the table"
+
+        },
+    "use_cloth_to_remove_lid":{
+        "72717": "Use the blue cloth to remove the lid from the pot",
+        "46373": "Pick up the blue cloth and put it on the silver pot lid, pick up the silver pot lid with the blue cloth and put it on the silver pot, pick up the blue cloth and put it back on the table"
+    },
+        "put_cutlery_on_bowl":{
+            "44840": "Put the silver fork on the yellow bowl",
+            "93545": "Stack the spoon and fork on the bowl",
+            "51614": "Put the silver spoon and fork on top of the yellow bowl",
+            "45986": "Put one silver fork and spoon on top of the yellow bowl."
+        },
+        "put_spoon_on_towel_and_fold":{
+            "95455": "Pick up the spoon and place it on the towel then fold the towel with the spoon on it",
+            "69362": "Put the spoon on the towel, then fold the towel",
+            "84305": "Put the spoon on the paper towel and fold it"
+        }
+}

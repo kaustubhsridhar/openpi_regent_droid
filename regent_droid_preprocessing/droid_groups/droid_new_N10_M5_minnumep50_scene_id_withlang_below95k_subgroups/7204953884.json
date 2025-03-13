@@ -1,0 +1,118 @@
+
+{
+    "clean_stove": {
+        "6144": "Use the brush to clean the top of the stove",
+        "24636": "Brush the top of the stove.",
+        "32883": "Lift the blue tower from the stove, use it to wipe the top of the stove and then put it back on the stove",
+        "72825": "Use the towel to wipe the top of the stove"
+    },
+    "turn_knob_right": {
+        "11287": "Turn the knob to the right",
+        "23634": "Turn the knob to the right",
+        "89299": "Turn the knob to the right.",
+        "72452": "Turn the stove knob clockwise",
+        "48570": "Turn the switch on the stove to the right"
+    },
+    "turn_knob_left": {
+        "3813": "Turn the knob to the left.",
+        "35601": "Turn the knob to the left.",
+        "61897": "Turn the knob on the stove to the left.",
+        "52033": "Turn the stove on the switch to the left"
+    },
+    "flip_switch_left": {
+        "34337": "Flip the switch on the bottom left side of the stove",
+        "8302": "Flip the switch on the bottom left side of the stove",
+        "83283": "Flip the switch on the bottom left side of the stove"
+    },
+    "put_lid_on_pan": {
+        "9246": "Pick up the clear pan lid and put it on the gray pan",
+        "53896": "Put the lid on the pan",
+        "8374": "Put the glass lid on the pan",
+        "57527": "Put the glass lid on the pan",
+        "65343": "Put the glass lid on the pan",
+        "50542": "Put the lid on the pan",
+        "42354": "Lift the lid and use it to cover the pan",
+        "81829": "Put the lid on the pan"
+    },
+    "put_lid_on_pot": {
+      "15371": "Place the lid on the pot and then move it to the bottom right stove plate",
+      "16941": "Put the pot holder over the lid then put the lid on the pot",
+      "90184": "Pick up the clear pot lid from the black over mitten and place it on the black pot, slide the black pot to the bottom left cooker on the stove using the handle",
+      "92306": "Put the black item on the lid and put the lid on the pot",
+       "83339": "Pick up the black oven mitts and put it on the clear pot lid, pick up the black oven mitts with the pot lid and cover the black pot",
+       "28057": "Pick up the clear lid from the black oven mat and put it on the black pot",
+       "1965": "Use the black pot holder to place the glass lid on the pot.",
+       "31155": "Put the lid on the pot",
+        "94144": "Put the glass lid on the pot.",
+        "9689": "use the cloth to pick up the lid of the pot and place it on the pot",
+        "12250": "Use the mitten to carry the lid and cover the pot",
+        "55206": "move place the lid on the pot"
+
+    },
+    "move_pan_backward": {
+        "85097": "Move the pan backwards.",
+        "29301": "Move the pan backwards then use the blue fabric to wipe the pan.",
+        "38243": "Move the pan backwards",
+        "60684": "Put the lid on the right pot, the push the pot backwards"
+    },
+    "move_pan_forward": {
+        "18095": "Move the pan forwards.",
+        "46336": "Move the pan forward and use the brush in the middle of the plates to brush the inside of the pan",
+        "90596": "Move the pan forward, then use the blue towel to wipe the handle of the pan"
+    },
+     "move_pan_right": {
+        "33092": "Move the pan to the right",
+        "79241": "Move the pan to the right"
+    },
+    "move_pan_left": {
+       "48748": "Move the pan from the right to the left plate",
+        "21349": "Move the pan to the left",
+        "87826": "Move the pan to the bottom left stove plate"
+
+    },
+       "remove_lid_put_on_potholder":{
+        "48642": "Use the black potholder to remove the glass lid from the pot and then put the lid on the bottom right stove plate",
+        "13836": "Remove the glass lid from the pot and put it on the black pot holder on the stove",
+        "8727": "Remove the glass lid from the pan and put it on the black potholder",
+        "38002": "Remove the glass lid from the grey pot and put it on the black pot holder on the stove",
+        "84602": "Remove the glass lid from the pan and put it on he black potholder on the stove",
+        "23760": "Remove the glass lid from the pan and put it on the black potholder on the stove"
+    },
+    "press_button_stove": {
+        "31750": "Press a button on the stove.",
+        "25504": "Press the button on the stove",
+        "32726": "Press a button on the stove",
+        "56104": "Push the bottom button on the second row of buttons from the left of the stove button display",
+        "61781": "Press the button on the left side of the stove"
+    },
+      "wipe_pan":{
+        "28236": "Use the white cloth to clean the pan",
+        "46753": "Use the towel to wipe the pan",
+        "15637": "Use the towel to wipe the pan."
+    },
+    "put_lid_on_mat":{
+        "32322": "Pick up the clear pot lid and put it on the black oven mat",
+        "84822": "Put the pan's lid on the black mat"
+    },
+     "remove_lid_from_pot": {
+        "73914": "Remove the glass lid from the black pot.",
+        "22807": "Remove the lid from the black pot"
+     },
+       "fold_towel":{
+        "6662": "Fold the tea towel on the stove",
+        "73663": "Fold the towel two times over."
+    },
+    "move_pot_backward":{
+         "90389": "Move the pot backwards then put the lid on top"
+    },
+      "put_towel_on_oven_handle":{
+        "80430": "Remove the white towel from the oven handle and put it on the stove",
+        "19177": "Put the towel on the oven door handle",
+        "89065": "Move the towel to the oven handle"
+      },
+        "place_on_stove":{
+        "13825": "Use the black trivet mat to lift the lid from the pot and put it on the stove",
+        "37394": "move the cloth and place it on the stove"
+    }
+}
+

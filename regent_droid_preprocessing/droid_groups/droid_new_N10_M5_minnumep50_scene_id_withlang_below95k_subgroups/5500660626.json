@@ -1,0 +1,89 @@
+
+{
+"put_item_in_bowl": {
+    "94212": "Put the silver tape in the black bowl",
+    "92165": "Put the masking tape in the bowl",
+    "74776": "Pick up the seal tape and put it in the bowl",
+    "43059": "Put the masking tape in the bowl",
+    "3153": "Put the yellow object in the black bowl",
+    "72796": "Put the pen into the bowl",
+    "5265": "Put the silver tape in the bowl",
+    "29329": "Put the gray tape in the black bowl",
+    "67737": "Put the orange object in the bowl",
+    "6314": "Put the gray tape in the black bowl",
+    "32953": "Put the silver tape in the bowl",
+    "68290": "Put the gray tape in the black bowl",
+    "35559": "Put the masking tape in the bowl",
+    "38638": "Pick the orange object and put it in the bowl",
+    "63809": "Put the tape into the bowl.",
+    "20826": "Put the orange object inside the bowl.",
+    "58714": "Put the green block inside the bowl",
+    "4452": "Pick up the seal tape and put it in the bowl",
+    "51558": "Put the grey masking tape in the black bowl",
+    "898": "Put the grey masking tape inside the black bowl",
+    "43432": "Put the masking tape in the bowl",
+    "35757": "Put the green block in the black bowl",
+    "75183": "Pick up the green cube and put it in the bowl",
+    "38833": "Put the grey masking tape in the black bowl",
+    "81349": "Put the yellow object in the black bowl",
+    "1482": "Put the silver tape in the bowl",
+    "57309": "Put the black masking tape in the bowl",
+    "12774": "Pick up the green object from the table and put it in the bowl",
+        "45045": "Pick the orange object and put it in the bowl"
+
+},
+    "move_bowl_left": {
+        "79898": "Move the black bowl to the left",
+        "26719": "Move the bowl to the left on the table",
+        "29328": "Move the bowl to the left",
+        "51878": "Move the bowl to the left",
+        "81574": "Move the bowl to the left",
+        "771": "Move the black bowl to the left",
+        "79107": "Move the black bowl to the left.",
+        "31007": "Move the bowl to the left."
+    },
+    "move_bowl_right": {
+        "18657": "Move the bowl to the right",
+        "31982": "Move the bowl to the right side of the table",
+        "6385": "Move the black bowl to the right",
+        "10495": "Move the green block to the right",
+        "50947": "Move the bowl to the right",
+    "67917": "Move the black bowl to the right",
+    "15326": "Move the black bowl to the right",
+    "42807": "Slide the bowl to the right",
+        "84346": "Pick up the black bowl from the table and move it to the right."
+    },
+    "move_tape_right": {
+        "45678": "Move the black masking tape to the right",
+        "95350": "Move the tape to the right",
+        "33960": "Move the masking tape to the right",
+    "53451": "Move the black masking tape to the right",
+        "4494": "Move the masking tape to the right.",
+        "87006": "Move the grey tape to the right",
+        "30692": "Move the brown tape to the right",
+        "92644": "Move the black masking tape to the right"
+
+    },
+    "move_tape_left": {
+        "72779": "Move the tape to the left",
+    "46435": "Slide the tape to the left",
+        "63895": "Move the tape to the left"
+    },
+     "move_seal_tape": {
+        "72339": "Move the grey seal tape",
+        "4249": "Move the seal tape",
+        "17617": "Move the seal tape",
+         "11717": "Move the grey seal tape",
+         "64499": "Move the grey seal tape"
+     },
+    "move_green_block_left": {
+        "84634": "Move the green block to the left"
+    },
+    "move_green_block_right": {
+      "41037": "Move the green cube to the right"
+    },
+ "move_black_rod_forward": {
+  "67229": "Move the black rod forward"
+ }
+}
+

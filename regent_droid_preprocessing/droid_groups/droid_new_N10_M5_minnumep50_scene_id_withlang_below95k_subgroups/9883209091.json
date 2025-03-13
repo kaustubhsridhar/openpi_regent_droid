@@ -1,0 +1,241 @@
+
+{
+    "move_cup_forward": {
+        "31237": "Move the cup forward",
+        "38920": "Slide the cup forward",
+        "82290": "Move the cup forward",
+        "50554": "Move the cup forward",
+        "87426": "Move the cup forward",
+        "66452": "Move the cup forward",
+        "70578": "Move the cup forward",
+        "65800": "Move the cup forward",
+        "9494": "Move the cup forward",
+        "91294": "Slide the cup forward"
+    },
+    "move_cup_backward": {
+        "16934": "Move the cup backwards",
+        "52794": "Move the cup backwards.",
+        "9296": "Move the cup backwards",
+        "64845": "Move the cup away from you",
+        "5983": "Move the cup away from you",
+        "93157": "Move the cup backwards"
+
+    },
+    "move_cup_left": {
+        "70168": "Move the cup to the left",
+        "41001": "Move the cup to the left",
+        "89222": "Move the cup to the left",
+        "71863": "Move the cup to the left",
+        "49345": "Move the cup to the left",
+        "45834": "Move the cup to the left",
+        "12560": "Move the cup to the left",
+        "4884": "Move the cup to the left",
+        "32644": "Move the cup to the left",
+        "42929": "Move the cup to the left",
+        "88398": "Move the cup to the left",
+        "33277": "Move the cup to the left"
+    },
+    "move_cup_right": {
+        "85019": "Move the cup to the right",
+        "49707": "Move the cup to the right",
+        "87186": "Move the cup to the right",
+        "6956": "Move the cup to the right."
+    },
+    "move_mug_forward": {
+        "84993": "Move the mug forwards",
+        "81433": "Move the mug forward",
+        "16452": "Move the mug forward",
+        "82022": "Move the mug forward",
+        "52325": "Move the mug cup forward",
+        "26745": "Move the mug forward",
+        "23253": "Move the mug forward.",
+        "66196": "Move the mug forward",
+        "51373": "Move the mug forward",
+        "62195": "Move the mug forward",
+        "15103": "Move the mug forward",
+        "29983": "Move the mug forward",
+        "39306": "Move the mug forward",
+        "61926": "Move the mug forward",
+      "18356": "Move the mug cup forward",
+      "2697": "Slide the mug forward",
+       "81874": "Slide the mug forward"
+    },
+    "move_mug_backward": {
+        "49164": "Move the mug backward",
+        "34379": "Move the mug backward",
+        "24248": "Move the mug backward",
+        "14036": "Move the mug backward",
+        "35549": "Move the mug backwards",
+        "71395": "Move the mug backwards",
+        "8075": "Move the mug backward",
+      "91467": "Move the mug backwards",
+        "34391": "Move the mug backwards",
+        "3540": "Move the mug backwards",
+        "23905": "Slide the mug backwards",
+      "30675": "Slide the mug backwards"
+
+    },
+    "move_mug_left": {
+        "78852": "Move the white mug to the left",
+        "85509": "Move the mug slightly to the left",
+        "50191": "Move the green mug to the left",
+        "67091": "Move the mug to the left",
+        "53306": "Move the mug to the left.",
+        "79395": "Move the yellow mug to the left",
+        "37520": "Move the mug to the left",
+        "66219": "Move the mug to the left",
+        "18101": "Move the mug to the left",
+        "77512": "Move the mug to the left",
+        "24787": "Move the mug to the left",
+        "4319": "Move the mug to the left",
+        "79585": "Move the mug to the left",
+        "87697": "Move the mug to the left",
+      "36086": "Move the mug to the left.",
+        "26936": "Move the mug to the left",
+        "84475": "Move the mug to the left",
+        "55245": "Move the mug to the left",
+        "3918": "Move the mug to the left"
+    },
+    "move_mug_right": {
+        "45589": "Move the mug to the right",
+        "89137": "Move the mug to the right",
+        "27719": "Move the mug to the right",
+        "50780": "Move the mug to the right",
+        "65660": "Move the mug to the right",
+        "33931": "Move the mug to the right",
+        "8844": "Move the mug to the right",
+        "3728": "Move the mug to the right.",
+        "39569": "Move the mug to the right",
+        "70801": "Move the mug to the right",
+        "86771": "Move the mug to the right",
+        "42243": "Move the mug to the right",
+      "81827": "Move the mug to the right",
+        "64721": "Move the mug to the right"
+    },
+    "move_yellow_mug_forward": {
+      "81955": "Move the yellow mug forward",
+      "53871": "Move the yellow mug forwards",
+      "70852": "Move the yellow mug forwards",
+      "29899": "Move the yellow mug forward",
+       "59601": "Move the yellow mug forward",
+        "63844": "Move the yellow mug forwards",
+        "84436": "Move the yellow mug forwards",
+      "89570": "Move the yellow mug forward",
+        "6476": "Move the yellow mug forwards",
+         "44686": "Move the yellow mug forwards",
+      "71461": "Move the yellow mug forwards"
+    },
+  "move_yellow_mug_left": {
+        "71754": "Move the yellow mug to the left",
+      "61528": "Move the yellow mug to the left",
+      "62407": "Move the yellow mug to the left",
+        "84409": "Move the yellow mug to the left"
+    },
+     "move_marker_left": {
+        "77375": "Move the marker to the left",
+         "84052": "Move the marker to the left",
+         "25294": "Move the marker to the left",
+         "95075": "Move the marker to the left",
+           "18405": "Move the marker to the left",
+         "7490": "Move the marker to the left"
+
+    },
+    "move_marker_right": {
+        "76296": "Move the marker to the right",
+      "83477": "Move the marker to the right",
+       "54886": "Move the marker to the right",
+       "49781": "Move the marker to the right",
+      "84358": "Move the marker to the right"
+    },
+        "move_marker_backward": {
+        "93838": "Move marker backwards",
+      "54606": "Move the marker backward"
+    },
+      "move_cup_slightly_left":{
+        "85068": "Move the cup slightly to the left",
+          "25233": "Move the cup slightly to the left",
+        "81679": "Move the cup slightly to the left"
+      },
+        "move_cup_slightly_right":{
+            "72196": "Slide the cup on the table slightly to the right.",
+            "69217": "Move the cup slightly to the right",
+            "48509": "Move the cup slightly to the right"
+        },
+       "move_mug_slightly_left":{
+            "81007": "Move the mug slightly to the left",
+           "83624": "Move the mug slightly to the left",
+             "12530": "Move the mug slightly to the left",
+          "56130": "Move the mug to the left slightly"
+
+       },
+        "move_mug_slightly_right":{
+            "19198": "Move the mug slightly to the right",
+           "41750": "Move the mug slightly to the right",
+           "60732": "Move the mug slightly to the right",
+           "45988": "Move the mug slightly to the right",
+          "26053": "Move the mug slightly to the right"
+        },
+      "move_yellow_cup_right":{
+        "77921": "Move the yellow cup to the right",
+          "7009": "Move the yellow cup to the right"
+      },
+      "move_green_cup_left":{
+        "10833": "Move the green cup to the left",
+        "76151": "Move the green cup to the left",
+        "14846": "Move the green cup to the left"
+      },
+    "move_white_mug_left":{
+        "6574": "Move the white mug to the left",
+      "85228": "Move the white mug to the left"
+
+    },
+    "move_white_mug_backwards":{
+        "90386": "Move the white mug backwards",
+      "8583": "Move the white mug backwards",
+      "28084": "Move the white mug backwards",
+      "60208": "Move the white mug backward",
+       "41575": "Move the white mug backwards"
+
+    },
+      "move_green_cup_right":{
+          "53832": "Move the green cup to the right",
+           "73801": "Move the green mug to the right"
+      },
+    "move_mug_cup_right":{
+        "63321": "Move the mug cup to the right",
+        "7003": "Move the mug cup to the right",
+      "94599": "Move the mug cup to the right"
+    },
+      "move_mug_cup_left":{
+        "71514": "Move the mug cup to the left",
+        "90980": "Move the mug cup to the left"
+      },
+
+        "move_cup_towards_you":{
+           "82356": "Move the cup towards you",
+          "36497": "Move the white cup towards you",
+            "78048": "Move the green cup towards you",
+          "21273": "Move the green cup towards you"
+        },
+        "move_mug_towards_you":{
+            "52623": "Move the green mug towards you"
+        },
+       "move_yellow_mug_backwards":{
+           "45275": "Move the yellow mug backwards"
+       },
+    "move_cup_slightly_forward": {
+        "10282": "Pick up cup and move it slightly forward",
+        "91128": "Move the cup slightly forward"
+    },
+
+     "move_marker_forwards":{
+       "81379": "Move the marker forwards",
+       "76742": "Move the marker forward"
+     },
+      "move_mug_forward_slightly":{
+          "74869": "Move the mug forward slightly",
+        "89379": "Move the mug forward slightly",
+          "88898": "Move the mug slightly forward"
+
+      }
+}

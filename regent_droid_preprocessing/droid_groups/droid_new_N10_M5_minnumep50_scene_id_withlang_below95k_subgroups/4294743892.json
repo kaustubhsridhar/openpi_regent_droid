@@ -1,0 +1,94 @@
+
+{
+    "left_toaster_lever_down": {
+        "44545": "Push the left toaster lever down",
+        "59381": "Press down on the left press handle of the toaster",
+        "16996": "Pull down the left toaster lever."
+    },
+    "right_toaster_lever_down": {
+        "73110": "Push down the right toaster lever",
+        "48945": "Push the right lever down",
+        "36965": "Push down the lever on the right",
+        "42770": "Push down the lever on the right side of the toaster"
+    },
+    "toaster_lever_down": {
+        "13738": "Push the toaster lever down",
+        "26155": "Push the toaster lever down",
+        "69033": "Push the toaster lever down to the right"
+    },
+    "release_toaster_lever": {
+        "80807": "Push the button to release the left toaster lever",
+        "63670": "Push the button to release the toaster lever",
+        "83156": "Push the button to release the toaster lever"
+    },
+   "press_right_toaster_button": {
+        "10549": "Press the button on the right side of the toaster",
+        "65976": "Press a button on the right side of the toaster to release the right lever upwards"
+    },
+    "sweets_in_cup": {
+        "55481": "Place three sweets in the cup",
+        "36070": "Put three of the sweets on the counter in the cup",
+        "5616": "Put four sweets in the cup"
+    },
+    "pick_up_candy_put_in_cup": {
+        "26793": "Pick up a sweet from the counter and put it in the cup",
+        "30310": "Pick up a piece of candy from the table and put it in the white cup."
+    },
+    "pour_sweets_onto_table": {
+        "19079": "Pour the sweets in the cup onto the counter",
+        "86585": "Pour the contents from the white cup onto the table",
+        "20045": "Empty the candy in the cup onto the table"
+    },
+        "move_cup_backward": {
+            "62902": "Move the cup backward to the right"
+    },
+    "sweep_candy_forward":{
+            "74963": "Sweep the candy forward"
+    },
+      "put_spoon_in_holder": {
+        "92447": "Put the black spoon in the cutlery holder followed by the clear butter knife",
+        "26587": "Pick up the black spoon and place it in the utensil holder",
+        "8554": "Pick the black spoon on the counter and put it in the cutlery holder"
+    },
+    "put_spoon_on_counter":{
+        "50326": "Take the black spoon out of the utensil holder and put it on the counter",
+        "51788": "Put the black spoon on the counter"
+
+    },
+    "move_item_left": {
+        "26698": "Move one sweet to the left",
+        "41835": "Move the spoon to the left",
+        "91254": "Move the brush to the left"
+    },
+    "sweep_right":{
+        "39685": "Sweep the sweets to the right",
+        "82808": "Pick up the broom and sweep some of the candy to the right"
+    },
+     "sweep_away":{
+        "31558": "Use the broom to sweep the sweets away from the tables edge",
+         "5314": "Put the cake slicer and the spoon in the black basket respectively then move the basket slightly away from you"
+     },
+    "sweep_candy":{
+        "79285": "Pick the brush and sweep the candy on the counter",
+        "65248": "Use the brush to sweep the candy"
+    },
+     "put_scoop_on_table":{
+        "79829": "Remove the scoop from the black box and put it on the table",
+        "33371": "Put the scoop on the table"
+     },
+    "pull_toaster_lever":{
+       "93333": "Pull the toaster lever up"
+    },
+       "press_toaster_button":{
+        "46946": "Press the button on the toaster"
+    },
+      "pull_left_toaster_switch":{
+        "80995": "Pull the left switch of the toaster up"
+      },
+    "press_left_toaster_switch":{
+          "75060": "Press the left switch on the toaster"
+    },
+     "raise_toaster_lever":{
+        "30380": "Press the switch on the toaster to raise the lever"
+     }
+}

@@ -1,0 +1,74 @@
+
+{
+    "iron_upright": {
+        "36864": "Put the pressing iron upright",
+        "71482": "Place the iron upright."
+    },
+    "lay_iron_down": {
+        "33795": "Lay the pressing iron down",
+        "95": "Lay the iron on the placemat."
+    },
+    "move_item_left": {
+        "95105": "Move the tissue dispenser to the left"
+    },
+    "move_item_right": {
+        "2322": "Move the clear measuring cup a little to the right",
+        "40102": "Move the black remote to the right",
+        "76332": "Move the box to the right",
+        "29008": "Move the speaker to the right",
+        "15082": "Move the clock to the right"
+    },
+     "flip_object": {
+        "20238": "Turn the black device over",
+        "91707": "Flip the black object on the table",
+        "37337": "Flip the black device over",
+        "88804": "Flip over the plastic jar",
+        "53227": "Turn the plastic jar over"
+
+    },
+    "turn_item_left": {
+        "51861": "Pick up the black digital clock and turn it ninety degrees to the left",
+        "87706": "Turn the iron to the left, then tap it",
+        "26401": "Turn the pressing iron to the left"
+    },
+    "turn_item_right": {
+        "71338": "Turn the iron to the right and then press on the button of the iron",
+        "41419": "Turn the iron to the right, then press a button on the iron",
+        "93397": "Turn the alarm clock to the right",
+        "67060": "Turn the pressing iron to the right"
+    },
+      "press_button_on_iron": {
+        "78085": "Press on the left button of the iron",
+        "7972": "Push the switch at the front of the iron down.",
+        "58551": "Push the round button on the top left side of the white iron",
+        "33861": "Press the button on the handle of the iron.",
+        "18938": "Press a button on the pressing iron",
+        "88048": "Rotate the iron to face the window then press the button on the handle."
+    },
+    "press_button_on_clock": {
+        "79377": "Press the button on the clock",
+        "9630": "Press the left button on the alarm clock",
+        "2608": "Press the button on top of the black alarm clock",
+        "13139": "Tap the top part of the alarm clock",
+        "11220": "Press the right button on the alarm clock"
+    },
+    "place_remote_on_towel": {
+        "69788": "Place the remote on the towel"
+    },
+
+      "place_remote_in_box":{
+        "75976": "Put the remote on top of the box",
+        "63089": "Put the remote in the tissue box",
+        "6770": "Lift the remote from the towel and put it on the box"
+      },
+      "place_item_upright":{
+        "67981": "Lift the alarm clock and put it up straight",
+        "14819": "Place the jug upright.",
+        "65534": "Put the plastic jar in an upright position"
+
+      },
+    "move_item_backward": {
+        "6465": "Move the remote control backwards."
+    }
+}
+

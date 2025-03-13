@@ -1,0 +1,84 @@
+
+{
+    "close_drawer": {
+        "8234": "Fully close the open drawer",
+        "62575": "Close the drawer",
+        "34043": "Close the open drawer"
+    },
+    "open_right_drawer": {
+        "57856": "Open the second drawer from the right then put the white paper in the open drawer",
+        "68789": "Open the second drawer from the right, take the paper out of the drawer and place it in the black bin on the counter then close the drawer",
+        "91354": "Open the second drawer from the right"
+    },
+    "open_left_drawer": {
+        "48657": "Open the drawer on the left under books",
+        "29632": "Open the drawer on the left",
+        "89835": "Open the drawer on the left"
+    },
+    "move_item_left": {
+        "18324": "Move the black bin to the left",
+        "5972": "Move the waste basket to the left side of the desk",
+        "67949": "Move the black basket from the right to the left",
+        "16636": "Move the black bin from the right to the left side of the counter",
+        "23411": "Pick up the white cup and move it to the left."
+    },
+    "move_item_right": {
+        "7048": "Move the landfill bin to the right",
+        "5898": "Move the mug to the right",
+        "86722": "Move the white cup to the right",
+        "18286": "Move the cup slightly forward to the right"
+    },
+    "close_right_cabinet_door": {
+        "45963": "Close the bottom right cupboard door",
+        "72589": "Close the far right cupboard door",
+        "28359": "Close the right cabinet door",
+        "1949": "Close the cabinet door on the far right",
+        "15703": "Close the open cabinet door on the far right"
+
+    },
+     "close_bottom_cabinet_door": {
+        "88343": "Close the bottom cabinet door"
+     },
+    "open_right_cabinet_door": {
+        "55963": "Open the right door of the cabinet on the far right",
+        "76602": "Open the first cabinet door on the right",
+        "33533": "Open the right door to the cupboard on the right",
+        "35658": "Open the first door of the bottom kitchen cabinet on the right",
+        "28109": "Open the bottom right cupboard door"
+    },
+     "open_top_drawer":{
+        "26241": "Open the top drawer of the bottom cabinet",
+        "70395": "Open the top drawer of the kitchen unit"
+    },
+    "open_left_cabinet_door":{
+        "60168": "Open the third cabinet door from the left",
+        "51687": "Open the last bottom cabinet door"
+    },
+    "pour_cup_on_counter": {
+        "58376": "Empty the cup onto the counter",
+        "26140": "Pour the contents in the white coffee cup onto the right side of the countertop",
+        "3874": "Pick up the cup and pour its contents on the countertop.",
+        "20258": "Pour the contents in the cup onto the counter top",
+        "14168": "Pour the contents in the cup onto the counter",
+        "72946": "Pour the contents of the white cup on the counter top",
+        "76983": "Pick up the white cup from the table and pour its contents on the table."
+    },
+    "put_paper_in_black_bin": {
+        "10387": "Pick up the piece of paper from the countertop and put it in the black container.",
+        "44828": "Put the left piece of paper in the black bin",
+        "46776": "Put the white paper closest to you in the black bin",
+        "57169": "Pick up one paper from the countertop and put it in the black bin",
+        "45779": "Put the paper in the black bin",
+        "73560": "Put the paper on the countertop in the black waste bin"
+    },
+    "put_paper_in_drawer":{
+        "46528": "Put the piece of paper in the drawer",
+        "59722": "Pick up the trash paper, put it in the drawer and close it",
+        "27224": "Put the two papers on the countertop in the open drawer, close the open drawer"
+    },
+    "take_paper_from_drawer_put_on_counter":{
+      "2634": "Take the white paper out of the drawer and put it on the countertop",
+      "8806": "Remove the white paper from the drawer and put it on the counter top",
+      "50165": "Remove the paper from the drawer and put it on the counter"
+    }
+}

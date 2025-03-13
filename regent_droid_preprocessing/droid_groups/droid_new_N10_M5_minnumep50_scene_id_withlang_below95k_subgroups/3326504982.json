@@ -1,0 +1,71 @@
+
+{
+    "press_button_dishwasher": {
+        "43912": "Press a button on the dishwasher",
+        "39316": "Press a button on the dishwasher.",
+        "2865": "Press a button on the dishwasher.",
+        "52815": "Press a button on the dishwasher",
+        "9185": "Press the button on the dishwasher",
+        "68": "Press the big button on the left side of the dish washing machine",
+        "15597": "Press one of the buttons on the left side of the dish washing machine"
+    },
+    "put_lid_on_cup": {
+        "16689": "Pick up the white plastic lid and put it on the paper cup on the left",
+        "53170": "Put the white lid on the coffee cup on the right.",
+        "9805": "Pick up the lid white and place it on the cup without a lid"
+
+    },
+    "remove_lid_from_cup": {
+        "58152": "Remove the lid from the cup on the left.",
+        "90414": "Remove the lid off of the left cup",
+        "51654": "Remove the lid from the coffee cup",
+        "40538": "Remove the lid from the coffee cup on the right.",
+        "21485": "Remove the lid from the coffee cup on the right."
+    },
+     "place_paper_towel_roll_on_holder": {
+        "66701": "Pick up the paper towel roll and place it on the paper towel holder",
+        "25311": "Put the paper towel roll on the silver stand.",
+        "70495": "Put the paper towel roll on the silver holder.",
+        "81525": "Place the paper towel roll on the silver stand."
+    },
+    "remove_paper_towel_roll_from_holder": {
+        "42145": "Remove the paper towel roll from the holder.",
+        "13762": "Remove the roll of paper towel from the paper towel holder and put it on the table"
+    },
+    "put_stick_in_cup":{
+        "35712": "Put one wooden stirrer in the coffee cup on the left.",
+        "40708": "Pick up one stick from the tray and put it in the paper on the right",
+        "53862": "Pick up the stick on the left of the tray and put it in the cup",
+        "52473": "Pick up the sticks from the counter and put them in the cup",
+        "27774": "Put the chopstick inside the coffee cup."
+
+    },
+    "put_sachet_in_cup":{
+        "67479": "Put the brown sachet in the coffee cup at the front.",
+        "82125": "Pick up the orange pack from the tray and put it inside the paper cup on the left",
+        "48508": "Turn the tray to the right, then put the brown sachet in the cup closest to you"
+    },
+       "move_cup_backward": {
+        "92656": "Move the cup backwards and cover the cup"
+
+    },
+    "move_cup_to_left_and_cover":{
+        "84595": "Move the cup to the left and cover it"
+    },
+      "wrap_paper_towel_roll":{
+        "92039": "Wrap the paper towel roll.",
+        "91189": "Wrap the paper towels around the roll",
+        "44917": "Wrap the paper towel roll around itself."
+    },
+     "put_item_in_cup":{
+        "83459": "Put the straw inside the cup",
+        "64951": "Put the sugar bags in the cup"
+     },
+     "press_button_washing_machine":{
+        "31393": "Press a button on the washing machine control pad"
+     },
+      "press_button_oven":{
+        "10177": "Press the button on the oven"
+      }
+}
+

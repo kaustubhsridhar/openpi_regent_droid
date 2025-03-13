@@ -1,0 +1,54 @@
+
+{
+    "place_item_in_cup": {
+        "18445": "Put the spoon inside the cup",
+        "8732": "Pick up the plastic knife, and then place it in the cup",
+        "1202": "Put the plastic knife in the cup",
+        "21056": "Put the metal spoon inside the cup",
+        "84423": "Put the white item in the cup"
+    },
+    "place_item_in_bowl": {
+        "22820": "Pick up the green cylindrical block and place it in the bowl",
+        "22320": "Put the blue block and coffee pod in the black and white bowl on the left.",
+        "47694": "Put the white packet in the black and white bowl."
+    },
+        "place_item_in_coffeemaker": {
+        "71221": "Put the k-cup into the coffee maker",
+        "42229": "Put the coffee pod in the coffeemaker."
+    },
+    "remove_item_from_cup": {
+        "27916": "Remove the straw from the cup",
+        "45767": "Remove the spoon from the mug"
+    },
+    "remove_item_from_coffeemaker": {
+        "59965": "Remove the coffee pod from the coffeemaker"
+    },
+        "move_item_to_cup": {
+        "30474": "Move the pen to the next cup",
+        "12766": "Move the pen to the next cup"
+
+    },
+        "move_item_to_right":{
+        "77521": "Move the broken mug to the right"
+    },
+        "move_item_to_left":{
+        "17240": "Move the cup to the left"
+    },
+    "open_container": {
+        "94945": "Open the silver bin.",
+        "3172": "Open the coffeemaker.",
+        "30436": "Open the top drawer"
+    },
+    "close_container": {
+        "9322": "Close the open drawer.",
+        "92286": "Close the silver bin"
+    },
+        "put_bowl_on_counter":{
+        "52807": "Put the bowl on the counter"
+
+    },
+        "close_lid_coffeemaker":{
+        "38581": "Close the lid on the coffee maker"
+
+    }
+}

@@ -1,0 +1,46 @@
+
+{
+    "Stacking and Unstacking Bowls": {
+        "46725": "Stack the bowls together.",
+        "72492": "Unstack the bowls on the counter"
+    },
+    "Rotating Knobs": {
+        "90508": "Rotate the knob on the far right side of the machine.",
+        "50109": "Rotate the button of the device anticlockwise",
+        "95319": "Turn the second knob on the washing machine on the left to the left."
+    },
+    "Pressing Buttons on Washing Machine": {
+        "38316": "Press a button on the washing machine",
+        "5813": "Press a button on the washing machine",
+        "39633": "Press the button on the washer"
+    },
+    "Pressing Stove Switch": {
+        "30738": "Press the switch on the stove.",
+        "9972": "Press the switch on the stove."
+    },
+   "Putting Items in Green Cup": {
+        "84393": "Put the spoon in the green cup",
+        "21818": "Put the silver spoon inside the green cup."
+   },
+    "Opening and Closing Boxes":{
+        "92025": "Open the box",
+        "73725": "Close the orange box"
+    },
+    "Sweeping with Broom/Brush":{
+        "77973": "Use the small broom to sweep the objects on the dustpan",
+        "95047": "Use the white hand broom to sweep the white detergent on the dustpan",
+        "94697": "Use the brush to sweep the dirt on top of the machine onto the dustpan."
+    },
+    "Pouring Contents Between Bowls": {
+        "36436": "Pour the contents from the blue bowl into the silver bowl",
+        "67190": "Pour the contents in the silver bowl into the blue bowl."
+    },
+      "Moving Items Forward":{
+        "58929": "Move the plastic bag forward and turn on the washing machine",
+        "17745": "Move the yellow box forwards then open it and remove one paper from it."
+    },
+    "Moving Items Backward":{
+        "67429": "Move the yellow box backwards then put the orange box on top of the machine on the right and press a button on the left washing machine."
+    }
+}
+

@@ -1,0 +1,127 @@
+
+{
+    "close_door": {
+        "82434": "Close the door",
+        "1040": "Close the door",
+        "25655": "Close the door.",
+        "45630": "Close the door",
+        "67656": "Close the open door",
+        "81993": "Push the door closed",
+        "57421": "Close the door shut",
+        "7790": "Close the door",
+        "67707": "Close the door",
+        "5264": "Close the door",
+        "10428": "Close the door",
+        "76513": "Close the door",
+        "9997": "Close the door",
+        "35105": "Close the door",
+        "18223": "Close the door",
+        "47934": "Close the door",
+        "95551": "Close the door",
+        "82764": "Close the open door",
+        "53081": "Close the door",
+        "32609": "Close the door",
+        "17766": "Close the door",
+        "88426": "Close the door",
+        "1943": "Close the door",
+        "87448": "Close the door",
+        "65001": "Close the door.",
+        "76546": "Close the open door",
+        "36099": "Close the door shut"
+    },
+    "open_door": {
+        "63496": "Open the door",
+        "90691": "Open the door",
+        "68720": "Push the door handle down and open the door",
+        "35954": "Open the door",
+        "26229": "Open the door",
+        "33453": "Open the door",
+        "37562": "Open the door",
+        "15548": "Open the door",
+        "16591": "Open the door",
+        "17107": "Open the door",
+        "80612": "Open the door",
+        "50410": "Push the black door handle down and open the door",
+        "13548": "Open the door",
+        "16143": "Open the door",
+        "40719": "Open the white door",
+        "70939": "Open the door",
+        "80686": "Open the door",
+        "48482": "Open the door",
+        "56674": "Open the door",
+        "12652": "Open the door",
+        "21885": "Open the door",
+        "87425": "Pull the door open",
+        "58242": "Open the door",
+        "50570": "Open the door",
+        "78241": "Open the door",
+        "88494": "Open the door",
+        "18886": "Open the door.",
+        "45527": "Open the door",
+        "27618": "Open the door"
+    },
+    "turn_off_light": {
+        "66570": "Turn off the light",
+        "25618": "Turn off the light",
+        "19005": "Turn off the light",
+        "77947": "Turn off the light",
+        "83587": "Turn off the light",
+        "85280": "Turn off the light",
+        "12207": "Turn off the light",
+        "38396": "Turn off the light",
+        "73389": "Turn off the light"
+
+    },
+    "turn_on_light": {
+        "33796": "Switch on the light",
+        "11312": "Turn on the light",
+        "59593": "Turn on the light",
+        "29394": "Switch on the light",
+        "85347": "Turn on the light",
+        "76664": "Switch on the light",
+        "91035": "Switch on the light",
+        "21461": "Switch on the light",
+        "22492": "Turn on the light",
+        "58337": "Turn on the light"
+    },
+    "switch_off_light": {
+        "12842": "Switch off the light",
+        "57388": "Switch off the light",
+        "25150": "Switch off the light",
+        "85360": "Switch off the light"
+    },
+    "turn_on_light_switch": {
+        "88630": "Turn on the light switch",
+        "89669": "Turn on the light switch",
+        "48242": "Turn on the light switch",
+        "61161": "Turn on the light switch",
+        "62386": "Turn on the light switch",
+        "42677": "Turn on the light switch"
+    },
+    "turn_off_light_switch": {
+        "15956": "Turn off the light switch",
+        "4266": "Turn off the light switch",
+        "94026": "Turn off the light switch",
+        "66895": "Turn off the light switch",
+        "15205": "Turn off the light switch"
+    },
+    "flip_switch":{
+        "95258": "Flip the switch on the wall",
+        "21133": "Flip the switch",
+        "89325": "Flip the light switch on",
+        "83738": "Flip the white switch upwards",
+        "11151": "Flip the light switch.",
+       "9683": "Flip the switch on the wall to turn on the light.",
+        "26494": "Flip the switch",
+        "51048": "Flip the switch on the wall to turn off the light."
+
+    },
+    "turn_on_switch": {
+        "9856": "Turn on the switch",
+        "79609": "Turn on the right switch"
+    },
+    "turn_off_switch":{
+        "52778": "Turn off the switch of the light on the wall.",
+        "59169": "Turn off the switch on the wall"
+    }
+}

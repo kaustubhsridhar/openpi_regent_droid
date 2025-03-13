@@ -1,0 +1,64 @@
+
+{
+    "move_object_away_or_backward": {
+        "87938": "Move the can away from you",
+        "74782": "Move the cupcake backward",
+        "48870": "Move the orange towel backwards",
+        "51945": "Move the can backwards",
+        "76138": "Move the white pot backwards."
+    },
+    "move_object_forward_or_towards": {
+        "3315": "Move the cupcake forwards"
+    },
+    "move_object_to_left": {
+        "27401": "Move the maize cob to the left",
+        "78727": "Move the red object to the left",
+        "70442": "Slide the can to the left",
+        "58549": "Move the salt shaker to the left",
+        "1234": "Slide the orange towel to the left",
+        "93535": "Move the pot to the left",
+        "58234": "Move the bottle to the left"
+    },
+    "move_object_to_right": {
+        "90899": "Move the orange towel to the right.",
+        "93730": "Move the towel to the right",
+        "37187": "Move the bowl to the right",
+        "35662": "Move the purple object to the right",
+        "73441": "Move the shaker to the right"
+    },
+    "put_salt_cellar_in_pot": {
+        "63497": "Put the salt cellar inside the white pot",
+        "1828": "Pick up salt cellar and put it in the pot",
+        "23985": "Pick up the saltcellar from the table and put it in the pot",
+        "63207": "Pick up the salt cellar and put it in the pot",
+        "17358": "Put the salt cellar in the white pot"
+    },
+    "remove_salt_cellar_from_pot_and_put_on_table": {
+        "75124": "Pick up the saltcellar from the pot and put it on the table",
+        "54141": "Pick up the saltcellar from the pot and put it on the table"
+    },
+     "remove_object_from_pot": {
+        "76806": "Remove the object from the pot.",
+        "64494": "Remove the salt cellar from the white pot.",
+        "78462": "Remove the blue object from the pot"
+    },
+    "remove_salt_shaker_from_bowl":{
+        "36879": "Remove the salt shaker out of the bowl",
+        "70195": "Remove the salt shaker out of the bowl"
+    },
+    "put_object_in_pot":{
+        "59912": "Put the blue block inside the white pot",
+        "95392": "Put the green object inside the pot",
+        "39097": "Pick up the blue object on the table and put it in the pot",
+        "65604": "Pick up the grey object and put it in the pot",
+        "40275": "Put the salt shaker inside the pot"
+
+    },
+    "put_object_in_bowl":{
+        "13392": "Put the maize in the white bowl",
+        "17497": "Put the saltshaker into the bowl",
+        "38841": "Pick up the salt cellar from the table and put it in the white bowl."
+
+    }
+}
+

@@ -1,0 +1,63 @@
+
+{
+    "move_pan_left": {
+        "86547": "Move the pan to the left",
+        "71219": "Move the pan to the left side of the stove"
+    },
+    "move_pot_right": {
+        "91899": "Move the pot to the right and put it on the white towel"
+    },
+    "move_pan_right": {
+        "34134": "Move the pan to the right"
+    },
+    "move_pot_left": {
+        "89775": "Move the pot to the left"
+    },
+    "put_glass_lid_on_pan": {
+        "26114": "Put the glass lid on the pan.",
+        "63870": "Put the glass lid on the saucepan."
+    },
+    "put_brush_in_pan": {
+        "14889": "Put the brush in the pan."
+    },
+    "put_brush_in_pot": {
+        "6983": "Put the white brush inside the pot",
+        "64077": "Put the brush in the pot"
+    },
+    "move_pan_forward": {
+        "40596": "Move the pan from the left rear plate and place it in the middle of the stove"
+    },
+    "move_spice_bottle_forward": {
+        "56595": "Move the spice bottle forward"
+    },
+      "put_lid_on_pot": {
+        "42580": "Pick up the clear pot lid and put it on the black pot"
+    },
+    "move_pot_forward": {
+        "69475": "Move the pot to the front left plate on the stove."
+    },
+     "move_pan_backward": {
+        "61185": "Move the pan to the back left plate."
+    },
+    "put_can_in_pan": {
+        "10703": "Move the can to the left, then put the can in the pan"
+    },
+    "put_item_in_pan":{
+        "14871": "Put the yellow canon the pan.",
+        "87347": "Put the wooden plate into the pan"
+    },
+    "move_pan_to_plate":{
+        "23036": "Move the pan to the front right plate on the stove.",
+        "46130": "Pick up the gray pan and put it on the bottom right cooker on the stove",
+        "41469": "Pick up the gray pan and put it on the top right cooker on the stove"
+    },
+    "put_stove_cover_on_plate":{
+        "12054": "Put the stove cover on the stove plate in the front right",
+        "55155": "Put the stove cover on the plate"
+    },
+      "put_towel_on_pot":{
+          "77768": "Place the towel on the pot",
+          "14183": "Put the towel on the pot's lid"
+      }
+}
+

@@ -1,0 +1,53 @@
+
+{
+    "lid_tasks": {
+        "64905": "Remove the black lid from the mouthwash bottle",
+        "23051": "Put the black lid on the Listerine bottle then move it to the bottom left side of the counter",
+        "13969": "Remove the black cap off the mouth wash bottle",
+        "18963": "Pick up the black lid off the mouth washer and put it on the countertop.",
+        "83091": "Take the cover off the bottle",
+        "12566": "Take the black lid and put it on the Listerine bottle",
+        "2289": "Put the black lid on the mouthwash bottle",
+        "76916": "Remove the black lid from the mouthwash bottle",
+        "50681": "Place the black lid on the mouthwash bottle",
+        "1530": "Take the top off the bottle"
+    },
+    "faucet_tasks": {
+        "55927": "Open then close the faucet",
+        "85415": "Open the tap and then close it",
+        "53680": "Open the tap and close it",
+        "79956": "Open the faucet then close the faucet",
+        "15447": "Open the faucet then close the faucet",
+        "86618": "Open the tap then close it",
+        "49268": "Open the tap then close it",
+        "25729": "Put the cup in the sink, then  open the tap then close it, then take out the cup from the sink"
+    },
+    "towel_hanging_tasks": {
+        "13885": "Put the towel on the hook.",
+        "70992": "Hang the towel on the hook on the wall",
+        "4575": "Hang the towel on the wall",
+        "88689": "Hang up the towel."
+    },
+    "pump_bottle_tasks": {
+        "70295": "Press down on the black spray bottle",
+        "66330": "Press the pump of the pump bottle",
+        "59567": "Press the spray bottle.",
+        "434": "Press the sprayer on the black spray bottle",
+        "95535": "Press the button on the black spray bottle to spray some contents",
+        "37833": "Press the top of the liquid soap bottle",
+        "64349": "Press down on the pump bottle",
+        "46310": "Push the pump on the bottle",
+        "91509": "Push down on the pump bottle",
+        "70929": "Push down the top of the black bottle"
+
+    },
+    "mirror_wiping_tasks": {
+        "40075": "Wipe the mirror with the white cloth",
+        "61585": "Wipe the mirror with the towel",
+        "40982": "Use the towel to wipe the mirror"
+    },
+        "faucet_handle_tasks": {
+        "78163": "Push the faucet handle backwards then forwards"
+    }
+}
+

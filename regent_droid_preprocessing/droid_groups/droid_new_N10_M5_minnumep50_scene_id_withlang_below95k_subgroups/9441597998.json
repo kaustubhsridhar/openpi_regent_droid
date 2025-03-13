@@ -1,0 +1,71 @@
+
+{
+    "pour_contents_between_bowls": {
+        "39304": "Pour the contents in the clear bowl into the white bowl",
+        "56857": "Pour the contents from the left bowl to the right bowl",
+        "83107": "Transfer the contents in the rectangular bowl to the circular one",
+        "56362": "Put the bowl on the left in the one on the right",
+        "84394": "Pour the contents in the clear bowl on the left into the bowl on the right then place the bowl on the left on the dishrack",
+        "47285": "Pour the contents of the white bowl into the clear bowl",
+        "29136": "Pour the contents of the white bowl into the clear bowl",
+        "53971": "Pour the sugar out of the clear bowl into the white bowl"
+    },
+    "place_item_in_dish_rack": {
+        "51971": "Put the lunchbox on the drying rack.",
+        "79499": "Put the white cup upright on the bottom rack, then remove the lid from the bottom rack",
+        "2461": "Pick the purple lid on the counter and put it in the dish rack",
+        "16921": "Put the empty box in the dish rack",
+        "43560": "Put the white bowl on the bottom shelf of the dish rack",
+        "22825": "Pick the white bowl on the counter and place it in the dish rack",
+        "56647": "Pick up the white mug and put it on the bottom shelf of the dishrack",
+        "94178": "Pick up the white mug from the left side of the countertop and place it on the bottom shelf of the dishrack"
+
+    },
+    "move_item_from_dish_rack_to_counter": {
+        "48289": "Take the bowl from the rack and put it on the counter",
+        "76537": "Move the bowl from the dish rack to the counter",
+        "77784": "Move the bowl from the plate to the counter",
+        "54094": "Take the mug from the bottom left of the dish drying rack and place it on the countertop",
+        "43229": "Remove the white mug from the bottom shelf of the dish rack and place it on the countertop"
+    },
+    "place_item_on_counter":{
+        "12170": "Pick up the plastic bowl from the bottom compartment of the dish rack and put it on the countertop."
+
+    },
+       "put_item_in_white_bowl": {
+        "58639": "Put the object into the white bowl",
+        "23289": "Move the black object from the black bowl to the white bowl"
+    },
+        "open_cabinet_door": {
+        "82704": "Open the top cupboard door",
+        "52924": "Open the right door of the cabinet above the sink",
+        "37218": "Open the left door of the cabinet above the faucet"
+    },
+        "put_item_in_plastic_bag":{
+        "4615": "Take the objects from the white bowl one at a time and put them \nin the plastic bag",
+        "59936": "Put the black Tupperware in the plastic bag"
+    },
+    "move_bowl_to_right":{
+        "83861": "Move the white bowl on the top to the right",
+        "58672": "Pick up the plastic bowl from the countertop and slightly move it to the right"
+    },
+        "place_bowl_on_dish_rack":{
+            "5900": "Put the white bowl on the dish rack on the counter"
+        },
+        "place_cup_on_dish_dryer":{
+            "35858": "Pick up the cup and put it on the dish dryer"
+
+        },
+    "remove_and_place_item":{
+        "84786": "Remove the grey lid from the dishrack and set it on top of the grey bowl on the left side of the counter",
+        "63355": "Remove the mug from the sink and place it on the left side of the counter"
+
+    },
+    "place_bowls_on_counter":{
+         "43811": "Take the white and the black bowls and place them on the counter"
+    },
+    "close_cabinet_door":{
+        "10186": "Close the open upper cabinet doors"
+    }
+
+}

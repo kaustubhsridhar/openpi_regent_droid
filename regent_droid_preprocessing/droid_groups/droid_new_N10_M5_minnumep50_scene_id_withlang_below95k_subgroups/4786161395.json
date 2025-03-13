@@ -1,0 +1,63 @@
+
+{
+    "move_left": {
+        "1664": "Move the teddy bear to the left",
+        "34305": "Push the grey faucet to the left",
+        "14611": "Move the nozzle to the left",
+        "26899": "Shift the blue object to the left",
+        "61846": "Turn the faucet to the left",
+        "38940": "Slide the tap to the left",
+        "74654": "Move the tap to the left",
+        "15538": "Turn the faucet to the left",
+        "51126": "Move the cookie to the left",
+        "33082": "Move the teddy bear to the left",
+        "77384": "Push the tap nozzle to the left",
+        "68425": "Move the blue object to the left on counter",
+        "90443": "Move the faucet handle to the left",
+        "5072": "Turn the tap to the left",
+        "80733": "Slide the spout to the left",
+        "82141": "Move the blue and white doll to the left",
+        "79335": "Move the white doll to the left",
+        "26348": "Move the blue thing to the left",
+        "71021": "Push the grey faucet to the left",
+        "88684": "Move the tap to the left",
+        "38271": "Move the tap nozzle to the left",
+        "54905": "Push the faucet to the left",
+        "90481": "Move the doll farthest from you to the left"
+    },
+    "move_right": {
+        "53765": "Move the white toy to the right",
+        "62994": "Turn the tap nozzle to the right, then move the brown plushie closer to you",
+        "66322": "Push the faucet of the sink slightly to the right.",
+        "75421": "Move the white and blue toy to the right",
+        "89247": "Turn the tap faucet to the right",
+        "41506": "Move the blue toy from left to the right side of the table",
+        "34727": "Move the blue object to the right",
+        "48956": "Push the faucet slightly to the right.",
+        "76490": "Push the faucet slightly to the right.",
+        "71756": "Move the blue toy to the right",
+        "43987": "Move the blue plush toy to the right side of the counter.",
+        "37617": "Pick up the bear plush toy and put it on the right side of the counter"
+    },
+    "move_forward": {
+        "13183": "Move the plain blue toy forward",
+        "23223": "Move the blue plush toy forwards.",
+        "64098": "Move the right blue doll forward"
+    },
+     "move_backward": {
+        "69170": "Move the right doll farther from you",
+        "66997": "Pick up the blue toy and move it slightly backwards.",
+        "51830": "Move the plain blue thing backward"
+    },
+    "move_to_front_right_corner":{
+        "24121": "Move the white and orange plush toy to the front right corner",
+        "75225": "Move the white and orange plush toy to the front right corner"
+
+    },
+     "center_faucet":{
+        "54211": "Slide the tap to the center of the sink",
+        "51052": "Center the faucet",
+        "8828": "Push the grey faucet to the center of the sink"
+     }
+}
+

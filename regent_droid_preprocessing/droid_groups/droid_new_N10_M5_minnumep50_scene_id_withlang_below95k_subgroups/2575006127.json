@@ -1,0 +1,50 @@
+
+{
+    "open_bin": {
+        "73479": "Open the lid of the bin",
+        "67988": "Open the silver bin, pick up the small white container and put it inside the silver bin",
+        "16305": "Open the small bin",
+        "82868": "Open the lid on the bin.",
+        "50222": "Open the silver bin.",
+        "13626": "Open the lid of the bin",
+        "65380": "Open the bin",
+        "94698": "Open the bin",
+        "75630": "Open the lid on the bin",
+        "22769": "Open the lid on the bin"
+    },
+    "close_bin": {
+        "27939": "Close the bin",
+        "60195": "Close the lid on the silver bin.",
+        "61262": "Close the bin",
+        "71134": "Close the lid of the bin",
+        "93278": "Close the lid of the bin"
+    },
+    "put_lid_on_jar": {
+        "91183": "Put the lid on the jar",
+        "92590": "Put the lid on the jar"
+    },
+    "put_spoon_in_container": {
+        "90048": "Put the silver spoon inside the glass coffee jug",
+        "93284": "Put the spoon in the glass container",
+        "10873": "Place the spoon in the coffee container"
+    },
+    "open_bin_put_item_in_and_close":{
+        "22022": "Open the lid of the bin, then put the coffee pod in the bin and close the lid of the bin",
+        "16698": "Open the lid on the bin and put a k-cup into it then close it",
+        "48707": "Open the silver bin then place the coffee pod in the bin and close it.",
+        "79041": "Open the silver bin and throw the coffee pod from the counter inside the bin then close it.",
+        "37859": "Open the bin, then throw the coffee capsule inside, then close the bin",
+        "52688": "Open the bin and put the white cup item in the bin",
+        "14630": "Open the silver bin on the left then put the coffee pod inside the bin."
+
+    },
+     "put_item_in_bin_and_close":{
+        "69991": "Put the white container in the silver bin and close the silver bin",
+        "3326": "Put the coffee pod in the bin, and then close the bin"
+     },
+    "put_scoop_in_jar_and_close":{
+        "74619": "Put the scoop inside the jar then close it",
+        "66773": "Put the scoop inside the jar and then close it"
+    }
+}
+

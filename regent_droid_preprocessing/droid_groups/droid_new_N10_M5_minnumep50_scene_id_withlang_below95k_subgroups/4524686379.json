@@ -1,0 +1,51 @@
+
+{
+    "move_bottle_left": {
+        "18199": "Move the bottle to the left",
+        "73156": "Move the bottle to the left"
+    },
+    "move_spice_bottle_to_stove": {
+        "19122": "Move one spice bottle from the middle shelf to the stove",
+        "364": "Put the spice bottle on the stove"
+    },
+    "put_bottle_on_shelf": {
+        "80626": "Pick up the bottle from the stove and put it on the shelf",
+        "2153": "Put the orange bottle on the shelf",
+        "49115": "Put the jar on the shelf"
+
+    },
+    "put_bottle_in_box": {
+        "45498": "Put the water bottle in the box.",
+        "9304": "Put one glass jar from the bottom shelf in the brown box."
+    },
+    "put_water_bottle_in_cup":{
+        "63459": "Put the water bottle in the coffee cup."
+    },
+     "move_spice_bottle_to_tray": {
+        "20660": "Move one spice bottle from the middle shelf to the tray",
+        "70503": "Move the spice bottle, that is in the middle of the first shelf, to the tray"
+    },
+    "move_jar_from_top_shelf_to_stovetop": {
+        "68482": "Place the large jar from the stovetop on the topmost shelf.",
+        "42928": "Remove one jar from the topmost shelf and put it on the stovetop.",
+        "66557": "Remove one glass jar from the topmost shelf and put it on the stovetop."
+    },
+    "move_jar_from_stove_to_shelf": {
+        "92917": "Pick up one glass jar from the stove and put it on the bottom shelf."
+    },
+     "remove_bottle_from_top_shelf": {
+        "62492": "Remove one bottle from the top shelf",
+        "75518": "Remove the bottle from the top shelf"
+    },
+    "put_lid_on_container":{
+        "58206": "Put the white lid on the small container on the right with a white label",
+        "80737": "Put the clear lid on the bottle next to it",
+        "32614": "Close the lid on the red container.",
+        "35287": "Put the grey cap on the bottle"
+    },
+    "move_spice_bottle_forward": {
+        "24783": "Move the spice bottle forward"
+    }
+
+}
+

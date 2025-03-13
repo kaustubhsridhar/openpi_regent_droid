@@ -1,0 +1,72 @@
+
+{
+    "put_grey_object_in_orange_cup": {
+        "39049": "Put the gray object in the cup",
+        "85003": "Pick the gray object and put it in the orange cup",
+        "55849": "Put the grey thing in the orange cup",
+        "73131": "Pick the grey bottle and put it in the orange cup",
+        "14408": "Place the grey object on the right side of the counter inside the orange cup",
+        "19670": "Pick the object and put it in the cup",
+        "86131": "Pick up the grey object and put it in cup",
+        "37372": "Put the grey thing in the orange cup"
+    },
+    "remove_grey_object_from_orange_cup": {
+        "29465": "Remove the gray object from the cup",
+        "56734": "Take the grey object out of the orange cup and put it on the counter",
+        "52517": "Take the gray block from the orange cup and put it in front of the cup",
+        "87210": "Take the grey cylinder out of the orange mug and place it on the counter",
+        "86447": "Remove the grey object from the orange cup on the right side of the countertop",
+        "27888": "Pick up the grey object in the cup and place it on the counter.",
+        "16868": "Remove the grey block from the orange cup",
+        "65637": "Remove the gray object from the orange object"
+    },
+    "put_grey_cup_in_orange_cup": {
+        "21299": "Put the grey cup in the orange cup",
+        "66418": "Put the grey cup in the orange cup"
+    },
+     "remove_grey_cup_from_orange_cup": {
+        "22758": "Remove the grey cup from the orange cup."
+    },
+    "put_grey_cylinder_in_orange_mug": {
+        "59399": "Put the grey cylinder in the orange mug, remove the cylinder from the mug",
+        "45774": "Place the grey cylinder inside the orange mug"
+    },
+    "remove_grey_cylinder_from_orange_mug": {
+        "47806": "Remove the grey cylinder from the orange mug",
+        "84955": "Take the grey cylinder out of the orange mug then place it back in the orange mug"
+    },
+    "put_lemon_in_sink": {
+        "30114": "Put the lemon in the sink",
+        "52150": "Pick up the lemon toy from the stove and put it in the sink.",
+        "75854": "Get the lemon toy from the countertop and place it in the sink"
+    },
+    "put_item_from_stove_in_sink":{
+        "5583": "Pick up the brown object from the top of the stove and put it in the sink.",
+        "8658": "Get the strawberry toy from the right front plate of the stove and put it in the sink"
+
+    },
+        "remove_item_from_sink_put_on_stove": {
+        "85956": "Remove the chicken from the sink and put it on the stovetop",
+        "86085": "Pick up the tomato from the sink and put it on the stove",
+        "66632": "Take the toy drum stick from the sink and place it on the stove"
+    },
+    "remove_item_from_sink_put_on_counter":{
+        "13948": "Take the lemon out of the sink and put it on the counter",
+        "80073": "Remove the lemon from the sink and place it on the right side of the counter",
+        "31694": "Remove the red ball from the sink and place it on the right side of the countertop",
+        "74720": "Move the drumstick toy from the sink to the countertop",
+        "24424": "Move the red object from inside the sink and place it outside of the sink at the right"
+    },
+      "put_orange_object_on_stove":{
+        "66208": "Put the orange thing on the stove"
+      },
+    "put_grey_object_on_stove":{
+        "24938": "Put the grey thing on the stove"
+    },
+        "put_orange_object_in_sink":{
+           "54550": "Take the orange object and put it in the sink",
+           "76774": "Take the orange object from the stove and put it in the sink"
+
+    }
+}
+

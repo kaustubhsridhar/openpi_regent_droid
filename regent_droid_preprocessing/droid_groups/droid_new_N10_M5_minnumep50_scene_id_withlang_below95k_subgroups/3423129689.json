@@ -1,0 +1,85 @@
+
+{
+    "fold_cloth": {
+        "43777": "Fold the cloth on the table",
+        "87692": "Fold the cloth once",
+        "7565": "Fold the cloth in half",
+        "15374": "Fold the cloth",
+        "50324": "Fold the cloth",
+        "14101": "Fold the cloth",
+        "61985": "Fold the cloth",
+        "54692": "Fold the cloth on the table",
+        "26925": "Fold the cloth on the table",
+        "52293": "Fold the white cloth",
+        "852": "Fold the cloth",
+        "51948": "Fold the cloth"
+    },
+    "fold_towel": {
+        "81041": "Fold the towel on the table.",
+        "16931": "Fold the towel in half",
+        "71472": "Fold the towel on the table",
+        "62898": "Fold the towel on the table twice, diagonally.",
+        "33460": "Fold the towel in half from right to left",
+        "60341": "Fold the white towel on the table in half.",
+        "76861": "Fold the white towel in half",
+        "41662": "Fold the towel in half",
+        "62015": "Fold the towel into a triangle twice",
+        "10184": "Fold the towel on the table",
+        "28623": "Fold the towel in half from right to left",
+        "91489": "Fold the towel in half",
+        "11496": "Fold the towel in half",
+        "26472": "Fold the towel",
+        "28267": "Fold the towel in half",
+        "26868": "Fold the towel in half",
+        "76022": "Fold the towel into a triangle twice",
+        "77433": "Fold the towel",
+        "75514": "Fold the towel on the table",
+        "13052": "Fold the white towel in half from right to left",
+        "79450": "Fold the towel twice diagonally",
+        "65120": "Fold the white towel from right to left"
+
+    },
+    "put_towel_in_black_box": {
+        "70178": "Put the white towel in the black box",
+        "71996": "Put the white towel in the black box",
+        "79442": "Put the white towel in the black box",
+        "62038": "Put the white towel in the black box",
+        "19036": "Put the white towel in the black box",
+        "92608": "Put the white towel inside the black container",
+        "41630": "Put the towel in the box",
+        "20816": "Put the towel in the box",
+        "33105": "Put the towel in the box",
+        "90939": "Stuff the towel into the box",
+         "13512": "Pick the towel from the table and put it in the black object"
+
+    },
+    "put_towel_in_basket": {
+        "51619": "Put the towel in the basket",
+       "81702": "Pick up the white towel and push it down into the black basket",
+        "92069": "Move the black basket to the right, place the white towel inside the basket",
+        "35126": "Put the white towel in the black basket",
+        "76659": "Put the towel in the black basket",
+        "95225": "Put the white towel in the black basket.",
+         "46605": "Place the towel on the black basket, push the towel down into the basket",
+        "68608": "Put the towel in the black holder"
+    },
+    "put_cloth_in_box": {
+        "57088": "Pick up the cloth and put it in the box",
+        "17926": "Pick the cloth and shove it in the box",
+        "54285": "Pick up the cloth and put it in the box",
+        "80786": "Pick up the cloth on the counter and put it in the box",
+        "84365": "Put the towel on the table into the box"
+
+    },
+     "put_item_in_cup":{
+        "32393": "Pick up the pearl from the table and put it in the white cup.",
+        "63277": "Put the pear inside the paper cup",
+        "42969": "Put the pear in the cup",
+        "24820": "Place the avocado in the white cup",
+        "17022": "Put the green object in the white paper cup"
+     },
+    "no_action": {
+        "4107": "No action"
+    }
+}
+

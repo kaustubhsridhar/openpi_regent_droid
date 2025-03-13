@@ -1,0 +1,78 @@
+
+{
+    "open_drawer": {
+        "29826": "Open the drawer",
+        "259": "Open the drawer",
+        "89473": "Open the drawer",
+        "16532": "Open the orange drawer",
+        "88484": "Open the drawer",
+        "52278": "Open the drawer",
+        "20024": "Pull open the small drawer",
+        "16466": "Open the drawer"
+    },
+    "close_drawer": {
+        "47625": "Close the open drawer",
+        "16277": "Close the drawer",
+        "69286": "Close the red drawer",
+        "14124": "Close the red drawer.",
+        "43442": "Close the drawer",
+        "22589": "Close the red drawer.",
+        "49096": "Close the drawer",
+        "93394": "Close the drawer on the table",
+        "39768": "Close the chest drawer"
+    },
+    "move_yellow_object_left": {
+        "35263": "Move the yellow object to the left",
+        "50806": "Move the yellow object from right to left"
+    },
+    "move_yellow_object_right": {
+        "3539": "Move the yellow object to the right",
+        "5211": "Move the yellow object to the right",
+        "93802": "Move the yellow object to the right"
+    },
+    "move_green_towel_right": {
+        "76407": "Move the green towel to the right",
+        "77249": "Move the green towel to the right",
+        "86761": "Move the green towel to the right."
+    },
+    "move_green_towel_left": {
+        "67498": "Move the green towel to the left"
+    },
+     "move_object_forward": {
+        "74012": "Slide the green cloth forward",
+        "24902": "Move the green towel forward",
+        "63302": "Move the green towel forward",
+        "80892": "Move the green towel towards you",
+        "32602": "Move the object forward toward the left"
+
+    },
+    "move_object_backward": {
+        "5432": "Move the plush toy backwards.",
+       "74454": "Move the green towel backwards",
+        "64240": "Slide the green cloth backward"
+    },
+    "fold_green_towel": {
+        "16395": "Fold the green towel from top to bottom",
+        "5315": "Fold the green towel from right to left",
+        "13252": "Fold the green towel from bottom to top"
+    },
+    "unfold_green_towel": {
+        "27543": "Unfold the green towel",
+        "89435": "Unfold the green towel on the table.",
+        "39020": "Unfold the green towel"
+    },
+    "fold_green_cloth": {
+        "52614": "Fold the green cloth on the table",
+        "15214": "Fold the green cloth on the table"
+    },
+    "unfold_green_cloth":{
+        "68372": "Unfold the green cloth",
+        "52314": "Unfold the green cloth once"
+    },
+      "put_lid_on_pot": {
+        "9263": "Put the lid on the pot",
+        "56139": "Put the silver lid on the silver pot",
+        "40180": "Put the lid on the silver pot"
+    }
+}
+

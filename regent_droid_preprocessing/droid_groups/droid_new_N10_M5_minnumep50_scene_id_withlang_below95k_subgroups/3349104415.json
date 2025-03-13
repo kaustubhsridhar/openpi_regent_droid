@@ -1,0 +1,86 @@
+
+{
+    "Open Drawer": {
+        "86273": "Open the top drawer of the bottom cabinet",
+        "57739": "Open the drawer below the book",
+        "67863": "Fully open the slightly open drawer and put the black pen in the drawer",
+        "34108": "Open the top drawer of the cabinet",
+        "88810": "Open the drawer",
+        "9208": "Open the top drawer.",
+        "43902": "Open the drawer at the right",
+        "88433": "Pull open the top right most drawer of the kitchen cabinet"
+
+    },
+    "Close Drawer": {
+        "86912": "Close the open drawer",
+        "62374": "Close the drawer",
+        "32725": "Close the kitchen drawer",
+        "55394": "Close the open drawer",
+        "87404": "Close the open drawer"
+    },
+   "Open Cabinet Door": {
+        "25365": "Open the second overhead cabinet door from the right",
+        "93469": "Open the top right cabinet",
+        "69541": "Open the bottom right door of the cabinet.",
+        "4395": "Open the top right cupboard door",
+        "59479": "Open the right door of the first upper cabinet from the right",
+        "16605": "Open the rightmost cabinet door of the lower cabinet",
+        "45279": "Open the left door of the upper cabinet on the far right",
+        "59643": "Open the rightmost lower cabinet door"
+   },
+    "Close Cabinet Door":{
+        "33953": "Close the cupboard",
+        "13355": "Close the right top cabinet door",
+        "79810": "Close the door of the top kitchen cabinet",
+        "3910": "Close the open upper cabinet door",
+        "9434": "Close the open cabinet door on the right",
+        "72830": "Close the far right bottom cupboard door"
+    },
+
+    "Remove Pen and Put on Counter": {
+        "38147": "Remove the pen from the drawer and put it on the counter",
+        "83723": "Take the pen out of the open drawer and put it on the counter",
+        "94756": "Remove the pen from the drawer and place it on the countertop",
+       "57548": "Open the top drawer below the book, take out the pen, and then put it on the countertop"
+    },
+    "Put Pen in Drawer": {
+        "18441": "Put the pen in the open drawer",
+        "90320": "Put the pen in the open kitchen drawer",
+        "16764": "Open the first drawer from the right and then put the pen inside it",
+        "20810": "Put the pen in the top drawer under the book"
+
+    },
+    "Remove Box and Put on Counter":{
+        "54020": "Remove the black box from the open drawer and place it on the countertop",
+        "80178": "Remove the black box from the open drawer and put it on the counter"
+    },
+    "Put Box in Drawer": {
+        "7876": "Put the black box in the drawer",
+        "9173": "Put the black box in the open drawer"
+    },
+
+    "Move Object to Right":{
+        "90967": "Move the black box to the right",
+        "88816": "Move the object to the right",
+        "54000": "Open the right door of the upper cabinet on the far right, move the black box to the right side of the countertop"
+
+    },
+    "Put Object in Drawer and Close":{
+        "16534": "Put the black box and pen in the drawer and then close the drawer",
+        "25563": "Put the black box and pen inside the open drawer then close it",
+        "16383": "Take the pen and the box out of the drawer and put them on the counter then close the drawer",
+        "71737": "Open the drawer, take the pen out and put it on the table, the close the drawer",
+        "81359": "Remove the pen from the drawer and close it"
+
+    },
+     "Open and Close Drawer":{
+        "79973": "Open the bottom right cupboard door then close the drawer"
+     },
+      "Move Object Forward":{
+        "41131": "Remove the box on the countertop forward"
+      },
+    "Put Object in Open Drawer":{
+      "34858": "Pick up the black object and put it in the open drawer"
+    }
+}
+

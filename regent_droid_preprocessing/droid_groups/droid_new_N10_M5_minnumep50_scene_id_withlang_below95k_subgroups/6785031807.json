@@ -1,0 +1,48 @@
+
+{
+    "remove_block_from_bag": {
+        "91010": "Remove one blue block from the toy bag",
+        "55316": "Remove one yellow block from the toy bag",
+        "81430": "Remove one orange block from the toy bag",
+        "88029": "Remove one purple block from the toy bag"
+    },
+    "take_block_out_of_bag": {
+        "41346": "Take the yellow block out of the bag",
+        "49317": "Take a purple block out of the bag",
+        "27603": "Take the yellow block out of the bag"
+    },
+    "put_cloth_on_item": {
+        "66053": "Put the cloth on the white bowl",
+        "72898": "Put the cloth on the plate"
+    },
+     "put_towel_on_plate": {
+        "62634": "Put the blue towel on the orange plate",
+        "42936": "Put the blue towel on the orange plate",
+        "88545": "Put the blue towel on the plate",
+        "70757": "Put the blue towel on the plate"
+    },
+    "unfold_towel": {
+        "30760": "Unfold the light blue towel.",
+        "15792": "Unfold the blue towel"
+    },
+    "move_item_left": {
+        "68112": "Move the mug to the left",
+        "31933": "Move the blue cloth to the left",
+        "37094": "Move the blue towel to the left"
+    },
+    "wipe_table_with_towel": {
+        "21537": "Wipe the table with the blue towel",
+        "9447": "Wipe the table with the blue towel"
+    },
+    "move_forward": {
+        "67650": "Move the green towel forward"
+    },
+    "move_backward": {
+        "90947": "Move the red plate backwards."
+    },
+     "no_action": {
+        "7185": "No action",
+        "22489": "No action"
+    }
+}
+

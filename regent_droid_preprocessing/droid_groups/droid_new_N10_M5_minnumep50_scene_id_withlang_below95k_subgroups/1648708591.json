@@ -1,0 +1,67 @@
+
+{
+"move_right": {
+    "36610": "Move the green plush toy to the right",
+    "46246": "Pick up the white bowl and slightly move it to the right.",
+    "52137": "Move the can slightly to the right",
+    "25784": "Move the red pepper to the right",
+    "59459": "Move the orange pepper to the right.",
+    "91597": "Move the orange ball to the right",
+    "51152": "Slide the orange cloth to the right",
+    "54498": "Move the container on the table to the right",
+    "81663": "Slide the can to the right on the desk"
+},
+"move_left": {
+    "74536": "Move the shaker to the left",
+    "54971": "Move the orange object to the left",
+    "1625": "Slightly push the towel to the left",
+    "71261": "Push the orange towel on the table to the left"
+},
+"move_backward": {
+    "39961": "Move the purple plush toy backwards",
+    "82340": "Move the blue block backwards",
+    "68045": "Move the orange towel to the back of the table"
+
+},
+"move_forward": {
+    "86433": "Move the orange cloth forward",
+    "30709": "Move the maize cob forward",
+    "54263": "Move the blue block to the front"
+},
+"put_in_bowl": {
+    "75402": "Put the salt cellar in the bowl",
+    "8978": "Put the green cup into the bowl",
+    "37408": "Pick up the bottle and put it in the bowl",
+     "57128": "Pick up the bottle and put it in the bowl",
+    "51382": "Pick up the cup and put it in the bowl",
+    "499": "Put the green cup in the bowl"
+},
+"put_in_dish":{
+    "91934": "Put the shaker in the dish",
+    "64692": "Put the blue cup in the dish"
+},
+"put_in_pot":{
+    "83766": "Put the blue cup in the pot",
+    "59246": "Pick up the orange object and put it in the pot",
+    "83696": "Put the blue cup into the pot",
+    "59765": "Pick up the salt cellar and put it in the pot",
+    "88569": "Put the salt shaker inside the pot"
+},
+"remove_from_pot":{
+    "48586": "Remove the salt shaker from the pot",
+    "72650": "Remove the blue cup from the pot",
+    "40186": "Remove the cup from the pot",
+     "75006": "Remove the salt cellar from the white pot"
+
+},
+"remove_from_bowl": {
+    "37489": "Remove the white object from the bowl.",
+    "25699": "Remove the shaker from the bowl and put it on the table",
+    "252": "Remove the shaker from the bowl and put it on the table",
+    "77435": "Remove the blue cup out of the bowl"
+
+},
+ "slide_right":{
+     "89248": "Slide the cloth to the right"
+ }
+}

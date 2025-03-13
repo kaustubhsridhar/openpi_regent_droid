@@ -1,0 +1,56 @@
+
+{
+        "move_object_left": {
+                "22019": "Move the orange marker to the left",
+                "46584": "Move the marker to the left",
+                "27791": "Move the black block to the left",
+                "50729": "Move the pencil to the left",
+                "61609": "Pick the orange marker and move it to the left on the table",
+                "89772": "Move the pencil to the left",
+                "37678": "Move the duster to the left",
+                "46648": "Move the marker to the left",
+                "43079": "Move the black object to the left",
+                "7637": "Move the yellow marker to the left",
+                "72548": "Move the marker to the left",
+                "58727": "Move the orange marker to the left",
+                "49521": "Pick up the marker and put it on the left side of the table",
+                "7413": "Move the blue marker on the right to the left",
+                "32376": "Move the pencil to the left.",
+                "35327": "Move the duster from right to left."
+        },
+        "move_object_right": {
+                "82826": "Move the blue marker to the right",
+                "93328": "Move the silver object to the right",
+                "81940": "Move the black object to the right on the table",
+                "42525": "Move the pencil to the right",
+                "53938": "Move the duster to the right",
+                "12339": "Move the duster to the right",
+                "47289": "Move the pencil to the right",
+                "10810": "Move the orange marker to the right",
+                "68293": "Move the pencil to the right",
+                "81742": "Move the blue upright marker to the right",
+                "40283": "Move the board eraser to the right",
+                "8416": "Move the orange marker to the right",
+                "44669": "Move the pencil to the right",
+                "46188": "Move the black rectangular object to the right",
+                "18928": "Move the orange marker to the right on the table",
+                "91760": "Move the grey block to the right",
+                "8445": "Move the blue marker to the right",
+                "82131": "Pick up the orange marker and put it on the right side of the table"
+        },
+        "move_object_forward": {
+                "69143": "Move the marker forward",
+                "76582": "Move the blue pen on the left forwards",
+                "5185": "Move the yellow pencil forwards.",
+                "20937": "Move the pencil forward",
+                "47435": "Move the blue marker forwards",
+                "512": "Move the duster closer to you"
+        },
+        "move_object_backward": {
+                "9491": "Pick up the white board eraser and move it backwards.",
+                "24275": "Move the marker backwards",
+                "9437": "Move the grey block backward",
+                "56436": "Move the blue marker on the left backwards"
+        }
+}
+

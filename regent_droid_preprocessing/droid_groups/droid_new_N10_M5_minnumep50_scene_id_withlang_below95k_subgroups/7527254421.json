@@ -1,0 +1,63 @@
+
+{
+    "place_orange_cup_on_dishrack": {
+        "14002": "Put the orange cup on the dishrack.",
+        "51682": "Take the orange cup off of the window seal and put it on the dish rack"
+    },
+    "place_yellow_cup_in_drying_rack": {
+        "24864": "Put the yellow cup inside the drying rack",
+        "40829": "Put the yellow cup in the dish rack"
+    },
+    "place_item_on_windowsill": {
+        "1287": "Put the orange cup on the window seal",
+        "11574": "Put the yellow cup on the window sill",
+        "68815": "Put the silver bowl on the windowsill",
+        "69591": "Put the bottle, which is on the right, on the windowsill"
+    },
+     "place_cup_on_plate_rack": {
+        "28611": "Put the cup on the plate rack"
+    },
+    "place_cup_on_drying_rack":{
+        "53082": "Put the cup on the drying rack"
+    },
+    "remove_pink_cup_from_sink_to_drying_rack": {
+        "42833": "Remove the pink plate from the sink and put it in the drying rack",
+        "43985": "Remove the pink cup from the sink and put it in the drying rack"
+    },
+    "place_yellow_cup_on_dishrack": {
+        "35666": "Put the yellow cup on the dishrack."
+    },
+    "place_green_cup_in_drying_rack": {
+        "57009": "Pick the green cup from the drying rack and place it to the right of the sink right-side-up",
+        "87602": "Put the green cup inside the drying rack"
+    },
+    "place_purple_cup_in_drying_rack":{
+        "65676": "Put the purple cup inside the drying rack"
+    },
+        "place_plate_on_drying_rack": {
+        "88749": "Put the plate on the drying rack"
+    },
+    "place_pink_cup_on_dishrack":{
+        "71650": "Put the pink cup on the dishrack."
+    },
+    "move_purple_plate_to_dish_rack":{
+        "76374": "Move the purple plate to the dish rack"
+    },
+        "place_silver_bowl_on_plate_rack":{
+        "65389": "Put the silver bowl on the plate rack"
+    },
+        "open_tap": {
+            "73006": "Open the tap",
+            "15966": "Open the tap, then fill the orange cup with a little water"
+    },
+        "remove_orange_cup_from_sink":{
+            "67378": "Remove the orange cup from the sink"
+    },
+    "place_sponge_in_holder":{
+            "14723": "Put the yellow sponge on the silver holder.",
+            "27457": "Put the sponge in the metal holder, on the sink"
+    },
+     "remove_orange_cup_from_drying_rack_to_sink":{
+            "12730": "Remove the orange cup from the drying rack and put it in the sink"
+     }
+}

@@ -1,0 +1,85 @@
+
+{
+    "move_left": {
+        "29185": "Move the strawberry plush toy to the left",
+        "4234": "Move the yellow cup to the left",
+        "15634": "Move the orange plush toy to the left.",
+        "79911": "Move the yellow cup to the left",
+        "40644": "Move the strawberry to the left",
+        "85469": "Move the tissue roll to the left"
+    },
+    "move_right": {
+        "53007": "Move the roll of paper towel to the right",
+        "68882": "Move the yellow mug to the right",
+        "68640": "Shift the blue bowl to the right side of the basketball",
+        "48162": "Remove the black object from the yellow mug and move it to the right",
+        "16564": "Move the orange straw to the right of the red plate",
+        "14803": "Shift the plastic to the right",
+        "50042": "Move the green bowl to the right"
+    },
+    "pour_green_to_purple": {
+        "76802": "Pour the contents in the green bowl into the purple bowl.",
+        "54580": "pour the content in the light green bowl into the purple",
+        "7993": "Pour the contents from the purple bowl into the green bowl."
+
+    },
+    "pour_purple_to_green": {
+        "36866": "Pour the contents of the purple bowl into the green bowl",
+        "29412": "Pour the contents in the purple bowl into the green bowl.",
+        "46033": "Pour the contents from the pink bowl into the green bowl"
+
+    },
+      "pour_green_to_orange": {
+        "37641": "Pour the objects from the green bowl into the orange bowl",
+        "77723": "Pour the contents in the green bowl into the orange bowl"
+    },
+    "pour_into_blue":{
+        "89246": "Pour the contents of the pink bowl into the blue bowl",
+        "88670": "Pour the content in the purple bowl into the blue bowl and then place the purple bowl next to the blue bowl",
+        "57204": "Pour the contents in the purple bowl into the blue bowl.",
+        "73183": "Transfer the beans from the green bowl to the blue bowl"
+
+    },
+    "pour_blue_to_other":{
+        "86228": "Pour the contents in the blue bowl into the orange bowl",
+        "16727": "Pour the contents of the blue bowl into the pink bowl",
+        "15836": "Pour the contents of the blue bowl into the purple bow",
+        "77543": "Pick up the blue bowl and pour all its contents into the purple bowl"
+
+    },
+   "pour_orange_to_purple": {
+        "3144": "Pour the contents in the orange bowl into the purple bowl."
+   },
+    "pour_orange_to_green":{
+        "11863": "Pour the objects in the orange bowl into the green bowl."
+    },
+    "put_in_orange_bowl": {
+        "10757": "Put the strawberry in the orange bowl",
+        "58028": "Put the red object in the orange bowl",
+        "84802": "Pick up the red toy and put it in the orange bowl",
+        "63161": "Put the purple bowl in the orange bowl"
+
+    },
+    "put_in_blue_bowl":{
+        "83266": "Pick up the red toy and put it in the blue bowl"
+    },
+        "put_in_green_bowl":{
+        "8244": "Lift the blue clip and put it in the green bowl"
+    },
+    "put_in_purple_bowl":{
+        "3434": "Put the strawberry in the purple bowl"
+    },
+    "put_x_in_y_bowl":{
+        "5321": "Put the content of the green bowl into the blue and pink bowls"
+    },
+      "remove_from_orange_bowl":{
+        "2399": "Remove the strawberry from the orange bowl",
+        "27378": "Remove the red ball from the orange bowl."
+    },
+    "move_backward":{
+        "32947": "Move the pink bowl backwards slightly"
+    },
+     "put_in_red_bowl":{
+        "72309": "Put the pumpkin plush toy into the red bowl"
+     }
+}

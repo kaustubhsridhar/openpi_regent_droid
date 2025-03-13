@@ -1,0 +1,81 @@
+
+{
+    "put_marker_in_bowl": {
+        "69891": "Put the green marker inside the yellow bowl",
+        "71172": "Put the marker in the bowl",
+        "33036": "Put the marker into the bowl.",
+        "16535": "Put the marker in the bowl",
+        "35352": "Pick the marker and put it in the bowl",
+        "80162": "Put the marker in the bowl",
+        "90029": "Put the marker inside the bowl on the left",
+        "77745": "Put the marker in the bowl",
+        "93748": "Put the marker in the bowl",
+        "93872": "Put the marker in the bowl",
+        "82364": "Put the marker in the bowl",
+        "78782": "Put the marker in the bowl",
+        "79043": "Pick the marker and put it in the bowl",
+        "30280": "Put the marker in the bowl",
+        "71115": "Put the marker in the bowl",
+        "83037": "Place the marker inside the bowl",
+        "89691": "Pick up the marker from the table and put it in the bowl",
+        "11751": "Put the marker in the bowl",
+        "85608": "Pick the marker and put it in the bowl",
+        "12156": "Put the marker in the bowl"
+    },
+    "put_marker_in_blue_bowl": {
+        "20128": "Take the marker and put it in the blue bowl",
+        "25778": "Put the marker in the blue bowl",
+        "81368": "Put the marker in the blue bowl"
+
+    },
+    "put_marker_in_cup": {
+        "18841": "Put the marker in the cup",
+        "95023": "Pick up the marker and put it in the cup",
+        "65335": "Put the marker inside the cup",
+        "19520": "Pick the marker and put it in the cup",
+        "77379": "Put the marker in the cup",
+        "54489": "Pick up the marker and put it in the cup",
+        "17116": "Put the marker in the cup",
+        "56164": "Put the marker into the cup.",
+        "75500": "Pick the marker and put it in the cup",
+        "31343": "Put the marker in the cup"
+    },
+    "put_pen_in_bowl": {
+        "27278": "Put the pen in the bowl",
+        "14612": "Put the pen in the blue bowl",
+        "22868": "Put the pen in the bowl",
+        "3420": "Put the pen in the bowl"
+       },
+    "put_marker_in_vase": {
+        "1578": "Put the marker in the vase",
+        "43635": "Put the marker in the vase",
+        "64380": "Place the marker in the vase"
+    },
+    "put_marker_in_blue_vase": {
+        "31362": "Put the marker in the blue vase",
+        "89938": "Put the marker in the blue vase"
+    },
+    "put_marker_in_yellow_bowl":{
+        "50020": "Put the marker inside the yellow bowl",
+        "45909": "Put the maker in the yellow bowl",
+        "90710": "Place the black marker in the yellow bowl"
+    },
+    "put_marker_in_blue_container":{
+        "77616": "Put the marker in the blue container",
+        "52075": "Put the marker inside the blue container"
+    },
+       "put_marker_in_blue_vessel":{
+        "48299": "Put the marker in the blue vessel",
+        "75956": "Put the marker inside the blue vessel"
+    },
+    "put_marker_in_lunchbox": {
+        "89648": "Put the marker in the lunchbox",
+        "53210": "Put the marker in the lunchbox"
+    },
+     "put_marker_in_blue_object":{
+        "61045": "Put the marker in the blue object"
+    },
+    "put_green_marker_in_yellow_bowl":{
+        "73528": "Put the green marker inside the yellow bowl"
+    }
+}

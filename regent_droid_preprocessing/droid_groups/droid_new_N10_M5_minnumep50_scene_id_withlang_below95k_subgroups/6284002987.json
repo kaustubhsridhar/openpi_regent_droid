@@ -1,0 +1,220 @@
+
+{
+    "turn_on_light": {
+        "51201": "turn on the light",
+        "86550": "Turn on the light",
+        "92192": "Turn on the light",
+        "44587": "Turn on the light",
+        "62531": "Turn on the light",
+        "50757": "turn on the light",
+        "93848": "Turn on the light",
+        "701": "Turn on the light",
+        "39627": "Turn on the light",
+        "46855": "turn on the light",
+        "8460": "Turn on the light",
+        "16193": "Turn on the light",
+        "62311": "Turn on the light",
+        "66951": "Turn on the light",
+        "36758": "Turn on the light",
+        "77786": "Turn on the light",
+        "91636": "Turn on the light",
+        "62460": "Turn on the light"
+    },
+    "turn_off_light": {
+        "64005": "Turn off the light",
+        "94228": "turn off the light",
+        "52269": "Turn off the light",
+        "67126": "Turn off the light",
+        "49214": "Turn off the light",
+        "88639": "Turn off the light",
+        "26179": "Turn off the light",
+        "67677": "Turn off the light",
+        "92835": "Turn off the light",
+        "85694": "Turn off the light",
+        "60719": "Turn off the light",
+        "92458": "Turn off the light",
+        "31053": "Turn off the light",
+        "41343": "Turn off the light",
+        "3972": "Turn off the light",
+        "76718": "Turn off the light",
+        "94644": "Turn off the light",
+        "5073": "Turn off the light",
+         "82269": "Turn off the light"
+    },
+    "turn_on_light_switch": {
+        "7179": "Turn on the light switch",
+        "56846": "Turn on the light switch.",
+        "4134": "Turn on the light switch",
+        "57380": "Turn on the light switch.",
+        "14396": "Turn on the light switch.",
+        "35411": "Turn on the light switch",
+        "15458": "Turn on the light switch.",
+        "42087": "Turn on the light switch",
+        "34437": "Turn on the light switch.",
+        "91408": "Turn on the light switch.",
+        "11025": "Turn on the light switch.",
+        "77649": "Turn on the light switch.",
+        "79710": "Turn on the light switch.",
+        "11625": "Turn on the light switch",
+        "34666": "Turn on the light switch",
+        "2955": "Turn on the light switch.",
+        "5065": "Turn on the light switch.",
+        "5406": "Turn on the light switch.",
+        "57637": "Turn on the light switch",
+        "92965": "Turn on the light switch",
+        "59706": "Turn on the light switch.",
+        "43737": "Turn on the light switch",
+        "37603": "Turn on the light switch",
+        "29419": "Turn on the light switch."
+    },
+    "turn_off_light_switch": {
+        "66593": "Turn off the light switch",
+        "64052": "Turn off the light switch",
+        "36406": "Turn off the light switch",
+        "85079": "Turn off the light switch",
+        "60559": "Turn off the light switch.",
+        "73362": "Turn off the light switch.",
+        "86662": "Turn off the light switch",
+        "30328": "Turn off the light switch",
+        "35939": "Turn off the light switch",
+        "10916": "Turn off the light switch.",
+        "67265": "Turn off the light switch.",
+        "43203": "Turn off the light switch",
+        "37340": "Turn off the light switch",
+        "20914": "Turn off the light switch",
+        "41977": "Turn off the light switch.",
+        "29063": "Turn off the light switch.",
+        "51531": "Turn off the light switch.",
+        "6995": "Turn off the light switch.",
+        "81237": "Turn off the light switch.",
+        "42843": "Turn off the light switch.",
+         "58235": "Turn off the light switch."
+
+    },
+    "flip_switch_on_wall": {
+        "53253": "Flip the switch on the wall",
+        "32786": "Flip the switch on the wall",
+        "86053": "Flip the switch on the wall",
+        "74281": "Press the switch on the wall",
+        "33327": "Flip the light switch on the wall",
+        "61601": "Flip the switch on the wall",
+        "82615": "Flip the switch on the wall",
+        "84663": "Flip the switch on the wall",
+        "70330": "Flip the switch on the wall",
+        "67308": "Flip the switch on the wall",
+        "68499": "Flip the switch on the wall",
+        "51611": "Flip the switch on the wall",
+        "86982": "Flip the switch on the wall",
+        "32720": "Flip the switch on the wall",
+         "40446": "Flip the switch on the wall",
+          "61296": "Flip the switch on the wall",
+        "63348": "Flip the switch on the wall",
+        "10049": "Flip the switch on the wall",
+         "23320": "Flip the switch on the wall"
+    },
+    "flip_light_switch":{
+        "43561": "Flip the light switch",
+        "91732": "Flip the light switch",
+        "8852": "Flip the light switch on the wall",
+        "63729": "Flip the light switch on the wall",
+         "84233": "Flip the light switch on the wall",
+        "77595": "Flip the light switch on the wall",
+        "32109": "Flip the light switch on the wall",
+         "42985": "Flip the light switch on the wall",
+        "50162": "Flip the light switch"
+
+    },
+        "switch_on_light": {
+        "15413": "Switch on the light",
+        "48187": "Switch on the light",
+        "1102": "Switch on the light",
+        "67827": "Switch on the light",
+        "85985": "Switch on the light",
+        "75244": "Switch on the light",
+        "6028": "Switch on the light",
+        "89479": "Switch the light on"
+    },
+    "switch_off_light": {
+        "11912": "Switch off the light",
+        "29858": "Switch the light off",
+        "30884": "Switch off the light switch on the wall",
+        "47278": "Switch off the lights switch on the wall",
+        "6331": "Switch off the light",
+        "44830": "Switch off the light",
+        "58669": "Switch off the light",
+        "22392": "Switch off the light",
+        "94711": "Switch off the light",
+        "26499": "Switch off the light switch"
+
+    },
+        "push_light_switch_upwards":{
+        "23588": "Push the light switch upwards",
+        "25148": "Push the light switch upwards",
+         "65828": "Push the light switch upwards",
+            "47487": "Push the light switch upwards",
+             "80307": "Push the light switch upwards"
+    },
+        "push_light_switch_downwards":{
+        "53935": "Push the light switch downwards",
+        "60597": "Push the light switch downwards",
+         "94020": "Push the light switch downwards",
+        "70579": "Push the light switch downwards"
+    },
+       "press_switch_on_top_turn_on_light":{
+        "92206": "Press the switch on top to turn on the light",
+         "15035": "Press the switch on top to turn on the light",
+        "38251": "Press the switch on top to turn on the light",
+        "20441": "Press the switch on top to turn on the light"
+       },
+       "turn_on_light_switch_on_wall":{
+        "5276": "Turn on the lights switch on the wall",
+        "57033": "Turn on the light switch on the wall",
+        "74516": "Turn on the light switch on the wall",
+        "1910": "Turn the light switch on the wall on"
+
+       },
+       "flip_switch_turn_off_light":{
+           "82618": "Flip the switch to turn off the light",
+           "58461": "Flip the switch to turn off the light",
+            "12507": "Flip the switch to turn off the light",
+            "52031": "Flip the switch to turn off the light",
+            "47061": "Flip the switch to turn off the light",
+            "94590": "Flip the switch to turn off the light"
+
+       },
+       "flip_switch_turn_on_light":{
+            "6714": "Flip the switch to turn on the light",
+            "425": "Flip the switch to turn on the light",
+            "51140": "Flip the switch to turn on the light",
+            "27604": "Flip the switch to turn on the light",
+             "56308": "Flip the switch to turn on the light"
+       },
+       "flip_the_switch":{
+           "80658": "Flip the switch",
+            "43799": "Flip the switch",
+            "91964": "Flip the switch",
+            "42861": "Flip the switch"
+       },
+        "turn_off_light_switch_on_wall":{
+            "65811": "Turn off the light switch on wall",
+            "53589": "Turn off the light switch on the wall"
+        },
+       "switch_on_light_switch":{
+          "55600": "Switch on the light switch"
+       },
+       "press_the_switch_on_the_wall":{
+           "37157": "Press the switch on the wall"
+       },
+        "turn_on_the_switch":{
+            "48382": "Turn on the switch"
+
+        }
+
+
+
+
+
+
+
+
+}

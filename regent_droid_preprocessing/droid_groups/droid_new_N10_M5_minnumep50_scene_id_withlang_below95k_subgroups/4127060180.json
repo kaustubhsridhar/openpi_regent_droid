@@ -1,0 +1,49 @@
+
+{
+    "press_washing_machine_button": {
+        "83842": "Press a button on the washing machine",
+        "80011": "Press a button on the washing machine",
+        "84372": "Press a button on the washing machine",
+        "20757": "Press a button on the washing machine",
+        "58647": "Press a button on the washing machine",
+        "32957": "Press a button on the washing machine",
+        "55492": "Press a button on the washing machine"
+    },
+    "press_right_washing_machine_button": {
+        "33301": "Press a button on the right washing machine",
+        "29852": "Press a button on the right side of the washing machine",
+        "54306": "Press a button on the washing machine to the right",
+        "48043": "Press a button on the right washing machine",
+        "63939": "Press a button on the right washing machine",
+        "58060": "Press a button on the right washing machine",
+        "83805": "Press a button on the washing machine on the right.",
+        "81887": "Press a button on the washing machine on the right.",
+        "63478": "Press a button on the washing machine on the right.",
+        "18683": "Press a button on the washing machine on the right"
+    },
+    "press_left_washing_machine_button": {
+        "53277": "Press a button on the left washing machine",
+        "90148": "Press a button on the washing machine on the left.",
+        "17999": "Press a button on the washing machine on the left.",
+        "45528": "Press one button on the washing machine on the left.",
+        "32611": "Press a button on the left side of the left washing machine",
+        "25975": "Press a button on the left side of the washing machine"
+    },
+    "press_dishwasher_button": {
+        "47365": "Press the button on the dishwasher",
+        "93307": "Press a button on the right dishwasher"
+    },
+     "press_machine_button": {
+        "63683": "Press the button on the machine"
+    },
+    "place_lid_on_container":{
+        "9882": "Put the lid in the brown basket",
+        "8945": "Place the green lid on the pot"
+    },
+    "put_item_in_basket":{
+        "4538": "Put the black object inside the basket",
+        "60140": "Put the bottle inside the metal basket"
+    }
+
+}
+

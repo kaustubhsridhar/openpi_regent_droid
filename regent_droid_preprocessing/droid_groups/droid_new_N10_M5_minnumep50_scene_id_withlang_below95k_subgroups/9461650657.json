@@ -1,0 +1,130 @@
+
+{
+    "remove_one_tissue_and_place_on_table": {
+        "22017": "Take a tissue out of the box and put it on the table",
+        "36354": "Take a tissue from the tissue box and put it on the table",
+        "84488": "Take a tissue from the tissue box and place it on the table",
+        "5650": "Take some tissue out of the box and put it on the table",
+        "8215": "Pick a tissue from the box and place it on the table",
+        "36901": "Take a tissue and put it on the table",
+        "49189": "Remove a tissue from the box and put it on the table",
+        "48168": "Remove a tissue from the box and put it on the table",
+        "35887": "Pick up a tissue and put it on the table",
+        "9777": "Take a tissue from the box and put it on the table",
+        "15933": "Pull out one tissue square from the box and place it on the table",
+        "62035": "Remove a tissue from the tissue box and put it on the table",
+        "14938": "Remove the tissue from the box and put it on the table",
+        "10334": "Remove a tissue from the box and put it on the table",
+        "30825": "Take one tissue out of the box and put it on the table",
+        "36462": "Pick up a piece of tissue paper from the box and put it on the table",
+        "6802": "Take a tissue and put it on the table",
+        "77972": "Take a tissue from the tissue box and put it on the table",
+        "73879": "Remove a tissue from the box and put it on the table",
+        "71321": "Pull out a tissue from the box and put it on the table",
+        "63646": "Take a piece of tissue from the tissue box and put it on the table",
+        "77986": "Take a tissue from the tissue box and place it on the table",
+        "59559": "Pull a tissue out of the box and put it on the table",
+        "93873": "Remove the tissue from the box and put it on the table",
+        "32449": "Take a tissue from the tissue box and put it on the table",
+        "45766": "Take a piece of tissue from the tissue box and put it on the table",
+        "8918": "Remove a tissue from the box and put it on the table",
+        "41197": "Pull a tissue paper from the box and put it on the table",
+        "59638": "Take a piece of tissue from the tissue box and put it on the table",
+        "67859": "Pull out one tissue square from the box and put it on the table",
+        "77098": "Pull out a tissue from the box and put it on the table",
+        "13105": "Take a tissue from the box and place it on the table",
+        "26423": "Take a tissue out of the box and place it on the table",
+        "41841": "Take a piece of tissue from the tissue box and place it on the table",
+        "28531": "Pull out one tissue square from the pink box and put it on the table",
+        "72063": "Remove a tissue from the box and put it on  the table",
+        "49541": "Remove a tissue from the box and put it on the table",
+        "15254": "Take a tissue from the box and put it on the table",
+        "10149": "Pull out a tissue from the box and put it on the table",
+        "19373": "Pull out a tissue from the box and put it on the table",
+        "24493": "Remove the tissue out of the tissue box and put it on the table",
+        "88495": "Pull out a tissue from the box and put it on the table",
+        "46562": "Take a tissue paper from the tissue box and put it on the table",
+       "31062": "Take a piece of tissue out of the issue box and put it on the table",
+        "9214": "Pick up one tissue paper from the box and put it on the table."
+    },
+     "remove_two_tissues_and_place_on_table": {
+        "9738": "Remove two pieces of tissue from the tissue box and put them on the table",
+        "78889": "Pick two tissue papers from the box and put them on the table",
+        "73285": "Remove two tissues from the box and put them on the table",
+        "8589": "Pull out two tissues, one at a time out of the tissue box and place them on the table",
+        "20761": "Take two tissues from the tissue box and put them on the table"
+    },
+    "remove_three_tissues_and_place_on_table": {
+        "1103": "Remove three tissues from the box and put them on the table",
+        "683": "Remove three tissue pieces from the tissue box and put them on the table",
+      "70450": "Take three pieces of tissue from the tissue box and put them on the table"
+    },
+    "remove_one_tissue_square":{
+        "38964": "Remove one square of tissue from the box",
+        "1246": "Remove one tissue square from the tissue box",
+        "60897": "Remove one tissue square from the tissue box",
+        "3352": "Remove one square of tissue from the box",
+        "37076": "Remove one square of tissue from the box"
+    },
+    "place_tissue_on_table": {
+        "48664": "Put two tissues on the table",
+        "89752": "Put a tissue on the table",
+        "94925": "Place a tissue on the table",
+      "71078": "Put a tissue from the tissue box on the table",
+      "23379": "Put a tissue on the table",
+      "86355": "Put a tissue on the table",
+       "16230": "Put a tissue on the table",
+        "80310": "Put a tissue on the table",
+       "71130": "Put a tissue on the table"
+
+    },
+        "pull_out_one_tissue_square_pink_box": {
+        "8721": "Pull out one tissue square from the pink box",
+        "90695": "Pull out one tissue square from the pink box",
+        "74364": "Pull out one tissue square from the pink box",
+        "46944": "Pull out one tissue square from the tissue box",
+        "50066": "Pull out one tissue square from the pink tissue box",
+        "63223": "Pull out one tissue square from the pink box and place it on the table",
+         "42166": "Remove one square of tissue from the pink tissue box and place it on the table"
+
+    },
+     "pull_out_one_tissue_from_box": {
+        "14508": "Pull out one tissue from the box",
+        "28385": "Pull out one tissue from the box",
+      "48551": "Pull out one tissue from the tissue box",
+        "72229": "Pull a tissue from the tissue box"
+    },
+    "remove_tissue_from_box": {
+        "24586": "Remove a tissue from the box",
+        "16939": "Remove a tissue from the box",
+         "47297": "Remove a tissue from the box",
+        "20184": "Remove the tissue from the box.",
+       "81632": "Remove a tissue from the box",
+        "67362": "Remove a tissue from the box",
+         "7025": "Remove a tissue from the box",
+ "21991": "Remove a tissue from the box"
+    },
+    "remove_napkin_place_on_table":{
+       "78416": "Retrieve a napkin from the napkin box and place it on the table",
+        "10979": "Remove one serviette from the box and place it on the table",
+        "6457": "Pick up the napkin and put it on the table",
+        "87876": "Get one napkin from the box and put it on the table"
+    },
+       "remove_wipe_place_on_table":{
+         "63064": "Get a wipe from the wipe holder and put it on the table",
+           "72856": "Remove the wipe and put it on the table",
+           "71577": "Remove a wipe from the wipe holder and place it on the table",
+           "33258": "Get a wipe from the wipe box and place it on the table",
+            "50572": "Take the wiper from the box and put it on the table"
+
+       },
+    "other_tasks":{
+        "59127": "Take out a paper towel from the box",
+        "55400": "Slide the curtain to the left",
+        "43840": "Take a tissue out of the tissue box and put it on the counter",
+          "6362": "Remove one tissue square from the box and place it on the counter",
+        "21797": "Remove three tissues from the box and put them on the counter"
+
+    }
+
+}

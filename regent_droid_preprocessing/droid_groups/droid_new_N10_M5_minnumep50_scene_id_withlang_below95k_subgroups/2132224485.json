@@ -1,0 +1,143 @@
+
+{
+    "put_red_cup_on_red_plate": {
+        "16900": "Put the red cup on the red plate",
+        "27165": "Put the red cup onto the red plate",
+        "15453": "Put the red cup on the red plate",
+        "6881": "Put the red cup on the red plate",
+        "75964": "Lift the red cup and put it on the red plate"
+    },
+    "put_red_mug_on_red_plate": {
+        "51723": "Put the red mug on the red plate.",
+        "88619": "Place the red mug on the red plate",
+        "61532": "Pick up the red mug and place it on the red plate",
+        "7792": "Put the red mug on the red plate.",
+        "64356": "Put the red mug on the red plate.",
+        "63337": "Put the red mug on the red plate.",
+        "38794": "Put the red mug on the red plate.",
+        "70557": "Pick up the red mug and put it on the red plate",
+        "31173": "Put the red mug on the red plate.",
+        "51176": "Put the red mug on the red plate."
+    },
+    "put_orange_cup_on_orange_plate": {
+        "10293": "Put the orange cup on the orange plate",
+        "27226": "Put the orange cup on the orange plate",
+        "85106": "Put the orange cup on the orange plate",
+        "90270": "Put the orange cup on the orange plate",
+        "15008": "Put the orange cup on the orange plate",
+        "56614": "Put the orange cup on the orange plate",
+        "17797": "Put the orange cup on the orange plate",
+        "78235": "Put the orange cup on the orange plate",
+        "29604": "Put the orange cup on the orange plate"
+    },
+    "put_cup_on_plate": {
+        "53810": "Put the cup on the plate",
+        "26180": "Put the cup on the plate",
+        "10822": "Put the red cup on the plate",
+        "82602": "Move the red cup to the plate",
+        "40628": "Put the red cup on the plate",
+         "50917": "Put the cup on the plate",
+        "65284": "Put the cup on the plate",
+        "22941": "Put the cup on the plate",
+        "33717": "Put the cup on the plate",
+        "40426": "Put the cup on the plate"
+
+    },
+    "put_orange_packet_on_bottom_shelf": {
+        "79375": "Put the orange packet on the bottom shelf above",
+        "55836": "Put the orange packet on the shelf",
+        "77367": "Place the orange packet of coffee on the far right side of the bottom shelf",
+        "80991": "Put the orange packet on the shelf",
+        "10339": "Put the orange packet on the bottom shelf.",
+        "84645": "Put the orange packet on the shelf",
+        "71393": "Put the orange packet on the shelf",
+        "13014": "Put the orange packet on the right side of the bottom shelf.",
+        "73997": "Put the orange packet on the bottom shelf.",
+        "47900": "Put the orange package on the shelf",
+        "17703": "Put the orange packet on the bottom shelf.",
+        "68931": "Put the packet on the right side of bottom shelf",
+        "47014": "Move the orange packet of coffee to the right side of the bottom shelf",
+         "59881": "Put the orange packet on the first bottom shelf",
+        "78824": "Put the orange packet on the bottom shelf."
+    },
+    "remove_orange_packet_from_shelf_put_on_counter": {
+        "46140": "Remove the orange packet from the bottom shelf and put it on the counter",
+        "34536": "Remove the orange packet from the bottom shelf and put it on the counter",
+        "32002": "Remove the orange packet from the bottom shelf and put it on the counter",
+        "76073": "Remove the orange packet from the bottom shelf and put it on the counter"
+    },
+    "put_orange_packet_on_counter": {
+        "80037": "Put the orange packet on the counter.",
+        "32439": "Put the orange packet on the counter",
+        "37711": "Put the orange packet on the counter."
+    },
+    "remove_orange_packet_from_shelf": {
+       "80952": "Remove the orange packet from the shelf",
+       "18725": "Remove the orange sachet from the shelf",
+       "61288": "Remove the orange packet from the shelf",
+        "38287": "Remove the orange packet from the shelf",
+        "83895": "Remove the orange packet from the shelf",
+        "81867": "Take the orange packet off the shelf",
+        "46546": "Remove the orange packet from the shelf",
+        "83967": "Take the orange packet off of the shelf"
+    },
+      "put_cup_on_counter":{
+        "12832": "Put the cup on the counter",
+        "49764": "Put the cup on the counter",
+        "60750": "Put the cup on the counter",
+        "87905": "Place the cup on the counter",
+        "39794": "Place the cup on the counter",
+        "77520": "Shift the cup to the counter",
+        "54260": "Shift the cup to the counter",
+        "57824": "Put the cup on the countertop"
+    },
+    "remove_cup_from_plate":{
+        "52294": "Take the red cup off of the plate",
+        "29784": "Remove the cup from the red plate",
+        "14465": "Remove the cup from the plate",
+        "70812": "Remove the cup from the plate",
+        "91332": "Remove the mug from the plate.",
+        "71371": "Remove the red cup from the plate",
+        "71060": "Remove the cup from the plate",
+        "76220": "Remove the cup from the plate",
+        "47099": "Remove the cup from the plate",
+        "72557": "Take the cup off of the plate",
+        "71631": "Take the cup off of the plate",
+        "17893": "Take the cup off of the plate",
+        "56220": "Take the cup off of the plate",
+        "76211": "move the cup off of the plate",
+        "8527": "Take the red cup off of the plate"
+    },
+    "remove_orange_cup_from_orange_plate_put_on_counter": {
+        "40054": "Remove the orange cup from the orange plate and put it on the counter",
+        "29385": "Remove the orange cup from the orange plate and put it on the counter",
+        "2981": "Remove the orange cup from the orange plate and put it on the countertop"
+    },
+        "put_cup_on_table":{
+            "65619": "Put the cup on the table",
+            "93857": "Put the cup on the table"
+        },
+        "remove_red_cup_from_red_plate":{
+            "55558": "Remove the red cup from the red plate"
+
+        },
+          "remove_red_mug_from_red_plate":{
+              "6635": "Remove the red mug from the red plate.",
+               "38900": "Remove the red mug from the red plate."
+          },
+
+        "put_orange_bag_on_table":{
+            "93999": "Put the orange bag on the table"
+        },
+
+    "put_orange_bag_on_shelf":{
+           "13212": "Put the orange bag on the shelf"
+    },
+    "put_orange_bag_on_counter":{
+        "61948": "Put the orange bag on the counter"
+
+    },
+      "put_pack_on_shelf": {
+            "91312": "Put the pack on the shelf"
+        }
+}

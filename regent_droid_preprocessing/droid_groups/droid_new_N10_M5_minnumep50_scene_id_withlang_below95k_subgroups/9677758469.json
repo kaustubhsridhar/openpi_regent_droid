@@ -1,0 +1,64 @@
+
+{
+    "place_item_in_cup": {
+        "7430": "Put the silver spoon in the black mug.",
+        "67730": "Put the fork in the glass cup",
+        "2459": "Put the spoon in the cup",
+        "1708": "Put the fork in the cup",
+        "45743": "Put the spoon into the glass cup",
+        "36329": "Put the fork in the glass cup",
+        "27191": "Put the spoon inside the mug",
+        "52043": "place the cutlery in the cup",
+        "55409": "Pick a spoon and place it in the cup"
+
+    },
+    "remove_item_from_cup": {
+        "9501": "Take the fork and spoon out of the glass cup",
+        "15278": "Remove the spoon from the cup",
+        "81468": "Take the spoon out of the glass cup",
+        "77547": "Remove the folk and then the spoon from the glass cup and put them on the table"
+    },
+    "place_item_on_mat": {
+        "17541": "Put the grey potholder on the glass cup",
+        "53381": "Put the small table mat on the glass cup",
+        "65331": "Put the grey pot holder on top of the glass cup.",
+         "76225": "Put the glass cup on the grey placemat.",
+        "77638": "Move the grey mat, then place the glass on it",
+        "33381": "Remove the mat from the top of the black cup, then put the glass cup on the mat",
+        "49913": "Correctly position the glass on the mat"
+    },
+       "move_object_left": {
+        "28431": "Move the glass cup to the left.",
+        "88441": "Move the spoon to the left",
+        "30045": "Move the tin to the left side of the mat"
+    },
+    "move_object_right": {
+        "46902": "Move the glass cup to the right",
+        "20799": "Move the circular object to the right",
+        "22345": "Move the plastic container to the right"
+
+    },
+    "place_item_in_bowl":{
+        "73219": "Put the items that are on the spoon, in the bowl",
+        "18790": "Put some brown objects on the spoon, then put them in the bowl"
+    },
+     "place_item_on_spoon_and_fork":{
+        "55553": "Place the silver spoon and fork on top of the pot holder.",
+        "76410": "Move the silver spoon and fork to the grey placemat."
+     },
+    "place_lid_on_container": {
+        "22936": "Put the green lid on the lunchbox",
+        "55252": "Put the green lid on the clear container."
+    },
+    "place_item_in_mug":{
+        "76084": "Pick up the silver spoon from the glass cup and put it in the black mug",
+        "51754": "Pick up the fork and put it in the black cup"
+    },
+    "place_cup_on_object":{
+      "5134": "Put the glass cup on the back cup",
+      "81741": "Put the glass cup on top of the black mug."
+    },
+     "place_both_cutlery_in_cup":{
+        "48971": "Lift the folk and spoon from the table and put them in the glass cup"
+     }
+}

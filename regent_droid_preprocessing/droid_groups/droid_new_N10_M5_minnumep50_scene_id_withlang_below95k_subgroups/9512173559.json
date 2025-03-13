@@ -1,0 +1,48 @@
+
+{
+    "move_item_left": {
+        "88069": "Put the orange and yellow cup upright and move them to the left",
+        "82629": "Move the spatula to the left",
+        "38865": "Move the yellow cup to the left"
+    },
+    "move_item_right": {
+        "17348": "Move the orange cup to the right",
+        "29676": "Move the kettle to the right"
+    },
+    "move_item_backward": {
+        "87501": "Move the coke can backwards"
+    },
+    "move_item_forward": {
+        "23907": "Move the plate forward",
+        "28654": "Move the blue box forward"
+    },
+    "put_spoon_in_white_cup": {
+        "35741": "Put the spoon in the white cup",
+        "83556": "Put the spoon in the white cup"
+    },
+        "put_item_on_table": {
+        "49674": "Put the blue cup on the table",
+        "41623": "Put the mug on top of the table",
+        "5156": "Place the Ziploc bags individually on the table",
+        "71752": "Put the black spatula on the table"
+    },
+    "put_item_on_counter": {
+        "59394": "Put the white mug on the counter",
+        "36619": "Pick up the stacked yellow and orange cups and put them on the kitchen counter"
+    },
+      "put_item_on_bottom_shelf": {
+        "13086": "Put the white cup on the bottom shelf",
+        "86827": "Move the mug to the first shelf from the bottom",
+        "37746": "Move the white mug to the bottom shelf."
+    },
+    "put_item_on_plate": {
+        "42318": "Put the white cup on the white plate",
+        "12374": "Put the mug on the plate"
+    },
+    "set_cup_upright": {
+        "67119": "Position the cup upright",
+        "45814": "Place the white mug upright"
+    }
+
+}
+

@@ -1,0 +1,110 @@
+
+{
+    "pour_bowl_into_container": {
+        "48257": "Pour the things in the bowl into the pot",
+        "386": "Pour the contents in the white bowl into the black pot",
+        "2696": "Pour the contents in the bowl into the blue cup",
+        "27893": "Put the things in the white bowl in the pot"
+
+    },
+    "pour_bowl_into_bowl": {
+        "37048": "Pour the chips from the left bowl to the right bowl",
+        "72789": "Pour the contents of the small bowl into the other small bowl",
+        "35580": "Pick up the bowl on the right and pout its contents in the bowl on the left."
+    },
+    "pour_two_bowls_into_pot": {
+        "46295": "Pour the content from the two small white bowls into the pot"
+    },
+        "pour_cup_into_bowl": {
+        "67849": "Pick up the blue cup and pour its contents in the white bowl"
+    },
+    "pour_out_bowl": {
+        "70837": "Pour the contents out of the white bowl",
+        "1462": "Pour the fries out of the white bowl and onto the grey plate"
+    },
+    "pour_from_cup": {
+        "79533": "Pour the content from the cup",
+        "77808": "Empty the contents in the green cup."
+
+    },
+    "place_item_in_pot": {
+        "80923": "Put the toy burger in the black pot",
+        "92720": "Place the dark blue cup inside the black pot",
+        "35253": "Put a plush toy in the black pot",
+        "21229": "Put the box in the pot",
+        "24805": "Put the plush toys and the spoon in the black pot"
+    },
+   "place_item_in_cup": {
+        "30394": "Put the plastic bottle into the blue cup.",
+        "23267": "Put the dishing spoon in the blue cup"
+    },
+    "place_item_in_bowl":{
+        "45198": "Put the box inside the small bowl",
+        "44853": "Put the white bowl in the blue cup"
+    },
+    "place_item_on_tray": {
+        "65381": "Put the fake burger on the tray",
+        "82117": "Put the blue cup on the grey tray"
+    },
+    "place_items_on_plate": {
+        "21780": "Put the light green cup on the grey plate, put the dark blue cup on the grey plate"
+    },
+      "put_cup_on_cup": {
+       "33899": "Put the blue cup in the orange cup and then put the white bowl on the table onto the plate"
+    },
+
+    "place_multiple_toys_in_basket": {
+        "26649": "Put the purple and yellow plush toys in the basket.",
+        "60085": "Pick up the three toys and place them in the basket."
+    },
+   "move_item_forward": {
+        "78123": "Move the plate forward."
+    },
+    "move_cup_upright": {
+          "33840": "Place the dark blue cup upright",
+          "62942": "Move the orange cup upright on the plate"
+    },
+
+    "pick_up_and_put_in_cup": {
+        "91057": "Take the brush on the plate and put it in the orange cup",
+        "54852": "Pick up the object and put it in the orange cup",
+        "95197": "Pick the object and put it in the cup"
+    },
+    "remove_multiple_toys_and_place_on_tray": {
+          "18450": "Pick up the banana plush toy and the object from the carton box and put them on the tray, and then return the banana plush toy to the carton box",
+        "44386": "Remove the banana, plum and apple toys from the basket and place them on the black tray",
+        "10106": "Place the banana toy and orange toy on the black tray"
+    },
+    "remove_toys_from_tray_and_put_in_box":{
+        "46920": "Take the plush toys out of the tray and put them in the box"
+    },
+   "remove_toys_from_box_and_put_on_tray":{
+        "51035": "Take the banana, orange, purple and lemon plush toys out of the box and put them on the tray"
+    },
+  "put_item_in_box_remove_other_items_place_on_table":   {
+        "80128": "Put the orange object in the brown box, then remove the purple and yellow objects and  put them on the table"
+
+  },
+    "remove_toys_from_tray_and_place_in_basket":{
+        "78170": "Remove the plush toys from the black tray and place them in the basket",
+        "17683": "Pick up the red and purple plush toys from the basket and place them on the black tray."
+
+    },
+    "remove_cup_put_on_table":{
+        "43378": "Remove the orange cup from the box and put it on the table, remove the green cup from the orange cup and put it on the table"
+
+    },
+    "pour_from_cup_to_pot_and_plate":{
+       "62962": "Take the orange cup and pour some of its contents into the pot and some onto the plate."
+    },
+     "pour_from_bowl_and_cup_to_plate": {
+        "75988": "Pour the contents of the bowl and the blue cup onto the plate"
+     },
+      "move_objects_from_cup_to_pot":{
+        "69089": "Move the objects from the orange cup and put them in the pot"
+      },
+          "put_item_on_table_then_into_cup": {
+        "4041": "Put the green cup on the table and then put the toy chip on the plate into the green cup"
+      }
+}
+

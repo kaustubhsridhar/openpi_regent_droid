@@ -1,0 +1,72 @@
+
+{
+    "remove_marker_from_cup_and_put_on_table": {
+        "3331": "Remove the marker from the cup and put it on the table",
+        "47235": "Pick up the marker from the cup and put it on the table",
+        "71686": "Remove the marker from the cup and put it on the table",
+        "72710": "Remove the marker from the cup and put it on the table",
+        "24109": "Remove the marker from the cup and put it on the table",
+        "11057": "Remove the marker from the cup and put it on the table",
+        "10052": "Remove the marker from the cup and put it on the table",
+        "16495": "Remove the marker from the cup and put it on the table",
+        "25714": "Remove the marker from the cup and put it on the table",
+        "39922": "Remove the marker from the cup and put it on the table",
+        "68141": "Remove the marker from the mug cup and place it on the table"
+    },
+    "remove_marker_from_cup": {
+        "67459": "Remove the marker from the cup",
+        "91935": "Remove the marker from the cup",
+        "86195": "Remove the marker from the cup",
+        "81720": "Remove the marker out of the cup",
+        "37950": "Remove the marker from the cup",
+        "10324": "Remove the marker from the cup",
+        "23759": "Remove the marker from the cup",
+        "6386": "Remove the marker from the cup",
+        "57845": "Remove the marker from the cup"
+    },
+    "take_marker_out_of_cup": {
+        "53905": "Take the marker out of the cup",
+        "78145": "Take the marker out of the cup",
+        "66923": "Take the marker out of the cup"
+    },
+    "put_marker_on_table": {
+        "62228": "Put the marker on the table.",
+        "66719": "Place the sharpie on the table",
+        "13487": "Put the marker on the table",
+        "66369": "Put the marker on the table",
+        "80463": "Put the marker on the table",
+        "34519": "Put the marker on the table",
+        "84545": "Put the marker on the table.",
+        "27947": "Put the red marker on the table.",
+        "13379": "Put the red marker on the table.",
+        "67794": "Put the sharpie on table"
+    },
+    "remove_marker_from_mug": {
+        "25001": "Remove the marker from the mug",
+        "9006": "Remove the marker from the mug",
+        "40261": "Remove the marker from the mug",
+        "8914": "Remove the marker from the mug",
+        "91612": "Remove the marker from the mug",
+        "61391": "Remove the marker from the mug.",
+        "46679": "Remove the marker from the mug.",
+		"57199": "Remove the marker from the mug.",
+        "28975": "Remove the marker from the mug."
+
+    },
+    "take_marker_out_of_mug":{
+        "50313": "Take the red marker out of the mug.",
+        "86296": "Take the marker out of the mug.",
+        "26851": "Take the marker out of the mug.",
+        "87245": "Take the red marker out of the mug and place it on the tabletop."
+    },
+        "remove_marker_from_mug_cup":{
+        "38560": "Remove the marker from the mug cup",
+        "94421": "Remove the marker from the mug cup"
+    },
+        "take_red_marker_out_of_green_mug":{
+        "15004": "Take the red marker out of the green mug.",
+        "48294": "Take the red marker out of the green mug.",
+        "46323": "Remove the red marker from the green mug.",
+        "93407": "Take the marker out of the green mug."
+    }
+}

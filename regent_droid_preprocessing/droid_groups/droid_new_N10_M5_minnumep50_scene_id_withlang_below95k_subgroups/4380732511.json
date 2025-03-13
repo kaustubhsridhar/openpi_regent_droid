@@ -1,0 +1,107 @@
+
+{
+    "move_tap_left": {
+        "5632": "Move the tap to the left",
+        "50812": "Move the tap to the left",
+        "4336": "Move the tap to the left",
+        "5963": "Move the tap to the left",
+        "42316": "Move the grey tap to the left"
+    },
+    "push_faucet_left": {
+        "55808": "Push the faucet to the left.",
+        "69205": "Slide the tap to the left",
+        "39234": "Slide the spout to the left",
+        "84114": "Move the grey faucet to the left",
+        "59804": "Move the faucet to the left"
+    },
+    "center_faucet": {
+        "58883": "Center the faucet",
+        "25126": "Center the faucet",
+        "35413": "Center the faucet",
+        "51317": "Move the faucet to the center of the sink.",
+        "68984": "Center the faucet"
+    },
+    "push_faucet_right": {
+        "77348": "Push the faucet to the right",
+        "89124": "Move the faucet to the right side of the sink",
+        "59571": "Move the grey faucet to the right",
+        "51929": "Move the faucet of the sink slightly to the right.",
+        "86913": "Push the faucet to the right"
+
+    },
+    "turn_tap_nozzle_right": {
+        "11823": "Turn the tap nozzle to the right",
+        "9347": "Turn the tap nozzle to the right",
+        "11397": "Move the tap nozzle to the right",
+        "61628": "Turn the tap nozzle to the right",
+        "77032": "Move the tap nozzle to the right",
+        "91579": "Move the tap nozzle to the right",
+        "56680": "Move the faucet spout to the right"
+    },
+    "turn_tap_nozzle_left": {
+        "54326": "Move the tap nozzle to the left",
+       "65113": "Move the tap nozzle to the left",
+        "92288": "Turn the tap faucet to the left",
+        "52981": "Turn the tap nozzle to the left",
+        "66520": "Turn the tap nozzle to the left"
+
+    },
+      "turn_tap_nozzle_left_right":{
+        "82624": "Turn the tap nozzle to the right, then turn it to the left"
+    },
+    "move_yellow_block_left": {
+        "41551": "Move the yellow block to the left",
+        "46192": "Move the yellow block to the left",
+        "12555": "Move the yellow block to the left.",
+        "59812": "Move the yellow block to the left"
+    },
+    "move_yellow_block_right": {
+        "85566": "Move the yellow block to the front left",
+        "65763": "Move the yellow block to the right.",
+        "49931": "Move the yellow block to the right",
+        "73939": "Move the yellow cube to the right"
+    },
+     "move_object_right":{
+        "23745": "Move the carrot to the right",
+        "58561": "Move the doll to the right",
+        "60275": "Move the teddy bear to the right",
+        "15748": "Move the white object to the right",
+        "49128": "Move the block to the right"
+    },
+    "put_yellow_block_on_plate": {
+        "26185": "Put the yellow block on the plate",
+        "11905": "Put the yellow block on the plate",
+        "42324": "Put the yellow block on the plate",
+        "63055": "Pick the yellow block and put it on the plate"
+    },
+    "put_object_on_orange_plate": {
+        "36420": "Put the yellow cube on the orange plate",
+        "8778": "Put the yellow block on the orange plate.",
+        "25690": "Put the doll on the orange plate",
+        "37511": "Put the white toy on the orange plate",
+        "93955": "Put the white object on the orange plate",
+        "64923": "Put the doll on the orange plate",
+        "16381": "Put the yellow block on the orange plate.",
+        "37214": "Put the plush toy on the orange plate."
+    },
+      "pick_up_plush_toy_put_on_plate":{
+        "11778": "Pick up the plush toy and put it on the plate",
+        "10763": "Pick up the animal plush toy from the counter and put it on the plate",
+        "32581": "Pick up then animal plush toy on the counter and put it on the plate"
+      },
+    "remove_block_from_plate": {
+        "14372": "Remove the yellow cube from the red plate",
+        "60058": "Remove the yellow block from the orange plate and put it on the table",
+        "85167": "Remove the yellow block from the orange plate",
+        "76590": "Remove the block from the plate",
+        "7502": "Remove the block from the plate"
+    },
+     "remove_doll_from_plate":{
+        "75650": "Remove the doll from the plate",
+        "75651": "Remove the doll from the plate",
+        "19944": "Remove the doll from the orange plate"
+    },
+     "move_object_backward":{
+        "80152": "Move the white doll backwards"
+     }
+}

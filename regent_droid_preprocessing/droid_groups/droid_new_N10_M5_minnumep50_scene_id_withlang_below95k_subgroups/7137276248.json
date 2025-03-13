@@ -1,0 +1,75 @@
+
+{
+    "put_item_in_pot": {
+        "82502": "Put the calculator in the pot",
+        "25168": "Remove the spoons with a plastic wrap from the wooden bowl and put them in the pot",
+        "61586": "Remove the ring cutlery from the wooden bowl and put it in the pot",
+        "3244": "Put the sunglasses in the pot",
+        "38066": "Put the blue masking tape in the silver pot",
+        "64365": "Pick up the pen on the right side of the masking tape and put it in the pot",
+        "37303": "Put the calculator into the pot",
+        "979": "Put the silver object in the silver pot"
+    },
+    "put_item_on_wooden_plate": {
+        "32817": "Put the toy cart on the wooden plate",
+        "29247": "Put the plastic package on the wooden plate"
+    },
+     "move_item_forward": {
+        "30296": "Move the two brown packets forward"
+    },
+    "put_item_in_fridge_drawer": {
+        "63590": "Put the packet in the fridge drawer",
+        "57520": "Put the two packets in the open fridge drawer then close the drawer",
+        "8937": "Put the two packets in the open fridge drawer"
+
+    },
+    "remove_item_from_wooden_plate_and_put_on_table": {
+        "70290": "Remove the toy cart from the wooden plate and put it on the table"
+    },
+    "put_item_in_fridge": {
+        "49292": "Put the cup inside the fridge",
+        "81070": "Put the snack pack in the fridge",
+        "29479": "Put the tomato packets in the fridge",
+        "94678": "Put the cup into the fridge",
+        "84944": "Pick up the brown packet and put it in the open part of the refrigerator"
+
+    },
+    "close_fridge_door": {
+        "61503": "Close the top right fridge door",
+        "82604": "Close the left refrigerator door",
+        "17737": "Close the open refrigerator door fully",
+        "52133": "Close the opened right fridge door"
+    },
+      "open_fridge_door": {
+        "62620": "Open the top left fridge door",
+        "67417": "Open the fridge door on the right",
+        "19343": "Open the fridge left door"
+    },
+    "put_item_on_table":{
+        "14136": "Put the red trailer toy on the table",
+        "67030": "Put the tape on the table"
+    },
+    "put_item_on_wooden_tray":{
+        "13608": "Put the white paper on the wooden tray",
+        "49977": "Put the salt shaker on the wooden tray"
+
+    },
+    "move_green_bottle":{
+        "68685": "Put the green bottle on top tray of fridge, then put it on the top fridge side rack",
+        "8020": "Move the green bottle to the top compartment of the fridge door",
+        "1892": "Move the green bottle to the middle shelf",
+        "69045": "Remove the green bottle from the middle fridge door shelf and put it onto the top fridge door shelf",
+        "28094": "Remove the green bottle from top fridge door shelf and place it on the middle fridge door shelf",
+        "69103": "Remove the green bottle from the middle fridge door shelf and put it in front of the crisper drawer on the bottom shelf"
+    },
+     "take_item_out_of_cup":{
+        "30321": "Take the candy bar out of the cup",
+        "91985": "Take the sachet out of the cup"
+
+     },
+    "put_toy_cart_somewhere":{
+        "47909": "Put the toy cart in the key bowl",
+        "79176": "Put the toy cart on the tray"
+    }
+
+}

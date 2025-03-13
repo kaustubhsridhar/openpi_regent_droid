@@ -1,0 +1,79 @@
+
+{
+  "move_left": {
+    "55317": "Move the yellow pepper to the left",
+    "41878": "Move the can of corn to the left",
+    "76310": "Move the pickle toy to the left",
+    "44943": "Move the pink toy to the left",
+    "80913": "Move the maize to the left",
+    "21157": "Move the green object to the left",
+    "21816": "Shift the bell pepper to the left",
+    "3387": "Move the corn to the left",
+    "52420": "Move the can to the left",
+    "12765": "Move the cucumber to the left",
+    "86391": "Move the  fluffy bear to the left",
+    "45154": "Move the yellow pepper to the left",
+    "62181": "Move the tin to the left",
+    "14700": "Move the gray doll to the left",
+    "20346": "Move the tin can to the left",
+    "16127": "Move the brown bowl to the left"
+  },
+  "move_right": {
+    "58763": "Move the rabbit plush toy to the right",
+    "67322": "Move the tin to the right on the table",
+    "42148": "Move the green object to the right",
+    "28582": "Move the maize cob to the right",
+    "57764": "Move the yellow pepper to the right",
+    "25812": "Move the tin can to the right",
+    "60503": "Move the yellow object to the right",
+    "52197": "Slide the can of corn to the right",
+    "77284": "Move the maize cob to the right",
+    "57716": "Move the gray object to the right of the desk"
+  },
+  "move_backward": {
+    "48028": "Move the gray toy backward to the left",
+    "10662": "Move the yellow and green can backwards",
+    "51527": "Move the grey bear backwards",
+    "46544": "Move the grey bear backwards.",
+    "72015": "Move the grey bear backwards.",
+    "71643": "Move the doll  backwards",
+    "66413": "Push the can farther away from you"
+  },
+  "move_forward": {
+    "22914": "Move the plush toy forward",
+    "49155": "Move the gray doll closer to you",
+    "71324": "Move the grey bear forwards",
+    "48298": "Move the grey plush toy forwards.",
+    "75095": "Move the can closer to you"
+  },
+  "put_yellow_pepper_in_brown_bowl": {
+    "21639": "Put the yellow pepper in the brown bowl",
+    "78121": "Put the yellow pepper inside the brown bowl",
+    "60237": "Put the yellow pepper in the brown bowl"
+  },
+  "put_yellow_pepper_in_orange_bowl": {
+    "10931": "Put the yellow pepper in the orange bowl",
+    "40246": "Put the yellow pepper inside the orange bowl",
+    "93682": "Put the yellow pepper in the orange bowl",
+     "56527": "Put the bell pepper in the orange bowl"
+  },
+  "remove_yellow_pepper_from_bowl_and_put_on_table": {
+    "63488": "Remove the yellow pepper from the brown bowl and put it on the table",
+    "27397": "Remove the yellow pepper from the bowl and place it on the table.",
+    "80274": "Pick up the yellow bell pepper from the pot and put it on the table",
+    "78369": "Pick up the yellow bell pepper and put it on the table",
+    "51263": "Remove the yellow pepper from the orange pot and put it on the table",
+    "94536": "Pick up the yellow bell pepper from the bowl and put it on the table",
+    "20752": "Remove the plastic maize from the brown bowl and put it on the table"
+  },
+      "put_yellow_object_in_bowl":{
+      "88614": "Pick up the yellow toy and put it in the bowl.",
+      "85984": "Put the yellow object and put it in the bowl",
+      "79211": "Put the yellow pepper into the bowl"
+
+  },
+      "put_yellow_pepper_in_pot":{
+      "45178": "Put the yellow pepper in the pot",
+      "91495": "Put the yellow object inside the pot"
+  }
+}

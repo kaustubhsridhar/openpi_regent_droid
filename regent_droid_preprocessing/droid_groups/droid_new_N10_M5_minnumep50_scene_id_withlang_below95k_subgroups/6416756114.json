@@ -1,0 +1,88 @@
+
+{
+    "put_item_in_mug": {
+        "68225": "Put the marker in the mug",
+        "4226": "Put the pen in the cup",
+        "95620": "Put the sharpie in the mug",
+        "88073": "Put the marker in the mug",
+        "57738": "Pick the pen on the counter and put it in the mug",
+        "29198": "Pick up the pen from the table and place it in the black mug cup.",
+        "64527": "Put the pen in the mug cup",
+        "6557": "Place the small baseball bat inside the black mug",
+        "16031": "Put the marker inside the mug.",
+        "47399": "Put the marker in the black mug cup",
+        "70974": "Put the marker into the mug.",
+        "64961": "Put the marker in the mug",
+        "20547": "Put the small bat inside the black mug",
+        "91839": "Place the baseball bat inside the black mug",
+        "72902": "Put the pen in the mug",
+        "48329": "Put the marker in the cup",
+        "22768": "Put the marker into the mug.",
+        "62288": "Place the small baseball bat inside the black mug",
+        "59986": "Put the marker into the black cup.",
+        "65105": "Pick up the pen from the table and put it in the black cup.",
+        "88273": "Put the marker in the mug",
+        "93142": "Take the marker and put it in the black cup",
+        "55138": "Pick up the miniature baseball bat from the table and put it inside the black mug",
+        "42857": "Put the pen inside the mug cup",
+        "1517": "Put the pen in the mug",
+        "82797": "Pick up the pen and put it in the mug",
+        "59209": "Put the marker in the mug",
+        "44366": "Pick the marker and put it in the cup",
+        "62971": "Pick up the pen and put it in the cup"
+    },
+    "move_mug_left": {
+        "16007": "Move the black mug to the left side of the desk",
+        "16911": "Move the black mug to the left",
+        "64400": "Move the black cup to the left",
+        "69532": "Move the black mug to the left",
+        "18596": "Pick up the black cup from the table and move it slightly to the left.",
+        "56364": "Move the cup slightly to the left",
+        "68727": "Move the cup to the left",
+        "40012": "Move the black cup to the left",
+        "32847": "Move the cup to the left",
+        "51793": "Put the mug slightly to the left",
+        "31846": "Move the cup to the left side",
+        "6900": "Move the cup to the left",
+        "23134": "Move the mug to the left"
+
+    },
+    "move_mug_right": {
+        "20880": "Slide the mug to the right",
+        "5422": "Move the mug slightly to the right",
+        "73805": "Move the black mug to the right",
+        "22362": "Move the black and white mug slightly to the right",
+        "8419": "Push the cup to the right on the table",
+        "70377": "Move the black mug from the left to the right",
+        "20171": "Slide the mug to the right",
+        "46535": "Move the cup to the right",
+        "27639": "Move the black mug to the right",
+        "2553": "Move the mug to the right"
+    },
+    "move_mug_forward": {
+        "33991": "Pick up the black mug and move it forward",
+        "56533": "Move the mug forward"
+    },
+     "rotate_mug":{
+        "55318": "Rotate the black cup on the table clockwise.",
+        "72241": "Rotate the mug counterclockwise",
+        "71744": "Turn the mug around using the handle",
+        "17661": "Rotate the black cup counterclockwise so that the handle is on the right side"
+    },
+    "place_mug_on_side":{
+        "39424": "Place the black mug on its side",
+        "94100": "Put the mug on its side",
+        "86852": "Make the mug cup lay",
+        "88162": "Make the cup lie down"
+    },
+      "pick_up_and_place_upright":{
+        "58749": "Pick the cup and put it upright on the table",
+        "44350": "Pick the cup and put it upright",
+        "25802": "Pick up the black mug and place it upright on the table"
+
+    },
+        "turn_mug_upside_down":{
+        "91450": "Turn the mug upside down"
+    }
+}
+

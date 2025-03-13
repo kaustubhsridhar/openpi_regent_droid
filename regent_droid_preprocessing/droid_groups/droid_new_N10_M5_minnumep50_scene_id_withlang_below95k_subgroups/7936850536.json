@@ -1,0 +1,56 @@
+
+{
+    "Place item in/on dishrack": {
+        "67855": "Put the black tongs on the dishrack.",
+        "50962": "Place the measuring spoons on the dishrack.",
+        "28444": "Put the fork in the dish rack",
+        "79137": "Put the green towel on the right side of the dish rack",
+        "6327": "Put the plastic glasses in the drying rack",
+        "62404": "Put one silver spoon and silver fork on the dishrack.",
+        "53859": "Put one silver spoon on the dishrack.",
+        "31613": "Put one silver fork and spoon on the dishrack."
+    },
+    "Hang item on cabinet/cupboard": {
+        "74889": "Hang the white hanger on the right upper cabinet door.",
+        "26132": "Hang the hanger on the handle of the right upper cabinet door.",
+        "85664": "Hang the coat hanger on the knob of the cupboard",
+        "34216": "Put the clothing hanger on the job of the cupboard",
+        "19168": "Put the hanger on the knob of the top right cabinet door"
+    },
+    "Hang towel on dishrack": {
+        "58941": "Hang the green towel on the dishrack.",
+        "7891": "Hang the green towel on the edge of the dish rack"
+    },
+    "Put spoon in mug": {
+        "54778": "Put the plastic spoon inside the white mug",
+        "90413": "Put the spoon inside the mug",
+        "61134": "Put the white spoon in the mug."
+    },
+     "Put lid on pot": {
+        "71994": "Put the lid on the pot",
+        "20070": "Put the silver lid on the silver pot.",
+        "36215": "Put the lid on top of the pot"
+    },
+    "Remove spoon from cup": {
+        "36158": "Remove the spoon from the cup",
+        "16462": "Remove the spoon from the cup"
+    },
+    "Move item to the right": {
+         "8970": "Move the white mug to the right.",
+         "55606": "Move the spoon to the right"
+    },
+        "Turn object": {
+        "74": "Turn the white object to the left",
+        "91503": "Turn the white object to the right",
+        "69067": "Turn the plate rack around partially"
+    },
+     "Open cabinet":{
+        "83553": "Open the cabinet",
+        "18431": "Open the cabinet and take out a bottle from the cabinet"
+
+     },
+    "Move object forward": {
+        "13112": "Move the box forward then remove the tissue from the box"
+    }
+
+}

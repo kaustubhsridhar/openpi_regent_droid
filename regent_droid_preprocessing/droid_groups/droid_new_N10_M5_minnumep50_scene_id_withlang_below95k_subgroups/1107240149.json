@@ -1,0 +1,100 @@
+
+{
+    "open_coffee_maker": {
+        "82314": "Open the coffee maker",
+        "44844": "Open the coffee maker",
+        "67634": "Open the coffee maker",
+        "32630": "Open the coffee maker"
+    },
+    "close_coffee_maker": {
+        "4501": "Close the coffee maker",
+        "76640": "Close the coffee maker"
+    },
+        "close_coffee_maker_top_compartment": {
+        "36111": "Close the top compartment of the coffee maker.",
+        "94394": "Close the compartment on the coffee machine.",
+        "87152": "Close the top of the coffee machine."
+    },
+    "close_coffee_maker_lid":{
+        "353": "Close the lid of the coffee maker"
+    },
+    "open_coffee_maker_lid": {
+        "12114": "Lift up the lid of the coffee machine",
+        "78817": "Lift the lid of the coffee maker",
+        "14452": "Open the lid of the coffee marker"
+
+    },
+    "close_coffee_machine_chamber":{
+        "10205": "Close the coffee machine chamber"
+    },
+    "remove_lid_and_place_on_table": {
+        "32789": "Take the lid off the pot and put it on the table",
+        "58960": "Take the lid off the pot and put it on the table",
+        "8051": "Uncover the jar and put the lid on the table"
+    },
+    "place_lid_on_pot": {
+        "85803": "Put the lid on the pot",
+        "92211": "Pick up the black lid and put it on top of the black pot",
+        "39534": "Place the lid on the small pot"
+    },
+    "place_lid_on_jar":{
+        "19212": "Place the glass lid on the jar"
+    },
+    "put_black_lid_on_grey_pot":{
+        "12237": "Put the black lid on the gray bowl",
+        "55516": "Put the black lid on top of the grey pot",
+        "23652": "Take the black lid from the table and put it on the gray pot"
+    },
+    "put_item_in_white_cup":{
+        "71639": "Get the small orange and white bottle near the coffee maker and put it in the white mug",
+        "29105": "Put the orange cup in the white cup",
+        "58022": "Put the black bottle in the white cup",
+        "71422": "Pick up the object from the table and put it in the cup"
+    },
+      "place_cup_on_coffee_maker": {
+        "68121": "Place the cup on the coffee maker"
+    },
+    "put_pot_on_coffee_maker":{
+        "86343": "Put the pot on the coffee maker"
+    },
+    "put_white_object_in_pot":{
+         "37807": "Put the white object into the pot.",
+         "52679": "Put the white object into the silver pot."
+    },
+    "put_cup_in_pot":{
+        "31171": "Put one cup in the silver pot"
+    },
+    "remove_cup_from_pot_and_place_on_table":{
+        "88312": "Take the cup out of the pot and put it on the table",
+        "1854": "Take the cup out of the pot and put it on the table"
+    },
+      "put_coffee_pod_in_coffee_maker": {
+        "66470": "Put the coffee pod inside the coffeemaker",
+        "43412": "Put the coffee pod with the red lid into the pot",
+        "20283": "Pick the small tin on the table, put it in the coffee maker then close it",
+        "38252": "Put one coffee pod in the coffee machine then put another coffee pod in the gray pot"
+    },
+    "put_coffee_pod_in_container":{
+        "16517": "Uncover the glass jar and put a coffee pod inside",
+        "48339": "Put the coffee pod inside the glass container",
+        "61039": "Put the coffee pod in the mug"
+    },
+     "remove_coffee_pod_from_coffee_maker":{
+        "40225": "Remove the coffee pod from the chamber",
+        "34915": "Remove the coffee pod from the coffee maker and put it on the table",
+        "69240": "Remove the capsule coffee from the coffee maker and place it on the table"
+     },
+    "put_object_in_grey_pot":{
+        "59124": "Get the packaged object and put it in the grey pot"
+    },
+     "open_water_reservoir_lid":{
+        "23336": "Open the water reservoir lid on the Keurig machine"
+     },
+     "put_white_object_in_coffee_machine":{
+        "39556": "Put the white object in the coffee machine"
+     },
+    "uncover_pot":{
+        "68847": "Take the cover off the pot on the table"
+    }
+}
+

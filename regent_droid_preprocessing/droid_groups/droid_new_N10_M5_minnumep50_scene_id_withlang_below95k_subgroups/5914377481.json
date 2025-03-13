@@ -1,0 +1,57 @@
+
+{
+    "put_in_black_bag": {
+        "88363": "Put the black remote control in the black bag.",
+        "88244": "Put the grey box inside the black bag.",
+        "95041": "Put the black box into the black bag"
+    },
+    "put_in_storage_box": {
+        "29205": "Put the remote in the storage box",
+        "92027": "Put the black object in the storage box",
+        "64553": "Put the black tag in the storage box"
+
+    },
+    "put_in_clear_container": {
+        "33154": "Remove the yellow box from the black bag and put it inside the clear container",
+        "21684": "Put the yellow box in the clear container.",
+        "37435": "Put the white and orange box in the clear container at the front.",
+        "86599": "Put the white box in the clear container at the front.",
+        "226": "Put the black object from the black bag in the clear container."
+    },
+     "remove_and_put_on_bed": {
+        "21902": "Remove the black pack from the clear bowl and put it on the bed",
+        "22969": "Remove the white object from the clear container and place it on the bed",
+        "29001": "Remove the white box from the clear container and place it on the bed.",
+        "38989": "Remove the white hanger from the clear container and put it on the bed.",
+        "10218": "Remove the small plastic bag from the box inside clear bucket and put it on the bed",
+        "92907": "Remove the brown plastic from the bag and put it on the bed.",
+        "19839": "Take the yellow sachets out of the clear container and put them on the bed."
+
+    },
+        "pick_up_and_place_in_shopping_bag": {
+        "39943": "Pick the black packet off the bed and place it in the shopping bag",
+        "86816": "Pick up the small white box and place it in the shopping bag",
+        "70911": "Pick up the small bottle with the black lid and place it in the shopping bag"
+    },
+        "remove_from_storage_box":{
+        "60733": "Remove the remote from the storage box",
+        "92646": "Remove the black object from the storage box"
+
+    },
+    "remove_from_container":{
+       "17560": "Remove the white plates from the container.",
+        "30639": "Remove the glue stick from the container"
+
+    },
+    "take_out_of_bag":{
+        "10005": "Take the items off the bag",
+        "29080": "Take some items out of the bag and put them into the plastic box"
+
+    },
+      "move_to_storage_bin":{
+        "78285": "Move the green bottle, which is in the bag, to the storage bin",
+        "62052": "Move the clear blue object to the storage bin"
+    }
+
+}
+

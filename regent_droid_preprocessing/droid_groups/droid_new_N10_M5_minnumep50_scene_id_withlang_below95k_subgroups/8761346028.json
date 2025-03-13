@@ -1,0 +1,56 @@
+
+{
+    "move_object_left": {
+        "35842": "Move the remote on the left backwards",
+        "94116": "Move the book to the left",
+        "63608": "Move the clock to the left and place it in the middle of the side table"
+    },
+    "move_object_right": {
+        "17554": "Move the black object to the right",
+        "60730": "Move the black remote control to the right",
+        "56401": "Move the black clock a little to the right",
+        "53753": "Move the orange dice to the right",
+        "64318": "Pull the orange cloth slightly to the right"
+
+    },
+    "move_object_forward": {
+        "95545": "Move the small, pink object forward"
+    },
+   "move_object_backward": {
+        "30847": "Move the black device closer to the book"
+    },
+    "press_button_on_remote": {
+        "41730": "Push a button on the remote control",
+        "79387": "Push a button on the gray remote control",
+        "25000": "Press a button on the black remote on the left",
+        "13100": "Press a button on the remote control",
+        "15537": "Press the remote button",
+        "48443": "Press a button on the remote control",
+        "74563": "Press a button on the black remote on the right",
+        "78027": "Push a button on the black remote control",
+        "47586": "Press a button on the grey remote control.",
+        "49389": "Press a button on the black remote control",
+        "11771": "Press a button on the grey remote control."
+    },
+    "press_button_on_black_appliance": {
+        "1422": "Push a button on the black appliance",
+        "45591": "Push a button on the black appliance",
+        "88893": "Press the button on the black object",
+        "71529": "Press a button on the black alarm clock"
+    },
+    "close_drawer": {
+        "91397": "Close the drawer"
+    },
+  "close_cabinet_shelf": {
+        "59677": "Close the opened cabinet shelf"
+
+  },
+    "open_drawer": {
+       "31040": "Open the top drawer",
+       "34522": "Open the bottom drawer on the side table"
+    },
+    "close_door":{
+        "22356": "Push the open door until it is fully closed"
+    }
+}
+

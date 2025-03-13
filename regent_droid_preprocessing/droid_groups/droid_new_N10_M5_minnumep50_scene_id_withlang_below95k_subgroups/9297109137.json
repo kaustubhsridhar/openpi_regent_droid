@@ -1,0 +1,82 @@
+
+{
+    "Press a key on the piano": {
+        "68114": "Press a key on the keyboard",
+        "66074": "Press a key on the piano",
+        "49697": "Press the key on the piano",
+        "41547": "Press a key on the piano",
+        "90727": "Press the key on the piano",
+        "43146": "Press a key on the piano",
+        "49856": "Press the key on the piano",
+        "23784": "Press a key on the piano",
+        "86274": "Press a key on the piano",
+        "86364": "Press the key on the piano",
+        "34196": "Press a key on the piano",
+        "7625": "Press a key on the piano",
+        "57839": "Press the key on the piano",
+        "71089": "Push a key on the piano"
+    },
+    "Press a key on the keyboard": {
+        "1604": "Press a key on the keyboard",
+        "39226": "Press the key on the keyboard",
+        "85827": "Press a key on the keyboard",
+        "71118": "Press the key on the keyboard",
+        "38447": "Push the key on the keyboard"
+
+    },
+    "Press a black key on the piano": {
+        "56326": "Press a black key on the middle keys of the piano",
+        "93289": "Press one black key on the piano",
+        "13430": "Press a black key on the right middle keys of the piano",
+        "26882": "Press one black key on the piano",
+        "66519": "Press one black key on the piano.",
+        "90619": "Push the black key on the piano",
+        "48577": "Push a black key on the piano",
+        "11280": "Push a black key on the piano"
+    },
+      "Press a white key on the piano": {
+        "15064": "Push a white key on the piano",
+        "77065": "Press one white key on the piano",
+        "91989": "Press one white key on the piano.",
+         "61827": "Push a white key on the piano",
+        "15266": "Push a white key on the piano"
+
+    },
+        "Press a key on the right side of the piano": {
+        "78892": "Press a key on the right side of the piano",
+        "4201": "Press a key on the right side of the piano",
+        "26521": "Press a key on the right side of the piano",
+        "83885": "Press a key on the right side of the piano"
+    },
+    "Press a white key in the middle of the piano":{
+        "30232": "Press a white key in the middle of the piano",
+        "26254": "Press a white key in the middle of the piano",
+        "78715": "Press a white key in the middle of the piano",
+        "35230": "Press a white key in the middle of the piano",
+        "69279": "Press a white button in the middle of the piano"
+    },
+        "Press a key on the left side of the piano":{
+        "25623": "Press the key on the left side of the piano",
+        "63005": "Press the key on the left side of the piano"
+    },
+    "Press one white key on the left side of the piano":{
+        "87187": "Press one white key on the left side of the piano",
+        "89505": "Press one white key on the left side of the piano",
+        "90900": "Push a white key on the left side of the piano"
+
+    },
+    "Press one black key on the right side of the piano":{
+       "80582": "Press one black key on the right side of the piano",
+       "21479": "Push a black key on the right side of the piano"
+
+    },
+      "Press one key on the right side of the keyboard":{
+        "5715": "Press a key at the right side of the keyboard",
+        "16801": "Press one key on the right side of the keyboard"
+      },
+    "Press one piano key":{
+        "69225": "Push down on one piano key",
+        "5253": "Press one piano key"
+    }
+}
+

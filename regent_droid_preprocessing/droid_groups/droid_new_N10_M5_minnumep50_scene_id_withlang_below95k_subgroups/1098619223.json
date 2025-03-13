@@ -1,0 +1,59 @@
+
+{
+    "open_microwave": {
+        "92436": "Open the microwave",
+        "56725": "Open the microwave",
+        "31006": "Open the microwave",
+        "94905": "Open the microwave",
+        "739": "Open the microwave drawer.",
+        "33059": "Open the microwave door",
+        "6758": "Open the microwave door"
+    },
+    "close_microwave": {
+        "77606": "Close the door of the microwave",
+        "13507": "Close the microwave door",
+        "25539": "Close the microwave door"
+    },
+    "put_pot_in_sink": {
+        "63649": "Put the grey pot inside the sink",
+        "73316": "Put the grey pot inside the sink",
+        "33495": "Put the pot in the sink"
+    },
+    "put_lid_on_pot": {
+        "51987": "Put the black lid on top of the grey pot",
+        "55875": "Cover the grey pot with the black lid on the stove",
+        "59108": "Cover the pot with the lid",
+        "42725": "Take the lid on the stove and put it on the pot",
+        "48103": "Take the lid from the top of the shelf and put it on the pot on the stove"
+
+    },
+	"open_cabinet": {
+        "85124": "Open the left door of the top cabinet."
+    },
+    "open_fridge": {
+        "19346": "Open the upper fridge door",
+        "17406": "Open the freezer",
+        "5247": "Open the upper door of the refrigerator"
+
+    },
+      "close_fridge": {
+        "14472": "Close the top fridge door",
+        "65056": "Close the top part of the refrigerator",
+        "17261": "Close the upper compartment of the fridge",
+        "92215": "Close the top door"
+    },
+    "put_orange_bowl_on_stove": {
+        "72195": "Take the orange bowl from the cabinet and put it on the stove then close the cabinet door",
+        "35898": "Take the orange bowl from the cupboard and put it on the stove"
+    },
+        "close_cabinet": {
+        "64295": "Close the door of the cabinet above the sink"
+    },
+     "put_bowl_in_microwave":{
+        "36174": "Put the red bowl in the microwave"
+     },
+    "put_spoon_in_sink": {
+        "71217": "Put the wooden spoon in the sink"
+    }
+}
+

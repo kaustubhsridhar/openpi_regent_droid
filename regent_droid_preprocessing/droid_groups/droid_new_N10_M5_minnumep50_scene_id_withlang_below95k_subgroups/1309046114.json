@@ -1,0 +1,85 @@
+
+{
+  "put_white_bottle_in_plastic_bag": {
+    "70951": "Put the white bottle in the plastic bag",
+    "41997": "Put the white and orange bottle in the plastic bag",
+    "83732": "Put the white container in the orange plastic bag",
+    "22455": "Put the white pill bottle in the plastic bag",
+    "20922": "Put the white bottle into the carrier bag",
+    "55908": "Put the white bottle inside the plastic bag",
+    "36197": "Put the white lotion bottle in the plastic bag",
+    "34933": "Put the white and orange bottle in the orange plastic bag",
+      "4009": "Put the bottle into the carrier bag",
+    "76032": "Pick up the white bottle on the left and put it in the orange plastic bag",
+    "15747": "Pick up the white container on the left and put it in the orange plastic bag."
+
+  },
+  "remove_white_bottle_from_plastic_bag_and_put_on_table": {
+    "58377": "Remove the white bottle from the plastic bag",
+    "72730": "Remove the white bottle from the plastic",
+    "76454": "Remove the white and orange bottle from the plastic bag and put it on the left side of the table",
+    "17725": "Remove the white bottle from the plastic bag and put it on the left side of the table",
+    "80966": "Remove the white lotion bottle from the plastic bag",
+    "83152": "Remove the white and orange bottle from the plastic bag and put it on the table next to the yellow and brown bottle",
+    "88613": "Remove one bottle from the plastic",
+     "39702": "Take the white and blue bottle out of the plastic bag and put it on the table",
+    "19023": "Take the white and blue bottle out of the plastic bag then put it on the table"
+  },
+  "put_blue_box_in_plastic_bag": {
+    "45480": "Put the blue box in the plastic",
+    "59981": "Put the blue box in the plastic bag",
+    "51312": "Put the blue box in the plastic",
+    "93297": "Pick up the blue box from the table and put it in the plastic bag"
+  },
+  "put_brown_medicine_bottle_with_yellow_lid_in_orange_plastic_bag": {
+    "63893": "Pick up the brown medicine bottle with a yellow lid and put it in the orange plastic bag",
+    "80560": "Pick up the brown medicine bottle with a yellow lid and put it in the orange plastic",
+    "2932": "Pick up the brown medicine bottle with a yellow lid and put it in the orange plastic"
+  },
+  "remove_blue_container_from_plastic_bag_and_put_on_table": {
+    "94476": "Remove the blue container from the plastic bag and put it on the table",
+    "23062": "Remove the blue and white container from the orange plastic bag and put it on the table.",
+    "20180": "Remove the blue container from the plastic bag and put it on the table.",
+    "76787": "Remove the blue and white container from the plastic bag and put it on the table"
+  },
+    "put_black_and_yellow_container_in_plastic_bag":{
+        "59696": "Put the black and yellow container in the plastic bag",
+        "77245": "Put the black and yellow container in the orange plastic bag"
+    },
+    "put_longest_white_container_in_orange_plastic_bag":{
+        "84961": "Pick up the longest white container from the table and put it in the orange plastic bag",
+        "33521": "Pick up the longest white container from the table and put it in the orange plastic bag"
+    },
+
+  "pick_up_and_put_on_table": {
+
+    "89995": "Pick up the long white container from the orange plastic and put it on the table",
+      "46610": "Pick up the brown medicine bottle with a yellow lid from the orange plastic bag and put it on the table",
+    "79389": "Pick up the mentos container from the orange plastic bag and put it on the table",
+    "29636": "Pick up the white medicine bottle from the orange plastic and put it on the table",
+      "85607": "Move the medicine bottle from the plastic to the table",
+       "71282": "Remove the medicine bottle from the plastic bag and place it on the table",
+       "59838": "Remove the yellow and brown bottle from the plastic and put it on the table",
+        "49046": "Remove the white box from the plastic and put it on the table"
+
+  },
+    "put_container_into_bag":{
+      "81039": "Put the roll on stick inside the plastic bag",
+      "36799": "Put the blue container in the plastic bag",
+      "64705": "Put the bottle in the plastic",
+      "52216": "Pick up the mentos container and put it in the orange plastic",
+      "14589": "Pick up the clear container and put it in the orange plastic",
+        "73591": "Pick up the white medicine bottle from the table and put it in the orange plastic bag"
+
+    },
+    "put_on_table":{
+        "13318": "Put the bottle with the yellow lid on the table",
+        "1563": "Place the yellow and brown bottle on the table",
+        "58423": "Put the yellow and black bottle on the table"
+    },
+        "take_out_of_bag":{
+        "2900": "Take the yellow bottle out of the plastic bag",
+        "11359": "Remove the syrup bottle from the plastic bag"
+    }
+}
+

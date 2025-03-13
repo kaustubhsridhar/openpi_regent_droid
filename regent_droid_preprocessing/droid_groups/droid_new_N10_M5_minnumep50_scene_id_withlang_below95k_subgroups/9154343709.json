@@ -1,0 +1,138 @@
+
+{
+  "close_drawer": {
+    "92692": "Close the drawer",
+    "59414": "Close the drawer",
+    "53": "Close the drawer",
+    "74307": "Close the drawer",
+    "75331": "Close the drawer",
+    "26224": "Close the drawer",
+    "66175": "Close the drawer",
+    "46208": "Close the drawer",
+    "4744": "Close the drawer",
+    "73358": "Close the drawer",
+    "63643": "Close the drawer",
+    "70304": "Close the drawer",
+    "86178": "Close the drawer",
+    "53427": "Close the drawer",
+    "64182": "Close the drawer",
+    "54985": "Close the drawer",
+    "83666": "Close the drawer",
+    "68310": "Close the open drawer",
+    "65242": "Close the drawer",
+    "38619": "Close the drawer",
+    "77536": "Close the drawer",
+    "39140": "Close the drawer",
+    "37127": "Close the drawer",
+    "12562": "Close the drawer",
+    "55105": "Close the drawer",
+    "24904": "Close the drawer",
+    "83792": "Close the drawer",
+    "37207": "Close the drawer",
+    "87900": "Close the drawer",
+    "43363": "Close the drawer",
+    "60261": "Close the drawer",
+    "28598": "Close the drawer",
+    "40382": "Close the drawer",
+    "78830": "Close the drawer",
+    "8184": "Close the drawer"
+  },
+  "close_open_drawer": {
+    "66055": "Close the open drawer",
+    "62507": "Close the open drawer",
+    "94253": "Close the open drawer.",
+    "65600": "Close the open drawer",
+    "44638": "Close the open drawer",
+    "13483": "Close the open drawer",
+    "7353": "Close the open drawer",
+    "2307": "Close the open drawer",
+    "94472": "Close the open drawer.",
+    "15122": "Close the open drawer.",
+    "76058": "Close the open drawer",
+    "28969": "Fully close the open drawer",
+    "79660": "Close the open drawer",
+    "71990": "Close the open drawer",
+    "40265": "Close the open drawer",
+    "77134": "Close the open drawer",
+    "9573": "Close the open drawer.",
+    "66927": "Close the open drawer",
+    "5002": "Close the open drawer",
+    "9618": "Close the open drawer",
+    "13718": "Close the open drawer",
+    "43956": "Close the open drawer",
+    "38839": "Close the open drawer",
+    "80326": "Push the open drawer closed",
+    "90087": "Close the open drawer.",
+    "27120": "Close the open drawer"
+  },
+    "close_drawer_fully": {
+        "79981": "Close the drawer fully",
+        "95359": "Close the drawer fully",
+        "47776": "Close the drawer fully",
+        "87825": "Close the drawer fully",
+        "20432": "Close the drawer fully"
+    },
+  "close_top_drawer": {
+    "9454": "Close the top drawer.",
+    "58706": "Close the top drawer.",
+     "23477": "Close the top drawer"
+  },
+  "close_top_drawer_of_cabinet": {
+    "69649": "Close the top drawer of the cabinet.",
+    "43081": "Close the top drawer of the cabinet.",
+    "656": "Close the top drawer of the cabinet."
+  },
+  "close_top_drawer_of_kitchen_unit": {
+    "8262": "Close the top drawer of the kitchen unit",
+    "616": "Close the top drawer of the kitchen unit",
+    "61070": "Close the top drawer of the kitchen unit",
+    "83216": "Close the top drawer of the kitchen unit",
+    "71077": "Close the top drawer of the kitchen unit"
+  },
+    "close_drawer_on_left": {
+    "59411": "Close the drawer on the left",
+    "42539": "Close the drawer on the left",
+    "61129": "Close the drawer on the left"
+
+  },
+  "close_kitchen_drawer": {
+    "73767": "Close the kitchen drawer",
+    "30502": "Close the kitchen drawer"
+  },
+  "close_drawer_at_left_of_oven": {
+    "37397": "Close the drawer at the left of the oven",
+    "77434": "Close the drawer at the left of the oven",
+    "32427": "Close the drawer at the left of the oven"
+  },
+   "close_left_kitchen_drawer":{
+       "36456": "Close the left kitchen drawer"
+   },
+      "close_cabinet_drawer_on_left":{
+       "553": "Close the cabinet drawer on the left"
+   },
+    "close_top_drawer_from_right_of_cabinet":{
+       "70204": "Close the top drawer from the right of the cabinet."
+   },
+   "close_top_drawer_at_left_side_of_oven":{
+    "14256": "Close the top drawer at the left side of the oven",
+    "80382": "Close the top drawer at the left of the oven"
+   },
+      "close_first_drawer_under_laptop":{
+    "49391": "Close the first drawer under the laptop"
+      },
+    "close_open_drawer_under_keyboard":   {
+    "72165": "Close the open drawer under the keyboard"
+    },
+  "close_upper_drawer_of_cabinet_to_left": {
+       "79752": "Close the upper drawer of the cabinet to the left"
+  },
+   "completely_close_top_left_drawer_of_cupboard":{
+    "25421": "Completely close the top left drawer of the cupboard"
+   },
+    "push_drawer_shut": {
+     "18879": "Push the drawer shut"
+    },
+    "open_top_drawer_of_kitchen_unit":{
+        "72084": "Open the top drawer of the kitchen unit"
+    }
+}

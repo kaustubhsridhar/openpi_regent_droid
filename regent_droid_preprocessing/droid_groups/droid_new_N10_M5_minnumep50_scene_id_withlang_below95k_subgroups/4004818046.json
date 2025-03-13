@@ -1,0 +1,66 @@
+
+{
+    "put_lid_on_black_cup": {
+        "86282": "Put the lid on the black cup",
+        "55874": "Put the lid on the black coffee mug",
+        "44389": "Place the lid onto the black cup",
+        "45941": "Put the lid on the black cup"
+    },
+    "remove_lid_from_black_cup": {
+        "91543": "Remove the lid from the black cup and put it on the table",
+        "55765": "Take the lid off of the black cup",
+        "93687": "Uncover the black cup"
+    },
+    "put_lid_on_black_thermos": {
+        "89885": "Remove the lid from the black thermos on the left.",
+        "7466": "Put the lid on the black thermos."
+    },
+        "wipe_counter_with_napkin": {
+        "35078": "Use the napkin to wipe the counter",
+        "39054": "Use the tissue to wipe the counter",
+        "79113": "Use the tissue to wipe the table",
+        "35223": "Use the white napkin to wipe the countertop.",
+        "55730": "Use the white napkins on the left to wipe the counter.",
+        "39859": "Use one white napkin to wipe the counter.",
+        "58822": "Use one white napkin to wipe the counter.",
+        "46665": "Use one napkin to wipe the countertop.",
+        "86126": "Use the napkin to wipe the table"
+    },
+    "wipe_surface_with_paper_towel": {
+        "41111": "Use the right paper towel to clean the surface",
+        "1657": "Use the paper towel to clean the surface"
+    },
+    "fold_napkin": {
+        "70414": "Fold the white napkin on the right in half from left to right.",
+        "72350": "Fold the white napkin in half.",
+        "15902": "Fold the napkin on the right side of the paper cups halfway and put the orange ball in the wooden box",
+        "91763": "Fold one white napkin in the half.",
+        "15471": "Fold the napkin"
+    },
+    "unfold_napkin": {
+        "87342": "Unfold the napkin",
+        "86508": "Lay the white napkin out on the counter.",
+        "52192": "Unfold the paper on the right"
+    },
+        "stir_bowl_with_spatula": {
+        "4743": "Stir the contents of the white plate with the silver spatula",
+        "54187": "Use the silver spatula to stir the contents in the white bowl.",
+        "38471": "Use the spatula to stir the contents in the white bowl.",
+        "58207": "Use the cake spatula to stir the cereal in the white bowl.",
+        "75231": "Use the cake spatula to stir the contents in the white bowl.",
+        "65133": "Use the spatula to stir the contents in the bowl"
+    },
+    "stir_bowl_with_other_utensil": {
+        "14881": "Stir the contents of the bowl using the cake knife",
+        "53557": "Use the spoon to stir the beans in the bowl",
+        "18362": "Use the silver object to stir the contents in the bowl",
+        "15353": "Use the cake slicer to stir in the bowl",
+        "21573": "Stir the contents of the white bowl using the cake knife",
+        "86988": "Stir the bowl with the kitchen utensil",
+        "21854": "Stir the contents of the white bowl using the knife shovel. Then, pick up the orange objects and place them in the box.",
+        "51427": "Pick up the spoon and stir in the bowl"
+    },
+     "move_object_forward":{
+        "16837": "Move the bowl forward and slightly to the left"
+     }
+}

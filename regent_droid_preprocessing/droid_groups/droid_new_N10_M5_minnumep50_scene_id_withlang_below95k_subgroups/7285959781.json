@@ -1,0 +1,65 @@
+
+{
+    "move_object_left": {
+        "84482": "Move the purse to the left then pick the orange object and place it on the table",
+        "76549": "Move the black cap to the left side of the desk",
+        "57874": "Move the white bottle on the right side of the desk to the left",
+        "58919": "Move the dark blue bag to the left side of the desk",
+        "41304": "Move one black cap to the left side of the desk",
+        "56025": "Move the purse to the left on the desk",
+        "23666": "Move the brown case to the left",
+        "46580": "Move the purse to the left"
+    },
+    "move_object_right": {
+        "20492": "Move the purple cloth to the right of the white cloth",
+        "34465": "Move the blue bag to the right side of the desk",
+        "9251": "Move the scissors to the right",
+        "46499": "Move the purple cloth to the right corner of the desk",
+        "91436": "Pick up the small white bottle and move it to the right",
+        "5560": "Move the white object that is closer to the bag to the right",
+        "56261": "Move the white object to the right",
+        "13639": "Move the white and yellow tube on the left to the right side of the desk",
+        "24923": "Move the dark blue bag to the right",
+        "65780": "Move the bottle to the right edge of the desk",
+        "23416": "Move the orange object to the right",
+        "89214": "Move the orange plastic to the right then move the rod to the right"
+    },
+    "move_object_forward": {
+        "28291": "Move the orange blocks to the front edge of the desk",
+        "24081": "Move the orange case forward",
+        "35475": "Move the cap forward on the desk",
+        "71450": "Move the contact lens holder  closer to the edge of the table",
+        "32029": "Move the brown paper weight forward",
+        "76477": "Pick up the yellow and white box and move it slightly forward."
+    },
+    "move_object_backward": {
+        "85897": "Move the brown case backward",
+        "77455": "Move the brown case away from the cap then take the hair ribbon out of the purse and put it on the desk",
+        "4905": "Move the lint roller away from you"
+    },
+        "put_object_in_purse_bag": {
+        "74248": "Put the white and yellow tube inside the dark blue bag",
+        "92566": "Put the white object in the blue purse",
+        "12952": "Pick up the ribbon and the clothe put them in the parse",
+        "18202": "Put the pink ribbon in the bag",
+        "4525": "Place the scrunchies in the blue bag",
+        "8518": "Put the white object inside the bag",
+        "4477": "Put the green scrunchie beside the brown case and put the pink one in the bag"
+
+    },
+     "pick_up_put_in":{
+        "77697": "Pick the black bottle and put it in the purse",
+        "86803": "Pick up the purple object and put it in the hat",
+        "71922": "Take the hair ribbon and put it in the purse"
+     },
+    "orange_objects_actions": {
+        "72842": "Stack the orange objects",
+        "21908": "Align the orange objects in front of each other",
+        "19549": "Pick the orange objects and put them on the edge of the desk"
+
+    },
+    "take_hair_ribbon_out_purse":{
+        "47595": "Take the hair ribbon out of the purse"
+    }
+
+}

@@ -1,0 +1,125 @@
+
+{
+    "microwave_open": {
+        "5647": "Open the microwave",
+        "54446": "Open the microwave door."
+    },
+    "microwave_close": {
+        "89925": "Close the microwave",
+        "90827": "Close the microwave door",
+        "36707": "Close the microwave door."
+    },
+    "tap_on": {
+        "19469": "Turn on the tap"
+    },
+    "tap_off": {
+        "17939": "Close the tap",
+        "71070": "Close the tap faucet"
+    },
+        "tap_handle_left": {
+        "9500": "Turn the tap handle on the left",
+        "31810": "Turn the left tap handle"
+    },
+    "faucet_handle_forward": {
+        "45354": "Push the faucet handle forwards.",
+        "16872": "Move the faucet handle on the left to the back."
+    },
+   "cupboard_open": {
+        "90882": "Open the cupboard then put the cup inside",
+        "21475": "Open the cupboard door",
+        "56957": "Open the right side of the cabinet"
+    },
+    "cupboard_close": {
+        "53209": "Close the cupboard",
+        "34291": "Close the cabinet"
+    },
+    "cabinet_close_right": {
+        "77494": "Close the top right cabinet door",
+        "75846": "Close the right upper cabinet door.",
+        "59506": "Close the cabinet door on the right side"
+    },
+      "cabinet_open_right": {
+        "75127": "Open the top right cabinet door"
+
+    },
+    "cabinet_close_left": {
+        "3298": "Close the left door of the top cabinet"
+    },
+    "put_cup_in_cupboard": {
+        "94492": "Remove the cup and bowl from the cupboard and put the box inside",
+        "91936": "Remove the blue cup from the cupboard",
+        "5026": "Remove the glass from the cupboard",
+       "60411": "Put the cup inside the cupboard"
+
+    },
+      "put_bowl_in_cabinet":{
+        "32001": "Put the blue bowl in the bottom compartment of the top cabinet"
+      },
+    "put_cup_in_cabinet": {
+        "88873": "Put the blue cup and bowl in the cabinet",
+        "7473": "Put the blue cup inside the upper cabinet on the left.",
+        "35149": "Put the blue cup in the open upper cabinet then close the cabinet."
+    },
+        "put_box_in_cabinet":{
+            "72313": "Put the white box in the upper cabinet on the right."
+        },
+     "hang_hanger_cabinet": {
+        "6702": "Hang the coat hanger on the cabinet's right door, then open its left door",
+        "42562": "Hang the hanger on the wall cabinet door",
+        "48197": "Hang the coat hanger on the cabinet's left door"
+    },
+      "unhook_hanger":{
+          "65341": "Unhook the hanger from the right cabinet door and put it on the counter"
+      },
+
+    "tap_nozzle_left":{
+        "69712": "Move the tap nozzle to the left"
+    },
+      "tap_nozzle_right":{
+          "57959": "Push the faucet nozzle to the right"
+      },
+    "open_drawer":{
+        "70963": "open  up the drawer and place an object in there and it was not done smoothly"
+    },
+    "open_blinds":{
+        "52038": "Open the blinds."
+    },
+        "put_cup_in_microwave":{
+            "81005": "Put the green cup in the microwave"
+        },
+        "remove_from_microwave":{
+            "21587": "Open the door of the microwave, then remove the blue bowl from the microwave"
+        },
+        "put_in_blue_bowl":{
+            "92962": "Put the blue cup in the blue bowl.",
+           "71168": "Remove the cup from the blue bowl then put the blue bowl in the microwave."
+        },
+    "move_blue_cup":{
+        "15033": "Move the blue cup to the bottom shelf"
+    },
+      "move_blue_bowl":{
+          "37445": "Move the blue bowl to the right cabinet"
+      },
+      "move_spoon_in_cabinet": {
+        "19268": "Move the orange spoon to the cup behind the bowl in the cabinet"
+      },
+      "remove_box_cupboard":{
+           "62988": "Remove the box from the cupboard to the right"
+      },
+        "press_pump_bottle":{
+            "90370": "Press down on the white pump bottle."
+        },
+            "turn_faucet_left":{
+               "72999": "Turn the faucet to the left slightly"
+            },
+        "close_right_tap_faucet":{
+             "20532": "Close the right tap faucet"
+        },
+        "shift_hanger": {
+            "39383": "Shift the coat hanger to the counter"
+        },
+         "move_object_counter":{
+             "40039": "Move the object on the counter"
+         }
+
+}

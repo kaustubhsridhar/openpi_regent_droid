@@ -1,0 +1,74 @@
+
+{
+"move_object_right": {
+    "30849": "Move the white mug to the right",
+    "45324": "Move the orange can to the right.",
+    "3227": "Move the maroon can to the right.",
+    "8865": "Move the green packet to the right",
+    "80289": "Move the white mug to the right",
+    "40367": "Pick the black bag and move it to the right on the table"
+},
+"move_object_left": {
+    "47873": "Move the orange can to the left.",
+    "85510": "Pick up the black sachet and slightly move it to the left.",
+    "56234": "Move the orange can to the left.",
+        "81598": "Push the black scale to the left.",
+    "33096": "Move the green packet to the left",
+        "43868": "Move the orange can to the left",
+    "70270": "Move the cup to the left"
+
+},
+"put_marker_in_mug": {
+    "13060": "Put one black marker in the mug.",
+    "19849": "Put the marker in the cup",
+    "34569": "Pick up the marker on the left and put it in the white mug",
+    "24621": "Put the thick black marker in the mug.",
+        "75592": "Put the marker in the mug cup",
+    "90954": "Pick up one black marker and put it in the white mug",
+        "1374": "Put the pen inside the mug",
+    "6114": "Pick up the marker from the counter and put it in the mug then move the mug to the left.",
+        "78305": "Put the marker into the mug",
+        "2028": "Put the pen inside the mug"
+
+},
+"remove_marker_from_mug": {
+    "61834": "Remove the marker from the mug",
+    "57378": "Remove the marker from the mug and put it on the counter",
+    "52547": "Remove the marker from the mug",
+        "3526": "Take the marker out of the mug.",
+    "4684": "Take the marker out of the mug."
+},
+"move_object_forward": {
+    "72067": "Move the black bag forward",
+        "30223": "Move the black eraser forwards",
+    "5925": "Move the orange can forward",
+    "88355": "Push the mug forwards.",
+        "61009": "Move the green bag forward"
+
+},
+ "put_marker_in_cup":{
+    "58635": "Remove the marker from the cup",
+    "62351": "Pick the marker from the cup and put it on the table",
+        "37926": "move the whiteboard eraser from the cup and place a marker in the cup",
+        "26664": "Put the marker in the cup",
+        "20777": "Take two markers out of the white cup",
+    "91074": "Pick up the pen from the cup and put it on the counter",
+    "52707": "Put the marker in the cup"
+ },
+
+"move_object_backward": {
+        "41262": "Move the can backward"
+},
+"press_button_on_scale": {
+    "50573": "Turn on the scale",
+    "79201": "Press a button on the digital scale",
+        "34263": "Press the left button on the scale",
+    "69744": "Press a button on the scale",
+        "58107": "Press a button on the appliance on the table"
+
+},
+    "press_button":{
+        "42497": "Press the button on the top right corner",
+        "66101": "Press the button on the black pad"
+    }
+}

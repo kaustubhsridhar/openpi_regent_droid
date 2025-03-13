@@ -1,0 +1,189 @@
+
+{
+    "open_bin": {
+        "69645": "Open the lid on the bin and take the paper towel out of it",
+        "7751": "Open the lid of the bin on the stove",
+        "9827": "Open the bin, then remove a paper towel from it",
+        "38539": "Open the bin",
+        "81618": "Open the trash lid",
+        "24063": "Open the lid on the bin",
+        "70645": "Open the lid of the bin on the stove",
+        "61439": "Open the waste bin lid",
+        "7104": "Open the white and green bin."
+    },
+    "close_bin": {
+        "59413": "Close the bin lid",
+        "12880": "Close the bin",
+        "71778": "Close the white and green bin.",
+        "31856": "Close the bin",
+        "31403": "Close the green lid of the bin completely",
+        "28373": "Close the lid of the bin",
+        "83768": "Close the rubbish bin",
+        "59260": "Close the bin",
+        "34710": "Close the bin",
+        "52714": "Close the open bin",
+        "20699": "Close the white and green bin.",
+        "45856": "Close the white and green bin"
+
+    },
+    "put_paper_towel_in_bin": {
+        "22542": "Put the paper towel in the bin",
+        "29297": "Open the lid on the bin and put the paper towel into it then close it",
+        "68214": "Open the lid on the bin and put the paper towel into it then close it",
+        "28501": "Open the lid to the bin and place the paper towel into it",
+        "67492": "Open the bin then put the paper towel in it"
+
+    },
+      "take_paper_towel_out_of_bin": {
+        "69306": "Open the lid of the waste bin, take the paper towel out of it, then close the lid"
+    },
+
+    "put_can_in_bin": {
+        "19481": "Use the tongs to pick up the red can and put it in the bin",
+        "85110": "Use the clipper to move the soda can from the stove into the waste bin",
+        "53940": "Use the silver tongs to pick up the red can and put it in the bin, put the silver tongs back on the hob of the stove",
+        "74421": "Pick up the red coke can and put it in the bin",
+        "46298": "Use the kitchen thong to lift the coke can and put it in the bin",
+        "10656": "Use the paper towel to lift the coke can and throw it in the bin"
+
+    },
+      "put_tissue_in_bin": {
+       "20624": "Open the trash can then put the tissue paper inside",
+       "63719": "Put the tissue paper inside the trash can",
+        "45228": "Put the piece of tissue on the red can and then put the can and piece of tissue in the white bin"
+    },
+        "close_and_open_bin_with_serviette":{
+        "79202": "Open the bin, pick the serviette, put it in the bin and then close the bin."
+    },
+
+       "remove_item_from_bin_then_close":{
+        "1954": "Move the paper towel from the bin to the stove then close the bin"
+    },
+
+    "open_fridge": {
+        "76989": "Open the top fridge door.",
+        "21189": "Open the top section of the fridge",
+        "72347": "Open the bottom part of the fridge",
+        "89942": "Open the bottom fridge door",
+        "85488": "Open the top refrigerator door fully"
+
+    },
+    "close_fridge": {
+        "80002": "Close the bottom fridge door",
+        "47388": "Close the bottom refrigerator door fully"
+    },
+    "rinse_and_place_plate": {
+        "30841": "Rinse the orange plate under the faucet then place it on the plate rack",
+        "54539": "Rinse the orange plate under the faucet then put it back on the plate rack",
+        "84250": "Pick up the plate from the sink and rinse it with running water, put the plate on the dish rack",
+        "25971": "Rinse the plate in the sink and put it on the dish rack",
+        "29558": "Rinse the plate with the water, then put it on the dish rack",
+        "67047": "Pick up the plate, rinse the plate with water, put the plate back on the dish rack"
+
+    },
+       "rinse_item":{
+        "83129": "Rinse the small, white object",
+        "35284": "Rinse the fork under the faucet"
+       },
+     "use_green_sponge_on_faucet": {
+        "57362": "Use the green sponge to wipe the faucet head",
+        "57560": "Use the green sponge to wipe the faucet head"
+    },
+
+    "move_faucet_head_and_open_tap": {
+        "92708": "Move the faucet head to the right and then open the tap",
+        "79353": "Move the faucet head to the left and then open the tap"
+    },
+    "move_faucet_and_handle": {
+        "62021": "Move the faucet to the left and the push the handle downwards"
+
+    },
+       "turn_faucet_off":{
+        "657": "Turn the faucet off"
+       },
+     "push_faucet_handle_forward": {
+        "43626": "Push the faucet handle forwards"
+
+    },
+    "fold_cloth": {
+        "45610": "Fold the pink cloth",
+        "84224": "Fold the towel over the oven door handle"
+    },
+
+    "hang_cloth_on_oven_door": {
+         "53349": "Pick up the red cloth and hang it on the oven door",
+         "42603": "Pick up the red cloth and hang it on the oven door handle"
+    },
+    "move_kettle": {
+        "74291": "Move the kettle to the stove plate in front of it",
+        "39172": "Pick up the blue kettle and put it on the top right cooker on the stove hob",
+        "15704": "Use the green pot holder to move the blue kettle to the left",
+         "37852": "Move the blue kettle to the bottom right cooker on the hob of the stove",
+        "64974": "Use the green pot holder to move the blue kettle forwards."
+    },
+    "pour_liquid_into_sink": {
+        "65657": "Pour some liquid from the bottle on the right into the sink",
+        "91033": "Pour some of the liquid from the bottle on the right in the sink",
+        "54691": "Pour out the contents from the right bottle into the sink"
+    },
+    "place_sponges_in_holder" : {
+        "48391": "Place the two sponges in the sponge holder"
+    },
+        "turn_knob_stove":{
+        "95020": "Turn the third knob on the stove to the right",
+        "27588": "Turn the third knob from the right in an anti-clockwise direction",
+        "45032": "Turn the middle knob anticlockwise",
+         "72117": "Twist the knob on the stove"
+    },
+        "press_pump_bottle":{
+        "92542": "Press down on the top of the pump bottle."
+    },
+        "put_bowl_in_drying_rack":{
+        "17133": "Pick up the blue bowl and put it in the dish rack",
+        "88452": "Put the blue bowl in the drying rack",
+         "90563": "Remove a blue bowl from the sink and place it on the dish drying rack"
+    },
+      "put_spoon_in_drying_rack":{
+        "51700": "Put the spoon on the drying rack",
+        "80362": "Pick up the silver spoon from the sink and put it in the dish rack"
+      },
+        "put_fork_in_utensil_holder":{
+        "92360": "Put the fork in the utensil holder on the plate rack"
+    },
+        "swap_utensils":{
+        "73558": "Swap the fork and the knife",
+        "9181": "Swap the spoon and the fork"
+    },
+      "turn_on_water_faucet":{
+       "57725": "Turn on the water faucet"
+      },
+      "close_tap_faucet":{
+        "75617": "Close the tap faucet",
+        "10709": "Close the running tap"
+
+      },
+      "unfold_towel":{
+        "27408": "Unfold the red towel on the stove",
+        "32158": "Unfold the red cleaning cloth"
+      },
+       "put_upright":{
+         "27001": "Put the bottle upright",
+         "73135": "Place the white and green bottle on the right upright.",
+         "27122": "Place the clear container upright.",
+         "52542": "Place the pump bottle on the right upright",
+         "30410": "Put the bigger green bottle in an upright position"
+       },
+        "move_bottles_upright_position":{
+        "18216": "Make all the bottles laying down stand vertically on the right side of the sink",
+        "22832": "Pick up the fallen bottle and place it right side up on the kitchen counter"
+    },
+        "put_water_in_container":{
+          "86990": "Open the water tap and draw some water in the clear bowl then place the clear bowl on its previous position"
+        },
+      "open_and_close_kettle_lid":{
+      "20076": "Open the lid on the spout of the blue kettle then close it"
+      },
+       "open_kettle_cap":{
+        "954": "Open the cap from the spout of the blue kettle"
+       }
+}

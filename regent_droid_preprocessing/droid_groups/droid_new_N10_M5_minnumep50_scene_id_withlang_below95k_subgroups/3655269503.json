@@ -1,0 +1,55 @@
+
+{
+    "rotating_shoes": {
+        "26496": "Rotate the sneakers on the topmost shelf.",
+        "51969": "Rotate the shoe clockwise on the shelf to face the front",
+        "46356": "Twist the shoe on the shelf",
+        "46957": "Rotate the left sneaker."
+    },
+    "placing_shoes_upright": {
+        "85643": "Place the right sneaker upright.",
+        "10531": "Place the shoe upright",
+        "54822": "Place the left sneaker upright.",
+        "74668": "Put the shoe on the right in an upright position",
+        "36696": "Straighten the trainer on the shelf",
+        "11230": "Flip the shoe on the left in an upright position"
+    },
+    "putting_tape_in_oven": {
+        "35466": "Put the blue masking tape in the oven then close the oven door.",
+        "32636": "Put the tape inside the oven and the shaker on top of the microwave"
+    },
+    "putting_metal_object_in_mini_oven":{
+        "18861": "Put the metal object inside the mini oven",
+        "41033": "Put the metal object inside the mini oven"
+    },
+     "moving_shoe_right": {
+        "12848": "Move the shoe to the right",
+        "81126": "Move the sneaker on the left to the right.",
+        "33645": "Move the left shoe to the right"
+
+    },
+    "pressing_keyboard_buttons": {
+        "76227": "Press a button on the keyboard",
+        "42056": "Press the buttons on the keyboard",
+        "94542": "Press different keys on the keyboard"
+    },
+      "putting_lid_on_jar":{
+        "2404": "Put the lid on top of the glass jar.",
+        "38297": "Put the grey lid on the jar in the bowl."
+
+    },
+    "putting_items_on_microwave":{
+        "20037": "Put the masking tape on the microwave",
+        "89953": "Put the black stick on the microwave",
+        "8677": "Put the white paper plate and the glass container on the microwave"
+    },
+     "oven_door_tasks": {
+        "4796": "Open the oven door.",
+        "35693": "Close the oven door."
+    },
+       "placing_shoes_together":{
+        "39989": "Put the left shoe on the right shoe",
+        "56271": "Place a shoe on top of its counterpart"
+    }
+}
+

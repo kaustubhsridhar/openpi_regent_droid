@@ -1,0 +1,118 @@
+
+{
+    "move_basket_left": {
+        "28174": "Move the black basket to the left",
+        "93211": "Move the basket to the left",
+        "91218": "Move the black basket to the left then move one object on the counter to the right",
+        "72278": "Move the basket to the left on the counter",
+        "33986": "Move the metallic basket to the left",
+        "27910": "Move the black basket to the left",
+        "84851": "Move the basket to the left",
+        "48016": "Move the black basket to the left",
+        "77212": "Move the basket to the left"
+    },
+    "move_basket_right": {
+        "62089": "Move the basket to the right",
+        "67752": "Pick the black basket and move it to the right",
+        "38072": "Move the basket to the right",
+        "93882": "Move the black basket to the right",
+        "79562": "Pick the basket and move it to the right on the bin",
+        "3806": "Move the black basket to the right",
+        "37643": "Move the basket from left to right.",
+        "73485": "Move the basket to the right",
+        "26429": "Move the basket to the right",
+        "51602": "Move the basket to the right",
+        "73651": "Move the basket to the right",
+        "27124": "Move the black basket to the right side of the countertop"
+
+    },
+    "move_basket_forward": {
+        "49210": "Move the basket forward",
+        "85165": "Move the basket forward towards the right"
+    },
+        "move_basket_backward": {
+        "79026": "Move the black basket backwards"
+    },
+    "move_basket_center": {
+        "49218": "Move the basket to the center of the table",
+        "18751": "Move the basket to the centre of the table",
+        "94595": "Place the black basket in the center of the counter",
+        "29075": "Move the black basket to the centre of the table"
+    },
+    "put_packet_in_basket": {
+        "54793": "Put one packet in the black basket",
+        "66090": "Put the small packet inside the basket",
+        "81507": "Put one small packet in the basket",
+        "93898": "Put a small packet inside the basket",
+        "89324": "Put one packet in the basket",
+        "28923": "Put the one packet inside the basket",
+        "65863": "Put the packet on the counter in the basket",
+        "10168": "Put a small packet inside the basket",
+        "25546": "Put one packet in the basket"
+    },
+    "put_object_in_basket": {
+        "29731": "Take the yellow object from the countertop and put it in the black basket",
+        "38973": "Place one burger inside the black basket",
+       "16987": "Pick one candy on the counter and put it in the basket",
+        "63652": "Place one hamburger toy inside the black basket",
+        "69295": "Put the yellow object in the black basket",
+        "52934": "Put one hamburger inside the black basket",
+        "71888": "Pick up one object from the countertop and place it in the black basket",
+       "40260": "Get a sweet from the table and put it in the black basket",
+        "10057": "Take one yellow object from the table and put it in the black basket",
+        "94082": "Put one yellow object in the black basket",
+        "71629": "Place one of the hamburger toys inside the black basket",
+        "9399": "Get a sweet from the counter and put it in the basket",
+    "33949": "Pick up one object from the right side of the counter and put it in the black basket",
+       "47021": "Pick up the all candy from the table and put them in the black basket."
+
+    },
+
+    "remove_object_from_basket_put_on_table": {
+        "57918": "Pick the objects in the basket and put it on the table",
+        "11849": "Pick up one candy from the black wire basket and put it on the table.",
+        "50307": "Pick up one of the objects in the basket and put it on the table",
+        "91811": "Remove a thing from the basket and put it on the table",
+        "14248": "Remove the sweet from the basket and put it on the table",
+        "21446": "Take one object from the black basket and put it on the table",
+          "51179": "Pick an object from the basket and put it on the table"
+    },
+        "remove_packet_from_basket_put_on_table":{
+        "47111": "Remove a packet from the basket and put it on the table",
+        "64992": "Remove a packet from the basket and put it on the table",
+         "56469": "Remove one small packet from the basket",
+        "48957": "Take a packet out of the basket and put it on the counter"
+    },
+        "remove_object_from_basket_put_on_counter":{
+        "78437": "Remove a sweet from the basket and put it on the countertop",
+        "29980": "Remove one object from the basket and place it on the left side of the counter",
+        "14266": "Remove one toy burger from the black basket and place it on the left side of the countertop"
+    },
+        "move_packet_from_basket_to_counter":{
+         "74588": "Move a packet from the basket to the counter",
+         "93584": "Move a packet from the basket to the counter"
+    },
+        "move_packet_from_counter_to_basket":{
+        "33319": "Move a packet from the counter to the basket"
+    },
+        "pour_contents_of_basket_on_counter":{
+        "52862": "Empty the basket onto the counter",
+        "29853": "Pour the contents in the black basket on the countertop",
+        "5894": "Pour the packets out of the basket onto the counter"
+    },
+    "put_object_in_bin": {
+        "29249": "Put the wrapper in the bin",
+        "52383": "Get one of the small objects on the table and put it in the dustbin",
+        "844": "Put the object on the table into the trash can.",
+        "81783": "Pick up one of the objects on the table and put it in the rubbish bin",
+        "16342": "Throw the object on the table into the rubbish bin",
+         "72959": "Put one of the packets in the bin",
+        "85432": "Put the candy on the table in the bin"
+
+    },
+      "put_object_in_bowl":{
+        "72828": "Put the cup in the bowl",
+          "91471": "Put the left most candy in the black bowl",
+        "62825": "Put the green object in the bowl"
+      }
+}

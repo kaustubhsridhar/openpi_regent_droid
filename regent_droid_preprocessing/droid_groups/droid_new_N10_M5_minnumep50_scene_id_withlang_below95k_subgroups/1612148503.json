@@ -1,0 +1,84 @@
+
+{
+    "move_plush_toy_backwards": {
+        "53903": "Move the turtle plush backwards",
+        "39086": "Move the grey plush toy backwards.",
+        "7599": "Move the grey plush toy backwards.",
+        "43338": "Pick up the toy from the countertop and move it backwards.",
+        "13906": "Move the orange plushy backwards"
+    },
+    "move_plush_toy_forwards": {
+        "58112": "Move the grey plush toy forwards.",
+        "84710": "Move the teddy forward",
+        "3186": "Move the grey toy forward",
+        "65278": "Move the orange ball closer to you"
+    },
+    "move_object_to_right": {
+        "67857": "Move the orange plushie to the right",
+        "41234": "Move the bear plush toy to the right",
+        "6989": "Move the teddy to the right",
+        "56158": "Move the grey toy tap to the right"
+    },
+    "move_object_to_left": {
+        "571": "Move the orange ball slightly to the left",
+        "14403": "Move the tortoise doll to the left",
+        "38875": "Move the grey plush toy from right to left.",
+        "57324": "Move the gray doll to the left"
+    },
+    "turn_faucet_to_left": {
+        "51587": "Push the faucet to the left",
+        "60576": "Turn the faucet to the left",
+        "83454": "Move the faucet to the left",
+        "64810": "Slide the spout to the left",
+        "6468": "Slide the spout to the left",
+        "94664": "Turn the tap faucet to the left",
+        "77778": "Push the nozzle to the left"
+    },
+    "turn_faucet_to_right": {
+        "7700": "Turn the tap nozzle to the right",
+        "48678": "Move the faucet spout to the right",
+        "3495": "Move the faucet spout to the right",
+        "28769": "Move the tap nozzle to the right"
+
+    },
+     "put_plush_toys_in_pot_wipe_counter": {
+        "9480": "Pick up the plush toys from the counter and stove and put them in the pot, then wipe the counter",
+        "38925": "Pick up all the plush toys from the counter and on the stove and put them in the pots, then wipe the counter with the cloth",
+        "1457": "Put the plush toys in the the pots in the sing and use the towel to wipe the surface",
+        "13120": "Put the toys in the pot and wipe the counter with the orange towel",
+        "63418": "Pick up all the toys and put them in the pot, that is in the sink",
+        "62670": "Pick the objects on the counter and the stove and put them in the pots in the sink, then wipe the counter with the cloth",
+        "63328": "Put the plushies inside the pots in the sink, wipe the counter with the towel, and then remove the pink plushy from the pot and put it on the stove"
+    },
+    "put_toys_in_pot_in_sink":{
+        "93701": "Put the green plush toy inside the silver pot, place the pink bunny in the white pot, put the light brown toy in the white pot, place the dark brown toy in the silver pot",
+        "71435": "Pick up the toys from the countertop and the stove and put them in the silver dish in the sink. Slide the orange towel across the countertop.",
+        "17333": "Put the three plush toys inside the silver pot in the sink, wipe the left side of the counter with the orange towel",
+        "62064": "Pick the stuffed animals on the counter and the stove and put them in the pot in the sink",
+        "58872": "Put the teddy bears into the pot"
+    },
+       "wipe_table_with_towel": {
+        "1416": "Use the towel to wipe the table, then put the dolls on the stove",
+        "6154": "Use the towel to wipe the table, then put the dolls in the silver pot one at a time",
+        "67237": "Use the towel to wipe the table then remove the objects in the pot",
+        "20819": "Use the towel to wipe the table, then put the dolls on the stove"
+
+    },
+      "wipe_counter_with_towel":{
+        "21761": "Put the toys inside the pot in the sink and then wipe the counter with the towel",
+        "7814": "Wipe the counter with the cloth, then pick the objects in the bowls in the sink and put them on the counter and the stove",
+        "64652": "Pick up the plush toys on the stove and put them in the sink, then wipe the counter",
+        "90750": "Wipe the counter with the towel, then pick up the plush toy from the sink and put them on the stove and counter",
+        "39734": "Wipe the counter with the towel, then move two plush toys to the counter",
+        "52424": "Put the plush toy from the counter into the sink, wipe the counter with the orange towel, and put the toys from the stove in the sink"
+      },
+    "wipe_left_side_of_countertop":{
+         "72336": "Use the towel to wipe the left side of the countertop, remove two plush toys from the silver pot and put them on the stove, place one plush toy from the pot on the left side of the countertop",
+        "12758": "Wipe the left side of the counter with the orange towel, place the plush toys on the stove inside the silver pot in the sink",
+        "28394": "Use the towel to wipe the left side of the countertop, place the two plush toys on the stove inside the silver pot"
+    },
+       "no_action": {
+        "68555": "No action"
+    }
+}
+

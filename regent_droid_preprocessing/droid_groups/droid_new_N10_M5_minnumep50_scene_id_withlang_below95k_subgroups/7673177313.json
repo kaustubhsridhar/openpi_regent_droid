@@ -1,0 +1,68 @@
+
+{
+    "wipe_table": {
+        "5902": "Use the towel to wipe the table",
+        "5394": "Use the towel to wipe the table",
+        "17426": "Use the cloth to wipe the table.",
+        "58783": "Use the towel to wipe the table",
+        "91429": "Use the white towel to wipe the table, then take the white lid and put it on the table, then move the clear cup towards the towel",
+        "16963": "Wipe the table with the towel",
+        "66881": "Use the towel to wipe the table",
+        "43722": "Use the towel to wipe the smaller part of the table on the right",
+        "95568": "Move the spoon from the white towel to the table then use the towel to wipe the table",
+        "27354": "Wipe the table with the cloth",
+        "63737": "Wipe the table with the cloth"
+    },
+    "put_item_in_bag": {
+        "39176": "Put the blue tube in the bag",
+        "55194": "Put the bottle in the bag",
+        "52252": "Pick up the white object from the left and put it inside the bag",
+        "49823": "Pick the squeeze bottle on the table and put it in the bag",
+        "51376": "Pick the pen on the table and drop it in the bag",
+        "13234": "Put the pen inside the bag on the chair",
+        "20929": "Remove the small white item from the table and put it in the bag",
+        "68556": "Put the marker in the bag",
+        "1641": "Put the pen in the bag",
+        "54507": "Put the purple packet in the bag",
+        "59253": "Put the blue tube in the bag"
+
+    },
+    "put_spoon_in_bowl": {
+        "28822": "Put the grey spoon in the bowl",
+        "56024": "Put the spoon in the bowl",
+        "62178": "Put the gray spoon in the bowl"
+    },
+    "fold_towel": {
+        "28041": "Fold the towel",
+        "70094": "Fold the towel in half once"
+    },
+    "unfold_towel": {
+        "75696": "Unfold the towel",
+        "22108": "Unfold the towel"
+    },
+   "pour_cup_to_cup": {
+        "24583": "Pour the contents from one clear cup to the other",
+        "48078": "Pour some contents out of the left cup into the right cup",
+        "41589": "Pick up the cup and pour some of its contents in the other cup"
+   },
+    "move_item_right":{
+        "55431": "Move the white bar of soap to the right",
+        "82371": "Move the green bottle to the right",
+        "71512": "Move the towel to the right",
+        "37612": "Move the pot to the right"
+    },
+    "move_item_left":{
+        "27433": "Move the roll to the left",
+        "38189": "Move the grey measuring spoon to the left",
+        "40638": "Move the bag to the left"
+
+    },
+     "move_item_forward":{
+        "57226": "Move the blue tube to the front right side of the table",
+        "16124": "Take the spoon from the bowl and put it in the cup, then move the two cups slightly forward"
+     },
+    "move_item_backward":{
+        "36051": "Move the brown on the table backwards"
+    }
+}
+

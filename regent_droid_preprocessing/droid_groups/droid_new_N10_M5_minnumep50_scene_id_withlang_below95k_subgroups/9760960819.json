@@ -1,0 +1,73 @@
+
+{
+    "close_book": {
+        "24065": "Close the book.",
+        "35137": "Close the book."
+    },
+    "open_book": {
+        "56210": "Open the blue book",
+        "60469": "Open the notebook on the tray",
+        "19038": "Open the book on the table"
+    },
+    "fold_towel_right_to_left": {
+        "47618": "Fold the white and red towel from right to left",
+        "48308": "Fold the white and red towel from right to left",
+        "11125": "Fold the white and red towel from right to left",
+        "47205": "Fold the white and red towel from right to left"
+    },
+    "fold_towel_left_to_right": {
+        "63041": "Fold the white and red towel from left to right"
+    },
+    "fold_towel_in_half": {
+        "40989": "Fold the white and red towel in half",
+        "44887": "Fold the towel in half from right to left"
+    },
+    "fold_towel": {
+        "16843": "Fold the tea towel",
+        "9571": "Fold the towel",
+        "76524": "Fold the white towel."
+    },
+    "put_lid_on_pot": {
+        "77827": "Pick the lid on the tray and put it on the pot",
+        "84957": "Pick the lid on the tray and put it on the pot",
+        "55272": "Pick the lid on the tray and put it on the pot"
+    },
+   "cover_pot_with_lid": {
+        "28040": "Cover the silver pot with the silver lid",
+        "74945": "Cover the silver pot with the silver lid",
+        "26820": "Take the silver lid from the table and place it on the the silver pot",
+        "65234": "Take the lid and cover the pot",
+        "68302": "Pick up the lid and put it on the open silver cup"
+
+    },
+    "put_silver_lid_on_silver_pot": {
+        "45815": "Put the silver lid on the silver pot",
+        "13680": "Put the lid on the silver pot",
+        "91121": "Pick up the small silver lid from the table and put it on the silver pot."
+    },
+    "move_red_cup_left": {
+        "86533": "Move the red cup to the left",
+        "54113": "Move the red cup to the left"
+    },
+    "put_salt_cellar_in_red_cup": {
+        "95000": "Put the salt cellar in the red cup",
+        "7996": "Put the salt cellar in the red cup"
+    },
+    "put_shaker_in_red_mug":{
+        "31977": "Put the white salt shaker inside the red mug",
+        "14447": "Place the salt shaker in the reg mug",
+        "2005": "Remove the shaker from the red plate and put it inside the red mug"
+
+    },
+     "press_button_on_board": {
+        "26673": "Push a button on the board",
+        "57854": "Push a button on the board",
+        "49117": "click on the bottom right button on the board",
+        "7603": "Press the button on the left side of the board",
+        "39530": "Press the button on the bottom right corner"
+    },
+      "move_object_forward": {
+        "20842": "Move the mug forward"
+      }
+}
+

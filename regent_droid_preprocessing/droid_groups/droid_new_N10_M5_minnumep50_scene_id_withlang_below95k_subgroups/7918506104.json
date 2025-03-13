@@ -1,0 +1,74 @@
+
+{
+    "put_book_in_box": {
+        "26512": "Put the book in the box",
+        "56985": "Pick up the book and put it in the box",
+        "87211": "Put the book in the box",
+        "80698": "Put the book in the black box",
+        "82382": "Put the book inside the black box",
+        "63702": "Put the book in the black box",
+        "35184": "Put the book into the black box."
+    },
+    "put_books_in_box": {
+        "59668": "Put the red-white book and the purple object in the black box",
+        "95230": "Put the yellow and orange books in the black box",
+        "44597": "Put the left and right books in the black box respectively",
+        "75863": "Place the two small books inside the black box"
+    },
+   "put_items_in_box": {
+        "74384": "Put the plastic grapes and strawberry in the box respectively",
+        "11420": "Put the grapes and green and red object in black basket",
+       "63782": "Put the yellow-white book and the red fruit plush toy in the black box",
+       "57974": "Put the purple and red toys in the black box",
+        "70609": "Put the grape and strawberry toys in the black box"
+
+    },
+    "remove_book_from_box_put_on_table": {
+        "40535": "Remove the book from the black box and place it on the table",
+        "60507": "Remove the book from the black bowl and put it on the table"
+    },
+    "remove_books_from_box_put_on_table":{
+        "44685": "Remove the book on the right from the box, remove the book on the left from the box",
+        "61075": "Take the books out of the bookcase and put them upright on the table",
+        "10206": "Move the books from the box to the table"
+    },
+      "remove_items_from_box_put_on_table":{
+        "28942": "Remove the things from the black box and put them on the table",
+        "46231": "Take the book out of the black box, take the sauce bottle out of the box",
+        "47211": "Remove the strawberry and grapes from the black box",
+        "83826": "Take the fruits out of the box and place them on the table",
+        "61302": "Take the plastic grapes and strawberry from the black box one at a time and put them on the table",
+        "91903": "Take the strawberry and grapes out of the black box"
+    },
+    "put_mug_on_plate": {
+        "62093": "Put the mug cup on the orange plate",
+        "66136": "Put the mug on the plate",
+        "59510": "Put the mug on the plate",
+        "52588": "Put the white mug on top of the orange plate",
+        "73342": "Put the white mug on top of the orange plate"
+    },
+    "put_cup_on_plate": {
+        "20272": "Get the white cup from the table and place it on the orange plate",
+        "10730": "Put the white cup on the orange plate"
+    },
+    "put_book_on_table": {
+        "83460": "Put the book in the black box on the table",
+      "4922": "Put the alphabet booklet on the table",
+      "34661": "Put the alphabet booklet on the table",
+      "10342": "Place the two books on the desk"
+
+    },
+    "put_mug_on_table":{
+        "18432": "Put the white mug on the table",
+        "3887": "Put the mug directly on the table"
+
+    },
+    "remove_mug_from_plate_put_on_table":{
+        "88589": "Take the cup from the plate and put it on the table",
+        "47569": "Remove the mug from the small plate and put it on the table.",
+        "68284": "Pick the cup on the plate and put it on the table"
+    },
+  "put_items_on_table":{
+        "69857": "Put the grape and the strawberry plush on the table"
+  }
+}

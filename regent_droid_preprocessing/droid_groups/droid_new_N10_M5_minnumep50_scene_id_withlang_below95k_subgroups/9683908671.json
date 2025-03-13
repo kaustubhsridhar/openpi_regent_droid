@@ -1,0 +1,54 @@
+
+{
+    "Press Button Dishwasher": {
+        "82445": "Press a button on the dishwasher.",
+        "93793": "Press the button on the dishwasher",
+        "31341": "Press a button on the dishwasher",
+        "69686": "Press the second button to the right on the dishwasher",
+        "4915": "Press the third button from the left on the dishwasher",
+        "41365": "Press a button on the dishwasher"
+    },
+    "Press Button Stove": {
+        "11281": "Press a button on the stove controlling panel",
+        "90658": "Press a button on the stove",
+        "69854": "Press a button on the stove",
+        "45020": "Press a button on the stove"
+    },
+    "Put Lid On Pot": {
+        "35389": "Put the lid on the pot",
+        "78455": "Put the lid on the pot"
+    },
+    "Move Pot Right": {
+        "78412": "Move the small pot to the right",
+        "44754": "Move the pot to the right"
+    },
+    "Move Pot Left": {
+        "8785": "Shift the pot to the left",
+        "70119": "Move the pot on the top right slightly to the left"
+    },
+       "Move Cup Left": {
+        "89390": "Move the grey cup to the left",
+        "41305": "Move the cup to the left"
+    },
+    "Move Bowl Right": {
+        "47878": "Move the white bowl to the right.",
+        "59174": "Slide the blue bowl with the white bowl inside to the right"
+    },
+    "Put Kettle on Coffee Machine": {
+        "33430": "Put the clear kettle on the drip tray of the coffee machine",
+        "38183": "Put the clear kettle on the drip tray of the coffee machine"
+    },
+        "Put Item in Cup on Right": {
+        "69129": "Put the fork in the cup on the right",
+        "66586": "Put the black measuring spoon in the cup on the right",
+        "70952": "Put the black scoop in the cup on the right"
+
+    },
+        "Move Soap Bottle":{
+            "47868": "Move the soap bottle to the right",
+            "28988": "Move the pump bottle to the left",
+            "89481": "Slide the soap bottle a little forward on the kitchen counter",
+            "59788": "Bring the hand soap bottle closer to the sink"
+        }
+}
+

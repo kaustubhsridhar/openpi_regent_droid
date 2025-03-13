@@ -1,0 +1,53 @@
+
+{
+    "put_yellow_pencil_in_brown_mug": {
+        "87942": "Put the yellow pencil in the brown mug.",
+        "56005": "Put the yellow pencil in the brown mug."
+    },
+    "move_alarm_clock_left": {
+        "77315": "Push the alarm clock slightly to the left"
+    },
+    "move_alarm_clock_right": {
+        "16175": "Move the alarm clock to the right."
+    },
+    "move_alarm_clock_forward": {
+        "4396": "Push the brown hat slightly forward"
+    },
+  "move_alarm_clock_down": {
+        "60372": "Push the alarm clock downwards"
+    },
+    "move_item_left": {
+        "34080": "Move the black item to the left",
+        "8826": "Move the grey device on the topmost rack to the left.",
+        "40526": "Move the towel to the left"
+    },
+    "move_item_right": {
+        "71739": "Move the sneaker on the right slightly to the right",
+        "8529": "Move the shoe on the left to the right",
+        "69963": "Move the green cloth to the right"
+
+    },
+    "put_brown_hat_on_shelf": {
+        "80907": "Put the brown hat on the bottom shelf.",
+        "60600": "Put the brown hat on the topmost shelf."
+    },
+    "fold_cloth": {
+        "6162": "Fold the cloth, then move it to the bottom rack"
+    },
+    "fold_blanket": {
+       "60993": "Fold the blanket",
+       "3059": "Fold the blanket in half"
+    },
+     "move_blue_hanger": {
+        "92697": "Move the blue hanger to the left side of the shoe rack.",
+        "40032": "Hang the blue hanger on the right side of the shoe rack."
+    },
+    "put_mug_on_shelf": {
+          "86559": "Put the mug on the top of the shelf",
+        "23626": "Put the brown mug on the top shelf of the metal object",
+        "34535": "Move the brown mug to the topmost shelf."
+    },
+     "put_hanger_on_rack": {
+        "20473": "Hang the clothing hanger on the rack"
+     }
+}

@@ -1,0 +1,158 @@
+
+{
+  "open_black_book": {
+    "41480": "Open the black and yellow book",
+    "2065": "Open the cover of the black book",
+    "10265": "Open the black book",
+    "65060": "Open the cover of the black and yellow book",
+    "6202": "Open the front cover of the black book"
+  },
+  "close_book": {
+    "55871": "Close the open black book. Open the closed black book. Close the open black book again.",
+    "31816": "Close the open book on the table",
+    "32384": "Close the book",
+    "3723": "Close the book",
+    "57998": "Close the book",
+    "90767": "Close the open book on the table",
+    "79031": "Close the open black book",
+    "19650": "Close the front cover of the book",
+    "35034": "Close the book",
+    "36177": "Close the book",
+     "8897": "Close the cover of the orange book on the table."
+
+  },
+  "open_book": {
+    "25681": "Open the book",
+    "81493": "Open the book on the table",
+    "45246": "Open the cover of the book on the table",
+    "85711": "Open the red book",
+    "87307": "Open the first cover of the book",
+    "16157": "Open the biggest book",
+    "57132": "Open the first page of the book",
+    "78644": "Open the book cover on the right",
+    "14793": "Open the cover of the book on the table"
+
+  },
+  "remove_lid_place_on_table": {
+    "16898": "Remove the lid off the silver container and place the lid on the table.",
+    "5142": "Remove the lid from the silver candle container",
+    "91741": "Take the lid off the storage container and put it on the table",
+    "48809": "Uncover the metal container and put the lid on the table",
+    "5815": "Remove the lid from bowl and place it on the table",
+    "61164": "Remove the lid from the glass object and put it on the table",
+    "13601": "Remove  the lid from the jar and place it on the table",
+    "82698": "Take the lid off the bottle and put it on the table",
+        "22924": "Put the lid of the silver thing on the table",
+    "69516": "Take the silver lid from the silver jar and place it on the table",
+     "80783": "Remove the lid from the silver object.",
+    "58264": "Remove the lid of the silver object and place it on the table",
+      "26065": "Take the lid off the storage box and put it on the table",
+        "63434": "Place the lid on the table"
+
+  },
+  "press_button_remove_lid_place_on_table":{
+    "36405": "Press the button on the white lid then take the white lid and put it on the table",
+    "85558": "Push the button on the lid then place the lid on the table",
+     "5358": "Press the button on the white lid, take it and put it on the table",
+    "7484": "Press the button on the white lid then put the white lid on the table",
+        "58682": "Press down on the white lid and remove the lid from the clear food container",
+      "67559": "Press the button on the white lid then remove the lid from the jar and put it on the table"
+  },
+   "remove_silver_lid":{
+       "71262": "Remove the silver lid from the silver tin",
+        "10361": "Take off the lid from the silver object",
+        "81144": "Remove the lid from the silver object",
+        "89852": "Take the lid off the silver container",
+        "39227": "Remove the lid from the silver object.",
+        "64911": "Pick the silver lid and put it on the table"
+   },
+
+  "put_lid_on_container": {
+    "93243": "Cover the metal container with the lid on the table",
+    "48728": "Cover the silver bottle with the silver lid",
+    "63065": "Put the silver lid on top of the silver candle container",
+    "78944": "Put the silver lid on the silver bottle",
+        "31876": "Put the white lid on top of the clear container",
+    "39583": "Put the lid on the container",
+      "89759": "Pick the lid on the table and put it on the bottle",
+    "5872": "Pick up the lid and close the container",
+    "15606": "Pick up the lid and put it on the bowl",
+        "48896": "Cover the bottle with the silver lid",
+    "782": "Use the silver lid to cover the silver tin",
+     "89369": "Place the white lid on top of the food container on the left",
+    "62295": "Put the silver lid on the silver bottle",
+        "69450": "Cover the silver bottle with the silver lid",
+    "59752": "Pick the lid on the table and put it on the silver bottle",
+       "34178": "Put the silver lid on the silver bottle",
+    "56692": "Put the silver lid on top of the silver tin",
+     "42451": "Put the silver lid on the silver object",
+    "18391": "Pick the lid and put it on top of the bottle",
+        "92637": "Put the lid on the silver container",
+      "35244": "Place the lid on the silver container",
+        "18024": "Pick the lid on the bottle and put it on the table",
+    "43407": "Put the white lid on top of the clear food container",
+    "32243": "Place the white lid on top of the clear food container"
+  },
+  "place_lid_on_container_press_button":{
+      "92314": "Put the white lid on the storage bowl then push the button on the lid",
+    "84188": "Place the white lid on the container and push the button",
+    "39145": "Place the lid on the container then push the button",
+       "50046": "Place the lid on the container then push the button",
+    "5023": "Place the lid on the container and push the button",
+        "78083": "Put the white lid on the clear container and then press the button atop the lid",
+    "28516": "Cover the clear container with the white lid and then press the button atop the white lid",
+    "61856": "Put the white lid on top of the clear storage jar then press down the button on the lid"
+  },
+   "move_backward":{
+      "85028": "Move the towel forward, push the book backwards",
+      "86325": "Move the book backward slightly",
+      "70477": "Move the book away from you"
+   },
+
+    "uncover_and_place":{
+        "28008": "Uncover the silver bottle and put the lid on the table",
+        "20288": "Remove the white lid from the clear container"
+    },
+     "close_container":{
+      "63517": "Close the candle tin",
+      "40941": "Close the silver container"
+
+     },
+      "lid_manipulation_sequence": {
+        "86441": "Remove the lid from the bottle, put the lid on the table, pick up the lid and put it back on the bottle",
+         "42624": "Place the lid of the silver container on the table, open the black book, then close the container",
+        "22460": "Press the button on the white lid then put the lid on the table then put the blue wrapper on the table and put it back in the storage container"
+    },
+      "open_cupboard":{
+          "34517": "Open the left side of the cupboard on the right"
+      },
+      "put_item_in_container":{
+          "22117": "Put the tissue paper in the landfill only bin",
+          "359": "Put the orange sachet in the clear storage container",
+          "46482": "Take the orange packet and place it in the clear container"
+      },
+      "move_forward":{
+           "29088": "Open the front cover of the book then move the book forward and slightly to the left"
+      },
+       "unfold_towel":{
+          "16239": "Unfold the towel"
+       },
+       "take_towel":{
+          "86681": "Take the towel"
+       },
+        "move_right": {
+            "87903": "Slide the book to the right",
+            "49526": "Move the book to the right slightly"
+        },
+          "remove_item_from_container":{
+              "60821": "Remove the orange object from the storage container and put it on the table"
+          },
+        "uncover":{
+          "92110": "Uncover the candle tin",
+          "68492": "Open the lid on the transparent bowl"
+        },
+         "move_closer":{
+             "72008": "Move the black book closer to the red book"
+         }
+
+}

@@ -1,0 +1,69 @@
+
+{
+    "press_button_on_remote": {
+        "11010": "Press one button on the remote control.",
+        "65026": "Press a button on the remote",
+        "39576": "Press a button on the grey remote control.",
+        "92486": "Press a button on the remote",
+        "82656": "Press a button on the remote"
+    },
+    "put_orange_block_in_box": {
+        "39171": "Put one orange block in the wooden toy box."
+    },
+    "stir_bowl_with_spoon": {
+        "60047": "Use the spoon to stir in the white bowl",
+        "68137": "Use the spoon to stir the contents in the bowl",
+        "67027": "Stir the white bowl with the metal spoon"
+    },
+     "stir_bowl_with_spatula": {
+        "15505": "Use the cake spatula to stir the blocks in the bowl.",
+        "88657": "Use the cake spatula to stir the blocks in the bowl.",
+        "29291": "Use the cake spatula to stir the contents in the white bowl."
+    },
+    "wipe_table_with_napkin": {
+        "36369": "Wipe the table with the napkin",
+        "23593": "Use the folded napkin to the wipe the table.",
+        "85070": "Use the white napkin to wipe the table.",
+        "82273": "Wipe the table using the napkin",
+        "20350": "Use the white napkin to wipe the table."
+    },
+    "remove_cap_from_blue_bottle": {
+        "82961": "Remove the cap from the blue bottle",
+        "69293": "Remove the cap from the blue bottle"
+    },
+    "turn_lid_on_beige_bottle": {
+        "30375": "Turn the lid on the beige bottle.",
+        "78264": "Rotate the lid on the beige bottle.",
+        "26878": "Turn the lid on the beige bottle."
+    },
+    "unfold_napkin": {
+        "47652": "Unfold the napkin",
+        "23642": "Unfold the white napkin once.",
+        "53340": "Unfold the white napkin once."
+    },
+    "close_box": {
+        "81346": "Close the box",
+        "34644": "Close the box"
+    },
+    "open_brown_box": {
+        "732": "Open the brown box.",
+        "90616": "Open the brown box.",
+        "35571": "Open the brown box."
+    },
+      "open_wooden_toy_box_lid": {
+        "34784": "Open the lid on the wooden toy box.",
+        "4223": "Open the lid on the wooden toy box."
+    },
+     "fold_paper_towel":{
+        "23539": "Fold the paper towel",
+        "20604": "Fold the paper towel in half"
+    },
+      "wipe_table_paper_towel":{
+        "530": "Use the paper towel to wipe the table"
+      },
+    "put_item_in_shape_sorter":{
+        "26797": "Remove the yellow block from the white plate and put it inside the shape sorter through the square opening",
+        "16228": "Put the blue block inside the shape sorter"
+    }
+}
+

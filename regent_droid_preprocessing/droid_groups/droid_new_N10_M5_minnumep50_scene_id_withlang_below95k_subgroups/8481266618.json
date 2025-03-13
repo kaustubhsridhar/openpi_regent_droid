@@ -1,0 +1,158 @@
+
+{
+    "put_black_cable_in_gray_box": {
+        "42516": "Put the black cable in the gray box",
+        "29234": "Put the multi USB charging cable in the gray box",
+        "48199": "Put the multi USB charging cable in the gray box",
+        "19034": "Put the multi USB charging cable in the gray box",
+        "61035": "Put the multi USB charging cable in the gray box",
+        "5232": "Put the black cable in the gray box",
+        "62865": "Put the multi USB charging cable in the gray box",
+        "63934": "Put the black cable in the gray box",
+        "26059": "Put the black cable in the gray box",
+        "37854": "Put the black cable in the gray box"
+    },
+    "put_yellow_cable_in_gray_box": {
+        "71736": "Put the yellow cable in the gray box",
+        "37015": "Put the yellow cable in the gray box",
+        "68349": "Put the yellow cable in the gray box",
+        "31499": "Put the yellow cable in the gray box",
+        "32084": "Put the yellow cable in the gray box",
+        "28542": "Put the yellow cable in the gray box",
+        "91052": "Put the yellow cable in the gray box",
+        "21974": "Put the yellow cable in the gray box"
+    },
+    "put_white_cable_in_gray_box": {
+        "89146": "Put the white cable in the gray box",
+        "28344": "Put the white cable in the gray box",
+        "70421": "Put the white cable in the gray box"
+    },
+    "put_black_cable_in_tool_box": {
+        "13316": "Put the black cable on the first shelf inside the tool box",
+        "28166": "Put the black cable inside the tool box",
+        "32842": "Put the black cable inside the tool box on the first shelf",
+        "78496": "Put the black cable inside the tool box on the first shelf",
+        "54963": "Place the black cable inside the tool box on the top shelf",
+        "13090": "Put the black cable inside the tool box on the first shelf",
+        "27084": "Put the black cable inside the tool box on the first shelf"
+    },
+    "put_yellow_cable_in_tool_box": {
+        "53797": "Put the yellow cable inside the toolbox",
+        "42536": "Put the grey cable inside the tool box",
+        "51296": "Put the grey cable inside the toolbox",
+        "17202": "Place the yellow cable on the first shelf inside the toolbox",
+        "94494": "Put the yellow cable inside the tool box on the first shelf",
+         "26411": "Place the yellow cable in the toolbox",
+        "52716": "Put the yellow cable inside the tool box",
+        "12729": "Put the grey cable inside the tool box",
+        "14271": "Put the yellow cable in the tool box"
+    },
+    "pick_up_black_cable_and_put_in_tool_box": {
+        "25621": "Pick up the black cable and put it in the tool box",
+        "74863": "Pick up the black cable and put it in the tool box",
+        "43653": "Pick up the black cable and put it in the tool box",
+        "654": "Pick up the black cable and put it in the tool box",
+        "14038": "Pick up the black cable and put it in the tool box",
+        "72420": "Pick up the black cable and put it in the tool box",
+        "9496": "Pick up the black cable and put it in the tool box",
+        "10180": "Pick up the black cable and put it in the tool box",
+        "52602": "Pick up the black cable and put it in the tool box",
+        "67992": "Pick up the black cable and put it inside the tool box",
+        "25440": "Pick up the black cable and put it in the tool box"
+    },
+    "pick_up_yellow_cable_and_put_in_tool_box": {
+        "66085": "Pick up the yellow cable and put it in the tool box",
+        "45127": "Pick up the yellow cable and put it in the tool box",
+        "53974": "Pick up the yellow cable and put it in the tool box",
+        "70888": "Pick up the yellow cable and put it in the tool box",
+        "61221": "Pick up the yellow cable and put it in the tool box",
+        "20306": "Pick up the yellow cable and put it in the tool box",
+        "15804": "Pick up the yellow cable and put it in the tool box",
+        "84465": "Pick up the yellow cable and put it in the tool box",
+        "31211": "Pick up the yellow cable and put in the tool box"
+    },
+        "put_cable_in_compartment": {
+        "55826": "Put the black cable into the compartment.",
+        "50206": "Put the white extension cable inside the compartment.",
+        "27687": "Put the cable into the compartment.",
+        "11831": "Put the yellow cable into the compartment.",
+        "45140": "Put the extension cables in the compartment.",
+        "19583": "Put the black cable in the compartment.",
+        "18568": "Put the black cable in the compartment.",
+        "42681": "Put the cable inside the compartment.",
+        "83134": "Put the yellow cable into the compartment.",
+        "52416": "Put the extension cables into the compartment.",
+        "30940": "Put the extensions in the compartment.",
+        "91366": "Put the white object into the compartment.",
+        "21800": "Put the yellow cable in the compartment.",
+        "58166": "Put the yellow cable inside the compartment.",
+        "49655": "Put the yellow cable inside the compartment.",
+        "2557": "Put the black cable in the compartment.",
+         "69401": "Put the black cable into the compartment.",
+        "56097": "Put the cable inside the compartment.",
+        "65913": "Put the extension cables into the compartment.",
+        "19328": "Put the black cable inside the compartment.",
+        "46519": "Put the extension cables in the compartment.",
+         "35296": "Put the cable inside the compartment.",
+        "92655": "Put the yellow cable in the compartment."
+
+    },
+    "put_cable_in_storage_box": {
+        "27141": "Put the white cable in the storage box",
+        "14854": "Put the white cable in the storage box",
+        "1053": "Put the cable in the storage box",
+        "43058": "Put the cable in the storage box",
+        "20586": "Put the  cable in the storage box",
+        "5794": "Put the cable in the storage box",
+        "69308": "Put the white cable in the storage box",
+        "89410": "Put the white cable in the storage box",
+        "77085": "Put the white cable in the storage box",
+        "42218": "Put the cable in the storage box",
+        "19696": "Put the cable in the storage box",
+        "48915": "Put the cable in the storage box",
+        "91077": "Put the cable in the storage box",
+        "40298": "Put the cable in the storage box",
+        "71143": "Put the black cable in the storage box",
+        "57554": "Put the yellow cable in the storage box",
+        "19824": "Put the yellow cable in the storage box",
+    "75572": "Put the yellow cable in the storage box"
+
+    },
+    "pick_up_black_cable_and_put_in_box": {
+        "71176": "Pick up the black cable and put it in the box",
+        "94213": "Pick up the black cable and put it in the box.",
+        "33571": "Pick up the black cable and put it in the box",
+        "22316": "Pick up the black cable and put it in the box.",
+        "18265": "Pick up the black cable and put it in the box.",
+        "65277": "Pick the black cable and put it in the box"
+    },
+    "pick_up_yellow_cable_and_put_in_box": {
+        "92687": "Pick up the yellow cable and put it in the box.",
+        "48823": "Pick the yellow cable and put it in the box",
+        "73475": "Pick the yellow cable and put it in the box",
+        "48450": "Pick the yellow cable and put it in the box"
+    },
+       "pick_up_white_cable_and_put_in_box": {
+           "93395": "Pick up the white cable and put it in the box."
+       },
+    "generic_put_cable_in_box":{
+        "11186": "Put the black cable in the box",
+        "11225": "Pick the cable and put it in the box",
+        "7658": "Pick the cable and put it in the box",
+        "71664": "Pick the cable and put it in the box",
+        "53759": "Pick the cable and put it in the box"
+    },
+     "pick_up_white_object_and_put_in_tool_box": {
+         "3191": "Pick up the white object and put it in the tool box",
+         "49288": "Pick up the white object and put it in the tool box",
+         "75941": "Pick up the white object from the counter and put it in the tool box",
+         "15242": "Pick up the white object and put it in the tool box"
+
+     },
+    "put_black_object_in_cream_box":{
+        "80657": "Put the black object in the cream box",
+        "8586": "Put the black object in the cream box",
+        "50145": "Put the black object in the cream coloured box"
+
+    }
+}

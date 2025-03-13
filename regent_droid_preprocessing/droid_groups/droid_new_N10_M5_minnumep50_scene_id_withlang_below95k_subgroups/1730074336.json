@@ -1,0 +1,131 @@
+
+{
+    "wipe_desk_with_towel": {
+        "89602": "Use the towel to wipe the desk",
+        "60966": "Use the towel to wipe the desk",
+        "91195": "Use the towel to wipe the desk",
+        "91212": "Use the towel to wipe the desk",
+        "92774": "Use the towel to wipe the desk",
+        "15996": "Use the towel to wipe the desk",
+        "27818": "Use the towel to wipe the desk",
+        "59576": "Use the towel to wipe the desk",
+        "51907": "Use the towel to wipe the desk",
+        "36583": "Use the towel to wipe the desk",
+        "59216": "Use the towel to wipe the desk",
+        "60263": "Use the towel to wipe the desk",
+        "70006": "Use the towel to wipe the desk",
+        "55685": "Use the towel to wipe the desk",
+        "29685": "Use the towel to wipe the desk"
+    },
+    "wipe_table_with_yellow_towel": {
+        "30212": "Use the yellow towel to wipe the table",
+        "8716": "Wipe the top of the table with the yellow towel",
+        "94735": "Use the yellow towel to wipe the table",
+        "61463": "Use the yellow towel to wipe the table",
+        "19997": "Wipe the table with the yellow towel",
+        "59427": "Wipe the table with the yellow towel",
+        "78402": "Wipe the table with the yellow towel",
+        "71255": "Use the yellow towel to wipe the table",
+        "1126": "Clean the table using the yellow towel",
+        "88194": "Use the yellow towel to wipe the table",
+        "75400": "Use the yellow towel to wipe the table",
+        "29856": "Use the yellow towel to wipe the table",
+        "70823": "Use the yellow towel to wipe the table",
+        "86760": "Wipe the table with the yellow towel",
+        "66830": "Wipe the table with the yellow towel",
+        "11539": "Use the yellow towel to wipe the table",
+        "10543": "Use the yellow towel to wipe the table",
+        "91953": "Wipe the table with the yellow towel",
+        "17718": "Use the yellow towel to wipe the table",
+        "1339": "Wipe the table with the yellow towel",
+        "87868": "Wipe the tabletop with the yellow towel",
+        "21829": "Use the yellow towel to wipe the table",
+        "14669": "Wipe the table with the yellow towel",
+        "72581": "Use the yellow towel to wipe the tabletop",
+        "95624": "Use the yellow towel to wipe the table",
+        "33192": "Use the yellow towel to wipe the table",
+        "44986": "Use the yellow towel to wipe the tabletop",
+        "80315": "Wipe the table with the yellow towel.",
+        "35783": "Wipe the table with the yellow towel",
+        "1492": "Wipe the top of the table with the yellow towel",
+        "65492": "Use the yellow towel to wipe the table",
+        "55254": "Wipe the table with the yellow towel",
+        "5594": "Wipe the table with the yellow towel",
+        "26079": "Use the yellow towel to wipe the table",
+        "59885": "Use the yellow towel to wipe the table",
+        "55288": "Use the yellow towel to wipe the table",
+        "14334": "Use the yellow towel to wipe the table",
+        "10751": "Use the yellow towel to wipe the table"
+    },
+    "wipe_table_with_towel": {
+        "76325": "Use the towel to wipe the table",
+        "16955": "Wipe the table with the towel",
+        "46663": "Wipe the table with the towel",
+        "43598": "Wipe the table with the towel",
+        "34904": "Wipe the table with the towel",
+        "82541": "Wipe the table with the towel",
+        "23157": "Wipe the table with the towel",
+        "43136": "Use the towel to wipe the table",
+        "5266": "Wipe the table with the towel",
+        "59552": "Use the towel to wipe the table",
+        "7160": "Use the towel to wipe the table",
+        "63168": "Use the towel to wipe the table",
+        "40715": "Use the towel to wipe the table",
+        "84760": "Use the towel to clean the table",
+        "77081": "Wipe the table with the towel",
+        "10584": "Wipe the table with the towel",
+        "28526": "Use the towel to clean the table",
+        "42450": "Wipe the table with the towel",
+        "27100": "Use the towel to wipe the table"
+
+    },
+     "wipe_table_with_cloth": {
+        "9989": "Wipe the table with the cloth",
+        "15625": "Wipe the table with the cloth",
+        "37254": "Wipe the table with the cloth"
+     },
+      "wipe_table_with_yellow_cloth":{
+        "1647": "Wipe the table with the yellow cloth",
+        "17053": "Wipe the table with the yellow cloth",
+        "15611": "Use the yellow cloth to wipe the table",
+        "33538": "Clean the table with the yellow cloth"
+      },
+    "wipe_wooden_table_with_mustard_towel": {
+        "75986": "Use the mustard towel to wipe the wooden table",
+        "75137": "Use the mustard towel to wipe the wooden table"
+    },
+     "wipe_table_with_mustard_towel":{
+        "54559": "Use the mustard towel to wipe the table"
+     },
+    "slide_towel":{
+        "72269": "Slide the towel to the right",
+        "83620": "Slide the towel to the left end of the table",
+        "65208": "Slide the towel to the left"
+    },
+    "move_towel":{
+        "76024": "Move the towel to the right"
+    },
+      "move_yellow_towel":{
+        "53316": "Move the yellow towel to the right",
+        "83434": "Move the yellow towel to the right side of the table"
+
+      },
+    "slide_yellow_towel":{
+        "32415": "Slide the yellow towel across the table.",
+        "42382": "Slide the yellow towel across the table."
+    },
+    "wipe_desk_with_cloth":{
+        "15608": "Wipe the desk with the cloth",
+        "13066": "Wipe the desk with the cloth"
+    },
+        "wipe_counter_with_cloth": {
+        "78936": "Wipe the counter with the cloth"
+    },
+    "wipe_countertop_with_yellow_towel":{
+        "4843": "Use the yellow towel to wipe the countertop"
+    },
+        "wipe_tabletop":{
+            "13082": "Wipe the table top."
+        }
+
+}

@@ -1,0 +1,70 @@
+
+{
+    "hang_towel_on_drawer": {
+        "37509": "Move the towel from the countertop to the hanger on the drawer",
+        "28678": "Hang the blue towel on the hanger",
+        "92167": "Hang the blue cloth on the counter onto the hook hanging from the drawer",
+        "13965": "Pick up the blue towel on the right and hang it on the top right drawer",
+        "76056": "Pick up the blue towel from the countertop and hang it on the bottom cabinet.",
+        "49439": "Pick up the blue cloth on the right side of the counter, hang the cloth on the right drawer",
+        "75307": "Hang the the cloth on the right side of the counter on the right drawer",
+        "55597": "Pick up one blue cloth from the counter and hang it on the drawer",
+        "84019": "Hang the blue towel on the top right drawer",
+        "22842": "Remove the blue towel from the countertop and hang it on the drawer",
+        "52287": "Hung the cloth on the cabinet drawer",
+        "39745": "Hang the blue towel on the hanger on the drawer",
+        "4035": "Remove the blue cloth from the countertop and hang it on the drawer",
+        "10436": "Take the cloth and hang it on the drawer",
+        "78913": "Remove the blue cloth from the countertop and hang it on the drawer",
+        "25290": "Pick up the blue towel from the countertop and hang it on the cabinet",
+        "64207": "Hang the cloth on the hook on the left side of the drawer",
+        "95199": "Hang the cloth on the drawer",
+        "29682": "Hang one blue cloth on the drawer",
+        "43642": "Take the mitten off the counter top and hang it on the drawer",
+         "51963": "Hang the the towel on the hook",
+        "93310": "Hang the tea towel on the hook",
+        "27589": "Pick up the towel and place it on the hook",
+        "59491": "Put the towel on the counter on the hook hanging on the top drawer"
+
+    },
+    "place_towel_on_counter": {
+        "49163": "Unhang the blue towel from the drawer and place it on the right side of the countertop",
+        "89485": "Take the left blue towel from the hanger and put it on the counter top",
+        "75157": "Take the blue towel hanging to the drawer and put it on the counter",
+        "2967": "Put the right blue towel on the countertop",
+        "73637": "Take the left towel and put it on the countertop",
+        "41921": "Move the left blue towel from the hanger on the drawer to the countertop",
+        "93516": "Take the blue towel hanging to the drawer and put it on the counter",
+        "38351": "Take the cloth on the drawer hanger and put it on the counter",
+       "104": "Unhang the blue cloth from the drawer and place it on the right side of the counter",
+        "3804": "Unhang one blue cloth from the hook on the bottom right drawer and place it on the countertop",
+        "37602": "Place the left blue cloth onto the kitchen counter",
+        "90476": "Put the left towel on the countertop",
+        "77038": "Take the cloth and put it on the counter",
+        "29041": "Put the blue cloth hanging on the left on top of the counter",
+        "72818": "Pick up the blue cloth and put it on the counter",
+        "24189": "Unhang one cloth from the drawer and place it on the countertop",
+        "64059": "Put one of the left towels on the counter"
+
+    },
+    "remove_towel_from_counter_hang_it_and_put_back":{
+        "1165": "Unhang the cloth on the left from the drawer and place it on the countertop, hang the cloth back on the drawer",
+        "85544": "Take the top towel, hang it on the hook and put it back on the counter",
+         "908": "Remove the towel from the countertop and hang it on the right hook on the drawer",
+        "42280": "Pick the towels on the counter and hang them on the drawer"
+    },
+        "remove_mitt_place_on_counter":{
+        "54979": "Take the oven mitt from the hook and put it on the countertop",
+        "22343": "Take the oven mitt from the hanger and put it on the counter",
+        "4302": "Take the oven mitt off the hook and put it on the table",
+        "93163": "Take the oven mitts off the hanger and put them on the counter"
+    },
+      "remove_multiple_mitts_hang_on_drawer_and_take_off":{
+        "30400": "Take the two mittens off the counter top, hang them on the far right drawer and take one off"
+      },
+     "place_cloth_on_counter": {
+        "52628": "Pick up the cloth from the side of the cabinet and put it on the countertop.",
+        "51417": "Pick up the blue cloth from the door of the cabinet and put it on the countertop.",
+        "59243": "Unhang one of the cloths on the left hook and put it on the counter"
+    }
+}

@@ -1,0 +1,57 @@
+
+{
+    "move_to_left": {
+        "45442": "Move the books to left then put the shoes on the top of the cabinet and push them backwards",
+        "15491": "Move the coffee mug to the left",
+        "55572": "Move the cup to the left",
+        "70068": "Move the sneakers and the books slightly to the left then place the sneaker on the right on the books",
+        "91875": "Move the shoes to the left",
+        "71378": "Move the pair of shoes sightly to the left then move the shoe on the left to the right side",
+        "52910": "Move the right shoe to the left, then put the shoes next to the book"
+    },
+    "move_to_right": {
+        "32781": "Move the sneakers to the right and stack them together.",
+        "87841": "Move the book to the right side of the shelf.",
+        "13761": "Move the lamp to the right"
+    },
+    "move_backward": {
+        "82063": "Move the yellow pillow backwards, then put the shoes on the yellow pillow",
+        "95059": "Move the books to the left then backwards."
+    },
+    "press_keyboard": {
+        "2053": "Press a key on the keyboard",
+        "88472": "Press a button the keyboard",
+        "85662": "Press a button on the computer keyboard",
+        "69297": "Press the button on the computer keyboard",
+        "29638": "Press on the keyboard"
+    },
+     "turn_left": {
+        "6678": "Turn the lamp to the left"
+    },
+    "open_drawer_right": {
+        "77982": "Open the drawer on the right"
+    },
+    "put_marker_in_cup": {
+        "65228": "Pick up the marker and put it in the cup",
+        "38760": "Put the marker in the cup"
+    },
+    "close_drawer": {
+        "87388": "Close the open drawer on the dresser",
+        "15737": "Close the open drawer on the right."
+    },
+        "turn_right": {
+        "50892": "Turn the mouse to the right"
+    },
+    "open_drawer_left": {
+        "50513": "Open the drawer on the left side of the cabinet"
+    },
+    "press_lamp":{
+        "43179": "Press a button on the lamp stand",
+        "16563": "Press a button on the lamp"
+    },
+       "unfold_towel":{
+       "78706": "Unfold the white and red towel.",
+       "72446": "Unfold the tea towel"
+    }
+}
+

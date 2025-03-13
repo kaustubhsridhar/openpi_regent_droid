@@ -1,0 +1,107 @@
+
+{
+    "oven_door": {
+        "23686": "Open then close the oven grill door",
+        "72718": "Close the oven door",
+        "21198": "Open the door to the oven"
+    },
+    "toaster_oven_door": {
+        "24696": "Close the door of the toaster oven",
+        "20847": "Close the toaster oven."
+    },
+    "microwave_door": {
+        "52062": "Open the microwave door of the grey microwave"
+    },
+    "put_item_on_counter": {
+        "65409": "Put the light blue bowl on the counter",
+        "21513": "Remove the pen from the open drawer and put it on the counter",
+        "29947": "Pick up the green marker from on top of the oven and put it on the kitchen counter",
+        "36390": "Remove green packet from the drawer and put it on the counter",
+        "14646": "Remove a marker with a green cap and put it on the countertop near the scissors",
+        "311": "Remove the purple marker from the box and put it on the counter",
+        "60027": "Pick up the blue mug and put it on the kitchen counter",
+        "7621": "Remove the black clip from the open drawer and put it on the counter",
+        "43885": "Move the pair of scissors from the rectangular tray to the countertop",
+       "62829": "Remove the purple marker from the top of the toaster oven and put it on the left side of the counter"
+
+    },
+   "put_item_in_drawer": {
+        "79978": "Put the green packet in the drawer"
+   },
+    "put_item_on_oven": {
+        "32931": "Put the pen onto the oven",
+        "71872": "Place the black object on top of the oven",
+        "44005": "Put the marker on top of the oven",
+        "59629": "Remove a pen from the straw basket on top of the oven and put pen on the oven top",
+        "6639": "Remove a white and orange pen from the far right drawer compartment and place it on top of the oven"
+    },
+    "put_item_on_toaster_oven": {
+        "15250": "Put the basket on top of the toaster oven",
+        "41407": "Move the basket to the top of the toaster oven",
+        "639": "Put the green marker on top of the toaster oven."
+    },
+    "put_item_in_oven": {
+        "4114": "Pick up the packaged cello tape and put it on the tray in the oven",
+        "21887": "Put the purple bowl in the oven",
+        "36918": "Put the first right bowl in the oven",
+        "15820": "Pick up the scissors and put it in the tray of the oven",
+      "87924": "Move the orange object from the wooden tray to the oven wire rack"
+    },
+    "put_item_in_bowl":{
+        "58774": "Remove the scissors from the toaster oven top and put it in the wooden bowl",
+        "72409": "Pick up the black paper clip and put it in the brown bowl"
+    },
+      "move_item_right":{
+        "46858": "Move the blue plate from the left to the right",
+        "78261": "Move the purple bowl to the right"
+    },
+        "put_item_on_tray":{
+        "51509": "Shift the pen to the black tray"
+    },
+       "put_item_on_microwave":{
+        "5083": "Put the pair of scissors on top of the microwave on the left"
+    },
+     "put_item_in_basket":{
+        "36528": "Put the marker in the brown basket",
+        "8187": "Put the brown marker in the basket"
+    },
+       "remove_item_from_basket":{
+        "12666": "Remove the clip from the basket"
+    },
+      "remove_item_from_oven":{
+         "40148": "Remove the red scissors from the wire tray of the oven",
+          "53610": "Move the clip from the oven to the countertop"
+    },
+    "pull_tray_out_of_oven": {
+        "15987": "Pull out the tray from the oven",
+        "39417": "Pull the oven tray from the oven"
+    },
+      "pull_rack_out_of_oven":{
+        "85470": "Slightly pull the rack out of the oven"
+    },
+      "put_item_on_oven_tray":{
+        "93547": "Put the scissors on the oven tray"
+    },
+      "remove_item_from_microwave":{
+        "59359": "Remove the brown bowl from the top of the microwave",
+        "19007": "Remove the pen from the microwave on the left and put it in the wooden plate on the left"
+
+    },
+    "pull_tray_out_of_microwave": {
+        "51672": "Pull the tray out of the microwave on the left"
+    },
+        "take_pen_out_of_drawer":{
+        "30391": "Take the pen out of the drawer"
+    },
+    "push_tray_into_oven": {
+        "84414": "Push the oven tray inwards",
+        "23628": "Push the tray into the oven",
+      "32431": "Push the oven rack backwards"
+    },
+        "push_tray_into_microwave":{
+       "13760": "Push the tray of the grey microwave inside"
+    },
+        "pull_rack_forward":{
+        "25991": "Pull the rack in the toaster oven forwards"
+    }
+}

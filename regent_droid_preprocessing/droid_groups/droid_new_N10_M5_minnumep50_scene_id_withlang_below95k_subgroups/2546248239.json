@@ -1,0 +1,134 @@
+
+{
+    "wipe_table_with_towel": {
+        "42512": "Use the white towel to wipe the table",
+        "63509": "Pick up the white cloth out of the basket and wipe the table with it",
+        "50727": "Pick up the white towel from the white basket and put it on the table, wipe the table with the white towel, pick up the white towel and put it in the white basket",
+        "40563": "Use the shirt to wipe the table",
+        "77445": "Remove the white towel from the box, use it to wipe the table and then remove the rest of the towels from the box and put them on the table",
+        "43658": "Use the towel to wipe the table",
+        "92318": "Use the white towel to clean the table",
+        "17576": "Use the towel to clean the table",
+        "84141": "Use the towel to wipe the table then put the towel in the storage container.",
+        "31000": "Use the towel to wipe the table.",
+        "55064": "Use the towel from the storage container to wipe the table then put the towel back in the container.",
+        "77088": "Use the towel to wipe the table.",
+        "80241": "Use the towel to wipe the table",
+        "56245": "Wipe the table with the white towel",
+        "69061": "Use the white towel to wipe the table, then put the blue sponge on the white plate",
+        "3565": "Use the white towel to clean the table, then put the towel in the basket",
+        "23545": "Wipe a small part of the table using the towel",
+        "82146": "Put the cream towel into the box and use the white towel to wipe the table and put it in the box after using it"
+    },
+    "put_items_in_basket": {
+        "39475": "Put the disposable plate into the basket",
+        "34359": "Put the white plate in the basket",
+        "48194": "Remove the things from the table and put them in the basket",
+        "70796": "Put the shirts and toy moose inside the  white basket",
+        "239": "Put all the clothing and two plush toys into the basket",
+        "4887": "Put the things on the table into the basket",
+        "60832": "Put the shirts, the moose toy, the towel and the beetroot plushy in the basket",
+        "59305": "Put the moose toy, pink and peach shirts, the towel and the turnip plushie in the basket",
+        "32242": "Put the clothing into the basket",
+        "79871": "Put the plush toy and the clothing into the basket",
+        "71581": "Put the plate into the basket",
+        "10088": "Put all the cloths inside the white basket",
+        "31573": "Put the toy moose on the pink shirt, wrap it up and put it inside the white basket",
+        "79540": "Put the items on the table in the storage container."
+
+    },
+     "put_rubber_bands_on_plate": {
+        "62117": "Put the elastic bands on the plate",
+        "82127": "Take the utensils off of the plate and put the rubber bands on it",
+        "58785": "Take the spoon off of the plate and but the rubber bands on the plate",
+        "67535": "Put some rubber bands on the plate",
+        "23546": "Get the rubber bands from the table and plastic and put them on the plate",
+        "9293": "Move the white plate backwards then put some rubber bands on the plate."
+    },
+    "remove_rubber_bands_from_plate": {
+        "18057": "Remove the rubber bands from the plate",
+        "62263": "Remove the rubber bands from the plate",
+        "25813": "Take all the rubber bands off the plate and place them in the basket"
+    },
+    "move_items_left": {
+        "5221": "Move the items on the table to the left",
+        "75574": "Move the items on the table to the left",
+        "61813": "Move the masking tape to the left."
+    },
+    "fold_pink_shirt": {
+        "93904": "Fold the pink t-shirt",
+        "47050": "Fold the pink shirt",
+        "63205": "Fold the pink shirt twice"
+
+    },
+     "put_yellow_containers_on_plate": {
+        "60079": "Put the yellow containers on the white plate.",
+        "55734": "Put the yellow containers on the white plate."
+     },
+    "remove_clothes_from_basket":{
+        "88683": "Remove the peach shirt and the moose toy from the basket",
+        "17526": "Remove the pink and peach shirts, the moose toy and turnip plushie from the basket",
+        "27381": "Take the pieces of cloth and the two plush toys out of the basket",
+        "78581": "Remove some clothes from the white basket and put them on the table",
+        "15319": "Remove the clothes and the moose toy out of the basket",
+        "2540": "Remove the clothes and moose toy from the white basket",
+        "67394": "Take the shirt out of the basket"
+    },
+    "move_clothes_from_basket_to_table":{
+        "17950": "move the clothes from the box and place them on the table",
+        "8660": "Move the clothes from the basket to the table top"
+
+    },
+    "move_clothes_to_box":{
+        "85653": "move the clothes to the box"
+    },
+    "unfold_pink_towel":{
+      "26277": "Unfold the pink towel once.",
+      "17373": "Unfold the pink t-shirt."
+    },
+      "put_white_plate_in_container":{
+        "10564": "Put the white plate in the storage container."
+    },
+     "remove_items_from_container":{
+        "67851": "Remove the t-shirts and towel from the white storage container.",
+        "60250": "Remove the t-shirts, towel and moose from the storage container."
+    },
+    "remove_objects_from_basket": {
+        "78702": "Remove all the objects in the basket"
+    },
+     "no_action": {
+        "76958": "No action",
+        "82086": "No action"
+    },
+      "move_objects_to_table_positions":{
+         "94218": "Move all the objects on the table to the far left of the table",
+        "58893": "Move the discs to the second right position, then the first right position, then to the first left position",
+        "35456": "Move the black tape to the second right position, then the third right position and finally to the third right position"
+    },
+       "remove_containers_from_plate":{
+        "51643": "Remove the yellow containers from the white plate."
+    },
+     "fold_shirt": {
+        "2642": "Twice fold the shirt",
+        "53222": "Fold the shirt on the table"
+
+     },
+    "move_items_to_right":{
+        "59089": "Move the items on the left to the right side of the table.",
+         "5833": "Pile the objects, which are on the table, on the right"
+    },
+    "place_objects_in_storage_box":{
+        "12022": "Place all objects on the table and place them in the storage box on the table"
+
+    },
+     "put_items_on_plate":{
+          "52301": "Put the spice cups and black objects on the plate",
+          "71651": "Move the knife and the two yellow containers onto the plate"
+     },
+     "put_items_back_in_bag":{
+         "15397": "Put the rubber bands back into the plastic bag"
+     },
+      "put_in_plastic":{
+        "60984": "Remove the rubber bangs from the plate and put them in the plastic"
+      }
+}

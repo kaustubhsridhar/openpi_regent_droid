@@ -1,0 +1,77 @@
+
+{
+    "open_microwave": {
+        "55817": "Close the microwave door",
+        "37910": "Open the microwave",
+        "49750": "Open the microwave",
+        "93785": "Open the microwave",
+        "68723": "Open the microwave door",
+        "85631": "Open the microwave",
+        "31903": "Open the microwave door",
+        "35059": "Open the microwave door",
+        "59139": "Open the microwave door",
+        "32522": "Open the microwave door fully",
+        "86304": "Open the microwave",
+        "56794": "Open the microwave door",
+        "13808": "Open the microwave door",
+        "23944": "Open the microwave"
+    },
+    "close_microwave": {
+        "69775": "Close the microwave door",
+        "54611": "Close the microwave door",
+        "19797": "Close the microwave door",
+        "4985": "Close the microwave door",
+        "15817": "Close the microwave door"
+    },
+    "open_coffee_maker": {
+        "43030": "Open the coffee maker fully",
+        "31853": "Open the coffeemaker",
+        "32487": "Open the black coffeemaker",
+        "57174": "Open the coffee maker machine"
+    },
+    "close_coffee_maker": {
+        "48153": "Close the coffee maker lid",
+        "77053": "Close the coffee maker",
+        "39381": "Close the lid of the machine on the left",
+        "32094": "Close the lid of the machine beside the microwave"
+    },
+     "put_coke_bottle_in_blue_bag": {
+        "20527": "Put the coca-cola bottle in the bag",
+        "47719": "Put the white and brown bottle in the blue bag",
+        "15589": "Put the coca cola bottle in the blue bag",
+        "36587": "Place the coca-cola bottle in the blue bag",
+        "16161": "Put the Coca-Cola bottle in the blue bag",
+        "94533": "Put the coke bottle in the blue bag",
+        "86854": "Remove the Coca-Cola bottle from the countertop and place it inside the blue bag",
+        "47390": "Put the pink bottle in the blue bag",
+        "13734": "Put the bottle of Coca-Cola inside the blue bag",
+        "18904": "Pick up the Coca-Cola bottle from the countertop and put it inside the blue bag",
+        "4069": "Put the coke bottle inside the blue bag",
+        "59748": "Put the bottle inside the blue bag"
+
+    },
+    "put_object_on_microwave": {
+        "79532": "Put the Coca Cola bottle on top of the microwave.",
+        "21808": "Put the coca cola bottle on top of the microwave",
+        "29535": "Put the coca cola bottle on the top of the microwave",
+        "15300": "Put the pink object on top of the microwave.",
+        "19955": "Put the bottle of Coca-Cola drink horizontally on top of the microwave",
+        "94707": "Place the Coca-Cola bottle on top of the microwave",
+        "55979": "Place the white bottle on top of the microwave",
+        "48180": "Place the pink object on the right side of the microwave",
+        "25980": "Put the pink object on the microwave"
+    },
+
+    "put_packet_in_bag": {
+       "36028": "Put the packet on the counter in the bag",
+       "95131": "Place the packet in the blue bag",
+       "8611": "Put the packet on the counter in the bag"
+
+    },
+        "move_coke_bottle":{
+        "90806": "Move the coke bottle to the left of the microwave",
+        "8975": "Move the coke bottle to the right",
+        "8691": "Move the Coca Cola bottle from left to right",
+        "68564": "Move the Coke bottle away from the microwave"
+    }
+}

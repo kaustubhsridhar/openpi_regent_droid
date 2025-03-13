@@ -1,0 +1,66 @@
+
+{
+    "open_drawer": {
+        "27526": "Open the red drawer",
+        "9992": "Open the red drawer.",
+        "73496": "Open the toy drawer",
+        "22984": "Open the chest drawer",
+        "24148": "Open the chest drawer.",
+        "81883": "Open the drawer of the box.",
+        "62177": "Open the chest drawer"
+    },
+    "close_drawer": {
+        "76162": "Push closed the drawer",
+        "55210": "Close the drawer",
+        "57450": "Push the red drawer closed",
+        "72683": "Close the drawer",
+        "21498": "Close the red drawer"
+    },
+    "move_right": {
+        "35597": "Move the yellow object to the right",
+        "18579": "Move the green towel to the right",
+        "34745": "Move the yellow object to the right",
+        "19266": "Move the green towel to the right",
+        "83423": "Move the green towel to the right"
+    },
+    "move_left": {
+        "20494": "Fold the green towel, then move the maize cob to the left",
+        "26301": "Move the yellow object to the left",
+        "34753": "Move the green cloth slightly to the left on the table",
+        "32876": "Move the plastic maize to the left",
+        "74228": "Move the cob of maize to the left",
+        "29948": "Move the green towel to the left"
+    },
+    "move_backward": {
+        "44565": "Push the green towel away from you",
+        "26947": "Move the green towel backwards.",
+        "82793": "Slide the green cloth backward"
+    },
+    "move_forward": {
+        "25930": "Move the cloth forward",
+        "28000": "Push the green towel forwards"
+    },
+    "fold_cloth": {
+        "75525": "Fold the green towel in half from right to left.",
+        "52525": "Fold the green cloth",
+        "62426": "Fold the green cloth in half"
+    },
+    "unfold_cloth": {
+        "28585": "Unfold the green cloth",
+        "66990": "Unfold the green cloth",
+        "39741": "Unfold the cloth",
+        "8949": "Unfold the green towel from left to right."
+    },
+        "remove_from_pan": {
+        "82691": "Remove the maize from the pan",
+        "65091": "Remove the corn from the silver pan."
+    },
+    "put_in_drawer": {
+          "82448": "Put the toy inside the chest drawer",
+          "54601": "Put the yellow object in the drawer",
+          "65245": "Put the plush toy inside the open drawer",
+          "85479": "Pick up the corn from the table and put it in the drawer"
+
+    }
+}
+

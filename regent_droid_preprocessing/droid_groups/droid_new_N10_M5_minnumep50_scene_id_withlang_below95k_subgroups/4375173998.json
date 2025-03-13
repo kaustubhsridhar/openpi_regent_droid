@@ -1,0 +1,114 @@
+
+{
+  "put_fork_in_drawer": {
+    "1152": "Pick the fork and put it in the drawer",
+    "80779": "Put the fork inside the drawer",
+    "87708": "Put the fork in the drawer",
+    "91432": "Put the fork in the drawer",
+    "46506": "Place the fork in the drawer",
+    "5557": "Put the fork in the drawer",
+    "52032": "Take the fork from the counter and put it in the drawer",
+    "89044": "Pick up the folk from the table and put it in the drawer.",
+    "21493": "Put the fork into the open drawer.",
+    "31214": "Pick the fork on the counter and put it in the open drawer"
+  },
+  "put_knife_in_drawer": {
+    "57280": "Put the knife into drawer",
+    "39483": "Put the knife into the drawer.",
+    "86468": "Pick the knife and put it in the drawer"
+  },
+  "put_fork_and_knife_in_drawer": {
+     "90384": "Put the silver fork and silver knife inside the open drawer",
+    "17601": "Put the fork and knife into the drawer.",
+     "33223": "Pick the fork and knife on the counter and put them in the drawer",
+    "32080": "Pick up the folk and butter knife from the countertop and put them in the drawer.",
+    "57205": "Place the folk and knife in the drawer"
+
+  },
+   "put_fork_in_box_in_drawer":{
+        "11544": "Pick up the fork and put it in the box that is inside the drawer",
+        "36730": "Pick up the fork and put it in the box inside the open drawer",
+        "26110": "Put the fork inside the box in the drawer"
+   },
+    "put_knife_in_box_in_drawer":{
+        "86967": "Pick up the knife and put it in the box, that is inside the open drawer",
+        "12115": "Put the knife in the box that is in the drawer",
+        "41944": "Remove the kitchen knife from the utensil holder and put it in the box that is in the open drawer",
+        "46463": "Put the knife on the countertop inside the box in the drawer"
+    },
+    "put_fork_and_knife_in_box_in_drawer":{
+        "15412": "Put the fork and knife inside the box in the drawer"
+    },
+  "throw_item_in_bin": {
+    "56448": "Throw one piece of litter in the trash can",
+    "75296": "Throw the pack of crisps and the litter on top of the box in the bin",
+    "64677": "Take the object on the box and throw it in the bin",
+    "68407": "Throw the yellow packet in the bin",
+    "15549": "Take the yellow rapper off of the box and put it in the bin",
+    "80703": "Throw the Fritos packet in the bin",
+        "12746": "Pick up the yellow wrapper from the brown box and throw it in the bin",
+    "82012": "Pick the empty pack on the counter and throw it in the trash",
+    "16865": "Throw the empty pack of snacks in the bin",
+        "82033": "Put the blue can in the bin, place the white paper from the top of the box in the bin",
+    "57945": "Throw the paper, can, and packet in the bin"
+
+  },
+    "put_item_in_trash_bin":{
+        "1291": "Put the pack of Fritos inside the trash bin on the floor"
+    },
+
+  "put_fork_in_specific_drawer_compartment": {
+    "55453": "Put the fork in the right segment of the drawer",
+    "24001": "Take the fork on the mat and put it in the left compartment of the drawer",
+    "47094": "Move the fork to the left compartment in the drawer",
+    "65016": "Put the fork in the left compartment of the drawer"
+
+  },
+
+    "put_fork_and_knife_in_left_drawer":{
+         "69729": "Put the fork and knife in the left segment of the open drawer"
+    },
+      "put_knife_in_left_drawer":{
+        "11892": "Put the knife in the left compartment of the drawer"
+      },
+    "put_fork_in_right_drawer":{
+    "93903": "Put the silver fork inside the open drawer on the right",
+        "47998": "Remove the fork from the counter and place it in the open drawer on the right",
+    "93665": "Remove the fork from the counter and place it inside the open drawer on the right",
+        "85886": "Put the fork in the open drawer on the right"
+      },
+
+  "move_cutlery_to_drawer_tray": {
+    "21795": "Move the cutlery from the counter to the tray in the drawer"
+  },
+    "put_knife_and_fork_to_right_drawer":{
+    "48172": "Move the knife and fork to the right compartment of the drawer respectively"
+    },
+
+  "put_specific_knife_in_drawer": {
+
+    "90130": "Pick up the butter knife from the countertop and put it inside the open drawer",
+        "82603": "Take the butter knife out of the cutlery holder and put it in the open drawer on the right",
+    "48065": "Remove the butter knife from the cutlery box and put it in the open drawer on the right"
+  },
+   "put_fork_and_knife_in_right_drawer":{
+        "52254": "Put the fork and knife one at a time into the right compartment of the drawer"
+   },
+   "remove_and_put_fork_from_countertop_drawer":{
+        "63764": "Remove the fork from the black rack on the countertop and put it in the small compartment in the drawer",
+         "38567": "Remove the fork from the napkin on the countertop and place it inside the open drawer",
+         "10153": "Take the fork from the black object and put it in the open drawer"
+   },
+     "knife_from_cabinet_to_box_in_drawer":{
+        "83786": "Get the knife that is on top of the cabinet and place it in the box that is in the open file cabinet"
+     },
+      "take_butter_knife_and_fork":{
+        "66002": "Take the butter knife from the cutlery holder followed by the fork"
+      },
+        "put_knife_in_first_right_drawer":{
+            "48521": "Pick the knife on the counter and put it in the first drawer on the right"
+        },
+         "move_knife_drawer":{
+            "43278": "Move the knife from the top of the box to the left compartment of the drawer"
+         }
+}

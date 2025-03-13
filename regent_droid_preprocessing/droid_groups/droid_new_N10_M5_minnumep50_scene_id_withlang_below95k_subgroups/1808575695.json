@@ -1,0 +1,127 @@
+
+{
+    "put_marker_in_cup": {
+        "72478": "Move the cup away from you then put the marker in the cup",
+        "47281": "Pick the marker and put it in the cup",
+        "66731": "Put the marker in the cup",
+        "15716": "Put the marker inside the cup",
+        "73974": "Move the cup towards you then put the marker in the cup"
+    },
+    "put_marker_in_mug": {
+        "51367": "Put the marker in the mug",
+        "39388": "Put the marker in the mug",
+        "74728": "Put the marker in the mug",
+        "47856": "Put the marker in the mug"
+    },
+    "put_marker_in_mug_cup": {
+        "31246": "Put the marker in the mug cup",
+        "63641": "Put the marker inside the mug cup"
+    },
+    "put_pen_in_cup": {
+        "82821": "Pick the pen and put it in the cup",
+        "50695": "Put the pen inside the light blue cup",
+        "11661": "Pick up the pen from the table and put it in the mug cup.",
+        "32528": "Pick up the pen from the table and put it in the glass cup.",
+        "36631": "Put the pen into the cup.",
+        "16926": "Slide the mug cup to the right, pick up the pen from the table and put it in the mug cup",
+        "60096": "Put the pen in the cup",
+        "35396": "Put the pen in the cup",
+        "10599": "Pick up the pen from the table and put it in the white cup",
+        "20603": "Put the pen in the cup",
+        "82812": "Put the pen in the cup["
+    },
+    "put_pen_in_glass": {
+        "15732": "Put the pen in the glass"
+    },
+    "put_marker_in_bowl": {
+        "3726": "Pick the marker and put it in the bowl",
+        "44321": "Put the orange sharpie in the bowl"
+    },
+    "put_orange_marker_in_bowl": {
+        "75030": "Move the bowl to the right, then put the orange marker in the white bowl",
+        "53445": "Put the orange marker in the white bowl"
+    },
+        "put_red_marker_in_mug": {
+            "21737": "Put the red marker in the white mug",
+            "28024": "Place the red marker inside the white mug"
+    },
+       "put_green_marker_in_mug":{
+           "30201": "Place the green marker inside the white mug"
+        },
+    "remove_marker_from_cup_put_on_table": {
+        "48130": "Remove the marker from the cup and put it on the table",
+        "35193": "Pick up the marker from the cup and put it on the table",
+        "69177": "Pick the marker from the cup and put it on the table",
+        "25664": "Pick the marker from the cup and put it on the table",
+        "71624": "Take the marker in the cup and put it on the table",
+        "21706": "Pick the marker from the cup and put it on the table",
+       "42974": "Pick the marker from the cup and put it on the table",
+       "7087": "Take the marker from the white cup and place it on the table"
+
+    },
+    "remove_marker_from_mug_put_on_table": {
+        "28454": "Remove a marker from the mug and put it on the table",
+        "73207": "Remove the marker from the mug and put it on the table"
+    },
+      "remove_marker_from_bowl_put_on_table":{
+           "51487": "Take the marker out of the bowl and put it on the table",
+            "27974": "Take the marker out of the bowl and put it on the table"
+        },
+    "remove_orange_marker_from_mug_put_on_table": {
+        "10131": "Remove the red marker from the white mug",
+        "31373": "Remove the orange marker from the white bowl and place it on the table",
+        "92328": "Remove the red marker from the white mug",
+        "3544": "Remove the orange marker from the white mug and put it on the table",
+      "68451": "Take the green marker out of the white mug and put it on the table"
+    },
+    "remove_pen_from_cup_put_on_table": {
+        "46548": "Remove the grey pen from the white cup then put it on the table",
+        "83926": "Remove the pen from the mug cup and place it on the table",
+        "20183": "Put the pen from the cup on the table",
+        "37079": "Remove the pen from the glass cup and put it on the table",
+      "47730": "Pick up pen from cup and put it on the table.",
+       "42868": "Remove the pen from the cup"
+    },
+       "remove_pen_from_glass_put_on_table":{
+           "83690": "Take the pen out of the glass cup and put it on the table"
+       },
+    "remove_pen_from_glass":{
+        "58532": "Take the pen out of the glass",
+         "44586": "Take the pen out of the glass",
+        "5216": "Remove the orange pen from the glass"
+    },
+    "remove_pen_from_bowl_put_on_table":{
+         "19439": "Pick up the pen from the bowl and put it on the table."
+        },
+      "remove_orange_and_black_pen_from_cup":{
+          "73368": "Remove the orange and black pen from the light blue cup"
+      },
+    "move_cup_right": {
+        "61480": "Move the cup slightly to the right",
+        "81387": "Move the cup to the right"
+    },
+      "move_mug_left":{
+          "1465": "Move the mug to the left"
+      },
+      "move_white_mug_left":{
+          "43673": "Move the white mug to the left side of the table"
+      },
+    "move_glass_right": {
+        "88025": "Move the glass to the right"
+    },
+       "move_white_cup_left":{
+           "50656": "Move the white cup to the left"
+       },
+       "move_glass_cup_forward":{
+           "27624": "Move the glass cup forward"
+       },
+      "move_orange_marker_right":{
+          "79671": "Move the orange marker to the right side of the table"
+      },
+    "put_marker_in_mug_and_remove":{
+        "4349": "Put the marker in the mug and then remove it and put it on the table"
+    },
+        "put_orange_sharpie_on_table":{
+            "15659": "Put the orange sharpie on the table and move the bowl slightly to the left"
+        }
+}

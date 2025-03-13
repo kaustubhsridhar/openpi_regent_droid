@@ -1,0 +1,71 @@
+
+{
+    "put_marker_in_mug": {
+        "2560": "Put the black marker inside the white mug",
+        "87306": "Put the black marker in the white mug",
+        "28438": "Put the black marker inside the white mug",
+        "48552": "Get the marker from the table and put it in the white mug",
+        "86442": "Put the marker in the mug",
+        "80429": "Put the marker inside the mug cup",
+        "67887": "Put the marker inside the cup",
+        "12467": "Put the marker in the white cup",
+        "23993": "Put the marker in the mug cup",
+        "16059": "Put the marker in the mug",
+        "15814": "Put the marker inside the mug cup",
+        "10698": "Put the black marker in the white mug cup",
+        "62154": "Place the black marker inside the white mug",
+        "35404": "Put the black marker into the white cup",
+        "73162": "Put the marker in the mug",
+        "90453": "Pick the marker and put it in the cup",
+        "91095": "Place the marker in the mug",
+        "733": "Pick up the black marker from the left side of the workbench and put it in the white mug",
+        "85473": "Pick up the marker and put it in the cup",
+        "124": "Pick up the marker and put it inside the white mug",
+        "8821": "Put the marker in the white mug"
+    },
+    "remove_marker_from_mug_put_on_table": {
+        "27914": "Move the marker out of the white cup and place it on the table",
+        "24851": "Pick the marker from the cup and put it on the table",
+        "80279": "Take a marker out of the cup and put it on the table",
+        "19609": "Remove the marker from the white mug and place it on the table",
+        "27169": "Pick up the marker in the white mug and place it on the table.",
+        "68402": "Take the marker out of the cup and put it on the desk",
+        "20276": "Remove the marker from the cup and place it on the table",
+        "30011": "Take the marker out of the cup and put it on the table",
+        "3647": "Pick up the marker from the cup and put it on the table",
+        "29761": "Remove the marker from the mug cup and place it on the table",
+        "25324": "Remove the marker from the mug cup and place it on the table",
+        "634": "Remove the marker from the mug cup and put it on the table",
+        "64597": "Pick the marker from the cup and put it on the table",
+        "12767": "Remove the marker from the cup and put it on the table"
+    },
+    "remove_marker_from_mug": {
+        "53642": "Take the marker out of the white mug",
+        "47526": "Remove the marker from the mug.",
+        "2096": "Remove the marker from the cup",
+      "23241": "Remove the black marker from the white mug",
+        "6764": "Take the black marker out of the white mug"
+    },
+    "remove_marker_from_mug_put_on_workbench": {
+        "75848": "Remove the marker from the mug and put it on the workbench",
+        "92874": "Remove the marker from the mug and put it on the workbench",
+        "43098": "Remove the marker from the mug and put it on the workbench",
+        "43888": "Take the black marker out of the white mug and place it on the workbench"
+    },
+    "put_pen_in_cup": {
+        "59265": "Pick the pen on the table and put it in the cup",
+        "17414": "Pick the marker on the desk and put it in the cup",
+        "16475": "Put the pen in the cup",
+        "2040": "Pick up the black and white pen and put it in the cup",
+        "50299": "Pick the marker on the counter and put it in the cup"
+    },
+     "put_marker_on_table": {
+        "49800": "Put the black sharpie on the table",
+        "35833": "Put the marker on the table",
+        "56062": "Put the marker on the table"
+    },
+    "remove_pen_from_cup_put_on_table": {
+       "62476": "Pick up the pen from the white cup and put it on the table.",
+        "45614": "Pick up the pen from the cup and put it on the table."
+    }
+}

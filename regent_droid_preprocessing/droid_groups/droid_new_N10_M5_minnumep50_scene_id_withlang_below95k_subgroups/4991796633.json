@@ -1,0 +1,97 @@
+
+{
+    "close_cabinet_door": {
+        "18690": "Close the top cabinet door",
+        "69388": "Close the upper cabinet door",
+        "2319": "Close the open cabinet door",
+        "93967": "Close the open cupboard door",
+        "62616": "Close the left cupboard door",
+        "40217": "Close the cupboard",
+        "69913": "Close the top right cabinet door",
+        "544": "Close the right cabinet door",
+        "23204": "Close the left cabinet door",
+        "19385": "Close the open upper cabinet door",
+        "77247": "Close the open upper cabinet",
+        "48974": "Close the left cabinet door",
+        "4815": "Close the open cabinet door",
+        "20948": "Close the open cabinet door",
+        "215": "Close the open upper cabinet door",
+        "62940": "Close the open upper cabinet door",
+        "84186": "Close the top left cupboard door",
+        "46052": "Close the left cabinet door",
+        "40188": "Close the left cabinet door"
+    },
+    "open_left_cabinet_door": {
+        "43657": "Open the left side of the cabinet",
+        "74783": "Open the left cabinet door",
+        "16173": "Open the left cabinet door then take out the bottle at the left and put it on the counter top",
+        "39983": "Open the left door on the upper cabinet",
+        "55472": "Open the left cabinet door, remove the thing and put it on the counter and then close the cabinet door",
+        "24512": "Open the left cabinet door",
+        "60101": "Open the left cabinet door then put the brown bottle in the cabinet then close the door",
+        "95184": "Open the left door to the cupboard",
+        "66386": "Open the left door of the upper cabinet on the right",
+        "53464": "Open the left door to the cupboard on the right",
+        "13018": "Open the left cupboard door wide",
+        "12635": "Open the left door of the kitchen top cabinet",
+        "35546": "Open the left cabinet door",
+       "88926": "Open the left door to the cupboard",
+        "31465": "Open the left door to the cupboard on the right"
+    },
+    "open_right_cabinet_door": {
+        "1933": "Open the right side cabinet door",
+        "92858": "Open the cabinet door on the right",
+        "31291": "Open the right door of the cabinet.",
+         "58875": "Open the top right cabinet door"
+
+    },
+    "open_cabinet_door": {
+        "29354": "Open the cabinet door",
+        "7492": "Open the cabinet door on the left, remove the brown bottle from the bottom shelf of the cabinet, and put the bottle on the counter"
+    },
+    "close_drawer":{
+        "18969": "Close the drawer on the right side of the microwave",
+        "95513": "Close the top drawer door on the right",
+        "25694": "Close the second cupboard drawer to the right of the microwave",
+        "57436": "Close the top left drawer"
+    },
+      "open_top_left_cabinet":{
+        "13013": "Open the top left door of the cabinet, pick up the spice bottle and put it on the countertop.",
+        "45033": "Open the top left door of the cabinet.",
+        "43880": "Open the top left cabinet door then remove the brown bottle out of the cabinet and close the left cabinet door"
+
+    },
+        "open_top_right_cabinet":{
+        "64946": "Open the top right cupboard door fully",
+        "65107": "Open the top right cupboard door"
+    },
+    "open_cupboard":{
+        "89266": "Open the cupboard",
+        "6707": "Open the cupboard, put the object inside then close it",
+       "42077": "Open the cupboard, take an object from it and place it on the counter then close the cupboard"
+
+    },
+     "open_top_cabinet":{
+        "57068": "Open the doors of the top cabinet, get the spice bottle and put it on the table.",
+        "51694": "Open the top cabinet then pick up the yellow object on the counter place it inside the cabinet and then close the cabinet"
+    },
+    "put_in_and_close_cabinet":{
+        "77586": "Pick up the sachet from the countertop and put it in the open cabinet then close the door",
+        "33483": "Put the paper on the counter on the bottom shelf of the open cabinet and then close the cabinet door",
+        "61521": "Pick the bottle on the counter, put it in the cupboard then close the cupboard",
+      "80260": "Put the can in the top cupboard and close the cupboard door",
+    "5162": "Open the left door of the upper cabinet, place the brown can in the cabinet, place the glass jar in the cabinet, close the cabinet door",
+   "42501": "Pick up the container from the counter and place it on the bottom shelf of the open upper cabinet, close the doors of the open cabinet"
+
+    },
+     "open_and_remove_then_close_cabinet":{
+        "26535": "Open the cupboard, take an object out of it and place it on the counter",
+        "81204": "Remove the shaker from the cupboard, put it on the counter, and then close the cupboard door"
+
+    },
+    "open_drawer": {
+        "81733": "Open the wooden drawer to the right.",
+         "17270": "Open the right drawer of the cabinet.",
+         "7763": "Open the left drawer door"
+    }
+}

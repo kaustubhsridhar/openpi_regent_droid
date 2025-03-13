@@ -1,0 +1,83 @@
+
+{
+    "close_door": {
+        "55323": "Close the door using the door handle",
+        "11329": "Close the door",
+        "22874": "Close the door",
+        "59098": "Pull the door forward until it is completely closed"
+    },
+    "open_door": {
+        "75426": "Open the door",
+        "51529": "Open the door",
+        "73552": "Open the door",
+        "36213": "Open the door"
+    },
+    "open_book": {
+        "58638": "Open the book, then put the rubber on the table",
+        "78895": "Open the book"
+    },
+    "close_book": {
+        "36642": "Close the book"
+    },
+    "move_curtain_right": {
+        "11909": "Pull the curtain to the right",
+        "1010": "Move the curtain to the right"
+    },
+    "move_curtain_left": {
+        "12894": "Pull the closet curtain to the left",
+        "61153": "Pull the curtain to the left",
+        "79356": "Pull the curtain to the left"
+    },
+   "put_blue_marker_upright": {
+        "43908": "Set the blue marker upright on the shelf",
+        "60362": "Put the blue marker upright",
+        "9467": "Put the blue marker in an upright position"
+    },
+    "place_purple_marker_upright": {
+        "66672": "Pick up the purple marker and place it standing upwards on the shelf",
+        "85498": "Place the purple marker upright."
+    },
+    "put_item_in_box": {
+        "20619": "Put the blue pen in the box",
+        "89499": "Put the green pen in the brown box.",
+        "17072": "Put the green pen inside the box",
+        "57342": "Pick up the dark object from the table and put it in the cardboard box"
+    },
+     "move_object_forward": {
+        "84000": "Move the white object forward and put it upright",
+        "28194": "Pick up the tippex tape roller and move it forward on the shelf",
+        "37344": "Move the purple marker forward and put it upright"
+    },
+      "flip_light_switch":{
+        "28328": "Flip the left light switch",
+        "84083": "Flip the right light switch on the wall"
+      },
+      "turn_on_light_switch":{
+          "61777": "Turn on the light switch on the wall",
+          "95324": "Switch on the light"
+      },
+      "move_object_right":{
+        "85937": "Move the red pen to the right",
+        "45898": "Move the brown box to the right",
+        "30291": "Move the papers on the left to the right",
+        "46422": "Move the black thing to the right"
+      },
+        "put_blue_marker_on_object":{
+            "90429": "Put the blue marker on the table then put the purple marker on the green bottle",
+           "17769": "Put the blue marker on the green bottle"
+        },
+
+        "put_blue_marker_in_container":{
+            "57656": "Put the blue marker inside the green jar.",
+            "10229": "Put the blue object in the green jug"
+
+        },
+      "move_object_left":{
+           "43305": "Move the book to the left",
+           "30536": "Move the yellow pencil from the right to the left side of the bench"
+      },
+       "turn_off_light_switch":
+      {
+          "75501": "Turn off the light switch"
+      }
+}

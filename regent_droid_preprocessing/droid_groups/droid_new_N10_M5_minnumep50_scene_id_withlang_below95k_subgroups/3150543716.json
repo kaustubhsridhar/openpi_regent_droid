@@ -1,0 +1,87 @@
+
+{
+    "turn_tap_right": {
+        "88965": "Turn the tap nozzle to the right",
+        "66824": "Turn the tap faucet to the right",
+        "80396": "Turn the tap nozzle to the right",
+        "67410": "Move the tap nozzle to the right",
+        "77307": "Turn the tap nozzle to the right",
+        "92066": "Move the tap nozzle to the right",
+        "67693": "Move the tap nozzle to the right"
+    },
+    "turn_tap_left": {
+        "86930": "Turn the tap nozzle to the left",
+        "14357": "Turn the faucet to the left",
+        "7323": "Turn the tap faucet to the left",
+        "57057": "Turn the faucet to the left",
+        "53706": "Slide the tap to the left",
+        "85238": "Move the faucet spout to the left",
+        "23543": "Move the faucet of the sink to the left."
+    },
+    "move_carrot_forward": {
+        "86028": "Move the carrot plushie closer to you",
+        "66837": "Move the carrot forward"
+    },
+    "move_object_backward": {
+        "16831": "Move the yellow object backwards",
+        "82493": "Move the carrot plush backward",
+        "53865": "Move the carrot plush backward",
+        "15832": "Move the white doll backwards",
+        "14319": "Move the white plush toy backwards"
+    },
+    "move_object_forward": {
+        "21283": "Move the white small doll forward",
+        "44837": "Move the yellow object forward.",
+        "64599": "Move the yellow object forward."
+    },
+    "remove_object_from_orange_plate": {
+        "64904": "Remove the white plush toy from the orange plate",
+        "801": "Remove the yellow object from the orange plate.",
+        "67517": "Remove the doll from the orange plate",
+        "40278": "Remove the teddy bear from the orange plate"
+    },
+    "put_carrot_on_orange_plate": {
+        "29475": "Put the carrot toy on the orange plate",
+        "50595": "Put the carrot plushie on the orange plate",
+        "63450": "Put the carrot on the orange plate",
+        "76613": "Put the orange plushie on the orange plate"
+
+    },
+       "put_object_on_plate": {
+        "30862": "Put the white object on the plate",
+        "59807": "Pick up the bear plush toy and put it on the plate",
+        "64038": "Put the grey doll on the plate",
+        "69043": "Put the yellow object on the plate",
+        "22475": "Pick the yellow object and put it on the plate",
+        "63473": "Pick the stuffed animal and put it on the plate"
+
+    },
+    "remove_carrot_plush_from_plate":{
+        "84770": "Remove the carrot plushie from the orange plate",
+        "23661": "Remove the carrot plushie from the orange plate",
+        "75701": "Put the toy carrot on the red plate",
+        "69819": "Remove the carrot plush toy from the red plate and put it on the table"
+    },
+     "remove_plush_from_plate":{
+        "51116": "Take the stuffed animal off the plate",
+        "63780": "Pick the stuffed animal on the plate and put it on the counter",
+        "34867": "Pick up the toy from the plate and put it on the countertop.",
+        "37224": "Remove the object in the plate and put it on the table"
+
+     },
+    "move_item_left":{
+        "13079": "Move the fluffy toy from right to left",
+        "82210": "Move the yellow maize cob to the left",
+        "16377": "Move the corn plush toy to the left"
+    },
+    "move_item_right":{
+       "44483": "Move the cob of maize to the right",
+        "81475": "Move the toy to the right",
+        "4831": "Move the maize to the right"
+    },
+        "put_carrot_plush_on_plate":{
+        "60300": "Pick up the carrot plush toy from the counter and put it on the plate",
+        "42149": "Pick up the carrot plushie from the plate and put it on the table",
+        "94757": "Pick up the carrot plush toy and put it on the plate, then move the animal plush toy"
+    }
+}

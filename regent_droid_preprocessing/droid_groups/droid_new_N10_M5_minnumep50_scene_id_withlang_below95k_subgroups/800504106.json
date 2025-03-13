@@ -1,0 +1,115 @@
+
+{
+    "Pouring_contents": {
+        "70157": "Pour the contents in the dark green cup into the orange bowl",
+        "38928": "Pour the contents of the green cup into the green bowl",
+        "42514": "Pour the rice out of the orange bowl into the green bowl",
+        "65576": "Pour the things in the white mug into the pink bowl",
+        "56877": "Pour the contents of the jug into the pink mug",
+        "1085": "Pour the contents of the small red bowl into the silver jug",
+        "9409": "Pour the contents in the silver jug into the white mug",
+        "68805": "Pour the contents in the white mug into the orange bowl",
+        "35064": "Pour the contents of the green cup into the green bowl",
+        "90424": "Pour the contents in the dark green cup into the orange bowl",
+        "34244": "Pour the contents in the white mug into the light green bowl",
+        "63447": "Pour the contents of the green cup into the bowl",
+        "30185": "Pour the contents of the mug into the metal jug",
+        "68606": "Pick up the mug cup and pour it's content in the bowl"
+    },
+    "Moving_left": {
+        "24107": "Move the pink mug to the left",
+        "48212": "Move the light-green bowl to the left"
+    },
+        "Moving_right": {
+        "1799": "Move the mug to the right"
+    },
+    "Moving_forward": {
+        "26394": "Move the white plate forward"
+    },
+    "Moving_backward": {
+        "31776": "Move the silver spoon and ladle from the pink plate and put them on the orange plate, move the pink plate backwards"
+    },
+    "Placing_on_dish_rack": {
+        "14389": "Park the green bowl properly on the kitchen plate holder",
+        "56387": "Take the green plate and put it in the rack",
+        "14922": "Put the fork on the drying rack.",
+        "21594": "Put the dark green plate on the dish drainer in front of the light blue plate",
+        "10333": "Put the wooden spoon on the drying rack",
+        "70803": "Put the green plate on the dish rack",
+        "53431": "Pick up the green cup and put it on the dish dryer rack",
+        "91831": "Put the brown spoon onto the drying rack.",
+        "37503": "Place the knife on the green plate then put the pink plate on the dish rack",
+        "82351": "Put the light blue plate on the dish drainer",
+        "21962": "Put the blue plate on the dish rack",
+        "64971": "Place the dark green plate on the dishrack"
+
+    },
+   "Pick_and_place_onto_plate": {
+        "6196": "Pick the small silver spoon on the white plate and put it on the yellow plate",
+        "50263": "Pick the cucumber and put it on the green plate",
+        "78943": "Pick up the spoon from the light blue plate and put it on the grey plate",
+        "19051": "Pick up the brown spoon and place it on the blue plate.",
+        "41120": "Pick up the butter knife from the dark blue plate and place it on the dark green plate",
+        "44184": "Move the spoon from the orange plate to the light-blue plate",
+        "41150": "Take the zucchini on the green plate and put it on the grey plate",
+        "94464": "Place the small pepper from the grey tray on the dark green plate",
+        "11027": "Move the spoon from the orange plate to the pink one",
+        "7964": "Put the small blue spoon on the dark blue plate",
+        "50970": "Put the knife on the blue plate.",
+        "75038": "Remove the spoon from dish rack and put it on the blue plate",
+        "33574": "Move the butter knife to the blue plate",
+        "10078": "Put the spoon on the light blue plate on the dark blue plate",
+        "76137": "Remove one zucchini from the grey tray and put it on the dark blue plate",
+        "3451": "Move the silver spoon from the green pate to the blue plate",
+        "83838": "Put the green object onto the blue plate.",
+        "59837": "Put the baby marrow on the grey plate onto the blue plate",
+      "27092": "Take the zucchini from the grey plate and put it on the blue plate",
+      "76267": "Pick the spoon and put it on the light blue plate",
+        "61433": "Pick up the silver spoon from the green plate and put it on the light blue plate."
+   },
+    "Removing_from_dish_rack_and_placing_on_table":{
+        "36001": "Pick up the green plate from the dish rack and put it on the table.",
+        "81151": "Pick up the light blue plate from the dish rack and put it on the table",
+        "57645": "Remove the white plate from the dish rack and put it on the right side of the table",
+        "78745": "Remove the green plate from the dish rack and put it on the table"
+    },
+
+    "Placing_item_on_blue_plate":{
+        "19051": "Pick up the brown spoon and place it on the blue plate.",
+        "60032": "Remove the blue spoon from the dish rack and put it on the blue plate",
+        "50970": "Put the knife on the blue plate.",
+        "75038": "Remove the spoon from dish rack and put it on the blue plate",
+        "33574": "Move the butter knife to the blue plate",
+        "3451": "Move the silver spoon from the green pate to the blue plate",
+        "83838": "Put the green object onto the blue plate.",
+        "59837": "Put the baby marrow on the grey plate onto the blue plate",
+        "27092": "Take the zucchini from the grey plate and put it on the blue plate"
+
+    },
+       "Placing_item_in_utensil_holder":{
+           "42836": "Take the spoon with the white and blue handle from the blue plate and  place it in the utensils compartment of the draining rack",
+           "23023": "Pick up the knife from the yellow plate and put it in the  knife holder on the dish rack"
+       },
+     "Removing_item_from_yellow_plate":{
+      "81823": "Remove the butter knife from the yellow plate and put it on the white plate",
+      "56760": "Remove the brown spoon from the yellow plate and put it on the light blue plate"
+     },
+    "Removing_item_from_dish_rack_and_placing_on_plate": {
+        "31336": "Remove the red butter knife from the dishrack and place it on top of the dark blue plate",
+        "60032": "Remove the blue spoon from the dish rack and put it on the blue plate",
+        "75038": "Remove the spoon from dish rack and put it on the blue plate",
+        "93658": "Remove the brown spoon from the dish rack and place it on the white plate"
+
+    },
+    "Placing_blue_plate":{
+        "93438": "Put the blue plate on the rack on the green plate",
+        "21873": "Put the blue plate on the table",
+        "21962": "Put the blue plate on the dish rack",
+        "18905": "Remove the blue plate from the rack and put it on the purple one"
+
+    },
+     "Moving_item_to_table_edge":{
+         "12017": "Pick up the green cup and put it at the edge of the table",
+         "88818": "Move the green bowl to the left edge of the table"
+     }
+}

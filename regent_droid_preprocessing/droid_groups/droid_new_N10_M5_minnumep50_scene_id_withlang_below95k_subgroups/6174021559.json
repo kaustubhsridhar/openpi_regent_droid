@@ -1,0 +1,60 @@
+
+{
+"remote_in_green_bowl": {
+    "7560": "Put the remote in the green bowl",
+    "91535": "Put the book in the green bowl",
+    "50473": "Put the remote in the green bowl",
+    "1825": "Put the book in the green bowl"
+},
+"remote_on_table_corner": {
+    "6157": "Put the remote on the table's top left corner",
+    "22940": "Move the remote to the front right corner of the table",
+    "2859": "Place the remote control on the back right corner of the table"
+},
+"item_in_green_box": {
+    "43792": "Place the toy car in the green box",
+    "16932": "Put the remote in the green box",
+    "40240": "Put the remote in the green storage box",
+   "11320": "Pick up the blue toy car and put it in then green storage box",
+    "48740": "Pick up the metal spoon on the table and put it in the green storage box",
+    "2425": "Put the blue toy car in the green container"
+
+},
+"item_in_green_lunchbox":{
+    "65294": "Pick up the blue car and put it in the green lunch box",
+    "86068": "Pick up the brown book and put it in the green lunch box",
+    "75328": "Lift the spoon and put it in the green lunch box",
+    "48474": "Put the black remote in the green lunchbox",
+    "50267": "Put the silver spoon in the green lunchbox",
+    "17400": "Put the black remote in the green lunchbox"
+},
+"remove_item_from_green_container_and_put_on_table":{
+    "55569": "Remove the red book from the green storage box and put it on the table",
+    "24376": "Remove the remote controller from the green storage box and put it on the table",
+    "29886": "Take the remote control out of the green box then put it on the table",
+    "88654": "Remove the remote from the green lunchbox and put it on the table"
+},
+"move_green_box":{
+    "55084": "Move the green box to the left side of the table",
+     "83155": "Pick up the green storage box and move it to the left"
+},
+
+"move_green_lunchbox":{
+    "300": "Pick up the green lunch box and put it on the left side of the table",
+    "11632": "Move the green lunch box to the left"
+},
+"spoon_in_green_bowl":{
+    "48616": "Pick up the silver spoon and put it in the green bowl"
+},
+ "move_red_basket_forward_backward": {
+        "65768": "Pick up the red basket, move it backward and place it at the edge of the table",
+        "39022": "Move the red basket forward on the table"
+    },
+"move_green_bowl_backward":{
+    "58833": "Move the green bowl to the right backwards"
+},
+"spoon_on_table_corner": {
+        "32130": "Move the spoon from the chest to the top-left corner of the table",
+        "65649": "Place the spoon on the front left corner of the table"
+    }
+}

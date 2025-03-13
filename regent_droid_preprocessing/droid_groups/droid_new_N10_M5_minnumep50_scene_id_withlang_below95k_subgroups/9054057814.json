@@ -1,0 +1,79 @@
+
+{
+  "put_on_table": {
+    "31627": "Put the blue toy on the table.",
+    "88587": "Pick up the orange block and put it on the table",
+    "69901": "Put the orange block on the table",
+    "22421": "Put the yellow block on the table",
+    "50593": "Pick up the blue object and put it on the table",
+    "80941": "Put the yellow rectangular block directly on the table",
+    "69422": "Pick up the orange object from the yellow object and put on the table",
+    "28092": "Pick up the blue object and put it on the table",
+    "1228": "Remove the yellow block from the top of the stack and put it on the table.",
+    "50795": "Remove the yellow toy from the top of the toy tower and put it on the table",
+        "10237": "Remove the orange object from the top of the toy tower and put it on the table"
+
+  },
+  "put_on_stack": {
+    "52515": "Put the blue block on top of the stack of blocks",
+    "62502": "Put the green block on top of the stack of blocks",
+    "53032": "Put the triangular block on top of the stack of blocks",
+    "35509": "Put the yellow triangle on top of the stack on the left.",
+    "94785": "Put the yellow block on top of the stack",
+    "46031": "Put the block on the stack",
+        "94173": "Put the orange block on top of the stack."
+
+  },
+  "put_on_other_block": {
+    "21268": "Put the blue square block on the green block",
+    "1047": "Put the red block on the yellow block",
+    "93475": "Put the blue cylindrical block on the blue square block",
+    "75823": "Put the blue block on the yellow block",
+    "5937": "Put the green square block on the green rectangular block, then put the blue block on the green block",
+        "47426": "Put the orange block on the green block",
+        "25691": "Put the right green block on the green block"
+  },
+  "remove_from_stack": {
+    "74942": "Remove the green cube from the top of the stacked blocks",
+    "94782": "Remove the blue block from the top of the stack.",
+    "92112": "Take the green item off the stack",
+    "54749": "Remove the yellow block from the top of the stack.",
+        "40302": "Remove the green block from the top of the stack"
+
+    },
+  "stack_on_top_of_other":{
+      "55711": "Stack the orange block on top of the other orange block",
+      "48097": "Put the orange block over the other orange block"
+  },
+    "move_forward": {
+        "11758": "Move the yellow block forward"
+    },
+    "move_backward": {
+        "46332": "Move the orange block on the left backward"
+    },
+      "unstack":{
+        "9237": "Unstack the yellow and blue blocks",
+        "31841": "Unstack the blocks on the table"
+      },
+      "put_on_top_left":{
+        "56753": "Pick up the orange block on the left and put it on top of the yellow block on the left",
+        "21847": "Place the orange block on top of the stack on the left, place the green block on top of the orange block"
+      },
+      "put_x_on_y":{
+        "85671": "Pick up the blue object from the table and place it on top of the orange object",
+        "22858": "Pick up the pinch object from the table and put it on the yellow object",
+        "49914": "Pick up the yellow rectangle object and put it on the blue square object"
+
+      },
+       "move_to_side":{
+        "536": "Move the green rectangular block to the right",
+        "60919": "Move the green cube to the left then move it to the right"
+       },
+    "put_on_top_tower":{
+      "39907": "Put the triangular block on the top of the tower"
+    },
+     "remove_top_from_color":{
+        "42730": "Remove the orange block from the top of the yellow block"
+     }
+}
+

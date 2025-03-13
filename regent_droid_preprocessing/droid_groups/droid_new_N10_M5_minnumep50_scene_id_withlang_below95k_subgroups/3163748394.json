@@ -1,0 +1,365 @@
+
+{
+    "put_rubiks_cube_on_shelf": {
+        "5634": "Put the rubik's cube on the top of the shelf",
+        "4642": "Put the Rubik's cube on top of the shelf",
+        "67628": "Put the rubik's cube on the top of the shelf",
+        "68148": "Put the Rubik's cube on top of the shelf.",
+        "53827": "Put the rubix cube on the top of the shelf",
+        "7793": "Place the Rubik's cube on top of the shelf",
+        "51314": "Put the rubik's cube on the top of the shelf",
+        "90261": "Put the rubix cube on the top of the shelf",
+        "94369": "Put the rubix cube on the top of the shelf",
+        "41645": "Put the Rubik's cube on top of the shelves",
+        "30002": "Put the rubik's cube on the top of the shelf",
+        "32564": "Put the rubix cube on the top of the shelf",
+        "89823": "Put the cube on the shelves' topmost surface",
+        "36694": "Put the Rubik's cube on top of the shelf",
+        "39770": "Put the rubix cube on top of the shelf",
+        "93546": "Put the rubix cube on the top of the shelves",
+        "47548": "Put the rubik's cube on the top of the shelf",
+        "63919": "Put the rubik's cube on the top of the shelf",
+        "52684": "Put the rubik's cube on the top of the shelf",
+        "81876": "Put the rubix cube to the top of the shelf.",
+        "44970": "Place the Rubik's cube on top of the shelf",
+        "85545": "Put the rubix cube on the top shelf",
+        "78668": "Move the cube to the top of the shelf",
+        "90918": "Put the rubix cube on top of the shelf",
+        "13187": "Put the Rubik's cube on top of the shelf"
+
+    },
+    "put_lego_bricks_on_shelf": {
+        "14850": "Put the lego bricks on the top of the shelf",
+        "72750": "Move the lego pieces to the top of the shelf",
+        "52847": "Put the Lego's on top of the shelf",
+    "41571": "Move the Lego's to the top of the shelves",
+        "9377": "Put the lego bricks on top of the shelf",
+        "88850": "Put the lego bricks on the top of the shelf",
+        "71587": "Move the lego bricks to the top of the shelf",
+    "74075": "Put the Legos on top of the shelf",
+    "50880": "Put the Legos on top of the shelves"
+
+    },
+        "put_orange_object_tool_in_cup": {
+        "5124": "Pick the tool with the orange handle and put it in the cup",
+        "80400": "Pick up the orange object tool and put it in the cup",
+        "24087": "Pick up the orange object tool and put it in the cup",
+        "36887": "Pick up the orange object too and put it in the cup",
+        "61501": "Pick up the orange object tool and put it in the cup",
+        "21586": "Pick up the orange object tool and put it in the cup",
+    "46938": "Pick up the orange object tool and put it in the cup",
+        "371": "Pick up the orange object tool and put it in the cup",
+        "18316": "Pick up the orange object tool and put it in the cup",
+    "84678": "Pick up the orange object tool and put it in the cup",
+        "3176": "Pick up the orange object tool and put it in the cup",
+            "64938": "Pick up the orange object tool and put it in the cup"
+
+    },
+    "put_orange_object_in_blue_cup": {
+        "26628": "Pick up the orange object and put it in the blue cup.",
+        "25628": "Put the orange object inside the blue cup",
+        "12390": "Pick up the orange object and put it in the light blue cup.",
+        "67170": "Put the orange object inside the blue cup",
+        "5187": "Shift the orange object to the dark blue cup",
+        "59461": "Shift the orange object to the dark blue cup",
+        "53480": "Put the orange object inside the blue cup",
+        "67723": "Put the orange object inside the blue cup",
+        "27794": "Put the orange object into the blue cup",
+        "85410": "Put the orange object in the dark blue cup",
+        "1183": "Pick up the orange object and put it in the cup",
+        "17208": "Pick up the orange object and put it in the light blue cup.",
+        "38263": "Pick up the orange object and put it in the blue cup.",
+        "81291": "Put the orange object inside the blue cup",
+    "77258": "Pick up the orange object and put it in the light blue cup.",
+    "28990": "Put the orange object inside the blue cup",
+        "72448": "Put the orange object inside the blue cup",
+    "95054": "Put the orange object inside the blue cup",
+    "69106": "Put the orange object in the blue cup",
+    "30482": "Put the orange object into the blue cup",
+    "84900": "Put the orange object inside the blue cup"
+
+    },
+    "put_blocks_in_bowl": {
+        "82516": "Pick the blocks on the counter and put them in the bowl",
+        "33034": "Put the blocks on the counter in the bowl",
+        "57678": "Pick the blocks and put them in the bowl",
+        "4463": "Put the LEGO blocks in the bowl",
+        "8160": "Pick the blocks and put them in the bowl",
+    "69013": "Put the blocks on the counter in the bowl"
+    },
+
+ "put_colored_objects_in_bowl": {
+
+    "58900": "Put the green, yellow, orange and blue lego bricks in the black bowl",
+    "36917": "Pick up the orange, blue, green and yellow objects from the table and put them in the bowl",
+     "9376": "Pick up the green, yellow, blue and red objects and put them in the bowl",
+    "95394": "Pick up the blue, green, yellow and red objects and put them in the bowl",
+      "92871": "Pick up the green, orange, blue and yellow from the table and put them in the bowl",
+    "25296": "Put the yellow, blue , orange and green lego bricks in the black bowl",
+    "19698": "Pick up the orange, blue, green and yellow objects from the table and put them in the bowl",
+    "72481": "Pick up the green, orange, blue and yellow objects from the table and put them in the bowl",
+  "41761": "Put the green, orange, blue and yellow lego bricks in the black bowl respectively",
+    "61040": "Put the green, blue, red and yellow building blocks inside the black bowl",
+     "36351": "Place the red, green, blue and yellow building blocks inside the black bowl",
+    "70612": "Place the green, yellow, blue and red blocks inside the black bowl",
+    "91188": "Pick up the building block toys from the top of the cabinet and put them in the black bowl.",
+    "20484": "Put the toys into the bowl.",
+        "79950": "Put the color toys inside the black bowl.",
+        "74502": "Put all the toy blocks into the black bowl.",
+      "8644": "Put the blocks inside the black bowl.",
+     "4236": "Put the Legos in the bowl"
+
+    },
+    "put_black_object_on_top_of_shelf": {
+        "85032": "Put the black object on the top shelf",
+        "25654": "Put the black object on top of the shelves",
+        "2372": "Put the black object on top of the shelf",
+    "45435": "Put the black object on the top shelf",
+    "19392": "Put the black object on top of the shelf",
+    "88997": "Put the black object on top of the shelf.",
+        "35505": "Move the black object to the top of the shelf",
+        "82101": "Put the black object on the top shelf",
+        "71880": "Move the black object to the topmost surface of the shelf",
+        "53961": "Move the black to the top of the shelf",
+         "87767": "Put the black object on top of the shelf.",
+    "45052": "Move the black object to the top of the shelf.",
+    "81885": "Move the black object to the top of the  shelf"
+    },
+  "put_blue_cup_on_top_of_shelf":{
+        "50291": "Put the blue cup on the top of the shelf",
+      "25265": "Put the blue cup on top of the shelf.",
+        "26895": "Put the blue cup on top of the shelf",
+    "10685": "Put the blue cup on top of the shelf",
+        "95223": "Move the blue cup to the top of the shelf",
+     "66510": "Move the blue cup to the top shelf",
+    "72327": "Move the blue cup to the top of the shelves"
+  },
+
+ "put_peach_plushie_on_top_of_shelf":{
+
+    "63095": "Put the peach plushie on the top of the shelf",
+    "37653": "Put the peach plush toy on top of the shelf",
+    "45336": "Put the peach plushie on the top of the shelf",
+    "74010": "Move the peach plushy to the top of the shelf",
+        "318": "Move the peach plushy to the top of the shelf",
+    "90540": "Put the peach plushie on the top shelf",
+    "42433": "Put the peach plushie on the top of the shelf",
+     "81406": "Place the peach toy on top of the shelf"
+
+  },
+  "put_tool_with_orange_handle_in_cup":{
+    "5732": "Pick the tool with the orange handle and put it in the cup",
+     "26371": "Pick the tool with the orange handle and put it in the cup",
+    "30475": "Pick the tool with the orange handle and put it in the cup",
+     "58139": "Pick the tool with the orange handle and put it in the cup",
+     "74061": "Pick the tool with the orange handle and put it in the cup",
+     "79781": "Pick the tool with the orange handle and put it in the cup"
+
+  },
+    "put_wrench_in_large_blue_cup": {
+        "91725": "Put the wrench in the large blue cup.",
+        "70351": "Put the wrench in the large blue cup.",
+        "65752": "Put the wrench in the large blue cup.",
+    "26891": "Put the wrench in the large blue cup.",
+        "86368": "Put the wrench inside the large blue cup",
+        "33124": "Put the wrench inside the large blue cup",
+    "89515": "Move the wrench to the large blue cup on the right."
+    },
+    "put_red_object_in_cup":{
+      "68747": "Put the red object in the cup",
+    "19242": "Put the red object in the cup",
+    "1847": "Put the red object in the cup"
+
+    },
+  "remove_red_object_from_blue_rack_and_put_in_cup":{
+   "25698": "Remove the red object from the blue rack and put it in the cup",
+     "9839": "Remove the red object from the blue rack and put it in the cup",
+       "60757": "Remove the red object from the blue rack and put it in the cup"
+
+  },
+ "put_red_object_on_blue_rack_in_cup":{
+    "5139": "Put the red object on the blue rack in the cup",
+      "67741": "Put the red object on the blue rack in the cup",
+    "59107": "Put the red object on the blue rack in the cup",
+     "79080": "Put the red object on the blue rack in the cup"
+ },
+
+"put_red_object_on_blue_rack_in_blue_cup":{
+    "44703": "Put the red object on the blue rack in the blue cup",
+    "40105": "Put the red object on the blue rack in the blue cup",
+      "38672": "Put the red object on the blue rack in the blue cup"
+
+},
+
+ "put_metal_object_with_orange_handle_in_blue_cup":{
+     "38470": "Put the metal object with the orange handle in the blue cup",
+    "35453": "Put the metal object with the orange handle in the blue cup",
+    "61642": "Put the metal object with the orange handle in the blue cup",
+    "94445": "Put the metal object with the orange handle in the blue cup",
+    "18302": "Put the metal object with the orange handle in the blue cup",
+    "77263": "Put the metal object with the orange handle in the blue cup",
+    "66523": "Put the metal object with an orange handle in the blue cup",
+     "31292": "Put the metal object with the orange handle in the right cup",
+     "54933": "Put the item with the orange handle into the blue cup",
+     "26842": "Put the orange handle into the blue cup",
+    "6379": "Move the orange handle to the blue cup"
+ },
+
+"put_metal_object_with_orange_handle_in_cup":{
+    "60545": "Put the metal object with the orange handle in the cup",
+  "85946": "Put the metal object with the orange handle in the cup",
+ "90085": "Put the metal object with the orange handle in the cup",
+ "31058": "Put the metal object with the orange handle in the cup",
+  "6450": "Put the metal object with the orange handle in the cup"
+
+},
+   "put_orange_object_in_cup":{
+
+     "94986": "Put the orange object in the cup",
+     "48502": "Put the orange object in the cup",
+          "92888": "Put the orange object into the cup",
+     "20633": "Put the orange object inside the cup.",
+      "78636": "Put the orange object inside the cup"
+   },
+   "remove_orange_object_from_blue_platform_and_put_in_blue_cup":{
+        "54408": "Remove the orange object from the blue platform and put it in the blue cup",
+    "78066": "Remove the orange object from the blue platform and put it in the blue cup",
+    "32696": "Remove the orange object from the blue platform and put it in the blue cup",
+     "9056": "Remove the orange object from the blue platform and put it in the blue cup"
+   },
+ "remove_screwdriver_from_object_and_put_in_cup":{
+    "15454": "Remove the screwdriver from the object and put it in the cup",
+    "58479": "Remove the screwdriver from the object and put it in the cup",
+    "49415": "Remove the screwdriver from the object and put it in the cup",
+    "474": "Remove the screwdriver from the object and put it in the cup",
+  "18384": "Remove the screwdriver from the object and put it in the cup"
+ },
+"put_papers_in_top_drawer":{
+      "27376": "Put the papers in the topmost drawer",
+     "82914": "Put the papers in the top drawer"
+},
+"put_yellow_and_green_object_on_top_of_shelf":{
+      "6751": "Put the yellow and green object on top of the shelf",
+     "42220": "Put the yellow and green object on top of the shelf"
+},
+ "remove_wrench_from_toolbox_and_place_in_blue_cup":{
+      "53278": "Remove the orange wrench from the toolbox and put it in the blue cup on the black cabinet",
+     "46217": "Remove the wrench from the toolbox and place it in the blue cup next to the toolbox",
+    "33996": "Remove the wrench from the toolbox and place it in the blue cup on the right",
+     "14571": "Remove the wrench from the toolbox and place it inside the blue cup on the right side of the black cabinet",
+    "44292": "Take the orange wrench out of the toolbox and place it inside the big blue cup on the right"
+ },
+     "put_orange_wrench_inside_blue_cup":{
+    "76858": "Move the orange wrench to the large blue cup.",
+       "31293": "Place the orange wrench in the large blue cup on the right",
+      "48715": "Put the wrench inside the big blue cup",
+     "85911": "Put the orange wrench inside the blue cup on top of the right side of the black cabinet",
+    "7080": "Put the orange wrench inside the big blue cup on the right",
+     "92103": "Put the orange wrench inside the blue cup on the right side of the black cabinet",
+       "72624": "Put the wrench inside the blue cup on the right",
+      "54243": "Put the orange objects inside the blue cup on the right",
+    "31395": "Put the wrench in the light blue cup next to the toolbox",
+      "19337": "Put the wrench in the big light blue cup",
+    "37129": "Put the orange item into the blue cup"
+
+  },
+ "put_objects_in_drawer_and_close":{
+
+   "47659": "Put the battery and plastic in the open drawer respectively, then close the drawer",
+   "30804": "Put the white object and plastic bag on the table in the open drawer and then close the drawer",
+   "9328": "Put the grey object inside the drawer then close the drawer.",
+     "38018": "Pick up the object from the table and put it in the open drawer and close it",
+    "53402": "Put the usb and the transparent package inside the drawer and close it",
+       "47755": "Pick the masking tape and the plastic and put them in the drawer, then close it",
+   "86727": "Put the gray object and the plastic in the open drawer then close the drawer",
+     "2785": "Put the plastic bag and white object in the open drawer and then close the drawer",
+    "1256": "Put the silver object, battery, and plastic bag on the table into the open drawer and then close the drawer",
+   "23362": "Pick up the bottle and the marker and put them in the open drawer and close it",
+     "43878": "Pick up the plastic and the object on the table and put them in the drawer then close the drawer.",
+     "392": "Put the white tape and the plastic in the open drawer then close the drawer",
+   "56716": "Pick up the seal tape and plastic from the counter and put them in the open drawer and close it",
+      "83874": "Put the objects in the drawer and close the drawer",
+    "32167": "Put the tape and the plastic into the drawer then close the drawer.",
+   "60881": "Put the grey object and the plastic inside the open drawer then close the drawer",
+  "37342": "Put the roll of tape and plastic bag on the table into the open drawer and then close the drawer",
+   "92128": "Put the plastic objects in the drawer then close the drawer.",
+    "39910": "Put the white object in the drawer and close the drawer",
+     "1013": "Put the gray object in the drawer then close the drawer",
+   "46383": "Put the white paper and the grey object into the drawer then close the drawer.",
+    "24881": "Put the two objects on the table into the drawer then close the drawer.",
+       "94064": "Pick up the plastic and the white object and put them inside the drawer.",
+     "8632": "Pick up the plastic and grey object from the right side of the counter and place them inside the topmost drawer, push the drawer closed",
+      "71618": "Put the white plastic and tape on the table into the open drawer and then close the drawer",
+   "23494": "Put the plastic bag and grey thing on the table in the open drawer and then close the drawer",
+       "4259": "Pick up the two white objects from the counter and put them in the open drawer and close it",
+    "50562": "Put the two white objects into the drawer then close the drawer.",
+  "6984": "Pick up the white objects on the right and left side of the table and put them in the open drawer and close it",
+  "79344": "Pick up the white objects from the table and put them in the open drawer and close it",
+    "41201": "Pick the white object and the object on the right and put them in the drawer on the table, then close it",
+ "71576": "Pick up the plastic and the white object from the counter and put them in the open drawer and close it",
+  "11651": "Pick up two objects from the table, put them in the open drawer and close it",
+  "8398": "Pick up the flash disk from the table, put it in the drawer and close the drawer.",
+   "26367": "Pick up the object on the table, put in the drawer then close the drawer.",
+  "67052": "Pick up the objects from the table, put them in the drawer and close the drawer.",
+    "91630": "Pick up the two objects from table, put them in the drawer and close the drawer.",
+      "23000": "Put the paper and the white object in the drawer and close the drawer",
+     "52534": "Put the two objects on the table in to the drawer.",
+       "69795": "Put the paper in the topmost drawer and close it",
+ "42231": "Put the electricity extension and the transparent package in the upper drawer, and close it",
+  "93101": "Put the object to the right inside the drawer",
+  "20096": "Put the black object and the tissue into the drawer then close it.",
+    "24509": "Put the objects in the top drawer of the cabinet and close it",
+  "43605": "Put the objects on the right in the top drawer of the dresser",
+  "13708": "Put the two white objects on the right in the top drawer of the dresser",
+      "27189": "Put the plastic and the white object into the drawer.",
+         "518": "Pick up the white object and the plastic then put them in the drawer."
+
+},
+  "put_object_on_top_of_cabinet":{
+     "8228": "Pick the Rubik's cube and put it on top of the cabinet",
+    "26637": "Remove the cup from the shelve and put it on top of the cabinet",
+  "82120": "Pick up the Rubik's cube from the top compartment and put it on top of the cabinet.",
+       "43281": "Pick up the Rubik's cube from the top compartment of the cabinet and put it on top of the cabinet.",
+     "45352": "Pick up the black object from the top compartment of the cabinet and put it on top of the cabinet.",
+      "3476": "Pick up the plush toy and put it on top of the cabinet",
+    "38806": "Pick up the black object from the shelf and top it on top from the cabinet",
+     "46851": "Pick up the fruit plush toy from the shelf and put it on top of the cabinet",
+       "6409": "Pick up the blocks and put them on top of the cabinet.",
+     "54654": "Pick up the blocks and put them on the top of the cabinet.",
+     "1331": "Pick up the Rubik's cube and put it on top of the cabinet.",
+     "20483": "Pick up the light blue cup from the top compartment of the cabinet and put it on top of cabinet.",
+ "64901": "Pick up the cup from the shelf and put it on top of the cabinet",
+    "51079": "Pick up the black object from the shelf and put it on top of the cabinet",
+   "29124": "Take the blocks and put them on top of the cabinet",
+     "90573": "Pick the Rubik's cube and put it on top of the cabinet",
+ "65275": "Remove the object from the top shelf and put it on the top of the cabinet",
+  "26830": "Remove the blue cup from the top shelf and put it on top of the cabinet",
+ "7069": "Remove the cup from the top shelf and put it on the top of the cabinet",
+ "10981": "Pick up the blue cup and put it on top of the cabinet",
+  "89977": "Put the blue cup on top of the cabinet",
+       "15546": "Put the pear on top of the cabinet",
+        "94910": "Pick the black object and put it on top of the cabinet",
+      "31352": "Pick the black object and put it on top of the cabinet",
+  "61894": "Pick the yellow object and put it on the top of the cabinet",
+  "30698": "Put the yellow and green block on top of the cabinet",
+    "51134": "Put the blue cup on top of the cabinet"
+  },
+    "put_something_on_top_of_shelf": {
+        "61488": "Pick up the stacked building blocks and place them on top of the shelf",
+    "88141": "Pick up the sponge and put it on top of the counter",
+         "44535": "Pick up the apple plush toy and put it on top of the the shelf",
+    "8198": "Put the cup on the top shelf",
+    "934": "Pick up the peach from the shelf and place it on top of the shelf",
+        "53140": "Pick up the plush toy on the shelf and put it on top of the counter",
+ "67253": "Put the cup over the shelf",
+ "85444": "Put the yellow sponge on the topmost surface of the shelves",
+ "28085": "Pick up the blue cup from the shelf and put it on top of the counter",
+  "19317": "Put the peach on top of the shelf",
+    "80518": "Put the peach on top of the shelves",
+   "24006": "Put the peach on top of the shelves",
+      "13589": "Put the yellow object on the top of the shelf",
+ "55886": "Take the orange wrench out of the toolbox and place it in the blue cup on the right",
+ "25518": "Pick up the wrench and put it in the big blue cup",
+ "61488": "Pick up the stacked building blocks and place them on top of the shelf"
+}
+}

@@ -1,0 +1,181 @@
+
+{
+    "wipe_plate_with_blue_towel": {
+        "13834": "Use the blue towel to wipe the white plate",
+        "25614": "Use the blue towel to wipe the plate",
+        "18977": "Wipe the white plate with the blue towel",
+        "21041": "Use the blue towel to wipe the plate",
+        "15938": "Use the blue towel to wipe the white plate",
+        "8267": "Wipe the white plate using the blue towel",
+        "61013": "Wipe the white plate with the blue towel",
+        "9859": "Use the blue towel to wipe the plate on the right",
+        "39116": "Use the blue towel to wipe the plate",
+        "76009": "Use the blue towel to wipe the plate",
+        "47336": "Use the blue towel to wipe the white plate",
+        "20201": "Use the blue towel to wipe the white plate",
+        "56044": "Use the blue towel to wipe the white plate",
+        "28440": "Use the blue towel to wipe the white plate",
+        "89375": "Wipe the white plate with the blue towel",
+        "43830": "Wipe the white plate with the blue towel",
+        "20302": "Wipe the white plate with the blue towel",
+        "82850": "Use the blue towel to wipe the white plate",
+        "75708": "Wipe the plate with the blue towel.",
+        "38340": "Wipe the white plate with the blue towel",
+        "69064": "Use the blue towel to wipe the white plate",
+        "85482": "Use the blue towel to wipe the white plate",
+        "43002": "Use the blue towel to wipe the white plate",
+        "71838": "Use the blue towel to wipe the white plate",
+        "42137": "Wipe the white plate with the blue towel"
+
+    },
+    "put_fork_on_plate": {
+        "90122": "Put the fork on the plate on the blue mat",
+        "7706": "Put the right most fork on the plate",
+        "77344": "Put the silver fork on top of the white plate",
+        "52298": "Place the fork on the plate",
+        "71774": "Put the fork on the table",
+        "31348": "Put the fork on the plate",
+        "25725": "Place the fork on the plate",
+        "33466": "Put the fork on the white plate",
+        "7486": "Put the fork on the right white plate",
+        "84311": "Place the fork on the plate",
+        "14195": "Put the fork on the white plate",
+        "59264": "Place the fork on top of the white plate",
+        "8626": "Put the fork on the plate",
+        "50621": "Put the fork on the white plate",
+        "65985": "Put the fork on the plate",
+        "35794": "Put the fork on the white plate",
+        "64981": "Put the fork on the white plate",
+        "71144": "Pick up the fork and put it on the plate",
+        "35829": "Pick up the fork and place it on the plate",
+        "30429": "Place the fork on the white plate",
+        "67343": "Put the fork on the plate"
+    },
+        "put_spoon_on_plate": {
+        "11269": "Place the spoon on the white plate",
+        "75832": "Put the spoon on the plate",
+        "32344": "Pick up the spoon and put it on the plate",
+        "81768": "Put the spoon on the white plate",
+        "90036": "Put the spoon on the plate"
+    },
+    "move_fork_from_plate_to_table": {
+        "87040": "Take the fork from the plate and put it on the table",
+        "54292": "Pick up the folk from the plate and place it on the table.",
+        "67111": "Move the fork from the plate to the table",
+        "78384": "Take the fork on the plate and put it on the table mat",
+        "6215": "Take the fork from the white plate and put it on the table",
+        "6799": "Remove the fork from the plate and put it on the table",
+        "91814": "Take the fork on the plate and put it on the table mat",
+        "58175": "Take the fork from the plate and put it on the table",
+        "44869": "Take the fork on the plate and put it on the table",
+        "35099": "Take the fork from the white plate and put it on the table"
+    },
+        "move_fork_from_plate_to_mat":{
+        "74967": "Move the fork from the plate to the table mat",
+        "2317": "Remove the fork from the white plate and place it on the placemat",
+        "12147": "Take the fork off the white plate and position it on the gray table mat",
+        "44926": "Take the the fork from the plate and put it on the mat"
+
+    },
+    "wipe_plate_with_cloth": {
+        "62484": "Wipe the plate with the blue cloth and then put the fork on the plate",
+        "2583": "Take the cloth and wipe the plate",
+        "7227": "Use the blue cloth to wipe the plate",
+        "15954": "Wipe the white plate with the cloth on the table",
+        "20078": "Wipe the plate with the blue rug",
+        "30880": "Wipe the plate with the cloth",
+        "41151": "Use the cloth to wipe the plate",
+        "10481": "Wipe the plate with the blue cloth",
+        "79632": "Wipe the plate with the blue cloth",
+        "18369": "Use the blue cloth to wipe the plate",
+        "62967": "Use the blue cloth to wipe the white plate",
+        "41686": "Use the cloth to wipe the plate",
+         "62924": "Pick up the blue cloth and wipe the white plate."
+    },
+    "wipe_plate_with_towel": {
+        "75853": "Pick up the towel and clean the plate",
+        "53854": "Pick up the blue towel from the table, wipe the white plate with it and put the towel back on the table",
+       "18550": "Use the blue towel to wipe the white plate then put the blue towel on the table",
+        "40569": "Take the fork off the plate then use the towel to wipe the plate",
+        "52367": "Use the towel to wipe the plate",
+        "76969": "Wipe the plate with the towel",
+        "57029": "Use the towel to wipe the plate",
+        "82637": "Use the towel to wipe the plate",
+        "94432": "Use the towel to wipe the plate",
+        "48921": "Use the towel to wipe the plate",
+       "71978": "Use the towel to wipe the plate",
+        "12188": "Use the towel to wipe the plate",
+        "93506": "Take the blue towel and clean the plate",
+       "80757": "Pick up the blue towel and wipe the plate",
+       "54030": "Use the blue towel to wipe the white plate then put the blue towel on the table",
+        "11243": "Pick up the towel, wipe the plate with it and put the towel back on the table.",
+        "58726": "Pick up the blue towel from the table and wipe the white plate."
+    },
+    "coil_charger": {
+        "49203": "Coil up the phone charger",
+        "92784": "Wind the charger",
+        "43126": "Wind the charger on the table",
+        "61119": "Coil the charger on the table",
+        "47413": "Make a circle with the charger on the table",
+        "91427": "Wrap up the charger neatly into a circle",
+        "56660": "Coil the phone charger",
+        "50135": "Coil up the phone charger",
+        "45985": "Wind the black charging cable"
+
+    },
+    "unwind_charger": {
+        "14456": "Unwind the black charging cable",
+        "36999": "Unwind the charger cable and stretch it along the board",
+        "39563": "Unwind the charging cable",
+        "57497": "Unwind the phone charger",
+        "63865": "Unwind the phone charger",
+        "12672": "Unwind the black charging cable",
+        "73095": "Unwrap the charger cable",
+        "4018": "Unwind the charger on the table",
+        "13442": "Unwind the charger on the table"
+    },
+    "put_charger_in_circle": {
+        "40542": "Put the charging cable in circle form.",
+        "72904": "Put the cable in a circle",
+        "46811": "Place the charging cable in circle form",
+        "57234": "Put the charger in a circle"
+    },
+        "straighten_charger":{
+        "45253": "Straighten the charger on the table",
+        "56615": "Straighten the cable",
+        "32149": "Straighten the cable",
+        "53174": "Straighten the charger cable.",
+        "7614": "Straighten out the charger on the table",
+        "33752": "Straighten the charger",
+        "92123": "Straighten the cable"
+    },
+    "remove_spoon_from_plate":{
+        "17479": "Remove the spoon from the plate and put it on the table"
+    },
+       "put_fork_on_mat":{
+        "13520": "Put the fork on the mat on the table",
+        "39819": "Put the fork on the mat on the table"
+    },
+      "form_circle_with_cable":{
+          "9261": "Form a loose circle using the cable",
+          "54738": "Loop the cable"
+      },
+      "wind_charging_cable":{
+        "4874": "Wind the charging cable",
+        "29490": "Wind the charging cable"
+
+      },
+     "put_spoon_on_mat":{
+        "6433": "Put the spoon on the mat",
+         "38284": "Pick the spoon and put it on the table mat",
+        "41379": "Pick up the spoon and put it on the table mat",
+        "20925": "Place the spoon on the table mat"
+
+     },
+      "multi_step_instructions_with_fork_and_plate":{
+          "80294": "Put the fork on the blue mat, wipe the plate with the cloth, and then put the fork back on the plate",
+          "54158": "Take the spoon from the glass bottle and put it on the table , and then pick up the blue towel and wipe the plate"
+
+      }
+
+}

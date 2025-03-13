@@ -1,0 +1,157 @@
+
+{
+    "open_tap": {
+        "29697": "Open the tap",
+        "32276": "Open the tap",
+        "68165": "Open the tap",
+        "82530": "Open the tap",
+        "94822": "Open the faucet",
+        "54921": "Open the tap",
+        "56488": "Open the tap",
+        "75441": "Open the tap",
+        "49343": "Open the tap",
+        "78528": "Open the tap",
+        "37640": "Open the tap",
+        "76050": "Open the tap",
+        "4379": "Open the tap",
+        "47393": "Open the tap",
+        "10726": "Open the tap",
+        "37841": "Open the tap",
+        "11093": "Turn on the faucet",
+        "74622": "Open the faucet"
+    },
+    "close_tap": {
+        "87071": "Close the tap",
+        "6180": "Close the tap",
+        "92225": "Close the tap",
+        "22598": "Close the tap",
+        "71257": "Close the tap",
+        "76390": "Close the tap faucet.",
+        "86695": "Close the tap",
+        "29359": "Close the tap",
+        "46263": "Close the tap",
+        "2746": "Close the tap",
+        "12111": "Close the tap",
+        "2397": "Close the tap",
+        "76132": "Close the tap",
+        "84945": "Close the tap",
+        "69892": "Close the faucet",
+        "7494": "Close the faucet",
+        "91782": "Close the tap and then remove the shaving stick from the metal cup and put it on the right side of the sink counter"
+
+    },
+    "close_drawer": {
+        "27155": "Close the drawer",
+        "90718": "Close the upper drawer",
+        "69734": "Close the top drawer",
+        "66161": "Close the drawer",
+        "72879": "Close the open drawer at the right",
+        "51925": "Close the open drawer on the right",
+        "34574": "Close the open drawer",
+        "85393": "Close the open drawer",
+        "92042": "Close the drawer",
+        "26929": "Close the topmost drawer",
+        "42808": "Close the top drawer under the towel",
+        "55140": "Close the top drawer below the countertop",
+        "24557": "Close the topmost drawer to the right",
+        "48112": "Close the drawer fully",
+        "79860": "Close the open drawer",
+        "81176": "Close the top drawer",
+        "71895": "Close the top drawer",
+        "54515": "Close the open compartment of the cupboard"
+
+    },
+        "move_item_left": {
+        "41486": "Move the white tube to the left side of the sink counter",
+        "68624": "Pick up the green bottle and move it to the left.",
+        "34358": "Move the bottle to the left",
+        "43069": "Move the shaving stick to the left side of the sink",
+        "49229": "Move the clear bottle to the left side of the counter",
+        "3157": "Take the bottle and move it slightly to the left",
+        "4718": "Move the bottle which is at the right side of the tap to the left side of the tap",
+        "52357": "Move the object with yellow lid to the left",
+        "79106": "Move the clear bottle to the left",
+        "19324": "Pick the bottle and move it to the left",
+        "84774": "Move the clear bottle to the left",
+        "33682": "Move the white and blue tube to the left side of the counter",
+        "53155": "Move the grey and yellow bottle to the left",
+        "48070": "Move the white tube with a white lid to the left",
+        "69069": "Move the dental floss from the right to the left side of the counter",
+        "87003": "Move the purple toothpaste to the left side of the counter",
+         "45269": "Move the green and white pump bottle to the left side of the counter",
+        "22872": "Move the towel to the left side of the counter",
+         "67564": "Move the white bottle with the yellow lid to the back left"
+    },
+    "move_item_right": {
+        "87087": "Move the white and blue tube to the right",
+        "55872": "Move the green bottle to the right on the counter",
+        "15937": "Move the silver cup to the right",
+        "35427": "Move the green soap bottle to the right",
+        "6241": "Pick up the toothpaste from the edge of the countertop and move it to the right.",
+        "87627": "Move the clear bottle to the far right of the counter",
+        "53344": "Put the bottle with the colorless liquid on the right side of the sink",
+        "72877": "Move the purple toothpaste to the right side of the countertop",
+        "25988": "Move the silver bottle to the right side of the counter",
+        "78656": "Move the silver cup to the right of the counter, then put it back in its original place",
+        "73621": "Move the dental floss to the right side of the sink",
+        "27039": "Pick up the colourless bottle and move it to the right.",
+        "72413": "Move the green tube to the right side of the sink counter",
+        "62709": "Move the purple tube of tooth paste to the right, move the blue object to the right, move the white tube to the right, remove the toothbrush from the silver cup and place it on the right side of the counter",
+        "3027": "Move the white tube to the right of the sink",
+        "84296": "Move the clear bottle to the right of the small green lid",
+        "4048": "Move the green bottle from the left to the right of the sink",
+        "12364": "Move the bottle with the yellow lid to the upper right corner of the counter"
+
+    },
+    "move_item_forward": {
+        "67148": "Move the clear bottle forward",
+        "64185": "Move the bottle forward.",
+        "66245": "Move the white bottle with the yellow lid forward",
+        "58120": "Move the two bottles to the bottom of the counter and then move the squeeze tube a forward",
+        "8497": "Pick up the toothpaste from the countertop and move it forward",
+        "14806": "Move the two bottles with yellow tops forward then use the towel to wipe the counter",
+        "57795": "Move the tubes forward",
+        "7299": "Close the drawer and then move the white and yellow bottles forward"
+
+    },
+      "move_item_backward": {
+        "62349": "Move the silver bottle backwards",
+        "92445": "Move the big bottle with a yellow lid away from the sink",
+        "93093": "Move the right tube away from you",
+        "85710": "Move the white tube and the blue spray can to the back of the counter"
+    },
+    "put_toothbrush_in_holder": {
+        "73792": "Pick up the toothbrush from the countertop and put it in the silver cup.",
+        "40517": "Put some water on the toothbrush then put it in the silver cup",
+        "19074": "Pick the toothbrush on the counter and put it in the cup",
+        "9847": "Put the toothbrush in the holder.",
+        "89566": "Place the toothbrush in the silver cup",
+        "33438": "Pick up the toothbrush and put it in the toothbrush holder",
+        "3765": "Pick up the blue toothbrush from the counter and put it inside the silver cup"
+
+    },
+      "lift_faucet_handle": {
+        "64047": "Lift up the tap handle",
+        "20652": "Move the faucet handle upwards",
+        "55068": "Lift the tap handle",
+         "90576": "Pull the faucet handle up",
+        "86480": "Move the faucet handle upwards",
+        "1005": "Push the faucet handle upwards",
+        "7571": "Lift up faucet handle",
+        "56668": "Lift the handle of the tap",
+        "90645": "Push the faucet handle upwards",
+        "9485": "Push the faucet handle upwards to open the faucet, put the toothbrush under the running water"
+
+    },
+    "push_faucet_handle_downwards": {
+        "20487": "Push the faucet handle downwards",
+        "31063": "Push the faucet handle downwards"
+    },
+      "wipe_counter_with_towel":{
+        "64583": "Wipe the front right corner of the sink counter with the towel",
+        "53952": "Use the grey towel to wipe the countertop",
+        "47893": "Use the towel to wipe the counter",
+        "83274": "Use the towel to wipe the table",
+        "65941": "Wipe the countertop with the grey towel"
+      }
+}

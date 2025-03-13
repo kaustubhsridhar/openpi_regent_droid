@@ -1,0 +1,50 @@
+
+{
+    "hang_red_hat_on_tv": {
+        "77056": "Hang the red hat on the right corner of the TV",
+        "65074": "Hang the red hat on the right side of the tv"
+    },
+    "put_glasses_in_case": {
+        "37915": "Put the white glasses in the black spectacle case",
+        "46899": "Put the white sunglasses in their case"
+    },
+    "remove_lid_and_put_on_stand": {
+        "62871": "Remove the lid from the clear cup and put it on the television stand top",
+        "15782": "Remove the lid of the clear cup on the right of the television stand and put it on the television stand top"
+    },
+    "put_orange_hat_in_middle_shelf": {
+        "74394": "Pick up the orange hat and move it into the middle shelf of the television stand",
+        "70613": "Place the orange hat in the middle shelf of the television stand"
+    },
+    "put_sachet_on_tv_stand": {
+        "94126": "Pick up one sachet from the white box and put it on the tv stand",
+        "18746": "Remove the sachet from the box and put it on the TV stand"
+    },
+    "put_white_packet_in_box": {
+        "73012": "Put the white packet in the white box."
+    },
+    "put_sunglasses_in_pouch_on_shelf":{
+        "14999": "Pick up the glasses pouch and put it in the far right shelf of the television stand",
+        "11338": "Place the sun glasses in the pouch and place the pouch in the top shelf at the far right of the cabinet"
+    },
+     "hang_glasses_on_blue_box":{
+        "80130": "Hang the sunglasses on the edge of the blue box",
+        "40523": "Hang the white sunglasses on the edge of the blue box"
+    },
+    "put_sunglasses_in_box_close_lid": {
+        "46805": "Put the sunglasses in the box then place the lid on the box"
+    },
+        "put_lid_on_cup":{
+        "87200": "Take the lid off of the cup then take the glasses and place the lid back on the cup",
+        "33742": "Put the cup upright then put the lid on the cup"
+    },
+        "put_glasses_in_bowl":{
+       "92253": "Remove the lid from the clear bowl and then put the pair of glasses in the bowl",
+        "31077": "Put the sunglasses in the plastic bowl and then cover the plastic bowl with the plastic lid"
+
+    },
+    "remove_sachet_put_on_table":{
+        "78828": "Remove one sachet from the white box and put it on the table"
+    }
+}
+

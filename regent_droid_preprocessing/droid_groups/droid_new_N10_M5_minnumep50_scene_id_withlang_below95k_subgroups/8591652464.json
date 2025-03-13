@@ -1,0 +1,136 @@
+
+{
+    "hang_hanger_on_rail": {
+        "13852": "Pick the purple hanger on the table and hang it on the stand",
+        "49264": "Pick the pink hanger on the table and hang it on the stand",
+        "10310": "Hang the pink coat hanger on the rod",
+        "65685": "Hang the coat hangers on the rod",
+        "92856": "Hang the purple coat hang on the rod",
+        "28921": "Hang the blue coat hanger on the rod",
+        "35583": "Pick up the hanger and hang it",
+        "88844": "Hook the hanger onto the rail",
+        "14114": "Hang up the blue hang wire on the rack",
+        "76140": "Pick up the hanger from the table and hang it on the horizontal support.",
+        "76214": "Hang the pink coat hanger on the rod",
+        "12223": "Hang the pink clothes hanger on the rail",
+        "89530": "Pick up the clothing hanger from the table and hang it on the metallic object",
+        "91822": "Put the hangers on the bar",
+        "88895": "Remove the hanger from the table and hang it on the rail",
+        "33115": "Hang the blue hanger on the black rail",
+        "90480": "Hang the pink hang wire on the hang, then take the blue hang wire on the hang and put it on the table"
+
+    },
+    "place_hanger_on_table": {
+        "8710": "Get the pink hanger from the hanger pole and put it on the table",
+        "32273": "Take the hanger and put it on the table",
+        "79517": "Put the pink hanger on the table",
+        "1700": "Take the purple hanger and put it on the table",
+        "53900": "Remove the plastic hanger from the metallic object and put it on the table",
+        "69863": "Remove the hanger from the clothesline pole and place it on the table",
+        "90894": "Take the cloth hanger from the rack and put it on the table",
+        "40263": "Take the pink clothes hanger off the rail and place it on the table",
+        "57677": "Take the purple hanger and place it on the table",
+        "84820": "Remove the first hanger from the left and put it on the table",
+        "78698": "Unhang the pink coat hanger and put it on the table",
+        "29068": "Unhang the blue coat hanger and put it on the table",
+        "87493": "Take the pink hanger and put it on the table",
+       "54386": "Pick up the pink hanger from the table and place it on the black rail"
+    },
+    "remove_hanger_from_rail": {
+        "92837": "Remove the pink hanger from the black rail",
+        "24230": "Unhook the hanger from the rail",
+        "69799": "Remove the hanger from the bar.",
+        "43689": "Unhook the hanger from the rail",
+        "87757": "Remove the pink hanger from the rail",
+        "87887": "Unhang the hanger from the rail",
+        "84377": "Take the clothes hanger off the rail",
+        "21930": "Remove the pink hanger from the rail",
+        "14301": "Remove the pink hanger from the rail",
+        "44359": "Remove the pink hanger from the rail and place it on the table",
+        "62432": "Remove the blue hanger from the rail and place it on the table"
+    },
+    "press_adapter_switch": {
+        "83985": "Press the switch on the adapter",
+        "44575": "Press the switch on the adapter",
+        "59442": "Press the switch on the adapter",
+        "34621": "Press the switch on the adapter",
+        "32658": "Press the switch on the adapter",
+        "60399": "Press the switch on the adapter",
+        "68539": "Press the big switch on the adapter"
+    },
+        "turn_on_adapter":{
+        "35382": "Turn on the adapter",
+        "69546": "Turn on the adapter",
+        "86277": "Turn on the main adapter switch"
+    },
+     "turn_off_adapter":{
+        "4694": "Turn off the big switch on the adapter",
+        "69344": "Turn the adapter switch on and off",
+        "65694": "Turn off the adapter switch"
+    },
+    "push_button_on_adaptor": {
+        "52237": "Push on the first button from the right on the adaptor.",
+        "47705": "Push down on the button on the adaptor.",
+        "3296": "Push the button on the adaptor.",
+        "29062": "Push down on the button on the adaptor.",
+        "10533": "Push the button on the white adaptor."
+    },
+    "turn_on_extension_cord": {
+        "68641": "Flip the switch of the extension cord",
+        "67216": "Turn the extension cord switch on",
+        "85177": "Switch on the extension cord",
+        "31446": "Turn on the extension cable",
+        "63784": "Turn on the extension cable",
+        "82658": "Switch the extension cord on",
+       "89525": "Turn on the extension cable",
+        "61394": "Switch on the extension cord",
+       "59835": "Turn on the switch",
+       "53919": "Turn on the switch at the first from the bottom"
+    },
+    "turn_off_extension_cord": {
+        "87680": "Turn off the extension cable",
+        "24844": "Switch off the extension cable",
+        "62298": "Switch off the extension cord",
+        "57314": "Switch off the extension cord"
+
+    },
+    "push_switch_extension_cord":{
+       "28757": "Push the switch of the extension cord",
+        "25758": "Push the switch of the extension cord"
+    },
+    "press_button_extension_cord":{
+        "56874": "Press the power button on the extension cord.",
+        "36566": "Press the power button of the extension cord."
+    },
+     "close_lid":{
+        "69783": "Close the lid on the top of the thermos flask",
+        "46754": "Close the lid on the flask",
+        "92924": "Close the lid on the silver flask",
+        "86403": "Close the lid on the thermos flask"
+    },
+       "press_top_of_container":{
+           "21049": "Press the top of the bottle to close",
+           "89538": "Push down on the top of the flask",
+           "64188": "Press down on the top of the silver flask"
+    },
+    "put_hanger_on_rack":{
+        "88504": "Put the pink hanger on the rack.",
+        "49147": "Put the pink hanger on the rack",
+          "33069": "Take the blue hanger from the table and place it on the rack",
+        "92683": "Put the blue hanger on the black thing above the table"
+    },
+        "open_container":{
+        "56384": "Open the cap of the silver jar",
+        "95308": "Press on top of the lid to open the cap",
+        "66192": "Press the nozzle to open the drinking hole of the bottle",
+            "23835": "Press the top of the jug to open",
+        "35065": "Open the jar"
+    },
+      "close_container":{
+        "13719": "Close the flask"
+      },
+      "misc_task": {
+          "59262": "Pick an egg from the silver tray and place it on the table",
+          "10640": "Flip the first switch from the right of adaptor."
+      }
+}

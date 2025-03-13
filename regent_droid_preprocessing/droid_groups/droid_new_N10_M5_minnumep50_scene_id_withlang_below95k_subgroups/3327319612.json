@@ -1,0 +1,74 @@
+
+{
+  "move_orange_forward": {
+    "24705": "Move the orange block forward"
+  },
+  "move_orange_backward": {
+    "23178": "Move the orange block backwards"
+  },
+  "move_orange_right": {
+    "89486": "Move the orange object to the right"
+  },
+  "move_orange_left": {
+    "24113": "Move the orange block to the left"
+  },
+  "move_blue_right": {
+    "92899": "Move the blue block to the right"
+  },
+    "move_green_left": {
+    "73771": "Move the left green block to the right",
+        "74688": "Move the green cylindrical block to the left"
+
+  },
+  "move_yellow_backward": {
+    "87109": "Move the yellow block on the left backwards",
+    "58345": "Pick up the yellow cuboid from the table and move it backwards."
+  },
+  "move_yellow_left": {
+    "86369": "Move the yellow cube the the left",
+    "32498": "Move the yellow cylinder to the left"
+  },
+  "move_green_backward_left": {
+    "70588": "Move the green object slightly backward to the left"
+  },
+  "move_green_forward_left": {
+    "17760": "Move the green object forward slightly to the left"
+  },
+  "put_blue_on_green": {
+    "30345": "Put the blue block on the green block"
+  },
+  "put_blue_on_yellow": {
+    "71692": "Put the blue cube on the yellow rectangular block",
+    "18658": "Stack the blue block on top of the yellow block"
+  },
+  "put_orange_on_green": {
+    "63502": "Put the orange block on top of the green block at the back."
+  },
+  "put_green_on_blue": {
+    "19646": "Put the right green block on the blue block",
+    "37955": "Pick the green block and put it on the blue block"
+  },
+    "put_yellow_on_green": {
+        "59096": "Put the yellow block that is in the front on the green block"
+    },
+  "put_yellow_on_orange": {
+    "55367": "Put the yellow block that is on the table on the orange block"
+  },
+  "put_green_on_orange": {
+    "59740": "Put the green block on the table on top of the orange block",
+    "56549": "Put the green block on the orange block"
+  },
+  "remove_green_from_orange": {
+    "68027": "Remove the green block from the top of the orange cylinder"
+  },
+  "remove_green_from_blue": {
+    "49912": "Remove the green block from the top of the blue block"
+  },
+    "put_on_table": {
+        "2597": "Put the yellow block on the table",
+        "2814": "Pick up the triangular block and put it on the table"
+    },
+    "stack_green":{
+        "37438": "Stack up the two green blocks"
+    }
+}

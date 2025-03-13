@@ -1,0 +1,87 @@
+
+{
+    "place_bottle_upright": {
+        "72580": "Put the red bottle upright",
+        "69782": "Pick up the bottle and put it upright",
+        "47165": "Pick up the bottle on the shelf and make it stand upright",
+        "13004": "Put the bottle lying down upright",
+        "7647": "Put the black bottle upright"
+    },
+    "place_item_on_shelf": {
+        "70273": "Pick up the bottle with the red lid and put it on the shelf",
+        "64153": "Move the black canister to the shelf",
+        "33567": "Move the black tin from the basket to the first shelf",
+        "32186": "Pick up the red and white bottle from the tray and put it on the shelf",
+        "76926": "Pick up the white bottle and put it on the shelf"
+    },
+    "place_item_in_basket": {
+        "35980": "Take the bottle off of the shelf and place it into the basket",
+        "70413": "Put the brown bottle from the bottom shelf into the basket.",
+        "38180": "Remove the small white container from the bottom shelf and put it in the basket.",
+        "85809": "Pick up the clear bottle with brown liquid and put it in the brown basket",
+        "77505": "Remove the orange container from the bottom white rack to the basket on the left washing machine",
+        "92362": "Put the container in the black basket.",
+        "80078": "Use the pot holder to place the bottle in the basket.",
+        "26967": "Pick up the bottle and put it in the basket",
+        "46300": "Pick up the white container from the bottom shelf and put it in the basket.",
+        "89580": "Pick up the black container on the bottom shelf and put it in the basket.",
+        "70009": "Put the black can from the bottom shelf in the basket."
+    },
+    "place_item_on_rack": {
+        "21382": "Pick up the bottle with the brown liquid and place it on the rack",
+        "93202": "Position the bottle bottom first on the metal rack",
+        "70696": "Move the white object to the rack",
+        "21417": "Put the red bottle bottom first on the metal rack",
+        "9021": "Remove the object from the basket and place it on the rack",
+         "6368": "Remove the bottle with black contents from the basket on the washing machine and then put it on the rack",
+        "63090": "Put the bottle bottom first on the rack"
+    },
+    "place_item_on_bottom_shelf": {
+        "88203": "Move the bottle from the basket to the bottom shelf",
+        "38673": "Place the red container on the bottom shelf upright.",
+        "93869": "Place the vinegar bottle on the bottom shelf upright.",
+        "39213": "Place the container on the left side of the bottom shelf upright.",
+        "27998": "Put the vinegar bottle on the bottom shelf.",
+        "90360": "Put the bottle with the brown liquid on the bottom shelf.",
+        "6609": "Pick up the white container from the plastic and put it on the bottom shelf."
+
+    },
+       "open_washing_machine": {
+        "34098": "Open the door of the left washing machine",
+        "83521": "Open the washing machine on the left.",
+        "3662": "Open the door of the left washing machine"
+    },
+    "close_washing_machine_door": {
+        "64043": "Close the washing machine door",
+        "19806": "Push closed the washing machine door",
+        "55889": "Close the door of the device"
+    },
+    "move_item_to_basket_from_rack":{
+        "78968": "Remove the glass bottle from the rack and put it in the basket on the washing machine",
+        "74211": "Move the red bottle on the top rack and place it in the products basket on the laundry machine",
+        "12526": "Remove the object from the rack and place it inside the basket"
+    },
+      "place_cloth_in_washing_machine":{
+        "41438": "Place the white fabric in the open washing machine.",
+        "67824": "Put the light blue cloth in the washing machine on the left",
+        "1130":  "Open the washing machine on the left then put the white cloth inside the machine."
+      },
+
+    "move_bottle_to_metal_basket":{
+        "93717": "Move the bottle to the metal basket",
+        "31535": "Pick up the bottle of vinegar from the bottom shelf and place it in the basket on the washing machine."
+    },
+
+    "put_bottle_upright_on_rack":{
+        "53987": "Put the glass bottle on the rack in an upright position",
+        "13506": "Pick up the laying orange container and place it upright on the bottom rack right above the washing machine"
+
+    },
+      "container_upright":{
+        "82871": "Place the dark blue and white container right-side up.",
+        "78119": "Place the salt cellar vertically upright"
+      },
+        "move_object_backward":{
+            "9922": "Move the light green object slightly backward"
+        }
+}

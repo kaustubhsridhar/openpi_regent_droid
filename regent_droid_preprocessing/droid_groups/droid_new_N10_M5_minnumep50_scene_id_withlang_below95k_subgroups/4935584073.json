@@ -1,0 +1,82 @@
+
+{
+    "put_fork_in_grey_rack": {
+        "26368": "Put the fork in the grey rack",
+        "32628": "Put the fork in the grey rack"
+    },
+    "put_spoon_in_basket": {
+        "40843": "Put the spoon in the black basket",
+        "76539": "Put the spoon in the basket"
+    },
+    "put_spoon_in_cutlery_holder": {
+        "75279": "Place the silver spoon in the cutlery holder",
+        "45688": "Pick up the spoon and place it in the utensil holder"
+    },
+    "put_fork_in_cutlery_holder": {
+        "34887": "Put the fork in the cutlery stand",
+        "986": "Retrieve the fork from the table and position it in the left lower compartment of the black utensil holder"
+    },
+   "put_lid_on_bottle": {
+        "72360": "Put the blue lid on the bottle",
+        "61975": "Take the bottle top and put it on the bottle"
+    },
+    "put_lid_on_jar":{
+        "27562": "Put the blue lid on the peanut butter bottle",
+        "49660": "Pick up the lid and close it on the jar"
+    },
+    "remove_lid_put_on_table": {
+        "68896": "Remove the lid from the jar and put it on the table",
+        "50732": "Uncover the jar and put the lid on the table"
+    },
+    "remove_item_put_on_table": {
+       "87432": "Remove the marker from the rack and put it on the table",
+       "3873": "Take the spoon out of the basket and put it on the table",
+       "88011": "Pick up the spoon from the basket and put it on the table",
+       "41181": "Pick the fork on the left side of the utensil holder and put it on the table"
+    },
+    "move_basket_right": {
+        "15249": "Move the basket slightly to the right",
+        "65434": "Move the gray basket to the right"
+    },
+        "move_cutlery_holder_left": {
+        "35877": "Move the kitchen utensil holder to the left",
+        "61160": "Move the grey cutlery holder to the left",
+        "14968": "Move the utensil holder slightly to the left"
+    },
+    "move_item_closer":{
+        "60368": "Move the rack closer to the toaster",
+        "33261": "Move the cutlery basket closer to the bread toaster"
+
+    },
+    "push_right_toaster_lever_down": {
+        "95515": "Push the right toaster lever down",
+        "61753": "Push the right lever on the toaster downwards",
+        "6271": "Push down the right toaster lever"
+    },
+    "push_toaster_lever_down": {
+        "54467": "Push down the lever on the toaster",
+        "73892": "Push the lever on the black toaster downwards",
+        "9846": "Push the black lever on the bread toaster down",
+        "7892": "Push the left lever on the toaster downwards",
+        "56424": "Push down the lever on the left side of the toaster"
+    },
+   "push_right_toaster_lever_up": {
+       "33019": "Push the right lever on the toaster upwards",
+       "25065": "Pull up the right switch on the toaster"
+   },
+   "push_toaster_lever_up":{
+       "69154": "Release the left lever on the toaster upwards",
+       "23120": "Push the lever up on the toaster",
+        "3701": "Push the toaster lever up"
+
+   },
+      "press_right_button_release_lever":{
+        "77265": "Push the button on the right to push the right lever upwards",
+        "3039": "Press a button on the bottom right side of the toaster to release the lever upwards",
+        "15435": "Press the right button on the toaster to release the lever",
+        "84588": "Press the button on the right bottom of the toaster"
+    },
+    "put_fork_forward_in_basket":{
+        "19680": "Put the fork closest to you in the gray basket"
+    }
+}

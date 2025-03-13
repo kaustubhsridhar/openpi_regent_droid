@@ -1,0 +1,71 @@
+
+{
+    "put_object_on_pan": {
+        "8832": "Put the bottle on the pan",
+        "38144": "Pick the orange object and put it on the pan",
+        "21762": "Put the orange bottle on the silver pan",
+        "42251": "Put the sauce bottle on the silver pan.",
+        "81048": "Put the red pepper on the pan",
+        "94235": "Put the orange bottle on the silver pan",
+        "87475": "Put the orange object on the pan",
+        "23360": "Put the ketchup bottle on the pan",
+        "16488": "Put the sauce bottle on the pan",
+        "93296": "Place the red sauce bottle on the silver pan"
+    },
+    "put_green_block_on_pan": {
+        "82499": "Put the green block on the pan",
+        "91344": "Put the green block on the silver pan",
+        "30961": "Put the green block in the pan"
+    },
+    "slide_orange_cloth_forward": {
+        "49918": "Slide the orange towel forward",
+        "94635": "Slide the orange cloth forward",
+        "79923": "Slide the orange cloth forward",
+        "55609": "Slide the orange cloth forward",
+        "71141": "Slide the orange cloth up on the desk"
+    },
+    "move_green_block_forward": {
+        "23721": "Move the green block forward",
+        "52699": "Move the green block to the front",
+        "16099": "Move the green block forward"
+    },
+    "move_orange_object_backward": {
+        "4660": "Move the orange object backwards.",
+        "67908": "Move the orange object backwards."
+    },
+    "move_orange_towel_forward": {
+        "56908": "Move the orange towel forward",
+        "14032": "Move the orange towel forward"
+    },
+     "move_yellow_object_to_left": {
+        "32740": "Move the yellow object to the left",
+        "75363": "Move the yellow object to the left"
+    },
+    "move_yellow_object_to_right": {
+        "72900": "Move the yellow object to the right",
+        "37857": "Move the yellow block to the right"
+
+    },
+      "remove_object_from_pan_and_put_on_table": {
+        "42654": "Take the green block in the pan and put it on the table",
+        "7849": "Take the green block on the pan and put it on the table",
+        "38439": "Remove the orange object from the frying pan and put it on the table",
+        "20426": "Remove the sauce bottle from the pan and place it on the table.",
+        "58076": "Pick the green block in the pan and put it on the table",
+        "48223": "Remove the artificial pepper from the pan and put it on the table",
+        "58092": "Remove the orange bottle from the silver pan and put it on the table",
+       "34673": "Pick up the red bowl from the pan and put it on the table"
+    },
+    "remove_red_sauce_bottle_from_pan":{
+        "14706": "Remove the red sauce bottle from the silver pan",
+        "37368": "Remove the red sauce bottle from the silver pan"
+    },
+     "remove_ketchup_bottle_from_pan":{
+        "25852": "Remove the ketchup bottle from the pan",
+        "15742": "Take the ketchup bottle off the pan"
+    },
+      "move_orange_towel_backward":{
+        "69247": "Move the orange towel backwards"
+      }
+}
+

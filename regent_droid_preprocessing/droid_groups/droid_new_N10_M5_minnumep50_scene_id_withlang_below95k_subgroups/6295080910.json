@@ -1,0 +1,128 @@
+
+{
+    "put_tissues_in_rubbish_bin": {
+        "9259": "Put the tissues inside the rubbish bin.",
+        "13869": "Put the tissues inside the rubbish.",
+        "66625": "Put the tissues into the rubbish bin.",
+        "28792": "Put the tissues inside the rubbish bin.",
+        "1721": "Put the tissue into the rubbish bin.",
+        "48835": "Put the tissues into the rubbish bin.",
+        "6366": "Put the tissues into the rubbish bin.",
+        "48879": "Put the tissues in the rubbish bin.",
+        "36623": "Put the tissues inside the rubbish bin.",
+        "95538": "Put the two tissues into the rubbish can.",
+        "1335": "Put the tissues inside the rubbish bin.",
+        "49465": "Put the tissues inside the rubbish bin.",
+        "47424": "Put the tissues inside the rubbish bin.",
+        "38743": "Put the tissues in the rubbish bin.",
+        "9595": "Put the tissue in the trash can.",
+        "26549": "Put the tissue into the rubbish bin.",
+        "17286": "Put the tissues inside the rubbish bin.",
+        "56301": "Put the tissues into the rubbish bin.",
+        "68590": "Put the tissues into the rubbish bin."
+    },
+    "put_white_papers_in_right_bin": {
+        "34817": "Put one white paper inside the right bin",
+        "37381": "Put the white pieces of papers in the right bin",
+        "58394": "Put the right and left white pieces of paper in the right bin respectively",
+        "91702": "Put the white pieces of paper in the right bin",
+        "91255": "Put the first piece of paper from the right in the right bin",
+        "67715": "Put one piece of paper in the right bin",
+        "1267": "Put the right and left pieces of white paper in the right bin respectively",
+        "9956": "Put one white paper inside the bin on the right",
+        "60222": "Put the left white piece of paper in the right bin",
+        "75262": "Put the white piece of paper at the right in the right bin"
+    },
+    "put_papers_in_bin_on_right": {
+        "28224": "Place the crumpled paper in the bin on the right",
+        "59020": "Place two crumpled papers inside the bin on the right",
+        "72346": "Place the papers on the counter inside the bin on the right",
+        "14614": "Put four crumpled papers inside the bin on the right",
+        "88348": "Place the papers on the countertop inside the bin on the right",
+        "69938": "Place two crumpled papers inside the bin on the right",
+        "71498": "Put three crumpled papers inside the bin on the right",
+       "54148": "Place three crumpled papers inside the bin on the right",
+        "47493": "Throw the paper on the table in the bin on the right",
+        "75145": "Place the to white papers on the counter inside the waste bin on the right",
+        "30619": "Throw two of the papers on the tabletop into the bin on the right",
+        "67549": "Throw some of the papers on the countertop into the trash can on the right",
+        "50627": "Place one white paper from the counter inside the waste bin on the right",
+       "79545": "Pick up the paper from the countertop and place it in the bin underneath the counter on the right",
+       "10297": "Throw two of the papers on the countertop into the bin on the right"
+
+    },
+    "put_papers_in_bin_to_right":{
+        "3390": "Put the papers in the bin to the right",
+        "90439": "Put the papers in the bin to the right",
+        "342": "Put the papers in the bin to the right",
+        "93021": "Put the papers in the bin to the right",
+        "93628": "Put the papers in the bin to the right",
+        "74665": "Put the paper in the bin to the right"
+    },
+    "put_white_papers_in_left_bin": {
+        "50758": "Put all the white pieces of paper in the left bin",
+        "80047": "Put all the white pieces of paper in the left bin",
+        "95449": "Put all the white pieces of papers in the left bin",
+        "83183": "Put the white pieces of paper in the left bin"
+    },
+    "put_papers_in_bin_to_left":{
+        "23761": "Put the papers in the bin to the left",
+        "90861": "Put the papers in the bin to the left",
+        "82394": "Put the papers in the bin to the left",
+        "83563": "Put the papers in the bon to the left"
+    },
+      "pick_up_papers_from_counter_and_put_in_right_bin": {
+        "23844": "Pick up the pieces of papers from the countertop and put them in the right bin.",
+        "45356": "Pick up the pieces of paper from the countertop and put them in the right bin.",
+        "20464": "Pick up two pieces of paper from the countertop and put them in the right bin.",
+        "24050": "Pick up the three papers from the countertop and put them in the bin on the right"
+    },
+        "pick_up_papers_from_counter_and_put_in_left_bin": {
+        "52378": "Pick up the pieces of paper from the countertop and put them in the left bin."
+    },
+    "pick_up_papers_and_throw_in_bin":{
+        "5471": "Pick up the paper from the counter and throw it in the bin",
+        "71605": "Pick up the paper from the counter and throw it in the bin",
+        "83382": "Pick up one paper and throw it in the bin",
+        "14751": "Pick up the paper on the right side of the counter and throw it in the bin",
+        "71536": "Pick up the papers from the counter and throw them in the bin",
+        "89284": "Pick up one paper from the counter and throw it in the bin"
+
+    },
+        "throw_papers_countertop_in_bin_on_left":{
+        "60513": "Throw the papers on the countertop in the bin on the left"
+
+    },
+        "place_paper_in_multiple_bins":{
+        "12098": "Place one paper from the counter inside the waste bin on the right, place four papers from the counter inside the bin on the left",
+        "74609": "Put two papers in the bin to the right and two in the left"
+    },
+     "put_papers_in_recycle_bin":{
+        "4219": "Put the papers on the counter into the recycle bin",
+        "69738": "The papers on the counter and put them in the recycle bin",
+        "80270": "Pick the papers on the counter and put them in the recycle bin"
+    },
+    "throw_papers_from_table_in_bin":{
+        "578": "Remove all the paper trash from the table and put them in the bin on the left",
+        "91950": "Remove all the paper trash from the base top and put them in the mixed paper bin on the right",
+         "43854": "Remove all the paper trash from the base top and put them in the  mixed paper bin on the left",
+         "93086": "Pick up two paper trash from the base top and put them in the mixed paper bin on the left",
+         "19553": "Throw one piece of tissue in the bin",
+        "25041": "Throw the white tissue in the left bin"
+    },
+      "pick_up_papers_put_in_bin":{
+        "29188": "Pick up the paper from the counter and put it in the bin",
+        "60934": "Pick up three papers from the counter and place them in the waste bin on the right",
+         "80990": "Pick up all the pieces of paper on the countertop and throw them in the bin",
+        "64117": "Pick the papers on the counter and put them in the bin",
+        "1712": "Pick up the papers from the counter and throw them in the bin",
+        "89779": "Pick up the papers from the counter and throw them in the bin",
+        "24840": "Pick up the papers on the counter and throw them in the bin",
+        "63266": "Pick up all the papers from the counter and throw them in the bin",
+        "27448": "Pick up the papers from the counter and put them in the bin",
+        "23596": "Put the papers in the first bin",
+        "75120": "Put the papers on the countertop in the trash cans"
+
+    }
+
+}

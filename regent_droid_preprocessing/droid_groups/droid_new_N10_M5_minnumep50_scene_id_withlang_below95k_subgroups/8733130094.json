@@ -1,0 +1,103 @@
+
+{
+    "lid_on_bottle": {
+        "76288": "Put the lid on the bottle and then erase the circle on the whiteboard using the duster",
+        "10256": "Put the black lid on the white bottle",
+        "8873": "Place the black lid on top of the white bottle",
+        "4542": "Put the lid on the white flask",
+        "46911": "Cover the white flask with the black lid",
+        "75850": "Pick the lid and put it on top of the bottle",
+        "47460": "Pick up the lid and close the bottle",
+        "17654": "Pick up the black lid and put it on top of the white bottle",
+        "84223": "Pick up the black lid from the table and put it on the white bottle."
+    },
+    "lid_off_bottle_on_table": {
+        "71957": "Take the lid from the white bottle and put on the table",
+        "32044": "Take the lid on the bottle and put it on the table",
+        "43837": "Take off the lid from the bottle",
+        "60478": "Take the lid off of the white bottle and put it on the table",
+        "12104": "Take the lid off of the bottle and put it on the table",
+        "85580": "Uncover the bottle and put the lid on the table",
+        "50523": "Take off the lid from the bottle and place it on the table",
+        "2400": "Remove lid from the white flask and place it on the table"
+    },
+        "remove_lid_from_bottle": {
+        "80782": "Remove the lid from the white bottle",
+        "27843": "Remove the black lid from the white bottle",
+        "57831": "Remove the black lid from the white bottle",
+        "62197": "Remove the lid from the white flask"
+
+    },
+    "erase_board": {
+        "63246": "Use the duster to erase the board",
+        "9387": "Use the duster to erase the board",
+        "21170": "Use the duster to erase the left writings on the white board",
+        "87111": "Erase the writings on the board",
+        "87132": "Use the duster to erase the writings on the white board",
+        "61403": "Take the eraser and erase the writings on the whiteboard",
+        "81780": "Use the duster to erase the board",
+        "5369": "Erase the whiteboard with the duster"
+       },
+    "wipe_whiteboard": {
+        "56585": "Use the black eraser to wipe the whiteboard and set it down on the table",
+        "93879": "Use the black eraser to wipe the whiteboard",
+        "57790": "Use the eraser to wipe the scribble on the right side of the whiteboard",
+        "3708": "Get the eraser, wipe the white board with it and put it on the table."
+    },
+    "rub_whiteboard": {
+        "59928": "Pick up the eraser and rub it on the white board. Pick up the lid from the table and put it on the white bottle.",
+        "64674": "Pick up the duster and rub the white board",
+        "43317": "Pick up the duster and rub the white board"
+    },
+    "write_on_board_with_marker": {
+        "9216": "Use the marker to write on the board",
+        "21666": "Use the marker to write on the board",
+        "35128": "Use the black marker on the table to write on the whiteboard",
+        "85842": "Use the black marker to write on the whiteboard",
+        "71254": "Scribble on the whiteboard with the black marker",
+        "23787": "Use the black marker to write on the white board in the wall",
+        "19934": "Pick up the marker from the table, write with it on the white board and put it back on the table.",
+        "50792": "Pick up the black marker from the table and use it to write on the whiteboard",
+        "14060": "Use the marker to scribble on the white board",
+    "49006": "Pick up the black marker from the table and use it to write on the whiteboard, place the marker back on the table",
+    "61678": "Write on the white board."
+    },
+    "move_left": {
+        "43290": "Move the black lid to the left",
+        "12059": "Move the clear bottle to the left",
+        "11421": "Point the marker to the left",
+        "34528": "Move the duster to the left"
+    },
+    "move_right": {
+        "62286": "Move the black eraser to the right",
+        "42995": "Move the whiteboard duster from left to right"
+    },
+     "move_forward": {
+        "1159": "Move the duster forward",
+        "74032": "Move the lid forward"
+    },
+    "move_backward": {
+        "50283": "Move the duster backwards"
+    },
+      "open_box": {
+        "84491": "Open the clear box"
+    },
+    "place_item_next_to":{
+        "72883": "Put the toothbrush next to the toothpaste"
+    },
+       "put_item_inside": {
+        "21099": "Put the pen inside the bowl"
+    },
+    "move_item_up":{
+        "34785": "Move the bottle top up on the table"
+    },
+        "eraser_on_holder": {
+        "3078": "Put the black eraser on the eraser holder attached to the whiteboard",
+        "4383": "Pick up the duster from the table and put it on the duster holder"
+
+    },
+        "eraser_on_whiteboard":{
+                "8168": "Pick up the whiteboard eraser and put it on the whiteboard"
+        }
+
+}

@@ -1,0 +1,60 @@
+
+{
+    "put_object_in_black_box": {
+        "70275": "Put the black object in the black box.",
+        "78535": "Take the car out of the black box.",
+        "47080": "Remove the white object from the black box then put it on top of the brown object.",
+        "4969": "Put the orange car in the black box."
+    },
+    "put_item_in_bin": {
+        "31496": "Put the plastic inside the rubbish can",
+        "33676": "Place the wrapper inside the trash can",
+        "28179": "Put one plastic in the bin",
+        "29914": "Put the plastic item into the bin"
+    },
+    "put_remote_on_table": {
+        "66185": "Pick up the remote from the sofa and put it on the table",
+        "95446": "Move the remote control to the table.",
+        "27631": "Put the grey remote control on the table."
+    },
+    "put_remote_on_couch_or_armrest": {
+        "94217": "Remove the black remote from the table and put it on the couch",
+        "12043": "Put the remote on the couch",
+        "89362": "Put the remote on the sofa arm",
+        "64795": "Put the water bottle on the armrest of the couch",
+        "86190": "Put the black object on the arm rest",
+        "52804": "Put the black remote on the armrest",
+        "69448": "Put the black remote control on the right armrest of the sofa.",
+        "2783": "Remove the black remote from the table and put it on the armrest of the couch"
+    },
+      "put_object_on_tv_stand": {
+        "60695": "Put the jersey on the tv stand",
+        "51704": "Put the bottle on the tv stand",
+        "30918": "Put the yellow pillow on the TV stand.",
+        "15949": "Remove the pillow from the chair and place it on the TV stand"
+
+    },
+    "move_object_right": {
+        "73729": "Move the remote to the right slightly, then press one button",
+        "25121": "Move the sausage pillow to the right",
+        "60969": "Move the bin to the right."
+    },
+    "move_object_left": {
+        "56440": "Move the water bottle to the left then move the remote controller to the right",
+        "13759": "Move the book to the left",
+        "90330": "Move the water bottle to the left",
+        "25414": "Move the candle holder to the left and move the black tray to the left",
+        "21752": "Move the black remote to the left and wipe the table with the white cloth"
+    },
+    "move_object_forward": {
+        "52366": "Move the television forwards."
+    },
+     "interact_with_remote":{
+        "9743":  "Place the black remote control right side up.",
+        "55779": "Rotate the black remote control then press one button.",
+        "20453": "Turn the remote control to the left and press a button on the remote control.",
+        "68080": "Press a button on the black remote control.",
+        "39026": "Rotate the remote control on the armrest anti-clockwise.",
+        "66938": "Put the grey remote control on top of the white towel then press a button on the remote control."
+     }
+}

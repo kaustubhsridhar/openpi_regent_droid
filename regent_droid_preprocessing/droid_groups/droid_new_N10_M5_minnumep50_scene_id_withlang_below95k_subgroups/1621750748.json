@@ -1,0 +1,147 @@
+
+{
+    "open_oven_door": {
+        "52747": "Open the oven door",
+        "22796": "Open the oven door",
+        "17780": "Open the oven door"
+    },
+    "close_oven_door": {
+        "73524": "Close the mini oven door"
+    },
+    "close_microwave_door": {
+        "72993": "Move the silver pot and the red plate away from the microwave, and close the microwave door.",
+        "32605": "Close the microwave"
+    },
+    "close_toaster_oven":{
+        "86758": "Close the toaster oven"
+    },
+    "open_grill": {
+        "20415": "Pull open the grill"
+    },
+    "twist_oven_knob": {
+        "11148": "Twist the upper knob on the oven"
+    },
+    "turn_knob_left": {
+        "29330": "Turn the top knob on the microwave to the left",
+        "82326": "Twist the upper knob of the microwave to the left",
+        "67757": "Turn the top knob on the toaster oven to the left",
+        "41309": "Turn the top microwave button to the left"
+    },
+    "turn_knob_right": {
+        "91009": "Turn the knob of the microwave to the right",
+        "58436": "Turn the top knob on the toaster oven to the right"
+    },
+    "twist_microwave_knob": {
+        "5901": "Twist the bottom knob of the grey microwave oven.",
+        "61485": "Twist the top knob of the microwave oven."
+    },
+     "remove_lid_from_pot": {
+        "36372": "Remove the lid from the pot",
+        "62366": "Remove the silver lid from the silver pot"
+    },
+    "place_lid_on_table": {
+        "38669": "Take the lid from the top of the silver pot and put it on the table",
+        "52682": "Take the lid off the pot and put it on the table"
+    },
+    "place_lid_on_pot":{
+        "57759": "Pick the lid and cover the pot"
+    },
+    "put_lid_on_counter":{
+        "58147": "Pick the lid on the pot and put it on the counter"
+    },
+    "put_lid_on_plate":{
+        "81419": "Put the silver lid on the plate"
+    },
+       "put_spatula_on_plate": {
+        "51357": "Put the spatula on the plate.",
+        "32972": "Place the wooden spatula on the plate"
+    },
+    "put_yellow_object_on_plate":{
+        "90002": "Remove the yellow object from the top of the oven and place it on the blue plate",
+        "81120": "Remove the yellow object from the pot and put it on the red plate"
+    },
+        "put_yellow_object_in_pot":{
+            "16853": "Put the yellow object into the silver pot."
+        },
+    "place_item_in_oven_close_door": {
+        "27027": "Open the oven door, pick up the slice of bread from the red plate using the wooden spatula and put it in the oven, close the oven door",
+        "46103": "Use the wooden spatula to put the bread into the oven then close the oven door",
+        "84692": "Open the oven, use the spatula to put the slice of bread in the oven, the close the oven",
+        "6133": "Use the wooden spatula to place the slice of bread in the mini oven then close the oven door",
+        "2976": "Place the corn toy in the oven then close it"
+    },
+    "put_corn_on_plate":{
+          "73256": "Put the corn on the red plate"
+    },
+      "put_cob_in_pot":{
+          "30386": "Put the cob of maize in the pot"
+      },
+    "remove_bread_from_oven_put_on_plate": {
+        "81696": "Open the oven, take the bread out, put it on the plate then close it",
+        "18727": "Open the oven door and take the slice and put it on the plate",
+        "78250": "Open the toaster oven door, remove the slice of bread from the oven and put it on the red plate",
+        "575": "Open the toaster oven door, remove the slice of bread from the oven using the wooden spatula, place the bread on the red plate"
+    },
+    "use_spatula_to_remove_bread_from_oven":{
+        "62774": "Use the spatula to take the bread slice out of the oven"
+    },
+    "use_spatula_to_pickup_bread":{
+        "73040": "Use the spatula to pick up the slice of bread.",
+        "49231": "Use the spatula from the red plate to pick up the slice of bread and place it on the red plate",
+        "51210": "Use the wooden spatula to pick up the slice of bread from the red plate"
+
+    },
+    "put_bread_on_plate":{
+        "67389": "Put the slice of bread on the plate"
+    },
+      "put_item_in_pot_and_cover":{
+          "62779": "Take the banana toy from the red plate, place it in the pot, and then cover the pot with the lid",
+          "28618": "Take the maize cob from the pot and place it on the plate. Then, pick up the lid and cover the pot",
+          "2165": "Take the lid off the pot, put it on the table, take half a carrot from the plate, put it in the pot then cover the pot with the lid",
+          "44500": "Place the salt shaker in the pot then close the pot",
+          "90095": "Take the white box out of the silver pot then close the pot"
+      },
+    "use_spatula_to_put_bread_in_oven": {
+        "68782": "Use the wooden spatula on the table to put the slice of bread into the toaster oven"
+    },
+     "place_item_on_table":{
+        "12904": "Take the maize cob toy from the plate and place it on the table"
+    },
+      "remove_item_from_pot_and_cover":{
+           "83522": "Remove the yellow object from the pot and cover the pot"
+      },
+    "move_item_left": {
+        "17874": "Move the white container to the left",
+        "70254": "Move the silver lid from the right to the left side of the table",
+        "9443": "Move the cup from the right to the left side of the table"
+
+    },
+     "move_item_right":{
+          "93910": "Move the black to the right side of the table"
+     },
+     "put_object_on_oven":{
+          "20630": "Put the yellow object on top of the toaster oven"
+     },
+       "put_bottle_upright":{
+          "38566": "Put the bottle upright"
+     },
+     "put_knife_in_drawer": {
+         "59369": "Put the butter knife in the wooden tray in the drawer"
+     },
+      "use_spoon_on_object":{
+         "74843": "Use the wooden spoon to divide the orange object"
+     },
+       "pick_bottle_and_place":{
+         "30368": "Pick the white bottle next to the black cup and place it next to the orange plate"
+       },
+     "use_stick_to_pickup_bottle":{
+         "77499": "Use the wooden cooking stick to pick up the yellow bottle"
+     },
+       "complex_lid_and_item_manipulation":{
+           "4995": "Pick up the lid from the pot and put it on the table, then pick up the orange object from the pot and put it on the table, then pick up the lid and put it back on the pot"
+       },
+      "uncover_pot_and_place":{
+          "39023": "Uncover the pot and put it on the table"
+      }
+}
+

@@ -1,0 +1,44 @@
+
+{
+    "utensil_holder_tasks": {
+        "25482": "Put the black serving spoon in the utensil holder",
+        "80906": "Place the slotted spoon in the silver holder upright",
+        "23055": "Put the black spatula in the silver tin on the right with utensils in it",
+        "93724": "Put the silver ladle in the utensil holder",
+        "33219": "Pick up the wooden spoon and place it in the utensil holding bucket",
+        "33993": "Put the wooden spatula in the utensils box",
+        "15970": "Pick up the dark wooden spoon and put it in the utensil holder",
+        "25703": "Put the ladle in the utensil holder",
+        "92535": "Put the wooden cooking stick in the tool bucket",
+        "83835": "Pick up the silver spoon on the right and put it in the silver bucket"
+    },
+    "lid_on_tasks":{
+        "59286": "Put a lid on the coffee machine",
+        "81819": "Put the blue lid on the other transparent bowl"
+    },
+     "put_in_clear_bowl": {
+        "68503": "Put the green packet in the clear bowl on the left.",
+        "89025": "Put the white and blue packet in the clear bowl on the right",
+        "67181": "Put the orange and white spoon in the clear bowl under the coffeemaker chamber",
+        "82545": "Remove the orange heart shaped bowl from the coffee maker rack and put it in the clear bowl",
+        "62827": "Move the white ladle to the clear bowl on the right"
+
+    },
+    "transfer_between_lunchboxes": {
+        "27931": "Pick up the wooden spoon from the clear lunch box on the right and put it in the clear lunch box on the left",
+        "84674": "Remove the white serving spoon from the lunchbox on the right and put it in the lunchbox on the left"
+    },
+    "spoon_in_container_tasks": {
+        "41414": "Put the wooden spoon inside the black container",
+        "4327": "Put the spoon inside the container"
+    },
+     "put_on_top_of_coffee_machine":{
+        "32579": "Put the dark blue lid on top of the coffee machine",
+        "25206": "Remove the blue packet from the silver plate and put it on top of the coffee machine",
+        "93695": "Pick up the little measuring cup and place it on top of the coffee making machine"
+     },
+    "put_in_lunch_box":{
+        "21249": "Put the soup ladle in the lunch box"
+    }
+}
+

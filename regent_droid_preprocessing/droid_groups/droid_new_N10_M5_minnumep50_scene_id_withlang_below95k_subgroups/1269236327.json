@@ -1,0 +1,161 @@
+
+{
+    "open_black_bin": {
+        "26189": "Open the black bin.",
+        "6278": "Open the black bin.",
+        "2771": "Open the black bin.",
+        "2810": "Open the black bin.",
+        "40781": "Fully open the black bin"
+    },
+    "close_black_bin": {
+        "16437": "Close the black bin",
+        "49412": "Close the black bin.",
+        "2325": "Close the black bin.",
+        "89573": "Close the black bin.",
+        "20471": "Close the black bin."
+    },
+    "open_lid_black_bin": {
+        "78879": "Open the lid of the black bin",
+        "38466": "Open the lid of the black bin",
+        "37986": "Open the lid of the black bin",
+        "59544": "Open the lid of the black bin",
+        "86204": "Open the lid of the black bin",
+        "19768": "Open the lid on the black bin.",
+        "38752": "Open the black bin lid fully upwards",
+        "36098": "Lift the black bin lid fully upwards",
+        "29104": "Open the lid to the black bin",
+        "41938": "Open the lid of the black bin",
+        "35742": "Open the lid of the black bin"
+    },
+    "close_lid_black_bin": {
+        "62055": "Close the lid of the black bin",
+        "89813": "Close the lid of the black bin",
+        "94484": "Close the lid of the black bin",
+        "91423": "Close the lid of the black bin",
+        "5956": "Close the lid of the black bin",
+        "88989": "Close the lid of the black bin",
+        "16893": "Close the lid of the black bin"
+    },
+    "open_door": {
+        "29709": "Open the door",
+        "58069": "Open the door"
+    },
+   "close_door": {
+        "51363": "Close the door",
+        "90855": "Close the door"
+    },
+    "open_left_door": {
+        "18510": "Open the door on the left",
+        "71504": "Open the left door"
+    },
+    "close_left_door": {
+        "15388": "Close the left door",
+         "26452": "Close the door on the left"
+
+    },
+    "open_right_door": {
+        "78903": "Open the door on the right",
+        "62778": "Open the right door"
+    },
+    "close_right_door": {
+        "26753": "Close the door on the right",
+        "17327": "Close the door on the right",
+        "74746": "Close the right door"
+    },
+    "open_top_drawer": {
+        "3641": "Open the topmost drawer",
+        "18922": "Open the topmost drawer.",
+        "81713": "Pull open the top drawer",
+        "48115": "Pull open in the top drawer of the white chest of drawers"
+    },
+     "close_top_drawer":{
+        "48744": "Close the first top drawer",
+        "40052": "Close the first top drawer",
+        "6932": "Close the first top drawer"
+     },
+    "open_top_right_drawer":{
+        "23327": "Open the topmost drawer on the right.",
+        "51616": "Open the topmost drawer on the right.",
+        "33148": "Open the top right drawer"
+    },
+    "close_top_right_drawer":{
+        "92379": "Close the top right drawer",
+        "77058": "Close the top right drawer"
+    },
+    "close_drawer": {
+        "42617": "Push the drawer closed",
+        "60128": "Push closed the drawer",
+        "76544": "Close the drawer",
+        "14249": "Close the open drawer"
+    },
+    "open_bin":{
+        "55416": "Open the bin completely",
+        "82665": "Completely open the bin",
+        "71052": "open the bin"
+    },
+    "close_bin":{
+         "13333": "Close the bin",
+         "34774": "Close the bin",
+         "20561": "Close the bin completely",
+         "23299": "Close the bin completely",
+          "51341": "Close the open bin"
+    },
+    "open_lid_on_bin":{
+        "84520": "Open the lid on the bin",
+        "40545": "Open the lid on the bin"
+    },
+    "close_lid_of_bin":{
+        "81962": "Close the lid of the bin",
+        "76622": "Close the lid of the bin"
+    },
+      "open_black_trash_can":{
+        "9411": "Open the black trash can",
+        "52953": "Open the black trash can"
+      },
+    "close_dust_bin":{
+        "15415": "Close the dust bin",
+        "89689": "Close the dust bin"
+    },
+    "open_drawer":{
+        "15019": "Open the drawer"
+    },
+      "push_top_right_drawer_inwards":{
+        "40751": "Push the top right drawer fully inwards"
+      },
+    "open_first_top_drawer":{
+         "6516": "Open the first top drawer",
+         "59875": "Open the first top drawer"
+    },
+     "open_left_pantry_door":{
+        "33289": "Open the left pantry door."
+     },
+    "close_left_pantry_door":{
+        "26214": "Close the left pantry door"
+    },
+    "close_cabinet_door":{
+        "79042": "Close the cabinet door"
+    },
+    "open_bin_right":{
+        "37631": "Open the bin to the right",
+        "20899": "Open the bin on the right"
+    },
+    "push_black_bin_lid_down":{
+        "20576": "Push the lid of the black bin fully downwards",
+        "6307": "Push the black bin lid fully  downwards"
+    },
+    "pull_open_left_white_door":{
+        "64658": "Pull open the left side of the white door"
+    },
+    "open_closet_door":{
+        "41639": "open the closet door"
+    },
+    "close_topmost_drawer_right":{
+      "40570": "Close the topmost drawer on the right."
+    },
+       "open_top_drawer_right_cabinet":{
+        "4799": "Open the top drawer of the cabinet on the right"
+    },
+    "close_black_bin_18456":{
+        "18456": "Close the black bin"
+    }
+}

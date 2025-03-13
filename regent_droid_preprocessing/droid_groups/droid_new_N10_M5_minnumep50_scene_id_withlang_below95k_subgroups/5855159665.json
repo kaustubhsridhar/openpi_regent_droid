@@ -1,0 +1,159 @@
+
+{
+    "fold_cloth": {
+        "26752": "Unfold the cloth on the table"
+    },
+    "twist_bottle": {
+        "40576": "Twist the bottle on the table"
+    },
+    "keyboard_press": {
+        "91013": "Press the spacebar button on the keyboard",
+        "89743": "Press a button on the keyboard of the laptop",
+        "21747": "Press a key on the keyboard",
+        "25724": "Press a key on the keyboard."
+    },
+    "open_laptop": {
+        "58121": "Open the laptop"
+    },
+   "close_laptop": {
+        "23961": "Close the laptop",
+        "51997": "Close the laptop lid",
+        "21837": "Close the laptop."
+    },
+    "open_box": {
+        "51983": "Open the brown box.",
+        "16791": "Open the box",
+        "84681": "Open the box on the table then remove the contents inside it"
+    },
+    "close_box": {
+        "31680": "Close the brown box."
+    },
+    "remove_object_from_box_and_place_in_bowl": {
+        "1034": "Take the blue block out of the box and put it in the bowl",
+        "47252": "Remove the brown object from the box and place it in the white bowl.",
+         "46139": "Remove the green block from the wooden box and put it in the clear white bowl",
+        "42191": "Take the green cylinder out of the wooden box and place into the white bowl",
+        "53727": "Remove the blue block from the box and put it inside the bowl",
+        "33472": "Remove one blue block from the wooden box and put it in the white bowl."
+
+    },
+    "stir_with_chopsticks": {
+        "78104": "Use the chopsticks to stir the blocks",
+        "82354": "Use the chopsticks to stir the contents of the plate with blue markings",
+        "71488": "Use the chopsticks to stir the contents in the bowl",
+        "1607": "Use the chopsticks to stir in the white bowl",
+        "55380": "Use the chopsticks to stir the blocks in the wooden box.",
+        "71524": "Use the chopsticks to stir the blocks in the white bowl."
+    },
+    "stir_with_sticks":{
+        "52633": "Pick up the sticks and mix the objects in the box",
+        "27361": "Pick up the sticks and mix the objects in the box"
+    },
+        "stir_bowl":{
+            "80425": "Stir the bowl with the straws",
+            "94687": "Use the stick to stir the contents in the bowl"
+        },
+    "fold_paper_towel": {
+        "49533": "Fold the paper towel",
+        "85600": "Unfold the paper towel"
+    },
+     "fold_napkin": {
+        "89773": "Fold the napkin in four",
+        "47947": "Fold the napkin on the right"
+
+    },
+    "unfold_napkin":{
+        "7545": "Unfold the white napkin on the right."
+    },
+    "wipe_table":{
+        "87328": "Wipe the table with the paper towel",
+        "38458": "Use the white napkin to wipe the tabletop."
+    },
+    "move_box_right": {
+        "49582": "Pick up the box and move it slightly to the right",
+        "42809": "Move the box to the right"
+    },
+      "move_bottle_right":{
+          "45853": "Move the bottle to the right"
+      },
+    "twist_lid":{
+        "53023": "Rotate the lid on the bottle counter clockwise",
+        "93376": "Twist the lid on the bottle"
+    },
+     "remove_cap_from_blue_bottle": {
+        "88220": "Remove the clear cap from the blue bottle and put it on the table",
+        "25678": "Remove the clear lid from the blue bottle."
+    },
+    "turn_beige_bottle_right":{
+        "88652": "Turn the beige bottle to the right and then left",
+        "78302": "Turn the beige bottle to the right"
+
+    },
+    "put_in_box":{
+        "41520": "Pick up the charger and put it in the box",
+        "49370": "Put the paper in the box",
+        "40161": "Put the power pack into the cardboard box",
+        "25966": "Put the blue object inside the box",
+        "95474": "Put the white foam in the brown box."
+    },
+    "put_cap_on_blue_bottle":{
+        "45422": "Put the clear cup on the blue bottle",
+        "37501": "Pick up the clear cap and put it on the blue bottle"
+    },
+        "place_lid_on_bottle": {
+           "34544": "Pick up the lid and put it on the bottle"
+        },
+      "turn_bottle_cap":{
+           "115": "Turn the bottle's cap to the right"
+      },
+      "move_forward":{
+        "73195": "Move the beige bottle forward"
+      },
+     "open_bottle": {
+        "46539": "Open the lid of the beige bottle",
+        "87274": "Uncover the yellow and blue bottle"
+     },
+        "move_block_to_plate":{
+            "65443": "Move the yellow cube from the wooden object to the plate in front of it",
+            "43863": "Move the orange cube to the plate in front of the wooden object",
+           "12506": "Move the white block to the plate in front of it"
+        },
+    "put_block_in_bowl":{
+        "41142": "Put one orange block from the box in the white bowl."
+    },
+    "put_block_in_object": {
+       "65200": "Put the green block in the wooden object"
+    },
+    "remove_from_box":{
+        "32404": "Remove the foam cover from the box"
+    },
+    "pick_up_and_place":{
+       "65171": "Pick up a tissue and put it on the table",
+       "25078": "Remove the black cable from the box and put it on the table",
+        "83285": "Pick up the white napkin on the right then set it back down table."
+    },
+     "remove_block_put_on_plate":{
+          "76702": "Remove the flowery blue block from the wooden box and put it on the white plate with blue markings"
+     },
+    "multi_step_blue_block":{
+        "65680": "Pick up the blue block on the counter, put it in the white plate on the right, put the clear cap on the blue bottle and use the napkin to wipe the inside of the wooden box"
+    },
+    "put_blocks_from_box_in_bowl":{
+        "40301": "Move the blue cylindrical block and the chopsticks from the wooden box to the white bowl"
+    },
+      "move_block":{
+          "43404": "Shift the green block to the white bowl"
+      },
+       "pick_up_from_bowl_put_in_box":{
+            "74923": "Pick up the objects from the bowl and put them in the box"
+      },
+      "wipe_laptop":{
+            "21296": "Use the white napkin to wipe the laptop screen."
+      },
+    "twist_mug":{
+          "65779": "Twist the mug on the table"
+      },
+    "turn_off_computer":{
+        "28086": "Turn off the computer"
+    }
+}

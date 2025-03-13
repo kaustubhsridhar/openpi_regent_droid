@@ -1,0 +1,153 @@
+
+{
+    "folding_clothes": {
+        "79360": "Fold up the blue T Shirt on the table.",
+        "4097": "Fold the t-shirt twice",
+        "94741": "Fold the shirt",
+        "34335": "Fold the blue cloth in half",
+        "90161": "Fold the sweatshirt",
+        "2136": "Fold the t-shirt",
+        "21085": "Fold the shirt",
+        "84586": "Fold the shirt twice",
+        "53359": "Fold the orange cloth",
+        "94832": "Fold the shirt",
+        "79012": "Fold the T-sheet on the table",
+        "89257": "Fold the shirt",
+        "31923": "Fold the blue shirt twice",
+        "61625": "Fold the towel on the table",
+        "78530": "Pick up the peach towel and fold it.",
+        "11460": "Fold the T-shit  on the table",
+        "6363": "Fold up the peach sweat shirt on the table.",
+        "41183": "Fold the sweatshirt",
+        "38117": "Fold the blue t-shirt once",
+        "8944": "Fold the orange piece of clothing in half",
+        "92415": "Fold the blue shirt",
+        "37650": "Fold the orange shirt",
+        "90924": "Fold the shirt",
+        "18221": "Fold the cloth on the table",
+        "50997": "Fold the orange shirt once",
+        "26424": "Fold the shirt",
+        "8006": "Fold the shirt in half",
+        "62278": "Fold the T-shirt",
+        "62810": "Fold the shirt",
+        "7507": "Fold the sweatshirt",
+        "69465": "Completely fold the red cloth",
+        "8560": "Fold the t-shirt on the table",
+        "32627": "Fold the blue t-shirt once",
+        "92534": "Fold the orange shirt",
+        "74638": "Fold the clothes fully",
+        "10644": "Fold the shirt",
+        "23966": "Fold the shirt in half",
+        "52683": "Fold the orange towel in half",
+        "75200": "Fold the shirt",
+        "10167": "Fold the sweatshirt on the table",
+        "54775": "Fold the sweatshirt twice"
+    },
+    "unfolding_clothes": {
+        "16917": "Unfold the peach shirt on the table.",
+        "88599": "Unfold the T-shirt on the table",
+        "11816": "Unfold the sweatshirt on the table",
+        "86569": "Unfold the blue t-shirt",
+        "28213": "Unfold the orange cloth",
+        "33337": "Unfold the shirt",
+        "32317": "Unfold the shirt on the table.",
+        "79428": "Unfold the orange cloth",
+        "75884": "Unfold the cloth on the table",
+        "9837": "Unfold the T-shirt on the table",
+        "627": "Spread the clothe",
+        "79990": "Unfold the sweatshirt",
+        "35967": "Unfold the blue shirt",
+        "19596": "Unfold the sweatshirt on the table",
+        "27808": "Unfold the sleeves of the orange sweatshirt",
+        "6308": "Unfold the orange cloth",
+        "81586": "Unfold the blue t-shirt fully",
+        "63674": "Unfold the towel",
+        "75455": "Unfold the peach cloth on the table.",
+        "36034": "Unfold the t-shirt",
+        "59721": "Unfold the blue shirt",
+        "61258": "Unfold the shirt",
+        "5464": "Unfold the long sleeve shirt on the table",
+        "86897": "Unfold the blue T Shirt on the table.",
+        "39405": "Unwrap the folded peach t-shirt on the table.",
+        "43433": "Unfold the cloth on the table",
+        "53682": "Unfold the cloth",
+       "67543": "Unfold the shirt",
+        "38389": "Unfold the orange shirt from right to left",
+         "92385": "Unfold the shirt",
+        "58110": "Unfold the shirt",
+        "73482": "Unfold the shirt",
+        "13662": "Unfold the shirt",
+        "10117": "Unfold the shirt",
+          "76678": "Unfold the orange cloth",
+        "43101": "Unfold the orange shirt",
+        "44127": "Unfold the blue shirt",
+        "18524": "Unfold the shirt once",
+       "11003": "Unfold the orange sweatshirt",
+         "68374": "Unfold the sweatshirt",
+        "78631": "Unfold the sweatshirt",
+        "49607": "Unfold the orange shirt",
+         "57576": "Unfold the red object from the right to the left",
+        "64233": "Unfold the blue t-shirt once"
+
+    },
+     "move_balls_between_containers": {
+        "26656": "Move the balls from the bowl to the plate",
+        "25152": "Move the balls from the plate to the bowl",
+        "78464": "Move the balls from the bowl to the plate",
+        "2707": "Remove the balls from the white plate and place them inside the white bowl",
+        "57046": "Transfer the balls from the bowl to the plate",
+        "64250": "Transfer the balls from the plate to the bowl",
+        "61172": "Pick up the orange and yellow balls from the bowl and put them in the plate.",
+        "24549": "Move the balls from the plate to the bowl"
+
+    },
+      "put_ball_in_bowl":{
+        "77341": "Put the yellow ball in the bowl to the right",
+        "70716": "Put the red ball inside the white bowl on the right",
+        "5711": "Put the pink ball in the white bowl",
+        "84073": "Pick up the orange ball and put it in the empty white bowl",
+        "70874": "Pick the purple ball and put it in the bowl",
+        "59701": "Pick the red ball and put it in the bowl",
+        "80804": "Put the purple ball in the bowl",
+        "88051": "Put the yellow ball in the bowl",
+        "6607": "Pick the red ball and put it in the bowl"
+
+      },
+    "hang_item_on_stand": {
+        "81459": "Hang the light-blue object on the stand",
+        "50848": "Hang the blue clip on the wooden stand",
+        "68461": "Hang the peg on the stand",
+        "77196": "Hang the white masking tape on the wooden stand",
+        "85912": "Hang the blue peg on the wooden object",
+         "56761": "Hang the peg on the stand",
+        "27068": "Pick up the masking tape and hang it on the wooden stand",
+        "89547": "Pick the masking tape and hang it on the wooden stand",
+        "25434": "Hang the tape on the wooden rack"
+
+    },
+
+    "put_tape_on_wooden_rack": {
+         "82052": "Remove the masking tape from the rack.",
+          "37513": "Put the tape on the wooden rack",
+        "18576": "Take the masking tape off the hanger and put it on the table",
+        "35477": "Put the masking tape on the top left handle"
+
+    },
+
+        "place_plush_toy_on_tray": {
+        "64018": "Pick up the pineapple plush toy from the carton box and put it in the black tray",
+        "29737": "Put the banana plush toy on the black tray",
+        "76848": "Put the banana plushy on the black tray",
+        "18706": "Pick the banana plushy from the pot and it on the black tray",
+        "74537": "Pick up the watermelon plush toy from the basket and put it on the black tray.",
+            "13728": "Place the banana toy on the black tray"
+
+    },
+      "put_toy_in_pot":{
+        "10593": "Put the watermelon plushie in the black pot",
+        "67916": "Put the yellow object in the black pot"
+      },
+    "move_backward":{
+        "47670": "Move the cup backwards"
+    }
+}

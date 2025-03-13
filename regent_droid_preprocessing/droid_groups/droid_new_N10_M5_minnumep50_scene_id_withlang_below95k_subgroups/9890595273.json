@@ -1,0 +1,44 @@
+
+{
+    "place_remote_on_bed": {
+        "29733": "Put the remote on the bed",
+        "87204": "Move the top pillow to the right, then put the remote on the bed",
+        "2681": "Put the remote on the bed",
+        "25594": "Put the remote directly on the bed"
+    },
+    "place_remote_on_pillow": {
+        "22409": "Put the remote on the pillow",
+        "91247": "Put the remote on the pillow"
+    },
+    "move_pillow_left": {
+        "79280": "Move the pillow to the left",
+        "22615": "Move the pillow to the left"
+    },
+    "flip_pillow": {
+        "24327": "Turn the pillow over",
+        "63900": "Lift the pillow on the right and turn it upside down",
+        "26542": "Turn the pillow upside down",
+        "75503": "flip the pillow",
+        "90866": "Flip the white pillow over."
+    },
+    "fold_item_in_half": {
+        "31372": "Fold the cloth in half",
+        "22814": "Fold the pillowcase in half",
+        "87112": "Fold the gray bedsheet in half"
+    },
+    "move_pillow_forward_or_towards_you": {
+        "86808": "Move the white pillow forward, then put the checked pillow on the white pillow",
+        "10187": "Move the pillow forward",
+        "54762": "Move the top pillow forward, then put the white pillow on the checked pillow",
+        "66807": "Move the white pillow forward, remove the book from the pillow and put it on the bed"
+    },
+    "move_pillow_downward_or_away_from_you": {
+       "95237": "Move the remote control backwards then place the white pillow over the remote.",
+       "397": "Slide the checked black and white pillow downwards on the bed"
+    },
+      "put_checked_pillow_on_white_pillow": {
+        "68763": "Pull the white pillow onto the bed, pick up the checked black pillow and put it on top of the white pillow",
+        "95556": "Put the checkered pillow on top of the white pillow"
+    }
+}
+

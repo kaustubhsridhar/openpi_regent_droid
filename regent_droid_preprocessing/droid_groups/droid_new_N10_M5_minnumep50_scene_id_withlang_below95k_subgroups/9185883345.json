@@ -1,0 +1,77 @@
+
+{
+    "folding_shirt": {
+        "50043": "Fold the sweatshirt from top to bottom",
+        "2310": "Fold the sweatshirt in half",
+        "79500": "Fold the shirt",
+        "80268": "Fold the orange cloth",
+        "28944": "Fold the shirt once",
+        "12434": "Fold the shirt",
+        "21009": "Fold the shirt",
+        "66084": "Fold the shirt",
+        "24871": "Fold the sweatshirt from left to right",
+        "35624": "Fold the sweatshirt",
+        "38061": "Fold the shirt in half from bottom to top",
+        "13489": "Fold the shirt on the table.",
+        "40899": "Fold the peach shirt once",
+        "42011": "Fold the pink object from the left end"
+
+    },
+    "unfolding_shirt": {
+        "65285": "Unfold the shirt",
+        "65160": "Unfold the cloth and move it to the left",
+        "74013": "Unfold the shirt",
+        "38206": "Unfold the cloth on the table",
+        "6084": "Unfold the peach shirt",
+        "34399": "Unfold the orange piece of clothing",
+        "71277": "Unfold the T-shirt on the table.",
+        "72694": "Unfold the shirt",
+        "42734": "Unfold the sweatshirt sleeves",
+        "36209": "Unfold the sweatshirt from top to bottom",
+        "76314": "Fold the sweatshirt on the table then unfold it",
+       "51555": "Move the shirt away from you then unfold it"
+    },
+        "hanging_cup": {
+        "20627": "Hang the orange cup on the stand",
+        "69523": "Take the orange cup and hang it on the object",
+    "91703": "Pick the orange cup and hang it on the wooden stand",
+        "41024": "Hang the orange cup on the wooden rack on the table",
+                "4444": "Hang the cup on the wooden stand"
+
+    },
+    "hanging_tape": {
+        "10553": "Hang the smaller tape on the wooden rack",
+        "25277": "Hang the grey masking tape on the wooden stand",
+        "14533": "Hang the grey masking tape on the wooden rack",
+        "457": "Hang the white masking tape on the wooden stand",
+        "77386": "Hang the tape on the wooden object",
+    "61146": "Pick up the gray masking tape and hang it on the object",
+        "39401": "Hang the masking tape on the wooden stand"
+
+    },
+    "hanging_peg": {
+        "85529": "Hang the blue peg on the wooden stand",
+        "31140": "Hang the blue peg on the wooden stand",
+        "37334": "Hang the peg on the wooden stand"
+
+    },
+
+ "putting_tape_on_table": {
+        "71967": "Take the masking tape and put it on the table",
+        "69551": "Take the masking tape from the wooden holder and put it on the table",
+         "46405": "Put the masking tape on the table"
+    },
+  "putting_cup_on_table":{
+        "92571": "Take the cup off the stand and place it on the table",
+    "94325": "Take the cup off the wooden stand and put it on the table"
+  },
+        "spreading_sweatshirt": {
+        "13957": "Spread out the sweatshirt"
+    },
+   "placing_pen_in_cup": {
+        "74513": "Place the pen in the cup"
+    },
+  "placing_lid_on_bottle":{
+    "13329": "Place the lid on the silver bottle"
+  }
+}

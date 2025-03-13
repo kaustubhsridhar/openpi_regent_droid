@@ -1,0 +1,63 @@
+
+{
+    "Press button on dishwasher": {
+        "51753": "Press a button on the dishwasher.",
+        "94309": "Press a button on the dishwasher",
+        "2669": "Press a button on the dishwasher.",
+        "86785": "Press a button on the dishwasher.",
+        "27412": "Press a button on the dishwasher",
+        "76086": "Press a button on the dishwasher",
+        "25945": "Press a button on the dishwasher",
+        "26477": "Press a button on the dishwasher.",
+        "54152": "Press a button on the dishwasher",
+        "9102": "Press a button on the dishwasher.",
+        "12697": "Press a button on the dishwasher.",
+        "13249": "Press a button on the dishwasher.",
+        "8370": "Press the button on the dishwasher"
+    },
+    "Close food pack": {
+        "53327": "Close the food pack.",
+        "1123": "Close the food pack.",
+        "60860": "Close the food pack."
+    },
+    "Put orange object in container": {
+        "24104": "Put one orange object in the plastic",
+        "84349": "Put the orange objects in the plastic",
+        "891": "Put the orange object in the carton box inside the pack",
+        "19349": "Place the orange object into the packet"
+    },
+    "Press button on oven": {
+        "85521": "Press the power button on the oven",
+        "85527": "Press the button on the oven",
+        "62964": "Press the button on the oven",
+        "19617": "Press a button on the right side of the oven"
+    },
+     "Put lid on blender": {
+        "69507": "Put the lid on the blender.",
+        "77761": "Pick up the clear lid on the white plate and put it on the black machine"
+    },
+    "Put apple on rack": {
+        "5725": "Put the apple in the fruit rack at the bottom",
+        "51968": "Put the apple on the rack",
+        "30513": "Put the apple on the bottom rack"
+    },
+      "Put silver lid on glass container":{
+        "92244": "Put the silver lid on the glass container."
+    },
+    "Remove silver lid from glass container":{
+        "64100": "Remove the silver lid from the glass container."
+    },
+    "Place banana on counter":{
+        "53762": "Put the banana, on the counter, next to the other bananas",
+        "3459": "Pick up a banana and place it on the kitchen counter"
+
+    },
+    "Press button on dish washing machine":{
+        "18971": "Press the top right button of the dish washing machine",
+        "83239": "Press the middle button on the left side of the dish washing machine",
+        "63792": "Press a right button on the right side of the dish washing machine",
+        "71578": "Press the top button on the left of the dish washing machine",
+        "15274": "Press the bottom right button of the washing machine"
+    }
+}
+

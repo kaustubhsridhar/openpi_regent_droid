@@ -1,0 +1,94 @@
+
+{
+    "Turn on the chandelier": {
+        "52489": "Turn on the chandelier.",
+        "34698": "Turn on the lights on the chandelier.",
+        "28574": "Turn on the chandelier.",
+        "18073": "Turn on the lights on the chandelier.",
+        "65314": "Turn on the lights on the chandelier.",
+        "6599": "Turn on the chandelier",
+        "66891": "Turn on the chandelier."
+    },
+    "Turn off the chandelier": {
+        "16140": "Turn off the chandelier.",
+        "22184": "Turn off the lights on the chandelier.",
+        "81326": "Turn off the lights on the chandelier.",
+        "53583": "Turn off the chandelier.",
+        "29812": "Turn off the chandelier.",
+        "93174": "Turn off the chandelier."
+    },
+    "Turn on the light": {
+        "57481": "Switch on the light",
+        "10521": "Turn on the light",
+        "15291": "Turn on the light",
+        "50004": "turn on the light",
+        "65502": "turn on the light"
+    },
+    "Turn off the light": {
+        "25356": "Turn off the light",
+        "11428": "Turn off the lights",
+        "39846": "Switch off the light",
+        "85677": "turn off the light",
+        "58307": "turn off the light",
+        "68060": "Turn off the light",
+        "56197": "Turn off the lights",
+        "76759": "Turn off the lights"
+    },
+    "Turn on ceiling lights": {
+        "39200": "Turn on the ceiling lights",
+        "75559": "Turn on the ceiling lights",
+        "42434": "Turn on the ceiling lights",
+        "9934": "Turn on the ceiling lights"
+    },
+    "Turn on fan lights": {
+        "77219": "Turn on the light on the ceiling fan",
+        "37551": "Turn on the fan lights",
+        "39114": "Turn on the lights on the fan"
+    },
+    "Turn off fan lights": {
+        "77477": "Turn off the light on the ceiling fan",
+        "71982": "Turn off the lights on the fan",
+        "21333": "Turn the lights on the fan off",
+        "7154": "Turn off the light on the ceiling fan"
+     },
+    "Pull longer cord of ceiling lamp": {
+        "61963": "Pull the longer cord of the ceiling lamp",
+        "20886": "Pull the longer cord of the ceiling lamp",
+        "34078": "Pull the longer cord of the ceiling lamp",
+        "92487": "Pull the longer cord of the ceiling lamp",
+        "64588": "Pull the longer cord of the ceiling lamp",
+        "1117": "Pull the longer cord of the ceiling lamp",
+        "35185": "Pull the longer cord of the ceiling lamp",
+        "48247": "Pull the longer cord of the ceiling lamp"
+    },
+    "Pull longer cord of ceiling fan": {
+        "48263": "Pull the longest chord of the ceiling fan",
+        "93062": "Pull the longer white cord of the ceiling fan",
+        "64908": "Pull the longer cord of the ceiling fan",
+        "78512": "Pull the longer white cord of the ceiling fan",
+        "67572": "Pull the longest chord of the ceiling fan",
+        "78195": "Pull the white cord of the ceiling fan",
+        "16005": "Pull the longer rope hanging from the light downwards",
+        "77968": "Pull the long rope dangling from the lights downwards"
+    },
+    "Pull string to turn on chandelier":{
+        "38934": "Pull the string on the right to turn on the chandelier",
+       "31726": "Pull the string to the right downwards to turn on the chandelier",
+        "52078": "Switch the chandelier on by pulling the string switch down",
+        "67238": "Switch the chandelier on using the string switch"
+    },
+    "Pull switch to turn on light":{
+       "67918": "Pull down the switch to turn on the light"
+    },
+       "Pull down toggle/switch to turn off light":{
+        "22673": "Pull down the toggle on the chandelier to switch off the light",
+        "86929": "Push down the toggle to switch off the light",
+        "31276": "Turn off the light switch on the chandelier.",
+        "59193": "Pull down the light switch on the chandelier",
+        "177": "Switch the chandelier off using the string switch"
+
+    },
+      "Pull down light switch":{
+        "31768": "Pull down the pull cord light switch"
+      }
+}

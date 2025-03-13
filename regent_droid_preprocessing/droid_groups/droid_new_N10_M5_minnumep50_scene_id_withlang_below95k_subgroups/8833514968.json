@@ -1,0 +1,102 @@
+
+{
+    "remove_objects_from_bowl": {
+        "48143": "Remove all the objects in the black bowl and put them on the table",
+        "5744": "Remove all the objects in the black bowl and put them on the table",
+        "11514": "Remove the objects from the bowl and put them on the table",
+        "72087": "Remove the objects from the bowl and place them on the table one by one",
+        "30635": "Remove all the contents from the black bowl."
+    },
+    "remove_blocks_from_bowl": {
+        "59476": "Remove the blocks from the black bowl",
+        "92830": "Remove all the toy blocks from the black bowl.",
+        "68797": "Remove all the blocks from the bowl",
+        "20843": "Remove the blocks from the bowl",
+        "47032": "Remove the blocks from the bowl and put them on the table",
+        "37715": "Remove the blocks from the bowl and put them on the table",
+        "6094": "Remove all the blocks from the black bowl and place them on the table",
+        "4758": "Take the blocks out of the bowl and put them on the table",
+        "73676": "Take the blocks out of the bowl and place them on the table",
+        "1438": "Take the blocks from the black bowl one at a time and place them on the table",
+        "12812": "Take the blocks in the bowl and put them on the table"
+
+    },
+    "remove_cubes_from_bowl": {
+        "14531": "Remove the cubes from the bowl",
+        "52503": "Remove the cubes from the bowl",
+        "11688": "Remove the cubes from the bowl"
+    },
+        "put_blocks_in_bowl": {
+        "80446": "Pick up all the toy blocks from the table and put them in the bowl",
+        "17491": "Put all the building blocks on the table into the black bowl",
+        "71767": "Pick up all the cubes and put them in the black bowl",
+        "38508": "Pick up all the blocks from the table and put them in the black bowl.",
+        "85642": "Put all the blocks on the table in the black bowl",
+        "21144": "Put all the blocks on the table in the black bowl",
+        "90788": "Pick up all the cube boxes on the table and put them inside the bowl",
+        "63189": "Put the colored things in the bowl",
+        "80087": "Put all the blocks inside the black bowl",
+        "56083": "Place all the blocks inside the black bowl",
+        "92454": "Put all the blocks in the bowl",
+        "41777": "Put all the toy blocks into the bowl.",
+        "89459": "Put all the blocks in the bowl",
+        "47999": "Pick up all the blocks from the table and put them in the black bowl.",
+        "38796": "Put the colored blocks into the black bowl",
+        "46002": "Put all the blocks in the bowl",
+        "71094": "Put all the blocks in the bowl",
+        "87995": "Put all the toy blocks into the bowl.",
+        "38352": "Put the blocks in the bowl",
+        "24224": "Put all the blocks one at a time in the bowl except the right yellow block farthest away from you",
+        "45399": "Put all the blocks in the bowl one at a time except the right yellow block"
+    },
+    "remove_cable_from_plastic": {
+        "74768": "Remove the cable from the plastic",
+        "56889": "Remove the cable from the clear plastic",
+        "3232": "Remove the cable from the plastic",
+        "93933": "Remove the cable from the plastic",
+        "13704": "Remove the cable from the plastic",
+        "84803": "Remove the cable from the plastic and put it on the table",
+         "43496": "Remove the cable from the plastic and put it on the table",
+        "81672": "Take the cable from the plastic and put it on the table",
+        "12179": "Pull out the cable from the plastic and place it on the table",
+        "54165": "Take the cable from the plastic and put it on the table"
+
+    },
+    "remove_cable_from_plastic_bag": {
+        "46617": "Take the cable out of the plastic bag",
+        "8810": "Take the cable out of the plastic bag",
+        "82393": "Remove the cable from the plastic bag",
+        "53034": "Pull the cable out of the plastic bag"
+    },
+    "remove_object_from_plastic_bag": {
+       "87047": "Remove the black thing from the plastic bag",
+        "36968": "Remove the object from the plastic bag and place it on the table",
+        "52918": "Remove the object from the plastic bag on the table",
+        "64315": "Remove the object from the plastic bag",
+       "68835": "Remove the black object from the colourless bag"
+    },
+    "remove_cables_from_plastic_bag":{
+        "16498": "Remove the cables from the plastic bag and put them on the table",
+        "18175": "Remove the cables from the plastic bag and put them on the table",
+        "27946": "Remove the cables from the plastic bag and put them on the table",
+        "73576": "Remove the cables from the plastic bag",
+        "12278": "Remove the cables from the plastic bag and put them on the table"
+
+    },
+        "remove_object_from_plastic":{
+        "41137": "Remove the object from the plastic and place it on the table",
+        "58560": "Take the object from the plastic and put it on the table",
+        "78154": "Remove the object from the plastic",
+        "84397": "Remove the stethoscope from the plastic",
+        "40421": "Remove the contents from the plastic.",
+         "7452": "Remove the black object from the plastic.",
+         "41981": "Take the black object out of the plastic and put it on the table",
+         "33382": "Remove the contents in the packaging.",
+        "59713": "Take the cables from the plastic and put them on the table",
+         "25403": "Remove the black cable from the plastic bag"
+
+    },
+     "place_marker_in_pot": {
+        "11734": "Pick the marker and place it in the pot"
+    }
+}

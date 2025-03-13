@@ -1,0 +1,94 @@
+
+{
+"move_left": {
+    "56450": "Move the cup to the left on the table",
+    "45956": "Move the maize to the left",
+    "49160": "Move the can to the left",
+    "678": "Move the can slightly to the left",
+    "28072": "Slide the can slightly to the left",
+    "72108": "Move the orange pepper to the left",
+    "87981": "Move the plastic maize to the left",
+    "3279": "Slide the can to the left",
+    "7769": "Move the silver bowl to the left",
+    "75355": "Move the saltshaker to the left",
+    "57827": "Move the blue block to the left",
+    "77560": "Move the blue block to the left"
+},
+"move_right": {
+    "60034": "Pick up the silver bowl and move it to the right.",
+    "33421": "Move the can of corn to the right",
+    "84255": "Move the can to the right",
+    "60322": "Move the white bottle to the right",
+    "66988": "Move the blue cup to the right",
+    "31406": "Move the blue object to the right",
+    "20015": "Move the red pepper to the right",
+    "14778": "Move the salt shaker to the right",
+    "39231": "Move the blue block to the right",
+    "73661": "Push the orange can to the right",
+    "92996": "Move the salt shaker to the right",
+    "86086": "Move the blue block to the right",
+    "88658": "Move the orange thing to the right"
+
+},
+"move_forward": {
+    "65930": "Move the blue block forwards",
+    "80978": "Move the salt shaker closer to you",
+    "90066": "Move the blue cup closer to you",
+    "57570": "Move the salt shaker forward",
+    "85749": "Move the blue block forward",
+        "91648": "Move the can closer to you"
+
+},
+"move_backward": {
+    "18207": "Move the can backward",
+    "89649": "Move the blue cup backwards"
+},
+"put_in_silver_bowl": {
+    "11400": "Put the blue cup in the silver bowl",
+    "80278": "Put the white bowl in the silver bowl",
+     "3891": "Put the cup in the silver bowl.",
+    "90287": "Put the white bottle in the silver bowl",
+        "38077": "Put the salt cellar in the silver bowl.",
+        "59352": "Put the cellar in the silver bowl",
+        "94284": "Pick up the salt cellar and put it in the bowl",
+       "74850": "Put the salt cellar in the silver bowl.",
+    "2024": "Put the salt shaker inside the silver bowl",
+    "18793": "Put the blue cup in the metal bowl",
+        "37236": "Put the salt shaker in the silver bowl",
+    "4470": "Put the salt cellar in the silver bowl."
+},
+        "put_salt_shaker_in_pot":{
+            "47280": "Put the salt shaker in the pot",
+           "81501": "Put the salt shaker inside the pot",
+            "47467": "Put the shaker in the pot",
+            "71885": "Put the shaker in the silver pot"
+        },
+"remove_bottle_put_on_table": {
+
+    "8095": "Remove the white bottle from the silver bowl and put it on the table",
+    "74811": "Remove the bottle from the bowl and put it on the table",
+        "36802": "Remove the bottle from the bowl and put it on the table",
+    "49884": "Remove the bottle from the bowl and put it on the table",
+    "36074": "Remove the bottle from the bowl and put it on the table"
+},
+"remove_salt_cellar_put_on_table":{
+     "2494": "Take the salt cellar out of the silver bowl",
+    "32362": "Remove the salt cellar from the silver bowl.",
+ "70622": "Pick up the salt cellar from the silver bowl and put it on the table.",
+        "66107": "Pick up the salt cellar and put it on the table"
+},
+    "put_on_table":{
+        "59908": "Take the cellar in the bowl and put it on the table",
+           "24849": "Pick the cellar and put it in the bowl",
+            "60851": "Put the salt shaker on the table",
+ "41681": "Pick up the blue cup from the pot and put it on the table",
+        "54496": "Pick the blue cup and put it on the table"
+
+    },
+"remove_shaker_from_bowl":{
+        "21040": "Remove the shaker out of the pot",
+        "89408": "Remove the blue cup from the pot",
+ "7260": "Remove the salt shaker from the silver bowl",
+"49395": "Remove the shaker from the bowl and put it on the table"
+}
+}

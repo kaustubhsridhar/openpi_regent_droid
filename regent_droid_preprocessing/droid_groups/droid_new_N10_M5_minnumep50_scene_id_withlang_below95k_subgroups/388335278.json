@@ -1,0 +1,107 @@
+
+{
+    "stack_cups": {
+        "89127": "Sport stack the cups on the left onto the two cups on the right",
+        "53290": "Stack the cups",
+        "42576": "Put the front left cup on the two back cups, then put the front cup in the cup on the top",
+        "74322": "Stack the two closest cups in the furthest two cups",
+        "57970": "Pick up the second paper cup from the left and put it on the two cups to the right, pick up the paper cup furthest to the left and put it on the paper cup above two paper cups",
+        "87183": "Stack up the cups in the container",
+        "46226": "Stack the two cups on the left together then put them in the blue bowl.",
+        "5326": "Stack the coffee cups on top of each other",
+        "25312": "Put the left cup on the furthest two cups, then stack the closest cup in the top cup",
+        "49496": "Stack the two cups closer to the age into the two cups closer to the napkins",
+        "74083": "Stack the cups",
+        "74632": "Stack the cups together",
+        "76019": "Stack the cups together",
+        "60381": "Stack up the cups"
+    },
+    "stack_bowls": {
+        "15434": "Stack the bowls together",
+        "71777": "Stack up the white bowls on the counter",
+        "23872": "Stack the black and white bowls together."
+    },
+        "stack_plates": {
+        "49213": "Stack up the white plastic plates",
+        "44892": "Stack up the white plates on the left"
+
+    },
+    "press_dishwasher_button": {
+        "70668": "Press a button on the dishwasher.",
+        "88648": "Press the big button on the top right side of the dishwasher",
+        "76919": "Press a button on the right side of the dishwasher",
+        "86657": "Press a button on the dishwasher",
+        "71341": "Press a button on the dishwasher",
+        "86202": "Press a button on the dishwasher",
+        "51923": "Press a button on the dishwasher.",
+        "70488": "Press a button on the dishwasher",
+        "21339": "Press a button on the dishwasher",
+        "69471": "Press a button on the dishwasher",
+        "68989": "Press a button on the dish washing machine",
+        "3520": "Press a button on the dishwasher.",
+        "5572": "Press a button on the dishwasher",
+        "53701": "Press a button on the dishwasher",
+        "83913": "Press a button on the dishwasher.",
+        "16379": "Press a button on the dishwasher",
+        "38907": "Press a button on the dishwasher",
+        "9498": "Press a button on the right side of the dish washer"
+    },
+    "press_oven_button": {
+        "35394": "Press a button on the oven",
+        "23107": "Press the button on the oven",
+        "76885": "Press the button on the oven",
+        "60506": "Press a button the oven's right side",
+        "52465": "Press a button on the left side of the oven",
+        "50067": "Press the button on the oven"
+    },
+        "place_spoon_in_cup": {
+        "53766": "Put one spoon on top of each of the coffee cups at the front of the counter.",
+        "33842": "Put the white spoon in the coffee cup on the left.",
+        "38078": "Put one white spoon in the coffee cup at the front.",
+        "9930": "Put the white plastic spoon inside the mug"
+    },
+    "pour_contents": {
+        "81496": "Pour the contents of the blue bowl into the paper cup on the left",
+        "53914": "Pour the contents from the left spoon into the first left cup",
+        "2742": "Pour the contents from one cup to the other",
+        "10733": "Pour the contents from the first left cup into the bowl"
+    },
+        "place_item_in_bowl":{
+        "34371": "Put the small, black object next to the bowl",
+        "37025": "Put the paper cup on the blue bloc on the left",
+        "6373": "Put a sauce packet in the bowl"
+        },
+    "create_cup_stacks":{
+        "50833": "Create two stacks using the four coffee cups on the left.",
+        "88309": "Stack three coffee cups into a pyramid then put the fourth coffee cup on top of the coffee cup at the top.",
+        "24476": "Stack the four coffee cups into two stacks.",
+        "55235": "Stack the four coffee cups together.",
+        "45511": "Put all the four coffee cups together"
+    },
+     "stack_paper_cups":{
+        "64753": "Stack up the paper cups on the left",
+        "13952": "Stack up the two paper cups on the left, put the paper cups in the blue bowl and move the blue bowl to the left",
+        "42454": "Pick up the paper cup to the far left and stack it on the middle paper cup, pick up the paper cup to the right and stack it on the paper cup to the left"
+     },
+    "move_utensils_between_cups":{
+        "90847": "Swap the places of the spoons on the cups",
+        "24439": "Remove the fork from the cup on the left and put it in the cup on the right then remove the spoon from the cup on the right and put it in the cup on the left.",
+        "49068": "Pick up the fork from the paper cup on the right and put in the paper cup to the left",
+        "12287": "Put the utensils placed on top of the coffee cups into the cups",
+         "7653": "Pick up the plastic spoon from the paper cup on the right and put it on the kitchen counter, pick up the plastic spoon from the paper cup on the left and put it on the paper cup on the right, pick up the plastic spoon on the kitchen counter and put it on the paper cup to the left"
+    },
+       "use_spoon_transfer_liquid":{
+        "14855": "Use the white spoon to place some liquid from the blue bowl into the white teacup.",
+        "59080": "Use the white spoon to place some of the contents from the blue bowl into the white teacup."
+       },
+     "place_plates":{
+        "10871": "Pick up the white plate on the right and put it on the white plate on the left",
+         "85663": "Pick up the white plate on the bottom right and put it on top of the white plate on the bottom left",
+         "473": "Put the left plate on the right plate"
+     },
+        "pour_beans":{
+        "62110": "Pick up the coffee up and pour the beans into the two coffee cups",
+        "3333": "Pour the beans in the blue bowl into the coffee cup",
+        "15209": "Pour the beans in the coffee cup into the blue bowl"
+        }
+}

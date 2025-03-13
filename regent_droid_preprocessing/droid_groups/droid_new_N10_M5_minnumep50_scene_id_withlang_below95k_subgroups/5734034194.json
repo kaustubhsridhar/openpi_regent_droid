@@ -1,0 +1,83 @@
+
+{
+    "move_item_left": {
+        "12038": "Move the knife to the left of the fork",
+        "54829": "Move the knife to the left",
+        "32077": "Move the plate to the left",
+        "77269": "Move the plate slightly to the left"
+    },
+    "move_item_right": {
+        "16268": "Pick up the glass cup on he left and move it to the right",
+        "24499": "Move the yellow mug to the right",
+        "53822": "Move the blue book to the right",
+        "89431": "Move the blue book to the right",
+        "31562": "Move the smaller plate to the right"
+
+    },
+    "close_book": {
+        "65817": "close the book",
+        "36515": "Close the book",
+        "54858": "Close the book",
+        "30784": "Close the blue book.",
+        "77179": "Close the hardcover book"
+    },
+    "open_book": {
+        "69801": "Open the book",
+        "50106": "Open the blue book",
+        "13757": "Open the white book"
+    },
+    "unfold_towel": {
+        "91179": "Unfold the kitchen towel",
+        "34546": "Unfold the blue towel."
+    },
+     "move_pen_to_cup":{
+        "71961": "move the pen and place it in the cup"
+    },
+    "put_item_in_cup": {
+        "33409": "Put the scissors in the cup",
+        "12923": "Put the scissors in the other cup"
+
+    },
+    "put_pen_in_mug":{
+        "63537": "Put the pen inside the black mug"
+    },
+    "move_pen_from_right_to_left_cup":{
+        "3218": "Move the pen from the right cup to the left cup",
+        "36944": "Move the orange pen from the right cup to the left cup"
+    },
+    "put_pen_in_right_cup":{
+        "15287": "Put the orange pen in the right cup"
+    },
+    "move_pen_to_right_mug":{
+        "77385": "Pick up one pen and put in the mug on the right",
+       "73953": "Shift a pen to the mug on the right"
+    },
+    "put_item_on_black_mat":{
+      "73885": "Completely put the extension cable on the black mat",
+       "65337": "Put the extension cable and cord on the black placemat.",
+        "9184": "Put the white ceramic plate on the black mat"
+    },
+
+     "move_pen_to_left_cup":{
+        "45473": "Move the black pen to the white mug on the left."
+    },
+    "move_item_forward":{
+        "14390": "Move the mug forward"
+    },
+    "move_scissors_to_left_glass":{
+        "82035": "Move the scissors to the glass on the left"
+    },
+    "flip_open_book":{
+        "84594": "Flip open the cover of the book"
+    },
+     "place_item_in_mug":{
+        "25322": "Place the pencil in the white mug with the eraser down",
+        "53485": "Place the fork in the black mug handle first"
+    },
+      "move_item_from_right_to_left":{
+        "17217": "Pick up the silver scissors from the glass cup on the right and put it in the glass cup on the left",
+        "32248": "Move one scissors from the glass on the right to the glass on the left.",
+        "76528": "Move the pencil from the left cup to the right cup"
+    }
+}
+

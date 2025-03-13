@@ -1,0 +1,77 @@
+
+{
+    "move_left": {
+        "15875": "Move the pink octopus toy to the left",
+        "57891": "Move the tissue box to the left",
+        "71210": "Move the striped paper from the right side of the desk to the left side of the desk",
+        "63024": "Move the stapler and black spectacle case to the left side of the desk",
+        "21577": "Move the black cable to the left",
+        "32338": "Move the black cable on the right side of the desk to the left",
+        "92777": "Move the eyeglass case to the left",
+        "36861": "Move the black case and the plush toy to the left",
+        "24253": "Move the pink plushy to the left",
+        "57550": "Slide the Lysol bottle to the left",
+        "10941": "Place the pulse oximeter on the left side of the desk",
+        "44320": "Move the white mouse to the left",
+        "17210": "Move the box to the left",
+        "58179": "Move the black spectacle case to the left side of the desk",
+        "15231": "Move the striped paper to the left side of the desk",
+        "9601": "Move the white charger to the left",
+        "53183": "Move the white box to the left",
+        "77257": "Place the pink octopus plush toy on top of the white container on the right, move the white computer mouse to the left",
+        "4565": "Take the charger and move it to the left of the table",
+        "90611": "Move the white charger head to the left",
+        "23992": "Move the brown object to the left",
+        "46409": "Move the tissue box to the left"
+
+    },
+    "move_right": {
+        "59426": "Move the eyeglass case to the right",
+        "49202": "Pick the white object near the pink plush toy and move it to the right",
+        "42039": "Pick up the tissue box and move it to the right.",
+        "77900": "Place the eyeglass case and the brown packet on the left side of the desk then place the tissue box on the right side",
+        "46714": "Move the striped paper to the right side of the desk",
+        "60035": "Move the black cable to the right",
+        "9894": "Move the stapler to the books on the right",
+        "82087": "Pick up the white charger and move it from the left side of the laptop to the right side",
+        "685": "Move the mouse to the right",
+        "74931": "Push the Lysol container to the right side of the desk",
+       "22329": "Move the pink octopus plush toy to the right",
+        "10451": "Move the stapler to the right",
+        "9456": "Pick up the box from the table and move it to the right.",
+        "36087": "Move the mouse pad to the right.",
+        "17743": "Move the white mouse to the right side of the desk",
+       "20923": "Move the computer mouse to the right side of the desk",
+        "51008": "Move the tissue box to the right",
+        "10749": "Move the black case to the right",
+        "77637": "Move the octopus plush toy and the tissue box to the right side of the desk",
+      "74664": "Pick up the white box from the table and move it to the right",
+        "51093": "Take the masking tape and move it to the right",
+        "32678": "Move the octopus plushie to the right",
+        "74242": "Move the bottle to the right then backwards.",
+        "14223": "Move the white mouse to the right",
+        "54168": "Move the tissue box to the right",
+        "95273": "Put the charging cables to the right and the other objects to the left"
+
+    },
+    "move_forward":{
+        "12292": "Put the charger head in front of the tissue box",
+        "42443": "Move the brown object forward"
+    },
+     "move_backward": {
+        "61576": "Move the mouse away from the keyboard"
+    },
+
+    "put_on_tissue_box":{
+        "43037": "Put the eyeglasses case on top of the bottle",
+        "78438": "Pick the object next to the bottle and place it on top of the tissue box",
+        "90737": "Put the pink octopus plush toy on top of the tissue box",
+        "42196": "Move the eyeglass case from the desk to on top of the tissue box",
+        "61145": "Pick the object and put it on the tissue box"
+
+    },
+      "put_on_top_of_box":{
+        "86208": "Take the brown object and put it on top of the box",
+        "7165": "Place object on top of the box to the right on top of the pink doll"
+      }
+}

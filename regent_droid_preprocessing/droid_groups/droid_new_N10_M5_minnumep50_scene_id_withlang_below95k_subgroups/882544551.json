@@ -1,0 +1,84 @@
+
+{
+    "close_microwave": {
+        "44130": "Close the microwave door fully",
+        "59595": "Close the microwave door and press a middle bottom button on it",
+        "31948": "Close the door of the microwave",
+        "30627": "Close the door of the microwave",
+        "26021": "Close the microwave door",
+        "33704": "Close the microwave door"
+    },
+    "open_microwave": {
+        "35568": "Open the microwave",
+        "35080": "Open the microwave door",
+        "6442": "Open the microwave door",
+        "38208": "Open the microwave fully"
+    },
+    "close_drawer": {
+        "3241": "Close the open drawer",
+        "33196": "Close the open drawer."
+    },
+    "close_cabinet_door": {
+        "10874": "Close the open upper cabinet door",
+        "7432": "Close the top right cupboard door",
+       "31054": "Close the open upper cabinet door."
+    },
+     "open_cabinet_door": {
+        "1083": "Open the top right cupboard door",
+        "69708": "Open the right cabinet door",
+        "92316": "Open the upper cabinet door on the right",
+        "49916": "Open the top right cabinet door",
+        "50984": "Open the far right top cabinet door, pick up the paper cup from the bottom shelf of the open cabinet and put it on the kitchen counter"
+    },
+    "open_drawer":{
+        "43076": "Open the first top drawer"
+    },
+    "close_top_drawer":{
+        "39717": "Close the top drawer"
+    },
+    "put_item_in_microwave": {
+        "15957": "Put the plate and  the cup in the microwave",
+        "24732": "Pick up the white plate from the kitchen counter and put it in the microwave, close the microwave door fully",
+        "70558": "Put the white plate with a paper cup on it inside the microwave",
+        "76192": "Put the cup in the microwave upright",
+        "76287": "Put the plate in the microwave and then close the microwave door"
+
+    },
+      "put_pot_on_coffee_maker": {
+        "66822": "Put the coffee pot on the coffee maker",
+        "45374": "Put the coffee pot on the coffee machine"
+    },
+    "press_button_on_coffee_maker":{
+        "12493": "Press a button on the base of the coffeemaker",
+        "83160": "Push the rightmost button on the bottom of the coffee machine",
+        "10084": "Press the button on the coffee machine",
+        "41875": "Press a button on the base of the coffeemaker",
+        "23016": "Press the bottom right rectangular button on the coffee maker",
+        "60397": "Press a button on the coffee maker"
+    },
+        "close_coffee_maker_lid": {
+        "20800": "Close the black lid on top of the coffee machine",
+        "19838": "Close the lid of the coffee maker"
+    },
+     "open_coffee_maker_lid":{
+        "78974": "Open the lid on the coffeemaker chamber",
+        "54239": "Lift the black lid at the top of the coffee machine"
+    },
+    "turn_kettle":{
+        "7515": "Turn the kettle",
+        "43953": "Turn the kettle to the right"
+    },
+       "put_item_in_cabinet":{
+        "64649": "Place the coffee cup upright then put it in the open upper cabinet.",
+        "91886": "Put the white cup in the top right cabinet and then close the cabinet door",
+         "4566": "Put the paper cup in the bottom shelf of the top cabinet on the right and then close the cabinet door",
+        "78807": "Put the white plate into the cupboard",
+        "13204": "Place the plate in the top cupboard then close the cupboard door"
+       },
+    "place_cup_upright":{
+        "5490": "Place the coffee cup upright"
+    },
+      "turn_cup_upside_down":{
+          "37694": "Turn the cup upside down"
+      }
+}

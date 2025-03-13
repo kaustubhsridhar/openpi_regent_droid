@@ -1,0 +1,82 @@
+
+{
+    "move_pot_left": {
+        "78867": "Remove the lid from the pot, then move the pot to the left on the stove",
+        "93330": "Move the silver pot to the left",
+        "72485": "Slide the silver pot to the left side of the job of the stove",
+        "49898": "Move the silver pot to the left"
+    },
+    "move_pot_right": {
+        "68800": "Move the silver pot to the right",
+        "69616": "Move the pot to the right"
+    },
+    "move_pot_forward": {
+        "34824": "Move the pot forward",
+        "7206": "Move the pot to the plate in front"
+    },
+    "move_pot_backward": {
+        "10151": "Move the silver pot backwards",
+        "47916": "Move the white bowl backwards"
+    },
+    "put_lid_on_pot": {
+        "58702": "Put the lid on the pot",
+        "6614": "Move the lid from the stovetop to the pot",
+        "74586": "Put the lid on the pot",
+        "90848": "Put the lid on the pot",
+        "59749": "Move the pot to the top left corner of the stove then put the lid on the pot"
+    },
+    "remove_lid_from_pot": {
+        "76059": "Remove the glass lid from the pot and put it on the stove",
+        "2035": "Remove the lid from the silver pot",
+        "54131": "Remove the lid from the pot"
+    },
+       "press_button_on_stove": {
+        "35595": "Push a button on the stove",
+        "76503": "Push a button on the stove"
+    },
+    "press_button_above_stove": {
+        "95533": "Push the second button above the stove",
+        "13937": "Press a button on the silver object above the stove"
+    },
+    "turn_on_stove_light": {
+        "40081": "Turn on the lights above the stove",
+        "65952": "Press a button on the range hood to turn on the light"
+    },
+      "turn_off_stove_light": {
+        "94441": "Turn off the lights above the stove"
+    },
+    "open_drawer": {
+   "86536": "Open the first top drawer wider",
+    "28355": "Open the topmost drawer on the left",
+        "73198": "Open the second top drawer"
+    },
+       "close_drawer": {
+        "41358": "Close the open drawer"
+    },
+        "hang_utensil":{
+            "69969": "Hang the coffee whisk on the hook above the stove",
+            "54103": "Pick up the frother and hang it on the hanger from the kitchen hood"
+        },
+      "remove_utensil_and_hang":{
+          "3247": "Remove the silver utensil from the pot and hang it on the hook at the top left",
+          "94135": "Remove the silver ladle from the pot and hang it above the stove",
+          "37872": "Remove the silver object from the pot and hang it on the hooks on the top left"
+      },
+    "move_pot_to_specific_burner":{
+       "74124": "Slide the silver pot to the bottom right cooker on the stove",
+       "38832": "Pick up the silver pot and put it on the top left cooker on the stove hob",
+        "82325": "Move the pot to the bottom left stove plate and then put the glass lid on the pot",
+        "75851": "Slide the silver pot to the bottom right cooker on the hob of the stove, pick up the silver pot lid and put it on the hob of the stove",
+        "54872": "Pick up the silver pot from the open drawer and place it on the bottom left cooker on the hob of the stove",
+        "47834": "Slide the silver pot to the bottom right cooker on the hob of the stove",
+        "75353": "Slide the silver pot to the top right cooker on the hob of the stove",
+        "54636": "Remove the lid from the silver pot, put it on the stove and then move the pot to the bottom right side of the stove"
+    },
+      "press_leftmost_button": {
+          "21667": "Press the far left button on the under the counter lights rack to turn of the under the counter lights",
+           "71862": "Push the far left button on the kitchen hood",
+            "12886": "Press the far left button on the silver kitchen hood",
+            "49135": "Press the leftmost button on the stove  fun on and off"
+      }
+}
+

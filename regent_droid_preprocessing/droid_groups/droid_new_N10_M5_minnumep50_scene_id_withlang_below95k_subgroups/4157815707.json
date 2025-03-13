@@ -1,0 +1,106 @@
+
+{
+    "open_drawer": {
+        "49769": "Open the drawer",
+        "24776": "Open the drawer",
+        "36104": "Open the drawer on the table",
+        "51114": "Open the drawer",
+        "43891": "Pull out the drawer on the table",
+        "76242": "Open the drawer"
+    },
+    "close_drawer": {
+        "69748": "Close the drawer",
+        "25316": "Close the drawer",
+        "85688": "Close the open drawer",
+        "66925": "Close the drawer"
+    },
+    "open_red_drawer": {
+        "40057": "Open the red drawer",
+        "93050": "Pull open the red drawer"
+    },
+    "close_red_drawer": {
+        "80410": "Push the red drawer closed",
+        "41930": "Close the red drawer."
+    },
+    "open_orange_drawer": {
+        "31762": "Open the orange drawer and put the brown toy in the drawer",
+        "10120": "Open the orange drawer"
+    },
+    "close_orange_drawer": {
+        "90459": "Close the orange drawer"
+    },
+    "put_lid_on_pot": {
+        "42739": "Put the lid on the pot",
+        "71372": "Pick up the lid from the table and put it on the pot",
+        "41903": "Pick up the lid from the table and put it on the pot."
+    },
+    "put_lid_on_silver_pot": {
+        "17317": "Put the lid on the silver pot",
+        "20222": "Cover the pot with the silver lid"
+    },
+    "remove_lid_from_pot": {
+        "67665": "Remove the silver lid from the silver pot.",
+        "46167": "Remove the lid from the pot",
+        "8655": "Remove the lid from the silver pot"
+    },
+        "remove_lid_and_put_on_table": {
+        "18042": "Remove the lid from the pot and put it on the table"
+    },
+    "uncover_pot": {
+        "92482": "Uncover the pot",
+        "25051": "Uncover the silver pot"
+    },
+    "move_object_left": {
+        "93327": "Move the fluffy ball to the left",
+        "84713": "Move the stuffed animal to the left on the table",
+        "58809": "Move the teddy to the left",
+        "37174": "Move the yellow pepper to the left"
+    },
+    "move_object_right": {
+        "26125": "Move the green towel to the right",
+        "59884": "Move the brown object to the right"
+    },
+      "move_object_forward": {
+        "78097": "Move the teddy bear forward",
+        "7959": "Move the green cloth to the front",
+        "95182": "Move the fluffy egg forward",
+        "51689": "Move the cloth forward",
+        "51688": "Move the doll closer to you"
+
+    },
+    "move_object_backward": {
+        "25610": "Slide the green cloth backward",
+        "87191": "Push the towel backwards",
+        "10169": "Move the green towel backwards"
+    },
+    "fold_green_towel": {
+        "18588": "Fold the green towel",
+        "81686": "Fold the green towel",
+        "90406": "Fold the green towel from bottom to top",
+        "24890": "Fold the green towel",
+        "3436": "Fold the green towel",
+        "26602": "Fold the green towel"
+    },
+    "fold_green_cloth": {
+        "16716": "Fold the green cloth",
+        "16719": "Fold the green cloth",
+        "85845": "Fold the green cloth",
+        "53597": "Fold the cloth"
+
+    },
+    "unfold_green_towel": {
+       "46244": "Unfold the green towel",
+       "51990": "Unfold the towel"
+    },
+  "unfold_green_cloth":{
+        "64737": "Unwrap the green cloth",
+        "44772": "Unfold the green cloth"
+  },
+    "move_green_cloth":{
+        "73788": "Move the green cloth to the left",
+        "33588": "Move the green cloth",
+        "10133": "Move the green cloth",
+        "95217": "Move the green cloth"
+    }
+}
+

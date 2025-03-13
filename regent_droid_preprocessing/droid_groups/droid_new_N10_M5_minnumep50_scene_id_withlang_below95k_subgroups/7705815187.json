@@ -1,0 +1,108 @@
+
+{
+    "close_cabinet_door": {
+        "62977": "Close the right top cabinet door",
+        "50440": "Close the upper cabinet door",
+        "60210": "Close the cupboard door",
+        "7251": "Close the open cupboard door",
+        "89": "Close the open upper cabinet door"
+    },
+    "close_drawer": {
+        "21013": "Close the top drawer of the cabinet.",
+        "90795": "Close the top door of the cabinet.",
+        "88095": "Close the bottom drawer on the right",
+        "92219": "Close the drawer fully",
+        "27970": "Close the open drawer",
+        "19186": "Close the drawer"
+    },
+    "open_top_right_drawer": {
+        "24971": "Open the topmost drawer on the right then place the white object on the counter inside the drawer",
+        "26285": "Open the top drawer door on the right",
+        "44079": "Open the top right drawer, put the white lid inside then close it",
+        "65458": "Pull open the top drawer on the right",
+        "64470": "Open the topmost drawer on the right",
+        "46711": "Open the topmost drawer on the right"
+    },
+    "open_top_drawer": {
+        "31880": "Open the topmost drawer and place the black paddle inside the drawer",
+        "58662": "Open the topmost drawer, remove the white object from the drawer and place it on the counter, close the open drawer",
+        "62131": "Open the first top drawer",
+        "19562": "Open the top first drawer"
+
+    },
+   "open_right_cabinet_door": {
+        "523": "Open the top kitchen cabinet door to the right",
+        "13073": "Open the top right cabinet door",
+        "7714": "Open the right door of the second upper cabinet from the right"
+    },
+    "open_cabinet_door":{
+        "39727": "Open the second upper cabinet door",
+        "219": "Open the middle cupboard door",
+        "56800": "Open the second cabinet door from the left"
+    },
+    "open_far_right_drawer":{
+        "40274": "Open the drawer on the far right",
+        "20342": "Open the drawer on the far right"
+    },
+    "put_paper_in_bin": {
+        "8963": "Put the white crumpled paper in the black bin",
+        "59297": "Put the paper in the black",
+        "56411": "Put the paper inside the black bin",
+        "76519": "Pick up the white paper from the left side of the counter and place it in the black bin on the right"
+    },
+    "throw_paper_in_bin": {
+        "35993": "Throw the paper on the counter in the bin",
+        "26677": "Put the crumpled paper in the bin",
+        "93133": "Pick the paper and throw it in the bin",
+        "4927": "Put the trash in the bin",
+        "41152": "Throw the tissue on the counter in the trash bin",
+        "6254": "Pick the piece of paper on the left and throw it in the landfill bin"
+    },
+    "put_object_in_drawer": {
+        "63240": "Put the blue bowl inside the open drawer",
+        "13640": "Put the white object in the drawer",
+        "44513": "Put the teal bowl in the open drawer",
+        "3555": "Put the chopping board in the drawer",
+        "28120": "Pick the white lid from the open cupboard and put it in the open drawer"
+    },
+        "put_object_in_cabinet":{
+        "64685": "Put the spray can in the open upper cabinet",
+        "20946": "Put the green bowl in the open upper cabinet",
+        "78938": "Pick the white lid on the counter and put it in the cupboard",
+        "24303": "Take the object and put it in the cupboard"
+
+    },
+    "move_object_left": {
+        "38556": "Move the cup to the left",
+        "75681": "Move the black paddle to the left",
+        "9526": "Pick up the bottle and move it to the left."
+    },
+    "move_object_right":{
+        "47384": "Move the white object to the right side of the countertop",
+        "9338": "Move the object slightly to the right"
+
+    },
+      "move_object_forward":{
+        "14133": "Move the paddle forward on the counter",
+        "44645": "Move the blue cup closer to the landfill bin"
+    },
+    "remove_object_from_drawer_put_on_counter": {
+        "71297": "Remove the white object in the drawer and put it on the counter",
+        "50826": "Take the white object out of the open drawer",
+        "66761": "Remove the white object from the drawer and put it on the countertop",
+        "45873": "Remove the bowl from the open drawer and place it on the countertop",
+        "45906": "Take the paddle out of the drawer and put it on the counter",
+        "40552": "Move the object from the drawer to the countertop",
+        "26684": "Take the object out of the drawer then close the drawer"
+    },
+        "remove_object_from_cabinet_put_on_counter":{
+        "33987": "Remove the blue bowl from the open upper cabinet and place it on the countertop",
+        "10989": "Take the can from the cabinet and put it on the counter"
+    },
+
+    "pour_contents_into_bowl": {
+        "45195": "Put the white object in the open drawer and close the drawer, pour the contents of the blue cup into the blue bowl",
+        "69412": "Pour the candies in the light blue cup into the green bowl",
+        "79427": "Move the candies from the cup to the bowl"
+    }
+}

@@ -1,0 +1,73 @@
+
+{
+    "put_cup_in_bowl": {
+        "34308": "Put the cup in the bowl",
+        "16776": "Put the cup in the bowl",
+        "1545": "Put the cup in the bowl",
+        "77578": "Put the cup in the bowl",
+        "3851": "Put the cup in the bowl",
+        "34965": "Put the cup in the bowl",
+        "27295": "Put the cup in the bowl",
+        "21282": "Put the cup in the bowl",
+        "9012": "Put the cup in the bowl",
+        "2485": "Put the cup in the bowl",
+        "5174": "Put the cup in the bowl",
+        "28479": "Put the cup into the bowl.",
+        "70849": "Put the cup in the bowl",
+        "89057": "Put the cup in the bowl",
+        "22118": "Put the cup in the bowl",
+        "56045": "Put the cup in the bowl",
+        "18159": "Put the cup in the bowl"
+    },
+    "put_orange_cup_in_black_bowl": {
+        "6016": "Put the orange cup in the black bowl",
+        "86019": "Put the orange cup in the black bowl",
+        "45701": "Put the orange cup in the black bowl",
+        "18438": "Put the orange cup in the black bowl",
+        "8593": "Put the orange cup in the black bowl",
+        "51119": "Put the orange cup in the black bowl",
+        "35696": "Put the orange cup in the black bowl",
+        "53471": "Put the orange cup in the black bowl",
+        "10318": "Put the orange cup in the black bowl."
+    },
+        "put_orange_cup_inside_black_bowl": {
+            "83222": "Put the orange cup inside the black bowl",
+            "93743": "Put the orange cup inside the black bowl",
+            "15557": "Put the orange cup inside the black bowl",
+             "32506": "Put the orange cup inside the black bowl",
+            "85357": "Put the orange cup inside the black bowl",
+            "62191": "Put the orange cup inside the black bowl.",
+            "71411": "Put the orange cup inside the black bowl",
+            "87755": "Put the orange cup into the black bowl"
+
+    },
+    "place_orange_cup_inside_black_bowl":{
+        "24781": "Place the orange cup inside the black bowl",
+        "11615": "Place the orange cup inside the black bowl",
+        "89441": "Place the orange cup inside the black bowl",
+        "7674": "Place the orange cup inside the black bowl",
+        "60156": "Place the orange cup inside the black bowl",
+        "16050": "Place the orange cup in the black bowl"
+
+    },
+        "pick_up_orange_cup_put_in_black_bowl":{
+            "94231": "Pick up the orange cup and place it in the black bowl",
+            "49570": "Pick up the orange cup from the table and put it in the black bowl.",
+            "88867": "Take the orange cup and place it in the black bowl",
+            "8526": "Pick up the orange cup and put it in the black bowl",
+            "61641": "Get the orange cup and place it in the black bowl"
+        },
+    "put_orange_plastic_cup_in_black_bowl":{
+        "79523": "Put the orange plastic cup inside the black bowl",
+        "70329": "Put the orange plastic cup in the black bowl"
+    },
+
+    "pick_up_cup_put_in_bowl":{
+        "80784": "Pick up the cup and put it in the bowl",
+        "5656": "Pick up the cup and place it in the bowl",
+        "79538": "Take the cup and put it in the bowl",
+        "21287": "Pick up the orange cup and put it in the bowl",
+        "69276": "Place the cup inside the bowl"
+    }
+}
+

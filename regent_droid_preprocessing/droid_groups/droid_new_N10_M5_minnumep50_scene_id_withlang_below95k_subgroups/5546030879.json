@@ -1,0 +1,123 @@
+
+{
+  "move_right": {
+    "48641": "Move the cucumber to the right",
+    "59417": "Push the tin to the right",
+    "84001": "Move the white bowl to the right",
+    "66233": "Pick up the peach toy from the table and move it to the right.",
+    "41771": "Pick up the purple toy from the table and move it to the right.",
+    "88427": "Move the purple plushie to the right",
+    "91513": "Push the cup to the right on the desk",
+     "91577": "Move the purple plush toy to the right side of the table",
+    "50613": "Pick up the green toy from the table and move it to the right."
+  },
+  "move_left": {
+    "45076": "Move the yellow pepper to the left",
+    "91178": "Move the green object to the left of the white bowl",
+    "23600": "Move the maize to the left side of the green object",
+    "31327": "Pick the pink rabbit and move it to the left of the table",
+    "7787": "Move the orange pan to the left",
+    "43130": "Move the yellow object to the left",
+    "86665": "Move the pink bunny to the left",
+    "13970": "Move the white bowl to the left",
+    "54447": "Move the yellow cylinder to the left.",
+    "4847": "Pick the pink stuffed animal and move it to the left on the table",
+    "1280": "Move the teddy bear from right to the left side",
+    "12572": "Move the cucumber to the left",
+    "15646": "Move the purple object to the left",
+        "73669": "Move the purple plushy to the left",
+    "15357": "Push the tin to the left",
+        "66551": "Move the purple plushie to the left",
+    "15248": "Move the orange object on the right to the left"
+
+  },
+  "move_forward": {
+    "33966": "Move the orange object forward",
+    "48837": "Move the purple object to the front",
+    "57641": "Move the blue object forward.",
+     "11173": "Pick up the maize cob and move it forward to the right",
+     "62921": "Move the toy rabbit forwards"
+
+  },
+  "move_backward": {
+        "86737": "Move the maize cob backwards",
+    "71490": "Move the pink toy backward",
+    "21210": "Move the rabbit plush toy to the back right side of the table."
+  },
+    "put_yellow_object_in_pot": {
+    "75347": "Pick up the yellow object from the table and put it in the pot",
+        "73849": "Put the yellow block in the pot",
+        "79287": "Pick the yellow paper and put it in the pot",
+        "79295": "Pick up the yellow bell pepper from the table and put it in the pot"
+
+  },
+  "put_yellow_object_in_pan": {
+    "9222": "Put the yellow paper in the pan",
+        "7744": "Put the yellow pepper in the orange pan.",
+        "15003": "Put the yellow object inside the orange pan",
+        "40642": "Put the yellow pepper in the orange pan",
+    "34203": "Put the yellow pepper in the orange pan",
+        "37847": "Put the yellow pepper in the orange pan",
+    "45429": "Put the yellow pepper in the orange bowl"
+
+  },
+   "put_yellow_block_in_white_pot": {
+
+    "90127": "Put the yellow block inside the white pot",
+       "21308": "Put the yellow cylindrical block inside the white pot"
+
+  },
+    "put_in_bowl":{
+        "74263": "Put the cylindrical block in the bowl",
+        "93916": "Pick the yellow object and put it in the bowl",
+        "36732": "Pick the yellow object and put it in the bowl",
+         "15730": "Put the yellow block in the white bowl",
+        "34731": "Put the yellow block in the white bowl"
+    },
+
+  "remove_yellow_object_from_pot": {
+    "72864": "Remove the yellow object from the pot.",
+        "57672": "Take the yellow object out of the pot",
+       "69940": "Remove the yellow block from the pot"
+
+  },
+      "put_yellow_object_on_table_from_pot":{
+        "94346": "Pick up the yellow object from the pot and put it on the table",
+        "31887": "Pick the yellow object in the pot and put it on the table",
+        "89828": "Pick the yellow block in the pot and put it on the table",
+        "65855": "Pick up the yellow toy from the orange pot and put it on the table.",
+        "95125": "Pick up the yellow pepper from the pot and put it on the table",
+        "34714": "Pick up the yellow object from the pot and put it on the table"
+      },
+  "remove_yellow_pepper_from_pan": {
+        "92732": "Remove the yellow pepper from the orange saucepan",
+    "78527": "Take the yellow plastic pepper out of the orange pan and place it next to the green can",
+    "86853": "Remove the yellow pepper from the orange pan and put it on the table",
+    "56277": "Remove the yellow pepper out of the pan"
+
+  },
+  "put_on_right_side_of_table": {
+    "57371": "Pick up the carrot plush toy and put it on the right side of the table",
+       "42062": "Pick the maize cob and put it on the right of the desk",
+     "45290": "Pick up the rat plush toy and put it on the right side of the table"
+
+  },
+    "put_on_left_side_of_table":
+  {
+     "74651": "Pick up the corn and put it on the left side of the table"
+  },
+      "other_remove_and_put_on_table":{
+          "80070": "Remove the block from the cream bowl and put it on the table",
+           "86884": "Remove the cylinder from the bowl and put it on the table",
+          "58000": "Pick the pepper in the pot and put it on the table"
+
+      },
+  "put_yellow_block_variants":{
+          "65238": "Put the yellow block in the dish",
+      "6149": "Put the yellow cylinder inside the pot"
+  },
+     "general_move_to_right_corner":{
+          "72732": "Move the bunny plushie to the bottom right corner of the table",
+          "17288": "Move the zucchini to the front right side of the table"
+     }
+}

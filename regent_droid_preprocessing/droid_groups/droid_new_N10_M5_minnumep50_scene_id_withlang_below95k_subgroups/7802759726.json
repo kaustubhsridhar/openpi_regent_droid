@@ -1,0 +1,73 @@
+
+{
+"top_right_button": {
+    "26756": "Push the top right button on the toy stove",
+    "65416": "Push the top right orange button on the cooker",
+    "20618": "Push the top orange button on the right side of the stove",
+    "65291": "Press the right top button on the stove",
+    "65674": "Press the right top button on the stove",
+    "83090": "Press the top right orange button on the stove",
+    "63251": "Press the top right button on the stove",
+    "48916": "Push the top right button on the toy stove",
+    "77207": "Press the top red button on the right side of the stove",
+    "82968": "Press the right upper button on the stove",
+    "25373": "Push the top right button on the cooker",
+    "61726": "Press the top right orange button on the stove",
+    "5663": "Press the top on the right side of the stove",
+    "40607": "Push the top orange button on the right side of the stove button display",
+    "75432": "Push the top orange button on the right side of the stoves button display",
+     "63999": "Push the top orange button to the right of the stove button display",
+    "82613": "Press the top red button on the right",
+    "36980": "Press the top button on the right.",
+    "968": "Press the top right button on the stove",
+    "4940": "Press the top right orange button on the stove",
+    "10193": "Push the top right button of the toy stove",
+    "1366": "Press the top right button orange on the stove",
+    "13143": "Press the top right button on the toy stove",
+     "50117": "Press the top button on the right side of the stove",
+    "81620": "Press the top button on the right side of the stove",
+      "88151": "Press the top button on the right side of the stove",
+      "17519": "Press the top button on the right side of the stove",
+    "35070": "Press the top button on the right side of the stove"
+
+},
+    "top_right_knob": {
+        "69654": "Press the top right knob on the stove",
+        "49835": "Press the top right knob on the stove"
+    },
+"top_right_orange_button": {
+    "8643": "Press the top right orange button on the stove",
+    "16725": "Press the top right orange button on the stove",
+    "63921": "Press the top right orange button on the stove",
+    "23921": "Press the top right orange button on the stove"
+
+},
+"top_switch":{
+    "56711": "Press the top switch on the stove",
+    "16186": "Press the top switch on the stove",
+    "25970": "Press the top switch on the stove"
+},
+
+"orange_button_right_side":{
+    "90669": "Push the orange button on the right side of the stove",
+    "35385": "Push the top orange button on the right side of the stove",
+    "23541": "Push the top orange button on the right side of the stove"
+},
+
+"orange_top_button_microwave_panel":{
+   "1705": "Press the orange top button on the microwave oven controlling panel of the stove",
+    "11307": "Press the top orange button on the microwave controlling panel of the stove",
+    "82881": "Press the top orange button on the microwave oven control panel of the stove",
+    "76229": "Press the orange top button on the microwave oven controlling panel of the stove",
+    "76265": "Press the top orange button on the microwave oven controlling panel of the stove",
+    "65601": "Press an orange top right button on the microwave controlling panel of the stove"
+},
+"red_bottom_right_button":{
+    "82820": "Press the red bottom button on the right side of the stove"
+},
+"orange_button":{
+   "48555": "Press the orange button on the cooker",
+    "37104": "Press the orange button on the stove"
+}
+}
+

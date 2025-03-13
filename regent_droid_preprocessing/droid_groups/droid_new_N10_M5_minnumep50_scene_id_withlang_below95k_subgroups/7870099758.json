@@ -1,0 +1,92 @@
+
+{
+    "Pouring": {
+        "46978": "Pour the contents of the dish on the right into the dish on the left",
+        "9609": "Pour contents from the silver bowl on the right to the silver bowl on the left",
+        "33810": "Pour the contents of the silver bowl into the other silver bowl",
+        "83986": "Pour the contents of the middle bowl into the left bowl",
+        "53270": "Pour the contents in the bowl on the right into the bowl on the left",
+        "94488": "Pour the things in the bowl on the left into the bowl on the right",
+        "11422": "Pour the things in the bowl on the right into the bowl on the left",
+        "82976": "Pour the contents of the left bowl into the right bowl",
+        "13610": "Pour the things in the bowl on the left into the bowl on the right",
+        "59951": "Transfer the contents in the right silver bowl to the left bowl",
+        "83385": "Pour the contents of the left silver bowl into the right silver bowl",
+        "89661": "Pour the contents from the left bowl into the right bowl",
+        "35907": "Pick up the silver bowl and pour its contents in the other silver bowl.",
+        "69315": "Pour the contents of the right bowl into the middle bowl",
+        "32968": "Empty the bowl at the back into the bowl on the right",
+        "16074": "Pour some contents from the silver bowl on the right to the one on the left.",
+        "50895": "Pour the contents from the left bowl into the right bowl",
+        "46934": "Pour the contents in the bowl on the left into the bowl on the right",
+        "93790": "Pour the contents in the bowl on the right into the bowl on the left",
+        "86630": "Pour the contents of the silver bowl into the other silver bowl",
+        "81767": "Pour the contents of the left bowl into the right bowl",
+        "1133": "Take the bowl on the right and pour the beans into the bowl on the left",
+        "20469": "Pour the things in the bowl on the left into the bowl on the right",
+        "92533": "Pour the contents in the right silver bowl into the other",
+        "22652": "Pour the contents of the silver bowl on the right into the silver bowl on the left"
+    },
+    "Stacking": {
+        "63252": "Stack the cups",
+        "92183": "Stack the three measuring cups together",
+        "60707": "Stack the pots on the counter",
+        "8361": "Stack the cups",
+        "93111": "Stack the pots set on the counter",
+        "66044": "Stack the measuring cups together",
+        "36160": "Stack the cups",
+        "40394": "Stack the silver measuring cups together",
+        "55243": "Stack the two silver bowls together",
+        "1616": "Stack the bowls",
+        "62678": "Stack the metal bowls",
+        "7256": "Stack the bowls",
+        "68832": "Stack the metal measuring cups into each other"
+    },
+    "Unstacking": {
+        "34820": "Unstack the silver measuring cups on the countertop",
+        "51622": "Unstack the cups",
+        "38824": "Unstack the cups",
+        "22569": "Unstack the pots on the table",
+        "69949": "Unstack the metal pots",
+        "82770": "Unstack the silver measuring cups",
+        "94431": "Unstack the silver measuring cups",
+        "59003": "Unstack the measuring cups"
+    },
+    "Nesting": {
+        "37900": "Put the measuring cups one inside the other",
+        "72348": "Put the small pot inside the medium pot and put both pots inside the large pot",
+       "18099": "Take the smallest pot and place it inside the second-largest pot, then put both inside the bigger pot",
+        "80705": "Put the measuring cups one inside the other",
+         "14987": "Pick up the smaller silver bowl and put it in the bigger silver bowl.",
+         "89280": "Put the silver bowl on the right inside the silver bowl on the left"
+    },
+    "Separating": {
+        "50949": "Separate the silver pots.",
+        "5909": "Seperate the silver pots.",
+        "77483": "Separate the three pots.",
+         "54108": "Take the measuring cups and place them apart on the counter",
+         "68474": "Separate the measuring cups"
+
+    },
+     "Transferring":{
+        "3857": "Transfer the beans from one bowl to the other",
+         "75693": "Put the objects from the bowl on the left into the bowl near the center",
+         "44087": "Move the objects from the silver bowl on the left and put them in the silver bowl on the right"
+     },
+
+     "Placing_Bowls":{
+      "13026": "Place the left bowl in the right bowl",
+       "82558": "Put the left bowl in the right bowl",
+       "80488": "Get the right silver bowl and put it on top of the left silver bowl"
+     },
+    "Nested_Removal":{
+        "77881": "Remove the medium measuring cup from the large cup then remove the small measuring cup from the medium cup"
+
+    },
+   "Placing_Other":{
+        "36884": "Place the left silver door onto the right silver bowl",
+          "86406": "Pick up the two smaller pots from the small pot and place them on the table.",
+           "77159": "Put the pen in the cup"
+   }
+
+}

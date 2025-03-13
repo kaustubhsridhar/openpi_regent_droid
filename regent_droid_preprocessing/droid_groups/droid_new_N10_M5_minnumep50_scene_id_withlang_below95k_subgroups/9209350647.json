@@ -1,0 +1,67 @@
+
+{
+    "close_top_right_drawer": {
+        "89698": "Close the top right drawer",
+        "82535": "Close the topmost drawer on the right",
+        "93287": "Close the topmost drawer on the right",
+        "62080": "Close the top right drawer",
+        "34979": "Close the top right drawer",
+        "89006": "Close the top right drawer",
+        "53006": "Close the top right drawer",
+        "53504": "Close the top right drawer",
+        "33517": "Close the top right drawer",
+        "55294": "Close the top right drawer fully"
+    },
+    "close_top_left_drawer": {
+        "29725": "Close the top drawer on the left",
+        "72235": "Close the left top drawer",
+        "93764": "Close the topmost drawer on the left",
+        "35495": "Close the topmost drawer on the left",
+        "40677": "Close the top drawer on the left",
+        "82667": "Close the top left drawer",
+        "20157": "Close the top left drawer",
+        "44293": "Close the top left drawer",
+        "32527": "Close the left top drawer"
+    },
+   "close_topmost_left_drawer": {
+        "60943": "Close the topmost drawer on the left",
+        "7203": "Close the topmost drawer on the left"
+    },
+    "close_top_drawer_on_right": {
+       "88611": "Close the top drawer on the right",
+       "60768": "Close the top drawer on the right",
+       "36784": "Close the top drawer on the right"
+    },
+    "close_top_drawer": {
+        "23565": "Close the top drawer",
+        "8311": "Close the top drawer",
+        "23158": "Close the top bedroom drawer",
+        "38095": "Close the topmost drawer",
+        "53143": "Close the topmost drawer"
+    },
+     "open_top_left_drawer": {
+        "81945": "Open the topmost drawer on the left",
+        "60540": "Open the upper drawer on the left",
+        "19119": "Open the left top drawer",
+        "32719": "Open the top left drawer.",
+        "81380": "Open the top left bedroom drawer fully",
+        "19467": "Open the top bedroom drawer fully"
+    },
+    "open_top_right_drawer":{
+        "72376": "Open the top most drawer on the right",
+        "32663": "Open the top right drawer.",
+        "38342": "Open the top right drawer"
+    },
+    "close_both_top_drawers":{
+        "81448": "Close the top left and right drawers",
+        "2219": "Close the two upper drawers",
+        "74725": "Close the two top drawers",
+        "13111": "Close the top drawers",
+        "13737": "Close the top drawers",
+        "32022": "Close the top right and left drawers respectively"
+    },
+    "open_both_top_drawers":{
+        "77944": "Open both topmost drawers fully",
+        "57236": "Open the topmost drawers fully"
+    }
+}

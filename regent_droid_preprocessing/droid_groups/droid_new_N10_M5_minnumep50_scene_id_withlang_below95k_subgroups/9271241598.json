@@ -1,0 +1,72 @@
+
+{
+    "move_object_backward": {
+        "44682": "Move the pepper backwards",
+        "14870": "Move the grey block backward",
+        "72761": "Move the strawberry plush backwards",
+        "57936": "Move the silver bowl backwards",
+        "68462": "Move the eggplant backwards",
+        "60790": "Move the red plush toy backwards"
+    },
+    "move_object_forward": {
+        "77729": "Move the strawberry plush forward",
+        "8943": "Move the orange pepper forwards",
+        "76272": "Move the orange object forward",
+        "62566": "Move the yellow block forward",
+        "21883": "Move the silver bowl forward."
+    },
+    "move_object_right": {
+        "5392": "Move the plush toy to the right",
+        "66967": "Move the red pepper to the right",
+        "10418": "Move the yellow block to the right",
+        "52533": "Move the silver bowl to the right",
+        "76881": "Move the grey tape to the right.",
+        "82404": "Move the yellow cloth to the right"
+    },
+    "move_object_left": {
+        "24219": "Move the red plush toy to the left of the table",
+        "58437": "Move the gray block to the left",
+        "17370": "Pick the gray object and move it to the left on the table",
+        "70783": "Move the blue object to the left on the desk"
+    },
+    "put_yellow_block_on_table": {
+        "29324": "Put the yellow block on the table.",
+        "294": "Place the yellow block on the table",
+        "88168": "Put the yellow block on the table"
+    },
+    "put_yellow_block_in_silver_bowl": {
+        "83137": "Put the yellow block inside the silver bowl",
+        "54619": "Put the yellow block in the silver bowl",
+        "41697": "Place the yellow block in the silver bowl",
+        "72429": "Put the yellow block in the bowl"
+
+    },
+    "remove_yellow_block_from_silver_bowl": {
+        "20881": "Remove the yellow block from the silver bowl",
+        "42029": "Take the yellow block out of the silver bowl"
+    },
+    "put_pepper_in_silver_bowl":{
+        "70325": "Put the orange pepper in the silver bowl.",
+        "36830": "Put the orange pepper in the silver bowl"
+    },
+        "remove_object_and_put_on_table":{
+        "6400": "Remove the pepper from the pot and put it on the table",
+        "84872": "Pick up the red bell pepper from the pot and put it on the table",
+        "29518": "Remove the red plushy from the metal bowl and put it on the table",
+        "88161": "Remove the orange object from the bowl and put it on the table",
+        "4593": "Remove the grey thing from the pot and put it on the table"
+
+    },
+        "pick_up_object_from_table_put_in_pot":{
+           "38574": "Pick up the grey object from the table and put it in the pot",
+           "91720": "Pick up the yellow object from the table and pot it in the put",
+           "91373": "Pick up the red plush toy from the table and put it in the pot",
+           "72395": "Pick up the yellow block from the table and put it in the silver pot."
+        },
+    "move_object_to_bottom_of_table":{
+        "67974": "Pick the red object and move it to the bottom on the table",
+        "45229": "Pick the gray object and move it to the bottom of the desk",
+        "56015": "Pick the orange object and move it to the bottom on the table"
+    }
+}
+

@@ -1,0 +1,77 @@
+
+{
+    "put_blue_lego_in_drawer_close": {
+        "73088": "Put the blue lego brick in the open drawer then close the drawer",
+        "60675": "Put the blue lego brick in the open drawer then close the drawer",
+        "95257": "Put the blue lego brick in the open drawer then close the drawer",
+        "39480": "Put the blue lego brick in the open drawer then close the drawer",
+        "27454": "Put the blue lego brick in the open drawer then close the drawer",
+        "86353": "Put the blue lego brick in the open drawer then close the drawer",
+        "16747": "Put the blue lego brick in the open drawer then close the drawer",
+        "9710": "Put the blue lego brick in the open drawer then close the drawer",
+        "74362": "Put the blue lego brick in the open drawer then close the drawer",
+        "508": "Put the blue lego brick in the open drawer then close the drawer"
+    },
+    "put_blue_object_in_drawer_close": {
+        "34833": "Put the blue object inside the drawer and close it",
+        "71085": "Put the blue object inside the drawer and close it",
+        "17722": "Put the blue object into the drawer then close the drawer",
+        "41658": "Put the blue object inside the drawer then close the drawer.",
+        "67260": "Put the blue object in the drawer and close it",
+        "27172": "Put the blue object in the drawer and close it",
+        "24406": "Put the blue object in the drawer and close it",
+        "50391": "Put the blue object in the open drawer then close the open drawer",
+        "46301": "Put the blue object in the drawer and then close it",
+        "17785": "Put the blue object in the drawer and close it"
+
+    },
+    "put_lego_in_drawer_close": {
+        "91667": "Put the Lego into the open drawer and then close the drawer",
+        "9281": "Put the Lego in the open drawer and then close the drawer",
+        "30172": "Put the Lego in the open drawer and then close the drawer",
+        "32745": "Put the Lego in the open drawer and then close the drawer",
+        "68839": "Put a blue Lego into the open drawer and then close the drawer"
+    },
+    "put_blue_block_in_drawer_close":{
+        "9753": "Pick up the blue block, put it in the drawer and close the drawer.",
+        "53414": "Pick up the blue block, put it in the drawer, and close the drawer.",
+        "13211": "Put the LEGO block in the drawer and close it",
+        "95386": "Put the LEGO block in the open drawer and close it",
+        "16308": "Put the blue block inside the open drawer then close the drawer",
+        "56299": "Put the blue block inside the open drawer then close the drawer",
+        "66935": "Put the blue block in the drawer and close it",
+        "76636": "Place the blue block inside the open drawer then push the drawer closed"
+    },
+    "put_blue_object_in_drawer":{
+       "21526": "Put the blue object inside the drawer.",
+       "86314": "Put the blue object inside the drawer.",
+       "11215": "Put the blue object inside the drawer."
+    },
+      "pick_up_blue_object_put_in_drawer_close": {
+        "72231": "Pick up the blue object from the counter and put it in the open drawer and close it",
+        "25005": "Pick up the blue object on the counter and put it in the open drawer and close it",
+        "87629": "Pick up the blue object from the counter and put it in the open drawer and close it",
+        "44750": "Pick up the blue object from the counter and put it in the open drawer and close it",
+        "10959": "Pick up the blue object from the counter and put it in the open drawer and close it",
+        "33629": "Pick up the blue object from the counter and put it in the open drawer and close it",
+        "20834": "Pick up the blue object from the counter and put it in the open drawer and close it",
+        "54512": "Pick up the blue object from the counter and put it in the open drawer and close it",
+        "33137": "Pick up the light blue object from the base top, put it in the open drawer and close it"
+    },
+        "pick_up_blue_block_put_in_drawer_close": {
+        "83765": "Pick up the blue block from the countertop, put it in the drawer and close the drawer.",
+        "3922": "Pick up the blue block from the countertop, put it in the drawer and close the drawer."
+    },
+      "put_blue_objects_in_drawer_and_close":{
+        "21843": "Put the blue objects in the drawer and close it"
+      },
+       "put_blue_block_inside_drawer_push_closed":{
+        "55620": "Put the blue block inside the drawer then push the drawer closed"
+       },
+    "put_blue_lego_brick_top_drawer_close":{
+      "27844": "Put the blue lego brick in the top drawer then close the drawer"
+    },
+      "put_blue_square_into_drawer": {
+        "8207": "Put the blue square into the drawer."
+      }
+}

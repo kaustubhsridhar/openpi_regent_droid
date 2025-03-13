@@ -1,0 +1,93 @@
+
+{
+    "press_red_button": {
+        "74897": "Press the red button",
+        "25123": "Press the red button.",
+        "46896": "Press the red button",
+        "70768": "Press on the red button"
+    },
+    "press_orange_button": {
+        "58270": "Press the orange button.",
+        "90419": "Press the orange button",
+        "55357": "Press the orange button",
+        "64760": "Press the orange button.",
+        "42691": "Press the orange button on the black box",
+        "85957": "Press down on the orange button on the black box",
+        "456": "Press the big orange button on the black box"
+
+    },
+    "wipe_with_yellow_object": {
+        "82944": "Use the yellow object to wipe the table",
+        "26892": "Use the yellow towel to wipe the surface",
+        "25241": "Fold the yellow cloth and use it to wipe the table",
+        "28958": "Use the yellow towel to wipe the surface",
+        "68657": "Use the yellow cloth to wipe the counter.",
+        "42934": "use the cloth to wipe the surface of the counter",
+        "38524": "Use the yellow cloth to clean the table",
+        "94437": "Wipe the gray counter with the yellow cloth, slide the yellow cloth off the gray counter"
+    },
+    "fold_yellow_object": {
+        "61333": "Fold the yellow object, then move it to the right",
+        "47136": "Fold the yellow towel twice",
+        "12705": "Fold the yellow cloth into half",
+        "91588": "Fold the yellow cloth in half from left to right.",
+        "79863": "Fold the yellow knitted item"
+    },
+    "unfold_yellow_object": {
+        "46508": "Unfold the yellow item",
+        "56404": "Unfold the yellow cloth",
+        "75998": "Unfold the yellow cloth",
+        "18533": "Unfold the yellow cloth and then fold it again"
+    },
+    "move_object_backwards": {
+        "47145": "Move the yellow cloth backwards.",
+        "39232": "Move the small green bowl backwards",
+        "80864": "Move the green bowl backwards",
+        "51699": "Move the yellow cloth and plush toy backwards then lift up the yellow cloth and set it back down on the counter."
+    },
+     "move_object_right": {
+        "42130": "Place the orange knitted item to the right of the green bowl",
+         "15662": "Move the yellow cloth to the right of the spoon",
+         "64201": "Move the green bowl to the right",
+         "75875": "Move the yellow oven mitt to the right",
+         "24703": "Move the orange measuring cup to the right"
+
+    },
+    "move_object_left":{
+        "8079": "Move the light green bowl to the left",
+        "40550": "Move the bowl to the left"
+    },
+    "put_spoon_in_bowl": {
+        "24584": "Put the spoon in the green bowl",
+        "36283": "Put the spoon inside the green bowl",
+        "23245": "Put the serving spoon in the bowl",
+        "80605": "Put the spoon in the green object"
+    },
+    "stir_bowl_contents":{
+        "79525": "Use the spoon to mix the contents of the green bowl",
+        "36278": "Use the spoon to stir the contents in the green bowl",
+        "28095": "Use the black spoon to stir in the green bowl",
+        "44479": "Use the black ladle to stir the contents in the light green bowl."
+    },
+    "pick_up_black_spoon_put_somewhere":{
+        "79488": "Pick up the black spoon from the green bowl and put it on the kitchen counter",
+        "45103": "Pick up the black spoon and put it inside the emerald light green bowl",
+        "21565": "Pick up the black spoon from the lime green bowl and put it on the table"
+    },
+      "pour_into_green_bowl":{
+        "92560": "Pour the contents from the red pot into the green bowl",
+        "55224": "Pick up the orange measuring cup and pour its contents into the lime green bowl",
+        "15050": "Pour the contents from the measuring cup on the left into the light green bowl.",
+        "45807": "Empty the contents of the smaller measuring cup into the green bowl"
+    },
+    "put_in_green_bowl":{
+      "64430": "Put the white object into the green bowl",
+      "61908": "Put the yellow object into the green bowl",
+      "5994": "Put the plushy flamingo in the green bowl"
+    },
+     "remove_from_green_bowl":{
+        "95640": "Remove the black spoon from the green bowl",
+        "39899": "Take the plush toy off of the green bowl"
+
+    }
+}

@@ -1,0 +1,74 @@
+
+{
+    "move_towel_left": {
+        "82179": "Slide the green towel on the countertop to the left.",
+        "66696": "Move the green towel to the left",
+        "19211": "Move the green towel to the left.",
+        "50605": "Move the green towel to the left",
+        "64310": "Move the green towel to the left",
+        "74841": "Move the green towel to the left",
+        "95479": "Move the towel to the left"
+    },
+    "move_towel_right": {
+        "25605": "Move the green towel to the right.",
+        "36361": "Push the towel to the right",
+        "91404": "Slide the green towel to the right",
+        "65065": "Move the green towel to the right",
+        "17963": "Slide the green towel to the right",
+        "54098": "Move the green towel to the right",
+        "34649": "Move the green towel to the right",
+        "63468": "Slide the green towel to the right",
+        "45181": "Move the green towel to the right."
+    },
+    "move_cloth_left": {
+        "27154": "Slide the cloth to the left on the counter",
+        "59435": "Move the green cloth to the left",
+        "56515": "Slide the green cloth to the left",
+        "60667": "Slide the green cloth to the left on the counter",
+        "58707": "Slide the green cloth to the left side of the countertop.",
+        "32122": "Slide the green cloth slightly to the left",
+        "93398": "Slide the cloth to the left on the counter"
+    },
+    "move_cloth_right": {
+        "524": "Move the green cloth to the right",
+        "35988": "Move the cloth to the right on the counter",
+        "90747": "Move the green cloth to the right",
+        "9192": "Move the green cloth to the right"
+    },
+    "fold_towel": {
+        "92426": "Fold the green towel in half from left to right.",
+        "66460": "Fold the green towel.",
+        "57252": "Fold the green towel in half from left to right.",
+        "39336": "Fold the green towel from left to right.",
+        "14129": "Fold the green towel",
+        "47924": "Fold the green towel.",
+        "86731": "Fold the green towel",
+        "64595": "Fold the green towel from right to left",
+        "71258": "Fold the green towel",
+        "81392": "Fold the towel from right to left",
+        "85490": "Fold the green towel from right to left"
+    },
+     "fold_cloth": {
+        "53771": "Fold the green cloth",
+        "22586": "Fold the green cloth",
+        "67667": "Fold the cloth on the counter"
+    },
+    "unfold_cloth": {
+        "65943": "Unfold the green cloth",
+        "59816": "Unfold the green cloth",
+        "56367": "Unfold the cloth",
+        "20533": "Unfold the green cloth",
+        "61026": "Unfold the green cloth"
+    },
+    "unfold_towel": {
+       "45223": "Unfold the towel"
+    },
+    "turn_faucet_right": {
+        "14123": "Turn the faucet to the right",
+        "65481": "Turn the tap faucet to the right"
+    },
+    "turn_faucet_left":{
+        "5862": "Turn the faucet to the left",
+        "76135": "Turn the faucet to the left"
+    }
+}

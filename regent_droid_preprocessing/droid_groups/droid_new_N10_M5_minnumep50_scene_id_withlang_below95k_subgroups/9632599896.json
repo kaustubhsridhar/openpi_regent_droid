@@ -1,0 +1,109 @@
+
+{
+    "close_laptop": {
+        "33182": "Close the laptop",
+        "54577": "Close the laptop",
+        "57820": "Close the laptop",
+        "82765": "Close the laptop."
+    },
+    "open_laptop": {
+        "93464": "Open the laptop",
+        "66631": "Open the laptop"
+    },
+    "press_laptop_keyboard": {
+        "71050": "Press a button on the keyboard of the laptop",
+        "89381": "Press a key on the keyboard",
+        "8261": "Press a button on the laptop keyboard",
+        "35782": "Press on the keyboard",
+        "30975": "Press a key on the keyboard",
+        "72300": "Press a button on the laptop",
+        "37470": "Press the spacebar on the laptop"
+
+    },
+     "wipe_laptop": {
+        "33789": "Use a napkin to wipe the laptop screen",
+        "55465": "Use one white napkin to wipe the laptop.",
+        "94307": "Use the tissue to wipe the laptop",
+        "637": "Use one napkin to wipe the laptop."
+    },
+    "wipe_table": {
+        "21": "Use a paper towel to clean the table",
+        "13856": "Use the napkin to wipe the table"
+    },
+    "twist_bottle_cap": {
+        "16797": "Turn the cap on the water bottle",
+        "35750": "Twist the lid of the bottle clockwise  and anticlockwise",
+        "72256": "Twist the lid of the bottle",
+        "68180": "Partially turn the bottle's cap",
+        "33631": "Turn the lid on the beige bottle.",
+        "94815": "Twist the cap on the bottle"
+    },
+    "put_object_in_box": {
+        "77061": "Put one yellow block in the box.",
+        "9094": "Put the blue block in the wooden toy box.",
+        "67095": "Put the yellow squishy ball inside the box",
+        "28312": "Put the orange block inside the wooden toy box.",
+        "37034": "Put one block inside the wooden box on the right.",
+        "74539": "Pick up the red object from the table and put it in the box",
+        "34685": "Pick up the yellow object from the left and put it in the box",
+        "87725": "Pick up one green block and put inside the open box",
+        "62260": "Put the cylindrical block in the toy box",
+        "48702": "Put the red block into the shape sorting box",
+        "17599": "Put the coffee pod in the wooden box.",
+        "51006": "Pick up the orange block an put it in the small wooden box",
+        "62697": "Pick up the blue rectangular block and place it in the wooden box without a top cover",
+        "50279": "Put the yellow object inside the wooden box",
+        "23675": "Put the orange block in the wooden toy box.",
+        "60144": "Pick up one yellow object from the table and put it in the box"
+    },
+    "slide_lid_closed": {
+        "16402": "Slide closed the lid of the toy box",
+        "75497": "Slide closed the the lid of the toy box",
+        "54521": "Slide closed the lid of the toy box"
+    },
+    "close_box_lid": {
+      "89109": "Close the lid on the box",
+      "10859": "Close the lid on the box",
+      "1697": "Close the shape sorter lid"
+    },
+    "close_box": {
+        "49095": "Close the box",
+        "50033": "Close the cube-shaped wooden object completely"
+    },
+     "open_box_lid": {
+        "25016": "Open the lid of the toy box",
+        "9463": "Open the lid on the wooden toy box.",
+        "62574": "Open the lid of the shape sorter"
+    },
+
+    "slide_lid_off":{
+        "65927": "Slide the lid off of the shape sorting box",
+        "34453": "Slide the lid off of the shape sorting box"
+    },
+    "open_box":{
+        "27786": "Open the cube-shaped object completely",
+        "4781": "Open the cube-shaped wooden object",
+         "35909": "Open the door of the box"
+    },
+       "slide_lid_backward": {
+        "62721": "Slide the lid on the wooden toy box backwards.",
+        "67183": "Move the black thermos backwards."
+    },
+    "slide_lid_left": {
+        "49320": "Slide the wooden toy box lid to the left.",
+        "80750": "Slide the lid on top of the wooden box to the left."
+    },
+    "slide_lid_right": {
+        "3817": "Slide the lid on top of the wooden toy box to the right.",
+        "40306": "Move the toy box to the right."
+    },
+     "slide_lid_open":{
+        "82967": "Half open the wooden box by sliding the lid",
+        "93593": "Slightly remove the top cover of the wooden box with shapes",
+        "48243": "Slide open the lid of the toy box"
+     },
+      "wipe_laptop_keyboard": {
+        "51268": "Use the napkin to wipe the laptops keyboard"
+      }
+}
+

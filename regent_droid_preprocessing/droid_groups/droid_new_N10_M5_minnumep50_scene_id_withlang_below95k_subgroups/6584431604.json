@@ -1,0 +1,99 @@
+
+{
+    "move_forward": {
+        "14858": "Pick up the orange block from the table and move it forward.",
+        "16404": "Move the book forward.",
+        "45261": "Move the colourless lid forward",
+        "25828": "Move the green book forward. Pick up the yellow book from the book holder and put it on the table."
+    },
+    "place_book_in_box": {
+        "38402": "Pick up the book in the back and place it inside the box",
+        "12679": "Pick up the green and white book from the table and place it in the box",
+        "63521": "Move the book from the desk to the box",
+        "2345": "Place the white and yellow book inside the box",
+        "94637": "Take the book at the far right and place it in the box",
+        "18864": "Take the book closest to you and put it in the box"
+    },
+   "stack_on_cube": {
+        "79122": "Pick up the red cube and place it on top of the stacked Rubik's cubes",
+        "75668": "Stack the orange cube on the Rubik's cube",
+        "81844": "Pick up the six face cube and put it on top of the larger six face cube",
+        "79615": "Place the Rubik's cube on the left on top of the Rubik's cube on the right"
+    },
+    "stack_on_block_tower": {
+        "86687": "Pick up the dark purple block and put it on top the block tower on the right",
+        "27848": "Place the blue block on the tower of blocks"
+    },
+   "stack_purple_on_cube": {
+        "69674": "Pick a purple block on the table and put it on top of the smaller Rubik's cube",
+        "12888": "Place the purple block on the small Rubik's cube"
+
+   },
+    "pour_pink_into_whiteblue": {
+        "20751": "Pour the liquid in the pink mug into the white and blue coffee cup",
+        "56465": "Pour the water in the pink cup into the white and blue cup",
+        "57022": "Pour the contents of the pink cup into the white and blue cup",
+        "88425": "Pick up the pink cup from the table and pour the water in it in the white cup."
+    },
+    "remove_lid_and_place": {
+        "12676": "Open the pot and put the lid on the table",
+        "45756": "Pick up the lid from the cup and put it on the table."
+    },
+   "hang_on_wall": {
+        "20488": "Hang the hammer on the rightmost hanger",
+        "91278": "Hang the black tool on the white board",
+        "86595": "Hang the hammer on the wall",
+        "74723": "Hang the objects on the slat wall"
+    },
+    "put_in_glass_container":{
+        "90527": "Place the glass lid on top of the glass container",
+        "59949": "Put the white and red shaker in the glass container"
+    },
+     "remove_tool_place_table":{
+        "65408": "Remove the yellow object hanging on white stand on the right and put it on the table",
+        "67712": "Uncover the jar and then get the wrench from the wall and put it on the table",
+        "72322": "Unhang the spanner from the tool holder and put it on the table",
+        "74794": "Take the black object from the pegboard and place it on the table",
+        "24112": "Take a T-handle from the wall organizer and put it on the table",
+        "23518": "Place the black and yellow tool on the table on the peg board",
+        "65786": "Remove the wrench from the peg board"
+    },
+      "remove_lid_from_pot":{
+        "57653": "Remove the black lid from the grey pot",
+        "60537": "Remove the black lid from the grey pot",
+        "36931": "Take the lid off the glass jar"
+
+    },
+       "fold_towel":{
+          "25676": "Fold the grey towel in half",
+          "79052": "Fold the grey towel from right to left"
+    },
+       "move_to_left":{
+        "13720": "Remove the blue spoon from the box, put it in the cup, move the cup slightly to the left and then move the lid to the left too",
+        "48328": "Move the colourless container to the left side of the orange box",
+        "88699": "Move the cup to the left"
+
+    },
+     "stack_blocks":{
+        "4304": "Pick up the yellow block and stack it on top of the rubix cube, then pick up the brown block and stack it on top of the yellow block.",
+        "55126": "Place the yellow block on top of the brown one",
+        "38247": "Pick the orange block from the table and place it on the yellow block",
+        "57833": "Put the orange block on top of one of the green cubes on the left",
+        "10219": "Get the green block on the table and put it on the orange block",
+        "1136": "Pick up the yellow block and put it on the yellow cube",
+        "16079": "Pick up the purple block and put it on top of the yellow and blue blocks"
+
+    },
+      "close_container":{
+        "43533": "Pick up the lid and close the bowl",
+        "29807": "Take the kid and cover the pot",
+        "70522": "Put the blue block in the pot and cover it with the lid on the table"
+    },
+       "move_right":{
+        "43649": "Move the black object to the right slightly",
+        "30360": "Move the white and green book to the right",
+        "71975": "Move the book from the middle black objects to the right of the box",
+        "79220": "Move the colourless container from left to right"
+
+    }
+}

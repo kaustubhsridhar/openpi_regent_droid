@@ -1,0 +1,87 @@
+
+{
+    "stir_contents_bowl": {
+        "26624": "Use the spatula to stir the contents in the black and white bowl on the left.",
+        "70141": "Use the spatula to stir the contents in the bowl",
+        "41351": "Stir the white bowl with the metal kitchen utensil",
+        "81674": "Use the cake slicer to stir in the bowl closest to you",
+        "6685": "Use the spatula to stir the contents in the bowl",
+        "6396": "Use the silver spatula to stir the contents of the white bowl",
+        "50868": "Use the spatula to stir the contents in the bowl",
+        "93116": "Stir the contents in the bowl",
+        "55749": "Use the silver spatula to stir the contents of the plastic white bowl",
+        "18427": "Use the silver cake spatula to stir the contents in the black and white bowl.",
+        "90209": "Use the silver spatula to stir the bowl",
+        "67690": "Stir the contents in the bowl",
+        "63981": "Stir inside the white bowl with the kitchen utensil",
+        "64729": "Use the cake slicer to stir in the furthest bowl",
+        "94941": "Pick up the spoon and stir in the bowl"
+
+    },
+    "wipe_table_with_towel": {
+        "49285": "Fold the grey towel twice, then use it to wipe the table",
+        "17728": "Use the black towel to clean the table",
+        "63508": "Wipe the table using the black towel",
+        "24727": "Use the black towel to wipe the table",
+        "33688": "Use the towel to wipe the tabletop.",
+        "63772": "Take the towel and clean the right part of the table",
+        "24606": "Use the black cloth to wipe the table",
+        "65182": "Use the grey towel to wipe the tabletop.",
+        "34215": "Use the grey towel to wipe the counter.",
+        "84154": "Use the towel to wipe the table top",
+        "85823": "Pick up the towel and clean the other end of the table",
+        "26823": "Use the grey cloth to wipe the table",
+        "35021": "Use the towel to wipe the table.",
+        "71126": "Use the grey towel to wipe the table",
+        "59363": "Use the black towel to clean the table"
+
+    },
+      "fold_towel": {
+        "94087": "Fold the towel into a triangle twice.",
+        "33547": "Fold the grey towel into a triangle.",
+        "25743": "Completely fold the black rag",
+        "47647": "Fold the towel on the table",
+        "17728": "Fold the black towel",
+        "42083": "Fold the dark towel into a triangle twice."
+    },
+    "unfold_towel": {
+       "17238": "Unfold the towel on the table",
+       "31322": "Unfold the dark grey towel.",
+       "59616": "Unfold the towel.",
+       "60010": "Unfold the black cloth",
+       "61679": "Unfold the black towel"
+    },
+    "open_wooden_box": {
+        "91266": "Open the wooden box",
+        "9632": "Open the wooden object"
+
+    },
+    "slide_lid_wooden_box": {
+        "8833": "Slide the lid on the wooden toy box.",
+        "43949": "Slide the lid on the wooden toy box to the right.",
+        "79840": "Slide the top off the wooden box"
+    },
+      "close_lid_box":{
+        "51879": "Close the lid of the shape sorter",
+        "12907": "Close the lid on the wooden toy box."
+      },
+
+    "turn_bottle":{
+        "25615": "Turn the brown bottle to the left",
+        "91444": "Turn the brown bottle to the left"
+
+    },
+    "twist_lid_bottle": {
+        "57923": "Twist the lid on the bottle",
+        "30325": "Twist the lid on the bottle",
+        "10834": "Turn the lid of the beige bottle in a clockwise direction"
+    },
+      "put_yellow_block_in_box":{
+        "5005": "Put a yellow item in the cube",
+        "38810": "Put the yellow block in the toy box",
+        "44074": "Put one yellow block in the wooden toy box.",
+        "75877": "Put the yellow block into the shape sorting box",
+        "22719": "Place the yellow cube in the wooden box through the square cutting on the lid"
+      }
+}
+

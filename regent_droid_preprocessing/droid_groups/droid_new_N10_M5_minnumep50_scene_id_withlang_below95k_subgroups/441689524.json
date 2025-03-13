@@ -1,0 +1,113 @@
+
+{
+    "move_mug_backward": {
+        "37889": "Move the mug backward",
+        "3646": "Move the yellow mug backwards",
+        "87743": "Move the mug backwards",
+        "76432": "Move the yellow mug backwards",
+        "9991": "Move the yellow mug backwards",
+        "3358": "Move the yellow mug backwards",
+        "66500": "Slide the mug backwards"
+    },
+    "move_cup_forward": {
+        "65036": "Move the cup forward",
+        "95250": "Move the cup forward",
+        "27683": "Slide the cup forward",
+        "17981": "Move the yellow cup slightly to the front",
+        "70513": "Move the cup towards you",
+        "19881": "Move the cup towards you",
+        "836": "Move the cup on the table forward"
+
+    },
+    "move_mug_left": {
+        "89101": "Move the mug from right to left",
+        "36886": "Move the mug to the left",
+        "5655": "Move the yellow mug to the left",
+        "34348": "Move the mug to the left",
+        "92768": "Move the yellow mug to the left",
+        "55915": "Slide the mug to the left",
+        "83062": "Slide the yellow mug to the left",
+        "59585": "Move the yellow mug to the left",
+        "58594": "Slide the mug slightly to the left",
+        "38782": "Move the mug cup to the left",
+        "39314": "Move the yellow mug to the left",
+        "3514": "Move the mug to the left",
+         "40957": "Move the mug to the left",
+        "29138": "Move the yellow mug to the left",
+        "72503": "Move the white mug to the left"
+
+    },
+    "move_cup_backward": {
+        "28186": "Move the grey cup backwards",
+        "43117": "Move the cup backward",
+        "56033": "Move the cup backwards",
+        "8433": "Move the cup backwards",
+        "57706": "Move the cup backward",
+        "57197": "Move the cup away from you",
+        "88462": "Move the cup backwards",
+        "44536": "Move the cup backwards"
+    },
+    "move_mug_right": {
+        "50734": "Move the yellow mug to the right",
+        "94334": "Move the mug cup to the right",
+        "42049": "Move the mug to the right side of the table",
+        "45271": "Move the mug to the right",
+        "32967": "Move the mug slightly to the right",
+        "94189": "Move the mug to the right",
+        "30477": "Move the mug to the right",
+        "84756": "Move the mug to the right",
+        "4953": "Move the mug to the right",
+      "4377": "Move the white mug from left to right"
+
+    },
+    "move_cup_left": {
+        "44119": "Move the cup to the left",
+        "70271": "Slightly move the cup to the left on the table",
+        "51358": "Move the cup slightly to the left",
+        "22698": "Slide the cup to the left",
+        "25810": "Move the cup to the left",
+        "40736": "Move the cup to the left",
+        "75058": "Move the grey cup to the left",
+        "91980": "Move the cup to the left slightly",
+        "51032": "Move the cup to the left",
+        "32608": "Move the cup to the left",
+        "84832": "Slide the cup to the left",
+        "68040": "Move the cup to the left"
+    },
+    "move_mug_forward": {
+      "54334": "Move the yellow mug forward",
+      "56909": "Move the mug forward",
+      "13941": "Move the yellow mug forwards",
+      "41590": "Slide the mug forward towards the right",
+      "33010": "Move the mug forward.",
+      "69873": "Move the mug forwards",
+      "37699": "Slide the mug forward",
+      "55695": "Move the mug forward"
+
+    },
+     "move_cup_right": {
+        "30770": "Move the cup to the right",
+        "29244": "Move the cup to the right",
+        "58949": "Move the cup to the right",
+        "85175": "Move the cup on the table to the right",
+        "11986": "Shift the cup to the right",
+        "44247": "Move the cup to the right",
+        "64238": "Move the cup slightly right and upward",
+        "76548": "Move the cup to the right",
+        "6477": "Move the cup to the right",
+        "34758": "Move the cup to the right",
+         "62882": "Move the cup slightly to the right on the table",
+        "38836": "Move the cup slightly to the right"
+
+    },
+     "move_to_center": {
+        "82996": "Place the mug at the center of the table",
+        "28841": "Move the white mug to the middle of the table",
+        "1200": "Move the brown coffee cup to the center of the table",
+        "19271": "Move the mug to the center of the table",
+        "36192": "Place the mug in the middle of the table",
+        "30052": "Move the white mug to the center of the table",
+        "35316": "Place the mug at the center of the table"
+     }
+}
+

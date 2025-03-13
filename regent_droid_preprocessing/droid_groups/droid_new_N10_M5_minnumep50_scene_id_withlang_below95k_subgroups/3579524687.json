@@ -1,0 +1,57 @@
+
+{
+    "keyboard_interactions": {
+        "88710": "Press a key on the keyboard.",
+        "23309": "Press a button on the keyboard",
+        "56274": "Press a key on the keyboard.",
+        "87495": "Press the buttons of the keyboard on the top right",
+        "51564": "Press the top right button on the keyboard"
+    },
+    "oven_door": {
+        "54557": "Open the oven door.",
+        "22583": "Open the oven door.",
+        "5050": "Open the white oven.",
+        "16629": "Open the oven door.",
+        "70942": "Close the oven",
+        "59498": "Close the oven door."
+
+    },
+     "move_right": {
+        "43042": "Move the brown object to the right.",
+        "4161": "Move the green item to the right",
+        "8155": "Move the spatula to the right"
+    },
+    "move_forward": {
+        "34573": "Push the orange object further into the microwave",
+        "7581": "Use the spatula to push the green ball further into the microwave",
+        "68918": "Move the grey stand forwards."
+    },
+    "move_backward": {
+        "59684": "Move the black cable backwards",
+        "14156": "Move the black cable to the right, then move it backwards"
+    },
+
+    "top_knob_left": {
+        "66616": "Turn the top knob to the left.",
+        "27517": "Turn the top knob of the microwave to the left"
+    },
+        "place_lid_on_container": {
+        "61674": "Put the grey lid on the bottle",
+        "46067": "Put the metal lid on the salt cellar"
+    },
+    "interact_with_red_bowl_and_spoon":{
+        "18982": "Use a spoon to take a scoop out of the red bowl then empty it back into the bowl and place the spoon back",
+       "52331": "Pick up the blue scooper from the rack on the left and use it to stir the contents of the red bowl",
+        "22009": "Put the silver spoon in the red bowl."
+    },
+    "oven_knob_interactions":{
+        "11434": "Turn the topmost knob on the white oven.",
+        "8670": "Turn the upper knob on the oven clockwise"
+
+    },
+        "roller_interactions":{
+        "34336": "Pick up the roller and move it left and right over the table",
+        "27508": "Pick up the roller and then move it around on the keyboard"
+    }
+}
+

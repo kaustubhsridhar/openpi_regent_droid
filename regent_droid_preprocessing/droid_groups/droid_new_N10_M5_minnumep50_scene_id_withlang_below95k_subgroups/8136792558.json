@@ -1,0 +1,68 @@
+
+{
+    "press_sachet": {
+        "24466": "Press down the sauce sachet",
+        "24634": "Press down on the yellow sachet",
+        "126": "Press down the yellow sachet",
+        "88546": "Turn the yellow sachet upside down, then press the top of it"
+    },
+    "press_white_sachet": {
+        "24524": "Press down on the white sachet.",
+        "8049": "Press down on the white sachet on the napkin."
+    },
+    "press_brown_object": {
+        "77828": "Press on the brown object",
+        "44713": "Press on the brown object"
+    },
+    "pour_into_cup": {
+        "93827": "Lift the brown sachet and pour some of its content into the cup",
+        "71066": "Pour some tomato sauce into the cup"
+    },
+    "pour_right_cup_into_left_cup": {
+       "93405": "Pick up the white paper cup on the right and pour all its contents into the white paper cup on the left",
+        "22653": "Pick up the paper cup on the right and pour its contents into the paper cup on the left"
+    },
+    "put_on_counter": {
+        "22148": "Remove a yellow sachet from the top shelf and put it on the counter",
+        "78732": "Remove the packet from the shelf and put it on the counter",
+        "10043": "Remove a brown stick from the second top compartment from the left and put it on the counter",
+         "35019": "take an object and put it on the counter",
+        "65879": "Shift one yellow packet to the counter"
+    },
+    "put_on_rack_or_shelf": {
+        "3206": "Put one brown sachet on the middle shelf of the stand.",
+        "1853": "Put the straw on the top second left rack",
+        "46403": "Put the white sachet on the top right rack",
+        "67526": "Put the sachet on the shelf",
+        "64866": "Put the plastic on the rack",
+        "88045": "Pick up the yellow package and place it in the top most second left rack"
+    },
+      "put_on_wooden_stand": {
+        "74159": "Pick up the red sachet from the counter and put it on the wooden stand.",
+        "75377": "Put the orange sachet on the wooden stand."
+    },
+    "remove_from_rack_or_shelf":{
+        "53826": "Take the yellow packet off of the rack",
+        "67165": "Take the small brown packet off of the shelf"
+    },
+
+    "unstack_cups":{
+        "68502": "Unstack the two coffee cups.",
+        "17015": "Take a cup out of another"
+    },
+    "put_in_cup":{
+        "10249": "Put the paper cup on the left into the paper cup on the right",
+        "11942": "Lift the cup on the right and put it inside the cup on the left",
+         "26486": "Pick up the long brown object on the table and put it in the paper cup"
+    },
+    "place_on_topmost_shelf":{
+        "40452": "Remove one yellow sachet from the topmost shelf and place it on the napkin.",
+        "4440": "Pick up the yellow sachet from the counter and put it on the topmost shelf of the stand."
+    },
+      "put_item_on_countertop":{
+          "82834": "Remove the object from the cup and put it on the countertop",
+          "11048": "Lift one tomato  ketchup  and put it on the kitchen countertop",
+           "17003": "Put one stirrer on the countertop."
+      }
+}
+

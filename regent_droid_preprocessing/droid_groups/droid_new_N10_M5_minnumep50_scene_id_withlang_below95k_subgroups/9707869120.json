@@ -1,0 +1,151 @@
+
+{
+    "place_blue_item_in_blue_box": {
+        "74755": "Pick up one blue sachet from the left side of the counter and place it in the blue box on the right",
+        "47168": "Put the blue sachet on the left in the blue box",
+        "26313": "Pick up one sachet from the countertop and put it in the blue box.",
+        "14495": "Put one of the blue sachets on the counter inside the blue box",
+        "82156": "Put one blue sachet from the counter into the blue box",
+        "62692": "Get the blue item on the table and place it in the blue box",
+        "39203": "Put one of the blue objects inside the blue box",
+        "36304": "Put a blue sachet inside the box"
+    },
+    "place_item_in_basket": {
+        "5127": "Pick up the blue packet from the countertop and put it in the black basket",
+        "522": "Pick up the small blue packet from the countertop and put it in the black wire basket.",
+        "33001": "Pick up the small blue object and put it in the basket",
+        "58008": "Put a blue packet from the counter into the basket",
+        "93942": "Put a blue packet in the basket",
+        "77431": "Pick up the object and put in the basket",
+      "30074": "Get the right sachet and put it in the black basket",
+        "12238": "Pick the blue pack on the counter and put it in the basket",
+        "57770": "Pick one pack of snacks on the counter and put it in the basket"
+
+    },
+    "place_item_in_box": {
+        "67083": "Put the pack in the middle in the box",
+        "81979": "Put a packet from the counter in the box",
+        "3136": "Put the pack on the table inside the box",
+        "45645": "Pick up the blue object and put it in the box",
+        "61078": "Put a blue packet in the box",
+        "5810": "Place a small package in the box",
+        "57534": "Put the packet in the box",
+        "70382": "Put a blue packet in the box",
+        "90363": "Put a packet on the counter into the box",
+        "13065": "Pick one packet on the counter and put it in the box",
+        "75022": "Put the blue sachet in the box",
+      "70045": "Put the pack that closest to the box into the box",
+        "27629": "Put one of the packets in the box"
+
+    },
+    "place_item_in_bag":{
+        "4156": "Put the small package in the big white and orange bag",
+        "28261": "Pick a snack pack and put it in the bag",
+      "10427": "Put one sachet in the bag",
+        "76152": "Pick the sachet and put it in the bag"
+    },
+    "place_item_in_packet":{
+        "85073": "Put one sachet in the packet",
+        "29284": "Put a snack pack in the packet",
+        "73320": "Put the sachet in the packet",
+      "78139": "Place a snack pack in the large packet"
+    },
+    "place_item_in_large_package":{
+         "19045": "Take one of the small packets and put it inside the large package",
+          "6844": "Pick one packet of snacks on the counter and put it in the big pack",
+        "1415": "Take one pack of snacks from the counter and put it inside the big packet"
+    },
+     "move_basket_right": {
+        "74791": "Move the basket to the right",
+        "30872": "Move the black basket to the right"
+    },
+    "move_blue_box_right":{
+        "38981": "Push the blue box to the right",
+        "19611": "Move the blue box to the right"
+    },
+    "move_basket_left": {
+        "63563": "Move the basket to the left",
+        "21184": "Move the basket to the left"
+    },
+        "move_blue_box_left":{
+        "55538": "Move the blue box to the left and make it stand",
+        "71013": "Move the blue box to the left"
+
+    },
+      "move_item_left":{
+           "36712": "Move one sachet to the left",
+          "46441": "Move one blue sachet from the right pile to the left of the box",
+          "43884": "Move the trail mix packet to the left side of the counter",
+        "86521": "Move one orange and white packet to the left side of the countertop",
+        "57754": "Move one of the small orange and white packets to the left side of the counter",
+          "16264": "Slide the bag on the countertop to the left."
+      },
+        "move_box_left":{
+            "90897": "Move the box to the left",
+            "88998": "Slide the box to the left"
+        },
+     "move_item_right":{
+        "13883": "Move the large packet to the right side of the counter",
+         "55013": "Move the snack pack to the right",
+         "28070": "Move the paper to the right",
+         "15803": "Move the purple and white packet to the right"
+
+     },
+    "pour_contents_onto_counter":{
+        "89676": "Pour the contents in the black basket on the countertop",
+        "91291": "Pour the contents of the basket onto the counter",
+        "45843": "Pour the packs from the basket onto the countertop",
+         "89455": "Pour the contents from the box onto the countertop"
+    },
+
+    "remove_item_from_basket_place_on_counter": {
+        "22671": "Remove the sachet from the black basket and put it on the countertop",
+        "93675": "Remove one blue sachet from the basket and place it on the countertop",
+        "7040": "Remove one blue sachet from the black basket and put it on the right side of the countertop"
+
+    },
+     "remove_item_from_packet_place_on_counter":{
+        "5696": "Remove a packet from the bin and put it on the counter",
+         "87884": "Remove one sachet from the pack and put it on the countertop",
+         "2984": "Remove one packet from the pack and place it on the counter",
+          "9182": "Remove a small packet from the big packet and put it on the counter",
+          "12168": "Take a pack of snacks out of the big packet and put it on the counter",
+        "94718": "Take a pack from the basket and place it on the counter"
+
+     },
+     "set_box_upright":{
+          "69921": "Set the box upright on the counter",
+           "25460": "Put the box upright",
+           "86000": "Put the box upright on the countertop",
+         "75142": "Place the blue box upright"
+     },
+      "place_blue_sachet_in_black_basket_left":{
+        "5103": "Pick up one blue sachet from the counter and place it inside the black basket on the left",
+        "82817": "Place one blue sachet inside the black basket on the left"
+      },
+      "pick_up_two_blue_packs_from_basket_place_on_counter":{
+          "3942": "Pick two blue packs out of the basket and put them on the counter",
+        "38787": "Pick up two blue packs from the black wire basket and put them on the countertop."
+      },
+      "move_towards_you_forward":{
+          "27751": "Pus the sachet closer to the edge forward"
+      },
+       "move_away_from_you_backward":{
+           "71566": "Move the black basket backwards",
+           "11105": "Move the basket away from the sink"
+
+       },
+        "put_sachet_in_snack_bag":{
+            "33425": "Put one sachet in the snack bag"
+        },
+    "place_purple_packet_in_orange_bag":{
+         "87712": "Place a purple packet in the orange bag"
+    },
+      "move_purple_packets_from_right_to_left":{
+          "21711": "Move one of the purple packets from the pile on the right to the pile on the left"
+      },
+      "stand_upright": {
+          "66198": "Place the blue box upright to the right of the counter",
+          "12607": "Put the white and orange packet upright"
+      }
+}

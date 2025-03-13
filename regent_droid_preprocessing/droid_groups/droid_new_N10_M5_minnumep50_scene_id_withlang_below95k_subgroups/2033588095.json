@@ -1,0 +1,107 @@
+
+{
+    "green_grapes_to_silver_pot_in_sink": {
+        "33291": "Put the green grapes inside the silver pot in the sink",
+        "39602": "Put the green grapes inside the silver pot in the sink",
+        "93775": "Put the green grapes inside the pot in the sink"
+    },
+    "green_grapes_from_stove_to_silver_pot_in_sink": {
+        "39489": "Pick up the grapes from the top of the stove and put them inside the silver pot in the sink",
+        "6855": "Pick up the green grapes from the stove and put them inside the silver pot in the sink",
+        "11351": "Pick up the green grapes from the stove and place them inside the silver pot in the sink",
+        "45026": "Remove the plastic green grapes from the stove and place it in the silver pot in the sink"
+    },
+        "green_grapes_from_stove_to_pot_in_sink": {
+        "27887": "Pick up the green grapes from the stove and place them inside the pot in the sink"
+
+    },
+    "green_object_from_stove_to_pot_in_sink": {
+        "91654": "Pick the object on the stove and put it in the pot in the sink",
+        "33689": "Get the green fruit toy from the stove and put it in the pot that is in the sink",
+        "70313": "Put the green object on the stove into the pot that is in the sink",
+        "88674": "Put the green thing on the stove in the pot that is in the sink",
+        "91884": "Pick the green object on the stove and put it in the pot in the sink",
+        "16370": "Put the green object atop the stove inside the pot in the sink",
+        "49013": "Pick up the green object from the stove and put it in the pot which is in the sink",
+        "92520": "Put the thing on the stove inside the pot in the sink"
+    },
+    "green_object_to_pot_in_sink": {
+        "1354": "Put the green object inside the pot in the sink",
+        "40061": "Put the green object in the pot that is in the sink"
+    },
+    "green_object_from_stove_to_silver_pot_in_sink": {
+        "5012": "Move the green object from the stove to the silver pot in the sink",
+        "38688": "Remove the green object from the stove and place it inside the silver pot in the sink",
+        "60091": "Remove the green object from the stove and place it inside the silver pot in the sink"
+    },
+    "green_object_to_silver_pot_in_sink": {
+        "39376": "Put the green object into the silver pot in the sink",
+        "40319": "Put the green object inside the silver pot"
+    },
+     "green_toy_from_stove_to_pot_in_sink":{
+        "75471": "Pick up the green toy from the stove and place it in the silver pot.",
+        "3280": "Pick up the green toy from the stove and put it in the pot in the sink.",
+        "75239": "Pick up the green toy from the stove and put it in the pot in the sink."
+    },
+    "grapes_to_pot": {
+        "53541": "Put the grapes in the pot",
+        "52276": "Put the grapes in the pot"
+    },
+    "grapes_to_silver_pot":{
+        "77532": "Put the grapes inside the silver pot"
+    },
+    "plastic_grapes_to_pot_in_sink": {
+        "73369": "Put the plastic grapes in the pot in the sink",
+        "90432": "Put the plastic grapes in the pot in the sink"
+    },
+        "plastic_grapes_to_silver_pot_in_sink":{
+        "36196": "Put the plastic grapes in the silver dish in the sink"
+    },
+        "plastic_grapes_from_stove_to_pot_in_sink":{
+        "37346": "Take the plastic grapes from the stove and put them in the pot in the sink"
+    },
+    "plush_toy_to_pot": {
+       "76434": "Put the plush toy into the pot."
+    },
+    "plush_toy_to_silver_pot_in_sink":{
+        "68753": "Put the plush toy into the silver pot in the sink.",
+        "64465": "Put the plush toy into the silver pot."
+    },
+        "plush_toy_from_stove_to_pot":{
+        "1235": "Remove the grape plush from the stove and put it in the pot",
+        "31711": "Remove the green plush from the stove and put it in the pot"
+    },
+    "blue_object_from_stove_to_pot": {
+        "45080": "Take the blue object from the stove and put it in the pot",
+        "26161": "Take the blue toy from the stove and put it in the pot"
+    },
+    "blue_sponge_to_pot_in_sink": {
+        "22675": "Put the blue sponge in the pot in the  sink"
+    },
+    "blue_toy_to_pot": {
+        "79783": "Put the blue toy in the pot",
+        "25899": "Place the blue toy in the pot"
+    },
+    "blue_toy_to_pot_in_sink": {
+        "42920": "Put the blue toy inside the pot in the sink",
+        "56778": "Put the blue toy inside the pot in the sink"
+    },
+    "grape_toy_to_pot_in_sink": {
+        "8471": "Put the grape toy inside the pot in the sink"
+    },
+   "green_toy_to_pot":{
+        "8240": "Put the green toy in the pot"
+    },
+      "turquoise_toy_to_pot_in_sink":{
+        "82284": "Put the turquoise toy inside the pot in the sink"
+    },
+     "toy_to_silver_pot":{
+        "25833": "Put the toy into the silver pot."
+    },
+     "grapes_from_stove_to_pot":{
+        "69983": "Pick the bunch of grapes on the stove and put it in the pot"
+    },
+        "green_grapes_to_silver_pot":{
+        "11207": "Put the green grapes inside the silver pot"
+    }
+}

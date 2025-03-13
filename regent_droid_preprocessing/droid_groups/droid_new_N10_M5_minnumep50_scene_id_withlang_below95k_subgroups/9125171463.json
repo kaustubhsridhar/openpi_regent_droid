@@ -1,0 +1,78 @@
+
+{
+    "close_cabinet_door": {
+        "85899": "Close the left upper cabinet door.",
+        "78220": "Close the top cabinet door that is open",
+        "59153": "Close the open upper cabinet door.",
+        "5420": "Close the cupboard door"
+    },
+    "open_cabinet_door": {
+        "26122": "Open the left door of the top cabinet then pick up the blush and put it in the cabinet",
+        "26938": "Open the kitchen cabinet door on the left",
+        "70735": "Open the cabinet's left door completely",
+        "13523": "Open the far right door of the cabinet",
+        "53074": "Open the cabinet's right door",
+        "58584": "Open the cabinet door on the right"
+    },
+    "put_spoon_on_plate": {
+        "49943": "Put the white spoon on the white plate.",
+        "14407": "Put the white spoon on the white plate."
+    },
+    "move_item_left": {
+        "91333": "Move the tissue box to the left",
+        "17868": "Move the container to the left"
+    },
+    "move_item_right": {
+        "36145": "Move the jug to the right.",
+        "3411": "Move the box to the right"
+    },
+    "move_item_forward": {
+        "65793": "Move the bowl to the front",
+        "35657": "Move the napkin on the counter forward"
+    },
+     "stir_bowl_with_spoon": {
+        "61338": "Use the stirrer on the plate to stir the contents in the bowl then place it back on the plate",
+        "56859": "Use the plastic spoon to stir the contents of the ceramic bowl",
+        "50475": "Use the white spoon to stir the grey bowl then return the spoon to the white plate.",
+        "82403": "Use the white spoon to stir the contents in the grey bowl.",
+        "25715": "Use the spoon in the blue bowl to stir the contents in the grey bowl then place the spoon back"
+    },
+    "wipe_with_tissue": {
+        "85623": "Use the tissue to wipe the plate",
+        "42487": "Wipe the plate using the tissue"
+    },
+     "wipe_with_napkin":{
+        "89801": "Use the napkin to wipe the white plate then place the napkin back",
+        "14041": "Use the white napkin to wipe the right side of the counter."
+     },
+    "put_lid_on_jar": {
+        "55172": "Put the red lid on the jar",
+        "21557": "Put the red lid on top of the clear jug."
+    },
+    "remove_lid_from_jar": {
+         "11729": "Remove the red lid from the jug.",
+         "87138": "Take the lid off of the jar"
+    },
+    "no_action": {
+        "19920": "No action",
+        "4202": "No action"
+    },
+      "wipe_with_paper_towel": {
+        "87891": "Use the paper towel to clean the surface",
+        "28789": "Wipe four tiles of the counter using the serviette"
+      },
+     "put_object_in_cup":{
+        "48037": "Put the coffee pod in the blue cup",
+        "21114": "Pick up the bottle and put it in the cup"
+
+     },
+      "put_object_in_jar":{
+        "76333": "Put the paper towel in the jar",
+        "86626": "Pick up the object and put it in the jar"
+      },
+    "stir_with_straw":{
+        "14974": "Use the straw to stir in the brown bowl",
+        "62949": "Place the blue cup on the plate and stir the contents"
+    }
+}
+

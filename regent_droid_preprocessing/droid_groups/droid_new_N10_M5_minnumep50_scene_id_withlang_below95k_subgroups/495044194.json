@@ -1,0 +1,62 @@
+
+{
+    "put_toy_in_bowl": {
+        "8458": "Put the orange toy in the bowl",
+        "39948": "Put the green block inside the bowl",
+        "59916": "Put the green block inside the bowl",
+        "80147": "Put the orange toy in the green bowl",
+        "34120": "Put the green toy animal in the bowl",
+        "91596": "Put the purple ball in the bowl",
+        "25167": "Put one yellow toy in the bowl",
+        "4061": "Put the orange toy in the bowl",
+        "26865": "Put the purple ball in the bowl",
+        "46335": "Put the orange toy in the green bowl"
+    },
+    "put_toy_in_green_bowl": {
+        "94084": "Put the dark green toy teddy in the green bowl",
+        "57483": "Pick up the blue block on the worktop and put it in the green bowl",
+        "18704": "Pick up the blue horse shaped toy from the table and put it in the green bowl",
+        "60840": "Remove the blue block from the stack and put it in the green bowl",
+        "16180": "Put the lime green block in the green bowl",
+        "1461": "Remove the blue toy from on top of the yellow block and put it in the green bowl",
+        "57146": "Put the blue toy in the green bowl",
+        "86588": "Pick up the yellow toy from the right side of the table and put it in the green bowl",
+        "61003": "Put the yellow toy on the left inside the green bowl",
+        "9820": "Pick up the yellow toy from the table and put it in the green bowl",
+        "52063": "Put the green bear toy in the green bowl",
+        "1250": "Pick up the blue block from the left side of the table and put it in the green bowl",
+        "15074": "Put the yellow toy in the green bowl.",
+        "56554": "Put the dark green block in the bowl",
+        "9651": "Shift the yellow item from the table to the bowl"
+
+    },
+    "remove_toy_from_bowl_and_put_on_table": {
+        "11018": "Remove the toy elephant from the green bowl and put it on the table",
+        "44046": "Remove the blue ball from the bowl and put it on the table",
+        "80273": "Pick up the green toy from the green bowl and put it on the table",
+        "44052": "Remove the yellow plastic animal from the bowl and put it on the table",
+        "76188": "Remove the ball from the green bowl and put it on the table",
+        "79135": "Take the blue animal toy out of the bowl and put it on the table",
+        "3753": "Remove the yellow toy from the green bowl and place it on the table",
+        "42440": "Remove the orange plastic toy from the green bowl and put it on the table",
+        "80971": "Take the orange rubber toy out of the bowl and put it on the table",
+        "43353": "Pick up the yellow toy from the green bowl and put it on the table",
+       "7398": "Pick up the orange toy from the green bowl and put it on the table"
+    },
+        "remove_toy_from_green_bowl":{
+        "86467": "Remove the green toy from the green bowl",
+        "62153": "Remove the yellow toy from the bowl",
+        "53593": "Remove the blue toy from the bowl",
+        "61785": "Remove the yellow object from the green bowl and put it on the green cube on the table",
+        "12222": "Remove the blue block from the bowl",
+        "1567": "Remove the dark green toy block from the bowl"
+    },
+     "move_green_bowl_forward":{
+        "30830": "Move the green bowl forwards then remove the blue block from the bowl and place it on top of the blue block on the table."
+     },
+    "move_bowl_backward":{
+
+        "79748": "Pick up the blue toy from the green bowl and put it on the table, slide the green bowl a little backward on the table"
+    }
+}
+

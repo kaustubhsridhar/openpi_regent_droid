@@ -1,0 +1,95 @@
+
+{
+    "put_socks_in_white_bag": {
+        "30336": "Put the black socks in the white bag",
+        "79364": "Put the socks inside the white bag",
+        "63655": "Put the socks in the white bag",
+        "36905": "Place the black socks inside the white paper bag",
+        "89670": "Place the black socks inside the white bag",
+        "78301": "Put the black socks in the white bag",
+        "33379": "Place the black socks in the white paper bag.",
+        "37747": "Place the black socks inside the white bag"
+    },
+    "put_towels_in_white_bag": {
+        "58386": "Put the towel into the white bag",
+        "73149": "Put the white towels inside the white paper bag",
+        "68926": "Put one towel in the white bag",
+        "75197": "Put the white towels inside the bag",
+        "80060": "Put the towel inside the white paper bag",
+        "324": "Put the white towel into the paper bag",
+        "30155": "Pick one towel from the table and put it in the white bag.",
+        "6734": "Place one white towel in the white bag",
+        "82552": "Pick up one towel and put it in the white bag."
+
+    },
+        "put_towels_in_bag": {
+        "84504": "Put one towel in the paper bag.",
+        "5289": "Put one towel in the bag",
+        "95303": "Put the towel in the bag",
+        "62167": "Put one towel in the bag"
+
+    },
+    "put_cloth_in_bag":{
+        "45569": "Pick a cloth on the box and put it in the bag",
+        "56738": "Pick a cloth in the box and put it in the bag",
+        "64190": "Pick the cloths in the box and put them in the bag",
+        "78267": "Pick up the cloth and put it in the paper bag"
+    },
+    "put_sachets_in_box": {
+        "46155": "Put the sachets in the box",
+        "26597": "Put the sachets from the countertop and put them in the box."
+    },
+    "put_packets_in_box": {
+        "13602": "Put the packets inside the box",
+        "6079": "Put the two empty packets into the box",
+        "77527": "Put the orange packets in the box"
+    },
+    "remove_sachets_from_box":{
+        "41617": "Remove one sachet from the box and place it on the upper part of the countertop",
+        "79510": "Pick the sachet in the box and put it on the table",
+        "91974": "Remove the two sachets out of the box, one at a time",
+        "74578": "Remove the two sachets from the box and place them on the upper countertop",
+        "31860": "Remove the two orange sachets from the box and place them on the countertop"
+    },
+    "place_sachets_on_box":{
+        "73488": "Put the two orange sachets on the box, one at a time",
+        "40500": "Place two sachets from the counter on the box",
+        "64865": "Place the two sachets on the box."
+    },
+     "put_socks_in_bag": {
+        "19974": "Pick up all the socks and put them in the bag.",
+        "61496": "Pick up the socks on the box cover and put them in the paper bag",
+        "75714": "Pick up the socks and put them in the paper bag",
+        "82875": "Pick up all the socks from the cover box and put them in the paper bag",
+        "20315": "Put the socks in the bag",
+        "90722": "Put the socks in the bag"
+     },
+    "remove_objects_from_box_and_put_on_counter":{
+        "18455": "Pick up the objects from the cover box and put them on the counter",
+        "31646": "Remove the things from the box and put them on the counter",
+        "23472": "Pick up the two objects on the cover box and put them on the counter"
+
+    },
+        "put_cloth_from_box_in_paper_bag":{
+            "42171": "Place two white cloths from the box in the white bag",
+            "71503": "Put the cloths on the box in the paper bag",
+            "10210": "Pick up all the cloth from the box and put them in the paper bag",
+            "67167": "Pick a towel from the box and put it in the paper bag"
+    },
+    "put_towels_in_white_bag_one_at_a_time":{
+        "64219": "Put two towels in the white bag, one at a time"
+    },
+      "put_napkin_in_white_paper_bag":{
+        "25588": "Put the napkin in the white paper bag."
+      },
+     "move_packets":{
+        "51306": "Put the packets on the counter on the box",
+        "2301": "Pick up the packets on the lower counter and put them on the upper counter"
+
+     },
+     "put_towel_in_carrier_bag":{
+        "90581": "Pick up the towel and put it in the carrier bag",
+        "87337": "Remove all the objects from the tray and put them in the carrier bag"
+
+     }
+}

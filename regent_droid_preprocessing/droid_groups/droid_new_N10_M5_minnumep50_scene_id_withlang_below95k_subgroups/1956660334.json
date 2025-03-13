@@ -1,0 +1,64 @@
+
+{
+    "move_chess_piece_backward": {
+        "34435": "Move the black bishop piece on the chess board away from you",
+        "64016": "Move one brown chess piece on the left side of the board backwards.",
+        "21037": "Move one black chess piece backwards.",
+        "13486": "Move the black chess piece one space backwards",
+        "66629": "Move one black chess piece away from you",
+        "23154": "Move the beige piece on the left backwards"
+    },
+    "move_chess_piece_forward": {
+        "91530": "Move the beige chest piece forward between the other two beige chest pieces",
+        "45889": "Move one black chess piece forward",
+        "5217": "Move the chess piece forward slightly",
+        "60260": "Move a chess piece forward on the chess board",
+        "71421": "Pick up the black bishop and move it one square forward on the chess board",
+        "42067": "Move the black king to the front of the board."
+    },
+    "put_chess_piece_on_board": {
+        "46085": "Put one yellow chess piece on the chess board",
+        "73608": "place a chess piece on the chessboard",
+        "12431": "Put one white chess piece on the chessboard.",
+        "54303": "Put two black chess pieces on the chessboard.",
+        "24356": "Move one piece to the chess board",
+        "26027": "Pick up the black chess piece and put it on the chess board",
+        "62771": "Pick up the black chess piece on the left side of the table and put it on the chess board",
+        "94403": "Shift one chess piece to the board",
+        "58309": "Put one white chess piece on the board.",
+        "15831": "Pick up the black chess piece on the left and put it on the chess board",
+        "35802": "Move the chess piece from the table to the chess board",
+        "43738": "Put one black chess piece on the chess board",
+        "13667": "Put a chess piece on the chess board",
+        "60383": "Pick up the black chess piece on the right and put it on the chess board",
+       "14957": "Put the Knight chess piece on the chess board",
+        "26228": "Pick up a black chess piece from the table and put it on the chessboard",
+       "11002": "Put a light brown chess piece on the board",
+        "864": "Put one white chess piece on the chessboard.",
+       "71252": "Put one yellow chess piece on the chess board"
+
+    },
+    "move_chess_piece_right": {
+        "58374": "Move the chess piece on the board to the right",
+        "18544": "Move the black chess piece one space to the right"
+    },
+      "move_chess_piece_left": {
+        "49863": "Move the brown chess piece to the left"
+    },
+    "remove_pen_or_pencil_from_mug": {
+        "21042": "Remove the blue pen and yellow pencil from the red mug.",
+        "62259": "Remove the green pen from the red mug then put the yellow pencil in the mug.",
+        "11330": "Remove the orange pen from the red cup and put it on the table"
+    },
+    "move_pen_from_cup":
+    {
+         "65836": "Move one pen from the cup to the counter",
+          "18644": "Move one pen from the cup to the table",
+        "34393": "Shift a pen from the cup to the table"
+
+    },
+    "remove_marker_from_cup":{
+        "31157": "Remove one marker from the cup"
+    }
+}
+

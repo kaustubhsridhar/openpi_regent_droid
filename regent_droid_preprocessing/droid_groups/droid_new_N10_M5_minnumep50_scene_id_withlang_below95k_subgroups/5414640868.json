@@ -1,0 +1,77 @@
+
+{
+"put_lid_on_pot": {
+    "40577": "Pick up the lid, then place it on the pot",
+    "18702": "Put the lid on the pan",
+    "67220": "Put the lid on the pot",
+    "14107": "Put the lid on the pot",
+    "39202": "Put the lid on the pot",
+    "53542": "Pick up the lid, then place it on the pot",
+    "92843": "Pick up the lid and cover the pot",
+    "50737": "Put the lid on the pot",
+    "39730": "Place the lid on the pot",
+    "9908": "Put the lid on the pot",
+    "49747": "Put the lid on the pot",
+    "22357": "Put the lid on the pot",
+    "13668": "Put the lid on the pot",
+    "53735": "Put the lid on the pot",
+        "79824": "Close the lid on the pot",
+    "51062": "Place the lid on the pot"
+},
+"put_glass_lid_on_black_pot": {
+    "74899": "Put the glass lid on the black pot.",
+    "44181": "Put the glass lid on the black pot.",
+    "9115": "Put the glass lid on the black pot.",
+    "65055": "Put the glass lid on the black pot",
+    "21943": "Put the glass lid on the black pot",
+    "78143": "Put the glass lid on the black pot.",
+    "77383": "Place the glass lid on the black pot.",
+    "43861": "Put the glass lid on the black pot.",
+    "48495": "Put the glass lid on the black pot.",
+    "61180": "Put the glass lid on the black pot"
+},
+"put_glass_lid_on_pot": {
+        "25501": "Put the glass lid on the pot."
+},
+"remove_lid_from_pot": {
+    "68888": "Remove the lid of the pot",
+    "17847": "Remove the lid from the pot",
+    "73013": "Remove the lid from the pot",
+    "34748": "Remove the lid from the pot",
+    "35532": "Remove the lid from the pot.",
+    "57420": "Remove the lid from the pot",
+    "61140": "Remove the lid from the pot",
+    "68566": "Remove the lid from the pot",
+    "3428": "Remove the lid from the pot",
+    "18412": "Remove the lid from the pot",
+    "3695": "Remove the lid from the pot",
+    "51056": "Remove the lid from the pot"
+},
+"remove_lid_and_put_on_table": {
+    "71816": "Remove the lid from the pot and put it on the table",
+    "53391": "Remove the lid from the pot and put it on the table",
+        "34356": "Pick up the lid from the pot and put it on the table",
+    "68849": "Remove the lid from the pot and place it on the table",
+    "4603": "Remove the lid from the pot and put it on the table"
+
+},
+"remove_glass_lid_from_black_pot": {
+    "38678": "Remove the lid from the black pot.",
+    "36062": "Remove the lid from the black pot.",
+        "87663": "Remove the glass lid from the top of the black pot."
+},
+"remove_glass_lid_from_pot": {
+        "92186": "Remove the glass lid from the pot.",
+        "44725": "Remove the glass lid from the pot.",
+        "37083": "Remove the glass lid from the pot."
+},
+    "remove_glass_lid_from_black_pot_and_put_on_table": {
+    "78257": "Remove the glass lid from the black pot and put it on the table"
+    },
+    "remove_glass_lid_from_black_pot_and_put_on_tea_towel":{
+    "26044": "Remove the glass lid from the black pot and put it on the tea towel on the table"
+    },
+     "remove_lid_from_black_pot":{
+     "87690": "Remove the glass lid from the black pot."
+     }
+}

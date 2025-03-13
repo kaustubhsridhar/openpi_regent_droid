@@ -1,0 +1,154 @@
+
+{
+    "open_right_cabinet_door": {
+        "89606": "Open the right door of the cabinet",
+        "50707": "Open the right cabinet door",
+        "57431": "Open the right cabinet door",
+        "22760": "Open the right door of the cabinet",
+        "1525": "Open the right door of the cabinet above the basket"
+    },
+    "open_top_right_cabinet_door": {
+        "94766": "Open the top right cabinet door",
+        "5204": "Open the top right cabinet door",
+        "12404": "Open the top right cabinet door",
+        "67703": "Open the top right cabinet wider",
+        "12725": "Open the top right cabinet door",
+        "56247": "Open the top cabinet door on the right"
+    },
+    "close_drawer": {
+        "7190": "Close the open drawer",
+        "26192": "Close the drawer",
+        "72792": "Close the drawer",
+        "36463": "Close the open drawer",
+        "19163": "Close the open drawer",
+        "21777": "Close the open drawer",
+        "23848": "Close the open drawer",
+        "51170": "Close the open drawer",
+        "93530": "Close the drawer",
+        "18317": "Close the drawer",
+        "88496": "Close the drawer",
+        "60645": "Close the drawer"
+    },
+     "open_drawer": {
+        "65232": "Open the drawer",
+        "67818": "Open the drawer fully",
+        "5363": "Open the drawer",
+        "9005": "Open the drawer",
+        "88431": "Open the drawer",
+        "8054": "Open the drawer",
+        "20343": "Open the drawer",
+        "13776": "Open the drawer"
+    },
+    "close_upper_cabinet_door": {
+        "89644": "Close the open upper cabinet door",
+        "41745": "Close the open upper cabinet door.",
+        "56258": "Close the open upper cabinet door."
+
+    },
+      "close_right_cabinet_door": {
+        "1651": "Close the right cabinet door"
+    },
+        "close_overhead_cabinet_door":{
+        "73796": "Close the overhead cabinet door",
+        "42436": "Close the overhead cabinet door",
+        "90082": "Close the overhead cabinet door"
+    },
+    "move_tap_nozzle_right": {
+        "72282": "Move the tap nozzle to the right",
+        "80494": "Move the tap nozzle to the right",
+        "65745": "Move the tap nozzle to the right",
+        "66928": "Move the tap nozzle to the right",
+        "52110": "Move the tap nozzle to the right"
+
+    },
+    "move_tap_nozzle_left": {
+        "77417": "Move the tap nozzle to the left",
+        "87218": "Move the tap faucet to the left",
+        "46922": "Move the tap nozzle to the left",
+        "60862": "Move the tap nozzle to the left"
+
+    },
+    "turn_faucet_left":{
+        "81015": "Turn the faucet to the left",
+        "19635": "Turn the faucet to the left",
+        "76238": "Turn the tap to the left"
+    },
+     "push_faucet_center":{
+        "64549": "Push the faucet to the center of the sink",
+        "51379": "Push the faucet to the center of the sink then lift the faucet handle.",
+        "30455": "Push the faucet to the center of the sink",
+       "25397": "Move the faucet to the center of the sink",
+        "84426": "Move the faucet to the center of the sink"
+
+    },
+        "open_left_drawer":{
+            "53315": "Open the left drawer.",
+            "66272": "Open the drawer on the left",
+            "9671": "Open the drawer on the left"
+    },
+
+    "faucet_right":{
+         "74874": "Push the faucet to the right",
+         "58052": "Move the faucet of the sink to the right.",
+         "61279": "Push the faucet of the sink slightly to the right."
+    },
+     "open_top_drawer":{
+        "50208": "Open the top drawer of the kitchen unit",
+         "19018": "Open the top drawer of the kitchen unit",
+          "67264": "Open the top drawer of the bottom cabinet.",
+         "48045": "Open the top draw of the kitchen unit",
+         "74186": "Open the top drawer",
+         "24994": "Open the top drawer of the bottom cabinet."
+     },
+     "turn_tap_nozzle_left":{
+        "90433": "Turn the tap nozzle to the left",
+        "87505": "Turn the tap nozzle to the left",
+        "92089": "Turn the tap nozzle all the way to the left",
+         "6402": "Turn the tap nozzle to the left"
+     },
+    "close_cabinet_door":{
+        "52949": "Close the cabinet's door",
+        "85549": "Close the open cabinet door"
+    },
+      "faucet_left":{
+        "88953": "Push the faucet to the left"
+      },
+       "push_tap_down": {
+        "52736": "Push the tap handle down",
+        "51246": "Push the handle of the tap down",
+        "48742": "Push down the tap faucet",
+         "53057": "Push the handle of the faucet down",
+        "92923": "Push down on tap of the sink."
+       },
+        "close_top_drawer":{
+            "56357": "Close the top left cabinet door",
+           "50240": "Close the top drawer of the bottom cabinet.",
+           "63556": "Close the top draw of the kitchen unit",
+           "1669": "Close the top drawer of the cabinet."
+        },
+    "spout_left":{
+      "13008": "Move the spout to the left",
+       "14629": "Move the spout to the left"
+
+    },
+     "lift_faucet":{
+         "68670": "Lift up the tap faucet",
+         "83923": "Lift up the faucet of the sink.",
+        "60884": "Lift the handle of the faucet"
+     },
+       "put_in_drawer_close":{
+            "50728": "Open the drawer, put the blue cup inside it, and then close it",
+            "54330": "Put the green plush toy in the drawer",
+            "20060": "Open the drawer and put the pineapple plushie in it.",
+           "50801": "Open the drawer, place the orange cup inside the drawer, close the drawer",
+          "54476": "Open the drawer, then put the blue cup in the drawer",
+          "46288": "Put the green pear in the open drawer.",
+         "67901": "Open the drawer, put the pineapple plush toy in the drawer then close the drawer",
+         "76100": "Pick up the green toy, put it in the drawer and close the drawer.",
+        "16771": "Put the plush toy inside the drawer then close it",
+          "19353": "Open the drawer and place the green plush toy in the drawer",
+           "85170": "Put the green object in the drawer and then close it",
+          "61730": "Remove the banana plushie from the box, put it in the open drawer, and then close the drawer"
+
+       }
+}

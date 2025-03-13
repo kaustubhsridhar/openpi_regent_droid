@@ -1,0 +1,72 @@
+
+{
+    "move_spoon_backwards": {
+        "14613": "Move the spoon backwards",
+        "53141": "Move the spoon backwards"
+    },
+    "move_towel_left": {
+        "83712": "Slide the towel to the left side of the desk",
+        "8463": "Move the towel to the left",
+        "43458": "Slide the towel to the left"
+    },
+    "move_blue_towel_right": {
+        "64411": "Move the blue towel to the right of the table",
+        "29257": "Move the blue towel to the right",
+        "95266": "Move the blue towel from the left to the right"
+    },
+    "move_towel_backwards": {
+        "2694": "Slide the blue towel backwards",
+        "43789": "Slide the towel backwards",
+        "87609": "Move the cloth backwards"
+    },
+    "move_green_spoon_forward": {
+        "45730": "Move the green spoon forward",
+        "75842": "Move the green spoon forward"
+    },
+    "move_yellow_plate_backwards": {
+        "16833": "Move the yellow plate backwards"
+    },
+        "move_item_left": {
+            "24229": "Move the white and black object to the left",
+            "87325": "Move the plush toy from right to left",
+            "15411": "Move the fork to the left side",
+            "8911": "Move the white and black ball to the left",
+             "92241": "Move the plate from the right to the left side of the desk",
+            "63703": "Pick up the white object on the towel and place it on the left",
+            "33394": "Move the spoon to the left",
+            "93941": "Slide the cup to the left on the desk",
+            "69241": "Slide the blue towel to the left",
+            "2718": "Move the green spoon slightly to the left"
+
+    },
+    "move_item_right":{
+        "19968": "Move the spoon to the right side of the desk",
+        "35079": "Move the white object to the right",
+        "39947": "Move the silver pot to the right",
+        "38967": "Move the towel from the left to the right",
+        "12872": "Move the green spoon to the right",
+        "63319": "Move the white ball to the right",
+        "92765": "Take the plate and move it to the right of the desk",
+        "73574": "Pick up the spoon and put it on the right",
+        "3630": "Move the plush toy to the right side of the desk",
+        "14243": "Move the fork to the right slightly near the silver bowl"
+
+    },
+     "move_blue_towel_forward": {
+        "11667": "Move the blue towel closer to you"
+     },
+    "put_item_on_yellow_plate":{
+        "88723": "Place the white plush toy on the yellow plate",
+        "87741": "Put the black and white ball on the yellow plate",
+        "13804": "Put the ball on the yellow plate",
+        "74338": "Put the white sponge with a black strap on the yellow plate"
+    },
+    "move_yellow_plate_front_right":{
+        "83604": "Move the yellow plate to the front right side of the table",
+        "42325": "Move the yellow plate to the front right side of the table"
+    },
+     "move_yellow_plate_left":{
+        "65946": "Move the yellow plate from right to left"
+     }
+}
+

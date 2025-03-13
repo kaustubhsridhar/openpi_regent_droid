@@ -1,0 +1,107 @@
+
+{
+    "move_black_shoe_second_to_top": {
+        "31234": "Move the black shoe on the second shelf to the top shelf",
+        "19076": "Move the white shoe from the second shelf to the top shelf",
+        "47114": "Take the white shoe on the second shelf and put on the top shelf",
+        "56199": "Lift the black shoe from the second shelf and put it on the first shelf with its pair",
+        "83367": "Move the black shoe from the second rack to the top rack",
+        "82877": "Remove the right shoe from the second shelf and put it on the top shelf",
+        "44135": "Put the shoe on the second shelf onto the top shelf",
+        "68854": "Pick up one shoe on the second shelf and place it on the top shelf",
+        "83318": "Move the second right shoe from the second top shelf to the first top shelf"
+
+    },
+        "move_white_shoe_second_to_top": {
+        "63738": "Move the white shoe from the second rack to the top rack"
+    },
+    "move_sneaker_second_to_top": {
+        "62595": "Move the sneaker from the second shelf to the right side of the topmost shelf.",
+        "54558": "Move the dark grey sneaker from the second shelf to the right side of the topmost shelf.",
+        "69040": "Pick up the dark grey sneaker from the second shelf and put it on the topmost shelf.",
+        "33891": "Move the black sneaker from the second shelf to the topmost shelf."
+    },
+    "move_black_shoes_to_second_shelf": {
+        "79368": "Move the black pair of shoes to the second shelf",
+        "82431": "Move the black sneakers from the topmost shelf to the second shelf."
+    },
+    "move_white_shoes_to_second_shelf": {
+        "47502": "Pick up the white pair of nike sneakers from the second shelf from the top of the shoe rack and put them on the top shelf of the shoe rack",
+        "20172": "Pick up the pair of white nike sneakers from the top shelf of the shoe rack and put them on the second from the top shelf of the shoe rack",
+        "66387": "Pick up the shoes and put them on the second shelf",
+        "77654": "Move the white pair of shoes to the second shelf"
+    },
+      "move_grey_shoes_middle_to_top": {
+        "58380": "Remove the grey shoes from the middle rack and put them on the top rack",
+        "85798": "Remove the grey shoe from the middle rack and then put it on the right side of the top rack",
+        "77816": "Remove the grey shoe on the right side of the middle rack and put it on the top rack",
+        "7133": "Remove the grey slipper from the middle shelf and put it on the top shelf next to the other grey slipper"
+    },
+     "move_shoes_to_lower_shelf":{
+        "92665": "move the shoes to a lower shelf",
+        "22904": "Shift the sneakers to the rack below them",
+        "26898": "Move the white shoe from the second rack to the first rack"
+
+     },
+    "move_black_shoes_middle_to_top":{
+        "57246": "Move the two left black shoes from the second rack to the top rack",
+        "18089": "Remove the black shoes from the second rack and put it on the top rack next to its matching shoe",
+        "19504": "Remove the black shoe from the middle rack and put it on the right side of the black shoe on the top rack",
+        "14059": "Remove the black shoes from the middle rack and put them on the left side of the top rack",
+        "42228": "Pick the black sneaker from the middle rack and place it to the right of the black sneaker on the top rack"
+    },
+
+    "move_item_to_top_shelf": {
+        "53926": "Move the shoe from the second rack to the top rack",
+        "31869": "move the shoe to the top shelf",
+        "15487": "Move one Nike slipper to the top rack",
+        "62956": "Move the dark grey sneakers to the topmost shelf."
+
+    },
+    "move_grey_slippers_top_to_second":{
+       "89370": "Remove the pair of grey slippers from the top rack and put them on the second rack from the top",
+        "77010": "Remove the grey pair of shoes from the top rack and put them on the second rack"
+    },
+
+    "move_right_on_top_shelf":{
+        "68413": "Move the white shoes on the top rack to the right",
+        "76655": "Move the white shoes to the right",
+        "49271": "Move the house slipper to the right"
+    },
+    "move_left_on_top_shelf":{
+        "92807": "Pick up the black nike sneaker on the top shoe rack to the right and move it to the left side of the top shoe rack next to the other nike sneaker",
+        "15895": "Move the right sneaker on the top shelf to the left.",
+        "24527": "Move the black shoes on the top rack to the left",
+        "80354": "Move the white shoes on the top rack to the left"
+
+    },
+     "move_closer_left":{
+        "1107": "Move the right sneaker closer to the left sneaker",
+        "8668": "Move the right black sneaker closer to the left one"
+     },
+    "wipe_table": {
+        "40089": "Use the blue towel to wipe the table.",
+        "49910": "Wipe the table with the blue cloth"
+    },
+      "move_to_middle_shelf":{
+        "60312": "Remove the white shoe from the middle rack and put it in the middle of the two shoes on the top rack",
+        "6896": "Put the shoes on the middle part of the stand"
+      },
+    "place_next_to":{
+        "44733": "Put the black shoe on next to the one on the left",
+        "87113": "Put the white shoe next to the other on the left"
+    },
+    "move_sneakers_first_to_second_shelf":{
+        "63256": "Remove the sneakers from the first to the second shelf on the shoe rack"
+    },
+       "move_black_shoes_up":{
+        "14025": "Move the black shoes to the rack above them"
+    },
+    "generic_move_shoe":{
+        "95400": "move the shoe"
+    },
+      "position_shoes_correctly":{
+        "47394": "Correctly position the sneakers"
+    }
+}
+

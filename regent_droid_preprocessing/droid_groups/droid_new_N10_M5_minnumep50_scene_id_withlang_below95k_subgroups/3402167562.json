@@ -1,0 +1,70 @@
+
+{
+    "stack_bowls": {
+        "48516": "Stack the two clear bowls together",
+        "37588": "Stack the clear lunch boxes",
+        "52693": "Stack up the containers on the table"
+    },
+    "unstack_bowls": {
+        "82687": "Unstack the two containers on the table",
+        "95424": "Unstack the two stacked lunch boxes"
+    },
+    "open_kettle": {
+        "38210": "Open the kittle"
+    },
+    "close_kettle": {
+        "11273": "Close the kettle",
+        "31416": "Close the lid of the kettle"
+    },
+        "open_then_close_kettle": {
+        "23302": "Open the lid on the black electric kettle then close it"
+    },
+    "stir_with_chopstick": {
+        "16777": "Use the chopstick to stir in the bowl",
+        "81578": "Use the chopstick to stir in the transparent bowl",
+        "16856": "Stir in the clear bowl with the chopstick"
+    },
+    "put_chopsticks_in_bowl": {
+        "78228": "Pick the chopsticks and put them in the blue bowl",
+        "53400": "Pick up the chop sticks and put them in the dish.",
+        "2725": "Pick the chopsticks and put them in the bowl on the right",
+        "52520": "Pick up the chopstick and put it in the transparent bowl",
+        "63279": "Put the wood sticks in the the bowl",
+        "41678": "Put the chopstick in the bowl",
+        "73427": "Put the chopstick in the transparent bowl",
+        "84823": "Put the chopstick in the transparent bowl",
+        "18148": "Put the chopstick in the Bowl",
+        "63740": "Pick the chopstick and put it in the bowl",
+        "20863": "Put the chopstick in the right blue bowl",
+        "67545": "Pick up the two sticks and put them in the bowl"
+
+    },
+    "put_chopsticks_in_container": {
+        "62478": "Put the stick into the container",
+        "38867": "Put the chopsticks inside the plastic container.",
+        "28780": "Put the chopsticks inside the container",
+        "45421": "Put the chopsticks in the lunchbox",
+        "89967": "Put the wooden stick into the blue bowl"
+    },
+      "move_chopsticks_between_bowls": {
+        "80090": "Remove the chopsticks from the clear bowl and place them in the blue bowl on the left",
+        "10335": "Move the chopsticks to the glass bowl on the far right.",
+        "20970": "Move the chopstick from the right bowl to the left bowl",
+        "84724": "Move the chopstick from the bowl to the clear object",
+        "49146": "Pick up a chopstick from the right side of the countertop and place it inside the glass bowl on the left"
+    },
+        "remove_and_place_chopsticks":{
+            "62621": "Remove the stick from the blue bowl and put it in the glass bowl",
+            "70370": "Take the chopsticks out of the clear bowl on the right and put them in the sink",
+            "51568": "Pick the chopstick in the blue bowl and put in on the counter"
+        },
+    "move_bowls": {
+        "73504": "Move the bowl on the left slightly to the right",
+        "4257": "Move the bowl into the sink",
+        "15057": "Move the blue bowl on the left to the right, move the glass bowl on the right to the left",
+        "58836": "Pick up the bowl and place it on the left side of the counter",
+        "63828": "Pick up the bowl and put it on the counter",
+        "8028": "Pick up the bowl and move it to the left"
+    }
+}
+

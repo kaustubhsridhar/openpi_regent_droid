@@ -1,0 +1,62 @@
+
+{
+    "separate_clothes_rope_plush_toy": {
+        "18308": "Separate the clothes, rope and plush toy on the table",
+        "78227": "Separate the clothes, rope and plush toy on the table",
+        "69012": "Separate the clothes, rope and plush toy on the table",
+        "64149": "Separate the clothes, rope and plush toy on the table",
+        "33454": "Separate the clothes, rope and plush toy on the table"
+    },
+    "separate_things_on_heap": {
+        "67370": "Separate the things on the heap",
+        "88497": "Separate the things on the heap",
+        "18109": "Separate the things on the heap",
+        "15976": "Separate the things on the heap"
+    },
+    "separate_objects_on_table": {
+        "16830": "Separate the objects on the table.",
+        "83264": "Separate the objects on the table",
+        "14918": "Separate the objects on the table.",
+        "26958": "Separate the objects on the table.",
+        "38734": "Separate the items on the table.",
+        "94944": "Separate the objects on the table.",
+        "65650": "Separate the objects on the table.",
+        "9469": "Separate all the objects on the table."
+    },
+    "spread_objects_across_table": {
+        "12814": "Spread the objects across on the table",
+        "93286": "Spread the objects across the table",
+        "45036": "Spread the objects and the clothes across the table",
+        "30959": "Spread the cloths and the objects across the table",
+        "66170": "Spread the clothes and the objects across on the table"
+    },
+     "move_radish_peach_shirt_right_pink_shirt_left": {
+        "90707": "Move the radish and peach shirt to the right, move the pink shirt to the left",
+        "22115": "Move the radish and peach t-shirt to the right, move the pink t-shirt to the left, move the white rope backwards"
+    },
+    "put_clothes_around_table": {
+        "38057": "Pick up the clothes from the table and put them around the table.",
+        "14671": "Put the clothes around the table.",
+        "63318": "Pick up the cloths and put them around the table.",
+        "12773": "Pick up the cloths and put them around the table."
+    },
+    "spread_pile": {
+        "71307": "Spread the pile - put the white string on the right, the plush toy on the left and spread the cloths to the sides",
+        "78810": "Spread the pile on the table"
+
+    },
+        "separate_objects_on_heap":{
+            "58728": "Separate the objects on the heap"
+        },
+    "separate_clothes_and_plush_toy":{
+        "56942": "Separate the clothes and the plush toy"
+    },
+     "move_pink_tshirt_right_radish_backwards":{
+        "66060": "Move the pink t-shirt to the right, move the radish backwards, move the peach t-shirt to the left",
+        "84046": "Move the pink t-shirt to the right, move the peach t-shirt to the left, move the radish to the right, move the rope backwards"
+    },
+    "spread_out_clothes_and_objects":{
+        "67261": "Spread out the clothes and the objects on the table"
+    }
+}
+

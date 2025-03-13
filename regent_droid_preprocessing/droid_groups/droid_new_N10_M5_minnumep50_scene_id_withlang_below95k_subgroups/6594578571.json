@@ -1,0 +1,86 @@
+
+{
+    "cover_pot": {
+        "24209": "Cover the pot",
+        "68785": "Cover the pot with the lid",
+        "9020": "Cover the pot",
+        "23038": "Close the pot"
+    },
+    "put_lid_on_pot": {
+        "28461": "Put the lid on the pot",
+        "39456": "Put the lid on to the pot on the front left stove plate.",
+        "82965": "Put the lid on top of the black pot on the right side of the stove",
+        "91208": "Put the lid on the black pot to the right.",
+        "54479": "Place the lid on the black pot",
+        "6994": "Put the lid on the black pot on the right back plate of the stove",
+        "48214": "Pick up the lid and put it on top of the black pot",
+        "81633": "Put the lid on the black pot to the front right.",
+        "24166": "Put the glass lid on top of the black pot on the upper right plate",
+        "46706": "Put the glass lid on top of the black pot on the bottom right plate of the stove",
+        "21363": "Place the glass lid on top of the small black pot on the right side of the stove",
+        "74271": "Pick the lid and put it on the big pot",
+        "6658": "Take the lid on the stove and put it on the big pot"
+
+    },
+    "put_lid_on_stove_from_pot": {
+        "9987": "Remove the lid from the front right pot and put it on the stove",
+        "40069": "Uncover the pot and put it on the stove",
+        "31626": "Remove the smaller pots lid and put it on the stove",
+       "6931": "Take the lid from the pot on the right back stove plate and put it on the stove",
+        "72595": "Remove the lid from the black pot on the right side of the stove",
+        "69528": "Take the lid off the pot on the right and put it on the stovetop",
+        "65573": "Take the lid from the black pot and put it on the stove",
+        "55981": "Remove the lid from the pot on the right front plate of the stove",
+        "47154": "Remove the lid from the black pot on the bottom right plate",
+        "35274": "Take the lid off the small pot and put it on the stovetop",
+        "61010": "Take the lid off the pot and put it on the stove",
+        "44890": "Remove the lid from the big pot and put it on the stove",
+       "38493": "Pick up the lid from the black pot and put it on the stove.",
+        "4191": "Remove the lid from the pan that is on the front right plate of the stove and place it on the stove",
+        "40554": "Remove the lid from the black pot on the bottom right plate",
+        "49130": "Uncover the front pot and put the lid on the stove",
+        "22387": "Remove the lid from the small pot and put it on the stove",
+        "73586": "Remove the lid from the pot on the bottom right stove plate"
+    },
+        "put_lid_from_stove_on_pot": {
+        "39555": "Pick the lid on the stove and cover the pot on the bottom right",
+        "16814": "Take the lid from the stove and put it on the right black pot",
+        "88914": "Pick the lid on the stove and place it on the uncovered pot",
+       "2648": "Cover the big pot with the lid on the stove",
+        "92280": "Take the lid from the stove and put it on the left pot"
+
+    },
+     "uncover_pot": {
+
+        "33869": "Uncover the small pot on the stove",
+        "63693": "Uncover the pot on the right"
+    },
+    "press_stove_button": {
+        "82058": "Press the switch on the left side of the stove",
+        "21246": "Press a button on the stove",
+       "35744": "Press the switch on the stove",
+        "60849": "Push the button on the left side of the stove",
+        "56626": "Press the switch on the left side of the stove",
+        "88388": "Push the button on the top left corner of the stove",
+       "55884": "Press the first switch on the left",
+       "16600": "Press the button at the bottom right corner of the face of the stove",
+        "25560": "Push the button on the left side of the stove",
+        "90840": "Press the switch on the top left side of the stove",
+       "59607": "Flip the switch at the top left side of the stove",
+       "21984": "Flip the switch on the top left corner of the stove"
+    },
+   "turn_on_stove": {
+       "32275": "Turn on the stove",
+        "90227": "Turn on the stove"
+
+    },
+      "turn_knob": {
+        "42195": "Turn the first knob from the left",
+        "75771": "Rotate the first knob from the left on the stove"
+      },
+    "remove_lid_and_place":{
+        "33933": "Remove the lid from the small pot and put it on the kitchen base top",
+         "22039": "Press the button on the stove then put the lid on the stove then press the button on the stove"
+
+    }
+}

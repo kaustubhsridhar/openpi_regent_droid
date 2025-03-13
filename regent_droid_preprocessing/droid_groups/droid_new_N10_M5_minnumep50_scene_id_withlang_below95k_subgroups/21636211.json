@@ -1,0 +1,73 @@
+
+{
+"lid_on_jar": {
+    "31674": "Put the lid on the glass jar",
+    "81093": "Put the brown lid on the transparent jar"
+},
+"lid_on_green_bottle": {
+    "83778": "Put the white lid on top of the green bottle",
+    "87234": "Put the white lid on the green bottle.",
+    "29302": "Place the cap on the green bottle"
+},
+    "lid_off_green_bottle": {
+    "61646": "Remove the lid from the green bottle",
+        "88175": "Remove the lid from the green bottle"
+
+},
+"move_pot_forward": {
+    "48455": "Move the silver pot forwards"
+},
+"items_into_drawer": {
+    "81956": "Put the two white objects inside the drawer and then close the drawer",
+        "10542": "Put the wooden cooking sticks in the open drawer",
+    "41838": "Put the wooden cutlery in the open drawer"
+
+},
+"remove_from_orange_box":{
+    "84842": "Remove two sachets from the orange box"
+},
+"put_in_orange_box":{
+    "48422": "Pick up the green sachet from the open top cabinet and put it in the orange box",
+    "74023": "Pick up a green and black sachet and put it in them orange sachet pack"
+},
+ "items_into_jar":{
+    "52495": "Remove the two metal skewers from the drawer, then put them in the transparent jar",
+    "17945": "Remove two skewers from the open drawer and put them in the glass jar",
+    "30996": "Remove the lid from the glass jar then put one spatula from the drawer in the jar.",
+        "47391": "Pick up the two black utensils on the left and put them on the glass jar"
+ },
+"wipe_stove_with_towel/cloth":{
+     "92930": "Put the small black pan on the counter then use the pink towel to wipe the back left plate of the stove",
+    "59790": "Use the pink towel to wipe the buttons on the stove",
+    "88760": "Pick up the pink cloth and wipe the bottom left cooker on the stove, put the pick cloth black onto the borehole"
+},
+    "move_and_wipe_pot":{
+        "49026": "Slide the silver pot to the top right cooker on the hob of the stove, pick up the purple cloth and wipe the bottom right cooker on the hob of the stove, put the purple cloth back on the job of the stove",
+        "76624": "Move the silver pot to the top right side of the stove, pick up the purple cloth and wipe the silver pot, put the purple cloth back on the job of the stove"
+    },
+
+"move_pot_and_wipe_plate":{
+    "7667": "Slide the pot from the rear right stove plate onto the front right stove plate, pick up the pink towel and use it to wipe the rear right stove plate before putting it down on the middle stove plate",
+        "49577": "Move the pot from the rear right plate onto the front right plate of the stove, pick up the pink towel and use it to wipe the pot on the stove",
+    "69377": "Pick up the gray towel from the stove and use it to move the pot from the front right stove plate onto the rear right stove plate before putting it down on the stove"
+},
+"pour_green_bottle_into_pot": {
+    "24769": "Pour some liquid out of the green bottle into the pot",
+    "58219": "Pour the contents in the green bottle into the pot"
+
+},
+    "spatula_in_drawer":{
+    "74393": "Open the top drawer and put the silicone spatula in it then close it",
+        "289": "Open the top left drawer, put the bigger orange spatula in the drawer and then close the drawer"
+    },
+    "lid_on_pot":{
+        "44424": "Pick up the brown lid and put it on the clear jug"
+    },
+"remove_spatula":{
+ "94940": "Remove the spatula from the glass mug then put it in the top cupboard"
+},
+"put_spatula_in_jar": {
+        "59666": "Pick up the orange and white spatula and put it in the clear jar",
+        "75310": "Open the right door of the upper cabinet on the left and remove the orange spatula then put it in the glass jug"
+    }
+}

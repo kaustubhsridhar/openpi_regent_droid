@@ -1,0 +1,59 @@
+
+{
+    "open_drawer": {
+        "20640": "Open the second white drawer from the top",
+        "8895": "Open the second white drawer from the table top"
+    },
+    "open_drawer_and_put_green_pen_in": {
+        "74763": "Open the second top drawer, then put the green pencil in the second top drawer and close the drawer",
+        "26863": "Open the second drawer from the top and then put the green pen in the drawer",
+        "48880": "Open the second top drawer and put the green pen in it, then close the drawer"
+    },
+    "put_pen_in_left_basket": {
+        "61500": "Put the pen on the left inside the basket closest to it",
+        "14099": "Put the pen in the basket on the left"
+    },
+    "put_item_in_basket": {
+        "27988": "Put the remote into the basket",
+        "14488": "Put the pens in the small bin",
+        "45340": "Take the pen out of the drawer and put it into the basket"
+    },
+   "put_upright":{
+        "93749": "Put the grey basket in its upright position",
+        "82133": "Put the container upright",
+        "7139": "Put the paper glue upright"
+   },
+    "turn_basket_upright": {
+        "54095": "Turn the grey basket at the front of the desk upright.",
+        "43280": "Place the basket on the left upright",
+        "87390": "Correctly position the small bin, then place a pen in it"
+
+    },
+      "pick_up_and_put_in_gray_holder": {
+        "12329": "Pick up the red pen and put it in the empty gray pen holder",
+        "48716": "Pick up the yellow pencil and put it in the gray pencil holder",
+        "46233": "Pick up the red object and put it in the gray pen holder"
+    },
+    "place_item_inside_bin":{
+       "29893": "Pick up the glue stick, then place it in the bin",
+       "47723": "Put the bin on its bottom, then place the glue stick inside"
+    },
+
+    "put_pen_in_drawer": {
+        "87339": "Put the green pen in the drawer",
+        "34677": "Put the pen inside the drawer"
+    },
+    "turn_basket_over":{
+        "37673": "Turn the grey basket over and then put the orange glue stick in an upright position",
+        "77239": "Turn the grey basket over"
+    },
+      "open_drawer_and_put_something_inside":{
+        "1733": "Open the middle drawer, then push the green pen into it",
+        "34793": "Pull open the second drawer from the top on the left, pick up the green pencil and put it in the opened drawer",
+        "9032": "Open the second drawer from the top of the table, pick up the black pen from the table and put it in the second drawer from the top of the table, close the second open drawer from the top of the table"
+    },
+      "put_black_pen_on_gray_basket":{
+          "85461": "Pick up the black pen on the counter and put it on the gray basket on the left",
+           "57250": "Pick up the black pen next to the orange pen and put it on top of the desktop pen and pencils basket"
+      }
+}

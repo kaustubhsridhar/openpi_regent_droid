@@ -1,0 +1,64 @@
+
+{
+    "move_right": {
+        "42496": "Move the clear cup to the right.",
+        "26231": "Move the orange toy car to the right",
+        "41115": "Move the wooden basket to the right",
+        "2765": "Move the yellow ball to the right",
+        "23530": "Move the towel to the right."
+    },
+    "wipe_top_of_cabinet_with_towel": {
+        "33153": "Use the towel to wipe the counter",
+        "33158": "Use the towel to wipe the countertop.",
+        "69559": "Use the tea towel to wipe the cabinet top",
+        "32699": "Use the white cloth to wipe the top counter",
+        "84041": "Use the towel to wipe the top of the dresser",
+        "1114": "Use the towel to wipe the top of the cabinet.",
+        "58738": "Use the towel to wipe the top of the cabinet."
+    },
+    "close_left_cabinet_door": {
+        "14989": "Close the left cabinet door.",
+        "91969": "Close the left cabinet door",
+        "18997": "Close the left door of the cabinet on the right."
+    },
+       "open_left_cabinet_door": {
+        "91406": "Open the left door of the cabinet on the right.",
+        "59921": "Open the cabinet's left door",
+        "68692": "Open the left door of the cabinet on the right.",
+        "49761": "Open the left cabinet door"
+    },
+    "remove_yellow_bowl_from_cabinet": {
+        "84234": "Remove the yellow bowl from the cabinet",
+        "39037": "Remove the yellow bowl from the cabinet"
+    },
+      "hang_towel_on_cabinet_door":{
+        "21648": "Pick up the white tea towel from the countertop and hang it on the right cabinet door",
+        "25364": "Hang the towel on the cabinet's door",
+        "17134": "Pick up the cloth from the counter and hang it on the cabinet door"
+
+    },
+    "put_tennis_ball_in_black_box_on_right":{
+        "46000": "Put the pink bowl in the black box on the right.",
+        "68211": "Put the tennis ball in the black box on the right."
+    },
+     "close_right_cabinet_door":{
+        "45740": "Close the cabinet door on the right"
+     },
+    "put_item_in_cabinet":{
+        "3969": "Put the toy car in the cabinet",
+        "64264": "Place the brown object in the cup",
+        "18678": "Put the paper in the cabinet"
+    },
+    "open_and_close_cabinet_door":{
+        "58472": "Open and close the bottom left cabinet door"
+    },
+     "place_on_top_of_cabinet":{
+        "62413": "Put the car on top of the cabinet.",
+        "78445": "Place the yellow vessel on top of the cabinet."
+     },
+    "put_pink_bowl_in_yellow_bowl":{
+      "7920": "Put the pink bowl inside the yellow bowl"
+    }
+
+}
+

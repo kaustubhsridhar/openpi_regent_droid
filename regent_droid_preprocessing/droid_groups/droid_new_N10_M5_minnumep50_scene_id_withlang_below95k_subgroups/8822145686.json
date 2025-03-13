@@ -1,0 +1,93 @@
+
+{
+    "lid_on_pot": {
+        "29261": "Put the top lid on the stove onto the black pot",
+        "62564": "Put the glass lid on top of the black pot on the left",
+        "12400": "Put the lid on the pot",
+        "58485": "Put the lid on the pot",
+        "82648": "Pick the big lid and put it on the big pot",
+        "741": "Cover the small pot with the lid on the stove",
+        "6936": "Put the lid on the stove onto the pot that is on the left",
+        "39709": "Take the lid from the stove and put it on the right black pot",
+        "61772": "Remove the lid from the stove and put it on top of the pot on the upper right plate",
+        "76656": "Cover the pot with the clear lid",
+        "30122": "Place the lid on the pot",
+        "81872": "Cover the grey pot with the pot on the stove",
+        "26460": "Put the right lid on the right black pot"
+    },
+    "remove_lid_put_on_stove": {
+        "55300": "Remove the lid from the pot on the upper right plate of the stove",
+        "64029": "Uncover the pot and put the lid on the stove",
+        "53851": "Move the lid from the pot on the left to the stovetop",
+        "11895": "Remove the lid from the pot and put it on the stove",
+        "82065": "Remove the lid from the black pot",
+        "15083": "Remove the lid from the sauce pan and place it on the stove",
+        "68325": "Take the lid off the pot on the top plate on the stove",
+        "91917": "Remove the glass lid from the pot on the bottom right plate of the stove",
+        "82243": "Take the lid off the pot on the right and put it on the stove",
+        "13643": "Take the lid off the black pot to the upper right of the stove and put it in the center of the stove",
+        "866": "Remove the silver lid from the pot on the right side of the stove",
+        "6513": "Remove the lid from the pot on the left side of the stove",
+        "8587": "Take the lid off the pot on the right and put it on the stove"
+    },
+        "spoon_in_pot": {
+        "50180": "Remove one wooden spoon from the top of the pot on the left and place it inside the pot",
+        "65546": "Uncover the pot on the left, put the lid on the stove, and then put the wooden spoon inside the pot",
+        "53858": "Put the wooden spoon inside the pot on the right side of the stove, remove the lid from the pot on the left side of the stove",
+        "33896": "Pick up the cooking stick and put it in the pot",
+        "15029": "Take the spatula on top of the black pot and put it inside the pot",
+        "68856": "Pick the wooden spatula on the stove and put it in the pot on the right",
+        "62206": "Put one of the wooden spoons in the pot with a black handle",
+        "69914": "Remove the lid from the pot and put it on the stove then put the wooden spoon in the pot",
+        "39273": "Uncover the pot and put the wooden spoon in it",
+        "37305": "Place the wooden spoon in the pot",
+        "15835": "Take the wooden spoon from the stove and put it in the pot",
+        "46045": "Take the cooking spoon and put it in the pot",
+        "10729": "Pick up the cooking stick and put it in the pot",
+        "37371": "Remove the lid from the pot on the stove, pick up the wooden spoon from the right side of the countertop and put it inside the pot",
+        "78328": "Put the two wooden spoons in the pot to the left and then put the lid on the pot to the right.",
+         "49487": "Put the marker in the pot"
+    },
+    "remove_spoon_from_pot": {
+        "50203": "Remove the wooden spoon from the pot and put it on the stove and then center the pot on the plate",
+        "65582": "Take the spoons out of the black pot then put the lid on the pot",
+        "31821": "Remove the wooden spoon from the black pot on the left and place it on the right side of the countertop",
+        "36447": "Take the wooden spoon out of the pot then put the lid on it",
+        "62158": "Remove the cooking stick from the pot and put on the stove",
+        "11473": "Remove the cooking stick from the grey pot then get the lid and cover the grey pot",
+        "16603": "Pick up the cooking stick from the pot and put it on the stove",
+        "92904": "Pick up the cooking stick and put it on the stove",
+        "10061": "Remove one wooden spoon from the pot",
+        "23889": "Remove one wooden spatula from the black pot",
+        "61874": "Take the spoon out of the left black pot and put it on the stove",
+        "4072": "Remove one spoon from the pot and put it on the lid right next to it",
+        "23039": "Remove the cooking stick from the pot, pick up the lid and close the pot"
+    },
+    "put_spoon_on_stove":{
+        "66594": "Remove the wooden spoon from the stove and place it on top of the pot",
+        "66088": "Put the wooden spoon on the right side of the stove",
+       "81383": "Remove the wooden spoon from the stove and put it inside the pot on the left side of the stove"
+    },
+        "move_container":{
+       "83588": "Pick up the salt shaker on the stove and place it on the counter-top.",
+       "66737": "Remove the seasoning shaker from the far right of the countertop and put it on the left side of the stove"
+    },
+  "move_bottle":{
+    "85020": "Pick up the bottle from the base top and put it on the stove",
+    "9300": "Move the bottle on the stovetop to the counter on the right",
+        "39004": "Move the bottle of spices to the countertop then remove the lid from the pot.",
+    "38044": "Move the small bottle to the right",
+     "5497": "Move the small bottle to the left side of the stove",
+     "69441": "Move the grey bottle to the left"
+    },
+      "transfer_spoon_between_pots":{
+      "22073": "Take the wooden spoon from the top right pot and place it in the bottom right pot then take the silver lid and place it on the top right pot",
+       "80571": "Transfer the wooden spoon from the pot on the right to the pot on the left",
+        "20776": "Pick up the wooden spoon from the container on the right and put it inside the pot on the left side of the stove",
+        "74042": "Remove the cooking stick from the pot on the left and put it inside the pot on the right"
+
+    },
+    "put_item_in_pot":{
+        "58402": "Put the jar in the black pot on the stove"
+    }
+}

@@ -1,0 +1,160 @@
+
+{
+    "fold_cloth": {
+        "30226": "Fold the towel",
+        "70731": "Fold the towel on the table",
+        "17492": "Fold the cloth on the counter",
+        "58486": "Fold the cloth on the counter",
+        "42267": "Fold the towel",
+        "7044": "Fold the cloth",
+        "68528": "Fold the cloth"
+    },
+    "unfold_cloth": {
+        "9809": "Unfold the cloth",
+        "1618": "Unfold the cloth on the counter",
+        "57125": "Unfold the cloth on the counter"
+    },
+    "fold_peach_towel": {
+        "49277": "Fold the peach towel into a triangle thrice",
+        "6107": "Fold the peach towel into a triangle thrice"
+    },
+    "unfold_peach_towel": {
+        "77320": "Unfold the peach towel and lay it flat on the countertop",
+        "8424": "Unfold the peach towel on the countertop."
+    },
+        "fold_orange_towel": {
+        "21694": "Fold the orange towel",
+        "91468": "Scrunch the orange towel",
+         "87998": "Fold the towel diagonally three times"
+
+    },
+    "unfold_orange_towel": {
+        "22077": "Unfold the edge of the orange towel",
+        "10158": "Unfold the orange towel",
+        "28439": "Unfold the orange cloth",
+        "14162": "Unfold the orange cloth",
+        "41341": "Straighten out the orange cloth"
+    },
+    "close_cabinet_door": {
+        "91671": "Close the right door of the top cabinet.",
+        "49187": "Close the open upper cabinet door",
+        "83497": "Close the cupboard completely",
+        "32313": "Close the overhead cabinet door",
+        "26779": "Close the cabinet door",
+        "65194": "Close the top left cabinet door",
+        "62148": "Close the open upper cabinet door",
+        "87302": "Close the cabinet door",
+        "55548": "Close the top right cabinet door",
+        "33052": "Close the top right cabinet door",
+        "320": "Close the open upper cabinet",
+        "53560": "Close the top left cabinet door",
+        "35129": "Close the right cabinet door",
+        "5988": "Close the right door of the top cabinet",
+        "47995": "Close the cabinet completely",
+        "75215": "Close the cupboard door",
+        "54768": "Close the cabinet",
+        "88038": "Close the top right cabinet door",
+        "55269": "Close the top cabinet drawer door on the right"
+
+    },
+        "open_right_top_cabinet":{
+        "27213": "Open the right door of the kitchen top cabinet",
+        "11354": "Open the right door of the top cabinet.",
+        "30306": "Open the right upper cabinet door.",
+        "35522": "Open the top right cabinet door",
+        "44793": "Open the right door on the first upper cabinet from the left",
+        "9532": "Open the top right cabinet door",
+        "35194": "Open the top right cabinet door",
+        "6632": "Open the top right cabinet door",
+        "10227": "Open the top right cabinet door",
+        "88055": "Open the upper cabinet door on the right"
+    },
+        "open_left_top_cabinet":{
+        "15989": "Open the left door of the top cabinet.",
+        "39574": "Open the top left cabinet door",
+        "59055": "Open the left cabinet door",
+        "80175": "Open the left upper cabinet door"
+    },
+        "open_drawer": {
+        "49773": "Open the left side of the drawer.",
+        "87904": "Open the left side of the drawer."
+    },
+        "close_drawer":{
+        "28088": "Close the open drawer",
+        "995": "Close the left drawer"
+    },
+        "open_cabinet_door":{
+            "86718": "Open the cupboard door",
+            "64766": "Open the door of the cabinet",
+            "64821": "Open the cabinet door"
+
+        },
+     "put_plushies_in_box": {
+        "26226": "Put the purple plushie in the box",
+        "10425": "Put the orange and purple plushies in the box",
+        "31938": "Pick up the pineapple plush toy and put it in the box",
+        "57039": "Put the pineapple, cherry, watermelon, eggplant, banana and orange plushies in the box",
+        "80850": "Put the purple, pineapple, and banana plushies in the box"
+    },
+    "put_in_dishwasher": {
+        "17918": "Put the plate in the dishwasher",
+        "60508": "Put the cup in the dishwasher",
+        "94520": "Put the blue cup in the dishwasher.",
+        "15821": "Put one white plate from the counter inside the dishwasher"
+
+    },
+        "remove_blue_cup_from_dishwasher":{
+            "32823": "Remove the blue cup from the dishwasher and place it on the countertop",
+            "68724": "Remove the blue cup from the dishwasher",
+            "80689": "Remove the blue cup out of the dishwasher"
+        },
+      "pour_from_orange_cup_to_plate": {
+        "66581": "Pour the chips from the orange cup onto the white plate closest to you",
+        "34329": "Pour the chips from the orange cup onto the white plate",
+        "67272": "Pick up the orange cup and pour the fries out of the cup and onto the white plate",
+        "53963": "Transfer the chips onto the plate from the orange cup.",
+        "53452": "Remove the fries from the cup and put them on the plate",
+        "15090": "Pour the fries out of the orange cup and onto the white plate on the right."
+      },
+       "put_plush_toy_on_plate":{
+           "76444": "Put the pineapple plushie on the white plate",
+           "14559": "Place the green plush toy on the beige plate",
+           "84324": "Put the purple plush toy on the plate to the left",
+           "81842": "Put the purple and orange plushie on the plate respectively",
+           "32703": "Pick up the yellow plush toy and put it on the plate"
+       },
+    "put_toy_on_plate":{
+        "54803": "Put the toy banana on the plate with the green toy fruit"
+    },
+     "wipe_with_cloth":{
+         "53127": "Wipe the counter with the cloth",
+         "7403": "Wipe the surface using the orange cloth",
+         "94768": "Use the peach towel to wipe the countertop",
+         "21352": "Use the towel to wipe the table"
+
+     },
+      "remove_from_box_put_on_counter":{
+          "75799": "Remove the watermelon plushie from the box and put it on the counter",
+          "77371": "Remove the green plushy from the box and put it on the counter",
+          "47189": "Remove the toy pineapple from the fruit basket and put it on the counter",
+          "37492": "Remove the toy pineapple from the fruit box and put it on the counter"
+      },
+    "remove_items_put_on_counter":{
+        "40622": "Remove all the items from the fruit box and put them on the counter",
+        "82473": "Remove all the plush toys from the basket",
+        "64507": "Remove the stacked cups from the dishwasher and put them on the countertop",
+        "25086": "Remove the strawberry plushie from the box"
+    },
+     "put_plush_toys_in_basket":{
+          "12064": "Pick up the plush toys from the countertop and put them in the basket.",
+          "66933": "Put the plush toys inside the basket"
+     },
+     "open_right_cabinet_put_in_basket":{
+        "38586": "Open the right door of the cabinet above the blue box, take the pineapple plush toy out of the cabinet and place it in the basket",
+        "25063": "Pick up the banana plush toy from the basket and put it inside the open upper cabinet"
+     },
+     "close_cabinet_with_items":{
+        "12521": "Open the overhead cabinet door, pick up some plush toys from the basket and put them in the open cabinet, and then close the cabinet",
+        "59672": "Open the cabinet door and put some of the fruits plush toy inside  and close it"
+     }
+}

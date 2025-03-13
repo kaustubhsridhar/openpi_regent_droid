@@ -1,0 +1,99 @@
+
+{
+    "put_ropes_in_blue_box": {
+        "54786": "Put the white ropes inside the blue box",
+        "89618": "Put the ropes inside the box",
+        "2080": "Put the white ropes inside the blue box",
+        "27686": "Put the ropes into the blue box.",
+        "78887": "Place the white ropes inside the blue box then push the box to the left",
+        "25146": "Put the white rope inside the blue box",
+        "52802": "Put the ropes in the box one at a time",
+        "12908": "Put the two white ropes inside the blue box",
+        "27253": "Put the white ropes in the blue box",
+        "22149": "Put the two ropes in the box one at a time",
+        "76975": "Put the white ropes inside the blue box",
+        "27333": "Put the white ropes inside the blue box",
+        "9445": "Put the white ropes inside the blue box.",
+        "92926": "Put the ropes inside the blue box.",
+        "61731": "Put the ropes in the box",
+        "78118": "Put the ropes in the box",
+        "54581": "Put the ropes into the box.",
+        "7512": "Pick up the ropes and put them into the blue box.",
+        "69464": "Pick up the ropes and put them in the blue box.",
+        "47469": "Put the ropes in the box",
+        "23410": "Put the ropes in the box one at a time",
+        "13684": "Put the rope in the box one at a time",
+        "10115": "Put the ropes inside the blue box.",
+        "77191": "Place the white rope inside the blue box",
+        "19364": "Put the ropes in the blue box.",
+        "59338": "Put the ropes in the box",
+        "5591": "Put the ropes in the box",
+        "21503": "Put the rope in the box, one at a time",
+        "34827": "Put the ropes inside the box",
+        "85534": "Put the white strings inside the box.",
+        "95475": "Place the white ropes inside the blue box",
+        "85191": "Put the ropes into the box.",
+        "18130": "Put the ropes in the box one at a time",
+         "66231": "Put the ropes in the box one at a time",
+        "24250": "Put the ropes on the table into the box",
+        "60615": "Pick up the ropes and put them in the blue box.",
+       "53096": "Put the two ropes in the box one at a time",
+       "2505": "Put the white rope inside the blue box",
+        "43978": "Put the white rope inside the blue box",
+        "70080": "Put the white ropes inside the blue box"
+    },
+        "pick_up_ropes_and_put_in_box": {
+        "6223": "Pick up the two white ropes and put them in the box",
+        "2128": "Pick the ropes and put them in the box",
+        "20058": "Pick up the two white ropes from the table and put them in the box",
+        "91747": "Pick up the white ropes and put them in the box",
+        "61044": "Pick up the white ropes from the counter and put them in the box",
+        "35449": "Pick up the white ropes from the counter and put them in the box",
+        "67197": "Pick up all the ropes and pack them in the box",
+        "65150": "Pick up the ropes from the table and put them in the blue box.",
+        "74419": "Pick up the white ropes from the table and put them in the box",
+         "25875": "Pick up the white ropes from the counter and put them in the box",
+         "13691": "Pick up the rope from the table and put them in the box",
+        "64408": "Pick up the rope from the table and put them in the blue box.",
+        "33177": "Pick up the white ropes from the counter and put them in the box",
+        "70554": "Pick the ropes and put them in the box",
+        "53675": "Pick up the rope from the table and put them in the box",
+        "44463": "Pick up the ropes on the table and put them in the box",
+        "27065": "Pick up the white ropes from the counter and put them in the box",
+        "35776": "Pick up the ropes from the table and put them in the box",
+         "26939": "Pick the white ropes and put them in the carton box",
+        "42812": "Pick up the white ropes on the counter and put them in the box",
+         "48493": "Pick the ropes and put them in the box"
+    },
+    "put_strings_in_blue_box": {
+        "36374": "Put the strings in the blue box",
+        "23105": "Put the string in the blue box",
+        "63720": "Put the strings in the blue box",
+        "4374": "Put the string in blue box",
+                "67967": "Put the white string in the blue box",
+        "14276": "Put the strings in the blue box"
+
+    },
+    "put_white_object_in_blue_box": {
+        "21523": "Put the white object in the blue box",
+        "73074": "Put the white objects into the blue box"
+    },
+    "put_ropes_in_carton_box": {
+        "42846": "Put the ropes in the carton box",
+        "34659": "Put the ropes in the carton box",
+        "60868": "Put the white rope in the carton box"
+
+    },
+      "put_left_and_right_ropes_in_box":
+    {
+        "60203": "Put the left and right ropes in the box respectively",
+        "59279": "Put the right and left ropes in the box"
+    },
+    "put_misc_item_in_box":{
+        "85403": "Put the orange block in the box"
+    },
+     "complex_tasks": {
+        "30006": "Pick up the rope from the table, put it in the box and move the box to the right"
+
+     }
+}

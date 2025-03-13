@@ -1,0 +1,99 @@
+
+{
+    "place_sachet_on_counter": {
+        "39535": "Put one green sachet on the counter",
+        "27248": "Put one red sachet on the counter",
+        "52631": "Put one green sachet on the counter",
+        "31992": "Put one white packet on the countertop"
+    },
+    "place_item_in_cup": {
+        "50183": "Empty the pod into the cup",
+        "89625": "Put the stirrer in the coffee cup",
+        "88212": "Place the straw in the cup",
+        "71320": "Pick up the chop stick and put it in the paper cup",
+        "77051": "Put the straw in the coffee cup"
+    },
+    "place_cup_on_coffee_machine": {
+        "37393": "Put the cup on the coffee maker",
+        "74969": "Put the cup on the coffee machine",
+        "84210": "Put the cup on the espresso machine"
+    },
+    "place_lid_on_cup": {
+        "30768": "Remove the top coffee cup on the right stacked cups, then put a lid on it",
+        "77916": "Remove one coffee cup from the stack on the right and place it upright on the counter then put the white lid on top of it.",
+        "35168": "Pick up the paper cup lid from the kitchen counter and place it on the paper cup",
+        "72130": "Put the lid on the cup"
+    },
+    "remove_lid_from_cup": {
+        "19523": "Take the lid off of the coffee cup",
+        "75358": "Take the lid off the cup and put it on the countertop",
+        "90396": "Remove the lid from the cup and put it on the paper towel"
+    },
+     "open_drawer": {
+        "55862": "Open the top drawer",
+        "11439": "Open the topmost drawer on the right",
+        "18639": "Open the topmost drawer then remove one orange packet and put it on the counter"
+    },
+    "close_drawer": {
+        "37702": "Close the open drawer.",
+        "62376": "Close the open drawer"
+
+    },
+    "place_paper_towel_on_counter": {
+        "7799": "Remove the paper towel from the paper towel holder and put it on the counter",
+        "11060": "Remove a piece of paper towel from the paper towel roll and put it on the counter"
+    },
+    "place_cup_on_counter":{
+        "23621": "Pick up one paper cup from the stack and place it right side up on the kitchen counter, pick up the upside down cup and place it in the paper cup to the right",
+        "69244": "Pick up one paper cup from the right stack and put it the right way up on the kitchen counter",
+        "56545": "Pick up one paper cup from the stack on the right and place it the right way up on the kitchen counter"
+    },
+      "stack_cups":{
+        "62082": "Stack the cups from the top cup to the bottom cup",
+        "13997": "Stack the two coffee cups on the counter together",
+        "59725": "Stack the coffee cup on top of the right stacked cups",
+        "10641": "Add the cup to the stack on the right",
+        "31622": "Stack up the cups on the counter and turn them upside down"
+    },
+      "put_capsule_in_machine":{
+        "37903": "Pick up the coffee capsule on the left and put it in the coffee machine",
+        "13501": "Put the coffee capsule on the left in the coffee machine",
+        "55991": "Open the lid of the coffee machine and place the pod inside"
+
+      },
+    "place_sachet_on_shelf":{
+        "53283": "Remove the sachet from the shelf",
+        "32837": "Put the white sachet on the shelf with similar sachets",
+        "11481": "Put the sachet on the shelf",
+        "39708": "Put the sachet on the shelf",
+         "24850": "Put the yellow sachet in the top shelf"
+    },
+        "turn_on_appliance_forward": {
+        "82707": "Turn the faucet handle forward"
+    },
+    "open_tap_faucet":{
+        "40038": "Open the tap faucet",
+        "80345": "Push the tap to the left, open the tap, close the tap"
+
+    },
+        "use_spoon_to_move_contents":{
+        "57864": "Pick up the spoon and use to it to move a spoon of coffee from the coffee jar and put it in the styrofoam cup",
+        "4240": "Use the spoon to put some contents of the jar in the cup"
+
+    },
+     "press_button_dishwasher":{
+        "80190": "Push a button on the dishwasher",
+        "77164": "Push the button on the dishwasher",
+        "77766": "Push the bottom left button on the left side of the dish washing machines screen display",
+        "45197": "Turn on the dishwasher"
+
+     },
+         "place_cup_on_table":{
+             "54773": "Put the cup on the table",
+             "92588": "Put the cup on the table and turn it upright"
+         },
+
+      "open_lid_coffee_machine":{
+          "46856": "Open the lid of the coffee machine"
+      }
+}

@@ -1,0 +1,58 @@
+
+{
+    "place_bottles_in_box": {
+        "52241": "Put the right bottle in the box",
+        "70436": "Put the two bottles in the box",
+        "42301": "Put the two bottles in the white box",
+        "9026": "Pick the bottles from the counter and put them in the box",
+        "94786": "Put the left and right bottles in the box",
+        "7367": "Put the water bottles in the box.",
+        "90572": "Put the right and white bottles in the box",
+        "26338": "Place two empty water bottles inside the white storage box"
+    },
+    "remove_bottles_from_box": {
+        "77831": "Remove the bottle from the box",
+        "8209": "Remove the water bottles from the white storage box.",
+        "95528": "Pick up the bottles from the box and put them on the counter",
+        "25672": "Remove the water bottles from the box and put them on the counter",
+        "81235": "Remove the water bottles from the box and put them on the counter",
+        "78204": "Take two bottles out of the white storage box",
+        "735": "Remove one bottle from the box"
+
+    },
+    "place_bottles_on_counter": {
+        "75658": "Put the right and left water bottles on the top counter",
+        "63117": "Put the water bottle on the counter below",
+        "76946": "Put the bottles on the counter-top",
+        "23957": "Put the water bottles on the top part of the counter",
+        "45612": "Pick up the bottle and put it on the counter",
+        "73005": "Put the full water bottle in between the tape and the empty one on the top part  of the counter",
+        "33072": "Pick the blue bottle and put it a step up on the counter",
+        "29003": "Pick up the two bottles and put them on top of the counter",
+        "73081": "Put the water bottle on the top part of the counter",
+        "64140": "Remove the bottles from the box and put them on the counter"
+
+    },
+        "put_plastic_over_object": {
+        "39559": "Put the plastic over the black can",
+        "40347": "Put the plastic over the brown bottle"
+    },
+        "move_object_right":{
+        "67034": "Move the bottles to the right",
+        "54246": "Move the water bottle to the right."
+    },
+    "place_bottle_upright":{
+       "79180": "Place the water bottle on the right upright",
+       "87032": "Place the water bottle on the left upright."
+    },
+     "put_bottle_in_plastic_bag":{
+        "24025": "Put one of the water bottles on the counter in the plastic bag",
+        "90229": "Put the plastic bag around one of the water bottles on the counter"
+     },
+    "put_bottles_in_box_on_counter":{
+        "17572": "Put the water bottles on the counter in the box",
+        "52023": "Put the water bottle on the counter in the box"
+    }
+
+}
+

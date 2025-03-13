@@ -1,0 +1,116 @@
+
+{
+    "Press Down Top of Flask": {
+        "43526": "Press the top of the metallic flask",
+        "13340": "Press the button atop the flask",
+        "72223": "Press down on the top of the flask",
+        "24196": "Press down on the lid of the flask",
+        "64679": "Press down on the lid of the silver flask",
+        "79527": "Press down on the top of the silver flask",
+        "48980": "Press down on the lid of the flask",
+        "59224": "Press down the object on top of the flask",
+        "80232": "Push down on the lid of the silver flask",
+        "20870": "Press down on the top of the grey flask",
+        "5087": "Press down on the top of the silver flask"
+    },
+    "Stir Contents": {
+        "94726": "Stir the contents in the flusk.",
+        "2058": "Hold the white rod and stir in the silver cup.",
+        "78979": "Stir the contents in the flusk.",
+        "3403": "Stir the contents in the flusk.",
+        "84238": "Stir the contents in the silver cup.",
+        "89561": "Use the rod to stir in the silver cup."
+    },
+    "Close Flask": {
+        "11275": "Close the opening on the lid of the silver bottle on the table.",
+        "1549": "Close the mouth of the flask",
+        "62050": "Close the lid on the top of the thermos flask",
+        "49407": "Close the mouth of the flask",
+        "36133": "Close the small opening at the top of the flask",
+        "40741": "Close the flask",
+        "93905": "Close the lid at the top of the thermos flask",
+        "43248": "Close the lid of the flask",
+        "49550": "Close the flusk.",
+        "69581": "Close the lid on the top of the thermos flask",
+        "23463": "Close the lid of the flask",
+        "53622": "Close the silver flask"
+
+    },
+    "Open Flask": {
+        "21534": "Open the jar",
+        "48698": "Open the flask",
+        "62554": "Open the flask",
+        "55999": "Open the mouth of the flask",
+        "79175": "Open the flask",
+        "93627": "Open the mouth of the flask",
+        "30146": "Open the flusk.",
+        "86940": "Open the flask"
+    },
+     "Brush Inside Flask Up and Down": {
+        "33827": "Move the brush inside the silver flask up and down",
+        "26672": "Move the brush inside the flask up and down",
+        "95317": "Move the brush inside the flask up and down",
+        "58967": "Move the brush inside the flask up and down",
+        "13922": "Move the bottle brush up and down repeatedly in the flask",
+        "7291": "Move the brush inside the silver flask up and down",
+        "45711": "Move the brush inside the flask up and down, remove the brush from the flask",
+        "24228": "Move the bottle brush up and down repeatedly in the thermos flask",
+        "79573": "Move the brush inside the silver flask up and down",
+        "47842": "Move the brush inside the flask up and down",
+        "94973": "Move the brush inside the silver flask up and down",
+        "62750": "Move the brush inside the flask up and down",
+        "61782": "Move the brush inside the flask upwards and downwards",
+        "65802": "Move the bottle brush up and down repeatedly in the thermos flask",
+       "41348": "Move the bottle brush up and down repeatedly in the thermos flask",
+        "26287": "Move the bottle brush up and down twice in the thermos flask",
+        "87167": "Clean the bottle by moving the brush up and down."
+
+    },
+    "Scrub Inside Flask":{
+        "88596": "Scrub the inside of the flask",
+        "45107": "Use the brush to scrub the flask",
+        "85614": "Use the brush to scrub inside the flask",
+        "60575": "Clean the inside of the flask using the bottle brush",
+        "67239": "Clean inside the flask using the bottle brush",
+        "48301": "Use the bottle brush to clean inside the flask",
+        "56561": "Scrub inside the flask with the brush",
+        "24885": "Scrub the inside of the flask with the brush",
+        "28051": "Scrub the inside of the flask with the brush",
+        "44507": "Use the brush to scrub the flask",
+        "60893": "Clean the inside of the flask using the bottle brush",
+         "51571": "Clean inside the thermos flask using the bottle brush",
+        "42472": "Clean the inside of the flask"
+    },
+    "Open Cap/Lid":{
+       "16515": "Open the cap on the bottle",
+        "76491": "Open the cap on the silver bottle",
+        "9358": "Open the lid on the top of the thermos flask",
+        "25848": "Open the lid at the top of the thermos flask",
+        "89556": "Open the cap on the silver bottle"
+
+    },
+    "Press Button Atop":{
+        "9534": "Press the button atop the thermos",
+        "79239": "Press the button atop the thermos"
+
+    },
+        "Close Lid/Cap": {
+        "12495": "Close the cap on the silver jar",
+        "40287": "Close the thermos lid",
+        "62361": "Close the small lid on top of the silver cup."
+    },
+        "Scrub Jar": {
+            "18076": "Scrub the jar",
+            "48323": "Use the brush to scrub inside the jar",
+            "41703": "Scrub the jar with the brush",
+            "1950": "Use the brush to scrub inside the jar"
+        },
+        "Use Brush to Clean": {
+            "73739": "Use the object to clean the bottle",
+           "86181": "Use the object to scrub the inside of the bottle",
+            "80502": "Use the brush to scrub the inside",
+            "69953": "Use the brush to clean the silver thermos",
+            "48518": "Use the brush to clean the inside of the silver bottle",
+            "2809": "Use the brush to clean the insides of the silver bottle"
+        }
+}

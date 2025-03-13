@@ -1,0 +1,85 @@
+
+{
+    "wipe_table_with_blue_towel": {
+        "87169": "Use the blue towel to clean the table",
+        "48790": "Wipe the table using the blue towel",
+        "46624": "Use the blue towel to wipe the table.",
+        "92064": "Wipe the table with the blue towel",
+        "4536": "Use the blue towel to wipe the table.",
+        "4819": "Use the blue towel to wipe the table.",
+        "54767": "Use the blue towel to wipe the black table.",
+        "31099": "Use the blue towel to wipe the table."
+    },
+    "wipe_table_with_towel": {
+        "7315": "Clean a section of the table with the towel",
+        "5397": "Use the towel to clean the table",
+        "91176": "Use the towel to wipe the table.",
+        "58797": "Use the towel to clean the table",
+        "46009": "Use the towel to wipe the table.",
+        "54201": "Wipe the table with the towel",
+        "67256": "Use the towel to wipe the table",
+        "76865": "Use the towel to wipe the table",
+        "88039": "Use the towel to wipe the table.",
+        "52093": "Use the towel to wipe the table"
+    },
+    "stack_bowls": {
+        "62734": "Stack the two clear bowls together.",
+        "6800": "Stack the three bowls onto each other",
+        "17047": "Put the bowl on the right on top of the other one",
+        "68120": "Stack the clear bowls together.",
+        "48282": "Stack the clear bowls together.",
+        "4923": "Stack the two clear bowls together.",
+        "35136": "Stack the clear bowls together.",
+        "31949": "Put the bowl onto the other bowl on the right",
+        "61261": "Put the bowl on the left on top of the bowl on the right",
+        "17372": "Put the plastic bowl on top of the other",
+      "90876": "Pick up one clear bowl and stack it inside the other clear bowl"
+    },
+    "stack_lunchboxes": {
+        "29964": "Stack up the two lunchboxes on the table",
+        "16291": "Stack the lunchbox on the right on to the one in the center of the table",
+        "35492": "Stack the lunchboxes",
+        "67627": "Stack the lunchboxes",
+        "38739": "Stack the lunchboxes"
+    },
+        "put_right_bowl_in_left_bowl": {
+        "67366": "Put the right bowl in the left bowl",
+        "39484": "Put the right bowl in the left bowl",
+        "38126": "Put the right bowl in the left bowl"
+
+    },
+    "put_lunchbox_in_lunchbox": {
+        "19766": "Put the lunchbox on the left into the lunchbox on the right",
+        "68794": "Pick up the plastic lunchbox in the front and put it inside the other lunchbox",
+        "88014": "Pick up the clear lunch box to the right and put it in the clear lunch box to the left",
+        "59344": "Get the lunch box to the right from the table and put it in the lunch box to the left",
+        "83924": "place the lunchbox inside the other lunchbox",
+      "27121": "Put the lunchbox on the left inside the lunchbox on the right"
+
+    },
+     "wipe_table_with_blue_item": {
+        "37182": "Wipe the table using the blue object",
+        "40292": "Wipe the table with the blue cloth",
+        "969": "Wipe the table using the blue rug",
+        "15871": "Use the blue cloth to wipe the table"
+    },
+      "put_bowl_in_bowl":{
+        "3911": "Put the bowl closest to you in the bowl furthest to you",
+        "46806": "Put the bowl into the other  bowl",
+        "20587": "Pick up the plastic bowl on the left and put it inside the plastic bowl on he right"
+      },
+        "pile_up":{
+        "51995": "Pile up the boxes",
+        "66276": "Pile up the containers",
+        "34663": "Put the lunch boxes  together in one pile"
+    },
+       "stack_containers":{
+        "69037": "Stack the clear containers together.",
+        "2546": "Stack up the containers on the table"
+       },
+      "wipe_table_generic":{
+        "50236": "Wipe the table with the white tea towel",
+        "62664": "Clean the table",
+        "88633": "Use the white towel to wipe the table"
+      }
+}

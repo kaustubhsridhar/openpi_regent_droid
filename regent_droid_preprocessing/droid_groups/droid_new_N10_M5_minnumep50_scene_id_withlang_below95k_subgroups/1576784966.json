@@ -1,0 +1,136 @@
+
+{
+    "wooden_spoon_in_silver_holder": {
+        "47130": "Put the brown spoon in the silver holder.",
+        "55092": "Put the brown spoon in the silver holder.",
+        "77868": "Put one wooden spoon from the basket in the silver holder.",
+        "54092": "Put one wooden spoon in the silver holder."
+    },
+    "wooden_spoon_in_tin_can": {
+        "90205": "Put the wooden spoon inside the tin can",
+        "11374": "Put the wooden spoon in the tin",
+        "17904": "Put the wooden spoon in the tin"
+    },
+    "spatula_in_basket": {
+        "67845": "Put the red spatula in the white basket.",
+        "33064": "Put a spatula in the basket",
+        "84028": "Put the black spatula in the basket"
+    },
+    "spatula_in_silver_tin": {
+        "90502": "Put the spatula inside the silver object",
+        "87568": "Put one orange spatula in the silver tin",
+        "55217": "Put the spatula inside the silver tin can",
+        "46832": "Put the black spatula in the silver tin"
+    },
+    "wooden_spatula_in_utensil_holder": {
+        "40966": "Put the wooden spatula in the utensil holder",
+        "15410": "Put one wooden spoon in the utensil holder"
+    },
+      "wooden_spoon_in_silver_can": {
+        "64644": "Put the wooden spoon in the silver can",
+        "24362": "Move one wooden spoon from the white basket to the silver can"
+    },
+    "remove_wooden_spoon_from_silver_tin_and_put_in_basket": {
+        "90518": "Remove the brown spoon from the silver tin and put it inside the white basket"
+    },
+    "remove_spatula_from_basket_and_put_in_metal_jug":{
+        "24602": "Remove the orange silicon spatula from the  basket and put in the metal jug"
+    },
+    "remove_wooden_spoon_from_tin":{
+        "19741": "Remove the wooden spoon from the tin",
+        "22424": "Remove the spoon from the tin can"
+    },
+        "wooden_spatula_in_white_basket": {
+        "61472": "Put one wooden spatula from the silver holder in the white basket.",
+        "47160": "Pick up the wooden spatula and put it in the white basket"
+
+    },
+        "wooden_spoon_from_basket_in_silver_container":{
+        "75593": "Put one wooden spoon from the basket in the silver container."
+    },
+    "wooden_spoon_on_table":{
+       "65326": "Put the wooden spoon on the table"
+    },
+    "remove_wooden_spoon_put_on_table":{
+        "42279": "Remove one wooden spoon from the silver holder and put it on the table."
+
+    },
+        "remove_wooden_spatula_put_on_table":{
+          "37814": "Remove one wooden spatula from the silver holder and place it on the table."
+    },
+     "remove_spatula_put_in_white_basket": {
+        "39085": "Remove the wooden spatula from the cutlery holder and put it in the white basket",
+        "78383": "Remove the spatula from the cutlery holder and place it in the white basket",
+        "34779": "Pick up the black spatula from the silver utensil holder and put it in the white basket"
+    },
+        "remove_wooden_spatula_from_basket_and_put_in_spoon_holder":{
+        "35676": "Remove the wooden spatula from the basket and put in  the spoon holder",
+        "65268": "Remove the wooden spoon from the basket and put it in the spoon  holder."
+    },
+    "orange_spatula_in_silver_utensil_holder": {
+        "1074": "Pick up the orange spatula and put it in the silver utensil holder",
+        "94706": "Pick up the orange spatula and put it in the silver utensil holder"
+    },
+    "remove_orange_spatula_from_tin_put_on_table": {
+        "58994": "Remove the orange spatula from the silver tin and put it on the table"
+    },
+      "ladle_in_silver_container": {
+        "93923": "Put the green ladle in the silver container."
+    },
+       "wooden_spoon_in_metal_bucket":{
+           "71074": "Put the wooden spoon into the metal bucket",
+           "32189": "Put a wooden spoon on the metal bucket",
+          "89725": "Take the wooden spoon out of the basket and put it into the metal bucket"
+       },
+    "remove_black_spatula_from_silver_tin_put_on_table": {
+        "77497": "Remove the black spatula from the silver tin and put it on the table"
+    },
+        "remove_ladle_from_silver_holder_put_on_table":{
+        "56897": "Remove the green ladle from the silver holder and put it on the table.",
+        "22911": "Remove a wooden ladle from the silver tin and put it on the table"
+
+    },
+    "put_spoons_in_bucket": {
+        "53772": "Take the plastic spoon out of the bucket",
+        "42364": "Put the spoon into the bucket"
+    },
+      "wooden_spoon_in_silver_cup":{
+          "38274": "Pick a wooden spoon and place it in the silver cup",
+          "63311": "Put the utensil with the red top into the metal cup"
+      },
+     "wooden_spoon_in_white_container":{
+          "63514": "Put the wooden spoon inside the white container",
+          "70767": "Put the wooden spatula in the container"
+     },
+        "remove_wooden_spoon_from_utensil_holder":{
+           "64168": "Remove one wooden spoon out of the utensil holder",
+           "79664": "Remove the wooden spoon from the utensil holder"
+        },
+    "wooden_spatula_in_silver_holder":{
+           "88528": "Put the wooden spatula in the silver holder."
+    },
+     "remove_blue_wooden_spoon_from_metal_holder_and_put_in_basket":{
+        "606": "Remove the blue wooden spoon from the metal holder and put it in the basket"
+     },
+        "put_two_wooden_spoons_from_holder_in_the_white_basket":{
+          "48608": "Put two wooden spoons from the holder in the white basket."
+        },
+     "remove_orange_spoon_from_tin_can":{
+       "59362": "Remove the orange spoon from the tin can"
+     },
+      "cooking_stick_in_the_silver_tin":{
+        "81452": "Pick up the cooking stick and put it in the silver tin"
+      },
+    "wooden_spoon_put_in_silver_utensil_holder":{
+      "84652": "Pick up the wooden spoon on the far left of the table on put it in the silver utensil holder"
+    },
+      "black_spatula_inside_silver_bowl":{
+           "45502": "Put the black spatula inside the silver bowl"
+      },
+       "blue_ladle_inside_the_silver_tin":{
+        "3576": "Put the blue ladle inside the silver tin"
+       },
+        "remove_black_spatula_from_white_rack_put_inside_silver_tin":{
+           "14584": "Remove the black spatula from the white rack and put it inside the silver tin"
+        }
+}

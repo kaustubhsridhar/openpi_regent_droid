@@ -1,0 +1,63 @@
+
+{
+    "Press Button on Black Remote": {
+        "29184": "Press the topmost left button on the black remote",
+        "33934": "Press a button on the black remote control",
+        "55951": "Push a button on the black remote control",
+        "16799": "Press the button in the middle of the ring on the black remote",
+        "59060": "Press a button on the black remote",
+        "33079": "Push a button on the black remote",
+        "11195": "Push a button on the black remote",
+        "90872": "Press a button on the black remote control",
+        "56397": "Press a top middle button on the remote controller",
+        "90837": "Press the number four button on the remote"
+    },
+    "Press Button on Remote": {
+        "70566": "Press a button on the remote",
+        "1485": "Press a button on the remote control",
+        "66027": "Press the button on the remote"
+    },
+    "Open the Book": {
+        "62344": "Open the book",
+        "81855": "Open the front cover of the book",
+        "24161": "Flip the book over on the table"
+    },
+     "Put Blue Toy Car in Green Lunchbox": {
+        "8206": "Put the blue toy car in the green lunchbox and then close the lid of the lunchbox",
+        "32046": "Open the green lunch box and put the toy car inside",
+        "5441": "Open the green box then put the blue toy car in it",
+        "32460": "Put the blue car in the green tool box then close the box.",
+        "847": "Put the blue car in the green lunchbox and then close the lid of the lunchbox",
+        "76515": "Open the green lunch box, put the blue car in the green box"
+    },
+       "Open the Green Lunch Box": {
+        "72473": "Open the green lunch box",
+        "75772": "Open the green container"
+
+    },
+    "Turn Object Over":{
+        "13741": "Turn the blue toy car over",
+        "460": "Turn the blue toy over",
+        "31455": "Turn the remote control over",
+        "55007": "Turn the yellow book over",
+        "14438": "Flip the remote control over on the table"
+
+    },
+    "Place Toy Car Upside Down":{
+      "66573": "Place the blue toy car upside down",
+      "47215": "Put the toy car, upside down on the table"
+    },
+     "Put Black Hat on White Stand": {
+        "10499": "Put the black hat on the white stand",
+        "1021": "Hang the black hat on the white stand"
+    },
+    "Turn Something to the Left":{
+        "69123": "Turn the green bowl to the left",
+        "82505": "Turn the green lunchbox towards the left"
+    },
+      "Slide/Flip Book":{
+        "42755": "Slide the book downwards, flip the book and place it right side up on the table",
+        "28860": "Slide the book a little downwards on the table, pick up the book and flip it over"
+      }
+}
+

@@ -1,0 +1,67 @@
+
+{
+    "Wipe Table": {
+        "28928": "Take a tissue out of the box and use it to wipe the table",
+        "41732": "Wipe the table with the towel",
+        "92431": "Use the cloth to wipe the table",
+        "58896": "Use the tissue on the table to wipe it",
+        "93463": "Wipe the table with the towel",
+        "33697": "Wipe the table using the yellow towel",
+        "82090": "Use the yellow towel to wipe the tabletop",
+        "32939": "Use the yellow towel to wipe the left part of the table",
+        "80693": "Use a paper towel to wipe the table",
+        "14813": "Use the white towel to wipe the table",
+        "23286": "Use the cloth and wipe the table",
+        "43134": "Take the cloth and wipe the table"
+    },
+    "Move Object Backwards": {
+        "80384": "Push the blue cup backwards",
+        "44": "Move the white and blue packet backwards",
+        "8883": "Move the box backwards."
+    },
+    "Move Object Forward": {
+        "17028": "Move the scissors to the front",
+        "56073": "Move the plastic spoon forward then wipe the table with the cloth.",
+        "63167": "Move the card forward",
+        "64065": "Pick the bottle on the table and move it forward"
+    },
+    "Move Object Left": {
+        "48276": "Pick the pink object and move it to the left of the table",
+        "69270": "Pick the packet on the right and move it to the left",
+        "53690": "Move the white towel to the left",
+        "26107": "Move the blue packet to the left"
+    },
+        "Move Object Right": {
+        "70038": "Move the lid to the right",
+        "95152": "Move the pink object to the right on the table"
+
+    },
+    "Unfold Towel": {
+        "76034": "Unfold the towel",
+        "6539": "Unfold the towel slightly on the table"
+    },
+    "Fold Towel": {
+        "33447": "Fold the towel."
+    },
+       "Put Item in Black Box": {
+        "35598": "Put the cable in the black box",
+        "36387": "Put the bottle in the black box",
+        "34897": "Put the bottle inside the box",
+        "31864": "Put the wrapper in the box"
+
+    },
+    "Remove Item From Black Box and Place on Table": {
+        "62354": "Pick up the medicine bottle from the black box and put it on the table.",
+        "48659": "Remove the bottle from the black box and put it on the table upright",
+        "42287": "Pick up the bottle in the black box and place it on the table",
+        "57901": "Remove the yellow towel from the black box and place it on the table",
+        "59953": "Pick up the bottle from the black box and put it on the table.",
+        "4015": "Remove the white cable from the black box then put it on the table"
+
+    },
+        "Take Tissue and Put on Table":{
+        "95235": "Take a piece of tissue from the tissue box and put it on the table",
+        "55971": "Remove a tissue from the box and put it on the table"
+    }
+}
+

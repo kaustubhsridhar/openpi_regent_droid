@@ -1,0 +1,159 @@
+
+{
+    "move_faucet_left": {
+        "7680": "Move the faucet head to the left",
+        "92779": "Move the tap nozzle to the left",
+        "81690": "Turn the faucet to the left"
+    },
+    "turn_faucet_right": {
+        "22528": "Turn the tap faucet to the right"
+    },
+    "push_faucet_right": {
+        "56330": "Push the tap faucet to the right"
+    },
+    "move_faucet_right": {
+        "21003": "Move the faucet handle on the right to the right",
+        "44805": "Move the tap nozzle to the right",
+        "25402": "Very slightly move the faucet of the sink to the right.",
+        "84871": "Slide the spout to the right"
+    },
+    "close_faucet_right_handle": {
+        "86016": "Push the faucet handle on the right to close the faucet",
+        "37419": "Close the tap with the right tap handle",
+        "65424": "Close the faucet using the faucet handle on the right"
+    },
+     "open_tap_right":{
+        "18448": "Open the tap on the right"
+    },
+    "close_tap": {
+        "20506": "Completely close the tap",
+        "36024": "Close the tap",
+        "3821": "Close the tap"
+    },
+    "push_faucet_backward": {
+        "71196": "Push the faucet handle backwards."
+    },
+    "turn_faucet_handle_right": {
+        "79476": "Turn the faucet handle on the right",
+        "78103": "Turn the faucet handle on the right clockwise"
+    },
+    "open_faucet_right_handle": {
+        "84086": "Use the right faucet handle to open the faucet.",
+        "19125": "Open the faucet using the right handle",
+        "34646": "Open the faucet using the handle on the right"
+    },
+    "turn_off_water_right":{
+        "3251": "Turn off the water switch on the right tap"
+    },
+    "open_close_faucet": {
+        "85547": "Open the faucet then close the faucet"
+    },
+    "open_tap": {
+       "27715": "open the tap"
+    },
+    "place_plate_in_rack": {
+        "91143": "place the plate in the rack",
+        "53891": "Put the white plate on the dish rack"
+    },
+    "remove_plate_from_rack_to_sink": {
+        "52250": "Remove the beige plate from the dish rack and place it in the sink",
+        "81788": "Remove the cream white plate from the dish rack and put it in the sink"
+
+    },
+    "pick_up_mug_put_in_sink": {
+        "44060": "Pick up the beige mug and put it inside the sink",
+        "1173": "Place the beige mug inside the sink",
+        "89958": "Pick up the white mug from the counter and put it inside the sink"
+    },
+    "pick_up_white_mug":{
+        "54819": "Pick up the white mug"
+    },
+    "remove_cup_from_sink": {
+        "81977": "Remove the cup from the sink",
+        "20199": "Take the cup out of the sink",
+        "13600": "Remove the cup from the sink",
+        "55186": "Remove the white cup of the sink"
+    },
+        "remove_straw_from_sink": {
+        "46154": "Remove the straw from the sink"
+    },
+    "put_bowl_in_sink":{
+        "34384": "Put the glass bowl in the sink"
+    },
+    "remove_fork_from_sink_to_rack": {
+        "32352": "Remove the silver fork from the glass in the sink and put it on the dishrack",
+        "23716": "Remove the fork from the sink and put it on the dish rack"
+    },
+    "put_mug_on_counter": {
+        "43105": "Put the mug on the counter top",
+        "56646": "Put the mug on the counter"
+    },
+    "put_straw_in_mug": {
+        "32868": "Put the straw inside the mug"
+    },
+      "move_sponge_backward": {
+        "9410": "Move the sponge backwards"
+    },
+    "move_blue_sponge_forward":{
+        "77062": "Move the blue sponge forward"
+    },
+    "remove_cup_from_sink_to_counter": {
+        "68837": "Pick up the cup from the sink and put it on the counter",
+        "76277": "Pick up the glass cup from the sink and put it on the countertop."
+
+    },
+    "take_mug_out_of_sink":{
+        "34073": "Take the mug out of the sink"
+    },
+    "remove_fork_and_straw_from_sink":{
+       "12874": "Remove the fork and straw from the sink"
+    },
+        "put_cup_in_sink": {
+        "82093": "Pick the cup and put it in the sink",
+        "71944": "Put the cup in the sink",
+        "13689": "Pick up the cup and put it in the sink",
+        "87881": "Put the white cup in the sink",
+        "3971": "Put the white cup into the sink",
+        "15855": "Put the white cup closest to you in the sink",
+        "76641": "Move the white mug from the counter on the left to the sink",
+        "56510": "Put the mug in the sink"
+
+    },
+      "put_fork_on_plate_in_sink":{
+        "88267": "Put the fork on the plate in the sink"
+      },
+    "remove_bowl_from_sink_to_counter":{
+        "44251": "Remove the clear bowl from the sink and put it on the counter"
+    },
+      "put_straw_in_sink":{
+        "16273": "Put the straw inside the sink"
+      },
+      "move_mug_left_in_sink":{
+        "87279": "Move the white mug in the sink to the left"
+      },
+      "turn_tap":{
+        "27952": "Turn the tap"
+      },
+      "move_tap":{
+       "74283": "Move the tap"
+      },
+      "put_straw_in_holder":{
+        "15135": "Pick up the straw from the sink and put in the kitchen utensil holder"
+      },
+     "pour_water_out_of_mug":{
+        "19384": "Pour the water out of the mug cup in the sink",
+        "34801": "Pour out the water in the mug"
+     },
+    "center_faucet": {
+        "79024": "Center the faucet"
+    },
+    "turn_on_faucet":{
+        "451": "Turn on the faucet"
+    },
+    "open_faucet":{
+        "61938": "Open the faucet"
+    },
+    "remove_mug_from_sink_to_counter":{
+        "10141": "Remove the mug from the sink and place it on the right side of the countertop"
+    }
+}

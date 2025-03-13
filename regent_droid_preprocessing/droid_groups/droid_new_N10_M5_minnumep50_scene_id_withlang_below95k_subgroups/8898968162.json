@@ -1,0 +1,42 @@
+
+{
+    "put_rectangular_block_on_table": {
+        "3840": "Put the rectangular block on the table",
+        "4917": "Put the rectangular block on the table"
+    },
+    "move_rectangle_right": {
+        "69646": "Move the rectangle to the right",
+        "66390": "Move the rectangle to the right"
+    },
+    "move_cylindrical_block_forward": {
+        "14457": "Move the long cylindrical block forward",
+        "28705": "Move the cylindrical block forward"
+    },
+    "move_cylindrical_block_backward": {
+        "93221": "Move the tall cylindrical block backwards",
+        "89701": "Move the tall cylindrical block backwards",
+        "80912": "Move the cylindrical block away from you"
+
+    },
+    "move_round_object_backward": {
+        "16947": "Move the round object backward"
+    },
+   "move_cylindrical_block_towards_you": {
+        "41004": "Move the right cylindrical block towards you"
+   },
+    "move_wooden_arch_forwards": {
+        "32840": "Move the wooden arch forwards"
+    },
+    "move_longer_cylindrical_block_to_front":{
+        "49076": "Move the longer cylindrical block to the front"
+    },
+ "put_square_block_on_cylindrical_block": {
+        "3714": "Put the square block on the cylindrical block",
+        "17669": "Put the square block on top of the cylindrical block.",
+        "13557": "Put the square block on the wooden cylinder"
+    },
+    "move_forwards_then_backwards":{
+        "87015": "Move the wooden cube forwards then backwards"
+    }
+}
+

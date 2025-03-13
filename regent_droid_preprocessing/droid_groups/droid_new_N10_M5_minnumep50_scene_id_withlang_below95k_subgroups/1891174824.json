@@ -1,0 +1,79 @@
+
+{
+    "chair_to_box": {
+        "24069": "Pick up the clothes from the headrest of the chair and put them on the box",
+        "41606": "Pick up the clothes from the headrest of the chair and put them on the box",
+        "51336": "Put the clothes on the chair on to the box.",
+        "76040": "Pick up the clothes from the chair and put them on the box",
+        "9999": "Pick up the clothes from the headrest of the chair and put them on the box",
+        "69907": "Pick up the clothes from the headrest of the chair and put it on the box",
+        "87962": "Put the shirts on the chair onto the box",
+        "85792": "Remove the clothes from the chair and put them on top of the box",
+        "74402": "Move the clothes on the chair headrest to the box",
+        "81060": "Move the shirts from the chair to the box",
+        "64167": "Pick the clothes on the back rest of the chair and put them on the box",
+        "57396": "Move the clothes from the headrest to the box",
+        "3896": "Put the shirts on the chair onto the box",
+        "21177": "Put the clothes on the back rest of the chair and put them on the box",
+        "44351": "Move the shirts from the chair on to the box",
+        "5078": "Move the clothes from the headrest of the chair to the box",
+        "95576": "Move the clothes from the head rest to the box",
+        "21855": "Move the clothes from the chair headrest to the box",
+        "79841": "Pick up the clothes from the headrest of the chair and put them on the box",
+        "85476": "Move the orange and green shirts from the chair to the box",
+        "72169": "Remove all the clothes from the chair and put them on top of the box",
+        "40811": "Move the shirts from the chair and put them on top of the box.",
+        "53099": "Pick up the clothes from the headrest of the chair and put them on the box",
+        "33784": "Pick the clothes on the back rest of the chair and put them on the box",
+        "37330": "Put the shirts on the back of the chair onto the box"
+    },
+    "items_to_top_of_box": {
+        "53890": "Move the pink and peach shirt and the green towel to the top of the box",
+        "48643": "Put the peach shirt, the green towel and the pink shirt on the top of the box",
+        "70788": "Move the shirts and towels to the top of the box",
+        "91781": "Put the peach shirt, the green towel and the pink shirt on the top of the box respectively",
+        "73620": "Pick up the fabrics from the chair and put them on top of the box.",
+        "55446": "Move the peach and pink colored shirts and the green towel to the top of the box respectively",
+        "26263": "Put the peach and pink shirt on the top of the box respectively",
+        "64925": "Put the peach shirt, the green towel and the pink shirt on the top of the box",
+        "40863": "Put the two shirts and towel on top of the brown box",
+        "18466": "Put the shirts on the top of the box",
+        "86567": "Move the peach shirt, the green towel and the pink shirt on the top of the box",
+        "22570": "Move the shirts and towel to the top of the box",
+        "80821": "Place the peach and pink shirts and the yellow cloth on top of the brown box",
+        "10695": "Move the shirts to the top of the box one at a time",
+        "55752": "Put the peach shirt, the white towel, the pink shirt and the green towel on the top of the box respectively",
+        "53449": "Put the peach shirt, pink shirt and the green towel on the top of the box",
+         "4049": "Put the shirts on top of the box.",
+        "45676": "Move the pink shirt, the green towel and the peach shirt on the top of the box respectively"
+
+    },
+    "clothes_to_box": {
+        "25230": "Put the clothes on the box",
+        "29226": "Put the clothes on the box"
+    },
+    "tshirts_and_towel_to_brown_box": {
+      "89997": "Remove the t-shirts and yellow towel from the backrest of the grey chair and place them on top of the brown box",
+       "50321": "Remove the t-shirts from the backrest of the grey chair and place them on the brown box",
+        "49061": "Remove the yellow towel, peach t-shirt and then the pink t-shirt from the backrest of the chair and put them on top of the brown box",
+        "48052": "Remove the t-shirts and yellow towel from the backrest of the grey chair and place them on top of the brown box",
+        "44469": "Remove the t-shirts and yellow towel from the backrest of the chair and put them on the brown box",
+        "6596": "Remove the two t-shirts and yellow towel from the backrest and put them on the brown box",
+       "56543": "Remove the t-shirts and towel from the backrest of the chair and place them on top of the box",
+       "29690": "Remove the two t-shirts from the backrest of the grey chair and place them on top of the brown box",
+        "93692": "Remove the peach and pink clothing from the backrest of the grey chair and place them on top of the brown box"
+
+    },
+     "tshirts_to_brown_box": {
+        "9755": "Place the t-shirts on the brown box",
+        "69817": "Place the t-shirts on the brown box",
+        "859": "Place the t-shirts on top of the brown box",
+        "73333": "Place the t-shirts and towel on the brown box"
+
+     },
+    "towels_on_chair_to_box":{
+        "91862": "Remove the towels from the chair and put them on top of the box.",
+        "5619": "Move all the towels from the headrest to the top of the sealed cardboard box"
+    }
+}
+

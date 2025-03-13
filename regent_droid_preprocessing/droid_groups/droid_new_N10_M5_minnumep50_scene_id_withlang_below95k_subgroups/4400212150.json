@@ -1,0 +1,89 @@
+
+{
+    "put_marker_in_cup": {
+        "91400": "Put the marker in the white cup",
+        "87699": "Put the red marker in the cup",
+        "2711": "Put the blue marker in the glass cup on the table",
+        "84381": "Put the marker into the cup.",
+        "56867": "Put the marker in the cup",
+        "85158": "Put the marker inside the mug cup",
+        "35121": "Put the marker in the mug",
+        "28852": "Put the marker inside the cup",
+        "82234": "Put the marker in the cup on the table",
+        "32830": "Put the marker in the cup",
+        "45001": "Place the marker in the cup",
+        "49233": "Put the marker in the cup",
+        "16979": "Get the marker from the table and place it in the colorless cup",
+        "87413": "Pick the marker on the table and put it in the cup",
+        "59126": "Put the green marker inside the white mug",
+        "74358": "Put the marker inside the cup",
+        "47575": "Put the marker in the cup",
+        "67305": "Put the marker in the clear cup",
+        "29937": "Pick up the marker and put it in the cup"
+
+    },
+    "remove_marker_from_cup_put_on_table": {
+        "61063": "Take the marker out of the cup and put it on the table",
+        "37023": "Take the marker from the cup and put it on the table",
+        "58292": "Remove the marker from the cup and put it on the table",
+        "51146": "Remove the marker from the cup and put it on the table",
+        "62291": "Remove the marker from the cup and put it on the table",
+        "43491": "Remove the marker from the cup and put it on the table",
+        "27630": "Take the marker from the cup and put it on the  table",
+        "30143": "Take the marker from the mug and put it on the table"
+    },
+    "remove_marker_from_cup": {
+        "71820": "Take the black pen out of the clear cup",
+        "9232": "Remove the marker from the glass cup",
+        "10901": "Remove the marker from the cup",
+        "95642": "Take the marker out of the white mug",
+        "93275": "Take the black marker out of the mug",
+        "26991": "Remove the marker from the blue cup"
+
+    },
+    "move_cup_to_the_left": {
+        "36224": "Slide the mug to the left",
+       "78306": "Move the clear cup to the left",
+        "7401": "Move the cup to the left",
+        "8179": "Move the glass container to the left"
+    },
+    "move_cup_to_the_right": {
+        "13846": "Move the cup to the right",
+        "17451": "Move the mug slightly to the right"
+    },
+      "put_pen_on_table": {
+        "77623": "Put the pen on the table",
+        "74985": "Put the sharpie on the table",
+        "88382": "Put the marker on the table",
+        "86123": "Put the black marker on the table",
+        "45695": "Pick the marker then put it back on the table"
+    },
+    "put_pen_in_cup":{
+        "69562": "Pick the pen and put it in the cup",
+        "36434": "Put the pen inside the clear cup",
+        "19500": "Place the blue pen inside the glass"
+
+    },
+      "move_object_forward":{
+          "45932": "Pick up the pen from the table and slightly move it forward."
+      },
+    "remove_pen_put_on_table":{
+        "43571": "Take the pen out of the cup and put it on the table",
+        "21528": "Pick up the small brush from the cup and put it on the table."
+
+    },
+    "complex_pen_cup_movements":{
+        "32418": "Take the pen out of the cup and put it on the table, move the cup to the left side of the table, then put the pen in the cup",
+        "54050": "Remove the pen from the cup and then move the cup to the right",
+        "33886": "Move the cup to the right, place the pen inside the cup",
+        "65987": "Move the cup to the left and put the marker in the cup",
+        "31822": "Put the pen inside the glass cup, remove the pen from the glass cup"
+
+    },
+  "put_item_from_table_in_container":{
+    "29312": "Pick up the pen from the table and put it in the bowl",
+     "87916": "Pick up small brush from the table and put it on the mug cup.",
+      "13847": "Remove the marker from the table and put it inside the glass cup"
+  }
+}
+

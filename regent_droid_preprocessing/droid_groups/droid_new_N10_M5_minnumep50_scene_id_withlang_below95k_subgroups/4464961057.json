@@ -1,0 +1,50 @@
+
+{
+    "place_remote_on_white_pillow": {
+        "12416": "Place the remote controls on top of the white pillow.",
+        "1797": "Put the remote controller on the white pillows",
+        "28428": "Move the grey remote from the brown fleece and put it on the white pillow next to the black remote",
+        "37703": "Put one remote on top of the white pillow",
+        "83817": "Put the remote on top of the white pillow"
+    },
+    "move_pillow_right": {
+        "71809": "Move the dark grey pillow to the right",
+        "67211": "Move the pillow to the right",
+        "57182": "Move one pillow to the right",
+        "95559": "Move the long white pillow to the right",
+        "67837": "Move the white pillow on the left to the right."
+    },
+    "place_remote_on_fleece": {
+        "84138": "Remove the black remote from the white pillow, place it on the brown fleece and then cover the remote with the fleece",
+        "29868": "Put the grey remote on the brown fleece",
+        "46895": "Remove the remote from the white pillow, put it on the brown fleece and then cover the remote with the brown fleece",
+        "56811": "Place the black remote on the red fleece"
+    },
+   "move_pillow_left": {
+        "57157": "Move the brown pillow to the left",
+        "69373": "Move the black and white pillow to the left",
+        "27371": "Move the black and white pillows to the left",
+        "80755": "Move the black and white pillows to the left side of the sofa."
+
+    },
+    "fold_towel": {
+        "95385": "Fold the towel.",
+        "8122": "Fold the towel from top to bottom."
+    },
+    "move_remote_forward": {
+        "42046": "Move the remote forward",
+        "6359": "Move the remote forward"
+    },
+    "place_pillow_on_other_pillows":{
+        "61322": "Put the brown pillow on the white pillow",
+        "19751": "Put the left white pillow on the right white pillow",
+        "80193": "Put the pillow on the stack of pillows",
+        "59105": "Put the black pillow on top of the stacked pillows on the right.",
+        "9831": "Put the black and white pillow on the white pillows"
+    },
+    "straighten_white_pillow":{
+        "8259": "Make the white pillow sit straight",
+        "87362": "Pick up the white pillow and make it stand upright"
+    }
+}
+

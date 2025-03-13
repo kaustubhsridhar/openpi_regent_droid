@@ -1,0 +1,74 @@
+
+{
+    "move_towel_right": {
+        "85377": "Move the towel to the right",
+        "83480": "Move the towel to the right",
+        "62235": "Move the towel to the right",
+        "32672": "Move the towel to the right",
+        "76079": "Move the towel to the right",
+        "24116": "Move the towel to the right.",
+        "86891": "Move the towel to the right",
+        "94067": "Slide the towel to the right",
+        "58070": "Shift the towel to the right",
+        "23550": "Move the towel from left to right."
+    },
+    "move_grey_towel_right": {
+        "39554": "Move the grey towel to the right.",
+        "39324": "Move the grey towel to the right",
+        "91290": "Move the grey towel to the right",
+        "78377": "Move the grey towel to the right",
+        "44202": "Pick up the grey towel and slightly move it to the right.",
+        "51007": "Move the grey towel to the right.",
+        "22481": "Move the grey towel to the right.",
+        "15698": "Move the grey towel to the right",
+        "48978": "Move the grey towel to the right.",
+        "29269": "Move the grey towel to the right.",
+        "26976": "Move the grey towel to the right.",
+        "87025": "Move the grey towel to the right"
+    },
+    "move_towel_left": {
+        "7683": "Move the towel from right to left.",
+        "65926": "Move the towel to the left",
+        "47380": "Move the towel to the left",
+        "9886": "Move the towel to the left",
+        "20706": "Move the towel to the left",
+        "74734": "Move the towel to the left",
+        "37240": "Move the towel to the left",
+        "57081": "Move the towel to the left",
+        "88826": "Move the towel to the left",
+        "40828": "Move the towel to the left",
+        "16946": "Pick up the towel and move it to the left"
+    },
+    "move_grey_towel_left": {
+        "72211": "Move the grey towel to the left",
+        "46485": "Move the Gray towel to the left",
+        "50207": "Move the grey towel to the left.",
+        "65307": "Move the grey towel to the left.",
+        "43447": "Move the grey towel to the left side of the counter.",
+        "18106": "Pick up the grey towel and slightly move it to the left.",
+        "72910": "Pick up the grey towel on the countertop and move it slightly to the left.",
+        "25822": "Move the grey towel to the left",
+        "38885": "Move the grey towel to the left",
+        "41705": "Move the grey towel to the left"
+    },
+    "move_cloth": {
+        "17032": "Move the cloth",
+        "72403": "Move the cloth",
+        "85226": "Move the cloth",
+       "5618": "Move the cloth"
+
+    },
+      "move_cloth_left":{
+        "57614": "Move the cloth to the left on the counter"
+      },
+    "move_water_bottles_forward": {
+        "58364": "Move the water bottles forward",
+        "86871": "Move the water bottles forward"
+    },
+    "arrange_bottles_straight_line": {
+        "52245": "Arrange the water bottles in a straight line.",
+        "93206": "Put the bottles in a straight line",
+        "22880": "Arrange the bottles on the counter in a straight line"
+    }
+}
+

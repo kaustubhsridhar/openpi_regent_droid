@@ -1,0 +1,133 @@
+
+{
+    "iron_left": {
+        "79362": "Turn the iron to the left.",
+        "23680": "Turn the iron to the left",
+        "25746": "Turn the iron to the left",
+        "30203": "Turn the iron to the left",
+        "52181": "Rotate the iron to the left."
+    },
+    "iron_right": {
+        "25583": "Turn the iron to the right"
+    },
+    "put_iron_upright": {
+        "5749": "Put the iron in an upright position",
+        "1172": "Put the iron in an upright position",
+        "56085": "Place the iron upright.",
+        "71602": "Put the pressing iron upright"
+    },
+    "lay_iron_down": {
+        "94538": "Lay the iron down on the ironing board.",
+        "19814": "Lay the iron down."
+    },
+   "basket_upright": {
+        "38913": "Put the laundry basket in its upright position",
+        "28683": "Put the white laundry basket in its upright position",
+        "7383": "Place the white basket upright.",
+        "65774": "Put the laundry basket upright",
+        "71507": "Put the washing basket upright"
+    },
+    "close_drawer": {
+        "17924": "Close the open drawer",
+        "14273": "Close the open drawer"
+    },
+    "open_drawer":{
+        "56415": "Open the first top drawer",
+        "36258": "Open the top drawer"
+    },
+    "fold_towel": {
+        "74787": "Fold the towel into a triangle twice.",
+        "80935": "Fold the towel",
+        "44885": "Fold the towel",
+        "53674": "Fold the towel into a triangle twice."
+    },
+     "fold_white_towel_twice_triangle": {
+        "71053": "Fold the white towel twice in a triangular shape",
+        "87892": "Fold the white tea towel in a triangular formation"
+    },
+    "fold_white_towel_twice":{
+        "21936": "Fold the white towel twice"
+    },
+    "unfold_towel": {
+        "37480": "Unfold the towel on the pillow",
+        "48769": "Unfold the towel on the pillow",
+        "4294": "Unfold the towel fully from left to right on the pillow",
+        "90623": "Unfold the white towel.",
+        "24556": "Unfold the towel",
+        "56213": "Unfold the towel on the bed"
+
+    },
+    "iron_cloth": {
+        "82432": "Iron the blue cloth",
+        "40636": "Iron the blue cloth",
+        "58491": "iron the cloth on the bed using the pressing iron"
+    },
+    "move_right":{
+        "84557": "Move the pillows to the right",
+        "43170": "Move the top pillow to the right, then move the white pillow to the left",
+        "72487": "Move the pillow to the right and put the towel on the pillow",
+        "10402": "Move the white cable to the right.",
+        "79502": "Move the power cord to the right side of the iron"
+    },
+    "push_forward": {
+        "1819": "Push the white pillows forward",
+        "44414": "Flip the pillow forward",
+        "79331": "Move the remote forward, then put the blanket on the remote"
+    },
+     "push_backward": {
+        "75866": "Push the white pillow backwards, then put the checked pillow on the white pillow"
+    },
+     "push_basket_upside_down":{
+        "54090": "Push the white basket forward until it is upside down on the bed",
+        "88455": "Push the laundry basket upside down"
+     },
+    "put_cable_on_iron":{
+        "14879": "Put the white cable of the iron on the iron",
+        "13344": "Put the white cable on the iron",
+        "37459": "Place the cable over the iron."
+    },
+     "put_remote_under_pillow": {
+        "80245": "Place the remote under the pillow on the right",
+        "83327": "Push the remote control under the pillow",
+        "39935": "Put the remote control under the pillow"
+    },
+    "pick_up_put_pillow":{
+        "8205": "Pick up the checked black pillow and put it on top of the white pillow",
+        "51736": "Pick up the white pillow and put it in the white basket",
+        "5155": "Pick up the black remote and put it on the white pillow",
+        "3169": "Pick up the the checkered pillow and put it onto white pillow"
+    },
+    "remove_pillow":{
+        "58269": "Remove the checked pillow from the top of the white pillow",
+        "1510": "Remove the checkered pillow from the top of the white pillow."
+    },
+      "turn_basket_left": {
+        "54346": "Turn the laundry basket to the left",
+        "9864": "Turn the washing basket to the left"
+    },
+    "press_button_iron":{
+        "34652": "Press a button on the iron's handle.",
+        "88500": "Press a button on the pressing iron",
+        "81913": "Press a button on the pressing iron"
+    },
+    "turn_pillow":{
+        "70407": "Turn the checked pillow over",
+        "763": "turn the pillow over, then put the towel on the pillow",
+        "64393": "Turn the pillow around"
+    },
+    "flip_pillow":{
+         "25925": "Flip the white pillow over."
+    },
+     "hang_towel_basket": {
+        "94990": "Hang the towel on the white basket.",
+        "12199": "Hang the towel on the side of the white basket."
+    },
+    "put_towel_basket":{
+        "49297": "Put the towel on the basket",
+        "44883": "Put the towel on the side of the laundry basket"
+    },
+    "turn_basket":{
+        "85981": "Turn the white laundry basket around",
+        "30800": "Spin the washing basket anticlockwise once"
+    }
+}

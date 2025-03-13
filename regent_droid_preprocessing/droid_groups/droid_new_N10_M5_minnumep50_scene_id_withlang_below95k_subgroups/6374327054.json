@@ -1,0 +1,92 @@
+
+{
+    "move_left": {
+        "9985": "Move the cup from right to left.",
+        "72329": "Pick the bottle on the right of the counter and move it to the left",
+        "30864": "Move the smaller cup to the left",
+        "72384": "Move the bigger cup to the left",
+        "66373": "Move the left bottle to the left side of the bowl",
+        "14943": "Move the bigger cup to the left",
+        "71278": "Move the small clear bottle to the left",
+        "46199": "Move the uncovered cup to the left",
+        "75391": "Move the bottle slightly to the left"
+    },
+    "move_right": {
+        "54796": "Move the clear bottle on the left to the right",
+        "87063": "Move the clear bottle on the left to the right",
+        "2242": "Move the big clear bottle to the right",
+        "67906": "Pick up the plastic cup from the countertop and move it to the right.",
+        "46664": "Move the taller clear cup to the right",
+        "68200": "Move the clear bottle on the left to the right",
+        "66778": "Move the small clear bottle to the right",
+        "7665": "Pick the cup on the left and move it to the right on the counter"
+    },
+    "move_forward": {
+        "76817": "Move the clear cup forward",
+        "28352": "Move the black lid on the left forward",
+        "60226": "Slide the bowl forward",
+        "9430": "Move the clear bottle on the left forward",
+        "50666": "Move the white bowl forward",
+        "72153": "Move the cup near the bowl towards you"
+    },
+    "put_lid_on_shaker": {
+        "43536": "Take the lid and put it on the bottle",
+        "47506": "Place the lid on the taller shaker bottle",
+        "16036": "Put the lid on the shaker.",
+        "7483": "Pick up the lid and close the bottle",
+        "13766": "Put the lid on the short shaker bottle",
+        "33119": "Pick the lid on the counter and put it on the bigger cup",
+        "40937": "Put the lid on the bottle",
+      	"14714": "Place the lid on the shorter shaker bottle"
+
+    },
+    "put_black_lid_on_bottle":{
+        "91469": "Put the black lid on top of the bottle on the left",
+        "41682": "Pick up the black lid on the left and place it on top of the bottle on the right",
+        "30701": "Put the black lid on top of the bottle on the right",
+        "83843": "Place the black lid on the clear bottle on the right"
+    },
+    "scoop_powder_from_bowl_to_cup": {
+        "133": "Transfer one spoon of contents to the left cup",
+        "25254": "Use the clear spoon to scoop some whey powder from the bowl, then pour the powder into the cup, and return the spoon to the bowl",
+        "2092": "Get one scoop of the contents in the white bowl and put in the open clear cup",
+        "92470": "Scoop some powder from the bowl into the bigger cup",
+        "15164": "Take one scoop of the contents in the white bowl and put into the clear cup at the left",
+        "68285": "Use the measuring spoon to transfer one spoon of contents from the bowl to the cup at the left",
+        "73556": "Take one scoop of whey powder from the bowl and put it in the cup on the left",
+        "61424": "Use the measuring spoon to transfer one spoon of contents from the bowl to the left cup",
+        "74474": "Put one scoop of the contents from the white bowl into the left cup"
+    },
+        "scoop_powder_from_bowl_to_bottle":{
+        "46397": "Put one scoop of powder from the white bowl into the clear bottle on the left",
+        "63927": "Pick up the small scoop and scoop some powder from the bowl and put it in the plastic container to the right.",
+        "47054": "Scoop some powder from the white bowl into the clear bottle on the right",
+        "13532": "Take a scoop of whey from the bowl and put it in the shaker bottle",
+        "89206": "Scoop some of the powder from the white bowl into the larger clear bottle",
+        "72151": "Scoop some powder and put it in the bottle"
+
+    },
+     "put_silver_object_in_container":{
+        "83856": "Take the silver object from the black lid and place it in the clear cup at the right",
+        "51354": "Pick the object on the counter and put it inside the cup",
+        "19910": "Put the metal thing in the bigger cup",
+        "48331": "Put the silver object on the left inside one of the clear bottles on the right",
+        "94277": "Put the silver spring in the white container",
+        "975": "Pick up the silver object and place it inside the bottle on the left",
+        "33635": "Put the silver object in the right most container",
+        "54371": "Put the ball in the shaker",
+        "72437": "Pick up the silver blending ball on the right and place it inside the clear bottle on the left"
+     },
+    "remove_lid":{
+        "27167": "Remove the lid from the tall shaker and put it on the table.",
+        "2481": "Take the lid off the shorter shaker bottle",
+        "41415": "Get the lid from the transparent bottle on the left and place it on the table",
+        "47200": "Remove the lid from the bottle on the right",
+        "77920": "Remove the black lid from the bottle on the right",
+        "369": "Remove the lid from the shaker."
+    },
+     "place_right_lid_left_bottle":{
+        "30958": "Put the right lid on the left bottle"
+     }
+}
+

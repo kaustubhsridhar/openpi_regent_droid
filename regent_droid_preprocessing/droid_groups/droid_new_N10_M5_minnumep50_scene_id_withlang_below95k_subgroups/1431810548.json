@@ -1,0 +1,91 @@
+
+{
+    "place_lid_on_pot": {
+        "45837": "Pick up the lid, then put it on the pot",
+        "19342": "Put the lid on the pot",
+        "54286": "Place the lid on the pot",
+        "19357": "Use the lid to cover the pot",
+        "91806": "Put the lid on the pot",
+        "76980": "place the lid on the pot",
+        "566": "Put the lid on the pot",
+        "63551": "Put the lid on the pot",
+        "10441": "Put the lid on the pot",
+        "76237": "Put the lid on the pot",
+        "72147": "Put the lid on the pot",
+        "87657": "Put the lid on the pot",
+        "66266": "Pick up the lid, then put it on the pot",
+        "90803": "Lift the lid from the towel and use it to cover the pot",
+        "88551": "Lift the clear lid from the towel and put it on top of the pot"
+    },
+    "remove_lid_from_pot": {
+        "90116": "Take the lid off the pot",
+        "41249": "take the lid off of the pot",
+        "92967": "remove the lid from the pot",
+        "1963": "Take the lid off the pot",
+        "63960": "Take the lid off of the pot",
+        "65770": "Take the lid off of the pot",
+        "69232": "Remove the lid from the pot"
+    },
+    "place_glass_lid_on_silver_pot": {
+        "60681": "Put the glass lid on the silver pot",
+        "43039": "Pick up the clear silver lined lid and put it on the silver pot",
+        "57524": "Put the glass lid on top of the silver pot.",
+        "82518": "Put the glass lid on the silver pot.",
+        "62948": "Put the glass lid on the silver pot",
+        "73956": "Put the glass lid on the silver pot",
+        "86910": "Put the glass lid on the silver pot"
+    },
+    "remove_glass_lid_from_silver_pot": {
+        "93569": "Remove the lid from the top of the silver pot",
+        "76450": "Remove the glass lid from the silver pot."
+    },
+     "place_glass_lid_on_pan": {
+        "65162": "Put the glass lid on the grey pan",
+        "71014": "Put the glass lid on the pan."
+     },
+    "remove_glass_lid_from_pan": {
+        "66562": "Remove the glass lid from the pan.",
+        "61665": "Remove the glass lid from the pan."
+    },
+        "place_lid_on_pan": {
+        "16930": "Place the lid on the pan",
+        "89042": "Put the lid on the pan"
+
+    },
+    "remove_glass_lid_from_pot":{
+        "79093": "Remove the glass lid from the pot.",
+        "89469": "Remove the glass lid from the pot."
+
+    },
+        "remove_lid_from_pan":{
+        "69875": "Take the lid off of the pan"
+    },
+    "put_glass_lid_on_towel":{
+        "71309": "Put the glass lid on the towel."
+    },
+      "place_pot_lid_on_towel": {
+        "62557": "Place the pot's lid on the towel"
+    },
+      "put_lid_on_blue_towel":{
+        "26661": "Pick up the gray pan lid and put it on the blue towel",
+        "94073": "Pick up the clear pan lid and put it on the blue towel"
+
+      },
+        "remove_glass_lid_put_on_blue_towel":{
+        "29": "Remove the glass lid from the silver pot and put it on the blue towel on the table",
+        "42797": "Remove the glass lid from the silver pot and put it on the blue towel on the table",
+        "58800": "Remove the glass lid from the pot and then put it on the blue towel",
+        "62897": "Remove the glass lid from the silver pot and put it on the blue towel",
+        "69800": "Pick up the clear lid from the silver pot and put in on the blue towel"
+        },
+    "put_glass_lid_on_blue_towel":{
+        "33922": "Put the glass lid on the blue towel."
+    },
+        "put_glass_lid_on_black_pot":{
+        "5538": "Put the glass lid on the black pot."
+        },
+            "remove_lid_put_on_tea_towel":{
+        "5431": "Remove the lid from the pan and put it on the blue tea towel"
+
+        }
+}

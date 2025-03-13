@@ -1,0 +1,99 @@
+
+{
+    "move_blue_bottle_left": {
+        "76841": "Move the blue bottle to the left",
+        "27307": "Move the blue bottle to the left.",
+        "84402": "Move the blue bottle to the left."
+    },
+    "move_item_right": {
+        "14366": "Move the coffee cup lid to the right.",
+        "58952": "Pick up the paper cup close to the blue book and move it to the right",
+        "78418": "Move the cup next to the book to the right of the blue spray bottle",
+        "91807": "Slide the lid of the bowl to the right",
+        "38583": "move the white plastic lid to the right",
+        "84288": "Move the napkins to the right.",
+        "77721": "Move the coffee cup at the front of the table to the right."
+    },
+        "move_item_left": {
+        "94545": "Move the coffee cup at the front to the left.",
+        "54622": "Move the cup next to the box to the left of the book",
+        "62223": "Move the white lid to the left",
+        "9112": "Move the bottle to the left"
+
+    },
+    "open_box": {
+        "21576": "Open the box completely",
+        "8315": "Open the cardboard box",
+        "46729": "Completely open the brown box",
+        "49801": "Open the brown box",
+        "48368": "Open the brown box.",
+        "74523": "Open the box",
+        "19287": "Open the box"
+    },
+    "open_and_close_box": {
+        "47738": "Open the box and then close it",
+        "91343": "Open and close the cardboard box"
+    },
+    "press_down_spray_bottle": {
+        "21068": "Press down the spray bottle",
+        "24664": "Press the down the spray bottle",
+        "36346": "Press the button on the spray bottle"
+    },
+    "press_down_pump_bottle": {
+        "27485": "Press down on the pump bottle.",
+        "15244": "Press down on the pump bottle."
+    },
+    "press_down_soap_dispenser": {
+        "58589": "Press on the soap dispenser",
+        "79072": "Press on the soap dispenser",
+        "82719": "Press down on the soap dispenser"
+      },
+    "press_down_blue_bottle":{
+        "61672": "Press the top of the blue bottle",
+        "56592": "Push the top of the blue bottle downwards",
+        "71034": "Push the pump of the blue bottle down",
+        "45009": "Press down on the top of the blue bottle."
+    },
+      "press_down_blue_and_white_bottle":{
+        "38248": "Press down on the top of the blue and white bottle."
+    },
+    "wipe_with_napkin": {
+        "36449": "Use the white napkin to wipe the blue book.",
+        "48261": "Use the white napkin to wipe the blue book cover.",
+        "49382": "Use the napkin to wipe the top of the blue book."
+    },
+     "wipe_with_tissue":{
+        "68705": "Use the tissue to wipe the top of the container",
+        "32906": "Get a tissue from the box and then wipe the paper on the book with it",
+        "84738": "Take a tissue from the box and use it to wipe the book",
+        "682": "Use the tissue to wipe the cover of the book",
+        "74648": "Remove a tissue from the tissue box and wipe the white lid of the lunchbox with the tissue",
+        "63860": "Use a tissue to wipe the front page of the book"
+    },
+        "put_lid_on_container":{
+        "53002": "Completely cover the tote with the white lid",
+        "35084": "Take the blue bottle out of the clear container then place the white lid over the container.",
+        "58852": "Completely cover the tote with the white lid then use a napkin to wipe the lid",
+        "93703": "Put the white lid on the cup next to it",
+        "11461": "Put the white lid on the transparent bowl"
+
+    },
+    "put_lid_on_blue_bottle":{
+      "53008": "Put the clear lid on the blue bottle.",
+      "40803": "Put the clear lid on top of the blue bottle."
+    },
+     "put_blue_bottle_in_container":{
+        "34822": "Put the blue bottle inside the clear lunch box",
+        "24370": "Open the white lid of the clear lunch box, pick up the blue bottle and put it inside the lunchbox",
+        "7114": "Put the blue bottle in the clear container."
+
+    },
+      "remove_lid_from_container":{
+        "83259": "Remove the white lid from the clear container.",
+        "75226": "Remove the white lid from the clear container."
+    },
+      "move_blue_bottle_right":{
+          "41721": "Move the blue bottle to the right"
+      }
+}
+

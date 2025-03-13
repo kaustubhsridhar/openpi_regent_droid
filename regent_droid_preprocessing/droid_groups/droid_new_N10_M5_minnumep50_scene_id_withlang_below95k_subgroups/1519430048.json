@@ -1,0 +1,114 @@
+
+{
+    "tap_left": {
+        "46532": "Push the tap handle to the left",
+        "91248": "Push the tap handle to the left",
+        "81088": "Push the faucet handle to the left.",
+        "31203": "Push the faucet handle to the left."
+    },
+    "tap_right": {
+        "6657": "Push the tap handle to the right",
+        "92589": "Push the faucet handle to the right."
+    },
+    "open_tap": {
+        "53000": "Open then close the tap",
+        "52129": "Open the tap",
+        "22318": "Open the tap",
+        "22064": "Open the tap",
+        "58735": "Open the tap"
+    },
+    "close_tap": {
+        "9823": "Close the tap"
+        },
+    "open_faucet":{
+        "75802": "Open the faucet.",
+        "41185": "Open the faucet.",
+        "67687": "Open the faucet"
+    },
+    "close_faucet":{
+        "72885": "Close the faucet.",
+        "16951": "Close the faucet."
+    },
+    "close_cabinet": {
+        "64912": "Close the upper cabinet door.",
+        "88339": "Close the open cabinet door",
+        "80709": "Close the cabinet door",
+        "18264": "Close the upper cabinet door.",
+        "51064": "Close the open upper cabinet door.",
+        "32758": "Close the upper kitchen closet"
+
+    },
+    "put_cup_in_sink": {
+        "66564": "Put the cup in the sink",
+        "22372": "Put the cup in the sink",
+        "19537": "move the cup to the sink",
+        "17789": "Put the cup inside the sink"
+    },
+    "put_bowl_in_sink":{
+        "74259": "Put the bowl in the sink",
+        "16407": "Put the clear bowl in the sink."
+    },
+   "put_item_in_sink":{
+        "25879": "Pick up the black and white mug and put it in the sink",
+        "8866": "Remove the cup from the countertop and put it in the sink",
+        "55204": "Put the orange cup inside the sink",
+        "90404": "Lift the cup and put it in the sink",
+        "54061": "Pick up the clear cup and put it in the sink",
+        "70258": "Put the blue cup into the sink",
+        "42727": "Put the clear lunch box inside the sink"
+   },
+    "remove_item_from_sink_and_put_on_counter":{
+        "85801": "Remove the clear bowl from the sink and put it on the right side of the counter.",
+        "88391": "Remove the clear container from the sink and put it on the right side of the counter.",
+        "5070": "Remove the clear cup from the sink and place it on the right side of the table",
+        "41828": "Remove the cup from the sink and place it on the counter right side of the sink",
+        "2293": "Remove the pink cup from the sink an put it on the counter"
+    },
+    "wipe_counter": {
+        "11035": "wipe the counter",
+        "29100": "Use the sponge to wipe the counter top",
+        "68600": "Use the cloth to wipe the counter.",
+        "22461": "Use the sponge to wipe the counter",
+        "50495": "Wipe the counter with the brown cloth",
+        "67835": "Use the towel to wipe the counter",
+        "43243": "Use the white towel to wipe the right side of the counter",
+        "60413": "Clean the counter"
+
+    },
+    "put_marker_in_bowl":{
+        "62667": "Put the marker in the bowl",
+        "92136": "Put the marker in the bowl"
+    },
+    "remove_marker_from_bowl":{
+        "69826": "Remove the marker from the bowl and place it on the table",
+        "58222": "Remove the marker from the bowl"
+    },
+     "take_bowl_out_of_sink":{
+        "40410": "Take the bowl out of the sink"
+    },
+    "remove_cup_from_sink":{
+        "40958": "Remove the blue cup from the sink"
+    },
+    "put_cup_on_counter":{
+      "75882": "Put the orange cup on the right side on the counter.",
+      "65471": "Pick the orange cup from the sink and put it on the kitchen counter"
+    },
+       "put_marker_in_container":{
+        "78557": "Put the orange marker inside the lunchbox",
+        "47588": "Put the black marker inside the container"
+    },
+    "clean_surface":{
+        "28840": "Use the sponge to clean the surface",
+        "35501": "Use the object on the table to wipe the table surface"
+
+    },
+        "place_item_on_countertop":{
+        "560": "Pick up the blue marker from the clear lunch box and place it on the white countertop",
+        "15905": "Pick up the white mug and put it on the metal rack on the left"
+
+    },
+     "pull_tap_handle":{
+        "2577": "Pull the tap handle downwards"
+    }
+
+}

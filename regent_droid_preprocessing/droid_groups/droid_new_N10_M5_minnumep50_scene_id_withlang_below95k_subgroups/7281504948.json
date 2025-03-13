@@ -1,0 +1,68 @@
+
+{
+    "curtain_left": {
+        "24965": "Slide the curtain to the left",
+        "48271": "Move the curtain to the left",
+        "75171": "Pull the curtain to the left",
+        "55720": "Slide the curtain to the left",
+        "62003": "Slide the curtain to the left",
+        "83124": "Move the curtain to the left",
+        "38197": "Move the curtain to the left",
+        "15670": "Move the curtains to the left",
+        "80826": "Slide the curtain to the left",
+        "33471": "Slide the curtain to the left",
+        "45514": "Pull the curtain to the left",
+        "67788": "Draw the curtain to the left",
+        "50000": "Push the curtain to the left",
+        "15059": "Slide the curtain to the left",
+        "55636": "Slide the curtain to the left",
+        "19289": "Slide the curtain to the left",
+        "47449": "Push the curtain to the left",
+        "70109": "Move the curtain to the left",
+        "19686": "Slide the curtain to the left",
+        "46182": "Slide the curtain to the left",
+        "78062": "Open the curtain to the left",
+        "10875": "Pull the curtains to the left"
+    },
+    "curtain_right": {
+        "4362": "Pull the curtain to the right",
+        "45846": "Pull the curtain to the right",
+        "14491": "Slide the curtain to the right",
+        "2206": "Slide the curtain to the right to close it",
+        "5691": "Pull the curtain to the right",
+        "47739": "Move the curtain to the right",
+        "3028": "Slide the curtain to the right",
+        "11877": "Pull the the grey curtain to the right.",
+        "55913": "Slide the curtain to the right",
+        "61298": "Pull the curtain to the right",
+        "7155": "Pull the curtain to the right"
+    },
+    "curtain_open": {
+        "43272": "Open the curtains",
+        "81930": "Open the curtain.",
+        "61074": "Draw the curtain open",
+        "61211": "Open the curtain",
+        "10047": "Draw the curtain open",
+        "95195": "Open the curtain",
+        "56433": "Draw the curtains open",
+        "72307": "Draw the light grey curtain open"
+
+    },
+    "curtain_close": {
+       "63892": "Slide the curtain to close",
+       "14529": "Draw the curtain closed",
+       "83278": "Close the curtain",
+       "10447": "Draw the light grey curtain closed",
+        "8299": "Close the curtains",
+        "43768": "Close the curtain"
+
+    },
+      "curtain_draw":{
+        "2747": "Draw the curtain",
+        "13630": "Draw the curtain"
+    },
+    "curtain_open_and_close":{
+        "39913": "Open the curtain and close it"
+    }
+}
+

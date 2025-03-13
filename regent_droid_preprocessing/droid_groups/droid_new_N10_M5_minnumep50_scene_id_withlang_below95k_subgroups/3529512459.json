@@ -1,0 +1,68 @@
+
+{
+"Open Top Right Drawer": {
+    "11780": "Open the topmost drawer on the right.",
+    "5259": "Open the topmost drawer on the right and remove the white packet from the drawer then close the drawer.",
+    "84202": "Open the topmost drawer on the right and remove the towel from the drawer then close the drawer."
+},
+"Put Item in Open Drawer and Close": {
+    "54199": "Put the jar in the open drawer, then close the drawer",
+    "57397": "Put the hanger in the open drawer and close the drawer",
+    "73795": "Put the object in the open drawer and close the drawer"
+},
+"Open Top Drawer and Put Item Inside": {
+        "66883": "Open the topmost drawer on the right then put the white container in the open drawer.",
+        "39017": "Open the topmost drawer on the right then place the hanger inside the drawer."
+
+},
+"Open Top Drawer Put Item Inside Close Drawer":{
+    "56327": "Open the top drawer and put the folk inside then close the drawer",
+    "38420": "Open the first top drawer, then put the plastic in the drawer and close the drawer",
+    "80199": "Open the first top drawer, then put the white bottle in the drawer and close the drawer",
+    "44383": "Open the drawer and put the fork into it"
+},
+
+"Put Item Upright": {
+    "25863": "Put the bottle upright",
+    "71305": "Place the jug upright.",
+    "30743": "Put the jar upright",
+    "32666": "Put the red container upright.",
+    "88100": "Place the small white container upright",
+    "67674": "Put the white bottle upright",
+        "93179": "Put the bottle upright"
+},
+"Fold Item in Half": {
+    "49837": "Fold the white cloth in half",
+    "95573": "Fold the towel in half"
+},
+    "Move Item to the Left": {
+        "69313": "Move the towel to the left",
+        "25450": "Move that is in front to the left",
+        "62974": "Move the blanket to the left"
+
+    },
+ "Fold Item into Triangle":{
+    "68577": "Fold the towel into a triangle twice.",
+     "54107": "Fold the cloth on the right in a triangular shape"
+ },
+"Hang Item on Top Right Drawer":{
+    "87428": "Open the topmost drawer on the right then hang the towel on the drawer.",
+    "52425": "Open the topmost drawer on the right then hang the towel on the front of the drawer..",
+    "5198": "Pick up the white coat hanger and hang it on the top right drawer handle"
+},
+"Pull Open Top Drawer":{
+        "53305": "Pull open the top drawer",
+        "79724": "Pull open the top drawer"
+},
+"Put Lid on Bottle":{
+        "94663": "Put the orange lid on the bottle",
+        "13140": "Put the lid on the bottle"
+},
+"Take Lid off Container": {
+        "72627": "take the lid off of the spice jar",
+        "25811": "Take the lid off of the bottle"
+},
+"Fold the Towel": {
+        "84469": "Fold the towel on the table"
+}
+}

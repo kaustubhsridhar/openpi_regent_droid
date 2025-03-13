@@ -1,0 +1,84 @@
+
+{
+    "rotate_rack": {
+        "68134": "Turn the rack to the right",
+        "66892": "Turn the rack to the right",
+        "14228": "Turn the rack to the left",
+        "66920": "Turn the k-cup holder to the right"
+    },
+    "rotate_stand": {
+        "62758": "Turn the stand",
+        "76063": "Rotate the coffee pods stand then put one coffee pod from the counter on the stand."
+    },
+    "place_item_in_cup": {
+        "67215": "Put the straw into the cup",
+        "69944": "Put the straw inside the coffee cup.",
+        "72677": "Put the black straw in the coffee cup on the left.",
+        "67791": "Put the black tongs in the coffee cup."
+    },
+    "place_item_on_stand": {
+        "51747": "Put the black ladle on top of the wooden stand.",
+        "70472": "Put the black tongs on top of the wooden stand.",
+        "57965": "Place the coffee pod from the counter on the stand.",
+        "86383": "Place one coffee pod on the stand."
+    },
+    "remove_item_from_coffee_maker": {
+        "94762": "Remove the cup from the coffeemaker",
+        "73877": "Remove the coffee pod from the coffeemaker and place it in the silver bin then close the bin.",
+        "30440": "Open the coffeemaker then remove the coffee pod from the chamber.",
+        "56008": "Remove the capsule from the coffee machine",
+        "73619": "Remove the cup from the coffee maker"
+    },
+    "place_item_in_coffee_maker": {
+        "82971": "Remove one coffee pod from the rack and put it in the coffee maker",
+        "56521": "Put the coffee pod in the coffee maker",
+       "92040": "Place the coffee pod inside the coffee maker",
+        "80197": "Put the cup in the coffee maker",
+        "93983": "Put the white object inside the coffee machine"
+
+    },
+      "remove_item_from_rack": {
+        "21703": "Remove the coffee pod from the rack",
+        "60783": "Take a k-cup off of the holder"
+    },
+    "place_item_on_rack": {
+         "80615": "Turn the rotating rack to the right, then put the coffee pod on the rack"
+    },
+       "stack_cups": {
+        "33365": "Stack the coffee cups together.",
+        "31418": "Stack the cups",
+        "15483": "Put the cups together"
+    },
+    "set_cups_upright": {
+        "93782": "Place the two coffee cups upright.",
+        "32224": "Place the coffee cup upright."
+    },
+
+    "move_item_backward": {
+        "22304": "Move the dishwashing liquid bottle backwards."
+    },
+     "move_item_right":{
+        "85281": "Slightly move the paper towel holder to the right",
+        "51631": "Move the paper towel roll stand to the right.",
+        "67581": "Move the faucet spout to the right"
+     },
+       "close_coffee_maker":{
+        "43174": "Close the top of the coffee maker",
+        "32500": "Close the coffee maker"
+    },
+     "pour_cup_contents":{
+        "39570": "Pour the object inside the cup onto the table",
+        "69605": "Pour the contents of the cup onto the counter",
+        "57025": "Pour the water in the cup into the sink"
+
+     },
+    "place_straw_in_cup":{
+          "47439": "Place one straw from the wooden stand in the coffee cup.",
+           "49983": "Put the black straw from the napkin in the stacked coffee cups on the napkin."
+    },
+     "remove_cup_from_stack":{
+        "71463": "Remove the top paper cup from the stacked cups and then remove the stirrer in the bottom cup and place it on the counter top",
+        "31187": "Remove the cup from the stack"
+     }
+}
+

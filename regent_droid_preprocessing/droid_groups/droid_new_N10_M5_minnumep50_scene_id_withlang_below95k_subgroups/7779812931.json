@@ -1,0 +1,88 @@
+
+{
+  "Put_Item_in_Bag": {
+    "40451": "Place the two small objects in the bag",
+    "86150": "Put the green lid in the brown paper bag",
+    "29069": "Put the hair brush in the bag",
+    "47374": "Put the packet and cap in the bag",
+    "72592": "Put the airpods case in the bag",
+    "79760": "Put the purple packet in the bag",
+    "4371": "Put the cable in the paper bag",
+    "27796": "Put the marker into the bag.",
+    "42644": "Pick up the small bag from the table and put it in the bag on the chair.",
+    "95129": "Put the tube in the bag",
+    "63134": "Put the white cable in the brown paper bag",
+    "93726": "Put the tube in the bag",
+    "64418": "Pick the white object on the table and put it in the bag",
+    "23209": "Put the green lid in the brown bag",
+    "38059": "Put the cap in the bag",
+    "76343": "Put the doll in the bag",
+    "84668": "Pick up the purple package and place it in the bag.",
+    "84922": "Move the snack packet from the table to the bag",
+    "89273": "Put the charger into the bag on the chair.",
+    "40386": "Remove the white cap from the table and put it in the bag on the chair",
+    "27463": "Put the brown doll in the bag",
+    "5578": "Put the cap in the bag",
+    "45513": "Put the bottle in the bag",
+    "41038": "Put the hair brush in the bag",
+    "48464": "Put the cable inside the brown bag",
+    "90333": "put the cable in the bag",
+    "92127": "Put the blue object into cream white bag on the leftmost chair",
+    "19554": "Put the thing on top of the paper bag into it",
+    "5351": "Pick up the plush toy from the table and put it inside the brown bag",
+    "72172": "Put the cap in the paper bag",
+    "1389": "Pick up the bear plush toy and put it in the paper bag",
+    "94704": "Put the bottle in the bag",
+    "61183": "Put the white cable on the left side of the table inside the bag on the chair"
+  },
+  "Put_Lid_on_Bottle": {
+    "2704": "Pick the lid on the table and put it on the bottle",
+    "21400": "Put the lid on the bottle",
+    "2487": "Pick the lid on the table and put it on the bottle",
+    "34487": "Pick up the lid and put it on the bottle",
+    "1349": "Put the lid on the bottle",
+    "72702": "Put the lid on the brown bottle"
+  },
+  "Wipe_Table": {
+    "17430": "Use the yellow and white towels to wipe the central part of the table",
+    "3367": "Use the yellow towel to wipe the table",
+    "57014": "Use the yellow towel to wipe the table",
+    "20794": "Wipe the table with the yellow towel.",
+    "6339": "Move the bottle to the left, use the yellow towel to wipe the table",
+        "48888": "Use the yellow towel to wipe the table",
+    "14458": "Use the towel to wipe the table",
+     "55894": "Use the paper towel to wipe the table"
+
+  },
+  "Move_Bottle_Forward_Backward": {
+    "88485": "Move the bottle forward",
+    "69034": "Move the dark blue bag backwards",
+     "51821": "Close the bottle with the lid, wipe the table with the yellow cloth, and move the bottle forward"
+  },
+    "Set_Bottle_Upright":
+  {
+        "43271": "Put the bottle upright",
+        "68958": "Set the bottle upright on the table"
+  },
+   "Take_Lid_Off_Bottle":
+  {
+        "11533": "Take the top off the bottle on the table",
+        "77462": "Take the lid off the bottle and put it on the table",
+        "77102": "Take the lid off the orange bottle",
+        "75611": "Uncover the bottle and put the lid on the table",
+        "2419": "Uncover the brown bottle",
+        "62443": "Remove the green lid from the top of the container"
+
+  },
+    "Put_Towel_in_Bag": {
+        "7371": "Take the yellow towel from the table and place it in the white bag on the chair",
+        "93513": "Pick the yellow towel and put it inside the bag",
+        "64764": "Put the yellow cloth in the laundry bag"
+
+    },
+  "Put_Item_in_Purse": {
+        "670": "Pick the tube on the table and put it in the purse",
+        "44472": "Pick up the pen and put it in the parse",
+    "29133": "Place the piece of paper in the purse"
+  }
+}

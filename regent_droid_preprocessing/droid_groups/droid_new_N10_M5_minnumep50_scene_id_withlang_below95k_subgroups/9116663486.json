@@ -1,0 +1,69 @@
+
+{
+    "toaster_lever": {
+        "12423": "Push down the toaster lever",
+        "54388": "Press the toaster lever down",
+        "52475": "Push the toaster lever down"
+    },
+    "close_kettle_lid": {
+        "61760": "Close the black kettle lid fully",
+        "26608": "Close the kettle lid",
+        "64249": "Close the kettle lid"
+    },
+    "open_kettle_lid": {
+        "13092": "Open the lid of the kettle on the right by pressing button on the handle",
+        "50242": "Open the lid on the kettle",
+        "80865": "Press the lid ejecting button of the electric kettle"
+    },
+    "close_oven_door": {
+        "15288": "Close the oven door",
+        "24771": "Close the oven door",
+        "51582": "Close the lid to the oven"
+    },
+   "open_oven_door": {
+        "82504": "Pull the oven door in order to pen it",
+        "39885": "Open the oven door fully",
+        "91226": "Open the oven door"
+    },
+    "move_object_right": {
+        "58772": "Pick up the silver pot and move it a little to the right",
+        "83618": "Move the orange packet to the right",
+        "20472": "Move the paper towel roll to the right"
+    },
+    "move_object_left": {
+       "73126": "Slide the toaster to the left of the table",
+        "23637": "Push the kettle to the left",
+        "15603": "Move one glass plate to the left of the table"
+    },
+    "move_object_forward": {
+        "57438": "Move the kettle forward a bit",
+        "65903": "Move the black cable of the kettle forward to the right"
+    },
+    "move_object_backward": {
+        "26540": "Push the black oven a little backwards on the table"
+    },
+     "turn_object_left": {
+        "49425": "Turn the kettle to the left.",
+        "67131": "Turn the toaster to the left"
+    },
+      "put_plate_in_oven":{
+        "72097": "Pick up one white plate and put it in the oven on the top tray",
+        "358": "Put the white plate in the oven"
+    },
+    "put_plate_on_oven":{
+        "10780": "Put the white plate on the oven",
+        "14155": "Pick the white plate and put it on top of the oven"
+    },
+    "press_toaster_button":{
+        "39860": "Press a button on the toaster.",
+        "42596": "Push a button on the toaster"
+
+    },
+     "close_toaster_oven":{
+        "29881": "Close the toaster oven"
+     },
+      "open_toaster_oven":{
+        "15926": "Open the toaster oven."
+      }
+}
+

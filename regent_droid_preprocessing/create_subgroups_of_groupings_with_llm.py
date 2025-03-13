@@ -3,6 +3,7 @@ import json
 import argparse
 from google import genai
 from openai import OpenAI
+from datetime import datetime
 
 prompt_1 = 'Take this dict of episode numbers to task descriptions and divide it into groups where the tasks are all similar or the same. In this case, "away from you" is the same as "backward" and "towards you" is the same as "forward".'
 
@@ -15,7 +16,10 @@ def create_subgroups_of_groupings_with_llm(json_folder, llm_name, new_folder):
     if "gemini" in llm_name:
         client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
         for file, loaded_dict in all_dicts.items():
-            print(f'processing {file}...')
+            if os.path.exists(f"{new_folder}/{file}"):
+                continue
+
+            print(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}: processing {file}...')
             input = prompt_1 + f'{loaded_dict}' + prompt_2
             # print(f'input: {input}')
             response = client.models.generate_content(
@@ -25,15 +29,35 @@ def create_subgroups_of_groupings_with_llm(json_folder, llm_name, new_folder):
             response_text = response.text
             # print(f'response_text: {response_text}')
 
-            # remove ```python and ``` if they exist
+            # remove ```python and ``` and json if they exist
             if "```python" in response_text:
                 response_text = response_text.replace("```python", "")
+            if "```json" in response_text:
+                response_text = response_text.replace("json", "")
             if "```" in response_text:
                 response_text = response_text.replace("```", "")
 
             with open(f"{new_folder}/{file}", "w") as f:
                 f.write(response_text)
     
+    elif "gpt" in llm_name:
+        pass
+
+    # iterate over the saved jsons, verify if it can be loaded
+    for file in os.listdir(new_folder):
+        if file.endswith(".json"):
+            try:
+                new_dict = json.load(open(f"{new_folder}/{file}"))
+            except Exception as e:
+                print(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}: error loading {file} | {e}')
+
+            # next, see if there are any hallucinations by checking that for all subgroups, the keys and values are in the original dict
+            for subgroup_name, subgroup_dict in new_dict.items():
+                for key, value in subgroup_dict.items():
+                    try:
+                        assert all_dicts[file][key] == value
+                    except Exception as e:
+                        print(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}: hallucination found in {file} for subgroup {subgroup_name} with key {key} and value {value} | {e}')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

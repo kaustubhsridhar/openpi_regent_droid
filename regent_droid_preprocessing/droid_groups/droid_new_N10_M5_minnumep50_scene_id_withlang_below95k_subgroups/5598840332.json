@@ -1,0 +1,71 @@
+
+{
+    "put_orange_mug_in_sink": {
+        "72111": "Pick up the orange mug and put it in the sink",
+        "498": "Put the orange mug in the sink"
+    },
+    "put_blue_cup_on_table": {
+        "55683": "Place the blue cup on the table",
+        "43250": "Put the blue cup on the table"
+    },
+    "put_orange_cup_in_sink": {
+        "44577": "Pick up the orange cup and put it in the sink",
+        "85429": "Pick the orange cup and put it in the sink",
+        "38096": "Pick up the orange cup and put it in the sink"
+    },
+    "put_blue_cup_in_sink": {
+        "33925": "Pick up the blue handleless cup and put it in the sink",
+        "34211": "Put the blue cup on the sink inside the sink",
+        "23211": "Put the blue cup in the sink."
+    },
+    "remove_orange_cup_from_sink_put_on_table": {
+        "22021": "Remove the orange cup from the sink and put it on the table"
+    },
+        "remove_blue_cup_from_sink_put_on_table": {
+        "17059": "Remove the blue cup from inside the sink and put it on the table"
+    },
+    "put_orange_mug_on_blue_plate": {
+        "27684": "Put the orange mug on the blue plate",
+        "61177": "Put the orange mug on the blue plate"
+    },
+    "put_white_bottle_on_table": {
+        "27949": "Put the white bottle on the table",
+        "5318": "Put the white bottle on the table"
+    },
+    "remove_white_bottle_from_sink_put_on_table": {
+        "25912": "Remove the white bottle from the sink and drop it on the table",
+        "78975": "Move the bottle from the sink to the table"
+    },
+      "put_white_bottle_in_sink": {
+        "64482": "Put the white bottle inside the sink"
+
+    },
+    "put_detergent_in_sink":{
+        "25776": "Pick up the detergent and put it in the sink"
+    },
+      "put_white_container_in_sink": {
+        "29656": "Put the white container in the sink"
+    },
+    "put_orange_mug_in_blue_mug": {
+        "21644": "Put the orange mug in the blue mug",
+        "60090": "Put the orange mug in the blue mug"
+    },
+    "put_white_bottle_on_sink":{
+        "78714": "Put the white bottle on the sink",
+        "4730": "Put the white bottle onto the toy sink",
+        "83830": "Put the bottle on the sink"
+
+    },
+        "remove_white_bottle_from_sink":{
+        "88958": "Remove the white bottle from the sink",
+        "1849": "Take the small bottle out of the sink"
+    },
+          "put_cup_in_sink":{
+        "39325": "Put the cup inside the sink"
+          },
+    "put_blue_brush_in_cup":{
+       "92357": "Put the blue brush in the orange cup.",
+       "44665": "Pick up the blue brush and put it in the blue mug"
+    }
+
+}

@@ -1,0 +1,64 @@
+
+{
+    "place_hat_on_chair_seat": {
+        "46372": "Put the black and red hats on the seat of the white chair.",
+        "87181": "Put the hat on the chair upside down",
+        "16678": "Put the hat onto the chair then turn it over",
+        "26988": "Put the hat on the chair",
+        "14494": "Take the black hat off of the orange hat and place it on the chair"
+    },
+    "hang_hat_on_backrest": {
+        "43814": "Hang the black hat on the backrest of the white chair",
+        "76075": "Hang the hats on the backrest of the wooden chair",
+        "59205": "Turn the wooden chair to face the right then hang the hat on its backrest",
+        "81996": "Hang the black hat on the backrest of the wooden chair then put the orange hat on the seat"
+    },
+    "hang_hat_on_left_side_of_backrest": {
+        "38532": "Hang the red hat on the left side of the backrest of the white chair and then put the black hat on the seat of the white chair",
+       "1696": "Hang the black hat on the left side of the backrest of the white chair and then hang the red hat on the right side of the backrest of the white chair",
+        "83535": "Hang the black hat on the left side of the backrest of the chair then hang the red hat on the right side"
+    },
+    "hang_hat_on_right_side_of_backrest":{
+        "80097": "Hang the black hat on the right side of the backrest of the white chair",
+        "27073": "Hang the black hat on the right side of the backrest of the white chair"
+    },
+        "put_hats_on_chair_seat_and_sofa":{
+            "70775": "Put the hats on the seat of the chair then on the sofa",
+            "57862": "Put the black hat on the seat of the chair, put the red hat on the black hat and then put the hats on the couch"
+        },
+    "put_towel_on_chair": {
+        "15559": "Put the towel on the chair",
+        "93114": "Hang the towel on the chair",
+        "82377": "Put the towel on the backrest of the chair",
+        "77555": "Hang the grey towel on the chair"
+
+    },
+     "put_towel_in_hat":{
+        "91194": "Place the towel in the red hat",
+        "31979": "Pick up the red hat and turn it upside down on the chair, pick up the striped towel and put it in the red hat"
+     },
+    "turn_chair": {
+        "50195": "Turn the wooden chair to the right",
+        "69314": "Twist the chair 45 degrees"
+    },
+    "place_red_hat_on_chair_seat_then_black_hat_on_red_hat":{
+       "7106": "Put the red hat on the seat of the white chair and then put the black hat on the red hat"
+    },
+    "stand_chair_upright":{
+        "20156": "Pick the chair and position it upright",
+        "70867": "Lift the chair laying on the sofa seats to make it stand on its four legs on the sofa",
+        "32125": "Lift the lying chair on the sofa to make it stand on its legs on the sofa seat"
+    },
+    "place_hats_from_chair_ears_to_seat":{
+      "15564": "Remove the caps from the chair ears starting with the orange hat and stack them on the chair seat",
+      "11092": "Remove the hats on the chair's ears starting with the black hat and place them on the chair's seat"
+    },
+     "put_black_hat_on_orange_hat":{
+         "24661": "Put the black hat on the orange hat"
+     },
+     "invert_hat_on_chair_seat":{
+         "72217": "Place the black hat on the chair seat and then turn it upside down",
+         "39826": "Flip the orange hat on the chair seat upside down, pick up a towel on the pillow and place it in the orange hat"
+
+     }
+}

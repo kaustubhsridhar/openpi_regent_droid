@@ -1,0 +1,56 @@
+
+{
+    "stack_bowls_and_cup": {
+        "52740": "Stack the bowls together and put the yellow cup in the top bowl then place the bowls and cup on top of the toaster oven",
+        "43441": "Pick up the pink bowl and place it in the green bowl then put a yellow cup inside the pink cup and place the stack on top of the oven",
+        "19521": "Stack the two bowls together then put the yellow cup in the green bowl and place the bowls on the table",
+        "33353": "Stack the two bowls together then put the yellow cup inside the stacked bowls and place them on top of the toaster oven",
+        "47825": "Put the green bowl inside the red bowl and yellow cup in the green bowl and then lift them and put the on the microwave",
+        "11731": "Pick up the green bowl and put it in the pink bowl, pick up the yellow cup and put it in the green bowl, pick up the stacked bowls and cup and put them on the table"
+    },
+    "close_oven_door": {
+        "35349": "Close the oven door fully",
+        "37668": "Close the opened oven door",
+        "10661": "Close the door to the oven",
+        "23421": "Close the toaster oven door"
+    },
+    "open_oven_door": {
+        "550": "Open the oven door",
+        "74685": "Open the toaster oven."
+    },
+    "open_microwave_door": {
+        "44217": "Open the microwave door",
+        "16496": "Open the microwave door and put the orange packet in the microwave"
+    },
+   "move_item_left": {
+        "4530": "Move the glass kettle to the left.",
+        "90420": "Move the orange object to the left",
+        "55663": "Move the black kettle electric base to the left"
+    },
+    "move_item_right": {
+        "31413": "Move the toaster to the right",
+        "90068": "Move the cloth to the right"
+    },
+    "move_item_backward": {
+        "38001": "Move the toaster backward"
+    },
+    "turn_knob_right": {
+        "43257": "Turn the top knob on the toaster oven to the right",
+        "15337": "Turn the upper knob to the right on the oven"
+    },
+      "put_orange_packet_in_oven":{
+        "80314": "Open the oven door then put the orange bag inside",
+        "66835": "Pick up the orange packet from the left side of the table and put it on the tray in the black oven"
+    },
+     "place_item_on_table":{
+        "21395": "Put the electric kettle on the table",
+        "82705": "Remove the zip lock bag from on top of the blue box on the microwave and put it on the table",
+        "11292": "Take ziplock bag out the box and put it on the table"
+
+    },
+    "put_white_and_orange_packet_in_oven":{
+        "15489": "Put the white and orange packet in the toaster oven.",
+        "77330": "Put the white and orange packet in the open toaster oven"
+    }
+}
+

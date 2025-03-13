@@ -1,0 +1,56 @@
+
+{
+    "place_marker_in_cup": {
+        "2565": "Put the marker in the cup",
+        "45062": "Pick up the marker and place it in the paper cup with the cap side down",
+        "68370": "Put the sharpie into the cup",
+        "37657": "Put the marker inside the paper cup, pick up the paper cup and put it at the top",
+        "74430": "Put the marker inside the coffee cup.",
+        "47062": "Move the cup, then pick up the marker and put it in the cup",
+        "28761": "Put the marker inside the cup",
+        "23644": "Put the marker inside the coffee cup then place the cup on the countertop.",
+        "57194": "Pick up the marker and put it on the paper cup",
+        "37759": "Pick up the marker from the shelf and put it in the cup"
+    },
+    "remove_marker_from_cup": {
+        "30977": "Remove the marker from the cup",
+        "4877": "Take the marker out of the coffee cup and put it on the top shelf.",
+        "17830": "Take the marker out of the coffee cup then place the coffee cup upside down.",
+        "41070": "Take the marker out of the coffee cup.",
+        "9722": "Take the marker out of the coffee cup."
+    },
+    "place_cup_in_cabinet": {
+        "73344": "Open the small door completely, then place the cup inside, and then close the door",
+        "76437": "Open the compartment on the dresser, put the cup inside then close it",
+        "62877": "Open the cabinet door, then out the cup inside and close the cabinet door",
+        "1974": "Remove the marker from the cup, then put the cup in the cabinet and close the cabinet door",
+        "67005": "Put the cup inside the small door on the desk, then close the door",
+        "6645": "Put the paper cup inside the middle cabinet and close the door"
+    },
+    "place_cup_on_cabinet": {
+        "54186": "Place the coffee cup upside down on top of the cabinet.",
+        "87275": "Open the top cabinet door then place the coffee cup on top of the cabinet and close the cabinet door.",
+        "21109": "Put the coffee cup on top of the cabinet."
+    },
+        "place_book_on_shelf": {
+        "48012": "Put the blue book on the shelf.",
+        "51762": "Put the white book on the top shelf."
+
+    },
+    "place_book_on_other_book": {
+        "50196": "Put the blue book on top of the white book.",
+        "51835": "Put the white book on top of the blue book."
+    },
+     "open_compartment":{
+        "71779": "Open the compartment on the dresser",
+        "76437": "Open the compartment on the dresser, put the cup inside then close it"
+     },
+    "close_cabinet_door":{
+        "81136": "Close the cabinet door",
+        "73344": "Open the small door completely, then place the cup inside, and then close the door"
+    },
+     "move_book_backward":{
+        "8344": "Place the white book upright and move it backwards."
+     }
+}
+

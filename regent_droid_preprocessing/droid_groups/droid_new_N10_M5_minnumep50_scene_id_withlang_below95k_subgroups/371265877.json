@@ -1,0 +1,91 @@
+
+{
+    "fold_towel_in_half": {
+        "41216": "Fold the towel in half",
+        "81555": "Fold the towel in half",
+        "42403": "Fold the towel in half",
+        "39334": "Fold the towel in half",
+        "52142": "Fold the towel in half",
+        "47926": "Fold the towel in half",
+        "6586": "Fold the towel in half",
+        "51388": "Fold the towel in half",
+        "37565": "Fold the towel in half",
+        "33729": "Fold the towel in half",
+        "68683": "Fold the towel in half",
+        "3414": "Fold the towel in half",
+        "35566": "Fold the towel in half"
+    },
+    "fold_towel_on_table": {
+        "22915": "Fold the towel on the table",
+        "13710": "Fold the towel on the table",
+        "48538": "Fold the towel on the table",
+        "70438": "Fold the towel on the table",
+        "31704": "Fold the towel on the table",
+        "94168": "Fold the towel on the table"
+    },
+    "fold_cloth": {
+        "36754": "Fold the cloth",
+        "79762": "Fold the cloth",
+        "67740": "Fold the cloth",
+        "19230": "Fold the cloth",
+        "19300": "Fold the cloth"
+    },
+    "fold_yellow_towel_in_half": {
+        "25223": "Fold the yellow towel in half",
+        "4235": "Fold the yellow towel in half",
+        "71478": "Fold the yellow towel in half"
+
+    },
+        "fold_yellow_towel_bottom_to_top": {
+        "67081": "Fold the yellow towel once from bottom to top",
+        "7693": "Fold the yellow towel from bottom to top.",
+        "94170": "Fold the yellow towel from bottom to top",
+        "84830": "Fold the yellow towel from bottom to top"
+    },
+    "fold_yellow_towel_in_half_bottom_to_top":{
+        "58927": "Fold the yellow towel in half from bottom to top.",
+        "57034": "Fold the yellow towel in half from bottom to top"
+    },
+    "fold_cloth_on_table": {
+        "42170": "Fold the cloth on the table",
+        "23235": "Fold the cloth on the table",
+        "5613": "Fold the cloth on the table",
+        "85233": "Fold the cloth on the table"
+    },
+     "fold_yellow_cloth": {
+        "33455": "Fold the yellow cloth",
+        "49101": "Fold the yellow cloth"
+     },
+    "fold_towel_once":{
+        "59028": "Fold the towel once on the table",
+        "76913": "Fold the towel once"
+    },
+        "fold_towel":{
+        "14799": "Fold the towel"
+    },
+    "fold_yellow_towel":{
+        "91496": "Fold the yellow towel",
+        "44667": "Fold the yellow towel."
+    },
+       "fold_cloth_in_half":{
+        "75448": "Fold the cloth in half"
+    },
+    "fold_green_towel":{
+        "17390": "Fold the green towel"
+    },
+       "fold_yellow_towel_on_table_in_half":{
+        "65924": "Fold the towel on the table in half.",
+        "28996": "Fold the yellow towel on the table in half."
+    },
+       "fold_green_towel_in_half": {
+        "42718": "Fold the green towel in half"
+    },
+    "fold_yellow_cloth_in_half":{
+        "85807": "Fold the yellow cloth in half"
+    },
+      "fold_yellow_towel_right_to_left":{
+          "21851": "Fold the yellow towel in half from right to left.",
+          "69982": "Fold the yellow towel from right to left"
+      }
+}
+

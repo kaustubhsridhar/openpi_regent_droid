@@ -1,0 +1,53 @@
+
+{
+    "press_dishwasher_button": {
+        "86413": "Press a button on the dishwasher",
+        "52240": "Press a button on the dish washing machine",
+        "22930": "Press a button on the dishwasher",
+        "10390": "Press a button on the dishwasher",
+        "81315": "Press a button on the dishwasher.",
+        "21069": "Press a button on the dishwasher",
+        "37068": "Press a button on the dishwasher",
+        "18261": "Press a button the dishwasher",
+        "12379": "Press a button on the dish washing machine",
+        "20828": "Press a button on the dishwasher.",
+        "60126": "Press a button on the dishwasher.",
+        "82789": "Press a button on the dishwasher.",
+        "11248": "Press a button on the dishwasher."
+    },
+    "press_oven_button": {
+        "24963": "Press the button on the oven",
+        "12061": "Press the button on the oven",
+        "76065": "Press a button on the oven",
+        "83806": "Press the button on the oven"
+    },
+    "close_drawer": {
+        "61956": "Close the drawer on the left completely",
+        "69893": "Close the drawer",
+        "55200": "Close the open drawer.",
+        "43940": "Close the open drawer",
+        "13750": "Close the drawer",
+        "16729": "Close the open drawer fully",
+        "7149": "Close the drawer"
+    },
+    "open_drawer": {
+        "28811": "Open the drawer",
+        "10530": "Open the drawer",
+        "10921": "Open the drawer on the top right side of the kitchen counter",
+        "9420": "Open the first drawer from the right.",
+        "82003": "Pull open the drawer",
+        "42978": "Open the drawer",
+        "93426": "Pull open the drawer",
+        "2935": "Open the right drawer"
+
+    },
+    "press_dishwasher_side_buttons":{
+        "73376": "Press one of the buttons on the right side of the dishwasher",
+        "32425": "Press one of the buttons on the left side of the dishwasher",
+        "83013": "Press one of the buttons on the left side of the dish washing machine",
+        "33787": "Press a button on the right side of the dish washing machine",
+        "86387": "Press the big button on the right side of the dishwasher",
+        "30827": "Press the buttons on the dishwasher."
+    }
+}
+

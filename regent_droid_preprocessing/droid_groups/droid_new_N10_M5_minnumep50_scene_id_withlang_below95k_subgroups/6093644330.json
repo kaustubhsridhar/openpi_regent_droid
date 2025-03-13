@@ -1,0 +1,314 @@
+
+{
+    "Pour_Jug_into_Red_Bowl": {
+        "54279": "Pour some contents from the jug and put them into the red bowl.",
+        "58383": "Pour the contents in the clear jug into the red bowl",
+        "49173": "Pour some of the contents in the clear jar into the red bowl",
+        "52759": "Pour the contents in the jug into the red bowl",
+        "23578": "Pour some contents of the jug into the red bowl",
+        "19502": "Pour some of the contents of the clear jar into the red bowl",
+        "20559": "Pour some of the contents of the jug into the red bowl",
+        "91716": "Pour some of the contents in the clear jar into the red bowl",
+        "90720": "Pour some of the things in the jug into the red bowl",
+        "88686": "Pick up the jug and pour its contents in the red bowl",
+        "20620": "Pour some contents of the jug into the red bowl",
+        "72947": "Pour the contents in the clear jug into the red bowl",
+        "40181": "Pour the contents in the clear jar into the red bowl",
+        "7939": "Pour the contents from the clear jar into the red bowl then put the clear jar on the table",
+        "52472": "Pour the contents of the clear jar into the red bowl",
+        "36259": "Pour some of the contents of the clear jar into the red bowl",
+        "45475": "Pour some contents of the jug into the red bowl",
+        "65965": "Pour the contents of the clear jar into the red bowl",
+        "79264": "Pour the contents in the jug into the red bowl",
+        "11175": "Pour the contents in the jug into the red bowl",
+        "56313": "Pour some of the contents of the jug into the red bowl",
+        "10750": "Pour the contents in the clear jug into the red bowl",
+         "54048": "Pour the contents of the jug into the red bowl",
+        "88537": "Pour the contents in the jug into the red bowl"
+
+    },
+    "Pour_Jug_into_Bowl": {
+        "74251": "Pour the contents of the jug into the bowl",
+        "46096": "Pour some contents of the jug into the bowl",
+        "81456": "Pour some of the things in the jug into the bowl",
+        "66162": "Pour some of the contents of the jug into the bowl",
+        "12917": "Pour some of the contents of the jug into the  bowl",
+        "25056": "Pour some of the contents from the jug into the bowl",
+        "58789": "Pour the contents from the jug into the bowl.",
+        "66221": "Pour the contents of the jug into the bowl"
+    },
+        "Pour_Jar_into_Orange_Bowl":{
+            "58447": "Pour some of the contents of the colourless jar into the orange bowl",
+            "94936": "Pour some contents from the clear jar into the orange bowl",
+            "75994": "Pour some contents from the clear jar into the orange bowl",
+            "71459": "Pour the contents from the transparent jar into the orange bowl",
+            "4077": "Pour some of the contents of the colourless jar in the orange bowl"
+        },
+    "Pour_Jar_into_Bowl":{
+        "10860": "Pour some of the contents of the jar into the bowl",
+        "81029": "Pour the contents in the jar into the bowl",
+        "34064": "Pick up the jar and pour some of its contents in the bowl",
+        "15220": "Pick up the jar and pour some of its contents in the bowl",
+        "20865": "Pick up the jar and pour some of its contents into the bowl"
+
+    },
+    "Pour_Contents_of_Cup_into_Bowl": {
+        "237": "Pour the contents of the cup into the bowl",
+        "65797": "Pour the contents of the cup into the bowl",
+        "5458": "Pick the cup and pour its contents in the bowl"
+    },
+        "Pour_Beans_from_Jar_to_Red_Bowl":{
+           "56625": "Pour some of the beans in the jar into the red bowl",
+           "69951": "Pour some beans from the jar into the red bowl",
+            "44477": "Pour some beans out of the jar into the red bowl"
+        },
+
+    "Wipe_Table_with_White_Towel": {
+        "93218": "Wipe the table top with the white towel",
+        "27700": "Use the white towel to wipe the table in circular motion.",
+        "65132": "Use the white towel to wipe the table",
+        "78010": "Wipe the table with the white towel",
+        "66781": "Wipe the table top with the white towel",
+        "20753": "Use the white towel to wipe the table",
+        "1305": "Use the white towel to wipe the table surface",
+        "42290": "Use the white towel to wipe the table",
+        "33194": "Use the white towel to wipe the table",
+        "9659": "Use the white towel to wipe the table",
+        "20951": "Use the white towel to wipe the table",
+        "46317": "Wipe the table top with the white towel",
+         "54437": "Use the white towel to wipe the table"
+    },
+    "Wipe_Table_with_White_and_Red_Towel": {
+        "56848": "Use the white and red towel to wipe the tabletop",
+        "59100": "Use the white and red towel to wipe the table",
+        "84964": "Use the red and white towel to wipe the tabletop",
+        "88350": "Use the white and red towel to wipe the table top",
+        "13620": "Use the white and red towel to wipe the table",
+         "26567": "Use the white and red tea towel to wipe the table"
+    },
+"Wipe_Table_with_Towel":{
+    "48370": "Use the towel to wipe the table",
+    "14525": "Use the towel to wipe the table.",
+    "92374": "Use the towel to wipe the table",
+    "92895": "Use the towel on the center to wipe the table",
+    "19704": "Use the towel to wipe the table.",
+    "31628": "Use the towel to wipe the table",
+    "44924": "Wipe the table using the towel located on the left"
+},
+    "Wipe_Table_with_Cloth": {
+        "1029": "Use the cloth to wipe the table",
+        "51782": "Wipe the table with the cloth",
+        "61524": "Use the cloth and wipe the table",
+        "5290": "Use the cloth to wipe the table",
+        "21689": "Use the cloth to wipe the table",
+        "34279": "Use the white cloth to wipe the table",
+        "49900": "Wipe the table with the white cloth"
+    },
+    "Wipe_Table":{
+        "63155": "Wipe the table",
+        "80894": "Wipe the table"
+
+    },
+
+    "Wipe_Table_with_Tea_Towel":{
+        "48772": "Use the tea towel to wipe the table",
+        "73890": "Use the white and blue tea towel to wipe the table",
+        "62777": "Use the white and blue cloth to wipe the table",
+        "30343": "Use the red and white towel to wipe the table",
+        "18075": "Wipe the table top with the white and blue towel"
+    },
+    "Fold_Towel": {
+        "58930": "Fold the towel",
+        "12352": "Fold the towel",
+        "14925": "Fold the towel",
+        "57455": "Fold the towel",
+        "62665": "Fold the towel",
+        "31396": "Fold the towel",
+        "12235": "Fold the towel",
+        "93558": "Fold the towel on the table",
+         "78155": "Fold the towel in three",
+         "13177": "Fold the towel three times",
+        "84303": "Fold the towel three times over"
+    },
+    "Fold_Towel_on_Table": {
+        "1042": "Fold up the towel on the table.",
+        "6745": "Fold the towel on the table",
+        "61580": "Fold the cloth on the table.",
+        "45782": "Fold the towel on the table",
+        "15590": "Fold the towel on the table",
+        "39264": "Fold up the white towel on the table."
+
+    },
+
+    "Fold_White_Towel":{
+        "28239": "Fold the white towel",
+        "6093": "Fold the white towel"
+    },
+
+    "Fold_Towel_Twice": {
+        "33340": "Fold the towel twice",
+        "64579": "Fold the towel twice"
+    },
+ "Fold_Towel_Specific_Way": {
+    "44210": "Fold the towel two times over from right to left then left to right, fold the towel in half from top to bottom",
+    "87399": "Fold the towel from right to left then bottom to top",
+     "23201": "Fold the white towel in a zigzag pattern",
+    "43932": "Fold the white and blue towel from right to left and then bottom to top",
+     "86358": "Fold the red and white towel in half twice from left to right"
+    },
+    "Fold_Tea_Towel":{
+        "17566": "Fold the tea towel on the right",
+        "28600": "Fold the tea towel on the table",
+        "20608": "Fold the two tea towels"
+    },
+    "Fold_Cloth":{
+        "58524": "Fold the white and red cloth on the table",
+        "53662": "Fold the cloth on the table",
+        "95495": "Fold the cloth on the table",
+        "43988": "Fold the cloth in half",
+        "73665": "Fold the red and white  cloth neatly",
+        "93130": "Fold the kitchen towel",
+        "11921": "Fold the bluestripped table cloth"
+
+    },
+    "Spoon_Contents_from_Red_Bowl_to_Jug": {
+        "27675": "Put a spoonful of the contents of the bowl into the jug",
+        "60459": "Put a spoonful of the contents of the bowl in the jug",
+        "43604": "Take a spoonful of the contents of the red bowl and put it in the jug",
+        "24747": "Put a spoonful of the things in the bowl into the jug",
+        "43192": "Use the spoon to scoop some things from the bowl and put in the jug",
+        "4867": "Put a spoonful of the things in the bowl into the jug",
+        "3448": "Put a spoonful of the things in the red bowl into the jug",
+        "42941": "Put a spoonful of the things in the red bowl into the jug",
+        "11710": "Put a spoonful of the contents in the bowl in the jug",
+        "48587": "Put a spoonful of the things in the bowl into the jug",
+        "75213": "Transfer a spoonful of contents from the bowl into the jar",
+        "32921": "Move a spoonful of contents from the bowl to the jug"
+    },
+     "Spoon_Contents_from_Bowl_to_Other": {
+        "79932": "Pick up the spoon and scoop some of the objects from  the  red bowl and put them in the measuring cup, then put the spoon on the table",
+        "65088": "Pick up the spoon and scoop some of the contents in the bowl and put them in the jar",
+        "11353": "Use the spoon to scoop some of the contents in the red bowl and put them in the colourless cup.",
+        "36601": "Pick up the spoon, take one spoon of objects from the red bowl and put it in the measuring cup",
+        "30498": "Pick up the spoon, take one spoon of the objects from the red bowl and it in the measuring cup",
+        "30984": "Use the spoon to put the contents of the bowl into the cup",
+        "84841": "Pick up the spoon, scoop up some of the contents in the bowl and put the contents in the cup."
+    },
+     "Spoon_Contents_from_Orange_Bowl_to_Other": {
+        "45118": "Transfer a spoonful of contents from the orange bowl to the clear jar",
+        "59106": "Use the spoon to transfer one scoop of contents from the orange bowl to the clear jar",
+        "40419": "Use the spoon to move one spoon of contents from the orange bowl to the clear jar",
+        "48437": "Spoon out a single spoonful of the contents from the orange bowl into the transparent jar.",
+        "87421": "Transfer a spoonful of contents from the orange bowl to the transparent jar",
+        "68855": "Spoon some of the content in the orange bowl and pour it into the transparent container",
+        "86004": "Use the spoon to move one scoop of the contents from the bowl to the clear jar"
+
+    },
+
+   "Scoop_Contents_from_Red_Bowl_with_Spoon_to_Jug": {
+
+        "92190": "Use the spoon on the table to scoop some of the contents in the red bowl into the clear jug then put the spoon in the red bowl",
+        "95425": "Use the spoon on the table to scoop some of the contents in the red bowl into the clear jug",
+        "22762": "Use the spoon to scoop some of the contents in the red bowl into the clear jug",
+        "87989": "Use the spoon to scoop some of the contents in the red bowl into the clear jug",
+        "4451": "Use the spoon to place some of the contents from the red bowl into the clear jug",
+        "94110": "Use the spoon to place contents from the red bowl into the clear jug.",
+        "74148": "Use the spoon to put some of the contents from the red bowl into the clear jug",
+         "34240": "Scoop some contents of the red bowl with a spoon and put them in the jug",
+        "47752": "Place some of the contents in the red bowl into the clear jug using the spoon",
+         "59612": "Use the spoon to scoop up contents in the bowl and pour them in the jug",
+        "69776": "Scoop some of the contents in the red bowl and put them in the clear jar",
+         "15667": "Use the spoon to transfer beans from the red bowl to the jar",
+          "26296": "Use the spoon to place some of the contents in the red bowl into the jug, pour the contents in the jug into the red bowl"
+    },
+        "Scoop_And_Place_Contents_Then_Return_Spoon":{
+            "52830": "Pick up the spoon from the table, scoop some contents from the bowl, put them in the cup and put the spoon back on the table.",
+            "68414": "Get the spoon, scoop some of its contents from the bowl and put them in the cup. Put the spoon back in the bowl."
+        },
+
+   "Unfold_Towel": {
+        "43540": "Unfold the white and red towel",
+        "4667": "Unfold the tea towel",
+        "35192": "Unfold the tea towel",
+        "79773": "Unfold the white and red towel twice from right to left, lay the towel straight on the table"
+    },
+        "Put_Black_Shirt_on_Table":{
+            "68655": "Put the black shirt on the table",
+            "2674": "Put the black cloth on the table",
+            "46844": "Place the black t-shirt on the table",
+            "69470": "Put the black t-shirt on the table",
+            "45943": "Put the black towel on the table",
+            "50648": "Put the black cloth on the table"
+
+        },
+        "Hang_or_Place_Black_Shirt_on_Chair":{
+             "89636": "Unfold the t-shirt and hang it on the chair's backrest",
+            "73257": "Place the black shirt on the backrest of the grey chair",
+            "82061": "Hang the black cloth on the back of the chair",
+             "8860": "Hang the black t-shirt on the backrest of the grey chair",
+            "41126": "Hang the black t-shirt on the backrest of the grey chair on the right",
+            "7337": "Hang the black t-shirt on the backrest of the grey chair",
+            "72995": "Hang the black t-shirt on the backrest of the grey chair",
+             "765": "Pick the shirt and put it on the back rest of the chair",
+              "21494": "Pick up the black cloth from the table and put it on the chair back of the chair.",
+            "34700": "Unfold the black t-shirt, hang the t-shirt on the backrest of the grey chair, fold the red and white towel three times over",
+            "39340": "Hang the t-shirt on the backrest"
+        },
+
+     "Remove_Black_Shirt_From_Chair":{
+        "84135": "Remove the black t-shirt from the backrest of the grey chair",
+        "77759": "Remove the black t-shirt from the backrest of the grey chair and put it on the table",
+        "34179": "Remove the black t-shirt from the backrest of the chair and put it on the round table"
+
+     },
+        "Put_Black_Object_on_Table": {
+            "31811": "Remove the black object from the top of the chair and put it on the table",
+            "87752": "Remove the black object from the chair and put it on the table",
+            "69490": "Take the black top on the chair and put it on the table",
+             "33739": "Move the black cloth from the top of the chair to the table"
+
+        },
+         "Put_Shirt_on_Table":{
+            "78180": "Put the shirt on the table, unfold the white cloth then unfold the shirt."
+         },
+    "Put_Object_on_Chair":{
+      "45621": "Put the black cloth on the head rest of the armchair",
+       "7675": "Move the black shirt from the table to the back of the chair",
+        "53058": "Place the towel on the backrest of the grey chair",
+        "13123": "Hang the shirt on the back of the chair",
+         "3301": "Put the tea towel on the back of the chair",
+          "982": "Hang the white towel on the back of the chair"
+    },
+     "Remove_Item_and_Place_on_Table":{
+        "51810": "Remove the item from the backrest of the chair and put it on the table"
+     },
+        "Put_Pen_in_Cup":{
+            "77059": "Put the pen inside the cup",
+            "37862": "Put the pen inside the cup"
+        },
+     "Put_Spoon_Down":{
+        "52945": "Put the spoon in the red bowl then take it out of the bowl and set it down on the table"
+
+     },
+     "Fold_Shirt":{
+        "50873": "Fold the black shirt on the table",
+        "3137": "Fold the t-shirt",
+        "39691": "Fold the shirt from right to left then top to bottom"
+     },
+
+    "Pour_from_Cup_to_Orange_Bowl":{
+        "14950": "Pick up the plastic cup from the table, pour some of its contents in the orange bowl and put the cup back on the table.",
+         "274": "Pick up the cup from the table and pour some of its contents in the orange bowl.",
+        "12768": "Pick up the cup from the table, pour some of its contents in the orange bowl and put the cup back on the table.",
+        "70990": "Pick up the cup from the table and pour some of its contents in the bowl."
+    },
+      "Action_with_Cup_and_Bowl":{
+        "90574": "Pour some of the contents from the white cup into the glass bowl"
+      },
+        "No_Action_or_Not_Action":{
+            "12318": "No action",
+            "15414": "Not action",
+             "74958": "No action"
+        }
+
+}

@@ -1,0 +1,157 @@
+
+{
+    "put_rubber_duck_in_pot": {
+        "7174": "Put the orange rubber duck in the pot",
+        "22046": "Put the orange rubber duck inside the silver pot",
+        "36920": "Put the orange rubber duck in the pot",
+        "31802": "Put the rubber duck in the silver pot",
+        "77377": "Put the orange duck in the pot",
+        "92245": "Place the rubber duck inside the pot",
+        "58971": "Put the rubber duck in the pot",
+        "45150": "Put the duck in the pot",
+        "70243": "Put the orange rubber duck in the pot",
+        "30319": "Put the duck in the pot",
+        "5751": "Put the orange rubber duck in the silver pot",
+        "62589": "Put the orange rubber duck in the silver pot",
+        "26251": "Put the rubber duck in the pot",
+        "35483": "Put the orange rubber duck in the pot",
+        "18590": "Put the orange rubber duck inside the silver pot",
+        "86698": "Put the rubber duck in the pot",
+        "22189": "Put the orange rubber duck in the pot",
+        "90816": "Put the orange rubber duck inside the silver pot",
+        "66247": "Put the rubber duck in the pot",
+        "55519": "Put the orange rubber duck in the pot",
+        "22753": "Put the orange rubber duck into the pot",
+        "48905": "Put the orange rubber duck in the pot",
+        "2863": "Put the duck in the pot",
+        "42802": "Put the orange rubber duck in the pot",
+        "37171": "Put the duck in the pot",
+        "44862": "Put the orange rubber duck in the pot",
+        "24905": "Put the orange duck in the pot",
+        "24911": "Place the orange rubber duck in the pot",
+        "8022": "Place the orange rubber duck inside the silver pot",
+        "65881": "Put the orange rubber duck in the silver pot",
+        "43358": "Put the rubber duck in the pot",
+        "27490": "Put the rubber duck in the pot",
+        "25965": "Put the orange duck in the pot",
+        "84856": "Put the rubber duck inside the silver pot",
+        "87931": "Put the duck in the pot",
+        "48006": "Put the orange rubber duck in the pot",
+        "92554": "Place the orange rubber duck in the pot",
+        "49038": "Put the duck in the pot",
+        "8083": "Put the orange rubber duck in the pot",
+        "79255": "Put the orange rubber duck in the pot",
+        "59301": "Place the orange rubber duck in the pot",
+        "61365": "Put the orange rubber duck into the pot",
+        "74684": "Place the orange rubber duck in the pot",
+        "9664": "Put the rubber duck in the pot",
+        "39874": "Put the orange rubber duck in the pot",
+        "80835": "Put the black bowl inside the pink bowl",
+        "78788": "Put the orange rubber duck in the pot",
+        "93143": "Put the orange rubber duck in the pot",
+        "76248": "Put the duck into the pot",
+        "73698": "Put the rubber duck in the pot",
+        "81381": "Put the orange rubber duck inside the pot",
+        "77819": "Put the orange rubber duck into the pot",
+        "17404": "Put the rubber duck in the pot",
+        "63773": "Put the duck in the pot"
+
+    },
+    "put_black_bowl_in_pink_bowl": {
+        "13824": "Put the pink bowl in the black bowl",
+        "73748": "Put the black bowl inside the pink bowl",
+        "66092": "Put the black bowl inside the pink bowl",
+        "45636": "Put the pink bowl inside the black bowl",
+        "74342": "Put the black bowl in the pink bowl",
+        "55917": "Put the black bowl in the pink bowl",
+        "47237": "Put the black bowl in the pink bowl",
+        "60580": "Put the black bowl in the pink bowl",
+        "65209": "Put the pink bowl inside the black bowl",
+        "88776": "Put the black bowl in the pink bowl",
+        "45803": "Put the black bowl inside the pink bowl",
+        "7923": "Put the black bowl inside the pink bowl",
+        "88851": "Put the black bowl inside the pink bowl",
+        "19362": "Put the black bowl inside the pink bowl",
+        "64422": "Put the black bowl inside the pink bowl",
+        "76747": "Put the black bowl in the pink bowl",
+        "64978": "Put the black bowl in the pink bowl",
+         "79699": "Put the pink bowl inside the black bowl",
+        "86376": "Put the black bowl in the pink bowl"
+    },
+    "put_orange_object_in_pot": {
+        "4643": "Put the orange object in the pot",
+        "95364": "Pick the orange object and put it in the pot",
+        "48310": "Pick the orange object and put it in the pot",
+      "50073" : "Put the orange object inside the pot.",
+        "67288": "Put the orange object into the silver pot.",
+        "12004": "Put the orange object in the silver pot",
+        "9055": "Put the orange object into the silver pot."
+
+    },
+   "put_rubber_duck_in_cup": {
+        "25651": "Pick up the rubber duck and put it in the cup",
+        "51794": "Pick up the rubber duck and put it in the cup",
+        "49238": "Pick up the rubber duck and put it in the cup",
+        "44643": "Put the rubber duck inside the silver cup",
+      "17205" : "Put the rubber duck inside the cup",
+       "11201": "Put the rubber duck in the silver cup",
+       "53208": "Put the rubber duck inside the silver cup",
+        "90585": "Put the rubber duck inside the silver cup"
+
+    },
+    "stack_bowls": {
+        "79433": "Stack the bowls",
+        "87267": "Stack the bowls",
+        "60673": "Stack the bowls",
+        "50503": "Stack the bowls",
+        "28642": "Stack the bowls",
+        "71114": "Stack the bowls"
+
+    },
+    "put_left_bowl_in_right_bowl": {
+        "17969": "Put the left bowl in the right bowl",
+        "13898": "Put the left bowl in the right bowl",
+        "31020": "Put the left bowl in the right bowl"
+    },
+    "put_right_bowl_in_left_bowl":{
+        "59467": "Put the right bowl in the left bowl",
+        "79465": "Put the right bowl in the left bowl"
+    },
+     "put_pink_bowl_on_black_bowl":{
+        "25665": "Put the pink bowl on top of the black bowl",
+        "66872": "Put the pink bowl on top of the black bowl",
+        "90988": "Put the pink bowl on top of the black bowl",
+        "58330": "Put the pink bowl on top of the black bowl"
+     },
+        "put_black_bowl_on_pink_bowl":{
+        "27229": "Put the black bowl on top of the pink bowl",
+        "50314": "Place the black bowl on top of the pink bowl",
+        "23183": "Put the black bowl on top of the pink bowl",
+         "79607": "Put the black bowl on top of the pink bowl",
+          "14185": "Put the black bowl on top of the pink bowl",
+        "8650": "Place the black bowl on top of the pink bowl"
+
+    }, "put_black_bowl_in_peach_bowl":{
+          "35899": "Pick up the black bowl and put it in the peach bowl",
+          "70863": "Put the black bowl inside the peach bowl",
+          "90851": "Put the black bowl in the peach bowl",
+          "51443": "Put the black bowl in the peach bowl",
+          "18344": "Put the black bowl in the peach bowl",
+          "1966": "Put the black bowl in the peach bowl",
+           "80699": "Put the black bowl in the peach bowl",
+          "19919": "Put the black bowl in the peach bowl"
+
+    },
+    "put_orange_bowl_in_black_bowl":{
+        "12321": "Put the black bowl in the orange bowl",
+         "68812": "Put the orange bowl in the black bowl",
+         "27447": "Put the orange bowl in the black bowl",
+        "16366": "Put the orange bowl in the black bowl",
+        "43342": "Put the orange bowl in the black bowl"
+    },
+    "put_orange_toy_in_silver_pot":{
+          "46809": "Pick up the orange toy from the table and put it in the silver pot",
+           "12107": "Pick up the orange toy from the table and put it in the silver pot.",
+          "62321": "Pick up the orange toy from the table and put it in the silver pot."
+    }
+}

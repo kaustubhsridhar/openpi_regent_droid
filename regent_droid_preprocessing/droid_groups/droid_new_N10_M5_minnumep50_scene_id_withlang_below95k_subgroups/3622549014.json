@@ -1,0 +1,129 @@
+
+{
+    "Open Cabinet": {
+        "81280": "Open the cabinets",
+        "88040": "Open the left cabinet door"
+    },
+    "Close Cabinet": {
+        "90815": "Close the cabinet door."
+    },
+     "Close Microwave": {
+        "91221": "Close the door of the microwave"
+    },
+    "Open Microwave": {
+        "61212": "Open the microwave, then put the blue bowl inside"
+    },
+    "Open Trash Can":{
+        "12883": "Open the trash can"
+    },
+    "Put Object on Counter": {
+        "22322": "Put the tape on the counter",
+        "89471": "Move the white packet to the counter."
+    },
+    "Put Object in Cabinet": {
+        "58154": "Pick up the paper bag from the table and put it in the cabinet",
+        "2622": "Put the green object in the open cabinet",
+        "7231": "Put the grey cup into the cupboard",
+        "37628": "Put the orange sachet in the cabinet",
+        "76021": "Put the tissue roll inside the cupboard",
+        "23269": "Put the white and green pack inside the open upper cabinet.",
+        "50918": "Pick up the green cloth from the bowl and put it in the cabinet",
+        "10957": "Put the plastic in the top cabinet"
+
+    },
+    "Put Object on Bottom Shelf": {
+        "1340": "Put the white packet on the bottom shelf.",
+        "7886": "Put the wooden spoon on the bottom shelf.",
+        "64930": "Move the orange bag to the bottom shelf",
+        "41500": "Move the tape in the cabinet to the bottom shelf.",
+        "41874": "Move the salt packet from the second to the bottom shelf",
+        "19640": "Move the orange packet to the bottom shelf",
+         "47044": "Move the cupcake liners to the bottom shelf"
+    },
+    "Put Object on Middle Shelf": {
+        "23849": "Move the white packet to the middle shelf.",
+        "43357": "Move the white packet to the middle shelf.",
+        "5090": "Put the white packet in the middle shelf."
+    },
+
+    "Put Object in Top Cabinet":{
+        "62473": "Put the white packet in the bottom compartment of the top cabinet",
+        "48189": "Put the orange sachet in the middle compartment of the top cabinet"
+    },
+     "Put Object In Mug":{
+        "87471": "Put the orange spoon in the black mug"
+     },
+    "Put Spoon in Cup": {
+        "32375": "Pick up the spoon from the bowl and put it in the cup",
+        "77566": "Put the orange spoon inside the cup"
+     },
+    "Put Object in Specific Location in Cabinet":{
+        "92652": "Put the black and white object on the second shelf of the open cabinet on the right.",
+        "51758": "Put the blue cup on the bottom shelf of the right upper cabinet then put the orange spoon from the mug in the blue cup.",
+        "95173": "Place the blue cup upright then put it on the middle shelf of the open upper cabinet.",
+        "81037": "Put the blue cup on the bottom shelf onto the second shelf"
+    },
+
+    "Put Object on Top Shelf": {
+        "6063": "pick up an object and place it onto the top shelve and was jerking"
+    },
+    "Put Object Inside Another Object":{
+        "51202": "Place the blue butter knife inside the cup",
+        "93972": "Put the plastic bag on the microwave",
+        "38708": "Put the bag inside the shelf"
+    },
+    "Remove Object from Cabinet":{
+        "19540": "Remove the object from the cabinet and place it on the counter top",
+         "37286": "Remove the wooden spoon from the cabinet and place it on the counter top",
+         "68184": "Remove the white plastic from the cabinet",
+         "16210": "Remove the white packet from the top cabinet",
+         "2367": "Remove the cup from the cupboard"
+    },
+    "Remove and Place Object":{
+        "71339": "Take the white packet out of the open upper cabinet and put it on the countertop.",
+        "86342": "Take the orange packet out of the open cabinet and put it on the counter.",
+        "90108": "Remove the green sachet from the top cabinet",
+        "6937": "Pick up the green object from the second shelf of the cabinet and put it on the table",
+         "90834": "Take the silver object from the middle shelf of the open cabinet then put it in the mug."
+    },
+
+   "Place Object on Counter": {
+       "64406": "Remove the mug from the bottom shelf and put it on the counter",
+        "7881": "Move the blue bowl to the counter",
+        "60262": "Put the blue cup on the counter",
+        "77289": "Put the grey mug on the counter.",
+        "28115": "Put the orange packet on the counter."
+   },
+    "Place Spoon in Mug":{
+        "1556": "Put the yellow spoon in the grey mug on the left.",
+        "33398": "Put the orange spoon in the grey mug on the bottom shelf.",
+        "75481": "Remove the orange spoon from the cabinet and put it in the grey mug."
+    },
+
+    "Move Object to the Right":{
+        "87622": "Move the orange packet from the bottom shelf and place it to the right of the microwave"
+    },
+    "Move Object Down":{
+        "26168": "Move the cup to the shelf below it"
+    },
+
+    "Flip/Turn Switch": {
+        "34295": "Turn off the light switch.",
+        "77906": "Flip the switch on the wall"
+    },
+     "Press Something":{
+        "88754": "Press the top of the bottle closest to you"
+     },
+      "Set Bag Upright":{
+        "61613": "Put the bag upright"
+     },
+     "Put on Glass":{
+        "13843": "Put the spoon on the glass"
+     },
+      "Put in Blue Bowl":{
+        "85788": "Move the white and blue packet to the right then put the white bowl inside the blue bowl."
+      },
+      "Put on Green Cup": {
+        "93137": "Put the orange spoon on top of the green cup."
+      }
+}

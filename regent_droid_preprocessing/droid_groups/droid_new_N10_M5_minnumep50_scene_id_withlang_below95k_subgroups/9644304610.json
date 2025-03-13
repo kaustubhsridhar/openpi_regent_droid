@@ -1,0 +1,63 @@
+
+{
+    "move_fork_and_spoon_to_utensil_rack": {
+        "82699": "Move the fork and spoon to the middle compartment of the utensil drying rack",
+        "89787": "Move the spoon and fork to the middle compartment of the black cutlery drying rack",
+        "67875": "Put the spoon and fork in the drying rack",
+        "68956": "Put the fork in the utensil drying rack"
+    },
+    "put_spoon_and_fork_on_dish_rack": {
+        "72585": "Pick up the paper cups and put them in the dish rack, pick up the silver spoon and put it in the black utensil holder, pick up the silver fork and put it in the black utensil holder",
+        "80936": "Put the spoon and fork on the dish rack"
+    },
+    "place_item_in_sink": {
+        "12304": "Put the silver bowl in the sink",
+        "71462": "Stack the cups and put them in the sink",
+        "29623": "Put the two spoons into the sink"
+    },
+    "pour_water_out_of_cup": {
+        "34905": "Pour the water out of the cup",
+        "4064": "Pour the water out of the two cups into the sink",
+       "72185": "Pick up the closest paper cup, pour the water out into the sink and put the paper cup back on the kitchen counter, pick up the furthest paper cup, pour the water out into the sink and stack the most paper cup into the other paper cup"
+
+    },
+    "move_silverware_backward": {
+        "46030": "Move the silver fork and spoon in the cutlery holder backwards"
+    },
+      "move_cup_forward":{
+        "4885": "Move the white plate forward on the dish rack"
+    },
+    "rinse_and_place_spoon":{
+        "88603": "Open the tap and rinse the spoon",
+        "80602": "Open the faucet and place the silver spoon under the faucet then put the spoon on the dishrack",
+        "77137": "Rinse the spoon with the water, then put it back on the countertop",
+        "45027": "Place the silver spoon under the running faucet then put it back on the counter.",
+        "62775": "Place the black ladle under the running faucet then put it back on the counter."
+    },
+    "stack_cups":{
+        "79165": "Unstack the cups, then stack the cups back together",
+        "23397": "Stack the cups then flip them over and hang them on the plate rack"
+    },
+     "turn_off_tap": {
+        "32399": "Close the tap",
+        "28482": "Turn off the water",
+        "45866": "Close the tap and then pour the contents of the paper cup in the sink"
+
+    },
+    "put_chopsticks_in_cup":{
+        "13243": "Put the chopping sticks in the cup",
+        "70722": "Lift chopping stick on the left, put it in the cup on the left, lift the chopping stick on the right and put in the cup on the right."
+    },
+     "put_spoon_in_drying_rack":{
+        "41599": "Put the silver spoon in the drying rack",
+        "16975": "Pick up the silver spoon from the kitchen counter and put it in the top right utensil compartment of the black dish rack"
+    },
+    "pour_sink_contents":{
+      "34716": "Pour the contents of the black spoon into the sink",
+      "34407": "Pour the liquid on the black ladle into the sink then set the ladle back on the counter.",
+       "26311": "Pick up the paper cup from the kitchen counter and pour out all the water in it into the sink, put the paper cup back on the kitchen counter",
+        "5071": "Pick up the top paper cup from the stack and pour the water into the sink, put the paper cup back into the paper cup on the right"
+
+    }
+}
+

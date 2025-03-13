@@ -1,0 +1,82 @@
+
+{
+    "press_left_switch": {
+        "87949": "Press on the left lights switch on the lights wall double switch",
+        "54433": "Press the left lights switch on the wall",
+        "4790": "Press the switch on the left",
+        "29646": "Press the light switch on the left",
+        "63811": "Press the left light switch on the wall",
+        "24035": "Push the left light switch downwards"
+    },
+    "press_right_switch": {
+        "65543": "Push the switch on the right",
+        "87182": "Press the right switch on and off",
+        "37007": "Press the light switch on the right twice",
+        "92440": "Switch on the light by pressing the right wall switch button",
+        "67002": "Push the switch on the right",
+        "19941": "Press the switch on the right",
+        "11260": "Press the light switch on the right",
+        "18275": "Push the right light switch downwards",
+        "48488": "Push the far right light switch downwards"
+    },
+        "press_middle_switch": {
+        "80622": "Press the middle switches.",
+        "88432": "Press the middle switches on the wall socket.",
+        "49919": "Press the top middle switch"
+
+    },
+    "flip_left_switch": {
+        "90664": "Flip the left light switch on the wall",
+        "51392": "Flip the left light switch upwards",
+        "51675": "Flip the left light switch on the wall",
+        "74226": "Flip the left light switch on the wall"
+    },
+    "flip_right_switch": {
+        "13723": "Flip the right light switch upwards",
+        "49961": "Flip the right light switch on the wall",
+        "64309": "Flip the right light switch on the wall",
+        "61770": "Flip the right light switch on the wall",
+        "6097": "Flip the light switch on the right",
+        "10199": "Flip the rightmost light switch upwards",
+        "4183": "Flip the right light switch on the wall",
+        "67184": "Flip the right light switch on the wall",
+        "67871": "Slide downwards on the right light switch twice"
+    },
+    "turn_on_left_switch": {
+        "28196": "Turn on the left light switch",
+        "3275": "Turn on the light switch on the left"
+    },
+    "turn_on_right_switch": {
+        "47782": "Turn on the light switch on the right",
+        "85848": "Flick the light switch on the right side"
+    },
+    "turn_on_light": {
+        "84399": "Turn on the lights",
+        "34102": "Switch on the light"
+    },
+    "turn_off_light": {
+        "20409": "Turn off the light",
+        "79966": "Turn off the light",
+        "1220": "Switch off the light",
+        "22352": "Switch off the light",
+        "68972": "Switch off the light"
+    },
+    "turn_off_right_switch":{
+        "68223": "Turn the right light switch off"
+
+    },
+    "turn_off_middle_and_right_switch":{
+        "48517": "Turn off the switches in the middle and on the right"
+    },
+    "flip_switch": {
+        "83330": "Flip a switch",
+        "7868": "Flip the switch",
+        "78320": "Flip the switch"
+    },
+      "complex_switch_operation": {
+        "16054": "Flip the far left light switch upwards, flip the two middle light switches to the right, flip the far right light switch upwards",
+        "42690": "Flip the two middle light switches to the left one by one",
+        "8320": "Press the left and the right switches on the wall and lift the lights dimming switch in the middle of the two lights switches"
+    }
+}
+

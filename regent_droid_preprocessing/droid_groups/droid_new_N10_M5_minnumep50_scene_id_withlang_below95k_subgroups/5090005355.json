@@ -1,0 +1,47 @@
+
+{
+    "Move Right": {
+        "65298": "Move one small black object to the right.",
+        "73379": "Move the container to the right",
+        "52705": "Move the basket to the right",
+        "54644": "Move the tissue to the right"
+
+    },
+    "Rotate/Push Right":{
+        "66962": "Rotate the white napkin to the right.",
+        "66966": "Push the left faucet head to the right",
+        "47798": "Push the faucet on the left to the right.",
+        "20351": "Close the disposable lunch pack then turn the pack to the right"
+    },
+     "Forward/Towards You": {
+        "51359": "Move the transparent bowl forward",
+        "2272": "Push the white food pack forwards then backwards."
+    },
+    "Backward/Away": {
+        "43500": "Move the clear container backwards."
+    },
+
+    "Spoon to Paper Towel": {
+        "40241": "Put the spoon on the paper towel",
+        "92605": "Put the spoon onto the paper towel"
+    },
+    "Remove and Put in Takeaway":{
+        "43012": "Remove the white container from the big lunchbox and put it in the takeaway pack",
+        "79769": "Remove the yellow block from the lunchbox and put it in the takeaway pack",
+        "78546": "Remove the blue block from the lunchbox and put it in the takeaway pack"
+
+    },
+    "Scoop and Pour":{
+       "62735": "Pick up the spoon and scoop some of the contents from the bowl",
+       "85142": "Pick up the spoon and scoop some of the contents on the napkin and pour them in the bowl",
+        "31059": "Pick up the spoon, scope the objects from the bottle and put them in the bowl",
+       "40765": "Take one scoop of coffee grounds using the scooper in the coffee jar, empty the scoop onto the napkin then place the scooper back in the jar",
+       "95552": "Use the silver spoon to remove some of the contents on the napkin and put them in the takeaway pack"
+
+    },
+      "Tear Paper Towel": {
+        "46415": "Rip off a piece of the paper towel from the roll",
+        "3798": "Tear one paper towel from the roll."
+    }
+}
+

@@ -1,0 +1,88 @@
+
+{
+    "put_marker_in_mug": {
+        "29824": "Take the red marker out of the white mug",
+        "75521": "Put the marker in the white mug",
+        "56622": "Pick up the yellow marker and put it in the white mug",
+        "89929": "Put the red marker inside the white mug",
+        "24158": "Put the marker in the mug",
+        "90951": "Pick up the yellow marker and put it inside the mug"
+    },
+    "put_marker_in_cup": {
+        "78484": "Put the marker in the cup",
+        "80694": "Pick up the marker and put it in the cup",
+        "21583": "Pick up the marker from the table and put it in the cup",
+        "88824": "Put the marker in the cup",
+        "65865": "Move the cup to the right then place the marker in it"
+
+    },
+    "remove_marker_from_mug_put_on_table": {
+        "77960": "Remove the marker from the mug cup and place it on the table",
+        "41354": "Pick the marker from the cup and place it on the table",
+        "61459": "Remove the red marker from the mug and place it on the table",
+        "94393": "Remove the marker from the mug cup and place it on the table",
+        "10448": "Remove the marker from the mug cup and place it on the table",
+        "42706": "Pick up the marker from the cup and put it on the table",
+        "29415": "Remove the yellow marker from the mug"
+
+    },
+    "remove_marker_from_cup_put_on_table":{
+        "81856": "Remove the marker from the cup and put it on the table",
+        "14279": "Remove the marker from the bowl and place it on the table",
+        "18767": "Remove the marker from the clear cup",
+        "8191": "Remove the marker from the cup and put it on the table"
+    },
+        "put_pen_in_bowl": {
+        "33786": "Pick up the pen from the table and put it in the bowl.",
+        "13198": "Put the pen in the bowl",
+        "22419": "Remove the pen from the bowl.",
+        "73747": "Put the green pen in the white bowl",
+        "35357": "Move the white bowl downwards then take the pen from the table and place it in the white bowl",
+        "23613": "Put the pen in the bowl on the table",
+        "27202": "Pick the marker and put it in the bowl",
+        "21754": "Put the pen in the bowl",
+        "49149": "Pick up the the pen and place it in the bowl."
+    },
+    "put_pen_in_cup":{
+        "31382": "Get the pen from the table and place it inside the blue cup",
+        "81434": "Get the yellow object from the table and put it in the cup.",
+        "61105": "Pick up the pen from the table and put it in the cup",
+         "39519": "Pick up the pen from the table and put it in the light blue cup.",
+        "17248": "Put the green pen in the blue cup",
+        "35045": "Pick the pen and put it in the cup"
+    },
+    "remove_pen_from_cup_put_on_table":{
+        "48923": "Take the pen out of the cup and put it on the table",
+        "76959": "Take the pen out of the cup and put it on the table",
+        "81530": "Take the pen out of the light blue cup and set it down on the table",
+        "30298": "Remove the pen from the cup and put it on the table"
+    },
+       "remove_pen_from_bowl_put_on_table":{
+        "20818": "Remove the pen from the bowl and put it on the table",
+        "44252": "Take the pen out of the bowl and put it on the table"
+    },
+    "put_pen_on_table":{
+         "92091": "Put the pen on the table",
+        "75468": "Put the pen on the table",
+        "44777": "Place the pen on the table"
+    },
+      "put_pen_in_mug":{
+        "62384": "Put the pen in the white mug",
+        "43341": "Put the pen in the mug"
+
+      },
+     "remove_pen_from_mug_put_on_table":{
+        "54922": "Remove the pen from the mug and put it on the table"
+     },
+      "put_marker_on_table":{
+        "16365": "Put the marker on the table"
+      },
+    "move_object_right":{
+        "65585": "Move the pen to the right",
+        "31162": "Move the green bowl to the right",
+        "26585": "Move the bowl to the right"
+      },
+     "take_pen_out_of_cup":{
+        "32914": "Take the green pen out of the light blue cup"
+     }
+}

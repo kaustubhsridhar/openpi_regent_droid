@@ -1,0 +1,63 @@
+
+{
+"Open Coffee Maker": {
+    "53507": "Open the coffee marker",
+    "82244": "Open the coffee maker",
+    "50857": "Open the top of the coffee maker",
+    "36089": "Open the coffeemaker."
+},
+"Close Coffee Maker Lid": {
+    "85411": "Close the lid of the coffee maker",
+    "68174": "Close the lid on the coffee maker",
+    "62687": "Close the lid of the coffeemaker"
+},
+"Put Lid on Container": {
+    "71634": "Put the silver lid on its container",
+    "18771": "Put the lid on the transparent container",
+    "90465": "Put the silver lid on the glass container.",
+    "76647": "Put the silver lid on the glass container."
+},
+"Remove Item from Container": {
+        "2701": "Remove the coffee pod from the coffeemaker.",
+        "87704": "Remove the white object from the bowl",
+        "19875": "Remove the lid from the container",
+        "39725": "Remove the knife from the cup",
+        "71218": "Remove the object from the rice cooker and put it on the table",
+        "19512": "Remove the yellow block from the lunch pack",
+        "73021": "Remove the crumpled napkin from the bowl on the right.",
+        "79937": "Remove the cubes from the tray",
+      "41581": "Remove the plate from the top cabinet",
+        "57711": "Remove the lid from the jug",
+       "84344": "Take out the coffee capsule from the coffee machine",
+        "38015": "Remove the bottle from the cabinet"
+},
+"Put Spoon in Container":{
+    "86405": "Put the spoon in the cup",
+    "74462": "Put the spoon in the plate to the right"
+},
+   "Pour Contents from One Bowl to Another": {
+        "40228": "Pour the contents in the bowl to the left into the bowl to the right",
+        "13108": "Pour the contents in the bowl on the right into the bowl on the left."
+    },
+"Move Bowl":{
+     "76168": "Pick up the bowl and put it on top of the coffee maker",
+    "12580": "Put the bowl on top of the counter"
+},
+
+"Move Cup":{
+     "29321": "Remove the silver spoons from the food pack then move the coffee cup to the left.",
+      "55222": "Move the coffee cup on the right to the left."
+},
+"Close Bin":{
+    "85836": "Close the recycling bin",
+    "41684": "Close the silver bin."
+},
+ "Open Bin":{
+    "41497": "Open the silver bin."
+ },
+    "Place Item in Coffee Machine": {
+        "86921": "Remove the coffee cup from the coffeemaker then place one coffee pod in the coffee maker chamber.",
+        "84711": "Place the creamer cup into the coffee machine"
+    }
+}
+

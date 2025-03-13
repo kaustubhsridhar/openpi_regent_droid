@@ -1,0 +1,87 @@
+
+{
+    "move_bottle_right": {
+        "56385": "Move the bottle to the right",
+        "9799": "Move the bottle to the right side of the table",
+        "28782": "Move the bottle to the right",
+        "44151": "Move the bottle to the right",
+        "62094": "Move the bottle to the right",
+        "64688": "Move the bottle slightly to the right",
+        "32681": "Move the bottle to the right",
+        "56256": "Move the bottle to the right"
+    },
+    "move_bottle_left": {
+        "52783": "Move the bottle on the right to the left side of the table",
+        "88112": "Move the black bottle to the left",
+        "20029": "Move the small bottle to the left",
+        "49222": "Move the bottle to the left.",
+        "86739": "Move the bottle on the table slightly to the left",
+        "1313": "Move the bottle to the left.",
+        "42924": "Move the bottle to the left",
+        "27112": "Move the bottle to the left",
+        "3052": "Move the bottle to the left"
+    },
+    "move_bottle_forward": {
+        "2186": "Move the bottle forward",
+        "28384": "Move the bottle forward",
+        "93867": "Move the bottle forward",
+        "68456": "Bring the bottle forward",
+        "95145": "Move the bottle forward",
+        "70610": "Move the bottle forward",
+        "30679": "Move the bottle forward",
+        "88063": "Move the bottle forward",
+        "31692": "Move the bottle towards you",
+        "11244": "Move the bottle towards you"
+
+    },
+    "move_bottle_backward": {
+        "50722": "Move the bottle away from you",
+        "74901": "Move the bottle backward and to the left",
+        "65757": "Move the bottle backwards",
+        "45299": "Move the bottle backwards",
+        "759": "Move the bottle backwards",
+        "35225": "Move the bottle backwards",
+        "26604": "Move the bottle backwards"
+    },
+    "put_bottle_on_box": {
+        "89143": "Put the bottle on the box",
+        "89170": "Put the bottle on the box",
+        "22678": "Put the bottle on the box",
+        "76960": "Put the bottle on the box",
+        "82607": "Put the bottle on the black box",
+        "32455": "Put the white bottle on the black box",
+        "5849": "Get the bottle with the white lid from the table and place it on the black box",
+        "80702": "Pick the bottle and put it on the box",
+        "49477": "Put the bottle on the box",
+        "68969": "Put the bottle on the box",
+        "8575": "Put the white bottle on the black box",
+        "71065": "Put the bottle on top of the black box",
+        "76262": "Put the bottle on the box",
+        "2549": "Put the bottle on the box"
+    },
+        "put_bottle_on_table": {
+        "70226": "Put the bottle on the table",
+        "85604": "Put the bottle on the table"
+
+    },
+      "pick_up_and_move_bottle_right":{
+        "6281": "Pick the bottle and move it to the right on the table",
+        "53434": "Pick the bottle and move it to the right",
+        "1245": "Pick the bottle and move it to the right on the table",
+        "86014": "Pick the bottle and move it to the right on the table"
+    },
+    "pick_up_and_move_bottle_left":{
+        "41710": "Pick up the medicine bottle and move it to the left.",
+        "42282": "Pick up the medicine bottle from the table and move it slightly to the left."
+    },
+      "pick_up_and_move_bottle_forward":{
+        "28302": "Pick up the medicine bottle and move it forward.",
+        "38138": "Pick up the medicine bottle and move it forward.",
+        "36612": "Pick up the medicine bottle from the table and move it forward.",
+        "82347": "Pick up the container from the table and move it forward."
+    },
+    "put_bottle_on_silver_object":{
+        "70547": "Place the bottle on the silver object"
+    }
+}
+

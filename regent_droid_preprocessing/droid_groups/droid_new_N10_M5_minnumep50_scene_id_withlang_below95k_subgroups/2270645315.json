@@ -1,0 +1,75 @@
+
+{
+    "move_clothes_left": {
+        "19996": "Move the blue and checked clothes to the left",
+        "15979": "Move the blue and checked clothes to the left",
+        "2675": "Move the checkered shirt to the left side of the bed",
+        "22684": "Move the clothes to the left side of the bed",
+        "2259": "Move the blue t-shirt to the left side of the bed",
+        "48351": "Move the black and red caps to the left",
+        "76581": "Move the checked shirt to the left",
+        "47561": "Move the white cloth to the left"
+    },
+    "move_clothes_right": {
+        "42004": "Move the clothes from left to right",
+        "21579": "Move the clothes on the left and pile them on the right",
+        "15705": "Move some of the clothes to the right",
+        "92612": "Move the checkered shirt to the right"
+
+    },
+    "move_black_cap_right": {
+        "27190": "Move the black cap to the right",
+        "40045": "Move the black cap to the right",
+        "50335": "Move the black cloth to the right"
+
+    },
+    "move_cap_left": {
+        "49255": "Move the cap to the left",
+         "70474": "Move the caps on the right to the left"
+
+    },
+    "move_cap_right": {
+        "31003": "Move the caps to the right",
+        "74213": "Move the cap to the right"
+
+    },
+      "move_white_object_left": {
+        "519": "move one white object from the right heap to the left, then get the blue-white object and fold it on top of the left heap",
+        "48895": "Move the white clothing on the right to the left"
+
+    },
+    "fold_checked_trousers": {
+        "11819": "Fold the checked trousers",
+        "81463": "Fold the checked trousers"
+    },
+    "fold_white_clothing": {
+        "52317": "Fold the white clothing in half",
+        "65282": "Fold the white pair of shorts",
+        "16155": "Fold the white object once",
+        "12192": "Fold the white shorts on the bed",
+        "23517": "Fold the white clothing on the right side of the bed"
+    },
+    "stack_black_caps": {
+        "75821": "Stack the three black caps"
+    },
+      "put_checked_object_on_white_object":{
+        "55504": "Put the checked object on top of the white object",
+        "78783": "Put the checked object on top of the white cloth"
+
+    },
+    "move_forward":{
+        "36509": "Move the white cloth towards you",
+        "82874": "Move the grey hat forward"
+    },
+        "turn_cap": {
+        "69005": "Turn the caps on the bed",
+        "47549": "Turn the red cap",
+        "91600": "Turn the cap upside down"
+    },
+        "move_caps_left_bed":{
+            "23033": "Move the caps to the left side of the bed"
+
+        }
+
+}
+

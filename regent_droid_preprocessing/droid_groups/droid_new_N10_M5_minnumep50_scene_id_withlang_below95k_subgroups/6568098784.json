@@ -1,0 +1,85 @@
+
+{
+    "open_washing_machine": {
+        "72579": "Open the object from the washing machine",
+        "15238": "Open the door of the second washing machine",
+        "267": "Open the compartment in the washing machine.",
+        "67705": "Open the second machine",
+        "64576": "Open the washing machine",
+        "29143": "Open the washing machine door"
+    },
+    "close_washing_machine": {
+        "53894": "Close the washing machine door",
+        "31629": "Close the middle washing machine door",
+        "93840": "Close the loader of the washing machine in the middle",
+        "65119": "Close the compartment on the washing machine."
+    },
+    "open_detergent_tray": {
+        "57902": "Open the detergent compartment of the washing machine in the middle",
+        "62795": "Open the detergent tray on the second washing machine",
+        "30159": "Open the soap chamber of the washing machine"
+    },
+    "close_detergent_tray": {
+        "46639": "Close the detergent tray on the second washing machine",
+        "73292": "Close the detergent tray on the second washing machine",
+        "3424": "Close the detergent dispenser of the middle washing machine.",
+        "56170": "Close the soap compartment of the washing machine",
+        "36862": "Close the soap tray of the washing machine"
+    },
+    "pour_detergent": {
+        "78725": "Tip the bottle over the soap chamber",
+        "18197": "Put some detergent in the detergent compartment drawer of the washing machine in the middle",
+        "85923": "Take the fabric softener and pour it in the washing machine",
+       "194": "Pour some liquid from the white container into the washing machine soap chamber",
+        "64580": "Pour some detergent in the washing machine",
+        "37962": "Pour the liquid soap in the washing machine dispenser",
+        "1373": "Pour fabric softener into the soap chamber",
+        "74347": "Pour some detergent into the open washing machine drawer",
+        "2803": "Pour the detergent into the washing machine.",
+        "11384": "Pour some detergent into the washing machine drawer in the middle",
+        "61820": "Put some detergent in the detergent compartment"
+    },
+    "press_button": {
+        "82195": "Press the button on the washing machine.",
+        "58005": "Push the second button in the third row of the middle machine",
+        "11821": "Push on one of the buttons of the middle washing machine.",
+        "21304": "Push the second and first of the the third of the column of the buttons on the washing machine",
+        "22214": "Press the central button on the button pad of the washing machine",
+        "15980": "Press the control pad",
+        "38774": "Press the button on the washing machine"
+    },
+    "move_item_left": {
+        "31240": "Move the bottle to the left on the washing machine",
+        "91295": "Move the blue knitted cloth to the left",
+        "75218": "Move the black bag to the left",
+        "93805": "Move the white bottle to the left"
+    },
+    "move_item_right": {
+        "59513": "Move the dark blue and white jersey to the right",
+        "68796": "Move the white bottle to the right",
+        "90817": "Move the blue checkered shirt to the right"
+    },
+    "put_item_in_bag":{
+        "16772": "Put the beige sweatshirt in the bag",
+        "6564": "Put the blue checked shirt in the bag"
+    },
+      "pull_tray":{
+        "87090": "Pull the tray of the washing machine"
+    },
+        "put_item_in_washing_machine":{
+        "37558": "Put the blue cloth inside the washing machine"
+    },
+      "move_item_forward":{
+        "62951": "Move the pink bag forward"
+    },
+       "remove_item_from_bag":{
+        "66333": "Remove the beige clothing from the bag"
+    },
+     "put_item_on_washing_machine":{
+          "9849": "Put the blue shirt on top of the washing machine in the machine"
+     },
+      "push_tray_in":{
+        "55160": "Open the door of the washing machine and push the tray back in"
+
+      }
+}

@@ -1,0 +1,89 @@
+
+{
+    "open_and_close_scissors": {
+        "8706": "Open and close the scissors",
+        "80437": "Open and close the black pair of scissors five times",
+        "81506": "Spin the scissors clockwise and open and close the scissors legs using the thumb and finger placements",
+        "29378": "Open and close the scissors.",
+        "29909": "Open and close the black scissors on the table five times",
+        "16352": "Open and close the scissors"
+    },
+    "move_blue_cup_left": {
+        "26142": "Move the blue cup to the right",
+        "14011": "Move the blue cup to the left",
+        "63732": "Move the blue cup to the left side of the orange bowl",
+        "81195": "Pick up the blue cup and move it to the left"
+    },
+    "move_cup_forward": {
+        "46221": "Move the orange cup forward",
+        "90263": "Move the red cup forward",
+        "59874": "Move the red cup to the front of the counter"
+    },
+       "move_red_cup_left": {
+        "74824": "Move the red cup to the left"
+
+    },
+    "move_orange_cup_left": {
+        "39458": "Move the orange cup to the left"
+    },
+      "move_orange_mug_right": {
+       "46177": "Move the orange mug to the right."
+    },
+    "put_pen_in_blue_cup": {
+        "26671": "Put the green pen in the blue cup.",
+        "28763": "Put the orange pen inside the blue cup",
+        "11875": "Pick up the black pen, put it in the blue cup and move the cup to the right",
+        "23802": "Put the green marker in the blue cup.",
+        "26909": "Lift the pencil from the table and put it in the blue cup",
+        "36151": "Put the purple pen in the blue cup.",
+        "30037": "Put the pen into the blue cup",
+        "75752": "move the pen and place it in the cup",
+        "84968": "Put the pen inside cup"
+
+    },
+    "put_marker_in_left_red_cup":{
+        "2594": "Put the marker in the left red cup",
+        "15841": "Put one marker in the left red cup"
+    },
+     "put_green_pen_in_orange_bowl": {
+        "54351": "Put one green pen in the orange bowl."
+    },
+    "move_green_marker_right":{
+        "30035": "Move the green marker to the right"
+    },
+     "move_green_marker_left":{
+        "3951": "Move one green marker to the left"
+     },
+     "move_green_pen_right":{
+        "63894": "Move the green pen on the table to the right."
+     },
+    "remove_marker_from_orange_bowl":{
+        "87639": "Remove one marker from the orange bowl"
+    },
+
+    "remove_pen_from_orange_bowl_and_put_on_table":{
+        "93314": "Remove a pen from the orange bowl and put it on the table the slide it forward",
+        "59323": "Remove a pen from the orange bowl and put it on the table"
+    },
+
+    "move_blue_cup_backward":{
+        "26544": "Move the blue cup backwards then place the green marker in the cup.",
+        "77749": "Move the blue cup backwards"
+    },
+     "move_blue_cup_right": {
+        "48075": "Move the blue cup to the right"
+    },
+        "put_blue_pen_in_blue_cup":{
+        "920": "Put one blue pen in the blue cup."
+    },
+      "put_green_pencil_in_left_red_cup":{
+        "62406": "Put the green pencil in the left red cup"
+      },
+       "set_cup_upright": {
+        "53741": "Put the cup upright",
+        "14836": "make the cup stand upright"
+       },
+     "put_sharpie_in_red_cup":{
+        "91117": "Put the sharpie in the red cup"
+     }
+}

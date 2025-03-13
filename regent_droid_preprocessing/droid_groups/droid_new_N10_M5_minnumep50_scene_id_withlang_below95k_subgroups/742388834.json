@@ -1,0 +1,83 @@
+
+{
+    "press_button_remote": {
+        "77824": "Press a button on the remote control.",
+        "58384": "Press the center button on the grey remote",
+        "27171": "Press a button on the grey remote control.",
+        "48726": "Press a button on the remote",
+        "17076": "press a button the remote controller",
+        "18620": "Press a button on the remote",
+        "6901": "Press a button on the remote",
+        "54562": "Press a button on the remote",
+        "50027": "Press a button on the grey remote control.",
+        "39299": "Press a button on the remote",
+        "94611": "Press the button on the remote",
+        "7642": "Press a button on the remote controller",
+        "80876": "Press one button on the remote control.",
+        "22513": "Press the button at the centre of the remote"
+    },
+    "open_book": {
+        "26275": "Open the book",
+        "15013": "Open the book",
+        "39093": "Open the book",
+        "62168": "Open the blue book",
+        "28914": "Open the book",
+        "53017": "Open the blue book.",
+        "54555": "Open the book"
+    },
+    "close_book": {
+        "59561": "Close the blue book.",
+        "78595": "Close the book",
+        "94452": "Close the blue book on the right"
+    },
+    "wipe_book": {
+        "14347": "Use the paper towel to clean the book",
+        "52261": "Use the napkin to wipe the book",
+        "57102": "Use the white napkin to wipe the book.",
+        "62449": "Wipe the book with the towel"
+    },
+     "wipe_remote": {
+        "37978": "Pick up the wipe and clean the remote",
+        "42262": "Use the tissue to wipe the remote",
+        "12220": "Use the paper towel to wipe the remote",
+        "63852": "Use the white napkin to wipe the grey remote."
+    },
+    "wipe_table": {
+        "40610": "Use the napkin to wipe the table",
+        "71890": "Pick up the napkin from the box and wipe the table",
+        "50936": "Use the white napkin to wipe the tabletop."
+    },
+    "close_box": {
+        "83475": "Close the box",
+        "23163": "Slide the lid on the box to completely close it",
+        "68838": "Close the box"
+
+    },
+    "put_block_in_wooden_box": {
+        "82589": "Put the left orange block in the toy box",
+        "3737": "Put the blue square inside the wooden box.",
+        "85661": "Place the blue cube in the wooden box through the lid cutting",
+        "51886": "Put the blue block in the wooden toy box.",
+        "62126": "Put one blue block inside the wooden toy box."
+      },
+    "slide_lid_right": {
+        "17025": "Move the wooden toy box lid to the right.",
+        "54001": "Slide the lid of the shape sorter to the right"
+
+    },
+     "slide_lid_left": {
+        "36032": "Slide the lid on the wooden toy box to the left.",
+        "84746": "Slide the lid of the box to the left"
+
+     },
+    "slide_lid_on_box":{
+        "62631": "Slide the lid on top of the wooden toy box."
+    },
+        "push_lid_forward":{
+        "64194": "Push the lid of the plastic container forward"
+    },
+      "push_lid_off":{
+        "15292": "Push the lid off of the plastic box"
+      }
+}
+

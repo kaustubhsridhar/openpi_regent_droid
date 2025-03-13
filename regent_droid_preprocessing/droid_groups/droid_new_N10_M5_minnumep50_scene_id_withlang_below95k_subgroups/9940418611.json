@@ -1,0 +1,65 @@
+
+{
+    "close_microwave": {
+        "79266": "Close the microwave door",
+        "87597": "Close the microwave door"
+    },
+    "open_microwave": {
+        "77794": "Open the microwave door",
+        "26364": "Open the microwave door"
+    },
+    "flip_switch": {
+        "80795": "Flip the switch on the wall",
+        "60535": "Flip the switch on the wall"
+    },
+        "put_bowl_on_microwave": {
+        "1332": "Put the bowl on top of the microwave",
+        "29433": "Put the bowl on the microwave",
+        "31998": "Put the bowl atop the microwave"
+
+    },
+    "place_blue_bowl_on_air_fryer": {
+        "35736": "Put the blue bowl on top of the microwave",
+        "20510": "Place the blue bowl on top of the air fryer"
+    },
+    "put_bottles_in_bowl":{
+        "85678": "Pick up the bottles on the stove and put them in the blue bowl",
+        "27569": "Put the bottles on the stove into the blue bowl"
+    },
+     "put_sachets_in_bowl":{
+        "94099": "Pick up the sachets from the countertop and put them in the plastic bowl.",
+        "42093": "Pick up the three sachets from the countertop and put them in the blue dish."
+    },
+    "remove_bottles_from_bowl_and_put_on_stove": {
+        "40722": "Pick up the bottles from the bowl and put them on the stove",
+        "17440": "Remove the bottles from the bowl and put them on the stove"
+    },
+    "move_tea_to_left_counter":{
+        "5122": "Move the bottle of tea to the counter on the left.",
+        "21914": "Move the bottle of tea to the counter on the left."
+    },
+    "put_packets_in_bowl":{
+        "75782": "Put the green and blue packets into the container",
+        "25027": "Put the blue packet into the bowl",
+        "10863": "Put the packets in the bowl",
+        "64241": "Put the green pack in the transparent bowl"
+
+    },
+      "put_box_on_counter":{
+        "77188": "Pick the box on the stove and put it on the counter",
+        "4392": "Pick up the box from the cabinet and put it on the counter"
+      },
+    "remove_lid_from_pot": {
+        "19893": "Remove the glass lid from the pan",
+        "27243": "Remove the glass lid from the black pot."
+    },
+       "put_lid_on_pot":{
+        "22797": "Put the lid on the pot",
+        "59703": "Cover the pan with the clear lid"
+    },
+      "close_drawer_or_cabinet":{
+        "35469": "Close the drawer",
+        "76522": "Close the cupboard"
+      }
+
+}

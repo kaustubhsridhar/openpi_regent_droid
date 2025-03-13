@@ -1,0 +1,76 @@
+
+{
+    "marker_in_cup": {
+        "16010": "Put the marker in the cup",
+        "56131": "Put the marker in the cup",
+        "53447": "Put the marker in the cup",
+        "84682": "Put the marker in the cup",
+        "16337": "Put the marker in the cup",
+        "51025": "Put the marker in the cup",
+        "30843": "Put the marker in the cup"
+    },
+    "marker_in_box": {
+        "21764": "Put the marker in the box",
+        "44946": "Place the black marker inside the white and blue box",
+        "58135": "Put the marker inside the white and blue box",
+        "88862": "Get the marker from the table and put it in the purple and white box.",
+        "41914": "Place the black marker inside the purple and white box",
+        "76360": "Put the marker inside the blue and white box",
+        "4460": "Put the marker in the box",
+        "8824": "Put the black marker inside the white and purple box",
+        "22010": "Put the marker in the box on the table"
+    },
+    "marker_on_book": {
+        "63645": "Remove the marker from the cup and put it on the book",
+        "68766": "Put the black marker on the book",
+        "40864": "Remove the pen from the cup and put the pen on the book",
+        "19115": "Remove the marker from the mug cup and place it on the book",
+        "36400": "Take the black marker out of the blue and white box and place it on top of the maroon book",
+        "52020": "Remove the black marker from the blue and white box and place it on top of the maroon book",
+        "28668": "Remove the marker from the cup and put it on the book"
+
+    },
+    "teabag_in_mug": {
+        "50977": "Put the tea bag into the coffee mug.",
+        "59298": "Put the teabag in the mug",
+        "36011": "Put the tea bag in the mug",
+        "24147": "Put the teabag in the mug",
+        "40790": "Put the teabag in the mug",
+        "88280": "Put the teabag in the mug",
+        "78329": "Pick up the tea bag and put it in the mug cup"
+    },
+    "marker_in_coffee_cup": {
+        "15112": "Pick up the black marker from the box and put it in the brown coffee cup",
+        "89748": "Place the black marker inside the brown coffee cup",
+        "91460": "Place the black marker inside the coffee cup",
+        "39495": "Remove the marker from the book and put it inside the brown coffee cup",
+      "13028": "Put the black marker in the brown cup"
+    },
+        "teabag_in_cup": {
+        "70795": "Put the teabag in the white cup",
+        "93494": "Pick the teabag and put it in the cup",
+        "22209": "Pick up the teabag from the countertop and put it inside the white mug on top of the brown box",
+        "31690": "Pick up the teabag from the table and put it in the white mug",
+        "60666": "Put the white object in the white mug cup",
+        "64851": "Put the teabag in the cup on the book",
+        "83953": "Pick the teabag and put it in the cup"
+
+    },
+    "marker_on_table":{
+        "53056": "Take the marker out of the cup and put it on the table",
+        "55361": "Remove the marker from the box and place it on the table",
+        "18147": "Put the marker on the table",
+        "7532": "Put the sharpie on the table"
+
+    },
+    "marker_out_of_box_on_book":{
+        "5399": "Take the marker out of the box and place it on the book",
+       "65256": "Take the marker out of the pen holder and put it on the book"
+
+    },
+   "marker_out_of_cup_on_box":{
+        "51042": "Remove the marker from the cup and put it on the box",
+        "16110": "Remove the marker from the cup and put it on the box",
+        "25831": "Remove the marker from the mug cup and put it on the box"
+   }
+}

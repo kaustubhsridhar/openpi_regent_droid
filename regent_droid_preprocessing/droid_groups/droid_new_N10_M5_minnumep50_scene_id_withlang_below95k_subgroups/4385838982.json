@@ -1,0 +1,95 @@
+
+{
+    "move_left": {
+        "58496": "Move the cap to the left",
+        "59396": "Move the white bottle to the left",
+        "64266": "Move the grey cap to the left",
+        "88081": "Move the white cap to the left",
+        "80403": "Slide the black cap to the left on the windowsill",
+        "26517": "Move the grey cup to the left",
+        "34973": "Move the black object to the left",
+        "87461": "Move the black cap to the left",
+        "54203": "Move the blue cup to the left",
+        "60859": "Move the gray cloth to the left",
+        "24259": "Move the black cap to the left",
+        "48581": "Move the cap on the windowsill to the left",
+        "19170": "Move the red cap to the left of the windowsill",
+        "28265": "Move the light gray hat to the left",
+        "25855": "Move the light grey cap to the left side of the windowsill"
+    },
+    "move_right": {
+        "90505": "Move the black cloth on the window sill to the right",
+        "3210": "Move the grey cap to the right",
+        "4516": "Move the white cap to the right",
+        "7982": "Pick up the maroon cap and move it to the right.",
+        "86836": "Move the black cap to the right side of the windowsill",
+        "51258": "Move the gray hat to the right",
+        "4423": "Place the black cap on the blue can, move the gray cap to the right, and move the bottle to the left",
+        "32841": "Move the dark blue cap to the right side of the windowsill",
+        "67914": "Move the grey shirt to the right",
+        "21726": "Move the maroon cap to the right side of the window sill",
+        "87393": "Move the black cap to the right side of the windowsill",
+        "48610": "Move the red cap to the right side of the windowsill",
+        "30055": "Move the red hat to the right",
+        "7656": "Move the black cap to the right",
+        "55142": "Move the yellow and black cap to the right side of the windowsill",
+        "85741": "Move the grey cap from to the right end of the windowsill",
+        "12283": "Move the black cap to the right side",
+        "66172": "Move the black and beige caps to the right"
+
+    },
+        "move_away_backward": {
+        "34568": "Move the grey cap and the black and yellow cap away from the red cap on the window sill",
+        "93091": "Move the grey cap away from the other caps",
+        "41410": "Move the grey cap away from the other caps"
+
+    },
+
+    "place_on_blue_container": {
+        "63410": "Put the grey cap at the edge on top of the blue thing",
+        "54088": "Put the grey cap on top of the blue container",
+        "10327": "Place the grey cap on top of the blue container",
+        "73519": "Place the red cap on top of the blue container",
+        "46581": "Pick up the grey cloth and put it on top of the blue container."
+
+    },
+       "place_on_windowsill": {
+        "70154": "Place the maroon on the windowsill",
+       "68111": "Move the maroon cap from the top of the blue bottle to the window sill",
+       "13453": "Pick the red cap, put it on the blue bottle, pick it again and put it on the windowsill",
+       "80127": "Place the t-shirt on the left side of the windowsill"
+    },
+        "put_cap_on_cap":{
+        "3330": "Put the black cap on the stack of caps",
+        "67004": "Put the white cap on the red cap",
+        "82123": "Put the white cap on the rest of the caps",
+        "88142": "Put the red cap on the white cap",
+        "40395": "Put the maroon cap on top of the black and yellow one",
+        "4572": "Place the black and yellow cap on top of the red cap",
+        "28543": "Put the grey cap on top of the pile of caps on the right"
+
+    },
+      "move_left_right":{
+        "11202": "Move the grey cap to the right and then back to the left",
+        "87907": "Move the grey cap to the right then back to the left"
+      },
+      "put_with_cap":{
+        "20535": "Get the white cap and put it next to the blue cap",
+        "47078": "Put the white cap with the black cap"
+      },
+        "move_bottle_left":{
+        "4423": "Place the black cap on the blue can, move the gray cap to the right, and move the bottle to the left",
+        "8904": "Move the bottle to the left"
+
+        },
+    "place_on_bottle": {
+        "40611": "Hang the grey cap on the bottle"
+    },
+      "left_side_actions":{
+          "76619": "Pick up the black cap and put it on the left side"
+      },
+        "put_cap_on_canister":{
+            "36963": "Get the maroon cap and put it on the blue canister"
+        }
+}
+

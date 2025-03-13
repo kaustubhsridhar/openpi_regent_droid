@@ -1,0 +1,187 @@
+
+{
+    "put_black_cloth_on_table": {
+        "66577": "Put the black cloth on the table",
+        "6170": "Put the black clothing on the table.",
+        "93773": "Put the black cloth on the table",
+        "44738": "Put the black clothing on the table.",
+        "61686": "Put the black cloth on the table",
+        "6138": "Pick up the black cloth and put it on the table",
+        "14204": "Pick up the black cloth and put it on the table"
+    },
+    "put_black_shirt_on_table": {
+        "41494": "Put the black shirt on the table",
+        "13428": "Put the black shirt on the table",
+        "9017": "Put the black shirt on the table"
+    },
+    "hang_black_shirt_on_chair": {
+        "92181": "Hang the black t-shirt on the backrest of the grey chair",
+        "23097": "Put the black t-shirt on the backrest of the grey chair",
+        "86732": "Put the black t-shirt on the backrest of the grey chair",
+        "15757": "Put the black t-shirt on the backrest of the grey chair",
+        "42177": "Hang the black shirt on the back of the chair",
+        "24026": "Hang the black shirt on the backrest of the grey chair"
+    },
+      "put_black_shirt_on_chair": {
+        "59456": "Put the black shirt on the chair",
+        "18781": "Put the black shirt on the chair"
+    },
+    "put_shirt_on_chair": {
+        "29251": "Put the shirt on the chair.",
+        "49793": "Put the shirt on the chair"
+    },
+    "fold_towel": {
+        "3611": "Fold the towel",
+        "92231": "Fold the white towel",
+        "57937": "Fold the towel on the table.",
+        "63073": "Fold the towel on the table",
+        "15654": "Fold the towel",
+        "24722": "Fold the towel three times over."
+    },
+    "remove_glass_lid_from_black_pot": {
+        "37402": "Remove the glass lid from the black pot",
+        "13359": "Remove the glass lid from the pot",
+        "53840": "Remove the glass lid from the black pot",
+        "61085": "Remove the glass lid from the black pot.",
+        "76976": "Remove the glass lid from the black pot",
+        "90483": "Remove the glass lid from the black pot.",
+        "84858": "Remove the glass lid from the black pot",
+        "18941": "Remove the glass lid from the black pot."
+    },
+     "put_glass_lid_on_black_pot": {
+        "88646": "Put the glass lid on the black pot",
+        "39537": "Place the glass lid on the black pot",
+        "11896": "Put the glass lid on top of the black pot",
+        "29867": "Put the glass lid on the black pot",
+        "46291": "Put the glass lid on the black pot.",
+        "59212": "Put the glass lid on the black pot",
+        "59876": "Put the glass lid on the black pot"
+
+    },
+    "pour_contents_from_jug_to_bowl": {
+        "69180": "Pour the contents in the clear jug into the red bowl",
+        "77488": "Pour some of the contents in the clear jug into the red bowl",
+        "42709": "Place the contents in the clear jug into the red bowl",
+        "68557": "Pour the contents in the jug into the red bowl"
+    },
+    "put_lid_on_pot": {
+        "9750": "Pick the lid and put it on the pot",
+        "72801": "Pick the lid and cover the pot",
+        "24683": "Cover the pot",
+        "17122": "Put the lid on the pot",
+       "20774": "Put the lid on the pot",
+        "28922": "Put the lid on the pot",
+        "8933": "Put the glass lid on the pot",
+        "41342": "Put the lid on the pot",
+        "42950": "Put the lid on the pot",
+        "90315": "Put the lid on the black pot",
+      "95209": "Put the glass lid on the pot",
+        "42298": "Cover the pot with the clear lid",
+        "85805": "Pick up the lid from the table and put it on the pot",
+         "2978": "Pick up the lid from the table and put it on the pot.",
+        "43434": "Pick up the glass lid from the table and put it on the pot.",
+        "54064": "Cover the pot"
+
+    },
+     "remove_lid_from_pot_put_on_table": {
+        "68644": "Remove the lid from the pot and put it on the table",
+        "20087": "Remove the glass lid from the pot and put it on the table",
+        "74943": "Uncover the pot and put the lid on the table",
+         "42222": "Uncover the pot and put the lid on the table",
+        "93961": "Uncover the pot and put the lid on the table",
+        "78079": "Remove the lid from the pot and put it on the table",
+        "17665": "Remove the lid from the black pot and put it on the table",
+        "23821": "Remove the glass lid from the black pot and put it on the table",
+        "76662": "Uncover the pot and put the lid on the table"
+    },
+    "put_lid_on_table":{
+      "66048": "Pick up the lid and put it on the table",
+        "25201": "Pick up the lid from the pot and put it on the table",
+        "12558": "Pick up the lid from the black pot and put it on the table.",
+        "3953": "Pick up the lid from the pot and put it on the table.",
+         "35684": "Put the lid of the pot on the table",
+         "83452": "Pick up the lid and put it on the table",
+         "19908": "Put the lid on the table"
+
+    },
+      "remove_lid_from_pot":{
+        "6275": "Take the lid off of the pot",
+        "75980": "Remove the lid from the pot",
+        "24791": "Remove the lid from the pot",
+        "33054": "Remove the lid from the pot.",
+        "63369": "Remove the lid from the pot.",
+         "75132": "Uncover the pot",
+        "15776": "Uncover the pot",
+         "92613": "Uncover the pot"
+
+    },
+      "pick_cloth_from_chair_put_on_table":{
+         "32290": "Pick the cloth on the back rest of the chair and on the table",
+        "79946": "Pick the cloth on the back rest of the chair and put it on the table",
+        "68732": "Pick the cloth on the back rest of the chair and put it on the table",
+        "83612": "Pick up the black cloth from the chair and put it on the table",
+         "14076": "Pick up the cloth from the chair and put it on the table",
+        "81303": "Pick up the cloth from the chair and put it on the table",
+        "78263": "Pick up the black cloth from the chair and put it on the table",
+        "58323": "Pick up the cloth from the chair and put it on the table",
+        "92146": "Pick up the cloth from the chair and put it on the table"
+
+    },
+    "put_cloth_on_chair": {
+        "17002": "Pick the cloth and put it on the back rest of the chair",
+        "22882": "Put the cloth on the back rest of the chair",
+         "73618": "Pick up the cloth from the table and put it on the chair"
+    },
+    "put_black_towel_on_chair": {
+        "31928": "Put the black towel on the backrest of the chair",
+        "12131": "Put the black towel on the back rest of the chair",
+        "94199": "Put the black towel on the backrest of the chair"
+    },
+     "put_shirt_on_table":{
+        "29318": "Move the shirt from the backrest of the chair to the table",
+        "92459": "Put the shirt hanging on the chair onto the table",
+        "14842": "Put the shirt on the table"
+
+    },
+    "scoop_from_bowl_to_jug": {
+         "74296": "Put a spoonful of the things in the red bowl into the jug",
+        "29277": "Put a spoonful of the things in the red bowl into the jug",
+        "82578": "Use the spoon to scoop up contents from the bowl and put them inside the jug",
+         "83136": "Transfer a spoonful of contents from orange bowl into the transparent jar",
+         "23296": "Use the spoon to shift a spoonful of the brown objects to the jug",
+         "95428": "Use the spoon to place some coffee beans from the red bowl in the clear jug.",
+        "89503": "Use the spoon to place coffee beans from the red bowl into the clear jug.",
+        "74037": "Use the orange spoon to put some of the contents of the orange bowl into the clear jug",
+        "16704": "Use the spoon to scoop beams and transfer them to the jug",
+         "92508": "Put a spoonful of the things in the red bowl into the jug",
+        "46975": "Transfer a spoonful of contents from the orange bowl into the cup",
+        "32096": "Transfer a spoonful of contents from the orange bowl into the transparent bowl"
+    },
+      "scoop_from_bowl_to_jar":{
+        "66082": "Pick up the spoon from the table and scoop some of the contents in the bowl and put the scooped contents in the jar",
+        "26801": "Scoop some of the contents in the bowl and put them in the jar",
+        "61128": "Scoop some of the contents in the bowl and pour it in the jar",
+        "55432": "Use the spoon to scoop up the contents in the bowl",
+        "10160": "Use the spoon to pick up some contents from the bowl and pour into the jug"
+
+    },
+     "pour_from_jar_to_bowl":{
+        "95280": "Pour the contents of the cup into the bowl",
+         "57627": "Pour some contents from the transparent jar into the orange bowl",
+         "36659": "Pour some contents from the transparent jar into the bowl",
+        "74112": "Pour some contents from the transparent jar into the bowl",
+        "27452": "Pour some of the things in the jug into the bowl",
+        "29683": "Pour some of the things in the jug into the bowl",
+        "87524": "Pick up the jar and pour some of its contents into the bowl"
+
+     },
+      "fold_cloth":{
+        "44284": "Unfold the dish cloth on the table",
+         "648": "Fold the white and red towel four times over",
+        "64817": "Fold the cloth on the table",
+        "35127": "Fold the cloth on the table"
+      },
+       "put_glass_lid_on_table":{
+        "58215": "Put the glass lid on the table."
+       }
+}

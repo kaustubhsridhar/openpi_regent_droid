@@ -1,0 +1,104 @@
+
+{
+    "turn_item_upside_down": {
+        "36378": "Place the water bottle upside down.",
+        "34355": "Turn the scoop upside down",
+        "59111": "Place the two coffee cups upside down",
+        "57080": "Place the measuring cup upside down on the table.",
+        "8974": "Put the beige cup upside down",
+        "34116": "Turn the paper cup on the left upside down, pick up the paper cup on the right and put it on the paper cup to the left",
+        "54268": "Turn the water bottle upside down",
+        "44981": "Put the paper cup lying on the table upside down and pick up the other paper cup and put it on top of the paper cup",
+        "89594": "Stack up the cups on the table then put them upside down",
+        "40151": "Pick up the paper cup on the left, put it in the other paper cup and then turn the paper cups over",
+        "39413": "Flip the mug over on the table"
+
+    },
+    "place_item_upright": {
+        "68656": "Lift the laying mug cup and position it upright on the table",
+        "21715": "Put the scrubbing brush upright",
+        "86231": "Pick up the white mug and paper cup one by one and place them the right way up on the table",
+        "1271": "Make the white object and cup sit up straight",
+        "69437": "Put the white jug in an upright position",
+        "87381": "Put the bottle upright",
+        "77668": "Pick up the water bottle and place it the right way up on the table",
+        "93089": "Put the mug cup upright",
+        "72673": "Turn the measuring cup upright.",
+        "29156": "Place the jug upright."
+    },
+    "put_item_in_cup": {
+        "46623": "Remove the forks from the cup",
+        "15067": "Put the spoon and fork in the cup",
+        "49891": "Pick up the plastic fork and put it in the paper cup, pick up the plastic spoon and put it in the paper cup",
+        "84818": "Put the cutlery in the cup",
+        "83356": "Put the forks in the cup"
+    },
+        "remove_cutlery_from_cup": {
+        "88909": "Remove the spoon and folk from the cup and put them on the table",
+        "23392": "Remove the folk and spoon from the coffee cup"
+    },
+
+    "put_item_in_mug": {
+        "44241": "Put the black object in the white mug",
+        "80143": "Put the dice on the spoon, lift the spoon and then put the dice in the white mug",
+         "64475": "Lift the bowl, then drop the black object into the mug"
+
+    },
+    "put_item_in_bowl": {
+        "12660": "Put the blue bowl in the yellow bowl",
+        "81375": "Pick up the blue bowl and place it into the yellow bowl"
+    },
+    "put_item_on_item":{
+        "91215": "Put the block on the bottle",
+        "24335": "Put the orange block on top of the blue block",
+        "19734": "Put the spoon on top of the fork",
+        "21346": "Put the white block on top of the water bottle",
+         "13631": "Flip the orange block over and put the wooden block onto it"
+
+    },
+    "stack_items":{
+        "39936": "Stack up the cups then turn them upright",
+        "5967": "Stack the white cutlery together.",
+        "7157": "Stack the white bowls together then pick them up and put them in the blue bowl"
+    },
+     "sweep_items_off_table": {
+        "73425": "Use the brush to sweep the small objects off of the table",
+        "35206": "Pick up the brush and sweep the small blue and orange things off of the table"
+    },
+    "put_item_in_box": {
+        "91830": "Put the black object in the white jug.",
+        "87366": "Put the black object into the striped bowl and put black object into the white cup"
+    },
+    "switch_bowl_positions": {
+        "2091": "Switch the positions of the yellow and blue bowls by moving the yellow bowl to the right and the blue bowl to the left",
+        "33887": "Switch the positions of the blue bowl and yellow bowl",
+        "81222": "Switch the positions of the blue bowl and the yellow bowl by sliding the blue bowl to the right and sliding the yellow bowl to the right on the table",
+        "18908": "Switch the position of the yellow and blue bowls, slide the yellow bowl to the right and pull the yellow bowl to the left"
+    },
+    "scoop_from_yellow_bowl_to_blue_bowl": {
+        "10774": "Pick up the white spoon and scoop some of the substance from the yellow bowl, pour some of the substance into the blue bowl then into the white mug then into the wooden square box, put the white spoon back onto the table",
+        "80139": "Use the ladle to move some of the yellow bowl's contents to the blue bowl",
+        "64848": "Use the metal spoon to scoop up cereal from the yellow bowl and put it into the blue bowl",
+        "23458": "Use the measuring cup to place cereal from the yellow bowl in the blue bowl."
+    },
+    "pour_from_A_into_B":{
+        "5194": "Pour the contents in the measuring cup into the wooden box then set it down on the table.",
+        "47815": "Pour some content from the wooden box into the blue scoop on the table",
+        "3069": "Pour the cereal out of the blue bowl and into the wooden box"
+    },
+        "rearrange_cutlery": {
+        "33410": "Rearrange the wooden cutlery",
+        "2770": "Rearrange the wooden kitchen utensils"
+
+    },
+     "move_item_with_spoon":{
+        "31071": "Use the spoon to move the block to the small crate",
+        "41945": "Use the wooden spoon to move the block to the mug"
+     },
+    "cover_item_with_cup":{
+        "61714": "Slide the cream white block to left and cover it with a cup",
+        "65369": "Pick up the red block and place it standing lengthwise on the table, pick up the paper cup and cover the red block on the table",
+         "62830": "cover the cup using the other cup"
+
+    }
+}

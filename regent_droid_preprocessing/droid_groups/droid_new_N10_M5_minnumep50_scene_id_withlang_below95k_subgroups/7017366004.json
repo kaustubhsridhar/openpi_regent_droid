@@ -1,0 +1,104 @@
+
+{
+    "Stack Cups": {
+        "31488": "Stack the three green cups together",
+        "43960": "Stack the blue cups",
+        "18713": "Stack the light blue cups on top of each other in a clockwise stacking order starting with the one on the right"
+    },
+    "Unstack Cups/Plates": {
+        "32000": "Unstack the three cups on the counter.",
+        "15408": "Pick up all the individual stacked blue cups from the stack of cups and put them on the kitchen counter one by one",
+        "50485": "Unstack the plates"
+    },
+    "Set Upright":{
+        "45579": "Set the toy car upright",
+        "80012": "Set the paper towel roll upright on the countertop",
+        "54706": "Turn the blue cup upright.",
+        "32604": "Put the toy dinosaur in an upright position",
+        "82537": "Put the green toy upright",
+        "44918": "Put the liquid soap bottle upright",
+        "53500": "Place the toy animal upright",
+        "5517": "Pick up the hand soap bottle and place it the right way up on the kitchen counter",
+        "70060": "Pick up the light blue cup and put it the right way up on the oven"
+
+    },
+     "Place Object on Top of Another": {
+        "75008": "Put the blue block on top of the toy animal",
+        "94210": "Put the cup on top of the oven",
+        "85133": "Pick up the lime green lego block and put it on the blue lego block",
+        "3343": "Pick up the black scoop on the left and place it on top of the scoop on the right",
+        "68695": "Pick up the blue lego block and put it on the dinosaur toy",
+        "67577": "Lift the green building block and put it on the dinosaur toy"
+    },
+    "Place Object Inside Another":{
+        "75151": "Put the fork into the cup",
+        "35732": "Put the folk in the cup",
+        "9931": "Pick up the blue cup on the far left and put it in the middle blue cup, pick up the blue cup on the right and put it in the stacked blue cups",
+        "46686": "Pick up the light blue cup on the left and put it in the middle light blue cup, pick up the light blue cup on the right and put it in the stacked light blue cup on the left"
+
+    },
+    "Turn Object Upside Down": {
+        "52611": "Turn the toy car upside down",
+        "17978": "Put the cup upside down on the oven",
+       "54198": "Lay the blue cup on the kitchen counter, pick up the blue cup and place it upside down on the black oven",
+       "61687": "Pick up the blue cup and place it upside down on the black oven",
+        "84982": "Place the light green cup upside down"
+    },
+    "Flip Object Over": {
+        "5697": "Flip the blue cup over",
+        "88002": "Flip the blue cup over on the towel",
+        "52176": "Turn the blue bock over",
+        "41318": "Flip the toy truck over",
+        "73952": "Turn the grey cup over and put it on the microwave"
+
+    },
+      "Turn/Rotate Object Clockwise": {
+        "90373": "Turn the liquid soap bottle clockwise",
+        "8111": "Pick up the green dinosaur toy and turn it clockwise by ninety degrees, put the green dinosaur toy back on the kitchen counter",
+        "89905": "Turn the green reptile toy clockwise once on then table to make it face the toy car's left door"
+    },
+    "Turn Dial/Knob to the Right":{
+        "7214": "Turn the top dial on the oven to the right",
+        "47023": "Turn the pump bottle to the right",
+        "67905": "Turn the bottom knob on the toaster oven to the right",
+        "80338": "Turn the upper knob to the right on the oven"
+
+    },
+        "Stack Similar Objects": {
+        "6801": "Stack the two black ladles together.",
+        "55960": "Stack the two measuring spoons together"
+    },
+        "Place Scoops Together":{
+        "55368": "Place the scoops together"
+        },
+    "Place Bowls Together": {
+        "92606": "Pick up the white bowl on the right and put it in the other white bowl",
+        "50261": "Pick up the white bowl on the right and put it in the white bowl on the left",
+        "2175":  "Pick up the white bowl from the oven tray and put it on the white bowl on the white plate, close the oven door fully"
+    },
+      "Attach Clip": {
+        "20912": "Put the black clip on the stacked cups.",
+        "8046": "Put the black clip on the stacked cups.",
+        "89404": "Clip the clipper onto the oven handle",
+        "41466": "Place the clip on the handle of the oven door"
+
+    },
+      "Close Lid":{
+        "93000": "Close the lid on the kettle",
+        "29550": "Close the kettle lid"
+      },
+      "Make Toy Face Forward":{
+        "12954": "Make the dinosaur toy face forward"
+
+      },
+       "Pump Bottle": {
+        "88712": "Pump the hand wash bottle once",
+        "16442": "Press down the soap bottle"
+       },
+      "Turn Object":{
+          "36180": "Turn the bottle",
+          "28606": "Twist the block on the table",
+          "65784": "Turn the toy animal to the right"
+      }
+}
+

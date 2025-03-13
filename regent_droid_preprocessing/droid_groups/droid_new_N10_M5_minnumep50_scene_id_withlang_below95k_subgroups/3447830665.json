@@ -1,0 +1,64 @@
+
+{
+    "lid_tasks": {
+        "24472": "Close the lid on the clear container",
+        "41383": "Open the lid on the clear container",
+        "75824": "Open the lid of the clear bowl",
+        "81343": "Open the lid on the clear container",
+        "51651": "Close the bowl by flipping its lid down to the left from the table",
+        "91209": "Open the clear container",
+        "57955": "Close the clear container",
+        "43640": "Close the lid on the clear container"
+    },
+    "bottle_tray_to_container": {
+        "22028": "Take a bottle from the tray and put it in the clear container",
+        "77103": "Move the bottle from the tray to the container",
+        "50246": "Take two bottles from the tray and put them in the container",
+        "59316": "Pick a bottle from the left compartment of the tray and put it in the clear container",
+        "7673": "Take one bottle out of the tray and put it in the clear container"
+    },
+    "bottle_container_to_tray": {
+        "89475": "Pick up a bottle from the clear container and put it on the left compartment of the tray",
+        "53769": "Pick up one bottle from the placemat and put it on the left side of the tray",
+        "69527": "Remove one bottle from the container and put it on the tray",
+        "153": "Remove one bottle from the container and place it on the right side of the tray",
+       "3366": "Take a bottle from the clear container and put it on the tray",
+        "57767": "Pick up the small bottle from the container and put it on the wooden tray.",
+        "30381": "Put one bottle from the container into the bottom of the segment tray",
+        "95440": "Put one bottle from the storage box on the tray",
+        "42452": "Move a bottle from the container to the tray",
+        "69246": "Move one bottle from the storage box to the tray"
+
+    },
+    "bottle_table_to_container": {
+        "13962": "Put a bottle from the table in the clear container",
+        "27664": "Take the bottle from the table and place it in the clear b",
+        "50325": "Pick up the small bottle from the table and put it in the container"
+    },
+    "bottle_from_box_to_table":{
+        "93854": "Take the bottle at the right of the compartment of the box and put it on the table",
+        "81061": "Pick up one small bottle from plastic container and place it on the table."
+    },
+      "bottle_from_tray_to_table":{
+        "24596": "Remove one bottle from the tray and place it on the table",
+        "42575": "Pick up a bottle from the tray and put it on the table"
+    },
+    "object_to_tray": {
+        "58666": "Put the white object into the tray.",
+        "19183": "Put the white object into the tray."
+    },
+     "bottle_to_bowl":{
+        "43568": "Pick up the bottle near the tray and put it in the bowl",
+        "93237": "Take the bottle next to the box and put it in the clear bowl",
+        "92786": "Take one bottle from the box and put it in the bowl"
+     },
+    "vial_tasks":{
+        "51714": "Pick up the vial from the tray and put it in the transparent bowl",
+        "12846": "Take one vial from the transparent bowl and put it on the table"
+    },
+    "bottles_out_of_box_to_mat":{
+       "27558": "Take some bottles out of the box and put them on the mat",
+        "16336": "Close the box, take some bottles out of the tray and put them on the mat"
+    }
+}
+

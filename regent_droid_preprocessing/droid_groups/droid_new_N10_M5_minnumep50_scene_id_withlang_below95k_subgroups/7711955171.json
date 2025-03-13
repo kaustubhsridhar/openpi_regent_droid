@@ -1,0 +1,99 @@
+
+{
+    "clean_table": {
+        "79372": "Use the paper towel to clean the table",
+        "51232": "Use the paper towel to wipe the table",
+        "3730": "Use a white cloth to clean the table",
+        "13011": "Pick up the wipe and clean some part of the table",
+        "20245": "Use the white napkin to wipe the tabletop.",
+        "25072": "Use the white cloth to wipe the table"
+    },
+    "wipe_book": {
+        "30823": "Use the white napkin to wipe the blue book.",
+        "81166": "Use the white napkin to wipe the top of the blue book.",
+        "43802": "Use the white napkin to wipe the blue book.",
+        "9010": "Use the white napkin to wipe the blue book.",
+        "30013": "Use the paper towel to wipe the book",
+        "41763": "Pick up the napkin from the table and wipe the book",
+        "12116": "Wipe the top of the book with the tissue",
+        "38826": "Use the tissue to wipe the book",
+        "12757": "Use the paper towel to wipe the book",
+        "41457": "Use the paper towel to clean the book"
+    },
+    "close_cardboard_box": {
+        "91662": "Close the lid of the cardboard box",
+        "18615": "Remove the white foam and the cable from the cardboard box, then close the lid",
+        "60111": "Close the cardboard box",
+        "26944": "Close the cardboard box",
+        "25441": "Close the cardboard box"
+    },
+    "open_cardboard_box": {
+        "32913": "Open the cardboard box",
+        "4480": "Open the cardboard box",
+        "95188": "Open the cardboard box"
+    },
+    "press_black_object": {
+        "86629": "Touch the black device",
+        "91776": "Press the button on the black box",
+        "13526": "Press down on the black box next to the Artificial Intelligence book",
+        "21733": "Press down on the top of the black device.",
+        "13094": "Press the button of the black object",
+        "10572": "Press on the black object",
+        "10598": "Press a button on the decoder"
+    },
+    "move_forwards": {
+        "14894": "Move the wooden box forwards.",
+        "71734": "Move the small wooden box forward, pick up the white container, put it in the lunchbox and put the white lid on the lunchbox",
+        "19056": "Slide the lid on the wooden toy box forwards.",
+        "41103": "Move the wooden box on the right forwards.",
+        "82731": "Slide the lid of the shape sorting box forward"
+    },
+    "move_backwards": {
+        "57760": "Move the wooden box on the right backwards.",
+        "2012": "Slide the lid on top of the wooden toy box backwards.",
+        "35760": "Move the white plate away from you"
+
+    },
+   "close_wooden_box": {
+        "75070": "Close the wooden box",
+        "28634": "Close the lid of the box",
+        "27621": "Completely close the wooden box",
+        "18123": "Close the cube-shaped object",
+        "78290": "Close the cube-shaped wooden object",
+        "46527": "Slide the lid closed on the shape sorting box"
+    },
+    "open_box":{
+        "13868": "Open the storage bin",
+        "89352": "Open the cube",
+        "27406": "Fully open the small box",
+        "91560": "Fully open the cube-shaped wooden object",
+        "54205": "Open the box",
+        "85374": "Open the wooden object's lid slightly",
+        "14553": "Open the clear container then remove the wooden box from the container."
+
+    },
+     "put_in_box":{
+        "80896": "Put a cube in the box",
+        "37417": "Put the white foam in the brown box",
+        "43066": "Put the brown object in the black and white bowl.",
+        "28770": "Put the orange block in the left brown box",
+        "73842": "Put the blue block in the toy box",
+        "35564": "Move the orange object to the brown box",
+        "21231": "Put the orange ball in the box",
+        "17672": "Pick up the yellow object from the table and put it in the box",
+        "70504": "Put the blue block inside the box"
+     },
+    "put_lid_on":{
+        "56613": "Put the white lid on the clear container.",
+        "41947": "Place the white lid on the tote",
+        "38884": "Put the white lid on the clear lunch box"
+    },
+    "wipe_plate":{
+        "9790": "Use the napkin to wipe the white plate"
+    },
+    "slide_lid":{
+       "83236": "Slide the lid of the shape sorter to the right",
+       "53164": "Slide the lid on the wooden toy box to the left.",
+       "42656": "Slightly slide the wooden lid off the wooden box"
+    }
+}

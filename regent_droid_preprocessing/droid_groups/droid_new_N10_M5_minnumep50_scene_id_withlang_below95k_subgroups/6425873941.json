@@ -1,0 +1,68 @@
+
+{
+    "move_faucet_right": {
+        "66818": "Move the tap nozzle to the right",
+        "77195": "Move the faucet slightly to the right",
+        "47646": "Remove the silver lid from the silver pot, move the faucet to the right",
+        "90536": "Turn the faucet to the right",
+        "88024": "Slide the tap slightly to the right",
+        "36687": "Turn the tap nozzle to the right"
+    },
+    "move_faucet_left": {
+        "66321": "Turn the faucet to the left",
+        "49834": "Turn the faucet to the left",
+        "81649": "Push the faucet to the left",
+        "2501": "Push the faucet to the left",
+        "32327": "Turn the faucet to the left",
+        "29258": "Move the tap nozzle to the left",
+        "63182": "Move the tap nozzle to the left",
+        "17490": "Move the faucet to the left",
+        "88278": "Move the tap to the left",
+        "8423": "Move the tap to the left",
+        "34415": "Turn the faucet to the left",
+        "15345": "Push the faucet to the left"
+    },
+    "put_lid_on_pot": {
+        "38804": "Pick the lid and put it on the pot",
+        "4886": "Cover the pot with the silver lid",
+        "11679": "Pick the lid and put it on the pot",
+        "48304": "Pick the lid and put it on the pot",
+        "77888": "Put the silver lid on the silver pot",
+        "68430": "Put the silver lid on the silver pot.",
+        "22491": "Put the lid over the silver pot",
+        "86122": "Cover the pot with the silver lid"
+    },
+    "uncover_pot": {
+        "16391": "Uncover the pot and put the lid on the counter",
+        "27024": "Uncover the pot and put the lid on the counter",
+        "82612": "Uncover the pot and put the lid on the counter",
+        "48858": "Uncover the pot and put the lid on the counter"
+    },
+    "put_carrot_plushie_in_pot": {
+        "16018": "Put the carrot plushie in the pot",
+        "94368": "Put the carrot plushie in the pot",
+        "59970": "Pick up the carrot plush toy and put it in the pot",
+        "63834": "Remove the lid from the pot, then put the carrot in the pot"
+    },
+    "move_blue_cloth_forward": {
+        "70680": "Slide the blue cloth forward",
+        "53556": "Move the blue cloth forward",
+        "7275": "Slide the blue cloth forward"
+    },
+        "move_blue_towel_forward": {
+        "53264": "Move the blue towel backwards.",
+        "43190": "Move the blue towel forwards",
+        "14066": "Move the blue towel closer to you"
+
+    },
+    "move_blue_cloth_backward": {
+      "23797": "Slide the blue cloth backward"
+    },
+      "move_carrot_toy_forward":{
+        "47378": "Move the carrot toy forward"
+    },
+    "move_carrot_toy_backward":{
+        "9974": "Move the carrot plush toy backwards, move the blue towel backwards"
+
+    }
+}

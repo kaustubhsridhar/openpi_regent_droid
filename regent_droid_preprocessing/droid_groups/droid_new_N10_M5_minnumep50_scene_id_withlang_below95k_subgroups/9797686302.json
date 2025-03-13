@@ -1,0 +1,84 @@
+
+{
+    "put_rubber_band_on_cup": {
+        "82057": "Put the rubber band on the cup",
+        "37517": "Put the rubber band on the cup",
+        "46614": "Put the rubber band on the cup",
+        "59952": "Put the rubber band on the cup",
+        "26165": "Put the rubber band on the cup",
+        "75838": "Put the rubber band on the cup",
+        "76869": "Put the rubber band on the cup",
+        "32603": "Put the rubber band on the cup",
+        "72927": "Put the rubber band on the cup",
+        "74217": "Put the rubber band on the cup",
+        "37356": "Put the rubber band on the cup",
+        "52860": "Put the rubber band on the cup"
+    },
+    "put_rubber_band_on_jar": {
+        "78990": "Put the rubber band on the jar.",
+        "91531": "Put the rubber band on the jar.",
+        "79507": "Put the rubber band on the jar.",
+        "49688": "Put the rubber band on the jar.",
+        "28218": "Put the rubber band on the jar.",
+        "88774": "Put the rubber band around the jar.",
+        "90822": "Put the rubber band on the jar.",
+        "9940": "Put the rubber band on the jar.",
+        "12252": "Put the rubber band on the jar.",
+        "33638": "Put the rubber band on the jar.",
+        "75513": "Put the rubber band on the jar.",
+        "83048": "Put the rubber band around the jar."
+
+    },
+    "put_elastic_around_bottle": {
+        "56961": "Put the elastic around the bottle",
+        "72119": "Put the elastic around the bottle",
+        "16573": "Put the elastic around the bottle",
+        "3912": "Put the elastic around the bottle on the table",
+        "94923": "Put the elastic around the bottle",
+        "65356": "Put the elastic around the bottle on the table",
+        "89420": "Put the elastic around the bottle",
+        "35545": "Put the elastic around the bottle",
+        "74081": "Put the elastic around the bottle on the table"
+    },
+    "put_rubber_band_around_brown_cup": {
+        "40093": "Put the rubber band around the brown cup",
+        "37684": "Put the rubber band around the brown cup",
+        "11880": "Put the rubber band around the brown cup",
+        "45672": "Put the rubber band around the brown cup",
+        "89589": "Put the rubber band around the brown cup",
+        "80575": "Place the rubber band over the brown cup",
+        "7127":  "Place the rubber band on the brown cup"
+    },
+      "put_rubber_band_around_cup_base":{
+        "86157": "Put the rubber band around the base of the cup",
+        "3384": "Put a rubber band around the base of the cup",
+        "88146": "Put a rubber band around the base of the cup",
+        "80126": "Put the rubber band on the bottom of the cup"
+
+    },
+     "put_band_over_bottom_brown_cup":{
+        "8581": "Wrap a band over the bottom of the brown cup",
+        "86027": "Put an elastic band over the bottom of the brown coffee cup on the table",
+        "79907": "Put an elastic band over the bottom of the brown cup",
+        "66637": "Put a band over the bottom of the brown cup",
+        "86924": "Wrap the band on the brown cup",
+        "67514": "Place the elastic over the bottom of the cup"
+
+    },
+    "put_elastic_on_cup":{
+        "30372": "Put the elastic on the cup"
+    },
+     "put_rubber_band_around_cup":{
+        "2873": "Put a rubber band around the cup",
+        "43620": "Put the rubber band around the cup",
+        "71407": "Put the rubber band around the cup",
+        "69111": "Put a rubber band around the cup",
+        "19832": "Put the rubber band around the black cup."
+
+    },
+      "put_elastic_rubber_on_object":{
+        "13099": "Put the elastic rubber on the object",
+        "16479": "Put the elastic rubber on the object"
+      }
+
+}

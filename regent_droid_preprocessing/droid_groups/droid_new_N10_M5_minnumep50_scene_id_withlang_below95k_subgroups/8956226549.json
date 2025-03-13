@@ -1,0 +1,67 @@
+
+{
+    "put_toy_in_bowl": {
+        "84225": "Put the round yellow toy in the bowl",
+        "66061": "Put the orange rubber toy in the bowl",
+        "23699": "Place the green toy animal in the bowl",
+        "15540": "Place the star shaped toy in the bowl",
+        "91973": "Put the green toy animal in the bowl",
+        "73682": "Put the yellow toy animal in the bowl",
+        "92370": "Put the yellow thing into the bowl",
+        "72041": "Put the yellow object inside the bowl",
+        "19946": "Put the yellow object inside the bowl"
+    },
+    "put_item_in_green_bowl": {
+        "22407": "Put the orange toy in the green bowl",
+        "52744": "Put the blue toy inside the green bowl",
+        "6575": "Put the yellow bear toy in the green bowl",
+        "19887": "Put the light blue toy elephant in the green bowl",
+        "33329": "Put the light blue toy elephant inside the green bowl",
+        "33716": "Put the dark green toy in the green bowl",
+        "43581": "Pick up the light blue toy and put it in the green bowl",
+        "7391": "Put the orange toy in the green bowl",
+        "74343": "Pick up the orange toy and put it in the green bowl",
+        "83560": "Put the yellow blob in the green bowl",
+        "77300": "Pick up the green object from the table and put it in the green bowl",
+        "90364": "Pick up the yellow toy from the table and put it in the green bowl"
+
+    },
+    "remove_toy_from_bowl_and_place_on_table": {
+        "31242": "Remove the green toy from the green bowl and place it on the table",
+        "8738": "Remove the green toy from the green bowl and put it on the table",
+        "19526": "Remove the green toy from the bowl and put it on the table",
+        "33240": "Pick up the green toy from the green bowl and put it on the table",
+      "80561": "Remove the yellow microbe shaped toy from the green bowl and put it on the table"
+    },
+    "remove_toy_from_green_bowl_and_place_on_table":{
+        "76579": "Remove the orange toy from the green bowl and drop it on the table",
+        "61267": "Remove the orange toy from the green bowl and put it on the table",
+        "78674": "Remove the orange toy from the green bowl and put it on the table.",
+           "58228": "Pick up the light blue toy from the green bowl and put it on the table"
+    },
+      "remove_from_bowl":{
+          "75045": "Remove the yellow toy from the bowl",
+           "47814": "Take the yellow thing out of the bowl",
+          "46948": "Take the light blue toy out of the bowl",
+          "70904": "Remove the dark blue toy from the bowl and put it on the table"
+      },
+    "put_bowl_in_bowl": {
+        "11271": "Put the pink bowl in the blue bowl",
+        "28237": "Pick up the orange bowl and put it into the green small empty bowl",
+        "36308": "Put the small dark blue bowl in the small green bowl",
+        "67800": "Put the small blue bowl in the bigger yellow bowl",
+        "74069": "Put the purple bowl in the yellow bowl",
+        "18023": "Put the small purple bowl into the yellow bowl",
+        "68844": "Put the light blue bowl inside the yellow bowl",
+          "73439": "Pick up the red bowl and put in the blue stacked bowl",
+          "80481": "Place the small, yellow bowl in the pink bowl"
+    },
+        "place_cup_in_cup": {
+            "39342": "Put the small cups onto the stack of cups",
+            "10298": "Place the yellow cup in the pink cup",
+            "8258": "Place the dark blue cup in the light blue cup"
+        },
+        "put_object_inside_bowl":{
+           "53665": "Put the orange object inside the bowl"
+        }
+}

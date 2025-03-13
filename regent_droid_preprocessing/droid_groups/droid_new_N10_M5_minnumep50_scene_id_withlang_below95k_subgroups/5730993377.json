@@ -1,0 +1,121 @@
+
+{
+    "press_remote_button": {
+        "68618": "Press the center button of the remote",
+        "22033": "Press the button on the remote",
+        "21073": "Press a button on the remote",
+        "77911": "Press a button on the remote",
+        "36957": "Press a button on the remote control.",
+        "2679": "Press the button on the remote",
+        "137": "Press the button on the remote",
+        "60063": "Press the button at the centre of the remote",
+        "6391": "Press the remote",
+        "83646": "Press the center button of the grey remote",
+        "10566": "Press a button on the remote",
+        "10157": "Press the central button on the remote",
+        "90061": "Press on the remote control",
+        "26090": "Press on the button on the remote"
+    },
+    "move_object_forward": {
+        "23573": "Move the clear container forwards.",
+        "39520": "Move the blue bottle forward",
+        "77279": "Move the blue bottle forwards.",
+        "24567": "Move the green can forwards."
+
+    },
+    "move_object_backward": {
+        "32467": "Move the remote backwards"
+    },
+    "move_object_right": {
+        "68332": "Move the object slightly to the right",
+        "89359": "Move the blue bottle to the right.",
+        "74670": "Move the blue bottle to the right",
+        "65895": "Move the first left bowl to the right"
+
+    },
+      "move_object_left": {
+        "47536": "Move the remote to the left"
+    },
+    "slide_lid_right": {
+        "33330": "Slide the lid on the wooden toy box to the right.",
+        "45802": "Close the shape sorter lid by sliding it to the right"
+    },
+    "slide_lid_forward":{
+        "63714": "Slide the lid on the wooden toy box forwards."
+    },
+    "slide_lid_left": {
+        "33186": "Slide the lid on the wooden toy box to the left."
+    },
+    "put_block_in_toybox": {
+        "28190": "Put the white block in the toy box",
+        "69168": "Put the clear cap in the toy box",
+        "86724": "Put the blue and orange blocks in the toy box",
+        "78652": "Put one blue block and one yellow block in the wooden toy box.",
+        "18900": "Put the orange block in the wooden toy box.",
+        "35318": "Put one wooden block in the wooden toy box.",
+        "32766": "Put the orange cube in the wooden object"
+    },
+     "remove_lid_from_container": {
+        "57986": "Remove the white lid from the clear storage container.",
+        "92138": "Remove the white lid from the clear container.",
+        "79313": "Take the lid off of the plastic container"
+    },
+    "place_lid_on_container": {
+        "22640": "Place the white lid on the clear container."
+    },
+    "remove_block_from_bowl": {
+        "81156": "Remove the orange block from the bowl",
+        "84799": "Take the blue block out of the bowl"
+
+    },
+      "put_object_on_plate":{
+        "68831": "Put one green block on the white plate.",
+        "23440": "Put the green object on the plate"
+
+    },
+    "stir_bowl_with_spoon": {
+        "64141": "Use the spoon to stir the contents in the bowl",
+        "57435": "Use the spoon to stir the contents in the mug",
+        "68526": "Use the spoon to stir the bowl",
+        "25422": "Stir the white bowl with the metal spoon",
+        "80223": "Use the silver spoon to stir the contents in the white bowl.",
+        "52701": "Use the silver spoon to stir the blocks in the white bowl.",
+        "27019": "Use the spoon to stir in the white bowl"
+    },
+    "stir_bowl_with_fork":{
+        "2989": "Use the fork to stir the blocks in the white bowl.",
+        "37874": "Pick up the fork and stir the white bowl"
+    },
+     "wipe_with_napkin": {
+        "61096": "Use the napkin to wipe the table",
+        "24238": "Use the napkin to wipe the white cap of the blue bottle",
+        "31041": "Use the napkin to wipe the plate",
+        "91048": "Use the napkin to wipe the grey remote",
+        "1176": "Use the napkin to wipe the remote control."
+    },
+    "remove_cap_from_bottle":{
+        "75138": "Remove the cap from the blue bottle",
+        "50131": "Remove the cap from the blue bottle"
+    },
+      "open_wooden_box":{
+        "56921": "Open the lid on the wooden toy box.",
+        "73863": "Open the wooden object",
+        "25064": "Open the lid on the box"
+      },
+     "close_box":{
+        "41367": "Close the big lunchbox",
+        "33585": "Fully close the wooden box by sliding the lid"
+
+     },
+    "pick_up_put_object":{
+          "18959": "Pick up the blue object from the bowl and put it on the table",
+           "46894": "Pick up the green object from the plate into the bowl"
+    },
+      "remove_block_put_in":{
+        "12303": "Remove the yellow block from the white bowl and put it in the clear container.",
+        "32281": "Remove a blue block from the clear white bowl and put it in the shape sorter",
+        "30888": "Remove the blue block from the white bowl on the right and put it  in the white bowl with blue markings on the left",
+        "94894": "Remove the yellow block from the white bowl and put it in the lunchbox"
+
+      }
+}

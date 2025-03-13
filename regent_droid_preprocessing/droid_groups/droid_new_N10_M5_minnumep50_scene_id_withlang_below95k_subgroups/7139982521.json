@@ -1,0 +1,224 @@
+
+{
+    "wipe_plate_with_towel": {
+        "33282": "Wipe the white plate with the blue towel",
+        "51204": "Pick up the blue towel and wipe the plate on the right",
+        "65048": "Wipe the plate with the towel",
+        "31792": "Pick up the towel and clean the plate",
+        "31800": "Use the towel to wipe the plate",
+        "42568": "Use the blue towel to wipe the white plate on the right",
+        "19533": "Wipe the white plate with the light blue towel",
+        "52328": "Use the towel to wipe the plate",
+        "86689": "Use the towel to wipe the plate in the middle of the mats",
+        "90812": "Use the cloth to wipe the plate",
+        "54595": "Use the cloth to wipe the plate",
+        "15691": "Use the towel to wipe the plate.",
+        "73429": "Use the towel to wipe the plate",
+        "20977": "Use the towel to wipe the plate",
+        "32674": "Use the towel to wipe the plate",
+        "61379": "Use the cloth to wipe the plate",
+        "8549": "Use the cloth to wipe the plate",
+        "34276": "Use the blue towel to wipe the plate",
+        "564": "Wipe the plate with the blue towel",
+        "23094": "Pick up the towel and clean the bigger plate",
+        "59062": "Wipe the plate with the blue cloth",
+        "59580": "Wipe the plate with the blue towel",
+        "72014": "Use the blue cloth to wipe the plate",
+        "59347": "Use the blue cloth to wipe the plate",
+        "64474": "Pick the cloth and wipe the plate",
+    "20465": "Wipe the plate on the right with the blue towel",
+        "12497": "Use the blue towel to wipe the white plate on the right",
+        "306": "Use the blue towel to wipe the white plate",
+         "9156": "Pick up the towel from the table  and clean the plate",
+        "89012": "Use the blue towel to wipe the white plate"
+
+    },
+    "move_can_left": {
+        "34843": "Move the can to the left",
+        "57904": "Move the can to the left side of the table",
+        "37260": "Move the can to the left",
+        "19067": "Move the can to the left side of the table"
+    },
+    "move_can_right": {
+        "46636": "Move the can to the right",
+        "75318": "Move the can to the right",
+        "33868": "Move the drink can to the right",
+        "64150": "Move the soda can to the right side of the table",
+        "79050": "Pick up the can from the table and move it to the right.",
+        "5859": "Move the can to the right",
+       "16712": "Move the can from left to right.",
+        "38821": "Move the can to the right",
+        "87534": "Move the can from left to right"
+    },
+        "move_can_backward": {
+            "86812": "Move the can backward"
+        },
+    "move_can_forward": {
+           "66453": "Move the can forward"
+    },
+    "remove_straw_and_place_on_table": {
+        "85515": "Remove the straw from the can and put it on the table",
+        "22041": "Remove the straw from the can and put it on the table",
+        "39500": "Remove the straw from the can and put it on the table",
+        "71213": "Remove the straw from the can.",
+        "23695": "Remove the red straw from the can and place it on the table",
+        "17553": "Take the straw from the can and put it on the table",
+        "47352": "Remove the straw from the can and put it on the table",
+        "35605": "Remove the straw from the can and put it on the table",
+        "50557": "Remove the straw from the can and put it on the table",
+        "44929": "Remove the straw from the can and put it on the table",
+        "940": "Remove the straw from the can and place it on the table",
+        "80340": "Remove the straw from the can and put it on the table",
+    "24298": "Take the straw out of the drink can and put it on the table mat on the left",
+    "27532": "Take the straw out of the can and put it on the mat",
+        "62890": "Take the straw out of the soda can and put it on the table",
+        "80331": "Take the straw out of the drink can and place it on the table mat",
+    "72892": "Remove the straw from the can",
+        "92969": "Take the straw out of the can and place it on the white plate"
+    },
+    "put_straw_in_can": {
+        "85586": "Pick the straw and put it in the soda can",
+        "78931": "Put the straw in the soda can",
+        "24167": "Put the straw in the can",
+        "51843": "Put the straw in the can and then put it back on the table again",
+        "56970": "Pick up the straw from the table and put it in the can.",
+        "50317": "Put the straw inside the can",
+        "10398": "Put the straw in the can",
+        "26792": "Pick up the straw on the table and put it inside the can.",
+        "87722": "Pick the straw and put it in the soda can",
+        "48302": "Put the red straw in the can",
+        "19124": "Put the straw in the can",
+    "65849": "Take the straw from the white plate and put it in the can",
+        "20712": "Put the straw in the can",
+        "67310": "Put the straw inside the can",
+        "20731": "Put the straw in the can",
+        "77054": "Put the straw inside the can",
+        "27913": "Put the straw in the can",
+    "36270": "Pick up the drinking straw from the table and put it in the can drink",
+    "53578": "Put the straw in the drink can",
+        "69976": "Put the straw in the soda can",
+        "77597": "Put the orange straw in the can",
+        "87249": "Place the red straw in the can"
+    },
+    "straighten_cable": {
+        "33822": "Straighten the cable",
+        "34342": "Straighten the cable",
+        "27901": "Straighten out the cable",
+    "30367": "Straighten the charger"
+    },
+     "move_bowl_right_to_left": {
+        "78341": "Move the blue bowl to the left",
+           "62569": "Move the bowl from right to left",
+        "5706": "Slide the blue bowl to the right"
+     },
+    "move_bowl_left_to_right":{
+        "85915": "Move the bowl from left to right, then right to left again."
+    },
+
+    "pour_bowl_into_lunchbox": {
+        "92264": "Pour the things in the bowl into the lunch box",
+        "76425": "Pour the things in the bowl into the lunchbox",
+        "59767": "Pour the things in the bowl in the lunch box"
+
+    },
+      "move_bowl_backward":{
+        "78762": "Move the bowl backwards"
+      },
+    "pour_blue_bowl_into_clear_bowl": {
+        "59943": "Pour the contents from the blue bowl into the white bowl then put the blue bowl on the table",
+        "55928": "Pick the clear bowl and pour its contents into the blue bowl",
+        "82623": "Pour the contents of the colourless bowl into the blue bowl",
+        "89815": "Pour the contents in the clear bowl into the blue bowl",
+        "47324": "Pour the contents in the blue bowl into the clear bowl",
+        "50091": "Pour the contents in the blue bowl into the clear bowl",
+        "76179": "Pour the contents from the blue bowl into the clear bowl then place the blue bowl on the table",
+        "72671": "Pour the contents from the blue bowl into the clear bowl",
+        "42939": "Pour the contents in the blue bowl into the clear bowl",
+    "75558": "Pour the contents from the clear bowl into the blue bowl",
+    "56602": "Pick the blue bowl and pour the beans into the clear bowl"
+
+    },
+        "pour_lunchbox_into_bowl":{
+            "10964": "Pour the things in the lunchbox into the bowl",
+            "20204": "Pour the things in the lunchbox into the bowl",
+            "59670": "Pour the things in the lunchbox into the bowl",
+             "94006": "Pour the contents in the lunchbox into the bowl",
+            "65347": "Empty the lunchbox into the bowl",
+            "16825": "Pour the contents in the container into the bowl.",
+            "28107": "Pour the contents in the clear lunchbox into the blue bowl on the table",
+             "64417": "Pick the plastic box and pour its contents into the bowl"
+        },
+        "pour_bowl_into_other_container":{
+              "22224": "Pour the contents of the blue bowl into the plastic container",
+            "32987": "Pour the contents of the tupperware into the blue bowl",
+            "69029": "Pour the contents of the bowl into the tupperware"
+        },
+    "circle_cable": {
+        "14359": "Coil the phone charger once",
+        "73787": "Wrap the cable into a loose circle",
+        "13387": "Put the cable in a circle",
+        "51834": "Put the cable in a circle",
+        "24700": "Form a circle with the charger on the table.",
+        "2833": "Put the charging cable in circular form.",
+        "37753": "Form a loose circle with the cable",
+        "46937": "Put the charger in a circle",
+        "68960": "Make a circle with the charger on the table",
+        "2513": "Put the charger in a circle"
+    },
+    "move_charger_ends_opposite": {
+        "49670": "Move both ends of the charger to opposite sides",
+        "92232": "Move the ends of the charger to the opposite sides",
+    "41831": "Stretch out the ends of the charger at opposite sides"
+    },
+    "move_charger_ends_center":{
+         "49017": "Bring the ends of the charger to the center",
+        "9604": "Move the ends of the charger to the middle",
+        "36522": "Move the charger head to the right and the charger pin to the left"
+    },
+    "wind_cable":{
+        "26826": "Wind the black charging cable",
+        "50569": "Wind the charging cable",
+         "49560": "Wind the black charging cable",
+        "93159": "Wind the black charging cable"
+    },
+     "move_green_bowl":{
+        "37119": "Slide the green bowl to the right side of the table",
+        "85856": "Move the green bowl backwards"
+     },
+    "unwind_cable":{
+        "80155": "Unwind the black charging cable",
+        "14637": "Unwind the charging cable",
+        "32123": "Unwind the phone charger",
+        "67509": "Unwind the charger",
+        "91589": "Unwind the phone charger on the whiteboard",
+        "1866": "Uncoil the black charger",
+        "41982": "Unfold the charger"
+    },
+        "place_item_on_plate": {
+            "4486": "Put the silver spoon on the white plate at the back of the table",
+            "18914": "Put the spoon on the white plate on the table"
+        },
+
+    "straighten_charger":{
+         "43612": "Place the charger straight across the board",
+         "61786": "Put the charger straight across the board",
+         "20725": "Take the charger and position it in the center of the table"
+    },
+     "move_item_to_center":{
+        "82980": "Move the clear lunchbox to the center"
+     },
+    "place_can_next_to_bowl":{
+        "51935": "Place the soda can next to the green bowl",
+        "36661": "Place the drink can next to the lime green bowl"
+    },
+    "other_tasks":{
+      "45714": "Take the spoon from the bottle and put it on the table",
+      "18269": "Pick the fork from the cup and put it on the table",
+      "65465": "Put the orange cup in the black bowl",
+    "27054": "Twist the straw to the side.",
+        "69560": "Move the clear bowl to the right side of the table",
+         "95615": "Slide the white plate to the left",
+         "83533": "Shift the colorless bowl from the right end of the table to the left end, grab the canned bottle and position it next to the colorless bowl. Afterward, move the purple bowl to the right end and place the white bowl next to it",
+         "36970": "Move the can to the left, then move the plastic box and the bowl to the right"
+    }
+}

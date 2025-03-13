@@ -1,0 +1,62 @@
+
+{
+    "put_on_table": {
+        "14343": "Move the block from the pile blocks  and put it on the table",
+        "11666": "Put the stacked block on the table",
+        "72597": "Pick up the bridge shaped object and put it on the table",
+        "31644": "Pick the cylindrical block and put it on the table",
+        "59933": "Pick up the square object and put it on the table",
+        "81722": "Put the square block that is on the top of other blocks on the table",
+        "7109": "Pick up the cylindrical block and put it on the table",
+        "74332": "Pick up the wooden cuboid and put it on the table.",
+        "19041": "Remove the rectangular block from on top of the other block and put it on the table",
+        "12006": "Pick up the rectangular object and put it on the table"
+    },
+    "move_to_left": {
+        "50065": "Pick up the wooden block from the table and move it to the left.",
+        "72862": "Move the topmost rectangular block to the left",
+        "45736": "Move the square object to the left",
+        "83158": "Move the cylinder on the right to the left."
+    },
+    "stack_blocks": {
+        "73763": "Stack the wooden blocks on the table",
+        "42839": "Stack the wooden objects on the desk",
+        "62437": "Stack the wooden blocks on the table",
+        "9843": "Stack the wooden blocks on the table"
+    },
+    "put_on_cube": {
+        "66351": "Put the flower shaped block on top of the cube",
+        "90050": "Put the flower shaped block on top of the cube",
+        "19053": "Put the longer rectangular block on top of the cube"
+    },
+    "put_on_rectangular_block": {
+        "36140": "Put the rectangular block on the square block",
+        "10928": "Put a rectangular block on top of the cubes",
+        "83025": "Put the rectangular block on top of the rectangular block with an arch",
+        "67927": "Put the long rectangular block on top of the short rectangular block",
+        "82405": "Put a block on the rectangular block"
+    },
+    "remove_from_stack": {
+        "55880": "Remove the X-shaped block from the top of the stack.",
+        "50517": "Remove the cylinder from the stack",
+        "62450": "Remove the top block from the stack"
+    },
+       "move_backward_or_away": {
+        "15441": "Move the object to the backward to the left",
+        "56916": "Move the square from the cylinder on the left to the blocks at the back."
+    },
+        "put_on_top_of_other_blocks":{
+        "30514": "Put the wooden block on top of the other wooden block on the desk",
+        "3778": "Put the cylindrical block on top of the stacked bricks",
+        "92227": "Pick up the remaining object on the table and put it on top of the other objects on the table",
+            "14687": "Stack the L block on top of the other stacked blocks"
+
+    },
+    "put_on_other_object":{
+        "94947": "Pick up the rectangular object on the table and put it on the bridge like object",
+        "68713": "Put the cylinder onto the wooden arch",
+      "75321": "Put  the cube on the circular block",
+       "28080": "Put the cube on the smaller rectangular block"
+    }
+}
+

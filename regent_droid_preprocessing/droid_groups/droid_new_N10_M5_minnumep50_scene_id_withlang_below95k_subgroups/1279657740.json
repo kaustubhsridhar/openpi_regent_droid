@@ -1,0 +1,110 @@
+
+{
+    "pick_up_and_put_in_box": {
+        "60690": "Pick up the blue object and put it in the box",
+        "76448": "Put the orange object in the box.",
+        "60708": "Pick up the yellow block and put it in the box",
+        "42919": "Put the blue block inside the box",
+        "86211": "Pick up the object from the bowl and put it in the box",
+        "54097": "Put the blue block inside the wooden toy box.",
+        "67042": "Put the left yellow block in the toy box",
+        "49384": "Pick up one green block and place it in the box",
+        "75498": "Pick up the blue object and put it in the box",
+        "87799": "Put the white item in the box"
+
+    },
+    "put_block_in_shape_sorter": {
+        "49283": "Pick up the yellow rectangular block and drop it in the wooden box with shapes through the square hole",
+        "39359": "Pick up the orange square block and put it inside the shape sorter",
+        "8772": "Put the square shaped block into the shape sorter through the square shaped opening",
+        "65221": "Place the blue square block inside the shape sorter box",
+        "75760": "Put the blue block into the shape sorting box",
+        "39669": "Pick up the flowery blue block and put it in the shape sorter"
+    },
+        "remove_lid_from_bowl": {
+        "47362": "Remove the white lid from the bowl",
+        "3590": "Take lid off the bowl",
+        "89949": "Remove the lid from the bowl"
+    },
+    "move_object_left": {
+        "38801": "Close the box and move it to the left",
+        "57116": "Slide the lid of the bowl to the left",
+        "65715": "Move the shape sorter to the left",
+        "93771": "Move the beige bottle to the left then use the white napkin to wipe the top of the bottle."
+    },
+    "move_object_right": {
+        "94734": "Move the white lid to the right.",
+        "42832": "Move the wooden box to the right",
+        "72534": "Move the container to the right"
+    },
+    "move_object_forward": {
+        "16958": "Move the orange packet forward",
+        "20054": "Move the white container forward"
+    },
+        "wipe_with_napkin_or_tissue": {
+        "85519": "Take a tissue out of the box and wipe the table",
+        "74002": "Use the white napkin to wipe the top of the wooden toy box.",
+        "85412": "Remove one napkin from the box and use it to wipe the tabletop.",
+        "80685": "Use the napkin to wipe the rim of the paper cup",
+        "43327": "Use the napkin to wipe the white lid on the lunchbox",
+        "7740": "Remove one tissue square from the box and use it wipe the black and white bowl.",
+        "58064": "Use the tissue to wipe the bowl",
+        "62441": "Use the left paper towel to wipe the table"
+
+    },
+        "twist_cap_or_lid":{
+        "39949": "Slightly twist the cap on the water bottle",
+        "34963": "Open the bottle's cap slightly, then close it",
+        "33068": "Slightly untwist the cap on the bottle",
+        "52002": "Turn the lid of the brown bottle to the right",
+        "24867": "Twist the lid of the bottle anticlockwise",
+        "15311": "Rotate the lid of the bottle anticlockwise"
+
+    },
+     "turn_beige_bottle_lid": {
+        "59957": "Turn the lid on the beige bottle.",
+        "41413": "Turn the lid on the beige bottle.",
+        "72288": "Turn the lid on the beige bottle.",
+        "58610": "Turn the lid on top of the beige bottle."
+    },
+    "close_box_lid": {
+        "61608": "Slide the lid to close the box",
+        "45747": "Close the lid on the box, then pick up the yellow and blue objects and put them in the box",
+         "71157": "Slide closed the lid of the toy box",
+        "69354": "Use the napkin to wipe the shape sorter and close the lid of the shape sorter"
+
+    },
+       "open_box_lid": {
+        "91335": "Slightly open the wooden box by sliding the lid off",
+        "60877": "Partially push the lid off of the storage bin",
+        "90450": "Push the lid off of the plastic box",
+        "41693": "Open the top of the toy box",
+        "9468": "Open the lid on the wooden toy box."
+    },
+      "close_container":{
+        "37710": "Close the lid on the clear container.",
+        "94802": "Close the container",
+        "87024": "Put the lid on the container"
+
+      },
+    "put_item_in_bowl":{
+        "10090": "Put one coffee pod in the white and black bowl.",
+        "87790": "Put the black object in the bowl"
+    },
+     "clean_with_wipe":{
+        "11136": "Pick up the wipe and clean the basket",
+        "92601": "Pick up the wipe and clean the bottle"
+     },
+    "remove_item_from_container":{
+      "91115": "Remove the white lid from the clear container."
+    },
+     "move_object_closer":{
+        "94490": "Bring the peach bottle closer to the storage box",
+        "78622": "Move the bottle closer to the blocks"
+     },
+     "put_item_in_box":{
+        "22059": "Put the coffee pod in the wooden box.",
+        "71607": "Put the red plushie inside the small crate",
+        "54110": "Put the green block inside the block"
+     }
+}

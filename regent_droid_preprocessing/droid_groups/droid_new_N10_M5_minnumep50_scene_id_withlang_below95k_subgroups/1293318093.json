@@ -1,0 +1,93 @@
+
+{
+    "faucet_handle_down": {
+        "41218": "Push the faucet handle down",
+        "17156": "Push the tap lever down",
+        "84134": "Pull down the faucet handle",
+        "36265": "Push the tap handle down",
+        "3958": "Push the faucet handle downwards"
+    },
+    "move_box_right": {
+        "46603": "Move the box to the right",
+        "79159": "Move the box to the right",
+        "18552": "Move the box to the right"
+    },
+    "faucet_left": {
+        "59531": "Push the faucet to the left",
+        "70921": "Turn the faucet to the left",
+        "52678": "Turn the faucet to the left",
+        "15713": "Turn the faucet to the left",
+        "16340": "Push the faucet to the left",
+        "71786": "Turn the faucet to the left"
+    },
+    "faucet_right": {
+        "69264": "Move the faucet spout to the right",
+        "42647": "Move the tap nozzle to the right",
+        "33860": "Move the faucet to the right",
+        "52042": "Move the faucet spout to the right",
+        "67409": "Push the faucet of the sink to the right.",
+        "49010": "Push the faucet to the right",
+        "21345": "Turn the faucet to the right"
+
+    },
+    "tap_right": {
+        "56854": "Turn the tap to the right",
+        "24731": "Turn the tap nozzle to the right"
+    },
+      "tap_nozzle_right": {
+        "39357": "Turn the tap nozzle from the left to the right side",
+        "60102": "Turn the tap nozzle from the middle to the right"
+    },
+    "tap_nozzle_left":{
+        "15935": "Turn the tap nozzle slightly to the left",
+        "11259": "Turn the tap nozzle slightly to the left"
+    },
+    "move_box_forward": {
+        "60811": "Move the box forward"
+    },
+    "move_basket_forward":{
+        "62816": "Move the basket forward."
+    },
+      "move_green_cup_forward":{
+        "52001": "Move the green cup forward"
+    },
+    "move_green_cup_backward":{
+        "21698": "Move the green cup backwards"
+    },
+      "close_tap": {
+        "54812": "Close the tap"
+      },
+      "faucet_handle_up":{
+        "78521": "Push the faucet handle upwards",
+        "83424": "Pull the faucet handle up"
+      },
+      "tap_handle_up":{
+          "36816": "Lift up the tap handle",
+          "39123": "Move the tap handle up"
+      },
+     "tap_left":{
+         "25274": "Move the tap to the left"
+     },
+      "tap_right_2":{
+          "24906": "Move the tap to the right"
+      },
+    "move_basket_right": {
+        "58351": "Move the basket to the right"
+    },
+    "move_basket_left":{
+        "62567": "Move the basket to the left"
+    },
+    "move_box_left":{
+         "55348": "Move the box to the left side of the counter",
+        "38378": "Move the box slightly to the left"
+    },
+    "faucet_nozzle_left":{
+        "62833": "Move the faucet nozzle to the left"
+    },
+    "open_tap":{
+        "42466": "Open the tap"
+    },
+     "pull_tap_handle": {
+        "52825": "Pull out the handle of the tap"
+    }
+}

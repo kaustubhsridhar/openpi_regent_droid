@@ -1,0 +1,56 @@
+
+{
+    "open_bin": {
+        "4358": "Open the bin, take the blue object and then put it back, then close the bin",
+        "62855": "open the bin and remove a bottle from the bin",
+        "63625": "Open the lid of the bin",
+        "28559": "Open the lid of the bin",
+        "85264": "Open the lid on the bin",
+        "83579": "Open the trash can",
+        "43165": "Open the bin.",
+        "48708": "Open the white and green bin.",
+        "74320": "Open the bin, throw the green pack inside, then close the bin"
+    },
+    "close_bin": {
+        "29327": "Close the lid on the bin",
+        "9249": "Close the white and green bin.",
+        "74482": "Close the lid of the bin",
+        "95095": "Close the bin",
+        "52732": "Close the bin",
+        "40191": "Close the lid of the bin"
+    },
+    "put_item_in_bin": {
+        "40073": "Put the bottles in the bin and close the bin",
+        "24589": "Pick up the open water bottle on the right and put it in the bin",
+        "68254": "Pick up the water bottle on the right and put it in the bin then close the bin.",
+        "28963": "Put the white lid on the green bottle then put the bottle in the bin.",
+        "85670": "Put the packet in the bin",
+        "5980": "Put the white box in the bin.",
+        "21343": "Put the box in the bin",
+        "12394": "Put the plastic wrapper in the bin, then close the lid of the bin",
+        "57712": "Put the bottle inside the trash can",
+        "38004": "Put the plastic in the bin",
+        "24443": "Put the blue cloth and white box in the bin at the same time"
+    },
+        "remove_item_from_bin": {
+        "92177": "Take a bottle out of the bin",
+        "73142": "Take the water bottle out of the bin and put it on the countertop.",
+        "20920": "Remove the plastic bottle from the trash can and place it on the counter top",
+        "26555": "Move the clear packet from the bin to the top of the dresser",
+        "23236": "Take the blue fabric out of the bin and put it on the table.",
+        "77534": "Remove the box out of the bin"
+
+    },
+    "put_lid_on_bottle": {
+        "90290": "Place the white lid on the green bottle"
+    },
+    "move_bin_upright": {
+        "31021": "Put the bin in an upright position",
+        "17510": "Put the bin upright",
+        "91134": "Put the bin upright"
+    },
+     "move_forwards":{
+        "90106": "Move the pump bottle forwards."
+     }
+}
+
