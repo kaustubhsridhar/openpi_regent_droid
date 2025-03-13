@@ -12,7 +12,10 @@ import matplotlib.pyplot as plt
 os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"] = "false" # This prevents JAX from preallocating most of the GPU memory.
 
 def tuple_to_str(tuple_obj):
-	return "_".join([str(elem) for elem in tuple_obj])
+	if isinstance(tuple_obj, tuple):
+		return "_".join([str(elem) for elem in tuple_obj])
+	else:
+		return str(tuple_obj)
 
 def get_ep_idx_to_info(total_episodes):
 	# constants
@@ -44,7 +47,8 @@ def get_ep_idx_to_info(total_episodes):
 				assigned_object_name = True
 				break # one object name per episode
 		if not assigned_object_name:
-			continue
+			ep_idx_to_info[ep_idx] = {}
+			#### continue #### do not continue; we want those episodes without the above objects too; if you dont want it, continue here
 		# assign metadata
 		ep_idx_to_info[ep_idx].update(ep_metadata)
 		# assign num_steps
