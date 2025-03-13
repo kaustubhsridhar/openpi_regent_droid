@@ -1,4 +1,3 @@
-
 {
     "put_pen_in_bowl": {
         "62724": "Put the pen in the bowl",
@@ -43,7 +42,6 @@
         "31385": "Remove the marker from the cup.",
         "44157": "Remove the orange marker from the white mug",
         "81224": "Remove the red marker from the clear cup"
-
     },
     "remove_pen_from_bowl_and_place_on_table": {
         "20766": "Remove the pen from the bowl and place it on the table",
@@ -53,31 +51,28 @@
         "85480": "Remove the pen from the bowl and put it on the table",
         "23935": "Remove the pen from the bowl and put it on the table",
         "29383": "Take the green pen out of the white bowl"
-
     },
-        "put_pen_on_table": {
-            "89060": "Put the pen on the table",
-            "4331": "Put the pen on the table",
-            "13508": "Pick up the pen from the mug cup and put it on the table",
-            "79832": "Pick up the pen from the table and put it in the mug cup."
-
-        },
-       "move_item_forward": {
-            "61999": "Move the white mug forward"
-
-        },
-        "move_item_backward":{
-            "47720": "Move the white bowl backwards"
-        },
+    "put_pen_on_table": {
+        "89060": "Put the pen on the table",
+        "4331": "Put the pen on the table",
+        "13508": "Pick up the pen from the mug cup and put it on the table.",
+        "79832": "Pick up the pen from the table and put it in the mug cup."
+    },
+    "move_item_forward": {
+        "61999": "Move the white mug forward"
+    },
+    "move_item_backward": {
+        "47720": "Move the white bowl backwards"
+    },
     "put_item_in_bowl": {
         "24695": "Get the green pen from the table and put it in the white bowl",
         "88920": "Pick the marker from the bowl and put it on the table"
     },
-      "move_item_right": {
+    "move_item_right": {
         "9503": "Move the cup to the right.",
         "81908": "Move the pen slightly to the right"
-      },
-    "move_item_left":{
+    },
+    "move_item_left": {
         "3494": "Move the blue bowl to the left"
     }
 }

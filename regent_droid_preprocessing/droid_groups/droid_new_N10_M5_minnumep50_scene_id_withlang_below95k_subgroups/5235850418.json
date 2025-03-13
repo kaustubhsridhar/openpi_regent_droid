@@ -468,6 +468,7 @@
         "25251": "Pick up the orange block from the table and put it on top of the green block.",
   "56011": "Pick up the orange block and put it on top of the green block",
    "91171": "Put the orange block on the green one",
-         "42111": "Place the orange block on the green one",
-    "36014": "Put the orange block on the green block",
-         "70
+        "42111": "Place the orange block on the green one",
+    "36014": "Put the orange block on the green block"
+  }
+}

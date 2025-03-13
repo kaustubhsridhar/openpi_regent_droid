@@ -1,8 +1,7 @@
-
 {
     "close_book": {
         "24065": "Close the book.",
-        "35137": "Close the book."
+        "35137": "Close the book"
     },
     "open_book": {
         "56210": "Open the blue book",
@@ -32,13 +31,12 @@
         "84957": "Pick the lid on the tray and put it on the pot",
         "55272": "Pick the lid on the tray and put it on the pot"
     },
-   "cover_pot_with_lid": {
+    "cover_pot_with_lid": {
         "28040": "Cover the silver pot with the silver lid",
         "74945": "Cover the silver pot with the silver lid",
         "26820": "Take the silver lid from the table and place it on the the silver pot",
         "65234": "Take the lid and cover the pot",
         "68302": "Pick up the lid and put it on the open silver cup"
-
     },
     "put_silver_lid_on_silver_pot": {
         "45815": "Put the silver lid on the silver pot",
@@ -53,21 +51,19 @@
         "95000": "Put the salt cellar in the red cup",
         "7996": "Put the salt cellar in the red cup"
     },
-    "put_shaker_in_red_mug":{
+    "put_shaker_in_red_mug": {
         "31977": "Put the white salt shaker inside the red mug",
         "14447": "Place the salt shaker in the reg mug",
         "2005": "Remove the shaker from the red plate and put it inside the red mug"
-
     },
-     "press_button_on_board": {
+    "press_button_on_board": {
         "26673": "Push a button on the board",
         "57854": "Push a button on the board",
         "49117": "click on the bottom right button on the board",
         "7603": "Press the button on the left side of the board",
         "39530": "Press the button on the bottom right corner"
     },
-      "move_object_forward": {
+    "move_object_forward": {
         "20842": "Move the mug forward"
-      }
+    }
 }
-

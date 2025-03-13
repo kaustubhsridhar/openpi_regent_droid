@@ -67,8 +67,7 @@
         "23829": "Put the green cube inside the the black bowl",
         "15638": "Place the green block in the bowl",
          "11170": "Put the green thing in the black bowl",
-         "29600": "Put the green block in the bowl",
-        "5858": "Put the green block in the bowl"
+         "29600": "Put the green block in the bowl"
 
     },
         "put_block_in_bowl": {
@@ -416,5 +415,6 @@
         "31208": "Remove one bottle from the box",
         "51692": "Take the bottle in the right compartment box and put it on the table",
         "10785": "Take one bottle from the box from and place it on the table",
-         "59208": "Take the right bottle from the box and put it on the table",
-         "71604": "Take the right bottle from
+        "59208": "Take the right bottle from the box and put it on the table"
+    }
+}

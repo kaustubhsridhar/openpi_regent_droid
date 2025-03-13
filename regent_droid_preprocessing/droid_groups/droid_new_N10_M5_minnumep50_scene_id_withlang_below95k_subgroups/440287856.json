@@ -1,4 +1,3 @@
-
 {
     "put_black_objects_in_drawer_and_close": {
         "25090": "Put the black objects into the drawer then close the drawer.",
@@ -67,27 +66,24 @@
         "80887": "Put the black objects into the drawer then close the drawer.",
         "33273": "Pick up the black objects from the table, put them in the drawer and close the drawer.",
         "75931": "Put the black object in the drawer and close it"
-
     },
-   "open_drawer_remove_black_objects": {
+    "open_drawer_remove_black_objects": {
         "91159": "Open the top middle drawer and remove three black objects from the drawer",
         "39059": "Open the top middle drawer then remove two black objects from the drawer",
         "32445": "Remove the black object from the drawer",
-        "92463": "Open the middle topmost drawer and take out two black object",
+        "92463": "Open the middle topmost drawer and take out two black objects",
         "3392": "Open the top middle drawer then remove three black objects from the drawer",
         "11593": "Open the topmost middle drawer, remove two black objects from the drawer and put them on the tabletop",
         "28640": "Open the middle drawer then remove three black pieces from the drawer"
-
-   },
+    },
     "open_drawer_remove_black_objects_put_on_table": {
         "30762": "Open the topmost drawer, remove some things from it and put them on the table",
         "28111": "Open the top central drawer then remove the three black objects and put them on the table"
     },
-      "put_black_object_in_top_drawer": {
-         "76709": "Put the black object in the top drawer"
+    "put_black_object_in_top_drawer": {
+        "76709": "Put the black object in the top drawer"
     },
-     "take_black_objects_put_on_counter":{
+    "take_black_objects_put_on_counter": {
         "45446": "Open the middle drawer and take the black objects and put them on the counter"
-     }
+    }
 }
-

@@ -1,38 +1,36 @@
-
 {
-  "orange_and_yellow_objects_in_two_cups": {
-    "46607": "Pick up the orange and yellow objects from the table and put them in the two cups",
-    "67099": "Pick up the orange and yellow objects from the table and put them in the two cups on the table",
-    "10791": "Pick up the orange and yellow objects and put them in the cups",
-    "66095": "Pick up the orange and yellow objects and put them in the cups",
-    "6749": "Pick up the orange and yellow objects and put them in the two cups",
-    "37494": "Pick up the orange and yellow objects from the table  and put them in the two cups",
-    "90793": "Pick up the orange and yellow objects on the table and put them in the two cups",
-    "6372": "Pick up the yellow and orange objects from the table and put them in the two cups",
-    "1425": "Pick up the orange and yellow objects from the table and put them in the two cups",
-    "55799": "Pick up the orange and yellow objects from the table and put them in the two cups"
-  },
-  "orange_and_blue_objects_in_two_cups": {
-    "3629": "Pick up the orange and blue objects and put them in the two cups",
-    "4145": "Pick up the orange and blue objects from the table and put them in the two cups",
-    "67200": "Pick up the blue and orange objects and put them in the cups",
-    "12146": "Pick up the orange and blue objects on the table and put them in the two cups"
-  },
-  "orange_rings_in_white_cup_blue_ring_in_clear_cup": {
-    "75878": "Put the blue ring in the blue cup and orange ring in the white cup",
-    "74868": "Put the blue ring in the clear cup and the orange rings in the white cup",
-    "90787": "Place the orange rings inside the white cup then put the blue ring in the clear cup",
-    "81137": "Put the orange rings inside the white cup, place the blue ring in the clear cup",
-    "3859": "Place the yellow rings inside the white cup, put the blue ring inside the clear cup",
-    "81711": "Put the orange rings in the white cup, place the blue ring in the clear cup",
-    "59214": "Put the four orange rings inside the white cup, put the blue ring inside the clear cup",
-    "1956": "Put the orange rings inside the white cup, place the blue ring inside the clear cup",
-    "83321": "Put the orange rings in the white cup, then put the blue ring in the plastic clear cup.",
-     "48961": "Put the orange rings inside the clear cup, put the blue ring inside the white cup",
-    "36314": "Put the orange rings inside the clear cup. put the blue ring inside the white cup"
-
-  },
-    "orange_rings_in_clear_cup_yellow_rings_in_white_cup":{
+    "orange_and_yellow_objects_in_two_cups": {
+        "46607": "Pick up the orange and yellow objects from the table and put them in the two cups",
+        "67099": "Pick up the orange and yellow objects from the table and put them in the two cups on the table",
+        "10791": "Pick up the orange and yellow objects and put them in the cups",
+        "66095": "Pick up the orange and yellow objects and put them in the cups",
+        "6749": "Pick up the orange and yellow objects and put them in the two cups",
+        "37494": "Pick up the orange and yellow objects from the table  and put them in the two cups",
+        "90793": "Pick up the orange and yellow objects on the table and put them in the two cups",
+        "6372": "Pick up the yellow and orange objects from the table and put them in the two cups",
+        "1425": "Pick up the orange and yellow objects from the table and put them in the two cups",
+        "55799": "Pick up the orange and yellow objects from the table and put them in the two cups"
+    },
+    "orange_and_blue_objects_in_two_cups": {
+        "3629": "Pick up the orange and blue objects and put them in the two cups",
+        "4145": "Pick up the orange and blue objects from the table and put them in the two cups",
+        "67200": "Pick up the blue and orange objects and put them in the cups",
+        "12146": "Pick up the orange and blue objects on the table and put them in the two cups"
+    },
+    "orange_rings_in_white_cup_blue_ring_in_clear_cup": {
+        "75878": "Put the blue ring in the blue cup and orange ring in the white cup",
+        "74868": "Put the blue ring in the clear cup and the orange rings in the white cup",
+        "90787": "Place the orange rings inside the white cup then put the blue ring in the clear cup",
+        "81137": "Put the orange rings inside the white cup, place the blue ring in the clear cup",
+        "3859": "Place the yellow rings inside the white cup, put the blue ring inside the clear cup",
+        "81711": "Put the orange rings in the white cup, place the blue ring in the clear cup",
+        "59214": "Put the four orange rings inside the white cup, put the blue ring inside the clear cup",
+        "1956": "Put the orange rings inside the white cup, place the blue ring inside the clear cup",
+        "83321": "Put the orange rings in the white cup, then put the blue ring in the plastic clear cup.",
+        "48961": "Put the orange rings inside the clear cup, put the blue ring inside the white cup",
+        "36314": "Put the orange rings inside the clear cup. put the blue ring inside the white cup"
+    },
+    "orange_rings_in_clear_cup_yellow_rings_in_white_cup": {
         "26217": "Put the orange rings inside the clear cup, place the yellow rings inside the white cup",
         "89821": "Place the yellow rings inside the white cup, put the orange rings in the clear cup",
         "11046": "Put the orange rings inside the white cup, place the yellow rings inside the clear cup",
@@ -40,109 +38,100 @@
         "59705": "Put the orange rings inside the white cup and the yellow rings inside the clear cup",
         "95602": "Put the orange rings on the clear cup and put the yellow rings in the white cup"
     },
-  "yellow_rings_in_clear_cup_orange_rings_in_white_cup": {
-    "27306": "Put the yellow rings in the clear cup and the orange rings in the white cups",
-    "85751": "Put the yellow rings in the clear cup and the orange rings in the white cup",
-     "68938": "Put the orange rings in the white cup and put the yellow rings in the clear cup"
-
-  },
-
-    "orange_circles_in_transparent_cup_yellow_circles_in_white_cup":{
+    "yellow_rings_in_clear_cup_orange_rings_in_white_cup": {
+        "27306": "Put the yellow rings in the clear cup and the orange rings in the white cups",
+        "85751": "Put the yellow rings in the clear cup and the orange rings in the white cup",
+        "68938": "Put the orange rings in the white cup and put the yellow rings in the clear cup"
+    },
+    "orange_circles_in_transparent_cup_yellow_circles_in_white_cup": {
         "70291": "Put the orange circle into the transparent cup and put the yellow circle into the white cup.",
         "91301": "Put the orange circles into the transparent cup and the yellow circles into the white cup.",
         "77090": "Put the orange circles in the transparent cup and the yellow circle in the white cup."
-
     },
-     "yellow_circles_in_white_cup_orange_circles_in_transparent_cup":{
+    "yellow_circles_in_white_cup_orange_circles_in_transparent_cup": {
         "77484": "Put the yellow circles into the white cup and the orange circles into the transparent cup.",
         "70096": "Put the yellow circles into the white cup and the orange circles into the transparent cup.",
         "16731": "Put all the orange circles into the white cup then the yellow circles into the transparent cup.",
         "1011": "Put the orange circles inside the white cup and the yellow circles in the transparent cup."
-     },
-
-  "orange_discs_in_clear_cup_blue_disc_in_white_cup": {
-    "43729": "Put the orange discs in the clear cup and the blue disc in the white cup",
-     "40823": "Put the orange discs in the clear cup and then put the blue disc in the white cup"
-  },
-    "orange_discs_in_white_cup_blue_disc_in_clear_cup":{
+    },
+    "orange_discs_in_clear_cup_blue_disc_in_white_cup": {
+        "43729": "Put the orange discs in the clear cup and the blue disc in the white cup",
+        "40823": "Put the orange discs in the clear cup and then put the blue disc in the white cup"
+    },
+    "orange_discs_in_white_cup_blue_disc_in_clear_cup": {
         "12291": "Put the orange discs in the white cup and the blue disc in the clear cup",
         "40475": "Put the blue disc in the clear cup and the orange discs in the white cup",
-         "52592": "Put the blue disc in the white cup and the orange discs in the clear cup"
+        "52592": "Put the blue disc in the white cup and the orange discs in the clear cup"
     },
-  "orange_tokens_in_colourless_cup_blue_token_in_white_cup": {
-    "22025": "Pick up the orange tokens from the table and put it in the colourless cup. Pick up the blue token and put it in the white cup.",
-    "16075": "Pick up the orange tokens from the table and put them in the colourless cup. Pick up the blue token and put it in the white cup.",
-     "23922": "Pick up the orange tokens and put them in the white cup. Pick up the blue token and put it in the colourless cup."
-  },
-        "orange_objects_yellow_objects_different_cups":{
-            "87162": "Put all the orange objects in the glass cup and all the yellow objects in the white cup",
-            "43221": "Pick up the orange objects from the table and put them in the colorless cup, then pick up the yellow objects and put them in the white cup",
-            "15084": "Pick up all the orange objects from the table and put them in the colorless cup then pick up all the yellow objects from the table and put them in the white cup",
-            "35053": "Put the yellow objects in the white cup and put the orange objects in the colourless cup",
-            "45860": "Pick up the yellow objects from the table and put them in the colorless cup, then pick up the orange objects from the table and put them in the white cup",
-            "53186": "Put the yellow objects inside the transparent cup and the orange objects inside the white cup."
-        },
-
-  "orange_coins_yellow_coins_different_cups":{
-      "34491": "Put all the orange coins in the in the white cups and all the yellow coins in the transparent cup",
-      "9947": "Put the yellow coins in the transparent cup and the orange coins in the white cup"
-  },
-    "orange_circles_blue_circles_different_cups":{
-      "55452": "Put the orange circles into the white cup and the blue circles into the transparent cup.",
+    "orange_tokens_in_colourless_cup_blue_token_in_white_cup": {
+        "22025": "Pick up the orange tokens from the table and put it in the colourless cup. Pick up the blue token and put it in the white cup.",
+        "16075": "Pick up the orange tokens from the table and put them in the colourless cup. Pick up the blue token and put it in the white cup.",
+        "23922": "Pick up the orange tokens and put them in the white cup. Pick up the blue token and put it in the colourless cup."
+    },
+    "orange_objects_yellow_objects_different_cups": {
+        "87162": "Put all the orange objects in the glass cup and all the yellow objects in the white cup",
+        "43221": "Pick up the orange objects from the table and put them in the colorless cup, then pick up the yellow objects and put them in the white cup",
+        "15084": "Pick up all the orange objects from the table and put them in the colorless cup then pick up all the yellow objects from the table and put them in the white cup",
+        "35053": "Put the yellow objects in the white cup and put the orange objects in the colourless cup",
+        "45860": "Pick up the yellow objects from the table and put them in the colorless cup, then pick up the orange objects from the table and put them in the white cup",
+        "53186": "Put the yellow objects inside the transparent cup and the orange objects inside the white cup."
+    },
+    "orange_coins_yellow_coins_different_cups": {
+        "34491": "Put all the orange coins in the in the white cups and all the yellow coins in the transparent cup",
+        "9947": "Put the yellow coins in the transparent cup and the orange coins in the white cup"
+    },
+    "orange_circles_blue_circles_different_cups": {
+        "55452": "Put the orange circles into the white cup and the blue circles into the transparent cup.",
         "27441": "Put the orange circles into the transparent cup then the blue circles into the white cup.",
         "14788": "Put the blue circle into the white cup then the orange circles inside the transparent cup."
     },
-        "orange_and_yellow_tokens_in_separate_cups":{
-            "70748": "Pick up the orange tokens from the table and put them in the white cup. Put the yellow tokens in the colourless cup.",
-            "45301": "Pick up the orange tokens from the table and put them in the colourless cup. Pick up the yellow tokens from the table and put them in the white cup."
-        },
-    "divide_rings_into_cups":{
-      "34830": "Divide the rings equally and put some in the clear cup and the rest in the white cup",
-      "3655": "Put some of the rings in the white cup and some in the clear cup",
-      "70473": "Divide the rings and put some in the white cup and some in the clear cup",
-      "15101": "Put two rings in the clear cup and the rest in the white cup",
-      "32081": "Put two orange rings in the white cup and the rest in the clear cup"
+    "orange_and_yellow_tokens_in_separate_cups": {
+        "70748": "Pick up the orange tokens from the table and put them in the white cup. Put the yellow tokens in the colourless cup.",
+        "45301": "Pick up the orange tokens from the table and put them in the colourless cup. Pick up the yellow tokens from the table and put them in the white cup."
     },
-        "orange_objects_in_white_cup_other_color_objects_in_clear_cup":{
-            "40530": "Put the orange objects in the white cup and the blue objects in the glass cup",
-            "24178": "Put the blue object in the colourless cup then put the orange objects in the white cup",
-            "10951": "Put the orange objects in the white cup and the other objects inside the transparent cup.",
-            "83442": "Put the orange objects in the white cup and the blue object in the glass cup"
-        },
-                "yellow_discs_orange_discs_different_cups":{
-              "76931": "Put the yellow discs in the clear cup and the orange discs into the white cup",
-              "45167": "Put the yellow discs on the table and then put the orange discs in the cup",
-              "77636": "Put the yellow discs in the white cup and the blue disc in the clear cup"
-        },
-        "orange_blocks_yellow_blocks_different_cups":{
-
-            "60265": "Put the round yellow blocks in the white cup then put the round orange blocks in the clear cup respectively one at a time",
-              "61746": "Put the blue block in the white cup and the orange blocks in the transparent cup",
-             "78171": "Put the round blue block in the white cup then put the two round yellow blocks in the clear cup"
-
-        },
-         "series_of_block_placements_multiple_steps":{
-           "38436": "Put the orange block in the white cup then put the yellow block in the clear cup, then put the orange block in the white cup, then put the two last orange blocks in the white cup",
-           "43589": "Put an orange block in the white cup then put the yellow block in the clear cup, then put two orange blocks in the white cup and lastly put the yellow block in the clear cup",
-           "50389": "Put the yellow block in the white cup the put two orange blocks in the clear cup, then put the remaining yellow block in the white cup, then put the remaining two orange blocks in the clear cup",
-           "3853": "Put one yellow block in the clear cup then put the orange blocks in the white cup, then put the last yellow block in the clear cup",
-            "12151": "Put two round orange blocks in the white cup then put the round blue block in the clear cup, then put the remaining round orange blocks in the white cup",
-            "71046": "Put three round orange blocks in the white cup, then put the two round yellow blocks in the clear cup and put the last round orange block in the white cup",
-            "61331": "Put an orange block in the white cup then a yellow block in the clear cup, then put two orange blocks in the white cup then a yellow block in the clear cup and lastly the orange block in the white cup",
-             "71588": "Put two round orange blocks in the white cup then put the blue round block in the clear cup, then put the last two round orange blocks",
-             "83390": "Put the round yellow block in the white cup then put the round blue block in the clear cup then put the last round yellow block in the white cup",
-             "10704": "Put one round orange block in the clear cup then put a round yellow block in the white cup, then put two round orange blocks in the clear cup and put the last round yellow block in the white cup"
-         },
-        "simple_object_in_cup":{
-            "69137": "Pick the rings and put them in the cup",
-            "3123": "Pick up the tokens from the table and put them in the plastic cup.",
-            "47260": "Put the orange rings on the clear cup",
-            "61419": "Place the rings inside the clear cup",
-             "2130": "Pick the orange rings and put them in the white cup and put the yellow rings in the clear cup",
-            "54033": "Put the yellow object in the white cup and the orange object in the glass cup",
-             "83405": "Put the orange blocks inside the white cup and place the blue ring inside the clear cup",
-            "76285": "Put the blue square into the transparent cup and the orange squares into the white cup"
-        }
-
-
+    "divide_rings_into_cups": {
+        "34830": "Divide the rings equally and put some in the clear cup and the rest in the white cup",
+        "3655": "Put some of the rings in the white cup and some in the clear cup",
+        "70473": "Divide the rings and put some in the white cup and some in the clear cup",
+        "15101": "Put two rings in the clear cup and the rest in the white cup",
+        "32081": "Put two orange rings in the white cup and the rest in the clear cup"
+    },
+    "orange_objects_in_white_cup_other_color_objects_in_clear_cup": {
+        "40530": "Put the orange objects in the white cup and the blue objects in the glass cup",
+        "24178": "Put the blue object in the colourless cup then put the orange objects in the white cup",
+        "10951": "Put the orange objects in the white cup and the other objects inside the transparent cup.",
+        "83442": "Put the orange objects in the white cup and the blue object in the glass cup"
+    },
+    "yellow_discs_orange_discs_different_cups": {
+        "76931": "Put the yellow discs in the clear cup and the orange discs into the white cup",
+        "45167": "Put the yellow discs on the table and then put the orange discs in the cup",
+        "77636": "Put the yellow discs in the white cup and the blue disc in the clear cup"
+    },
+    "orange_blocks_yellow_blocks_different_cups": {
+        "60265": "Put the round yellow blocks in the white cup then put the round orange blocks in the clear cup respectively one at a time",
+        "61746": "Put the blue block in the white cup and the orange blocks in the transparent cup",
+        "78171": "Put the round blue block in the white cup then put the two round yellow blocks in the clear cup"
+    },
+    "series_of_block_placements_multiple_steps": {
+        "38436": "Put the orange block in the white cup then put the yellow block in the clear cup, then put the orange block in the white cup, then put the two last orange blocks in the white cup",
+        "43589": "Put an orange block in the white cup then put the yellow block in the clear cup, then put two orange blocks in the white cup and lastly put the yellow block in the clear cup",
+        "50389": "Put the yellow block in the white cup the put two orange blocks in the clear cup, then put the remaining yellow block in the white cup, then put the remaining two orange blocks in the clear cup",
+        "3853": "Put one yellow block in the clear cup then put the orange blocks in the white cup, then put the last yellow block in the clear cup",
+        "12151": "Put two round orange blocks in the white cup then put the round blue block in the clear cup, then put the remaining round orange blocks in the white cup",
+        "71046": "Put three round orange blocks in the white cup, then put the two round yellow blocks in the clear cup and put the last round orange block in the white cup",
+        "61331": "Put an orange block in the white cup then a yellow block in the clear cup, then put two orange blocks in the white cup then a yellow block in the clear cup and lastly the orange block in the white cup",
+        "71588": "Put two round orange blocks in the white cup then put the blue round block in the clear cup, then put the last two round orange blocks",
+        "83390": "Put the round yellow block in the white cup then put the round blue block in the clear cup then put the last round yellow block in the white cup",
+        "10704": "Put one round orange block in the clear cup then put a round yellow block in the white cup, then put two round orange blocks in the clear cup and put the last round yellow block in the white cup"
+    },
+    "simple_object_in_cup": {
+        "69137": "Pick the rings and put them in the cup",
+        "3123": "Pick up the tokens from the table and put them in the plastic cup.",
+        "47260": "Put the orange rings on the clear cup",
+        "61419": "Place the rings inside the clear cup",
+        "2130": "Pick the orange rings and put them in the white cup and put the yellow rings in the clear cup",
+        "54033": "Put the yellow object in the white cup and the orange object in the glass cup",
+        "83405": "Put the orange blocks inside the white cup and place the blue ring inside the clear cup",
+        "76285": "Put the blue square into the transparent cup and the orange squares into the white cup."
+    }
 }

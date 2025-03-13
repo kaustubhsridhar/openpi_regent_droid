@@ -1,4 +1,3 @@
-
 {
     "stack_cups": {
         "62984": "Remove the silver cup from the plastic cup, pick up both the plastic cup and silver cup and put the in the box",
@@ -13,13 +12,12 @@
         "43112": "Remove the silver cup from the clear cup and put two red sachets in the clear cup then place the silver cup back in the clear cup.",
         "76187": "Put the silver cup in the larger clear cup then put the small clear cup inside the silver cup.",
         "49950": "Empty the larger plastic cup into the silver cup then stack them",
-         "79324": "Pick up the clear cup and pour all its contents on the table, pick up the silver cup and put it in the clear cup",
+        "79324": "Pick up the clear cup and pour all its contents on the table, pick up the silver cup and put it in the clear cup",
         "75242": "Put the silver cup in the plastic cup and then put put the plastic cup with coffee granules in the silver cup",
         "86474": "Take the silver cup out of the plastic cup then empty the plastic cup onto the desk then put the silver cup back in the plastic cup",
         "35826": "Put the clear cup over the silver cup, then place them upright"
-
     },
-        "put_two_cups_in_container": {
+    "put_two_cups_in_container": {
         "538": "Pick up the clear cup with beans in it and the silver cup simultaneously and put them in the clear storage container",
         "74388": "Set the storage container upright, then put the two cups inside it",
         "66429": "Pick up the clear cup and the silver cup together and put them in the clear storage container"
@@ -43,10 +41,10 @@
         "4981": "Pick up the white pillow from the sofa seat and put it on the chair's seat part",
         "27070": "Put the white pillow on the seat of the white chair"
     },
-      "put_item_on_top_of_pillow_on_chair": {
+    "put_item_on_top_of_pillow_on_chair": {
         "36460": "Put the remote control on the seat of the wooden chair then cover it with the pillow",
         "50411": "Put the black remote on the chair, then cover it with a pillow",
-       "71508": "Put the remote control on the white chair then place the pillow on top of the remote",
+        "71508": "Put the remote control on the white chair then place the pillow on top of the remote",
         "10734": "Lay the white pillow on the seat of the white chair then put the black object on top of the white pillow."
     },
     "turn_on_flashlight": {
@@ -70,22 +68,22 @@
         "66193": "Put the flashlight upright on the seat of the wooden",
         "87793": "Put the torch upright",
         "86773": "Put the black torch upright on the seat of the white chair",
-         "33634": "Put the torch upright",
+        "33634": "Put the torch upright",
         "42763": "Place the torch upright on the seat of the white chair."
     },
-   "put_lid_on_box": {
+    "put_lid_on_box": {
         "67729": "Put the lid on the blue box",
         "59809": "Pick up the blue box and put it a bit forward on the table, pick up the blue box lid and place it the right way up on the blue box",
         "40862": "Pick up the blue box lid and place it on the blue box",
         "81241": "Pick up the shoe box lid and cover the shoe box"
-   },
+    },
     "place_container_in_box": {
         "5651": "Pick up the clear storage container and put it in the blue box, pick up the blub box lid and cover the blue box",
         "23227": "Place the clear box in the blue box the cover it"
     },
     "put_toy_car_on_lid": {
-       "28247":  "Put the toy car on the green lid then put the green lid on the clear cup on the table",
-       "77952":  "Put the green toy car on the blue lid, pick up the blue lid and put them on the green lid on the plastic cup",
+        "28247": "Put the toy car on the green lid then put the green lid on the clear cup on the table",
+        "77952": "Put the green toy car on the blue lid, pick up the blue lid and put them on the green lid on the plastic cup",
         "47551": "Put the green toy car on the green lid, then put the green lid on the transparent cup"
     },
     "move_item_to_the_right": {
@@ -93,59 +91,59 @@
         "6747": "Move the blanket to the right, pick up the lying pillow on the couch and put it in an upright position",
         "26788": "Move the red hat to the right"
     },
-  "put_remote_on_chair": {
-      "86229": "Put the black remote on the white chair",
-    "66512": "Put the small black remote on the white chair"
-  },
-  "put_pillow_on_couch":{
-      "54868": "Remove the black and yellow torch from top of the pillow, then put the pillow in the corner of the couch",
-      "13727": "Put the pillow on the couch"
-  },
-     "invert_toy_car": {
+    "put_remote_on_chair": {
+        "86229": "Put the black remote on the white chair",
+        "66512": "Put the small black remote on the white chair"
+    },
+    "put_pillow_on_couch": {
+        "54868": "Remove the black and yellow torch from top of the pillow, then put the pillow in the corner of the couch",
+        "13727": "Put the pillow on the couch"
+    },
+    "invert_toy_car": {
         "26215": "Turn the toy car over",
         "31691": "Flip the toy car over"
-     },
-      "put_white_bottle_in_box": {
+    },
+    "put_white_bottle_in_box": {
         "5371": "Put the white bottle into the box",
         "76107": "Put the white bottle inside the box"
-      },
-    "place_blanket_on_sofa": {
-    "28774":  "Put the white and grey blanket on the backrest of the sofa.",
-    "83052": "Place the maroon fabric on the backrest of the sofa.",
-    "55072": "Spread the red cloth along the backrest of the couch.",
-    "95637": "Put the grey blanket on the seat of the couch"
     },
-       "press_button_on_remote":{
-           "71614": "Press a button on the black remote",
-           "23500": "Push a button on the black remote"
-       },
-    "close_box":{
+    "place_blanket_on_sofa": {
+        "28774": "Put the white and grey blanket on the backrest of the sofa.",
+        "83052": "Place the maroon fabric on the backrest of the sofa.",
+        "55072": "Spread the red cloth along the backrest of the couch",
+        "95637": "Put the grey blanket on the seat of the couch"
+    },
+    "press_button_on_remote": {
+        "71614": "Press a button on the black remote",
+        "23500": "Push a button on the black remote"
+    },
+    "close_box": {
         "57600": "Take the lid off of the box and put the box on top of it",
         "55760": "Close the grey box"
     },
-    "press_button_on_flashlight":{
-        "77880":  "Press the on and off button of the torchlight twice and then flip the torchlight to make it face down on the chair seat",
+    "press_button_on_flashlight": {
+        "77880": "Press the on and off button of the torchlight twice and then flip the torchlight to make it face down on the chair seat",
         "28417": "Press the on and off button of the torchlight on the chair seat",
         "80227": "Press a button on the flashlight"
     },
-   "put_chair_upright":{
-       "35498": "Put the chair in an upright position on the sofa",
-       "54019": "Put the chair upright"
-   },
-   "put_lid_on_cup":{
-     "69125": "Put the green lid on top of the blue lid then stack them up together",
-     "5854": "Put the green lid on the table then place the black remote control on the green lid, put the green lid on top of the silver cup on the right."
-   },
-    "pour_cup_contents":{
-       "73018": "Get some coffee beans from the plastic cup, put them in the silver cup and then pour the contents of the silver cup into the empty plastic cup",
+    "put_chair_upright": {
+        "35498": "Put the chair in an upright position on the sofa",
+        "54019": "Put the chair upright"
+    },
+    "put_lid_on_cup": {
+        "69125": "Put the green lid on top of the blue lid then stack them up together",
+        "5854": "Put the green lid on the table then place the black remote control on the green lid, put the green lid on top of the silver cup on the right."
+    },
+    "pour_cup_contents": {
+        "73018": "Get some coffee beans from the plastic cup, put them in the silver cup and then pour the contents of the silver cup into the empty plastic cup",
         "84412": "Remove the silver cup from the clear cup then pour the contents in the silver cup into the box"
     },
-      "put_ketchup_on_lid_in_cup": {
+    "put_ketchup_on_lid_in_cup": {
         "22196": "Move the white and blue cup to the left, put the tomato ketchup on the green lid and then put the ketchup in the cup",
         "26329": "Put the tomato ketchup on the green lid, lift the green lid and put the ketchup in the grey cup"
-      },
-       "put_lid_on_table":{
+    },
+    "put_lid_on_table": {
         "90738": "Remove the lid from the gray shoe box and place it on the table",
         "56517": "Pick up the blue box lid and place it upside down on the table"
-       }
+    }
 }

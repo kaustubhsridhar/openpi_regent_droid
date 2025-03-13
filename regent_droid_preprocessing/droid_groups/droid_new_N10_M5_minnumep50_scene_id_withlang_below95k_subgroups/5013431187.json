@@ -1,4 +1,3 @@
-
 {
     "move_object_right": {
         "13341": "Move the bottle to the right",
@@ -34,12 +33,11 @@
         "87079": "Put the white case on top of the container with a blue lid",
         "45631": "Put the earphone case on the blue-lidded container",
         "18110": "Put the silver spoon on top of the container with the blue lid",
-        "2313": "Place the white spoon on top of the container with a blue lid",
+        "2313": "Place the white spoon on top of the container with the blue lid",
         "32532": "Put the white bottle on top of the container with a blue lid",
-        "56806": "Put the white spoon on top of the clear container with a blue lid",
+        "56806": "Put the white spoon on top of the clear container with the blue lid",
         "73128": "Put the keys on top of the clear container with a blue lid",
         "1798": "Pick up the silver spoon from the countertop and place it on top of the  container with a blue lid"
-
     },
     "place_item_on_countertop": {
         "45575": "Move the white object from the top of the clear container and put it on the countertop",
@@ -48,7 +46,7 @@
         "88173": "Put the white and orange can on the countertop",
         "70276": "Remove the white and orange bottle from the top of the container and place it on the countertop",
         "24755": "Remove the spoon from the blue lid and put it on the countertop",
-         "48890": "Place the white and orange bottle on the counter",
+        "48890": "Place the white and orange bottle on the counter",
         "13075": "Pick the bottle on top of the jar and put it on the counter",
         "71446": "Move the white spoon to the counter top",
         "43460": "Take the bottle off the green thing and put it on the counter",
@@ -62,15 +60,13 @@
         "57746": "Put the silver spoon inside the clear bottle",
         "22926": "Pick up the white spoon from the container and place it in the colourless cup.",
         "65021": "Pick up the spoon and put it in the object"
-
     },
-     "place_object_right_side_countertop":{
+    "place_object_right_side_countertop": {
         "13963": "Remove the object from the yellow sponge and put it on the right side of the countertop",
         "64900": "Move the white bar of soap to the right side of the countertop"
-     },
-    "put_white_bottle_on_container":{
+    },
+    "put_white_bottle_on_container": {
         "69690": "Take the white bottle and put it on top of the clear bottle",
         "23791": "Take the white bottle and put it upside down on the clear bottle"
     }
 }
-

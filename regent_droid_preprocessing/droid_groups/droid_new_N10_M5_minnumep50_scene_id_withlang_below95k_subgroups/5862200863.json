@@ -1,4 +1,3 @@
-
 {
     "purple_object_in_bowl": {
         "53001": "Put the purple toy in the bowl",
@@ -22,12 +21,12 @@
     },
     "purple_toy_in_white_bowl": {
         "82051": "Put the purple toy in the white bowl",
-        "80282": "Put the purple toy into the white bowl"
+        "80282": "Put the purple toy into the white bowl."
     },
-	"purple_thing_in_bowl": {
-		"42753": "Put the purple thing in the bowl",
-		"15647": "Put the purple thing in the bowl"
-	},
+    "purple_thing_in_bowl": {
+        "42753": "Put the purple thing in the bowl",
+        "15647": "Put the purple thing in the bowl"
+    },
     "plastic_grapes_in_white_bowl": {
         "59781": "Put the plastic grapes in the white bowl",
         "9016": "Put the plastic grapes in the white bowl",
@@ -44,30 +43,28 @@
         "25493": "Put the grape inside the dish",
         "48300": "Put the grape in the dish",
         "61529": "Put the grape inside the white dish",
-		"46718": "Put the plastic grape inside the white dish"
-
+        "46718": "Put the plastic grape inside the white dish"
     },
-   "grapes_in_white_basin": {
+    "grapes_in_white_basin": {
         "2107": "Pick up the grapes and put them in the white basin",
         "4287": "Put the purple grapes inside the white basin",
         "82924": "Place the grapes inside the white basin",
         "41980": "Put the purple grapes inside the white basin"
     },
-    "grape_toy_in_white_bowl":{
+    "grape_toy_in_white_bowl": {
         "3584": "Pick up the grapefruit toy and put it in the white bowl",
         "20226": "Put the plastic grape toy in the white dish",
-		"71108": "Pick up the purple toy grape and put it inside the white bowl"
+        "71108": "Pick up the purple toy grape and put it inside the white bowl"
     },
-     "purple_toy_from_table_in_white_dish":{
+    "purple_toy_from_table_in_white_dish": {
         "28172": "Pick up the purple toy from the table and put it in the white dish.",
         "16691": "Pick up the purple toy from the table and put it in the white dish."
-     },
-    "purple_raspberry_from_table_in_white_bowl":{
+    },
+    "purple_raspberry_from_table_in_white_bowl": {
         "70216": "Get the purple raspberry from the table and put it in the white bowl",
         "17637": "Get the purple raspberry toy from the table and place it in the white bowl"
     },
-    "toy_grapes_from_table_in_white_bowl":{
+    "toy_grapes_from_table_in_white_bowl": {
         "50906": "Take the toy grapes from the table and put them in the white bowl"
     }
 }
-

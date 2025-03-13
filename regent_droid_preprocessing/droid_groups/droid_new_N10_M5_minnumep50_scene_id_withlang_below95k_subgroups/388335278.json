@@ -1,4 +1,3 @@
-
 {
     "stack_cups": {
         "89127": "Sport stack the cups on the left onto the two cups on the right",
@@ -21,10 +20,9 @@
         "71777": "Stack up the white bowls on the counter",
         "23872": "Stack the black and white bowls together."
     },
-        "stack_plates": {
+    "stack_plates": {
         "49213": "Stack up the white plastic plates",
         "44892": "Stack up the white plates on the left"
-
     },
     "press_dishwasher_button": {
         "70668": "Press a button on the dishwasher.",
@@ -54,8 +52,8 @@
         "52465": "Press a button on the left side of the oven",
         "50067": "Press the button on the oven"
     },
-        "place_spoon_in_cup": {
-        "53766": "Put one spoon on top of each of the coffee cups at the front of the counter.",
+    "place_spoon_in_cup": {
+        "53766": "Put one spoon on top of each of the  coffee cups at the front of the counter.",
         "33842": "Put the white spoon in the coffee cup on the left.",
         "38078": "Put one white spoon in the coffee cup at the front.",
         "9930": "Put the white plastic spoon inside the mug"
@@ -66,42 +64,42 @@
         "2742": "Pour the contents from one cup to the other",
         "10733": "Pour the contents from the first left cup into the bowl"
     },
-        "place_item_in_bowl":{
+    "place_item_in_bowl": {
         "34371": "Put the small, black object next to the bowl",
         "37025": "Put the paper cup on the blue bloc on the left",
         "6373": "Put a sauce packet in the bowl"
-        },
-    "create_cup_stacks":{
+    },
+    "create_cup_stacks": {
         "50833": "Create two stacks using the four coffee cups on the left.",
         "88309": "Stack three coffee cups into a pyramid then put the fourth coffee cup on top of the coffee cup at the top.",
         "24476": "Stack the four coffee cups into two stacks.",
         "55235": "Stack the four coffee cups together.",
         "45511": "Put all the four coffee cups together"
     },
-     "stack_paper_cups":{
+    "stack_paper_cups": {
         "64753": "Stack up the paper cups on the left",
         "13952": "Stack up the two paper cups on the left, put the paper cups in the blue bowl and move the blue bowl to the left",
         "42454": "Pick up the paper cup to the far left and stack it on the middle paper cup, pick up the paper cup to the right and stack it on the paper cup to the left"
-     },
-    "move_utensils_between_cups":{
+    },
+    "move_utensils_between_cups": {
         "90847": "Swap the places of the spoons on the cups",
         "24439": "Remove the fork from the cup on the left and put it in the cup on the right then remove the spoon from the cup on the right and put it in the cup on the left.",
         "49068": "Pick up the fork from the paper cup on the right and put in the paper cup to the left",
         "12287": "Put the utensils placed on top of the coffee cups into the cups",
-         "7653": "Pick up the plastic spoon from the paper cup on the right and put it on the kitchen counter, pick up the plastic spoon from the paper cup on the left and put it on the paper cup on the right, pick up the plastic spoon on the kitchen counter and put it on the paper cup to the left"
+        "7653": "Pick up the plastic spoon from the paper cup on the right and put it on the kitchen counter, pick up the plastic spoon from the paper cup on the left and put it on the paper cup on the right, pick up the plastic spoon on the kitchen counter and put it on the paper cup to the left"
     },
-       "use_spoon_transfer_liquid":{
+    "use_spoon_transfer_liquid": {
         "14855": "Use the white spoon to place some liquid from the blue bowl into the white teacup.",
         "59080": "Use the white spoon to place some of the contents from the blue bowl into the white teacup."
-       },
-     "place_plates":{
+    },
+    "place_plates": {
         "10871": "Pick up the white plate on the right and put it on the white plate on the left",
-         "85663": "Pick up the white plate on the bottom right and put it on top of the white plate on the bottom left",
-         "473": "Put the left plate on the right plate"
-     },
-        "pour_beans":{
+        "85663": "Pick up the white plate on the bottom right and put it on top of the white plate on the bottom left",
+        "473": "Put the left plate on the right plate"
+    },
+    "pour_beans": {
         "62110": "Pick up the coffee up and pour the beans into the two coffee cups",
         "3333": "Pour the beans in the blue bowl into the coffee cup",
         "15209": "Pour the beans in the coffee cup into the blue bowl"
-        }
+    }
 }

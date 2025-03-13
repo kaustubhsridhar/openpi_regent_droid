@@ -1,4 +1,3 @@
-
 {
     "put_objects_from_table_into_plastic_bag": {
         "83971": "Put the objects in the plastic",
@@ -61,10 +60,9 @@
         "63479": "Put all the objects on the table into the white plastic bag",
         "53240": "Put the contents on the table into the plastic bag.",
         "25084": "Put the things on the table in the plastic bag",
-      "34566": "Pick up the bottles and small containers from the table and put them in the plastic bag.",
+        "34566": "Pick up the bottles and small containers from the table and put them in the plastic bag.",
         "66047": "Pick up the objects from the table and put them in the plastic bag.",
         "50583": "Put all the objects in the white plastic bag"
-
     },
     "remove_objects_from_plastic_bag_and_put_on_table": {
         "76822": "Pick the object and the bottles from the plastic bag and put them on the table",
@@ -93,7 +91,7 @@
         "84329": "Remove the objects from the plastic bag and put them on the table.",
         "93036": "Remove the objects from the white plastic and put them on the table",
         "30584": "Remove the things from the plastic bag and put them on the table",
-       "25468": "Pick up the bottles and containers from the plastic bag and put them on the table.",
+        "25468": "Pick up the bottles and containers from the plastic bag and put them on the table.",
         "70536": "Remove the contents in the plastic bag and put them on the table.",
         "24972": "Pick the objects in the plastic bag and put them on the table",
         "74646": "Remove the contents from the white plastic and put them on the table",
@@ -101,55 +99,54 @@
         "63405": "Remove the objects in the plastic and place them on the table",
         "7097": "Remove the things from the plastic and put them on the table",
         "93626": "Remove the containers and strawberry plush toy from the white plastic and place them on the table",
-        "57315": "Remove all the content from the plastic bag one at a time and put them on the table",
+        "57315": "Remove all the contents from the plastic bag one at a time and put them on the table",
         "9707": "Take the containers, deer plush toy and red ball out of the white plastic bag",
-      "70082": "Remove the contents from the plastic bag.",
-      "32814": "Remove the objects from the plastic",
+        "70082": "Remove the contents from the plastic bag.",
+        "32814": "Remove the objects from the plastic",
         "71806": "Remove the toy moose, containers and red ball from the white plastic",
         "19304": "Pick the object in the plastic bag and put them on the table",
-         "57593": "Pick up the objects from the plastic bag and them on the table.",
+        "57593": "Pick up the objects from the plastic bag and them on the table.",
         "34564": "Remove all the objects from the plastic bag and put them on the table",
         "78689": "Remove all the objects from the plastic and put them on the table",
         "33049": "Remove the things from the plastic bag and put them on the table",
         "17690": "Put all the objects in the white plastic bag",
-         "25376": "Remove all the objects from the white plastic bag and put them on the table",
+        "25376": "Remove all the objects from the white plastic bag and put them on the table",
         "57644": "Remove the contents in the plastic bag and put them on the table.",
         "22829": "Take everything out of the plastic bag",
-         "16717": "Remove all the contents from the white plastic bag and put them on the table",
+        "16717": "Remove all the contents from the white plastic bag and put them on the table",
         "10064": "Remove the objects in the plastic and put them on the table",
         "65885": "Remove the objects from the plastic and put them on the table",
-         "11103": "Remove the contents from the white plastic bag and put them on the table",
-         "11617": "Remove all the contents from the white plastic bag one at a time and put them on the table",
+        "11103": "Remove the contents from the white plastic bag and put them on the table",
+        "11617": "Remove all the contents from the white plastic bag one at a time and put them on the table",
         "63330": "Remove the contents from the white plastic bag and put them on the table one at a time",
-      "12792": "Remove all the contents from the white plastic bag and put them on the table one at a time",
+        "12792": "Remove all the contents from the white plastic bag and put them on the table one at a time",
         "75196": "Remove all the contents from the white plastic bag one at at time and put them on the table",
-       "94993": "Take everything out of the plastic bag"
+        "94993": "Take everything out of the plastic bag"
     },
     "put_objects_from_table_onto_plastic": {
         "51244": "Pick up the objects from the table and put them on the plastic",
         "55878": "Pick up the objects from the table and put them on the plastic",
-      "26678": "Pick up all the objects surrounding the plastic and arrange them on the plastic",
+        "26678": "Pick up all the objects surrounding the plastic and arrange them on the plastic",
         "90708": "Pick up all the objects on the table and put them on the plastic",
         "56945": "Pick up the objects from the table and put them on the plastic",
-         "49304": "Pick up the objects on the table and put them on the plastic",
+        "49304": "Pick up the objects on the table and put them on the plastic",
         "87850": "Pick up all the objects from the table and put them on the plastic",
-       "53046": "Pick up all the objects from the table and put them on the plastic",
-       "59118": "Pick up the objects from the table and put them on the plastic"
-
+        "53046": "Pick up all the objects from the table and put them on the plastic",
+        "59118": "Pick up the objects from the table and put them on the plastic"
     },
-     "arrange_objects_on_plate": {
+    "arrange_objects_on_plate": {
         "29772": "Pick up all the objects surrounding the white plate and arrange them on the plate",
         "20129": "Pick up all the objects surrounding the white plate and arrange them on the plate",
         "82772": "Pick up all the objects surrounding the white plate and arrange them on the plate"
-     },
-  "remove_objects_from_plastic_and_put_on_table":{
-    "60929": "Remove the contents from the plastic.",
+    },
+    "remove_objects_from_plastic_and_put_on_table": {
+        "60929": "Remove the contents from the plastic.",
         "77024": "Pick up the objects from the plastic and put them on the table",
         "51982": "Pick up the objects from the plastic and put them on the table",
         "19254": "Pick up all the objects from the plastic and put them on the table",
         "8147": "Pick up the objects from the plastic and put them on the table"
-  },
-    "put_bung_on_bottle":{
-      "83999":  "Put the rubber bung on the neck of the brown bottle"
+    },
+    "put_bung_on_bottle": {
+        "83999": "Put the rubber bung on the neck of the brown bottle"
     }
 }

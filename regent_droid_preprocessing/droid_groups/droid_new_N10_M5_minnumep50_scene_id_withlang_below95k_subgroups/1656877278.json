@@ -1,4 +1,3 @@
-
 {
     "put_can_in_bowl": {
         "20490": "Pick up the can, then put it in the bowl",
@@ -52,7 +51,7 @@
         "17806": "Put the can in the bowl.",
         "83354": "Put the can into the bowl",
         "48766": "Put the can inside the bowl",
-        "62715": "Put the can in bowl",
+        "62715": "Put the can in the bowl",
         "2966": "Put the can in the bowl",
         "74906": "Put the can into the bowl",
         "33881": "Put the can inside the bowl",
@@ -65,7 +64,6 @@
         "32441": "Put the can in the bowl",
         "19215": "Put the orange can inside the black bowl",
         "85076": "Put the orange can inside the black bow"
-
     },
     "put_bowl_in_sink": {
         "69639": "Put the bowl inside the sink",
@@ -92,15 +90,14 @@
         "36280": "place the bowl in the sink",
         "86633": "Put the bowl in the sink.",
         "3433": "Put the bowl into the sink",
-       "13417": "Pick up the clear bowl and put it in the sink",
+        "13417": "Pick up the clear bowl and put it in the sink",
         "74255": "Put the bowl in the left sink",
         "85408": "Move the bowl to the left sink",
         "46051": "Put the plastic bowl inside the left sink",
         "48111": "Put the plastic bowl in the left sink",
-       "12042": "Put the plastic bowl inside the left sink"
-
+        "12042": "Put the plastic bowl inside the left sink"
     },
-     "put_cans_on_tray": {
+    "put_cans_on_tray": {
         "16394": "Put the Fanta and Coke cans  on the grey tray",
         "59405": "Pick all the candy bars from the kitchen counter and place them on the gray tray",
         "86031": "Lift the red and orange can bottles and put them on the grey tray",
@@ -122,7 +119,7 @@
         "82913": "Put the orange can on the grey tray",
         "50230": "Pick up the silver coke can and place it on the gray tray, pick up the orange fanta can and place it on the gray tray",
         "76860": "Put the cans on the grey plate",
-        "85147": "Put the cans on the grey tray.",
+        "85147": "Put the cans on the grey tray",
         "83028": "Put the can on the tray",
         "23739": "Put the can on the tray",
         "50359": "Pick up the orange can and place it on the gray tray, pick up the green can and place it on the gray tray",
@@ -137,7 +134,7 @@
         "33491": "Put the two cans on the tray.",
         "45806": "Put the cans on the tray",
         "64170": "Put the cans on the tray",
-        "39472": "Put the cans on the tray.",
+        "39472": "Put the cans on the tray",
         "37473": "Put the cans on the tray.",
         "55957": "Shift the two cans to the tray",
         "16204": "Put all the soda cans on the tray",
@@ -145,7 +142,7 @@
         "3991": "Put all three cans on the grey tray",
         "10139": "Put the two cans on the tray",
         "79788": "Put the cans on the grey tray",
-        "2007": "Put the green can on the tray.",
+        "2007": "Put the green can on the tray",
         "16345": "Put the two cans on the grey tray",
         "73202": "Put the cans on the grey plate",
         "65011": "Put the cans on the grey tray.",
@@ -161,12 +158,11 @@
         "44454": "Put the grey can and the orange can on the tray",
         "5661": "move the cans to the tray",
         "68533": "place the cans on the tray",
-         "61912": "Put the grey can on the tray",
-         "35616": "Put the grey can on the tray",
+        "61912": "Put the grey can on the tray",
+        "35616": "Put the grey can on the tray",
         "11133": "Put the can on the tray",
         "42014": "Put the green and gray cans on the tray",
-         "2921": "Put the green can on the grey tray."
-
+        "2921": "Put the green can on the grey tray."
     },
     "put_packet_in_bowl": {
         "55333": "Put the red packet in the bowl.",
@@ -192,7 +188,7 @@
         "51545": "Put the red packet in the bowl.",
         "9455": "Put the green packet in the bowl.",
         "21724": "Put the orange packet in the bowl",
-        "89348": "Put the orange packet in bowl",
+        "89348": "Put the orange packet in the bowl",
         "64776": "Put the black packet in the bowl",
         "89384": "Put the dorito packet into the clear bowl",
         "74301": "Put the orange packet in the bowl",
@@ -224,8 +220,7 @@
         "42005": "Put the packet in the bowl",
         "21938": "Put the snack paket into the bowl",
         "81790": "Put the green can in the bowl",
-         "13458": "Put the snack in the bowl"
-
+        "13458": "Put the snack in the bowl"
     },
     "put_towel_in_bowl": {
         "14": "Put the towel in the bowl",
@@ -255,12 +250,11 @@
         "81853": "Put the white towel inside the plastic bowl",
         "10196": "Put the brown towel in the bowl",
         "57950": "Pick up the towel and place it in the bowl",
-       "23225": "Put the towel in the bowl",
-       "40007": "Put the towel in the bowl.",
-       "62515": "Put the towel in the clear bowl.",
+        "23225": "Put the towel in the bowl",
+        "40007": "Put the towel in the bowl.",
+        "62515": "Put the towel in the clear bowl.",
         "34626": "move the cloth from the counter to the bowl",
         "53824": "Put the towel into the bowl"
-
     },
     "remove_can_from_bowl": {
         "22614": "Remove the can from the bowl",
@@ -310,7 +304,7 @@
         "76796": "Take the hand towel out of the white bowl",
         "9385": "Remove the towel from the bowl",
         "38515": "take out the cloth from the bowl",
-         "3238": "Take the grey hand towel out of the bowl",
+        "3238": "Take the grey hand towel out of the bowl",
         "65170": "Take the towel out of the bowl",
         "997": "Take the towel out of the bowl.",
         "72949": "Remove the grey cloth from the plastic bowl",
@@ -318,38 +312,37 @@
         "81271": "Remove the grey cloth from the clear bowl and put it on the table",
         "25915": "Remove the grey towel from the clear bowl and put it on the countertop",
         "11588": "Pick up the gray towel from the clear bowl and put it on the kitchen counter",
-         "15555": "Pick the brown towel from the clear bowl and place it on the counter top",
+        "15555": "Pick the brown towel from the clear bowl and place it on the counter top",
         "38345": "Pick up the cream tea towel from the clear bowl and put it on the kitchen counter",
         "81353": "Remove the blue towel from the plastic bowl and put it on the counter",
         "44517": "Pick up the blue tea towel from the clear bowl and put it on the kitchen counter",
         "47686": "Remove the blue towel from the clear bowl and put it on the countertop",
         "29702": "Remove the blue cloth from the clear bowl and put it on the countertop"
     },
-    "put_candy_bar_in_bowl":{
+    "put_candy_bar_in_bowl": {
         "18452": "Put the candy bar into the bowl",
         "53302": "Put the chocolate bar inside the plastic bowl",
-       "80010": "Pick up the candy bar and then put it in the bowl",
+        "80010": "Pick up the candy bar and then put it in the bowl",
         "37250": "Place the snickers bar in the bowl",
         "74478": "Place the snickers bar in the bowl",
         "37652": "Put the chocolate bar inside the bowl",
         "58696": "Lift the snickers chocolate and put it in the bowl",
         "45668": "Put the candy bar in the bowl",
-         "52112": "Put the candy bar into the bowl",
+        "52112": "Put the candy bar into the bowl",
         "87394": "Put the candy bar into the bowl",
         "89212": "Put the candy bar into the bowl",
         "79088": "Put the bar into the bowl",
         "42122": "Put the chocolate bar inside the plastic bowl"
-
     },
-     "remove_cups_from_tray": {
+    "remove_cups_from_tray": {
         "92229": "Pick up the blue paper cup and move it to the bottom right side of the gray tray on the kitchen counter, pick up the orange paper cup and move it to the upper right side of the gray tray on the kitchen counter",
         "33020": "Remove the cups from the tray and put them on the counter.",
         "12543": "Remove the cups from the grey tray.",
-         "49414": "Remove the green, purple and orange cups from the tray",
+        "49414": "Remove the green, purple and orange cups from the tray",
         "92443": "Remove the blue and orange cups from the tray",
         "39277": "Remove the purple and orange cups from the tray",
         "35247": "Remove the yellow and green cups from the tray",
-       "84680": "Remove the cups from the tray.",
+        "84680": "Remove the cups from the tray.",
         "17496": "Remove the cups from the tray",
         "78940": "Remove the orange, blue and purple cups from the tray",
         "89957": "Remove the cups from the tray.",
@@ -359,9 +352,9 @@
         "26426": "Remove the cups from the grey tray.",
         "4583": "Remove the cups from the grey tray.",
         "15302": "Remove the green and purple cups from the tray",
-       "91810": "Remove the green and purple cups from the tray",
+        "91810": "Remove the green and purple cups from the tray",
         "28411": "Remove the green and orange cups from the tray",
-         "52872": "Remove the blue cup from the tray.",
+        "52872": "Remove the blue cup from the tray.",
         "89105": "Take the cups off of the tray",
         "4929": "Take the cups off of the tray",
         "24886": "Take the cups out of the tray",
@@ -371,15 +364,15 @@
         "58731": "Remove the purple cup from the grey tray and put them on the counter"
     },
     "remove_cans_from_tray": {
-         "41050": "Remove the cans from the tray.",
+        "41050": "Remove the cans from the tray.",
         "72083": "Remove the cans from the grey tray.",
         "37309": "Remove the cans from the grey tray.",
         "80415": "Remove the cans from the tray and put them on the countertop",
         "51836": "Remove the cans from the tray and put them on the counter",
         "17043": "Remove the cans from the tray.",
         "74422": "Remove the silver and orange cans from the tray.",
-         "80567": "Remove the cans from the tray and put them on the counter",
-       "80644": "Remove the cans from the tray.",
+        "80567": "Remove the cans from the tray and put them on the counter",
+        "80644": "Remove the cans from the tray.",
         "90434": "Remove the green and grey cans from the tray",
         "79691": "Remove  the cans from the tray and put them on the counter.",
         "89973": "Remove the orange, grey and green cans from the tray",
@@ -391,45 +384,42 @@
         "54262": "Take the cans off of the tray",
         "42052": "Take the cans off of the tray",
         "25882": "Take the cans off of the tray",
-       "10739": "Take the cans off of the tray",
+        "10739": "Take the cans off of the tray",
         "72328": "Take the cans off of the tray",
         "1190": "Take the two metal cans off of the tray",
         "47017": "Remove the cans from the tray and put them on the counter",
         "26163": "Remove the cans from the tray and then put them on the counter"
-
     },
-    "put_cups_on_tray":{
+    "put_cups_on_tray": {
         "41093": "Put the cups on the try",
         "37319": "Put the cups on the grey tray.",
         "57603": "Put the green and purple cups on the tray",
         "14983": "Put the cups on the tray",
         "80465": "Put the plastic cups on the tray",
         "80914": "Put the purple, blue and green cups onto the tray",
-       "19493": "Put the green, maroon and yellow cups on the tray",
+        "19493": "Put the green, maroon and yellow cups on the tray",
         "29753": "Place all the cups on the tray",
         "91214": "Put the cups on the grey tray.",
         "50608": "Put the purple, green and blue cups onto the tray",
-         "66894": "Put the cups on the tray",
+        "66894": "Put the cups on the tray",
         "53033": "Put the cups on the tray",
-         "85802": "Lift the cups and put them on the grey tray, put the blue cup on the right lower segment, purple cup on the right upper segment and orange cup on the left upper segment",
+        "85802": "Lift the cups and put them on the grey tray, put the blue cup on the right lower segment, purple cup on the right upper segment and orange cup on the left upper segment",
         "31633": "move the cups onto the tray",
         "23482": "Pick the cups and place them on the tray",
         "67240": "Put the cups on the grey tray.",
-         "74207": "Put the plastic cups on the tray",
+        "74207": "Put the plastic cups on the tray",
         "50551": "Shift the cups to the tray",
         "7531": "Put the cups on the grey tray.",
         "32332": "Put the green and purple cup on the grey tray",
-         "52893": "Put the blue cup on the grey tray",
-       "81258": "Pick up the orange cup and put it on the gray tray, pick up the mauve cup and put it on the gray tray"
-
-
+        "52893": "Put the blue cup on the grey tray",
+        "81258": "Pick up the orange cup and put it on the gray tray, pick up the mauve cup and put it on the gray tray"
     },
-     "put_towels_on_tray":{
+    "put_towels_on_tray": {
         "14742": "Put the white and brown towels on the tray",
         "19109": "Put the brown and blue towels on the tray",
         "90839": "Put the towels on the grey tray",
         "87166": "Pick up the two towels and put the on the grey tray",
         "65159": "Pick up the towels and move them onto the trays one by one starting with the brown towel",
         "10456": "Put the towels on the tray."
-     }
+    }
 }

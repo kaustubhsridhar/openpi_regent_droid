@@ -1,4 +1,3 @@
-
 {
     "put_marker_in_bowl": {
         "22540": "Put the marker in the bowl",
@@ -96,7 +95,7 @@
         "13628": "Put the marker in the bowl",
         "3346": "Pick up the marker and place it in the bowl",
         "79237": "Pick the marker on the table and put it in the bowl",
-       "24277": "Pick the marker and put it in the bowl",
+        "24277": "Pick the marker and put it in the bowl",
         "61163": "Pick up the marker and put it in the bowl",
         "83868": "Put the marker into the bowl",
         "24270": "Put the marker in the bowl"
@@ -192,7 +191,6 @@
         "79566": "Take the orange marker out of the grey bowl and place it on the table",
         "7903": "Take the marker from the bowl and put it on the table",
         "80860": "Remove the marker from the bowl and put it on the table",
-        "94114": "Remove the marker from the bowl and put it on the table",
         "27613": "Take the marker out of the bowl and put it on the table",
         "58586": "Remove the marker from the grey bowl and put it on the table",
         "7178": "Pick the marker from the bowl and put it on the table",
@@ -202,7 +200,6 @@
         "39630": "Take the marker from the table and place it  in the white bowl",
         "52696": "Take the marker from the white bowl and put it on the table",
         "1343": "Pick up the marker in the bowl and put it on the table."
-
     },
     "put_marker_on_table": {
         "4130": "Put the marker on the table",
@@ -228,7 +225,6 @@
         "79670": "Put the green marker on the table",
         "56536": "Pick the marker and put it on the table",
         "23814": "Put the marker on the table",
-        "38267": "Put the marker on the table",
         "20040": "Put the marker on the table",
         "5075": "Put the marker on the table"
     },
@@ -318,14 +314,13 @@
         "26033": "Put the green marker in the grey bowl",
         "9386": "Put the green marker inside the grey bowl",
         "71416": "Put the green marker inside the grey bowl",
-       "24271": "Pick up the black marker from the table and put it in the grey bowl",
+        "24271": "Pick up the black marker from the table and put it in the grey bowl",
         "64248": "Put the orange marker inside the grey bowl",
         "24576": "Move the orange marker backward"
-
     },
     "take_pen_out_of_bowl_and_put_on_table": {
         "55350": "Take the pen out of the bowl and put it on the table",
-        "57434": "Pick up the pen from the bowl and put it on the table.",
+        "57434": "Pick up the pen from the bowl and put it on the table",
         "94305": "Take the pen out of the bowl and put it on the table",
         "59792": "Take the pen out of the bowl and put it on the table",
         "63968": "Take the pen out of the bowl and put it on the table",
@@ -337,7 +332,7 @@
         "33619": "Take the pen out of the bowl and place it on the table",
         "28136": "Take the pen out of the bowl and put it on the table",
         "24218": "Take the pen out of the bowl and put it on the table",
-       "81073": "Pick up the pen from the bowl and put it on the table.",
+        "81073": "Pick up the pen from the bowl and put it on the table.",
         "70589": "Pick up the pen from the bowl and put it on the table.",
         "84312": "Pick up the pen from the bowl and put it on the table.",
         "16315": "Pick up the pen from the bowl and place it on the table.",
@@ -365,9 +360,8 @@
         "62732": "Move the green marker to the left of the table",
         "27175": "Move the marker to the left",
         "79310": "Pick the marker and move it to the left on the table"
-
     },
-     "move_marker_right": {
+    "move_marker_right": {
         "55405": "Move the marker to the right",
         "48157": "Move the marker to the right.",
         "72873": "Move the marker to the right",
@@ -379,14 +373,13 @@
         "29992": "Move the marker to the right side of the table"
     },
     "move_marker_forward": {
-       "88097": "Move the marker to the front",
-       "89304": "Move the marker forward.",
-       "8792": "Move the marker closer to you"
+        "88097": "Move the marker to the front",
+        "89304": "Move the marker forward.",
+        "8792": "Move the marker closer to you"
     },
     "move_marker_backward": {
         "27862": "Move the marker away from you",
-       "34479": "Move the marker backwards"
-
+        "34479": "Move the marker backwards"
     },
     "put_marker_in_white_bowl": {
         "77965": "Get the marker from the table and put it in the white bowl",
@@ -396,9 +389,8 @@
         "30308": "Put the marker inside the white bowl",
         "95158": "Put the marker in the white bowl",
         "56577": "Put the marker in the white bowl",
-       "24239": "Put the red marker inside the white bowl",
+        "24239": "Put the red marker inside the white bowl",
         "79868": "Put the marker in the white bowl on the table"
-
     },
     "take_marker_out_of_grey_bowl": {
         "63561": "Take the orange marker out of the grey bowl",
@@ -413,12 +405,11 @@
         "6036": "Take the blue marker out of the grey bowl",
         "2670": "Take the blue marker out of the grey bowl",
         "49882": "Take the green marker out of the grey bowl",
-        "32387": "Take the green marker out of the grey bowl",
+        "32387": "Take the green marker out of the bowl",
         "12897": "Take the green marker out of the grey bowl",
         "50273": "Take the green marker out of the grey bowl",
         "15741": "Take the green marker out of the grey bowl",
         "56671": "Take the green marker out of the grey bowl"
-
     },
     "remove_green_marker_from_grey_bowl": {
         "83981": "Remove the red marker from the grey bowl",
@@ -428,5 +419,6 @@
         "67688": "Remove the marker from the grey bowl",
         "51733": "Remove the marker from the grey bowl",
         "86702": "Remove the marker from the grey bowl",
-        "21047": "Remove the marker from the grey bowl",
-        "13446": "Remove the
+        "21047": "Remove the marker from the grey bowl"
+    }
+}

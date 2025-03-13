@@ -1,4 +1,3 @@
-
 {
     "open_tap": {
         "57350": "Open the tap",
@@ -23,9 +22,8 @@
         "24492": "Open the tap",
         "25535": "Open the tap",
         "48607": "Open the tap",
-      "80165": "Flip the faucet open",
-      "53704": "Lift up the tap faucet."
-
+        "80165": "Flip the faucet open",
+        "53704": "Lift up the tap faucet."
     },
     "close_tap": {
         "33288": "Close the tap",
@@ -52,20 +50,20 @@
         "26995": "Close the tap",
         "5612": "Close the tap",
         "43001": "Close the tap",
-      "7504": "Turn off the faucet of the hand sink."
+        "7504": "Turn off the faucet of the hand sink"
     },
     "move_object_left": {
         "64053": "Move the silver can to the left",
-        "94823": "Move the silver cup to the left",
+        "94823": "Move the silver cup to the left, remove the toothpaste from the cup and place it on the left side of the counter then take out the toothbrush and place it on the left side of the counter",
         "7786": "Move the white bottle with the yellow lid to the left side of the counter",
         "95367": "Move the small white bottle to the left.",
         "81022": "Move the clear bottle to the left side of the sink",
         "8908": "Move the squeeze bottle to the left on the counter",
         "80145": "Move the purple toothpaste to the left side of the counter",
         "57148": "Move the silver cup to the left side of the sink",
-       "44808": "Move the transparent bottle from the right end of the countertop to the left end",
+        "44808": "Move the transparent bottle from the right end of the countertop to the left end",
         "57211": "Move the silver bottle to the left side of the counter",
-       "51020": "Move the tube at the right to the left"
+        "51020": "Move the tube at the right to the left"
     },
     "move_object_right": {
         "37404": "Move the bottle to the right",
@@ -77,29 +75,28 @@
         "29792": "Pick up the bottle and move it from the left of the sink to the right",
         "23151": "Move the shaving stick to the right side of the tap",
         "34974": "Move the shaving stick to the right side of the sink counter",
-       "73200": "Move the white and blue pump bottle to the right",
-       "23734": "Move the squeeze bottle to the right of the table",
+        "73200": "Move the white and blue pump bottle to the right",
+        "23734": "Move the squeeze bottle to the right of the table",
         "38572": "Move the white bottle with a blue lid to the right side of the sink counter",
         "43183": "Move the white tube to the right side of the sink counter",
         "19668": "Pick up the blue object and put it on right",
-       "63796": "Move the purple tube of toothpaste to the right side of the counter",
-      "19691": "Move the shaving sick to the right side of the sink counter",
-      "53999": "Move the white and orange tube from the left to the right side of the counter",
+        "63796": "Move the purple tube of toothpaste to the right side of the counter",
+        "19691": "Move the shaving sick to the right side of the sink counter",
+        "53999": "Move the white and orange tube from the left to the right side of the counter",
         "2373": "Move the purple tube to the right of the sink",
-       "87936": "Move the white tube on the left to the right side of the counter",
+        "87936": "Move the white tube on the left to the right side of the counter",
         "36245": "Move the silver cup to the right",
         "88470": "Move clear bottle to the right side of the sink",
-      "47511": "Move the cup from the left to the right of the tap",
+        "47511": "Move the cup from the left to the right of the tap",
         "49064": "Move the clear bottle to the right side of the counter",
-       "13770": "Move the white tube to the right",
+        "13770": "Move the white tube to the right",
         "5974": "Take the small bottle with a blue cap located near the mirror and place it to the right",
         "82796": "Move the white tube from the left to the right of the tap"
-
     },
-     "move_object_forward": {
+    "move_object_forward": {
         "36995": "Move the tube near the mirror towards you",
         "27995": "Move the pump bottle forwards",
-       "53983": "Pick up the soap bottle and move to forward.",
+        "53983": "Pick up the soap bottle and move to forward.",
         "21669": "Move the pump bottle forward and then push down on its pump"
     },
     "push_faucet_handle_upwards": {
@@ -108,44 +105,42 @@
         "94834": "Lift the handle of the tap",
         "76453": "Lift the handle of the tap",
         "12079": "Move the faucet handle upwards",
-      "13130": "Push the faucet handle upwards",
+        "13130": "Push the faucet handle upwards",
         "39842": "Push the faucet handle upwards",
-      "85844": "Push the faucet handle upwards",
+        "85844": "Push the faucet handle upwards",
         "86473": "Move the faucet handle upwards",
         "22778": "Lift up the tap handle"
-
     },
     "push_faucet_handle_downwards": {
         "54314": "Push the faucet handle downwards",
         "29797": "Push the tap handle down",
         "16084": "Push the faucet handle down",
-      "44257": "Push the faucet handle downwards",
+        "44257": "Push the faucet handle downwards",
         "21784": "Push the faucet handle downwards",
         "19791": "Push the faucet handle down",
-       "93147": "Push down the handle of the tap",
+        "93147": "Push down the handle of the tap",
         "90945": "Tilt the faucet handle down",
         "78718": "Push the tap lever down then pull it up",
-      "12122": "Lift the handle of the tap, then push it down"
+        "12122": "Lift the handle of the tap, then push it down"
     },
-        "put_toothbrush_in_cup": {
+    "put_toothbrush_in_cup": {
         "30781": "Put the toothbrush inside the silver cup",
         "39502": "Pick up the teeth brush and  put it in the silver cup",
-            "81619": "Put the toothbrush in the silver cup",
+        "81619": "Put the toothbrush in the silver cup",
         "60556": "Pick the toothbrush on the counter and put it in the cup",
-            "13771": "Pick up the toothbrush and put it in the silver object",
+        "13771": "Pick up the toothbrush and put it in the silver object",
         "7967": "Put the toothbrush in the metal cup",
         "63787": "Place the toothbrush inside the silver cup",
-            "43253": "Get the toothbrush on top of the small blue object and place it in the silver cup"
-
+        "43253": "Get the toothbrush on top of the small blue object and place it in the silver cup"
     },
-        "put_toothpaste_in_cup":{
-            "14920": "Put the toothpaste inside the silver cup",
-            "34186": "Put the toothpaste in the metal cup",
-            "12273": "Pick the toothpaste and put it in the cup"
-        },
-  "turn_faucet_handle":{
-      "80492": "Turn the faucet handle to the left",
-      "93366": "Move the handle of the tap slightly to the left",
-    "81105": "Push the faucet handle to the left"
-  }
+    "put_toothpaste_in_cup": {
+        "14920": "Put the toothpaste inside the silver cup",
+        "34186": "Put the toothpaste in the metal cup",
+        "12273": "Pick the toothpaste and put it in the cup"
+    },
+    "turn_faucet_handle": {
+        "80492": "Turn the faucet handle to the left",
+        "93366": "Move the handle of the tap slightly to the left",
+        "81105": "Push the faucet handle to the left"
+    }
 }

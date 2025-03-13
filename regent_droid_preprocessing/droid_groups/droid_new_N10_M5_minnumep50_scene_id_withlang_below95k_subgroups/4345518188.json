@@ -1,4 +1,3 @@
-
 {
     "put_lid_on_pot": {
         "20992": "Put the glass lid on the black pot.",
@@ -25,7 +24,7 @@
         "78835": "Put the lid on the pot",
         "91545": "Put the glass lid on top of the black pot.",
         "7091": "Put the glass lid on the black pot",
-        "71628": "Put the glass lid on the black pot.",
+        "71628": "Put the glass lid on the black pot",
         "67602": "Pick up the lid from the table and put it on the pot",
         "63816": "Put the glass lid on the pot.",
         "3917": "Put the lid on the pot",
@@ -42,7 +41,6 @@
         "29976": "Place the glass lid on the black pot.",
         "63247": "Put the glass lid on the black pot",
         "61640": "Put the glass lid on the black pot."
-
     },
     "remove_lid_from_pot": {
         "26652": "Remove the glass lid from the black pot.",
@@ -67,11 +65,11 @@
         "40940": "Take the lid off the pot",
         "84282": "Remove the lid from the pot",
         "84368": "Take the lid off the pot",
-       "2855": "Remove the lid from the pot",
+        "2855": "Remove the lid from the pot",
         "71713": "Uncover the pot",
         "93906": "Cover the pot",
         "42749": "Cover the pot using the lid",
-         "32629": "Take the lid off of the pot."
+        "32629": "Take the lid off of the pot"
     },
     "put_towel_on_table": {
         "52745": "Put the white towel on the table",
@@ -85,147 +83,141 @@
         "81862": "Put the towel on the table",
         "88960": "Put the white towel on the table",
         "43386": "Put the towels on the table"
-
     },
     "hang_cloth_on_stand": {
-       "65034": "Pick the black cloth and hang it on the object",
+        "65034": "Pick the black cloth and hang it on the object",
         "71712": "Hang and unhang the white cloth from the stand then hang up the black cloth",
         "41017": "Hang the white cloth on the black stand",
-       "75817": "Hang the towel on the black stand",
+        "75817": "Hang the towel on the black stand",
         "63557": "Hang the white towel on the black stand",
         "78926": "Hang the towel on the stand then hang the black t-shirt on the stand",
         "76371": "Pick the black garment on the table and put it on the stand",
         "19046": "Place the white towel on the black stand",
-       "61564": "Hang the cloth on the black stand",
-       "42110": "Hang the towel on the stand",
-       "46210": "Hang the white cloth on top of the black cloth on the stand",
+        "61564": "Hang the cloth on the black stand",
+        "42110": "Hang the towel on the stand",
+        "46210": "Hang the white cloth on top of the black cloth on the stand",
         "45190": "Hang the tea towel on the stand",
-       "12936": "Hang the towel on the black stand",
-       "43147": "Hang the black cloth on the object",
-      "73395": "Hang the towel on the black stand",
+        "12936": "Hang the towel on the black stand",
+        "43147": "Hang the black cloth on the object",
+        "73395": "Hang the towel on the black stand",
         "46261": "Pick the black shirt on the table and put it on the stand",
         "84672": "Hang the white cloth on the black rod",
         "39689": "Hang the cloth on the black stand",
-       "91409": "Hang the black shirt on the stand",
-       "21857": "Hang the cloth on the stand",
-       "49015": "Take the cloth and hang it on the object",
-       "25976": "Put the towel on the black rod",
+        "91409": "Hang the black shirt on the stand",
+        "21857": "Hang the cloth on the stand",
+        "49015": "Take the cloth and hang it on the object",
+        "25976": "Put the towel on the black rod",
         "72181": "Pick the cloth and hang it on the object",
-       "94086": "Hang the black cloth on the object",
+        "94086": "Hang the black cloth on the object",
         "53144": "Hang the cloth on the stand",
-      "8617": "Hang the cloth on the stand",
+        "8617": "Hang the cloth on the stand",
         "65511": "Put the white towel on the black rod",
         "78499": "Hang the black shirt on the black stand",
-         "14921": "Pick the tea towel on the table and put it on the stand",
-          "36112": "Pick the tea towel on the table and hang it on the stand",
+        "14921": "Pick the tea towel on the table and put it on the stand",
+        "36112": "Pick the tea towel on the table and hang it on the stand",
         "9158": "Hang the white and blue towel on the black stand",
         "95116": "Hang the white cloth on the black stand",
-         "54600": "Hang the white cloth on the stand"
+        "54600": "Hang the white cloth on the stand"
     },
-      "remove_towel_put_on_table":{
-          "20025": "Remove the towel from the backrest of the grey chair and place it on the table",
+    "remove_towel_put_on_table": {
+        "20025": "Remove the towel from the backrest of the grey chair and place it on the table",
         "24635": "Remove the black towel from the chair backrest and place it on the table",
         "16957": "Take the tea towel off the stand and put it on the table",
         "62528": "Remove the tea towel from the stand and place it on the table",
-       "68189": "Remove the towel from the rack and put it on the table.",
+        "68189": "Remove the towel from the rack and put it on the table.",
         "39073": "Take the tea towel off the stand and place it on the table",
-         "29441": "Take the white towel off the black stand and place it on the table",
+        "29441": "Take the white towel off the black stand and place it on the table",
         "6413": "Drop the towel from the black stand to the table",
         "41239": "Unhang the cloth and put it on the table",
         "54588": "Drop the towel from the stand to the table",
-           "55108": "Take the cloth and put it on the table",
-          "52619": "Unhang the towel from the black stand and place it on the table",
+        "55108": "Take the cloth and put it on the table",
+        "52619": "Unhang the towel from the black stand and place it on the table",
         "69051": "Unhang the towel from the object and put it on the table",
         "6591": "Remove the towel from the clamp stand and put it n the table",
         "82397": "Take the tea towel on the stand and put it on the table",
-         "19962": "Remove the white towel from the black stand and put it on the table",
-         "49033": "Take the white cloth from the black hanger and place it on the table",
-         "42366": "Remove the white towel from the black stand",
-          "52190": "Remove the white towel from the black stand"
-      },
-        "put_cloth_on_table":{
-            "90216": "Put the white cloth on the table",
-            "9983": "Put the white cloth on the table",
-            "25889": "Put the white cloth on the table",
-           "62845": "Pick up the white cloth and put it on the table"
-
-        },
-
-     "remove_lid_put_on_tray":{
-          "81006": "Remove the glass lid from the black pot and put it on the white tray",
+        "19962": "Remove the white towel from the black stand and put it on the table",
+        "49033": "Take the white cloth from the black hanger and place it on the table",
+        "42366": "Remove the white towel from the black stand",
+        "52190": "Remove the white towel from the black stand"
+    },
+    "put_cloth_on_table": {
+        "90216": "Put the white cloth on the table",
+        "9983": "Put the white cloth on the table",
+        "25889": "Put the white cloth on the table",
+        "62845": "Pick up the white cloth and put it on the table"
+    },
+    "remove_lid_put_on_tray": {
+        "81006": "Remove the glass lid from the black pot and put it on the white tray",
         "3192": "Remove the glass lid from the black pot and put it on the white tray",
-       "91774": "Remove the lid from the black pot and put it on the white tray",
-       "5260": "Remove the glass lid from the pot and put it on the white tray",
+        "91774": "Remove the lid from the black pot and put it on the white tray",
+        "5260": "Remove the glass lid from the pot and put it on the white tray",
         "34001": "Remove the glass lid from the black pot and put it on the white tray",
         "62170": "Remove the glass lid from the black pot and put it on the tray",
-       "28901": "Remove the glass lid from the pot and put it on the white tray",
+        "28901": "Remove the glass lid from the pot and put it on the white tray",
         "43255": "Remove the glass lid from the black pot and put it on the tray",
         "31017": "Remove the lid from the pot and put it on the tray",
         "76126": "Remove the lid from the pot and put it on the tray",
-         "60926": "Remove the lid from the pot and put it on the tray",
-         "14785": "Move the lid to the tray",
-         "92030": "Put the lid on the tray"
-
-     },
-    "put_shirt_on_table":{
-         "84067": "Put the black shirt on the table",
-         "29332": "Put the black t-shirt on the table",
-         "15510": "Put the t-shirt on the table",
-         "46831": "Place the black t-shirt on the table",
-          "51605": "Put the black clothing on the table"
+        "60926": "Remove the lid from the pot and put it on the tray",
+        "14785": "Move the lid to the tray",
+        "92030": "Put the lid on the tray"
     },
-    "remove_shirt_put_on_table":{
-         "2152": "Take the black shirt off the stand and put it on the table",
-         "94322": "Drop the black t-shirt from the stand onto the table",
-         "57469": "Remove the black t-shirt from the black stand",
-         "28082": "Take the black shirt off the stand and put it on the table",
-         "63412": "Remove the black piece of clothing from the rack and put it on the table.",
-          "36345": "Remove the black t-shirt from the black stand and place it on the table",
-           "89937": "Remove the black t-shirt from the backrest of the grey chair and place it on the table",
-         "12195": "Move the black t-shirt from the backrest of the chair to the table",
-         "27936": "Remove the black cloth from the metallic object and put it on the table"
-
+    "put_shirt_on_table": {
+        "84067": "Put the black shirt on the table",
+        "29332": "Put the black t-shirt on the table",
+        "15510": "Put the t-shirt on the table",
+        "46831": "Place the black t-shirt on the table",
+        "51605": "Put the black clothing on the table"
     },
-      "hang_shirt_on_stand_or_frame":{
-          "61481": "Hang the black shirt on the back of the chair",
-           "32983": "Hang the black t-shirt on the black frame",
-          "33526": "Hang the black t-shirt on the black frame",
-           "42341": "Hang the black t-shirt on the black frame",
-           "57830": "Hang the black t-shirt on the stand",
-            "71042": "Put the black t-shirt on the black stand",
-            "76098": "Place the black shirt on the stand"
-      },
-      "remove_cloth_put_on_table":{
-           "92268": "Pick up the white cloth from the tripod and place it on the table.",
-            "5869": "Pick up the black cloth from the tripod and put it on the table.",
-          "17038": "Take the cloth on the back rest and put it on the table",
-          "24682": "Unhang the cloth from the stand",
-           "42202": "Unhang the cloth from the stand",
-            "41352": "Unhang the cloth from the stand",
-             "51168": "Pick the cloth and put it on the table"
-
-      },
-        "pick_up_put_on_tripod":{
-            "3585": "Pick up the towel and put it on the table. Pick up the towel from the table and put it on the tripod",
-           "35120": "Pick up the white towel from the table and put it on the black tripod.",
-            "67013": "Pick up the towel from the table and put it on the tripod.",
-            "19963": "Pick up the white towel from the table and put it on the tripod.",
-             "91083": "Pick up the cloth from the table and put it on the tripod."
-        },
-         "hang_cloth_on_chair":{
-             "17563": "Pick the cloth and put it on the back rest of the chair",
-            "4807": "Hang the towel on the backrest of the chair",
-            "36040": "Hang the white cloth on the back of the chair",
-              "45447": "Hang the white cloth on the back of the chair",
-            "17842": "Hang the towel on the backrest of the chair",
-              "71354": "Get the black cloth from the table and put it on the chair's backrest",
-             "34722": "Hang the white towel on the backrest of the grey chair"
-         },
-          "other_variations_of_remove_lid_from_pot_and_put_on_table":{
-           "65400": "Remove the lid from the pot and place it on the table",
-           "79682": "Remove the lid from the pot and put it on the table",
-           "23934": "Remove the glass lid from the black pot and put it on the table",
-            "44931": "Place the pot's lid onto the table",
-             "53747": "Put the glass lid on the table."
-          }
+    "remove_shirt_put_on_table": {
+        "2152": "Take the black shirt off the stand and put it on the table",
+        "94322": "Drop the black t-shirt from the stand onto the table",
+        "57469": "Remove the black t-shirt from the black stand",
+        "28082": "Take the black shirt off the stand and put it on the table",
+        "63412": "Remove the black piece of clothing from the rack and put it on the table.",
+        "36345": "Remove the black t-shirt from the black stand and place it on the table",
+        "89937": "Remove the black t-shirt from the backrest of the grey chair and place it on the table",
+        "12195": "Move the black t-shirt from the backrest of the chair to the table",
+        "27936": "Remove the black cloth from the metallic object and put it on the table"
+    },
+    "hang_shirt_on_stand_or_frame": {
+        "61481": "Hang the black shirt on the back of the chair",
+        "32983": "Hang the black t-shirt on the black frame",
+        "33526": "Hang the black t-shirt on the black frame",
+        "42341": "Hang the black t-shirt on the black frame",
+        "57830": "Hang the black t-shirt on the stand",
+        "71042": "Put the black t-shirt on the black stand",
+        "76098": "Place the black shirt on the stand"
+    },
+    "remove_cloth_put_on_table": {
+        "92268": "Pick up the white cloth from the tripod and place it on the table.",
+        "5869": "Pick up the black cloth from the tripod and put it on the table.",
+        "17038": "Take the cloth on the back rest and put it on the table",
+        "24682": "Unhang the cloth from the stand",
+        "42202": "Unhang the cloth from the stand",
+        "41352": "Unhang the cloth from the stand",
+        "51168": "Pick the cloth and put it on the table"
+    },
+    "pick_up_put_on_tripod": {
+        "3585": "Pick up the towel and put it on the table. Pick up the towel from the table and put it on the tripod",
+        "35120": "Pick up the white towel from the table and put it on the black tripod.",
+        "67013": "Pick up the towel from the table and put it on the tripod.",
+        "19963": "Pick up the white towel from the table and put it on the tripod.",
+        "91083": "Pick up the cloth from the table and put it on the tripod."
+    },
+    "hang_cloth_on_chair": {
+        "17563": "Pick the cloth and put it on the back rest of the chair",
+        "4807": "Hang the towel on the backrest of the chair",
+        "36040": "Hang the white cloth on the back of the chair",
+        "45447": "Hang the white cloth on the back of the chair",
+        "17842": "Hang the towel on the backrest of the chair",
+        "71354": "Get the black cloth from the table and put it on the chair's backrest",
+        "34722": "Hang the white towel on the backrest of the grey chair"
+    },
+    "other_variations_of_remove_lid_from_pot_and_put_on_table": {
+        "65400": "Remove the lid from the pot and place it on the table",
+        "79682": "Remove the lid from the pot and put it on the table",
+        "23934": "Remove the glass lid from the black pot and put it on the table",
+        "44931": "Place the pot's lid onto the table",
+        "53747": "Put the glass lid on the table."
+    }
 }

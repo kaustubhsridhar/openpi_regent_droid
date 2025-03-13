@@ -1,4 +1,3 @@
-
 {
     "move_right": {
         "93459": "Move the silver cutlery holder to the right.",
@@ -20,10 +19,10 @@
         "40763": "Put the candy bar in the lunch box",
         "12118": "Place the clear scoop in the lunchbox"
     },
-        "put_on_microwave": {
+    "put_on_microwave": {
         "89126": "Put the cookie cutter on the microwave",
         "55727": "Put the silver plate on the microwave",
-        "32846": "Put the clear container on top of the microwave.",
+        "32846": "Put the clear container on top of the microwave",
         "1626": "Put the blue lid on top of the microwave."
     },
     "put_on_coffee_machine": {
@@ -43,10 +42,9 @@
         "18143": "Put the wooden cooking stick upright in the utensils box",
         "94669": "Put the white serving spoon in the pot"
     },
-    "transfer_between_lunchboxes":{
+    "transfer_between_lunchboxes": {
         "88200": "Pick up the green object from the clear lunch box on the right and put it in the clear lunch box on the left",
         "55660": "Pick up the green object from the clear lunch box on the left and place it in the clear lunch box on the right",
         "61176": "Move the orange spoon from the left lunch box to the right lunch box"
     }
 }
-

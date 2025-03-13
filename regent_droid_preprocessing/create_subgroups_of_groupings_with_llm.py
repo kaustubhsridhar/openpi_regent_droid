@@ -46,18 +46,25 @@ def create_subgroups_of_groupings_with_llm(json_folder, llm_name, new_folder):
     # iterate over the saved jsons, verify if it can be loaded
     for file in os.listdir(new_folder):
         if file.endswith(".json"):
-            try:
-                new_dict = json.load(open(f"{new_folder}/{file}"))
-            except Exception as e:
-                print(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}: error loading {file} | {e}')
+            # print(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}: processing {new_folder}/{file}...')
+            new_dict = json.load(open(f"{new_folder}/{file}"))
 
             # next, see if there are any hallucinations by checking that for all subgroups, the keys and values are in the original dict
+            hallucination = False
             for subgroup_name, subgroup_dict in new_dict.items():
                 for key, value in subgroup_dict.items():
-                    try:
-                        assert all_dicts[file][key] == value
-                    except Exception as e:
-                        print(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}: hallucination found in {file} for subgroup {subgroup_name} with key {key} and value {value} | {e}')
+                    if key not in all_dicts[file]:
+                        print(f'{key} in {new_folder}/{file} not found in {json_folder}/{file}')
+                    
+                    if value != all_dicts[file][key]:
+                        hallucination = True
+                        print(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}: hallucination found in {new_folder}/{file} where we have {value} but the original has {all_dicts[file][key]}')
+                        # overwrite the value in the new dict and resave it
+                        new_dict[subgroup_name][key] = all_dicts[file][key]
+            if hallucination:
+                with open(f"{new_folder}/{file}", "w") as f:
+                    json.dump(new_dict, f, indent=4)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
