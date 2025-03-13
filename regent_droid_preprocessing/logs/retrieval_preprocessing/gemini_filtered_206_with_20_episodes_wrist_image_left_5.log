@@ -6578,3 +6578,52 @@ nohup: ignoring input
 2025-03-13 13:27:05,107 [INFO]: Using a batch size of 5086 (memory overhead 953.6MB)
   0%|          | 0/43 [00:00<?, ?it/s]  2%|▏         | 1/43 [00:00<00:09,  4.53it/s]  7%|▋         | 3/43 [00:00<00:04,  8.57it/s] 12%|█▏        | 5/43 [00:00<00:03,  9.98it/s] 16%|█▋        | 7/43 [00:00<00:03, 10.67it/s] 21%|██        | 9/43 [00:00<00:03, 11.14it/s] 26%|██▌       | 11/43 [00:01<00:02, 11.36it/s] 30%|███       | 13/43 [00:01<00:02, 11.63it/s] 35%|███▍      | 15/43 [00:01<00:02, 11.71it/s] 40%|███▉      | 17/43 [00:01<00:02, 11.37it/s] 44%|████▍     | 19/43 [00:01<00:02, 11.37it/s] 49%|████▉     | 21/43 [00:08<00:23,  1.05s/it] 53%|█████▎    | 23/43 [00:08<00:15,  1.33it/s] 58%|█████▊    | 25/43 [00:08<00:09,  1.84it/s] 63%|██████▎   | 27/43 [00:08<00:06,  2.48it/s] 67%|██████▋   | 29/43 [00:08<00:04,  3.26it/s] 72%|███████▏  | 31/43 [00:08<00:02,  4.16it/s] 77%|███████▋  | 33/43 [00:09<00:01,  5.14it/s] 81%|████████▏ | 35/43 [00:09<00:01,  6.13it/s] 86%|████████▌ | 37/43 [00:09<00:00,  6.99it/s] 91%|█████████ | 39/43 [00:09<00:00,  8.01it/s] 95%|█████████▌| 41/43 [00:09<00:00,  9.06it/s]100%|██████████| 43/43 [00:18<00:00,  1.42s/it]100%|██████████| 43/43 [00:18<00:00,  2.29it/s]
 2025-03-13 13:27:23,918 [INFO]: 	Computing best hyperparameters for index knn.index 03/13/2025, 13:27:23
+2025-03-13 13:28:40,582 [INFO]: 	>>> Finished "Computing best hyperparameters for index knn.index" in 76.6639 secs
+2025-03-13 13:28:40,583 [INFO]: The best hyperparameters are: efSearch=111
+2025-03-13 13:28:40,583 [INFO]: 	Compute fast metrics 03/13/2025, 13:28:40
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:00,  5.64it/s] 50%|█████     | 2/4 [00:00<00:00,  7.48it/s] 75%|███████▌  | 3/4 [00:00<00:00,  8.38it/s] 75%|███████▌  | 3/4 [00:00<00:00,  6.30it/s]
+2025-03-13 13:29:08,349 [INFO]: 	>>> Finished "Compute fast metrics" in 27.7666 secs
+2025-03-13 13:29:08,350 [INFO]: 		>>> Finished "-> Adding the vectors to the index" in 123.2433 secs
+2025-03-13 13:29:08,350 [INFO]: {
+2025-03-13 13:29:08,350 [INFO]: 	index_key: HNSW32
+2025-03-13 13:29:08,350 [INFO]: 	index_param: efSearch=111
+2025-03-13 13:29:08,350 [INFO]: 	index_path: knn.index
+2025-03-13 13:29:08,350 [INFO]: 	size in bytes: 2045974914
+2025-03-13 13:29:08,350 [INFO]: 	avg_search_speed_ms: 8.398989546656184
+2025-03-13 13:29:08,350 [INFO]: 	99p_search_speed_ms: 13.40539513621479
+2025-03-13 13:29:08,350 [INFO]: 	reconstruction error %: 0.0
+2025-03-13 13:29:08,350 [INFO]: 	nb vectors: 10392
+2025-03-13 13:29:08,350 [INFO]: 	vectors dimension: 49152
+2025-03-13 13:29:08,350 [INFO]: 	compression ratio: 0.9986194464161451
+2025-03-13 13:29:08,350 [INFO]: }
+2025-03-13 13:29:08,350 [INFO]: 	>>> Finished "Creating the index" in 123.2449 secs
+2025-03-13 13:29:08,350 [INFO]: >>> Finished "Launching the whole pipeline" in 123.2745 secs
+2025-03-13 13:29:10: [retrieval_preprocessing] calculating distances ...
+2025-03-13 13:29:13: [retrieval_preprocessing] finished and saved retrieval indices for episode 21377 [episode count 19/20]
+2025-03-13 13:29:13: [retrieval_preprocessing] finished for 4385851547_Place Plate in Dishwasher [chosen_id count 6/260]
+2025-03-13 13:29:19: [retrieval_preprocessing] concatenated all embeddings and indices for 20 episodes for 440287856_put_black_objects_in_drawer_and_close [chosen_id count 7/260]
+2025-03-13 13:29:19: [retrieval_preprocessing] we have num_total=11537 embedding_dim=49152
+[retrieval_preprocessing] for episode 25090 [episode count 0/20], we have num_retrieval=np.int64(10952) num_query=np.int64(585)
+2025-03-13 13:29:23,115 [INFO]: Using 8 omp threads (processes), consider increasing --nb_cores if you have more
+2025-03-13 13:29:24,830 [INFO]: Launching the whole pipeline 03/13/2025, 13:29:24
+2025-03-13 13:29:24,830 [INFO]: Reading total number of vectors and dimension 03/13/2025, 13:29:24
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 2718.28it/s]
+2025-03-13 13:29:24,860 [INFO]: There are 10952 embeddings of dim 49152
+2025-03-13 13:29:24,861 [INFO]: >>> Finished "Reading total number of vectors and dimension" in 0.0303 secs
+2025-03-13 13:29:24,861 [INFO]: 	Compute estimated construction time of the index 03/13/2025, 13:29:24
+2025-03-13 13:29:24,861 [INFO]: 		-> Train: 16.7 minutes
+2025-03-13 13:29:24,861 [INFO]: 		-> Add: 6.0 seconds
+2025-03-13 13:29:24,861 [INFO]: 		Total: 16.8 minutes
+2025-03-13 13:29:24,861 [INFO]: 	>>> Finished "Compute estimated construction time of the index" in 0.0001 secs
+2025-03-13 13:29:24,861 [INFO]: 	Checking that your have enough memory available to create the index 03/13/2025, 13:29:24
+2025-03-13 13:29:24,861 [INFO]: 2.2GB of memory will be needed to build the index (more might be used if you have more)
+2025-03-13 13:29:24,861 [INFO]: 	>>> Finished "Checking that your have enough memory available to create the index" in 0.0002 secs
+2025-03-13 13:29:24,861 [INFO]: 	Selecting most promising index types given data characteristics 03/13/2025, 13:29:24
+2025-03-13 13:29:24,861 [INFO]: 	>>> Finished "Selecting most promising index types given data characteristics" in 0.0000 secs
+2025-03-13 13:29:24,861 [INFO]: 	Creating the index 03/13/2025, 13:29:24
+2025-03-13 13:29:24,861 [INFO]: 		-> Instanciate the index HNSW32 03/13/2025, 13:29:24
+2025-03-13 13:29:24,863 [INFO]: 		>>> Finished "-> Instanciate the index HNSW32" in 0.0014 secs
+2025-03-13 13:29:24,863 [INFO]: 		-> Adding the vectors to the index 03/13/2025, 13:29:24
+2025-03-13 13:29:24,863 [INFO]: The memory available for adding the vectors is 48.0GB(total available - used by the index)
+2025-03-13 13:29:24,863 [INFO]: Using a batch size of 5086 (memory overhead 953.6MB)
+  0%|          | 0/46 [00:00<?, ?it/s]  2%|▏         | 1/46 [00:00<00:07,  6.38it/s]  9%|▊         | 4/46 [00:00<00:02, 15.58it/s] 13%|█▎        | 6/46 [00:00<00:02, 16.16it/s] 17%|█▋        | 8/46 [00:00<00:02, 14.58it/s] 22%|██▏       | 10/46 [00:00<00:02, 14.67it/s] 26%|██▌       | 12/46 [00:00<00:02, 15.67it/s] 30%|███       | 14/46 [00:00<00:01, 16.61it/s] 35%|███▍      | 16/46 [00:01<00:01, 16.72it/s] 39%|███▉      | 18/46 [00:01<00:01, 16.58it/s] 43%|████▎     | 20/46 [00:01<00:01, 16.40it/s] 48%|████▊     | 22/46 [00:07<00:24,  1.01s/it] 52%|█████▏    | 24/46 [00:07<00:16,  1.37it/s] 57%|█████▋    | 26/46 [00:07<00:10,  1.88it/s] 61%|██████    | 28/46 [00:08<00:07,  2.53it/s] 65%|██████▌   | 30/46 [00:08<00:04,  3.33it/s] 70%|██████▉   | 32/46 [00:08<00:03,  4.28it/s] 74%|███████▍  | 34/46 [00:08<00:02,  5.28it/s] 78%|███████▊  | 36/46 [00:08<00:01,  6.35it/s] 83%|████████▎ | 38/46 [00:08<00:01,  7.48it/s] 87%|████████▋ | 40/46 [00:09<00:00,  8.47it/s]

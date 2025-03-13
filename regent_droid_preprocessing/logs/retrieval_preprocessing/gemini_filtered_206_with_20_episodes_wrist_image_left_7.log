@@ -5259,3 +5259,50 @@ nohup: ignoring input
 2025-03-13 13:26:49,298 [INFO]: Using a batch size of 5086 (memory overhead 953.6MB)
   0%|          | 0/35 [00:00<?, ?it/s]  3%|▎         | 1/35 [00:00<00:04,  7.17it/s] 14%|█▍        | 5/35 [00:00<00:01, 23.18it/s] 29%|██▊       | 10/35 [00:00<00:00, 32.08it/s] 43%|████▎     | 15/35 [00:00<00:00, 36.48it/s] 57%|█████▋    | 20/35 [00:00<00:00, 38.86it/s] 69%|██████▊   | 24/35 [00:04<00:03,  2.97it/s] 83%|████████▎ | 29/35 [00:04<00:01,  4.48it/s] 97%|█████████▋| 34/35 [00:04<00:00,  6.47it/s]100%|██████████| 35/35 [00:08<00:00,  3.89it/s]
 2025-03-13 13:26:58,298 [INFO]: 	Computing best hyperparameters for index knn.index 03/13/2025, 13:26:58
+2025-03-13 13:28:14,340 [INFO]: 	>>> Finished "Computing best hyperparameters for index knn.index" in 76.0410 secs
+2025-03-13 13:28:14,340 [INFO]: The best hyperparameters are: efSearch=175
+2025-03-13 13:28:14,341 [INFO]: 	Compute fast metrics 03/13/2025, 13:28:14
+  0%|          | 0/4 [00:00<?, ?it/s] 50%|█████     | 2/4 [00:00<00:00, 16.52it/s] 75%|███████▌  | 3/4 [00:00<00:00, 16.36it/s]
+2025-03-13 13:28:36,320 [INFO]: 	>>> Finished "Compute fast metrics" in 21.9795 secs
+2025-03-13 13:28:36,322 [INFO]: 		>>> Finished "-> Adding the vectors to the index" in 107.0239 secs
+2025-03-13 13:28:36,322 [INFO]: {
+2025-03-13 13:28:36,322 [INFO]: 	index_key: HNSW15
+2025-03-13 13:28:36,322 [INFO]: 	index_param: efSearch=175
+2025-03-13 13:28:36,322 [INFO]: 	index_path: knn.index
+2025-03-13 13:28:36,322 [INFO]: 	size in bytes: 1665241810
+2025-03-13 13:28:36,322 [INFO]: 	avg_search_speed_ms: 9.205089417855644
+2025-03-13 13:28:36,322 [INFO]: 	99p_search_speed_ms: 13.928372727241374
+2025-03-13 13:28:36,322 [INFO]: 	reconstruction error %: 0.0
+2025-03-13 13:28:36,322 [INFO]: 	nb vectors: 8464
+2025-03-13 13:28:36,322 [INFO]: 	vectors dimension: 49152
+2025-03-13 13:28:36,322 [INFO]: 	compression ratio: 0.9993083899328711
+2025-03-13 13:28:36,322 [INFO]: }
+2025-03-13 13:28:36,322 [INFO]: 	>>> Finished "Creating the index" in 107.0253 secs
+2025-03-13 13:28:36,322 [INFO]: >>> Finished "Launching the whole pipeline" in 107.0564 secs
+2025-03-13 13:28:38: [retrieval_preprocessing] calculating distances ...
+2025-03-13 13:28:40: [retrieval_preprocessing] finished and saved retrieval indices for episode 9201 [episode count 11/20]
+[retrieval_preprocessing] for episode 65193 [episode count 12/20], we have num_retrieval=np.int64(8611) num_query=np.int64(389)
+2025-03-13 13:28:41,054 [INFO]: Using 8 omp threads (processes), consider increasing --nb_cores if you have more
+2025-03-13 13:28:42,681 [INFO]: Launching the whole pipeline 03/13/2025, 13:28:42
+2025-03-13 13:28:42,681 [INFO]: Reading total number of vectors and dimension 03/13/2025, 13:28:42
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1642.25it/s]
+2025-03-13 13:28:42,706 [INFO]: There are 8611 embeddings of dim 49152
+2025-03-13 13:28:42,706 [INFO]: >>> Finished "Reading total number of vectors and dimension" in 0.0250 secs
+2025-03-13 13:28:42,706 [INFO]: 	Compute estimated construction time of the index 03/13/2025, 13:28:42
+2025-03-13 13:28:42,707 [INFO]: 		-> Train: 16.7 minutes
+2025-03-13 13:28:42,707 [INFO]: 		-> Add: 4.7 seconds
+2025-03-13 13:28:42,707 [INFO]: 		Total: 16.7 minutes
+2025-03-13 13:28:42,707 [INFO]: 	>>> Finished "Compute estimated construction time of the index" in 0.0001 secs
+2025-03-13 13:28:42,707 [INFO]: 	Checking that your have enough memory available to create the index 03/13/2025, 13:28:42
+2025-03-13 13:28:42,707 [INFO]: 1.7GB of memory will be needed to build the index (more might be used if you have more)
+2025-03-13 13:28:42,707 [INFO]: 	>>> Finished "Checking that your have enough memory available to create the index" in 0.0002 secs
+2025-03-13 13:28:42,707 [INFO]: 	Selecting most promising index types given data characteristics 03/13/2025, 13:28:42
+2025-03-13 13:28:42,707 [INFO]: 	>>> Finished "Selecting most promising index types given data characteristics" in 0.0000 secs
+2025-03-13 13:28:42,707 [INFO]: 	Creating the index 03/13/2025, 13:28:42
+2025-03-13 13:28:42,707 [INFO]: 		-> Instanciate the index HNSW15 03/13/2025, 13:28:42
+2025-03-13 13:28:42,708 [INFO]: 		>>> Finished "-> Instanciate the index HNSW15" in 0.0008 secs
+2025-03-13 13:28:42,708 [INFO]: 		-> Adding the vectors to the index 03/13/2025, 13:28:42
+2025-03-13 13:28:42,708 [INFO]: The memory available for adding the vectors is 48.4GB(total available - used by the index)
+2025-03-13 13:28:42,708 [INFO]: Using a batch size of 5086 (memory overhead 953.6MB)
+  0%|          | 0/35 [00:00<?, ?it/s]  3%|▎         | 1/35 [00:00<00:03,  8.51it/s] 14%|█▍        | 5/35 [00:00<00:01, 24.96it/s] 31%|███▏      | 11/35 [00:00<00:00, 38.48it/s] 49%|████▊     | 17/35 [00:00<00:00, 44.94it/s] 63%|██████▎   | 22/35 [00:04<00:03,  3.66it/s] 80%|████████  | 28/35 [00:04<00:01,  5.69it/s] 94%|█████████▍| 33/35 [00:04<00:00,  7.84it/s]100%|██████████| 35/35 [00:07<00:00,  4.43it/s]
+2025-03-13 13:28:50,610 [INFO]: 	Computing best hyperparameters for index knn.index 03/13/2025, 13:28:50
