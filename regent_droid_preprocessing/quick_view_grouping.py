@@ -11,6 +11,9 @@ from copy import deepcopy
 import matplotlib.pyplot as plt
 os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"] = "false" # This prevents JAX from preallocating most of the GPU memory.
 
+def tuple_to_str(tuple_obj):
+	return "_".join([str(elem) for elem in tuple_obj])
+
 def get_ep_idx_to_info(total_episodes):
 	# constants
 	ds_name = "droid_new"
@@ -97,6 +100,10 @@ def add_text_overlay(frame, lang_1, lang_2, lang_3):
     return frame
 
 def group_by_chosen_id(chosen_id, only_count, total_episodes, min_num_episodes, N, M):	
+	ds_name = "droid_new"
+	ds_fol = f"{ds_name}_broken_up"
+	save_path_stub = f"droid_groups/{ds_name}_N{N}_M{M}_minnumep{min_num_episodes}_{chosen_id}_withlang_below{total_episodes // 1000}k"
+
 	ep_idx_to_info = get_ep_idx_to_info(total_episodes)
 	chosen_id_to_ep_idxs = get_chosen_id_to_ep_idxs(chosen_id, ep_idx_to_info)
 	myprint(f'got the info dicts: there are {len(ep_idx_to_info)} groupings\n')
@@ -105,6 +112,15 @@ def group_by_chosen_id(chosen_id, only_count, total_episodes, min_num_episodes, 
 	chosen_id_to_ep_idxs_with_atleast_min_num_episodes = {chosen_id: ep_idxs for chosen_id, ep_idxs in chosen_id_to_ep_idxs.items() if len(ep_idxs) >= min_num_episodes}
 	myprint(f'number of groupings with atleast {min_num_episodes} episodes [in the first {total_episodes} episodes]: {len(chosen_id_to_ep_idxs_with_atleast_min_num_episodes)}\n')
 	print('these groupings have chosen_id-->num_episodes as\n\n', {chosen_id: len(ep_idxs) for chosen_id, ep_idxs in chosen_id_to_ep_idxs_with_atleast_min_num_episodes.items()})
+	
+	# make a dict of chosen_id to episode language annotations and save as json
+	os.makedirs(save_path_stub, exist_ok=True)
+	for chosen_id, ep_idxs in chosen_id_to_ep_idxs_with_atleast_min_num_episodes.items():
+		this_chosen_id_to_ep_lang_annotations = {ep_idx: ep_idx_to_info[ep_idx]["language_instruction"] for ep_idx in ep_idxs}
+		with open(f"{save_path_stub}/{tuple_to_str(chosen_id)}.json", "w") as json_file:
+			json.dump(this_chosen_id_to_ep_lang_annotations, json_file, indent=4)
+	print(f'\nsaved chosen_id_to_ep_lang_annotations to {save_path_stub}/')
+	
 	if only_count:
 		return
 
@@ -121,8 +137,6 @@ def group_by_chosen_id(chosen_id, only_count, total_episodes, min_num_episodes, 
 	myprint(f'{max_num_steps=}')
 
 	# load videos for each episode
-	ds_name = "droid_new"
-	ds_fol = f"{ds_name}_broken_up"
 	ep_idx_to_video = {}
 	for i in range(N):
 		for j in range(M):
@@ -160,7 +174,7 @@ def group_by_chosen_id(chosen_id, only_count, total_episodes, min_num_episodes, 
 	
 	# make gif
 	os.makedirs("droid_groups", exist_ok=True)
-	save_path = f"droid_groups/{ds_name}_N{N}_M{M}_minnumep{min_num_episodes}_{chosen_id}_withlang_below{total_episodes // 1000}k.gif"
+	save_path = f"{save_path_stub}.gif"
 	as_gif(big_frame_list, path=save_path)
 	myprint(f'saved gif to {save_path}')
 

@@ -28,7 +28,7 @@ nohup python -u breakup_droid_dataset.py &> logs/breakup_droid_new.log &
 ```bash
 python quick_view_grouping.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --N 10 --M 5
 ```
-If you only want to count the number of groupings, you can do:
+If you only want to count the number of groupings or just read the json with the language instructions in each grouping, you can do:
 ```bash
 python quick_view_grouping.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --only_count
 ```
@@ -58,6 +58,16 @@ nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_
 If you simply want to embed a single image with pi0 to understand the embedding space, you can do:
 ```bash
 python simple_embed_with_openpi.py
+```
+
+You also have to embed and retrieval preprocess some demos we collected in our setup for some tasks (we will not evaluate on these tasks but on other unseen tasks). The method to collect is detailed below but the processing code is here:
+```bash
+# embed (based on code created for inference time demo preprocessing below)
+CUDA_VISIBLE_DEVICES=4 nohup python -u process_collected_demos.py --dir_of_dirs=collected_demos_training &> logs/process_collected_demos/training.txt &
+
+# retrieval_preprocessing
+nohup python -u retrieve_within_collected_demo_groups.py &> logs/retrieval_preprocessing/training.log &
+
 ```
 
 * Quick view of retrieval preprocessed training sequences with different embedding types
@@ -141,18 +151,7 @@ rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/2025-0
 
 # Process the collected demos; give a few prompts to randomly sample from for each demo (assumtpions: any of these prompts would fit the demo)
 cd regent_droid_preprocessing
-CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-04 --prompts "pick up the pokeball and put it in the bowl" &> logs/process_collected_demos/pokeball_bowl.txt &
-
-CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-08 --prompts "pick up the pokeball and put it in the bowl" &> logs/process_collected_demos/pokeball_bowl_2objs_leftright.txt &
-
-CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-09_bowlx1y0 --prompts "pick up the pokeball and put it in the bowl" &> logs/process_collected_demos/pokeball_bowl_3objs_bowlx1y0.txt &
-
-CUDA_VISIBLE_DEVICES=4 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-09_move_left_idli_plate_apple --prompts "move the idli plate to the left" &> logs/process_collected_demos/move_left_idli_plate_apple.txt &
-
-CUDA_VISIBLE_DEVICES=4 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-09_move_right_idli_plate --prompts "move the idli plate to the right" &> logs/process_collected_demos/move_right_idli_plate.txt &
-
-CUDA_VISIBLE_DEVICES=4 nohup python -u process_collected_demos.py --dir=collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple --prompts "move the idli plate forwards" &> logs/process_collected_demos/move_forwards_idli_plate_topleftapple.txt &
-
+CUDA_VISIBLE_DEVICES=4 nohup python -u process_collected_demos.py --dir_of_dirs=collected_demos &> logs/process_collected_demos/inference.txt &
 
 # After running the above command, you will see a new file in each demo directory as follows:
 # │   │   ├── demo_0_taken_at_2025-03-04_00-17-49

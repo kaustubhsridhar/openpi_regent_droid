@@ -8,8 +8,8 @@ init_logging()
 
 # params
 config_name = "pi0_fast_droid_regent_with_interpolation"
-exp_name = "ninth_try_with_interpolation"
-checkpoint_step = 3000
+exp_name = "tenth_try_with_interpolation_firstnonlora"
+checkpoint_step = 300
 demos_dir = "regent_droid_preprocessing/collected_demos/2025-03-09_bowlx0y0"
 
 # setup
@@ -24,7 +24,7 @@ demo_path = "regent_droid_preprocessing/collected_demos/2025-03-09_bowlx1y0/2025
 demo = np.load(demo_path)
 
 # run inference on a example 
-camera = "right"
+camera = "left"
 example = {
         "query_image": demo[f"{camera}_image"][0],
         "query_wrist_image": demo[f"wrist_image"][0],

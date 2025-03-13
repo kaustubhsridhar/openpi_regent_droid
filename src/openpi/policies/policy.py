@@ -119,7 +119,7 @@ class RegentPolicy(BasePolicy):
         logger.info(f'loading demos from {demos_dir}...')
         self._demos = {demo_idx: np.load(f"{demos_dir}/{folder}/processed_demo.npz") for demo_idx, folder in enumerate(os.listdir(demos_dir)) if os.path.isdir(f"{demos_dir}/{folder}")}
         self._all_indices = np.array([(ep_idx, step_idx) for ep_idx in list(self._demos.keys()) for step_idx in range(self._demos[ep_idx]["actions"].shape[0])])
-        _all_embeddings = np.concatenate([self._demos[ep_idx]["embeddings"] for ep_idx in list(self._demos.keys())])
+        _all_embeddings = np.concatenate([self._demos[ep_idx]["wrist_image_embeddings"] for ep_idx in list(self._demos.keys())])
         assert _all_embeddings.shape == (len(self._all_indices), EMBED_DIM), f"{_all_embeddings.shape=}"
         self._knn_k = self._model.num_retrieved_observations
         print()
@@ -156,8 +156,8 @@ class RegentPolicy(BasePolicy):
             more_obs[f"retrieved_{ct}_prompt"] = self._demos[ep_idx]["prompt"].item()
         # Compute exp_lamda_distances if use_action_interpolation
         if self._use_action_interpolation:
-            first_embedding = self._demos[retrieved_indices[0, 0, 0]]["embeddings"][retrieved_indices[0, 0, 1]]
-            distances = [0.0] + [np.linalg.norm(self._demos[ep_idx]["embeddings"][step_idx:step_idx+1] - first_embedding) for ep_idx, step_idx in retrieved_indices[0, 1:]]
+            first_embedding = self._demos[retrieved_indices[0, 0, 0]]["wrist_image_embeddings"][retrieved_indices[0, 0, 1]]
+            distances = [0.0] + [np.linalg.norm(self._demos[ep_idx]["wrist_image_embeddings"][step_idx:step_idx+1] - first_embedding) for ep_idx, step_idx in retrieved_indices[0, 1:]]
             distances.append(np.linalg.norm(query_embedding - first_embedding))
             print(f'distances: {distances}')
             more_obs["exp_lamda_distances"] = np.exp(-self._lamda * np.array(distances)).reshape(-1, 1)
@@ -255,7 +255,7 @@ class RetrieveAndPlayPolicy(BasePolicy):
         logger.info(f'loading demos from {demos_dir}...')
         self._demos = {demo_idx: np.load(f"{demos_dir}/{folder}/processed_demo.npz") for demo_idx, folder in enumerate(os.listdir(demos_dir)) if os.path.isdir(f"{demos_dir}/{folder}")}
         self._all_indices = np.array([(ep_idx, step_idx) for ep_idx in list(self._demos.keys()) for step_idx in range(self._demos[ep_idx]["actions"].shape[0])])
-        _all_embeddings = np.concatenate([self._demos[ep_idx]["embeddings"] for ep_idx in list(self._demos.keys())])
+        _all_embeddings = np.concatenate([self._demos[ep_idx]["wrist_image_embeddings"] for ep_idx in list(self._demos.keys())])
         assert _all_embeddings.shape == (len(self._all_indices), EMBED_DIM), f"{_all_embeddings.shape=}"
         self._knn_k = 1 # retrieved the 1 nearest neighbor
         print()
