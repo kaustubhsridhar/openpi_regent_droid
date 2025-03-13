@@ -10,40 +10,27 @@ os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"] = "false" # This prevents JAX from p
 
 def get_all_fol_names(ds_name, args):
 	ds_fol = f"{ds_name}_broken_up"
-	ds_emb_fol = f"{ds_name}_broken_up_embeddings/chosenID{args.chosen_id}_totepisodes{args.total_episodes}_minnumepisodes{args.min_num_episodes_in_each_grouping}"
+	ds_emb_fol = f"{ds_name}_broken_up_embeddings/chosenID{args.chosen_id}_numepisodes{args.num_episodes_in_each_grouping}"
 	os.makedirs(f"{ds_name}_broken_up_embeddings", exist_ok=True)
 	os.makedirs(ds_emb_fol, exist_ok=True)
-	indices_fol = f"{ds_name}_broken_up_indices_and_distances/chosenID{args.chosen_id}_totepisodes{args.total_episodes}_minnumepisodes{args.min_num_episodes_in_each_grouping}_numepisodes2retrievefrom{args.num_episodes_to_retrieve_from_in_each_grouping}_embtype{args.embedding_type}_knnk{args.knn_k}"
+	indices_fol = f"{ds_name}_broken_up_indices_and_distances/chosenID{args.chosen_id}_numepisodes{args.num_episodes_in_each_grouping}_embtype{args.embedding_type}_knnk{args.knn_k}"
 	os.makedirs(f"{ds_name}_broken_up_indices_and_distances", exist_ok=True)
 	os.makedirs(indices_fol, exist_ok=True)
 	return ds_fol, ds_emb_fol, indices_fol
 
-def group_by_chosen_id(chosen_id, total_episodes, min_num_episodes):	
-	ep_idx_to_info = get_ep_idx_to_info(total_episodes)
-	chosen_id_to_ep_idxs = get_chosen_id_to_ep_idxs(chosen_id, ep_idx_to_info)
-	myprint(f'got the info dicts: there are {len(ep_idx_to_info)} groupings\n')
-
-	# create histogram of num_ep_idxs in chosen_id_to_ep_idxs
-	chosen_id_to_ep_idxs_with_atleast_min_num_episodes = {chosen_id: ep_idxs for chosen_id, ep_idxs in chosen_id_to_ep_idxs.items() if len(ep_idxs) >= min_num_episodes}
-	myprint(f'number of groupings with atleast {min_num_episodes} episodes [in the first {total_episodes} episodes]: {len(chosen_id_to_ep_idxs_with_atleast_min_num_episodes)}\n')
-	print('these groupings have chosen_id-->num_episodes as\n\n', {chosen_id: len(ep_idxs) for chosen_id, ep_idxs in chosen_id_to_ep_idxs_with_atleast_min_num_episodes.items()})
-
-	return chosen_id_to_ep_idxs_with_atleast_min_num_episodes
-
-def embed_episodes(chosen_id_to_ep_idxs_with_atleast_min_num_episodes, ds_fol, ds_emb_fol, num_episodes_to_retrieve_from):
+def embed_episodes(chosen_id_to_ep_idxs, ds_fol, ds_emb_fol, num_episodes_to_retrieve_from):
 	# init setup
-	num_groupings = len(chosen_id_to_ep_idxs_with_atleast_min_num_episodes)
+	num_groupings = len(chosen_id_to_ep_idxs)
 
 	# embedding model
 	dinov2 = load_dinov2()
 	
 	# main loop
-	for chosen_id_count, (chosen_id, ep_idxs) in enumerate(chosen_id_to_ep_idxs_with_atleast_min_num_episodes.items()):
+	for chosen_id_count, (chosen_id, ep_idxs) in enumerate(chosen_id_to_ep_idxs.items()):
 		# cap ep_idxs
-		ep_idxs_capped = ep_idxs[:num_episodes_to_retrieve_from]
-		assert len(ep_idxs_capped) == num_episodes_to_retrieve_from
+		assert len(ep_idxs) == num_episodes_to_retrieve_from
 		
-		for ep_count, ep_idx in enumerate(ep_idxs_capped):
+		for ep_count, ep_idx in enumerate(ep_idxs):
 			if not os.path.exists(f"{ds_emb_fol}/episode_{ep_idx}_embeddings__exterior_image_1_left.npy"):
 				# embed the three videos in the episode
 				# read
@@ -68,24 +55,23 @@ def embed_episodes(chosen_id_to_ep_idxs_with_atleast_min_num_episodes, ds_fol, d
 		myprint(f'[embed_episodes] finished embedding all episodes for {chosen_id} [chosen_id count {chosen_id_count}/{num_groupings}]')
 	myprint(f'[embed_episodes] done!')
 
-def retrieval_preprocessing(chosen_id_to_ep_idxs_with_atleast_min_num_episodes, ds_emb_fol, indices_fol, num_episodes_to_retrieve_from, nb_cores_autofaiss, knn_k, embedding_type):
+def retrieval_preprocessing(chosen_id_to_ep_idxs, ds_emb_fol, indices_fol, num_episodes_to_retrieve_from, nb_cores_autofaiss, knn_k, embedding_type):
 	myprint(f'[retrieval_preprocessing] starting retrieval preprocessing for {embedding_type}')
 	
 	# init setup
-	num_groupings = len(chosen_id_to_ep_idxs_with_atleast_min_num_episodes)
+	num_groupings = len(chosen_id_to_ep_idxs)
 	all_embedding_types = ["embeddings__exterior_image_1_left", "embeddings__wrist_image_left"]
 
 	# main loop
-	for chosen_id_count, (chosen_id, ep_idxs) in enumerate(chosen_id_to_ep_idxs_with_atleast_min_num_episodes.items()):
+	for chosen_id_count, (chosen_id, ep_idxs) in enumerate(chosen_id_to_ep_idxs.items()):
 		# cap ep_idxs
-		ep_idxs_capped = ep_idxs[:num_episodes_to_retrieve_from]
-		assert len(ep_idxs_capped) == num_episodes_to_retrieve_from
+		assert len(ep_idxs) == num_episodes_to_retrieve_from
 
 		# collect all embeddings and indices
 		all_embeddings = []
 		all_embeddings_map = {}
 		all_indices = []
-		for ep_count, ep_idx in enumerate(ep_idxs_capped):
+		for ep_count, ep_idx in enumerate(ep_idxs):
 			if embedding_type in all_embedding_types:
 				ep_embeddings = np.load(f"{ds_emb_fol}/episode_{ep_idx}_{embedding_type}.npy")
 				all_embeddings.append(ep_embeddings)
@@ -106,7 +92,7 @@ def retrieval_preprocessing(chosen_id_to_ep_idxs_with_atleast_min_num_episodes, 
 		myprint(f'[retrieval_preprocessing] we have {num_total=} {embedding_dim=}')
 
 		# for each episode, retrieve from all other embeddings
-		for ep_count, ep_idx in enumerate(ep_idxs_capped):
+		for ep_count, ep_idx in enumerate(ep_idxs):
 			if os.path.exists(f"{indices_fol}/episode_{ep_idx}.npz"):
 				myprint(f'[retrieval_preprocessing] skipping episode {ep_idx} [episode count {ep_count}/{num_episodes_to_retrieve_from}]')
 				continue
@@ -185,10 +171,8 @@ def retrieval_preprocessing(chosen_id_to_ep_idxs_with_atleast_min_num_episodes, 
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--chosen_id", type=str, default="scene_id_and_object_name", choices=["location_name", "object_name", "scene_id", "scene_id_and_object_name", "scene_id_and_object_name_and_task_category"])
-	parser.add_argument("--total_episodes", type=int, default=95658)
-	parser.add_argument("--min_num_episodes_in_each_grouping", type=int, default=50)
-	parser.add_argument("--num_episodes_to_retrieve_from_in_each_grouping", type=int, default=50)
+	parser.add_argument("--chosen_id", type=str, default="scene_id", choices=["location_name", "object_name", "scene_id", "scene_id_and_object_name", "scene_id_and_object_name_and_task_category"])
+	parser.add_argument("--num_episodes_in_each_grouping", type=int, default=20)
 	parser.add_argument("--nb_cores_autofaiss", type=int, default=8)
 	parser.add_argument("--knn_k", type=int, default=100, help="number of nearest neighbors to retrieve")
 	parser.add_argument("--embedding_type", type=str, default="embeddings__wrist_image_1_left", choices=["embeddings__exterior_image_1_left", "embeddings__wrist_image_left", "both"]) # "embeddings__exterior_image_2_left", 
@@ -196,20 +180,22 @@ if __name__ == "__main__":
 
 	# setup
 	ds_name = "droid_new"
-	chosen_id_to_ep_idxs_with_atleast_min_num_episodes = group_by_chosen_id(args.chosen_id, args.total_episodes, args.min_num_episodes_in_each_grouping)
+	with open(f"droid_groups/droid_new_superdict_of_subgroups_with_atleast_{args.num_episodes_in_each_grouping}_episodes.json", "r") as f:
+		superdict = json.load(f)
+	chosen_id_to_ep_idxs = {k: [int(subk) for subk in subdict.keys()][:args.num_episodes_in_each_grouping] for k, subdict in superdict.items()}
 	ds_fol, ds_emb_fol, indices_fol = get_all_fol_names(ds_name, args)
 
 	# # embed episodes
-	# embed_episodes(chosen_id_to_ep_idxs_with_atleast_min_num_episodes=chosen_id_to_ep_idxs_with_atleast_min_num_episodes, 
+	# embed_episodes(chosen_id_to_ep_idxs=chosen_id_to_ep_idxs, 
 	# 				ds_fol=ds_fol, 
 	# 				ds_emb_fol=ds_emb_fol, 
-	# 				num_episodes_to_retrieve_from=args.num_episodes_to_retrieve_from_in_each_grouping,)
+	# 				num_episodes_to_retrieve_from=args.num_episodes_in_each_grouping,)
 	
 	# retrieval preprocessing
-	retrieval_preprocessing(chosen_id_to_ep_idxs_with_atleast_min_num_episodes=chosen_id_to_ep_idxs_with_atleast_min_num_episodes, 
+	retrieval_preprocessing(chosen_id_to_ep_idxs=chosen_id_to_ep_idxs, 
 							ds_emb_fol=ds_emb_fol, 
 							indices_fol=indices_fol, 
-							num_episodes_to_retrieve_from=args.num_episodes_to_retrieve_from_in_each_grouping, 
+							num_episodes_to_retrieve_from=args.num_episodes_in_each_grouping, 
 							nb_cores_autofaiss=args.nb_cores_autofaiss, 
 							knn_k=args.knn_k,
 							embedding_type=args.embedding_type)

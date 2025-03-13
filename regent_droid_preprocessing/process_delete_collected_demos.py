@@ -23,15 +23,17 @@ def del_in_dir(dir):
 
     # iterate over the demo_folders and read the trajectory.h5 files and the frames
     for demo_folder in demo_folders:
-        filename = f'processed_demo'
         if os.path.exists(f"{demo_folder}/{filename}.npz"):
             os.remove(f"{demo_folder}/{filename}.npz")
 
 if __name__ == "__main__":
     # dir_of_dirs = "collected_demos"    
     dir_of_dirs = "collected_demos_training"
+    # filename = f'processed_demo'
+    filename = f'indices_and_distances'
     for dir in os.listdir(dir_of_dirs):
-        del_in_dir(f"{dir_of_dirs}/{dir}")
+        if os.path.isdir(f"{dir_of_dirs}/{dir}"):
+            del_in_dir(f"{dir_of_dirs}/{dir}")
 
 
 

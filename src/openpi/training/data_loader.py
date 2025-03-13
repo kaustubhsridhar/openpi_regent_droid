@@ -85,6 +85,7 @@ class FakeDataset(Dataset):
 
 def get_action_chunk(action_joint_vels, action_gripper_pos, step_idx, action_horizon):
     num_steps = len(action_joint_vels)
+    assert action_joint_vels.shape == (num_steps, 7) and action_gripper_pos.shape == (num_steps, 1)
     action_chunk = []
     for i in range(action_horizon):
         if step_idx+i < num_steps:
@@ -103,13 +104,20 @@ class RegentDroidDataset(Dataset):
         embedding_type = "embeddings__wrist_image_left" # retrieval based on embeddings of wrist images
         indices_and_dists_fol = f"regent_droid_preprocessing/droid_new_broken_up_indices_and_distances/chosenIDscene_id_and_object_name_totepisodes95658_minnumepisodes50_numepisodes2retrievefrom20_embtype{embedding_type}_knnk100"
         embeddings_fol = "regent_droid_preprocessing/droid_new_broken_up_embeddings/chosenIDscene_id_and_object_name_totepisodes95658_minnumepisodes50"
+        collected_demos_infos = {k: json.load(open(f"regent_droid_preprocessing/collected_demos_training/{k}.json")) for k in ['ep_idxs_to_fol', 'fols_to_ep_idx', 'groups_to_ep_fols', 'groups_to_ep_idxs']}
 
         # load indices_and_dists
         all_retrieved_indices = []
         all_query_indices = []
         all_distances = []
+        # files from the droid dataset
         indices_files = os.listdir(indices_and_dists_fol)
         indices_files = [os.path.join(indices_and_dists_fol, f) for f in indices_files]
+        # files from the collected demos for training
+        for group_name, ep_fols in collected_demos_infos["groups_to_ep_fols"].items():
+            for ep_fol in ep_fols:
+                indices_files.append(f"regent_droid_preprocessing/{ep_fol}/indices_and_distances.npz")
+        # actual loading...
         for f in indices_files:
             indices_and_dists = np.load(f)
             query_indices, retrieved_indices = indices_and_dists["query_indices"], indices_and_dists["retrieved_indices"][:, :num_retrieved_observations, :]
@@ -140,15 +148,21 @@ class RegentDroidDataset(Dataset):
         ds_name = f"droid_new"
         ds_fol = f"regent_droid_preprocessing/{ds_name}_broken_up"
         all_ep_idxs = list(np.unique(all_retrieved_indices[:, :, 0])) + list(np.unique(all_query_indices[:, 0]))
-        all_ep_data_paths = {ep_idx: f"{ds_fol}/episode_{ep_idx}.npz" for ep_idx in all_ep_idxs}
-        all_ep_metadata_paths = {ep_idx: f"{ds_fol}/episode_{ep_idx}.json" for ep_idx in all_ep_idxs}
-        all_ep_embeddings_paths = {ep_idx: f"{embeddings_fol}/episode_{ep_idx}_{embedding_type}.npy" for ep_idx in all_ep_idxs}
+        all_ep_data_paths = {ep_idx: 
+                                    f"{ds_fol}/episode_{ep_idx}.npz" 
+                                    if ep_idx < 100000 else 
+                                    f"regent_droid_preprocessing/{collected_demos_infos['ep_idxs_to_fol'][ep_idx]}/processed_demo.npz"
+                            for ep_idx in all_ep_idxs}
+        all_ep_prompts = {ep_idx: 
+                                    json.load(open(f"{ds_fol}/episode_{ep_idx}.json"))["language_instruction"]  
+                                    if ep_idx < 100000 else 
+                                    " ".join(collected_demos_infos['ep_idxs_to_fol'][ep_idx].split("/")[1].split("_")[1:])
+                            for ep_idx in all_ep_idxs}
 
         # save
         self.len_dataset = len_dataset
         self.all_ep_data_paths = all_ep_data_paths
-        self.all_ep_metadata_paths = all_ep_metadata_paths
-        self.all_ep_embeddings_paths = all_ep_embeddings_paths
+        self.all_ep_prompts = all_ep_prompts
         self.all_retrieved_indices = all_retrieved_indices
         self.all_query_indices = all_query_indices
         self.all_distances = all_distances
@@ -162,25 +176,34 @@ class RegentDroidDataset(Dataset):
         
         ep_idxs = list(np.unique(retrieved_indices[:, 0])) + [query_ep_idx]
         ep_data = {ep_idx: np.load(self.all_ep_data_paths[ep_idx]) for ep_idx in ep_idxs}
-        ep_metadata = {ep_idx: json.load(open(self.all_ep_metadata_paths[ep_idx])) for ep_idx in ep_idxs}
-        ep_embeddings = {ep_idx: np.load(self.all_ep_embeddings_paths[ep_idx]) for ep_idx in ep_idxs}
         data = {}
         random_ext_img = np.random.choice(["observation__exterior_image_1_left", "observation__exterior_image_2_left"])
-        random_lang_inst = np.random.choice(["language_instruction", "language_instruction_2", "language_instruction_3"])
         for ct, (ep_idx, step_idx) in enumerate(retrieved_indices):
             prefix = f"retrieved_{ct}_"
-            data[f"{prefix}image"] = ep_data[ep_idx][random_ext_img][step_idx]
-            data[f"{prefix}wrist_image"] = ep_data[ep_idx]["observation__wrist_image_left"][step_idx]
-            data[f"{prefix}state"] = np.concatenate([ep_data[ep_idx]["observation__joint_position"][step_idx], ep_data[ep_idx]["observation__gripper_position"][step_idx]], axis=0)
-            data[f"{prefix}actions"] = get_action_chunk(ep_data[ep_idx]["action_dict__joint_velocity"], ep_data[ep_idx]["action_dict__gripper_position"], step_idx, self.action_horizon)
-            data[f"{prefix}prompt"] = ep_metadata[ep_idx][random_lang_inst]
+            if ep_idx < 100000:
+                data[f"{prefix}image"] = ep_data[ep_idx][random_ext_img][step_idx]
+                data[f"{prefix}wrist_image"] = ep_data[ep_idx]["observation__wrist_image_left"][step_idx]
+                data[f"{prefix}state"] = np.concatenate([ep_data[ep_idx]["observation__joint_position"][step_idx], ep_data[ep_idx]["observation__gripper_position"][step_idx]], axis=0)
+                data[f"{prefix}actions"] = get_action_chunk(ep_data[ep_idx]["action_dict__joint_velocity"], ep_data[ep_idx]["action_dict__gripper_position"], step_idx, self.action_horizon)
+            else:
+                data[f"{prefix}image"] = ep_data[ep_idx]["left_image" if random_ext_img == "observation__exterior_image_1_left" else "right_image"][step_idx]
+                data[f"{prefix}wrist_image"] = ep_data[ep_idx]["wrist_image"][step_idx]
+                data[f"{prefix}state"] = ep_data[ep_idx]["state"][step_idx]
+                data[f"{prefix}actions"] = get_action_chunk(ep_data[ep_idx]["actions"][:, :-1], ep_data[ep_idx]["actions"][:, -1:], step_idx, self.action_horizon)
+            data[f"{prefix}prompt"] = self.all_ep_prompts[ep_idx]
         
         prefix = "query_"
-        data[f"{prefix}image"] = ep_data[query_ep_idx][random_ext_img][query_step_idx]
-        data[f"{prefix}wrist_image"] = ep_data[query_ep_idx]["observation__wrist_image_left"][query_step_idx]
-        data[f"{prefix}state"] = np.concatenate([ep_data[query_ep_idx]["observation__joint_position"][query_step_idx], ep_data[query_ep_idx]["observation__gripper_position"][query_step_idx]], axis=0)
-        data[f"{prefix}actions"] = get_action_chunk(ep_data[query_ep_idx]["action_dict__joint_velocity"], ep_data[query_ep_idx]["action_dict__gripper_position"], query_step_idx, self.action_horizon)
-        data[f"{prefix}prompt"] = ep_metadata[query_ep_idx][random_lang_inst]
+        if query_ep_idx < 100000:
+            data[f"{prefix}image"] = ep_data[query_ep_idx][random_ext_img][query_step_idx]
+            data[f"{prefix}wrist_image"] = ep_data[query_ep_idx]["observation__wrist_image_left"][query_step_idx]
+            data[f"{prefix}state"] = np.concatenate([ep_data[query_ep_idx]["observation__joint_position"][query_step_idx], ep_data[query_ep_idx]["observation__gripper_position"][query_step_idx]], axis=0)
+            data[f"{prefix}actions"] = get_action_chunk(ep_data[query_ep_idx]["action_dict__joint_velocity"], ep_data[query_ep_idx]["action_dict__gripper_position"], query_step_idx, self.action_horizon)
+        else:
+            data[f"{prefix}image"] = ep_data[query_ep_idx]["left_image" if random_ext_img == "observation__exterior_image_1_left" else "right_image"][query_step_idx]
+            data[f"{prefix}wrist_image"] = ep_data[query_ep_idx]["wrist_image"][query_step_idx]
+            data[f"{prefix}state"] = ep_data[query_ep_idx]["state"][query_step_idx]
+            data[f"{prefix}actions"] = get_action_chunk(ep_data[query_ep_idx]["actions"][:, :-1], ep_data[query_ep_idx]["actions"][:, -1:], query_step_idx, self.action_horizon)
+        data[f"{prefix}prompt"] = self.all_ep_prompts[query_ep_idx]
 
         if self.use_action_interpolation:
             # read distances

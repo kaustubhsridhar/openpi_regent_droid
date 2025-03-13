@@ -38,11 +38,10 @@ python quick_view_grouping.py --chosen_id scene_id_and_object_name --min_num_epi
 ```bash
 python quick_view_grouping.py --chosen_id scene_id --min_num_episodes_in_each_grouping 50 --only_count
 ```
-Then, I ran the following LLM to create subgroups of the above groupings. This script also has verification to remove hallucinations or inform you of them. It also counts the number of subgroups with atleast 20 demos of which there are 260.
+Then, I ran the following LLM script to create subgroups of the above groupings. This script also has verification to remove hallucinations or inform you of them. It also counts the number of subgroups with atleast 20 demos of which there are 260! Finally, the below script saves a "superdict" of {SceneID_GeminiTaskSummary: {ep_idx: language_instruction, ...}, ...} to the file at `regent_droid_preprocessing/droid_groups/droid_new_superdict_of_subgroups_with_atleast_20_episodes.json`.
 ```bash
 python create_subgroups_of_groupings_with_llm.py
 ```
-Finally, the above script saves a "superdict" of {SceneID_GeminiTaskSummary: {ep_idx: language_instruction, ...}, ...} to the json file at `regent_droid_preprocessing/droid_groups/droid_new_superdict_of_subgroups_with_atleast_20_episodes.json`.
 
 
 * Check if an object exists in the droid dataset's language annotations
@@ -53,15 +52,12 @@ python check_if_object_in_droid_lang_annotations.py --object_name pinecone
 * Preprocess the droid dataset groupings, regent-style! (ie by embedding images and doing retrieval to setup training sequences)
 ```bash
 # Embed (comment out the retrieval part in the main function)
-CUDA_VISIBLE_DEVICES=8 nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --num_episodes_to_retrieve_from_in_each_grouping 50 &> logs/embed/scene_id_and_object_name.log &
+CUDA_VISIBLE_DEVICES=9 nohup python -u embed_and_retrieve_within_groupings.py --num_episodes_in_each_grouping 20 &> logs/embed/gemini_filtered_206_with_20_episodes.log &
 
 # Retrieve (uncomment the retrieval part in the main function and comment out the embedding part)
 # for different embedding types, you can do:
-nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --num_episodes_to_retrieve_from_in_each_grouping 20 --embedding_type embeddings__exterior_image_1_left &> logs/retrieval_preprocessing/scene_id_and_object_name_20_exterior_image_1_left.log &
+nohup python -u embed_and_retrieve_within_groupings.py --num_episodes_in_each_grouping 20 --embedding_type embeddings__wrist_image_left &> logs/retrieval_preprocessing/gemini_filtered_206_with_20_episodes_wrist_image_left.log &
 
-nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --num_episodes_to_retrieve_from_in_each_grouping 20 --embedding_type embeddings__wrist_image_left &> logs/retrieval_preprocessing/scene_id_and_object_name_50_20_wrist_image_left.log &
-
-nohup python -u embed_and_retrieve_within_groupings.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --num_episodes_to_retrieve_from_in_each_grouping 20 --embedding_type both &> logs/retrieval_preprocessing/scene_id_and_object_name_20_both.log &
 
 # Later write a single command with both embedding and retrieval uncommented below
 ## TODO
@@ -72,13 +68,13 @@ If you simply want to embed a single image with pi0 to understand the embedding 
 python simple_embed_with_openpi.py
 ```
 
-You also have to embed and retrieval preprocess some demos we collected in our setup for some tasks (we will not evaluate on these tasks but on other unseen tasks). The method to collect is detailed below but the processing code is here:
+You also have to embed and retrieval preprocess some demos we collected in our setup for some seen/training tasks. The method to collect is detailed below but the processing code is here:
 ```bash
 # embed (based on code created for inference time demo preprocessing below)
 CUDA_VISIBLE_DEVICES=4 nohup python -u process_collected_demos.py --dir_of_dirs=collected_demos_training &> logs/process_collected_demos/training.txt &
 
 # retrieval_preprocessing
-nohup python -u retrieve_within_collected_demo_groups.py &> logs/retrieval_preprocessing/training.log &
+nohup python -u retrieve_within_collected_demo_groups.py &> logs/retrieval_preprocessing/collected_demos_training.log &
 
 ```
 

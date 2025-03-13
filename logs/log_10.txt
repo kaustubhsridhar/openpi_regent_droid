@@ -11348,3 +11348,5 @@ loss shape: (16,)
 01:29:08.795 [I] Progress on: 4.79kit/10.0kit rate:8.7s/it remaining:12:36:30 elapsed:12:01:23 postfix:- (563902:tqdm_logging.py:145)
 Step 4794: grad_norm=3.0419764518737793, loss=1.3425359725952148, param_norm=1886.8385009765625
 01:29:21.032 [I] Progress on: 4.79kit/10.0kit rate:9.1s/it remaining:13:11:32 elapsed:12:01:35 postfix:- (563902:tqdm_logging.py:145)
+/usr/lib/python3.11/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 14 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
