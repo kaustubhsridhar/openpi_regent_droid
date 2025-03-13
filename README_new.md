@@ -6,6 +6,7 @@ git clone --recurse-submodules git@github.com:kaustubhsridhar/openpi_regent_droi
 GIT_LFS_SKIP_SMUDGE=1 uv sync
 source .venv/bin/activate
 uv pip install tensorflow-datasets tensorflow-cpu autofaiss
+uv pip install google-genai openai
 ```
 
 ## regent droid preprocessing
@@ -31,6 +32,15 @@ python quick_view_grouping.py --chosen_id scene_id_and_object_name --min_num_epi
 If you only want to count the number of groupings or just read the json with the language instructions in each grouping, you can do:
 ```bash
 python quick_view_grouping.py --chosen_id scene_id_and_object_name --min_num_episodes_in_each_grouping 50 --only_count
+```
+
+* I realized that the above groupings hvae too many different tasks in a group. So I first ran the below to save the jsons of the scene_id only groupings with atleast 50 episodes in each grouping:
+```bash
+python quick_view_grouping.py --chosen_id scene_id --min_num_episodes_in_each_grouping 50 --only_count
+```
+Then, I ran the following LLM agent to create subgroups of the above groupings:
+```bash
+python create_subgroups_of_groupings_with_llm.py
 ```
 
 * Check if an object exists in the droid dataset's language annotations
