@@ -38,7 +38,7 @@ python quick_view_grouping.py --chosen_id scene_id_and_object_name --min_num_epi
 ```bash
 python quick_view_grouping.py --chosen_id scene_id --min_num_episodes_in_each_grouping 50 --only_count
 ```
-Then, I ran the following LLM script to create subgroups of the above groupings. This script also has verification to remove hallucinations or inform you of them. It also counts the number of subgroups with atleast 20 demos of which there are 260! Finally, the below script saves a "superdict" of {SceneID_GeminiTaskSummary: {ep_idx: language_instruction, ...}, ...} to the file at `regent_droid_preprocessing/droid_groups/droid_new_superdict_of_subgroups_with_atleast_20_episodes.json`.
+Then, I ran the following LLM script to create subgroups of the above groupings. This script also has verification to remove hallucinations or inform you of them. It also counts the number of subgroups with atleast 20 demos of which there are 260! Finally, the below script saves a "superdict" of {SceneID_GeminiTaskSummary: {ep_idx: language_instruction, ...}, ...} to the file at `regent_droid_preprocessing/droid_groups/droid_new_superdict_of_subgroups_with_atleast_20_episodes_FULL.json`. Then I copied this json to `regent_droid_preprocessing/droid_groups/droid_new_superdict_of_subgroups_with_atleast_20_episodes.json` and manually edited it and reduced the number of groups to 196 (and also removed some episodes within some groups).
 ```bash
 python create_subgroups_of_groupings_with_llm.py
 ```
@@ -51,17 +51,11 @@ python check_if_object_in_droid_lang_annotations.py --object_name pinecone
 
 * Preprocess the droid dataset groupings, regent-style! (ie by embedding images and doing retrieval to setup training sequences)
 ```bash
-# Embed (comment out the retrieval part in the main function)
-CUDA_VISIBLE_DEVICES=9 nohup python -u embed_and_retrieve_within_groupings.py --num_episodes_in_each_grouping 20 &> logs/embed/gemini_filtered_206_with_20_episodes.log &
-
-# Retrieve (uncomment the retrieval part in the main function and comment out the embedding part)
-# for different embedding types, you can do:
-nohup python -u embed_and_retrieve_within_groupings.py --num_episodes_in_each_grouping 20 --embedding_type embeddings__wrist_image_left &> logs/retrieval_preprocessing/gemini_filtered_206_with_20_episodes_wrist_image_left.log &
-
-
-# Later write a single command with both embedding and retrieval uncommented below
-## TODO
-
+# Embed and retrieve ### this splits the embedding and retrieval into 20 parallel jobs (do 10 groups in the first 19 jobs and 6 groups in the last job for a total of 196 groups)
+for TEMPI in {0..19}
+do
+    CUDA_VISIBLE_DEVICES=9 nohup python -u embed_and_retrieve_within_groupings.py --num_episodes_in_each_grouping 20 --embedding_type embeddings__wrist_image_left --tempi ${TEMPI} &> logs/retrieval_preprocessing/gemini_filtered_206_with_20_episodes_wrist_image_left_${TEMPI}.log &
+done
 ```
 If you simply want to embed a single image with pi0 to understand the embedding space, you can do:
 ```bash
@@ -92,9 +86,9 @@ python quick_view_retrieval_preprocessed_sequences.py --chosen_id scene_id_and_o
 * train pi0_fast_droid_regent
 ```bash
 # retrieval augmented finetuning
-CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=tenth_try_firstnonlora --overwrite &> logs/log_10.txt &
+CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=11th_try --overwrite &> logs/log_11.txt &
 # adding interpolation below
-CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=tenth_try_with_interpolation_firstnonlora --overwrite &> logs/log_with_interpolation_10.txt &
+CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=11th_try_with_interpolation --overwrite &> logs/log_with_interpolation_11.txt &
 # lower lamda below
 CUDA_VISIBLE_DEVICES=0,1 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_lamda1 --exp-name=eight_try_with_interpolation_lamda1 --overwrite &> logs/log_with_interpolation_8_lamda1.txt &
 ```

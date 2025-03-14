@@ -136,6 +136,7 @@ class RegentPolicy(BasePolicy):
         # setup the dinov2 model for embedding only
         logger.info('loading dinov2 for image embedding...')
         self._dinov2 = load_dinov2()
+        self._max_dist = 318.8429870605469 # from train loader log/print
 
     def retrieve(self, obs: dict) -> dict:
         camera = obs.pop("camera")
@@ -159,8 +160,9 @@ class RegentPolicy(BasePolicy):
             first_embedding = self._demos[retrieved_indices[0, 0, 0]]["wrist_image_embeddings"][retrieved_indices[0, 0, 1]]
             distances = [0.0] + [np.linalg.norm(self._demos[ep_idx]["wrist_image_embeddings"][step_idx:step_idx+1] - first_embedding) for ep_idx, step_idx in retrieved_indices[0, 1:]]
             distances.append(np.linalg.norm(query_embedding - first_embedding))
+            distances = np.array(distances) / self._max_dist
             print(f'distances: {distances}')
-            more_obs["exp_lamda_distances"] = np.exp(-self._lamda * np.array(distances)).reshape(-1, 1)
+            more_obs["exp_lamda_distances"] = np.exp(-self._lamda * distances).reshape(-1, 1)
             print(f'exp_lamda_distances: {more_obs["exp_lamda_distances"]}')
         return {**obs, **more_obs}
     

@@ -102,24 +102,28 @@ class RegentDroidDataset(Dataset):
         knn_k = 100
         assert num_retrieved_observations <= knn_k
         embedding_type = "embeddings__wrist_image_left" # retrieval based on embeddings of wrist images
-        indices_and_dists_fol = f"regent_droid_preprocessing/droid_new_broken_up_indices_and_distances/chosenIDscene_id_and_object_name_totepisodes95658_minnumepisodes50_numepisodes2retrievefrom20_embtype{embedding_type}_knnk100"
-        embeddings_fol = "regent_droid_preprocessing/droid_new_broken_up_embeddings/chosenIDscene_id_and_object_name_totepisodes95658_minnumepisodes50"
-        collected_demos_infos = {k: json.load(open(f"regent_droid_preprocessing/collected_demos_training/{k}.json")) for k in ['ep_idxs_to_fol', 'fols_to_ep_idx', 'groups_to_ep_fols', 'groups_to_ep_idxs']}
+        indices_and_dists_fol = f"regent_droid_preprocessing/droid_new_broken_up_indices_and_distances/chosenIDscene_id_numepisodes20_embtype{embedding_type}_knnk100"
+        collected_demos_infos = {k: json.load(open(f"regent_droid_preprocessing/collected_demos_training/{k}.json")) for k in ['ep_idxs_to_fol', 'fols_to_ep_idxs', 'groups_to_ep_fols', 'groups_to_ep_idxs']}
 
         # load indices_and_dists
         all_retrieved_indices = []
         all_query_indices = []
         all_distances = []
-        # files from the droid dataset
-        indices_files = os.listdir(indices_and_dists_fol)
-        indices_files = [os.path.join(indices_and_dists_fol, f) for f in indices_files]
+        
+        # # files from the droid dataset
+        # indices_files = os.listdir(indices_and_dists_fol)
+        # indices_files = [os.path.join(indices_and_dists_fol, f) for f in indices_files]
+        indices_files = [] ## TEMP ## TODO: REMOVE and UNCOMMENT ABOVE
+
         # files from the collected demos for training
         for group_name, ep_fols in collected_demos_infos["groups_to_ep_fols"].items():
             for ep_fol in ep_fols:
                 indices_files.append(f"regent_droid_preprocessing/{ep_fol}/indices_and_distances.npz")
         # actual loading...
-        for f in indices_files:
-            indices_and_dists = np.load(f)
+        count_droid = 0
+        count_collected_demos = 0
+        for file_path in indices_files:
+            indices_and_dists = np.load(file_path)
             query_indices, retrieved_indices = indices_and_dists["query_indices"], indices_and_dists["retrieved_indices"][:, :num_retrieved_observations, :]
             distances = np.concatenate((indices_and_dists["distances"][:, :num_retrieved_observations], indices_and_dists["distances"][:, -1:]), axis=1)
             num_steps = query_indices.shape[0]
@@ -128,12 +132,17 @@ class RegentDroidDataset(Dataset):
             all_retrieved_indices.append(retrieved_indices)
             all_query_indices.append(query_indices)
             all_distances.append(distances)
-
+            if "collected_demos_training" in file_path:
+                count_collected_demos += num_steps
+            else:
+                count_droid += num_steps
+        print(f"count_droid: {count_droid}, count_collected_demos: {count_collected_demos}")
         all_retrieved_indices = np.concatenate(all_retrieved_indices, axis=0)
         all_query_indices = np.concatenate(all_query_indices, axis=0)
         all_distances = np.concatenate(all_distances, axis=0)
         len_dataset = all_retrieved_indices.shape[0]
         print(f"len_dataset: {len_dataset}")
+        assert len_dataset == count_droid + count_collected_demos
         assert all_retrieved_indices.shape == (len_dataset, num_retrieved_observations, 2) and all_retrieved_indices.dtype == np.int32
         assert all_query_indices.shape == (len_dataset, 2) and all_query_indices.dtype == np.int32
         assert all_distances.shape == (len_dataset, num_retrieved_observations + 1) and all_distances.dtype == np.float64
@@ -151,12 +160,12 @@ class RegentDroidDataset(Dataset):
         all_ep_data_paths = {ep_idx: 
                                     f"{ds_fol}/episode_{ep_idx}.npz" 
                                     if ep_idx < 100000 else 
-                                    f"regent_droid_preprocessing/{collected_demos_infos['ep_idxs_to_fol'][ep_idx]}/processed_demo.npz"
+                                    f"regent_droid_preprocessing/{collected_demos_infos['ep_idxs_to_fol'][str(ep_idx)]}/processed_demo.npz"
                             for ep_idx in all_ep_idxs}
         all_ep_prompts = {ep_idx: 
                                     json.load(open(f"{ds_fol}/episode_{ep_idx}.json"))["language_instruction"]  
                                     if ep_idx < 100000 else 
-                                    " ".join(collected_demos_infos['ep_idxs_to_fol'][ep_idx].split("/")[1].split("_")[1:])
+                                    " ".join(collected_demos_infos['ep_idxs_to_fol'][str(ep_idx)].split("/")[1].split("_")[1:])
                             for ep_idx in all_ep_idxs}
 
         # save

@@ -8,9 +8,9 @@ init_logging()
 
 # params
 config_name = "pi0_fast_droid_regent_with_interpolation"
-exp_name = "tenth_try_with_interpolation_firstnonlora"
-checkpoint_step = 300
-demos_dir = "regent_droid_preprocessing/collected_demos/2025-03-09_bowlx0y0"
+exp_name = "11th_try_with_interpolation"
+checkpoint_step = 1100
+demos_dir = "regent_droid_preprocessing/collected_demos/2025-03-09-bowlx0y0_pick_up_the_poke_ball_and_put_it_in_the_bowl"
 
 # setup
 config = _config.get_config(config_name)
@@ -20,7 +20,7 @@ checkpoint_dir = f"checkpoints/{config_name}/{exp_name}/{checkpoint_step}"
 policy = _policy_config.create_trained_regent_policy(train_config=config, checkpoint_dir=checkpoint_dir, demos_dir=demos_dir)
 
 # load a test demo
-demo_path = "regent_droid_preprocessing/collected_demos/2025-03-09_bowlx1y0/2025-03-09_08-20-01_bowlx1y0_pokeballx0y0_recovery/processed_demo.npz"
+demo_path = "regent_droid_preprocessing/collected_demos/2025-03-09-bowlx1y0_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-09_08-20-01_bowlx1y0_pokeballx0y0_recovery/processed_demo.npz"
 demo = np.load(demo_path)
 
 # run inference on a example 

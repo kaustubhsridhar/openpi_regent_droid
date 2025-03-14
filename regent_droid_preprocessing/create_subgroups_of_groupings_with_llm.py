@@ -72,7 +72,7 @@ def create_subgroups_of_groupings_with_llm(json_folder, llm_name, new_folder, co
                     superdict[f'{file.replace(".json", "")}_{subgroup_name}'] = subgroup_dict
 
     # save the superdict to a json file
-    with open(f"droid_groups/droid_new_superdict_of_subgroups_with_atleast_{count_subgroups_with_this_min_num_episodes}_episodes.json", "w") as f:
+    with open(f"droid_groups/droid_new_superdict_of_subgroups_with_atleast_{count_subgroups_with_this_min_num_episodes}_episodes_FULL.json", "w") as f:
         json.dump(superdict, f, indent=4)
     print(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}: {len(superdict)} subgroups with atleast {count_subgroups_with_this_min_num_episodes} episodes found')
 

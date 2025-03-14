@@ -26,7 +26,7 @@ def embed_episodes(chosen_id_to_ep_idxs, ds_fol, ds_emb_fol, num_episodes_to_ret
 	dinov2 = load_dinov2()
 	
 	# main loop
-	for chosen_id_count, (chosen_id, ep_idxs) in enumerate(chosen_id_to_ep_idxs.items()):
+	for chosen_id_count, (chosen_id, ep_idxs) in enumerate(list(chosen_id_to_ep_idxs.items())[10*args.tempi:10*(args.tempi+1)]):
 		# cap ep_idxs
 		assert len(ep_idxs) == num_episodes_to_retrieve_from
 		
@@ -63,9 +63,9 @@ def retrieval_preprocessing(chosen_id_to_ep_idxs, ds_emb_fol, indices_fol, num_e
 	all_embedding_types = ["embeddings__exterior_image_1_left", "embeddings__wrist_image_left"]
 
 	# main loop
-	for chosen_id_count, (chosen_id, ep_idxs) in enumerate(chosen_id_to_ep_idxs.items()):
+	for chosen_id_count, (chosen_id, ep_idxs) in enumerate(list(chosen_id_to_ep_idxs.items())[10*args.tempi:10*(args.tempi+1)]):
 		# cap ep_idxs
-		assert len(ep_idxs) == num_episodes_to_retrieve_from
+		assert len(ep_idxs) <= num_episodes_to_retrieve_from
 
 		# collect all embeddings and indices
 		all_embeddings = []
@@ -176,6 +176,7 @@ if __name__ == "__main__":
 	parser.add_argument("--nb_cores_autofaiss", type=int, default=8)
 	parser.add_argument("--knn_k", type=int, default=100, help="number of nearest neighbors to retrieve")
 	parser.add_argument("--embedding_type", type=str, default="embeddings__wrist_image_1_left", choices=["embeddings__exterior_image_1_left", "embeddings__wrist_image_left", "both"]) # "embeddings__exterior_image_2_left", 
+	parser.add_argument("--tempi", type=int, default=0, help="can be used to split the retrieval or embedding into parallel jobs; upto you to include in code and use this; otherwise it will have no effect")
 	args = parser.parse_args()
 
 	# setup
@@ -186,10 +187,10 @@ if __name__ == "__main__":
 	ds_fol, ds_emb_fol, indices_fol = get_all_fol_names(ds_name, args)
 
 	# # embed episodes
-	# embed_episodes(chosen_id_to_ep_idxs=chosen_id_to_ep_idxs, 
-	# 				ds_fol=ds_fol, 
-	# 				ds_emb_fol=ds_emb_fol, 
-	# 				num_episodes_to_retrieve_from=args.num_episodes_in_each_grouping,)
+	embed_episodes(chosen_id_to_ep_idxs=chosen_id_to_ep_idxs, 
+					ds_fol=ds_fol, 
+					ds_emb_fol=ds_emb_fol, 
+					num_episodes_to_retrieve_from=args.num_episodes_in_each_grouping,)
 	
 	# retrieval preprocessing
 	retrieval_preprocessing(chosen_id_to_ep_idxs=chosen_id_to_ep_idxs, 
