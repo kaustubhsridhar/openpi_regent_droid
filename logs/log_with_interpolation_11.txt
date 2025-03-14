@@ -20863,3 +20863,19 @@ loss shape: (16,)
 Step 8610: grad_norm=4.443164348602295, loss=0.10415341705083847, param_norm=1886.9871826171875
 15:32:57.074 [I] Progress on: 8.61kit/10.0kit rate:6.6s/it remaining:2:31:45 elapsed:18:24:09 postfix:- (2220296:tqdm_logging.py:145)
 Step 8611: grad_norm=3.1096203327178955, loss=0.07888220995664597, param_norm=1886.9871826171875
+Step 8612: grad_norm=3.063624620437622, loss=0.09687123447656631, param_norm=1886.9871826171875
+15:33:08.778 [I] Progress on: 8.61kit/10.0kit rate:6.2s/it remaining:2:23:15 elapsed:18:24:20 postfix:- (2220296:tqdm_logging.py:145)
+Step 8613: grad_norm=3.0124669075012207, loss=0.07923923432826996, param_norm=1886.9871826171875
+Step 8614: grad_norm=2.998018741607666, loss=0.08146366477012634, param_norm=1886.9873046875
+15:33:20.500 [I] Progress on: 8.61kit/10.0kit rate:6.0s/it remaining:2:19:11 elapsed:18:24:32 postfix:- (2220296:tqdm_logging.py:145)
+Step 8615: grad_norm=3.4494199752807617, loss=0.07454514503479004, param_norm=1886.9873046875
+Step 8616: grad_norm=2.8537325859069824, loss=0.09944947808980942, param_norm=1886.9873046875
+15:33:32.211 [I] Progress on: 8.62kit/10.0kit rate:5.9s/it remaining:2:16:56 elapsed:18:24:44 postfix:- (2220296:tqdm_logging.py:145)
+Step 8617: grad_norm=2.077909469604492, loss=0.07227213680744171, param_norm=1886.9873046875
+Step 8618: grad_norm=4.002742290496826, loss=0.08168026804924011, param_norm=1886.9873046875
+15:33:43.942 [I] Progress on: 8.62kit/10.0kit rate:5.9s/it remaining:2:15:52 elapsed:18:24:56 postfix:- (2220296:tqdm_logging.py:145)
+Step 8619: grad_norm=2.5697720050811768, loss=0.07022791355848312, param_norm=1886.9873046875
+Step 8620: grad_norm=2.8057408332824707, loss=0.06813877820968628, param_norm=1886.9873046875
+15:33:55.680 [I] Progress on: 8.62kit/10.0kit rate:5.9s/it remaining:2:15:17 elapsed:18:25:07 postfix:- (2220296:tqdm_logging.py:145)
+/usr/lib/python3.11/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 14 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
