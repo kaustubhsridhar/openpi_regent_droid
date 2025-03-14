@@ -111,13 +111,13 @@ python scripts/collect_trajectory.py -n 20
 # You can see output at franka_ksridhar/data/success/date
 
 # copy the demos from the franka laptop to the folder here
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/2025-03-14* regent_droid_preprocessing/collected_demos/
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/* regent_droid_preprocessing/collected_demos/
 
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results/videos/0310/* videos_dont_delete/pi0_0309_pokeball_bowl/
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results/videos/0314/* videos_dont_delete/pi0_0314_move_the_idli_plate_to_the_right_5times/
 
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_rnp/videos/0310/* videos_dont_delete/rnp_0310_move_forwards_idli_plate_topleftapple/
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_rnp/videos/0314/* videos_dont_delete/rnp_0314_move_the_idli_plate_to_the_right_5times/
 
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_regent/videos/0314/* videos_dont_delete/regent_0314_pokeball_progress/
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_regent/videos/0314/* videos_dont_delete/regent_0314_move_the_idli_plate_to_the_right_5times/
 ```
 
 * Collect more training demos and transfer as follows:
@@ -155,7 +155,7 @@ rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/2025-0
 
 # Process the collected demos; give a few prompts to randomly sample from for each demo (assumtpions: any of these prompts would fit the demo)
 cd regent_droid_preprocessing
-CUDA_VISIBLE_DEVICES=4 nohup python -u process_collected_demos.py --dir_of_dirs=collected_demos &> logs/process_collected_demos/inference.txt &
+CUDA_VISIBLE_DEVICES=9 nohup python -u process_collected_demos.py --dir_of_dirs=collected_demos &> logs/process_collected_demos/inference.txt &
 
 # After running the above command, you will see a new file in each demo directory as follows:
 # │   │   ├── demo_0_taken_at_2025-03-04_00-17-49
@@ -184,10 +184,10 @@ startserver
 # Terminal 2:
 cd ~/droid_pi0/
 conda activate droid_pi0
-python3 scripts/main.py --remote_host=158.130.55.26 --remote_port=8000 --external_camera="right"
+python3 scripts/main.py --remote_host=158.130.55.26 --remote_port=8000 --external_camera="left"
 
 # change the ip if you are running on the workstation in the lab
-python3 scripts/main.py --remote_host=158.130.52.14 --remote_port=8000 --external_camera="right"
+python3 scripts/main.py --remote_host=158.130.52.14 --remote_port=8000 --external_camera="left"
 ```
 
 * run regent inference on the robot
@@ -199,7 +199,7 @@ CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint -
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/11th_try_with_interpolation/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-09-bowlx0y0_pick_up_the_poke_ball_and_put_it_in_the_bowl
 
 # (Alternatively) Run the server on ivy for retrieve and play
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 # Run the client on the franka robot
 # Terminal 1:
@@ -207,7 +207,7 @@ startserver
 # Terminal 2:
 cd ~/droid_pi0/
 conda activate droid_pi0
-python3 scripts/main_regent.py --remote_host=158.130.55.26 --remote_port=8000 --external_camera="right" 
+python3 scripts/main_regent.py --remote_host=158.130.55.26 --remote_port=8000 --external_camera="left" 
 # you can get your host computer's public ip via `curl -4 ifconfig.me`
 ```
 

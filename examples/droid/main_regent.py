@@ -23,7 +23,7 @@ faulthandler.enable()
 @dataclasses.dataclass
 class Args:
     # Hardware parameters
-    left_camera_id: str = "25455306" # e.g., "24259877"
+    left_camera_id: str = "26368109" # e.g., "24259877"
     right_camera_id: str = "27085680" # "27085680" # "26368109"  
     wrist_camera_id: str = "14436910"  # e.g., "13062452"
 

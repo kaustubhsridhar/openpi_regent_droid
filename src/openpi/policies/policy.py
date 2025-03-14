@@ -257,7 +257,7 @@ class RetrieveAndPlayPolicy(BasePolicy):
         logger.info(f'loading demos from {demos_dir}...')
         self._demos = {demo_idx: np.load(f"{demos_dir}/{folder}/processed_demo.npz") for demo_idx, folder in enumerate(os.listdir(demos_dir)) if os.path.isdir(f"{demos_dir}/{folder}")}
         self._all_indices = np.array([(ep_idx, step_idx) for ep_idx in list(self._demos.keys()) for step_idx in range(self._demos[ep_idx]["actions"].shape[0])])
-        _all_embeddings = np.concatenate([self._demos[ep_idx]["wrist_image_embeddings"] for ep_idx in list(self._demos.keys())])
+        _all_embeddings = np.concatenate([self._demos[ep_idx]["left_image_embeddings"] for ep_idx in list(self._demos.keys())])
         assert _all_embeddings.shape == (len(self._all_indices), EMBED_DIM), f"{_all_embeddings.shape=}"
         self._knn_k = 1 # retrieved the 1 nearest neighbor
         print()
@@ -276,10 +276,9 @@ class RetrieveAndPlayPolicy(BasePolicy):
         self._dinov2 = load_dinov2()
 
     def retrieve(self, obs: dict) -> dict:
-        camera = obs.pop("camera")
         more_obs = {"inference_time": True}
         # embed
-        query_embedding = embed(obs["query_wrist_image"], self._dinov2)
+        query_embedding = embed(obs["query_top_image"], self._dinov2)
         assert query_embedding.shape == (1, EMBED_DIM), f"{query_embedding.shape=}"
         # retrieve
         topk_distance, topk_indices = self._knn_index.search(query_embedding, self._knn_k)
@@ -290,7 +289,8 @@ class RetrieveAndPlayPolicy(BasePolicy):
             for key in ["state", "wrist_image"]:
                 more_obs[f"retrieved_{ct}_{key}"] = self._demos[ep_idx][key][step_idx]
             more_obs[f"retrieved_{ct}_actions"] = get_action_chunk_at_inference_time(self._demos[ep_idx]["actions"], step_idx, self._action_horizon)
-            more_obs[f"retrieved_{ct}_image"] = self._demos[ep_idx][f"{camera}_image"][step_idx]
+            more_obs[f"retrieved_{ct}_top_image"] = self._demos[ep_idx][f"left_image"][step_idx]
+            more_obs[f"retrieved_{ct}_right_image"] = self._demos[ep_idx][f"right_image"][step_idx]
             more_obs[f"retrieved_{ct}_prompt"] = self._demos[ep_idx]["prompt"].item()
         return {**obs, **more_obs}
     
@@ -299,14 +299,18 @@ class RetrieveAndPlayPolicy(BasePolicy):
         os.makedirs(fol, exist_ok=True)
         current_datettime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
         # save all images in one png
-        big_image = []
+        big_top_image = []
+        big_right_image = []
         big_wrist_image = []
         for ct in range(self._knn_k):
-            big_image.append(obs[f"retrieved_{ct}_image"])
+            big_top_image.append(obs[f"retrieved_{ct}_top_image"])
+            big_right_image.append(obs[f"retrieved_{ct}_right_image"])
             big_wrist_image.append(obs[f"retrieved_{ct}_wrist_image"])
-        big_image.append(obs["query_image"])
+        big_top_image.append(obs["query_top_image"])
+        big_right_image.append(obs["query_right_image"])
         big_wrist_image.append(obs["query_wrist_image"])
-        final_image = np.concatenate((np.concatenate(big_image, axis=1), np.concatenate(big_wrist_image, axis=1)), axis=0)
+        final_image = np.concatenate((np.concatenate(big_top_image, axis=1), np.concatenate(big_right_image, axis=1), np.concatenate(big_wrist_image, axis=1)), axis=0)
+        final_image = np.concatenate((final_image, np.concatenate(big_wrist_image, axis=1)), axis=0)
         Image.fromarray(final_image).save(f"{fol}/{current_datettime}.png")
         # save everything else to json
         with open(f"{fol}/{current_datettime}.json", "w") as f:
