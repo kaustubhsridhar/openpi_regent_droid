@@ -111,11 +111,13 @@ python scripts/collect_trajectory.py -n 20
 # You can see output at franka_ksridhar/data/success/date
 
 # copy the demos from the franka laptop to the folder here
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/2025-03-10* regent_droid_preprocessing/collected_demos/
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/2025-03-14* regent_droid_preprocessing/collected_demos/
 
 rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results/videos/0310/* videos_dont_delete/pi0_0309_pokeball_bowl/
 
 rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_rnp/videos/0310/* videos_dont_delete/rnp_0310_move_forwards_idli_plate_topleftapple/
+
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_regent/videos/0314/* videos_dont_delete/regent_0314_pokeball_progress/
 ```
 
 * Collect more training demos and transfer as follows:
@@ -170,7 +172,7 @@ CUDA_VISIBLE_DEVICES=8 python -u scripts/test_retrieve_and_play.py
 * run pi0 baseline on the robot
 ```bash
 # Run the server on ivy
-CUDA_VISIBLE_DEVICES=5 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid --policy.dir=s3://openpi-assets/checkpoints/pi0_fast_droid
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid --policy.dir=s3://openpi-assets/checkpoints/pi0_fast_droid
 
 # If you want to run the server on the workstation in the lab
 cd ~/Projects/openpi-main/ 
@@ -191,10 +193,10 @@ python3 scripts/main.py --remote_host=158.130.52.14 --remote_port=8000 --externa
 * run regent inference on the robot
 ```bash
 # Run the server on ivy for regent with interpolation
-CUDA_VISIBLE_DEVICES=8 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent --policy.dir=checkpoints/pi0_fast_droid_regent/ninth_try/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-09_bowlx0y0
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent --policy.dir=checkpoints/pi0_fast_droid_regent/11th_try/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-09-bowlx0y0_pick_up_the_poke_ball_and_put_it_in_the_bowl
 
 # (Alternatively) Run the server on ivy for regent with interpolation
-CUDA_VISIBLE_DEVICES=8 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/ninth_try_with_interpolation/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-09_bowlx0y0
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/11th_try_with_interpolation/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-09-bowlx0y0_pick_up_the_poke_ball_and_put_it_in_the_bowl
 
 # (Alternatively) Run the server on ivy for retrieve and play
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-10_move_forwards_idli_plate_topleftapple
