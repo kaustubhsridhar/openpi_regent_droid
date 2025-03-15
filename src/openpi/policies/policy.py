@@ -136,7 +136,8 @@ class RegentPolicy(BasePolicy):
         # setup the dinov2 model for embedding only
         logger.info('loading dinov2 for image embedding...')
         self._dinov2 = load_dinov2()
-        self._max_dist = 318.8429870605469 # from train loader log/print
+        self._max_dist = 298.4654541015625 # from train loader log/print
+        print(f'self._max_dist: {self._max_dist} | Is this correct?? CHECK YOUR TRAIN LOG AND UPDATE IF NEEDED!')
 
     def retrieve(self, obs: dict) -> dict:
         more_obs = {"inference_time": True}

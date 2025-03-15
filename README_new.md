@@ -89,6 +89,8 @@ python quick_view_retrieval_preprocessed_sequences.py --chosen_id scene_id_and_o
 CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=11th_try --overwrite &> logs/log_11.txt &
 # adding interpolation below
 CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=12th_try_with_interpolation --overwrite &> logs/log_with_interpolation_12.txt &
+# longer action horizon below
+CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon --exp-name=12th_try_with_interpolation_longer_act_horizon --overwrite &> logs/log_with_interpolation_longer_act_horizon_12.txt &
 # lower lamda below
 CUDA_VISIBLE_DEVICES=0,1 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_lamda1 --exp-name=eight_try_with_interpolation_lamda1 --overwrite &> logs/log_with_interpolation_8_lamda1.txt &
 ```
@@ -166,9 +168,9 @@ CUDA_VISIBLE_DEVICES=9 nohup python -u process_collected_demos.py --dir_of_dirs=
 
 * example inference
 ```bash
-CUDA_VISIBLE_DEVICES=8 python -u scripts/test_pi0_fast_regent.py
-CUDA_VISIBLE_DEVICES=8 python -u scripts/test_pi0_fast_regent_no_interpolation.py
-CUDA_VISIBLE_DEVICES=8 python -u scripts/test_retrieve_and_play.py
+CUDA_VISIBLE_DEVICES=9 python -u scripts/test_pi0_fast_regent.py
+CUDA_VISIBLE_DEVICES=9 python -u scripts/test_pi0_fast_regent_no_interpolation.py
+CUDA_VISIBLE_DEVICES=9 python -u scripts/test_retrieve_and_play.py
 ```
 
 * run pi0 baseline on the robot

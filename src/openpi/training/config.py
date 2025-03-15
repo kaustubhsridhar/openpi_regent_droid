@@ -632,6 +632,48 @@ _CONFIGS = [
         lr_schedule=_optimizer.CosineDecaySchedule(warmup_steps=300, peak_lr=2.5e-5, decay_steps=3000, decay_lr=2.5e-6),
     ),
     TrainConfig(
+        name="pi0_fast_droid_regent_with_interpolation_longer_act_horizon",
+        # Here is an example of loading a pi0-FAST model for full finetuning.
+        # Modify action_dim and action_horizon to match your dataset (action horizon is equal to
+        # the desired action chunk length).
+        # The max_token_len is the maximum number of (non-image) tokens the model can handle.
+        # This includes the tokenized prompt, proprioceptive state, and (FAST-tokenized) action tokens.
+        # Choosing this value too small may chop off tokens at the end of your sequence (the code will throw
+        # a warning), while choosing it too large will waste memory (since we pad each batch element to the
+        # max_token_len). A good rule of thumb is to use approx 180 for single-arm robots, and approx 250 for
+        # two-arm robots. Generally, err on the lower side here first, and potentially increase the value if
+        # you see many warnings being thrown during training.
+        #
+        # REGENT NOTE:
+        # max_token_len is used to pad the "text, state, action" tokens to the same length for each retrieved/query state; see tokenizer
+        #### NEED INCREASED MAX TOKEN LENGTH FOR LONGER ACTION HORIZON
+        model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=15, max_token_len=250, num_retrieved_observations=4, use_action_interpolation=True, lamda=10.0),
+        data=RegentDroidDataConfig(
+            repo_id=None,
+            assets=AssetsConfig(asset_id="droid"),
+            base_config=DataConfig(
+                prompt_from_task=False, # only needed for LeRobot datasets to convert task_index to prompt
+            ),
+        ),
+        # Note that we load the pi0-FAST base model checkpoint here.
+        weight_loader=weight_loaders.CheckpointWeightLoader("s3://openpi-assets/checkpoints/pi0_fast_droid/params"),
+        # Below you can define other hyperparameters like the learning rate, number of training steps, etc.
+        # Check the base TrainConfig class for a full list of available hyperparameters.
+        num_train_steps=10_000,
+        batch_size=16,
+        # The freeze filter defines which parameters should be frozen during training.
+        # We have a convenience function in the model config that returns the default freeze filter
+        # for the given model config for LoRA finetuning. Just make sure it matches the model config
+        # you chose above.
+        freeze_filter=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=15, max_token_len=250, num_retrieved_observations=4, use_action_interpolation=True, lamda=10.0).get_freeze_filter_with_frozen_img_encoder(),
+        # Turn off EMA for LoRA finetuning.
+        ema_decay=None,
+        log_interval=1,
+        save_interval=300,
+        keep_period=300,
+        lr_schedule=_optimizer.CosineDecaySchedule(warmup_steps=300, peak_lr=2.5e-5, decay_steps=3000, decay_lr=2.5e-6),
+    ),
+    TrainConfig(
         name="pi0_fast_droid_regent_with_interpolation_lamda1",
         # Here is an example of loading a pi0-FAST model for full finetuning.
         # Modify action_dim and action_horizon to match your dataset (action horizon is equal to

@@ -27,10 +27,10 @@ def del_in_dir(dir):
             os.remove(f"{demo_folder}/{filename}.npz")
 
 if __name__ == "__main__":
-    # dir_of_dirs = "collected_demos"    
-    dir_of_dirs = "collected_demos_training"
-    # filename = f'processed_demo'
-    filename = f'indices_and_distances'
+    dir_of_dirs = "collected_demos"    
+    # dir_of_dirs = "collected_demos_training"
+    filename = f'processed_demo'
+    # filename = f'indices_and_distances'
     for dir in os.listdir(dir_of_dirs):
         if os.path.isdir(f"{dir_of_dirs}/{dir}"):
             del_in_dir(f"{dir_of_dirs}/{dir}")
