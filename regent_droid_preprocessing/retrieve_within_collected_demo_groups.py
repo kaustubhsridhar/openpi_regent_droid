@@ -6,7 +6,7 @@ import os
 import argparse
 from autofaiss import build_index
 os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"] = "false" # This prevents JAX from preallocating most of the GPU memory.
-EMBED_TYPES = ["left_image", "wrist_image"]
+EMBED_TYPES = ["top_image", "wrist_image"]
 
 def create_idx_fol_mapping(ds_name):
 	mapping_names = ['groups_to_ep_fols', 'ep_idxs_to_fol', 'fols_to_ep_idxs', 'groups_to_ep_idxs']
@@ -150,7 +150,7 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--nb_cores_autofaiss", type=int, default=8)
 	parser.add_argument("--knn_k", type=int, default=100, help="number of nearest neighbors to retrieve")
-	parser.add_argument("--embedding_type", type=str, default="wrist_image", choices=EMBED_TYPES + ["both"])
+	parser.add_argument("--embedding_type", type=str, default="top_image", choices=EMBED_TYPES + ["both"])
 	args = parser.parse_args()
 
 	# setup

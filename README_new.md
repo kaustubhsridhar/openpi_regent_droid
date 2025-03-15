@@ -65,7 +65,7 @@ python simple_embed_with_openpi.py
 You also have to embed and retrieval preprocess some demos we collected in our setup for some seen/training tasks. The method to collect is detailed below but the processing code is here:
 ```bash
 # embed (based on code created for inference time demo preprocessing below)
-CUDA_VISIBLE_DEVICES=4 nohup python -u process_collected_demos.py --dir_of_dirs=collected_demos_training &> logs/process_collected_demos/training.txt &
+CUDA_VISIBLE_DEVICES=8 nohup python -u process_collected_demos.py --dir_of_dirs=collected_demos_training &> logs/process_collected_demos/training.txt &
 
 # retrieval_preprocessing
 nohup python -u retrieve_within_collected_demo_groups.py &> logs/retrieval_preprocessing/collected_demos_training.log &
@@ -112,6 +112,8 @@ python scripts/collect_trajectory.py -n 20
 
 # copy the demos from the franka laptop to the folder here
 rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/* regent_droid_preprocessing/collected_demos/
+
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/* regent_droid_preprocessing/collected_demos_training/
 
 rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results/videos/0314/* videos_dont_delete/pi0_0314_move_the_idli_plate_to_the_right_5times/
 

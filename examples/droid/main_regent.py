@@ -23,14 +23,9 @@ faulthandler.enable()
 @dataclasses.dataclass
 class Args:
     # Hardware parameters
-    left_camera_id: str = "26368109" # e.g., "24259877"
-    right_camera_id: str = "27085680" # "27085680" # "26368109"  
-    wrist_camera_id: str = "14436910"  # e.g., "13062452"
-
-    # Policy parameters
-    external_camera: str | None = (
-        "left"  # which external camera should be fed to the policy, choose from ["left", "right"]
-    )
+    top_camera_id: str = "26368109" # other camera is 25455306
+    right_camera_id: str = "27085680" #  
+    wrist_camera_id: str = "14436910"  # 
 
     # Rollout parameters
     max_timesteps: int = 2000
@@ -72,11 +67,6 @@ def prevent_keyboard_interrupt():
 
 def main(args: Args):
     print("Entered main!")
-    # Make sure external camera is specified by user -- we only use one external camera for the policy
-    assert (
-        args.external_camera is not None and args.external_camera in ["left", "right"]
-    ), f"Please specify an external camera to use for the policy, choose from ['left', 'right'], but got {args.external_camera}"
-
     # Initialize the Panda environment. Using joint velocity action space and gripper position action space is very important.
     env = RobotEnv(action_space="joint_velocity", gripper_action_space="position")
     print("Created the droid env!")
@@ -115,7 +105,8 @@ def main(args: Args):
         joint_position_file = f"results_regent/log/{date}/eval_{main_category}_{timestamp}_joints.csv"
         # Create a filename-safe version of the instruction
         safe_instruction = instruction.replace(" ", "_").replace("/", "_").replace("\\", "_")[:50]  # limit length
-        video = []
+        top_video = []
+        right_video = []
         wrist_video = []  # New list for wrist camera frames
         #joint_positions = []
         #action_state = []
@@ -132,7 +123,8 @@ def main(args: Args):
                 )
 
                 # Save both camera views
-                video.append(curr_obs[f"{args.external_camera}_image"])
+                top_video.append(curr_obs[f"top_image"])
+                right_video.append(curr_obs[f"right_image"])
                 wrist_video.append(curr_obs["wrist_image"])
 
 
@@ -143,13 +135,15 @@ def main(args: Args):
                     # We resize images on the robot laptop to minimize the amount of data sent to the policy server
                     # and improve latency.
                     request_data = {
-                        "query_image": image_tools.resize_with_pad(
-                            curr_obs[f"{args.external_camera}_image"], 224, 224
+                        "query_right_image": image_tools.resize_with_pad(
+                            curr_obs[f"right_image"], 224, 224
+                        ),
+                        "query_top_image": image_tools.resize_with_pad(
+                            curr_obs[f"top_image"], 224, 224
                         ),
                         "query_wrist_image": image_tools.resize_with_pad(curr_obs["wrist_image"], 224, 224),
                         "query_state": np.concatenate([curr_obs["joint_position"], curr_obs["gripper_position"]]),
                         "query_prompt": instruction,
-                        "camera": args.external_camera,
                     }
 
                     # Wrap the server call in a context manager to prevent Ctrl+C from interrupting it
@@ -182,28 +176,30 @@ def main(args: Args):
                 break
 
         # Stack videos side by side
-        video = np.stack(video)
+        top_video = np.stack(top_video)
+        right_video = np.stack(right_video)
         wrist_video = np.stack(wrist_video)
         #action_csv = np.stack(action_state)
         #joint_csv = np.stack(joint_positions)
         #combined_action_csv = np.concatenate([action_csv, joint_csv], axis=1)
         
         # Ensure both videos have the same height for side-by-side display
-        target_height = min(video.shape[1], wrist_video.shape[1])
-        target_width = min(video.shape[2], wrist_video.shape[2])
+        target_height = min(top_video.shape[1], wrist_video.shape[1], right_video.shape[1])
+        target_width = min(top_video.shape[2], wrist_video.shape[2], right_video.shape[2])
         
         # Resize both videos to the same dimensions
-        video_resized = np.array([image_tools.resize_with_pad(frame, target_height, target_width) for frame in video])
+        top_video_resized = np.array([image_tools.resize_with_pad(frame, target_height, target_width) for frame in top_video])
+        right_video_resized = np.array([image_tools.resize_with_pad(frame, target_height, target_width) for frame in right_video])
         wrist_video_resized = np.array([image_tools.resize_with_pad(frame, target_height, target_width) for frame in wrist_video])
         
         # Stack videos horizontally
-        combined_video = np.concatenate([video_resized, wrist_video_resized], axis=2)
+        combined_video = np.concatenate([top_video_resized, right_video_resized, wrist_video_resized], axis=2)
 
         date = datetime.datetime.now().strftime("%m%d")
         save_dir = f"results_regent/videos/{date}"
         os.makedirs(save_dir, exist_ok=True)
-        save_filename = os.path.join(save_dir, f"{args.external_camera }_{safe_instruction}_{timestamp}.mp4")
-  
+        save_filename = os.path.join(save_dir, f"{safe_instruction}_{timestamp}.mp4")
+        
         ImageSequenceClip(list(combined_video), fps=10).write_videofile(save_filename + ".mp4", codec="libx264")
 
         # Get success value
@@ -262,24 +258,25 @@ def main(args: Args):
 
 def _extract_observation(args: Args, obs_dict, *, save_to_disk=False):
     image_observations = obs_dict["image"]
-    left_image, right_image, wrist_image = None, None, None
+    top_image, right_image, wrist_image = None, None, None
     for key in image_observations:
-        # Note the "left" below refers to the left camera in the stereo pair.
-        # The model is only trained on left stereo cams, so we only feed those.
-        if args.left_camera_id in key and "left" in key:
-            left_image = image_observations[key]
-        elif args.right_camera_id in key and "left" in key:
+        # Note the stereo_choice = "left" below refers to one of the two cameras in the stereo pair.
+        # The model is only trained on this one of the stereo cams, so we only feed that one.
+        stereo_choice = "left"
+        if args.top_camera_id in key and stereo_choice in key:
+            top_image = image_observations[key]
+        elif args.right_camera_id in key and stereo_choice in key:
             right_image = image_observations[key]
-        elif args.wrist_camera_id in key and "left" in key:
+        elif args.wrist_camera_id in key and stereo_choice in key:
             wrist_image = image_observations[key]
 
     # Drop the alpha dimension
-    left_image = left_image[..., :3]
+    top_image = top_image[..., :3]
     right_image = right_image[..., :3]
     wrist_image = wrist_image[..., :3]
 
     # Convert to RGB
-    left_image = left_image[..., ::-1]
+    top_image = top_image[..., ::-1]
     right_image = right_image[..., ::-1]
     wrist_image = wrist_image[..., ::-1]
 
@@ -292,12 +289,12 @@ def _extract_observation(args: Args, obs_dict, *, save_to_disk=False):
     # Save the images to disk so that they can be viewed live while the robot is running
     # Create one combined image to make live viewing easy
     if save_to_disk:
-        combined_image = np.concatenate([left_image, wrist_image, right_image], axis=1)
+        combined_image = np.concatenate([top_image, wrist_image, right_image], axis=1)
         combined_image = Image.fromarray(combined_image)
         combined_image.save("robot_camera_views.png")
 
     return {
-        "left_image": left_image,
+        "top_image": top_image,
         "right_image": right_image,
         "wrist_image": wrist_image,
         "cartesian_position": cartesian_position,

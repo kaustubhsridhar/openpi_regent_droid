@@ -26,7 +26,8 @@ demo = np.load(demo_path)
 # run inference on a example 
 camera = "left"
 example = {
-        "query_image": demo[f"{camera}_image"][0],
+        "query_top_image": demo[f"top_image"][0],
+        "query_right_image": demo[f"right_image"][0],
         "query_wrist_image": demo[f"wrist_image"][0],
         "query_state": demo["state"][0],
         "query_prompt": demo["prompt"].item(),

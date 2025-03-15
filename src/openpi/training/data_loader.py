@@ -186,16 +186,18 @@ class RegentDroidDataset(Dataset):
         ep_idxs = list(np.unique(retrieved_indices[:, 0])) + [query_ep_idx]
         ep_data = {ep_idx: np.load(self.all_ep_data_paths[ep_idx]) for ep_idx in ep_idxs}
         data = {}
-        random_ext_img = np.random.choice(["observation__exterior_image_1_left", "observation__exterior_image_2_left"])
+        random_ext_img = np.random.choice(["left", "right"])
         for ct, (ep_idx, step_idx) in enumerate(retrieved_indices):
             prefix = f"retrieved_{ct}_"
             if ep_idx < 100000:
-                data[f"{prefix}image"] = ep_data[ep_idx][random_ext_img][step_idx]
+                data[f"{prefix}top_image"] = ep_data[ep_idx]["observation__exterior_image_1_left"][step_idx]
+                data[f"{prefix}right_image"] = ep_data[ep_idx]["observation__exterior_image_2_left"][step_idx]
                 data[f"{prefix}wrist_image"] = ep_data[ep_idx]["observation__wrist_image_left"][step_idx]
                 data[f"{prefix}state"] = np.concatenate([ep_data[ep_idx]["observation__joint_position"][step_idx], ep_data[ep_idx]["observation__gripper_position"][step_idx]], axis=0)
                 data[f"{prefix}actions"] = get_action_chunk(ep_data[ep_idx]["action_dict__joint_velocity"], ep_data[ep_idx]["action_dict__gripper_position"], step_idx, self.action_horizon)
             else:
-                data[f"{prefix}image"] = ep_data[ep_idx]["left_image" if random_ext_img == "observation__exterior_image_1_left" else "right_image"][step_idx]
+                data[f"{prefix}top_image"] = ep_data[ep_idx]["top_image"][step_idx]
+                data[f"{prefix}right_image"] = ep_data[ep_idx]["right_image"][step_idx]
                 data[f"{prefix}wrist_image"] = ep_data[ep_idx]["wrist_image"][step_idx]
                 data[f"{prefix}state"] = ep_data[ep_idx]["state"][step_idx]
                 data[f"{prefix}actions"] = get_action_chunk(ep_data[ep_idx]["actions"][:, :-1], ep_data[ep_idx]["actions"][:, -1:], step_idx, self.action_horizon)
@@ -203,12 +205,14 @@ class RegentDroidDataset(Dataset):
         
         prefix = "query_"
         if query_ep_idx < 100000:
-            data[f"{prefix}image"] = ep_data[query_ep_idx][random_ext_img][query_step_idx]
+            data[f"{prefix}top_image"] = ep_data[query_ep_idx]["observation__exterior_image_1_left"][query_step_idx]
+            data[f"{prefix}right_image"] = ep_data[query_ep_idx]["observation__exterior_image_2_left"][query_step_idx]
             data[f"{prefix}wrist_image"] = ep_data[query_ep_idx]["observation__wrist_image_left"][query_step_idx]
             data[f"{prefix}state"] = np.concatenate([ep_data[query_ep_idx]["observation__joint_position"][query_step_idx], ep_data[query_ep_idx]["observation__gripper_position"][query_step_idx]], axis=0)
             data[f"{prefix}actions"] = get_action_chunk(ep_data[query_ep_idx]["action_dict__joint_velocity"], ep_data[query_ep_idx]["action_dict__gripper_position"], query_step_idx, self.action_horizon)
         else:
-            data[f"{prefix}image"] = ep_data[query_ep_idx]["left_image" if random_ext_img == "observation__exterior_image_1_left" else "right_image"][query_step_idx]
+            data[f"{prefix}top_image"] = ep_data[query_ep_idx]["top_image"][query_step_idx]
+            data[f"{prefix}right_image"] = ep_data[query_ep_idx]["right_image"][query_step_idx]
             data[f"{prefix}wrist_image"] = ep_data[query_ep_idx]["wrist_image"][query_step_idx]
             data[f"{prefix}state"] = ep_data[query_ep_idx]["state"][query_step_idx]
             data[f"{prefix}actions"] = get_action_chunk(ep_data[query_ep_idx]["actions"][:, :-1], ep_data[query_ep_idx]["actions"][:, -1:], query_step_idx, self.action_horizon)
