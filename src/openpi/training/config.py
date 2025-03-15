@@ -564,7 +564,7 @@ _CONFIGS = [
         #
         # REGENT NOTE:
         # max_token_len is used to pad the "text, state, action" tokens to the same length for each retrieved/query state; see tokenizer
-        model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=5),
+        model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=4),
         data=RegentDroidDataConfig(
             repo_id=None,
             assets=AssetsConfig(asset_id="droid"),
@@ -582,7 +582,7 @@ _CONFIGS = [
         # We have a convenience function in the model config that returns the default freeze filter
         # for the given model config for LoRA finetuning. Just make sure it matches the model config
         # you chose above.
-        freeze_filter=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=5).get_freeze_filter_with_frozen_img_encoder(),
+        freeze_filter=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=4).get_freeze_filter_with_frozen_img_encoder(),
         # Turn off EMA for LoRA finetuning.
         ema_decay=None,
         log_interval=1,
@@ -605,7 +605,7 @@ _CONFIGS = [
         #
         # REGENT NOTE:
         # max_token_len is used to pad the "text, state, action" tokens to the same length for each retrieved/query state; see tokenizer
-        model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=5, use_action_interpolation=True, lamda=10.0),
+        model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=4, use_action_interpolation=True, lamda=10.0),
         data=RegentDroidDataConfig(
             repo_id=None,
             assets=AssetsConfig(asset_id="droid"),
@@ -623,7 +623,7 @@ _CONFIGS = [
         # We have a convenience function in the model config that returns the default freeze filter
         # for the given model config for LoRA finetuning. Just make sure it matches the model config
         # you chose above.
-        freeze_filter=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=5, use_action_interpolation=True, lamda=10.0).get_freeze_filter_with_frozen_img_encoder(),
+        freeze_filter=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=4, use_action_interpolation=True, lamda=10.0).get_freeze_filter_with_frozen_img_encoder(),
         # Turn off EMA for LoRA finetuning.
         ema_decay=None,
         log_interval=1,
@@ -646,7 +646,7 @@ _CONFIGS = [
         #
         # REGENT NOTE:
         # max_token_len is used to pad the "text, state, action" tokens to the same length for each retrieved/query state; see tokenizer
-        model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=5, use_action_interpolation=True, lamda=1.0),
+        model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=4, use_action_interpolation=True, lamda=1.0),
         data=RegentDroidDataConfig(
             repo_id=None,
             assets=AssetsConfig(asset_id="droid"),
@@ -664,7 +664,7 @@ _CONFIGS = [
         # We have a convenience function in the model config that returns the default freeze filter
         # for the given model config for LoRA finetuning. Just make sure it matches the model config
         # you chose above.
-        freeze_filter=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=5, use_action_interpolation=True, lamda=1.0).get_freeze_filter_with_frozen_img_encoder(),
+        freeze_filter=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=4, use_action_interpolation=True, lamda=1.0).get_freeze_filter_with_frozen_img_encoder(),
         # Turn off EMA for LoRA finetuning.
         ema_decay=None,
         log_interval=1,

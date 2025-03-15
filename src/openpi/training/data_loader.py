@@ -110,10 +110,10 @@ class RegentDroidDataset(Dataset):
         all_query_indices = []
         all_distances = []
         
-        # # files from the droid dataset
+        ## files from the droid dataset
         # indices_files = os.listdir(indices_and_dists_fol)
         # indices_files = [os.path.join(indices_and_dists_fol, f) for f in indices_files]
-        indices_files = [] ## TEMP ## TODO: REMOVE and UNCOMMENT ABOVE
+        indices_files = [] ## no files from droid dataset
 
         # files from the collected demos for training
         for group_name, ep_fols in collected_demos_infos["groups_to_ep_fols"].items():
