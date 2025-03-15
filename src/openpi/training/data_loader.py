@@ -92,7 +92,9 @@ def get_action_chunk(action_joint_vels, action_gripper_pos, step_idx, action_hor
             action_chunk.append(np.concatenate([action_joint_vels[step_idx+i], action_gripper_pos[step_idx+i]], axis=0))
         else:
             action_chunk.append(np.concatenate([np.zeros(action_joint_vels.shape[-1], dtype=np.float32), action_gripper_pos[-1]], axis=0))
-    return np.concatenate(action_chunk, axis=0)
+    action_chunk = np.stack(action_chunk, axis=0)
+    assert action_chunk.shape == (action_horizon, 8), f"{action_chunk.shape=}"
+    return action_chunk
     
 
 class RegentDroidDataset(Dataset):

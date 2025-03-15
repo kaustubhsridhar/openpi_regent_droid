@@ -158,6 +158,4 @@ class DroidOutputs(transforms.DataTransformFn):
 class RegentDroidOutputs(transforms.DataTransformFn):
     def __call__(self, data: dict) -> dict:
         # Only return the first 8 dims.
-        query_actions = np.asarray(data["query_actions"])
-        query_actions = query_actions.reshape(-1, 8)
-        return {"query_actions": query_actions}
+        return {"query_actions": np.asarray(data["query_actions"])}

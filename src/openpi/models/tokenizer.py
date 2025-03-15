@@ -138,8 +138,10 @@ class FASTTokenizer:
     
 
 class FASTTokenizerRegent:
-    def __init__(self, max_len: int = 256, fast_tokenizer_path: str = "physical-intelligence/fast"):
+    def __init__(self, max_len: int = 256, fast_tokenizer_path: str = "physical-intelligence/fast", action_horizon: int = 10, action_dim: int = 8):
         self._max_len = max_len
+        self._action_horizon = action_horizon
+        self._action_dim = action_dim
 
         # Download base PaliGemma tokenizer
         path = download.maybe_download("gs://big_vision/paligemma_tokenizer.model", gs={"token": "anon"})
@@ -167,6 +169,7 @@ class FASTTokenizerRegent:
 
         if actions is not None:
             # Tokenize actions with FAST tokenizer --> map to last tokens in PaliGemma vocab
+            assert actions.shape == (self._action_horizon, self._action_dim), f"{actions.shape=}"
             action_tokens = self._fast_tokenizer(actions[None])[0]
             action_tokens_in_pg = self._act_tokens_to_paligemma_tokens(action_tokens)
 
@@ -216,6 +219,7 @@ class FASTTokenizerRegent:
         return np.asarray(prefix_tokens), postfix_tokens, np.asarray(token_mask), np.asarray(ar_mask), np.asarray(loss_mask)
 
     def extract_actions(self, tokens: np.ndarray, action_horizon: int, action_dim: int) -> np.ndarray:
+        assert action_horizon == self._action_horizon and action_dim == self._action_dim, f"{action_horizon=}, {action_dim=}, {self._action_horizon=}, {self._action_dim=}"
         # Decode predicted output tokens
         decoded_tokens = self._paligemma_tokenizer.decode(tokens.tolist())
 
@@ -234,10 +238,10 @@ class FASTTokenizerRegent:
         print(f'action_tokens: {action_tokens}')
         outputs = self._fast_tokenizer.decode(
             [action_tokens.tolist()], time_horizon=action_horizon, action_dim=action_dim
-        )[0]
+        )
+        assert outputs.shape == (1, action_horizon, action_dim), f"{outputs.shape=}"
+        outputs = outputs[0]
         print(f'outputs before normalization: {outputs}')
-        assert outputs.shape == (action_horizon, action_dim)
-        outputs = outputs.reshape(-1)
         return outputs
 
     def _act_tokens_to_paligemma_tokens(self, tokens: np.ndarray | list[int]) -> np.ndarray:

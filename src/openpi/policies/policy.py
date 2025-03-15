@@ -86,8 +86,10 @@ def get_action_chunk_at_inference_time(actions, step_idx, action_horizon):
             action_chunk.append(actions[step_idx+i])
         else:
             action_chunk.append(np.concatenate([np.zeros(actions.shape[-1]-1, dtype=np.float32), actions[-1, -1:]], axis=0)) # combines 0 joint vels with last gripper pos
-    return np.concatenate(action_chunk, axis=0)
-    
+    action_chunk = np.stack(action_chunk, axis=0)
+    assert action_chunk.shape == (action_horizon, 8), f"{action_chunk.shape=}"
+    return action_chunk
+
 
 class RegentPolicy(BasePolicy):
     def __init__(
