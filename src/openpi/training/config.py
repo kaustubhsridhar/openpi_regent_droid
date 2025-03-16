@@ -627,8 +627,8 @@ _CONFIGS = [
         # Turn off EMA for LoRA finetuning.
         ema_decay=None,
         log_interval=1,
-        save_interval=100,
-        keep_period=100,
+        save_interval=300,
+        keep_period=300,
         lr_schedule=_optimizer.CosineDecaySchedule(warmup_steps=300, peak_lr=2.5e-5, decay_steps=3000, decay_lr=2.5e-6),
     ),
     TrainConfig(
