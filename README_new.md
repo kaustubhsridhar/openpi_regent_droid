@@ -126,7 +126,7 @@ rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results/videos/0314/* vid
 
 rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_rnp/videos/0314/* videos_dont_delete/rnp_0314_move_the_idli_plate_to_the_right_5times/
 
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_regent/videos/0314/* videos_dont_delete/regent_0314_move_the_idli_plate_to_the_right_5times/
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_regent/videos/0316/* videos_dont_delete/regent_0316_move_the_idli_plate_to_the_right/
 ```
 
 * Collect more training demos and transfer as follows:
@@ -209,7 +209,7 @@ CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint -
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/14th_try_with_interpolation/6000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 # (alternatively) Run the server on ivy for regent with interpolation and longer action horizon
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right
 
 # (Alternatively) Run the server on ivy for retrieve and play
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right

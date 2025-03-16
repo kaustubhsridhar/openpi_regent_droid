@@ -158,8 +158,8 @@ class RegentPolicy(BasePolicy):
             more_obs[f"retrieved_{ct}_prompt"] = self._demos[ep_idx]["prompt"].item()
         # Compute exp_lamda_distances if use_action_interpolation
         if self._use_action_interpolation:
-            first_embedding = self._demos[retrieved_indices[0, 0, 0]]["wrist_image_embeddings"][retrieved_indices[0, 0, 1]]
-            distances = [0.0] + [np.linalg.norm(self._demos[ep_idx]["wrist_image_embeddings"][step_idx:step_idx+1] - first_embedding) for ep_idx, step_idx in retrieved_indices[0, 1:]]
+            first_embedding = self._demos[retrieved_indices[0, 0, 0]]["top_image_embeddings"][retrieved_indices[0, 0, 1]]
+            distances = [0.0] + [np.linalg.norm(self._demos[ep_idx]["top_image_embeddings"][step_idx:step_idx+1] - first_embedding) for ep_idx, step_idx in retrieved_indices[0, 1:]]
             distances.append(np.linalg.norm(query_embedding - first_embedding))
             distances = np.clip(np.array(distances), 0, self._max_dist) / self._max_dist
             print(f'distances: {distances}')
