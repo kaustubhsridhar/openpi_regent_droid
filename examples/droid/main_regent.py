@@ -152,7 +152,7 @@ def main(args: Args):
                     with prevent_keyboard_interrupt():
                         # this returns action chunk [10, 8] of 10 joint velocity actions (7) + gripper position (1)
                         pred_action_chunk = policy_client.infer(request_data)["query_actions"]
-                    assert pred_action_chunk.shape == (10, 8)
+                    assert pred_action_chunk.shape in [(10, 8), (15, 8)]
 
                 # Select current action to execute from chunk
                 action = pred_action_chunk[actions_from_chunk_completed]

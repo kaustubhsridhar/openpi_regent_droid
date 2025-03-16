@@ -206,10 +206,10 @@ python3 scripts/main.py --remote_host=158.130.52.14 --remote_port=8000 --externa
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent --policy.dir=checkpoints/pi0_fast_droid_regent/14th_try/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 # (Alternatively) Run the server on ivy for regent with interpolation
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/14th_try_with_interpolation/1800 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/14th_try_with_interpolation/6000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 # (alternatively) Run the server on ivy for regent with interpolation and longer action horizon
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/1800 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 # (Alternatively) Run the server on ivy for retrieve and play
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
