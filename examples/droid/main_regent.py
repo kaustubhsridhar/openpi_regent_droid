@@ -78,7 +78,6 @@ def main(args: Args):
 
     # Initialize
     date = datetime.datetime.now().strftime("%m%d")
-    os.makedirs(f"results_regent/log/{date}", exist_ok=True)
 
     while True:
         # Get text inputs
@@ -92,7 +91,6 @@ def main(args: Args):
         # Prepare to save video of rollout
         timestamp = datetime.datetime.now().strftime("%Y_%m_%d_%H:%M:%S")
 
-        joint_position_file = f"results_regent/log/{date}/eval_{main_category}_{timestamp}_joints.csv"
         # Create a filename-safe version of the instruction
         safe_instruction = instruction.replace(" ", "_").replace("/", "_").replace("\\", "_")[:50]  # limit length
         top_video = []
