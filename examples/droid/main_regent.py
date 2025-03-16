@@ -76,23 +76,13 @@ def main(args: Args):
     policy_client = websocket_client_policy.WebsocketClientPolicy(args.remote_host, args.remote_port)
     print("Connected to the policy server!")
 
-    # Initialize DataFrame and prepare markdown logging
-    df = pd.DataFrame(columns=["success", "duration", "video_filename", "instruction", "comment"])
-    timestamp = datetime.datetime.now().strftime("%Y_%m_%d_%H%M")
+    # Initialize
     date = datetime.datetime.now().strftime("%m%d")
-    # Get main category for this evaluation session
-    main_category = input("Enter the prefix for this video filename: ")
     os.makedirs(f"results_regent/log/{date}", exist_ok=True)
-    markdown_file = f"results_regent/log/{date}/eval_{main_category}.md"
-
-
-    # Create markdown header
-    with open(markdown_file, "a") as f:
-        f.write(f"# Pi0-FAST Evaluation: {main_category}\n")
-        f.write(f"Date: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n")
-        f.write("## results_regent\n\n")
 
     while True:
+        # Get text inputs
+        main_category = input("Enter the prefix for this video filename: ")
         instruction = input("Enter instruction: ")
 
         # Rollout parameters
@@ -201,60 +191,11 @@ def main(args: Args):
         os.makedirs(save_dir, exist_ok=True)
         save_filename = os.path.join(save_dir, f"{main_category.replace(' ', '_')}_{safe_instruction}_{timestamp}.mp4")
         
-        ImageSequenceClip(list(combined_video), fps=10).write_videofile(save_filename + ".mp4", codec="libx264")
-
-        # Get success value
-        success: str | float | None = None
-        while not isinstance(success, float):
-            success = input(
-                "Did the rollout succeed? (enter y for 100%, n for 0%), or a numeric value 0-100 based on the evaluation spec: "
-            )
-            if success == "y":
-                success = 1.0
-            elif success == "n":
-                success = 0.0
-            else:
-                try:
-                    success = float(success) / 100
-                    if not (0 <= success <= 1):
-                        print(f"Success must be a number in [0, 100] but got: {success * 100}")
-                        success = None
-                except ValueError:
-                    print("Invalid input. Please enter y, n, or a number between 0-100")
-                    success = None
-
-        # Get comment about the result
-        comment = input("Enter comment about this trial: ")
-
-        # Append to markdown file
-        with open(markdown_file, "a") as f:
-            f.write(f"### Trial {len(df) + 1}: {instruction}\n")
-            f.write(f"- Success: {success * 100}%\n")
-            f.write(f"- Duration: {t_step} steps\n")
-            f.write(f"- Video: [{os.path.basename(save_filename)}]({save_filename})\n")
-            f.write(f"- Comment: {comment}\n\n")
-
-
-        #joint_df = pd.DataFrame(combined_action_csv)
-        #joint_df.to_csv(joint_position_file)
-
-        # Update DataFrame
-        df = pd.concat([df, pd.DataFrame([{
-            "success": success,
-            "duration": t_step,
-            "video_filename": save_filename,
-            "instruction": instruction,
-            "comment": comment
-        }])], ignore_index=True)
+        ImageSequenceClip(list(combined_video), fps=10).write_videofile(save_filename, codec="libx264")
 
         if input("Do one more eval? (enter y or n) ").lower() != "y":
             break
         env.reset()
-
-    # Save CSV alongside markdown
-    csv_filename = markdown_file.replace(".md", ".csv")
-    df.to_csv(csv_filename)
-    print(f"results_regent saved to {markdown_file} and {csv_filename}")
 
 
 def _extract_observation(args: Args, obs_dict, *, save_to_disk=False):
