@@ -1,0 +1,114 @@
+nohup: ignoring input
+/home/ksridhar/openpi_regent_droid/.venv/lib/python3.11/site-packages/tyro/_parsers.py:332: UserWarning: The field `data.repo-id` is annotated with type `<class 'str'>`, but the default value `None` has type `<class 'NoneType'>`. We'll try to handle this gracefully, but it may cause unexpected behavior.
+  warnings.warn(message)
+/home/ksridhar/openpi_regent_droid/.venv/lib/python3.11/site-packages/tyro/_parsers.py:332: UserWarning: The field `model.action-expert-variant` is annotated with type `typing.Literal['dummy', 'gemma_300m', 'gemma_2b', 'gemma_2b_lora']`, but the default value `gemma_300m_lora` has type `<class 'str'>`. We'll try to handle this gracefully, but it may cause unexpected behavior.
+  warnings.warn(message)
+23:44:41.295 [I] Running on: ivy                                                                  (2699547:train_pi0_fast_regent.py:226)
+INFO:2025-03-15 23:44:45,702:jax._src.xla_bridge:945: Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+23:44:45.702 [I] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig' (2699547:xla_bridge.py:945)
+INFO:2025-03-15 23:44:45,704:jax._src.xla_bridge:945: Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+23:44:45.704 [I] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory (2699547:xla_bridge.py:945)
+23:44:47.164 [I] Wiped checkpoint directory /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon (2699547:checkpoints.py:25)
+23:44:47.165 [I] Created BasePyTreeCheckpointHandler: pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=None (2699547:base_pytree_checkpoint_handler.py:332)
+23:44:47.165 [I] Created BasePyTreeCheckpointHandler: pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=None (2699547:base_pytree_checkpoint_handler.py:332)
+23:44:47.165 [I] [thread=MainThread] Failed to get flag value for EXPERIMENTAL_ORBAX_USE_DISTRIBUTED_PROCESS_ID. (2699547:multihost.py:375)
+23:44:47.165 [I] [process=0][thread=MainThread] CheckpointManager init: checkpointers=None, item_names=None, item_handlers={'assets': <openpi.training.checkpoints.CallbackHandler object at 0x7fe6914e36d0>, 'train_state': <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7fe69184efd0>, 'params': <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7fe6914e3590>}, handler_registry=None (2699547:checkpoint_manager.py:622)
+23:44:47.166 [I] Deferred registration for item: "assets". Adding handler `<openpi.training.checkpoints.CallbackHandler object at 0x7fe6914e36d0>` for item "assets" and save args `<class 'openpi.training.checkpoints.CallbackSave'>` and restore args `<class 'openpi.training.checkpoints.CallbackRestore'>` to `_handler_registry`. (2699547:composite_checkpoint_handler.py:239)
+23:44:47.166 [I] Deferred registration for item: "train_state". Adding handler `<orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7fe69184efd0>` for item "train_state" and save args `<class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeSaveArgs'>` and restore args `<class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeRestoreArgs'>` to `_handler_registry`. (2699547:composite_checkpoint_handler.py:239)
+23:44:47.166 [I] Deferred registration for item: "params". Adding handler `<orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7fe6914e3590>` for item "params" and save args `<class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeSaveArgs'>` and restore args `<class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeRestoreArgs'>` to `_handler_registry`. (2699547:composite_checkpoint_handler.py:239)
+23:44:47.166 [I] Deferred registration for item: "metrics". Adding handler `<orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonCheckpointHandler object at 0x7fe6914e2890>` for item "metrics" and save args `<class 'orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonSaveArgs'>` and restore args `<class 'orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonRestoreArgs'>` to `_handler_registry`. (2699547:composite_checkpoint_handler.py:239)
+23:44:47.166 [I] Initialized registry DefaultCheckpointHandlerRegistry({('assets', <class 'openpi.training.checkpoints.CallbackSave'>): <openpi.training.checkpoints.CallbackHandler object at 0x7fe6914e36d0>, ('assets', <class 'openpi.training.checkpoints.CallbackRestore'>): <openpi.training.checkpoints.CallbackHandler object at 0x7fe6914e36d0>, ('train_state', <class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeSaveArgs'>): <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7fe69184efd0>, ('train_state', <class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeRestoreArgs'>): <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7fe69184efd0>, ('params', <class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeSaveArgs'>): <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7fe6914e3590>, ('params', <class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeRestoreArgs'>): <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7fe6914e3590>, ('metrics', <class 'orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonSaveArgs'>): <orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonCheckpointHandler object at 0x7fe6914e2890>, ('metrics', <class 'orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonRestoreArgs'>): <orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonCheckpointHandler object at 0x7fe6914e2890>}). (2699547:composite_checkpoint_handler.py:508)
+23:44:47.166 [I] orbax-checkpoint version: 0.11.1                                                 (2699547:abstract_checkpointer.py:35)
+23:44:47.166 [I] [process=0][thread=MainThread] Using barrier_sync_fn: <function get_barrier_sync_fn.<locals>.<lambda> at 0x7fe691821ee0> timeout: 7200 secs and primary_host=0 for async checkpoint writes (2699547:async_checkpointer.py:80)
+23:44:47.167 [I] Found 0 checkpoint steps in /home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon (2699547:checkpoint_manager.py:1528)
+23:44:47.167 [I] Saving root metadata                                                             (2699547:checkpoint_manager.py:1569)
+23:44:47.167 [I] [process=0][thread=MainThread] Skipping global process sync, barrier name: CheckpointManager:save_metadata (2699547:multihost.py:293)
+23:44:47.167 [I] [process=0][thread=MainThread] CheckpointManager created,  primary_host=0, CheckpointManagerOptions=CheckpointManagerOptions(save_interval_steps=1, max_to_keep=1, keep_time_interval=None, keep_period=300, should_keep_fn=None, best_fn=None, best_mode='max', keep_checkpoints_without_metrics=True, step_prefix=None, step_format_fixed_length=None, step_name_format=None, create=False, cleanup_tmp_directories=False, save_on_steps=frozenset(), single_host_load_and_broadcast=False, todelete_subdir=None, enable_background_delete=False, read_only=False, enable_async_checkpointing=True, async_options=AsyncOptions(timeout_secs=7200, barrier_sync_fn=None, post_finalization_callback=None, create_directories_asynchronously=False), multiprocessing_options=MultiprocessingOptions(primary_host=0, active_processes=None, barrier_sync_key_prefix=None), should_save_fn=None, file_options=FileOptions(path_permission_mode=None), save_root_metadata=True, temporary_path_class=None, save_decision_policy=None), root_directory=/home/ksridhar/openpi_regent_droid/checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon: <orbax.checkpoint.checkpoint_manager.CheckpointManager object at 0x7fe6914ee850> (2699547:checkpoint_manager.py:797)
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: ksridhar. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/ksridhar/openpi_regent_droid/wandb/run-20250315_234447-6j0ui5tz
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run 14th_try_with_interpolation_longer_act_horizon
+wandb: ⭐️ View project at https://wandb.ai/ksridhar/openpi
+wandb: 🚀 View run at https://wandb.ai/ksridhar/openpi/runs/6j0ui5tz
+Some kwargs in processor config are unused and will not have any effect: min_token, time_horizon, vocab_size, scale, action_dim. 
+Some kwargs in processor config are unused and will not have any effect: min_token, time_horizon, vocab_size, scale, action_dim. 
+23:44:49.122 [I] Loaded norm stats from /home/ksridhar/openpi_regent_droid/assets/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/droid (2699547:config.py:167)
+count_droid: 0, count_collected_demos: 28979
+len_dataset: 28979
+max distance value: 298.4654541015625
+23:45:11.739 [I] Initialized data loader:
+[0].query_images['base_0_rgb']: (16, 224, 224, 3)@float32
+[0].query_images['base_1_rgb']: (16, 224, 224, 3)@float32
+[0].query_images['left_wrist_0_rgb']: (16, 224, 224, 3)@float32
+[0].retrieved_0_images['base_0_rgb']: (16, 224, 224, 3)@float32
+[0].retrieved_0_images['base_1_rgb']: (16, 224, 224, 3)@float32
+[0].retrieved_0_images['left_wrist_0_rgb']: (16, 224, 224, 3)@float32
+[0].retrieved_1_images['base_0_rgb']: (16, 224, 224, 3)@float32
+[0].retrieved_1_images['base_1_rgb']: (16, 224, 224, 3)@float32
+[0].retrieved_1_images['left_wrist_0_rgb']: (16, 224, 224, 3)@float32
+[0].retrieved_2_images['base_0_rgb']: (16, 224, 224, 3)@float32
+[0].retrieved_2_images['base_1_rgb']: (16, 224, 224, 3)@float32
+[0].retrieved_2_images['left_wrist_0_rgb']: (16, 224, 224, 3)@float32
+[0].retrieved_3_images['base_0_rgb']: (16, 224, 224, 3)@float32
+[0].retrieved_3_images['base_1_rgb']: (16, 224, 224, 3)@float32
+[0].retrieved_3_images['left_wrist_0_rgb']: (16, 224, 224, 3)@float32
+[0].query_image_masks['base_0_rgb']: (16,)@bool
+[0].query_image_masks['base_1_rgb']: (16,)@bool
+[0].query_image_masks['left_wrist_0_rgb']: (16,)@bool
+[0].retrieved_0_image_masks['base_0_rgb']: (16,)@bool
+[0].retrieved_0_image_masks['base_1_rgb']: (16,)@bool
+[0].retrieved_0_image_masks['left_wrist_0_rgb']: (16,)@bool
+[0].retrieved_1_image_masks['base_0_rgb']: (16,)@bool
+[0].retrieved_1_image_masks['base_1_rgb']: (16,)@bool
+[0].retrieved_1_image_masks['left_wrist_0_rgb']: (16,)@bool
+[0].retrieved_2_image_masks['base_0_rgb']: (16,)@bool
+[0].retrieved_2_image_masks['base_1_rgb']: (16,)@bool
+[0].retrieved_2_image_masks['left_wrist_0_rgb']: (16,)@bool
+[0].retrieved_3_image_masks['base_0_rgb']: (16,)@bool
+[0].retrieved_3_image_masks['base_1_rgb']: (16,)@bool
+[0].retrieved_3_image_masks['left_wrist_0_rgb']: (16,)@bool
+[0].exp_lamda_distances: (16, 5, 1)@float32
+[0].query_state: (16, 8)@float32
+[0].retrieved_0_state: (16, 8)@float32
+[0].retrieved_1_state: (16, 8)@float32
+[0].retrieved_2_state: (16, 8)@float32
+[0].retrieved_3_state: (16, 8)@float32
+[0].query_tokenized_prompt_prefix: (16, 90)@int32
+[0].retrieved_0_tokenized_prompt_prefix: (16, 90)@int32
+[0].retrieved_1_tokenized_prompt_prefix: (16, 90)@int32
+[0].retrieved_2_tokenized_prompt_prefix: (16, 90)@int32
+[0].retrieved_3_tokenized_prompt_prefix: (16, 90)@int32
+[0].query_tokenized_prompt_postfix: (16, 90)@int32
+[0].retrieved_0_tokenized_prompt_postfix: (16, 90)@int32
+[0].retrieved_1_tokenized_prompt_postfix: (16, 90)@int32
+[0].retrieved_2_tokenized_prompt_postfix: (16, 90)@int32
+[0].retrieved_3_tokenized_prompt_postfix: (16, 90)@int32
+[0].query_tokenized_prompt_mask: (16, 180)@bool
+[0].retrieved_0_tokenized_prompt_mask: (16, 180)@bool
+[0].retrieved_1_tokenized_prompt_mask: (16, 180)@bool
+[0].retrieved_2_tokenized_prompt_mask: (16, 180)@bool
+[0].retrieved_3_tokenized_prompt_mask: (16, 180)@bool
+[0].query_token_ar_mask: (16, 180)@int32
+[0].retrieved_0_token_ar_mask: (16, 180)@int32
+[0].retrieved_1_token_ar_mask: (16, 180)@int32
+[0].retrieved_2_token_ar_mask: (16, 180)@int32
+[0].retrieved_3_token_ar_mask: (16, 180)@int32
+[0].query_token_loss_mask: (16, 180)@bool
+[0].retrieved_0_token_loss_mask: (16, 180)@bool
+[0].retrieved_1_token_loss_mask: (16, 180)@bool
+[0].retrieved_2_token_loss_mask: (16, 180)@bool
+[0].retrieved_3_token_loss_mask: (16, 180)@bool
+[1]: (16, 15, 8)@float32 (2699547:train_pi0_fast_regent.py:258)
+Total Parameters: 2923.0M
+Trainable Parameters: 2508.0M
+Trainable Parameters %: 85.81%
+23:45:12.846 [I] Created BasePyTreeCheckpointHandler: pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=None (2699547:base_pytree_checkpoint_handler.py:332)
+23:45:12.871 [I] Restoring checkpoint from /home/ksridhar/.cache/openpi/openpi-assets/checkpoints/pi0_fast_droid/params. (2699547:checkpointer.py:256)
+23:45:29.223 [I] [process=0] /jax/checkpoint/read/bytes_per_sec: 682.0 MiB/s (total bytes: 10.9 GiB) (time elapsed: 16 seconds) (per-host) (2699547:base_pytree_checkpoint_handler.py:113)
+23:45:29.224 [I] Finished restoring checkpoint from /home/ksridhar/.cache/openpi/openpi-assets/checkpoints/pi0_fast_droid/params. (2699547:checkpointer.py:259)
+23:45:29.224 [I] [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:restore (2699547:multihost.py:293)
+Total Parameters: 2923.0M
+Trainable Parameters: 2508.0M
+Trainable Parameters %: 85.81%

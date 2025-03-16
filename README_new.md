@@ -83,14 +83,19 @@ python quick_view_retrieval_preprocessed_sequences.py --chosen_id scene_id_and_o
 ```
 
 ## training
+* compute norm stats after processing the collected training data as follows:
+```bash
+python scripts/setup_norm_states_for_regent.py
+```
+
 * train pi0_fast_droid_regent
 ```bash
 # retrieval augmented finetuning
-CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=11th_try --overwrite &> logs/log_11.txt &
+CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=14th_try --overwrite &> logs/log_14.txt &
 # adding interpolation below
-CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=12th_try_with_interpolation --overwrite &> logs/log_with_interpolation_12.txt &
+CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=14th_try_with_interpolation --overwrite &> logs/log_with_interpolation_14.txt &
 # longer action horizon below
-CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon --exp-name=12th_try_with_interpolation_longer_act_horizon --overwrite &> logs/log_with_interpolation_longer_act_horizon_12.txt &
+CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon --exp-name=14th_try_with_interpolation_longer_act_horizon --overwrite &> logs/log_with_interpolation_longer_act_horizon_14.txt &
 # lower lamda below
 CUDA_VISIBLE_DEVICES=0,1 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_lamda1 --exp-name=eight_try_with_interpolation_lamda1 --overwrite &> logs/log_with_interpolation_8_lamda1.txt &
 ```
@@ -198,13 +203,13 @@ python3 scripts/main.py --remote_host=158.130.52.14 --remote_port=8000 --externa
 * run regent inference on the robot
 ```bash
 # Run the server on ivy for regent with interpolation
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent --policy.dir=checkpoints/pi0_fast_droid_regent/11th_try/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent --policy.dir=checkpoints/pi0_fast_droid_regent/14th_try/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 # (Alternatively) Run the server on ivy for regent with interpolation
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/11th_try_with_interpolation/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/14th_try_with_interpolation/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 # (alternatively) Run the server on ivy for regent with interpolation and longer action horizon
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/12th_try_with_interpolation_longer_act_horizon/600 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 # (Alternatively) Run the server on ivy for retrieve and play
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right

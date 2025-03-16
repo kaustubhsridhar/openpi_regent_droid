@@ -226,7 +226,7 @@ class FASTTokenizerRegent:
         # Extract actions from FAST model outputs
         if "Action: " not in decoded_tokens:
             print(f"WARNING: No `Action: ` found in decoded tokens: {decoded_tokens}, so returning zeros")
-            return np.zeros((action_horizon * action_dim,), dtype=np.float32)
+            return np.zeros((action_horizon, action_dim), dtype=np.float32)
 
         # Extract actions from decoded tokens
         print(f'decoded_tokens: {decoded_tokens}')

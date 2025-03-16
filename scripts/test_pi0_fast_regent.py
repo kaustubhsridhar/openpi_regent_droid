@@ -8,7 +8,7 @@ init_logging()
 
 # params
 config_name = "pi0_fast_droid_regent_with_interpolation"
-exp_name = "12th_try_with_interpolation"
+exp_name = "14th_try_with_interpolation"
 checkpoint_step = 600
 demos_dir = "regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right"
 

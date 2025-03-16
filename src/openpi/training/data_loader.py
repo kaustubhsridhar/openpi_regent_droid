@@ -150,7 +150,8 @@ class RegentDroidDataset(Dataset):
         assert all_distances.shape == (len_dataset, num_retrieved_observations + 1) and all_distances.dtype == np.float64
         
         # normalize all_distances and convert to float32
-        max_dist_value = np.max(all_distances)
+        max_dist_value = json.load(open(f"assets/max_distance.json", 'r'))['distances']['max']
+        assert max_dist_value == np.max(all_distances), f"{max_dist_value=} from norm stats time does not match {np.max(all_distances)=} from dataset"
         print(f'max distance value: {max_dist_value}')
         all_distances = all_distances / max_dist_value
         all_distances = all_distances.astype(np.float32)
