@@ -81,7 +81,7 @@ def main(args: Args):
     timestamp = datetime.datetime.now().strftime("%Y_%m_%d_%H%M")
     date = datetime.datetime.now().strftime("%m%d")
     # Get main category for this evaluation session
-    main_category = input("Enter main category for this evaluation session: ")
+    main_category = input("Enter the prefix for this video filename: ")
     os.makedirs(f"results_regent/log/{date}", exist_ok=True)
     markdown_file = f"results_regent/log/{date}/eval_{main_category}.md"
 
@@ -144,6 +144,7 @@ def main(args: Args):
                         "query_wrist_image": image_tools.resize_with_pad(curr_obs["wrist_image"], 224, 224),
                         "query_state": np.concatenate([curr_obs["joint_position"], curr_obs["gripper_position"]]),
                         "query_prompt": instruction,
+                        "prefix": main_category,
                     }
 
                     # Wrap the server call in a context manager to prevent Ctrl+C from interrupting it
@@ -198,7 +199,7 @@ def main(args: Args):
         date = datetime.datetime.now().strftime("%m%d")
         save_dir = f"results_regent/videos/{date}"
         os.makedirs(save_dir, exist_ok=True)
-        save_filename = os.path.join(save_dir, f"{safe_instruction}_{timestamp}.mp4")
+        save_filename = os.path.join(save_dir, f"{main_category.replace(' ', '_')}_{safe_instruction}_{timestamp}.mp4")
         
         ImageSequenceClip(list(combined_video), fps=10).write_videofile(save_filename + ".mp4", codec="libx264")
 

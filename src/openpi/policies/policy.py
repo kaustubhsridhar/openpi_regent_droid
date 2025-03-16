@@ -161,14 +161,14 @@ class RegentPolicy(BasePolicy):
             first_embedding = self._demos[retrieved_indices[0, 0, 0]]["wrist_image_embeddings"][retrieved_indices[0, 0, 1]]
             distances = [0.0] + [np.linalg.norm(self._demos[ep_idx]["wrist_image_embeddings"][step_idx:step_idx+1] - first_embedding) for ep_idx, step_idx in retrieved_indices[0, 1:]]
             distances.append(np.linalg.norm(query_embedding - first_embedding))
-            distances = np.array(distances) / self._max_dist
+            distances = np.clip(np.array(distances), 0, self._max_dist) / self._max_dist
             print(f'distances: {distances}')
             more_obs["exp_lamda_distances"] = np.exp(-self._lamda * distances).reshape(-1, 1)
             print(f'exp_lamda_distances: {more_obs["exp_lamda_distances"]}')
         return {**obs, **more_obs}
     
-    def save_obs(self, obs: dict):
-        fol = f"obs_logs"
+    def save_obs(self, obs: dict, date: str, prefix: str):
+        fol = f"obs_logs/{date}/{prefix}"
         os.makedirs(fol, exist_ok=True)
         current_datettime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
         # save all images in one png
@@ -191,8 +191,8 @@ class RegentPolicy(BasePolicy):
             json.dump(everything_else, f, indent=4)
         return current_datettime
 
-    def save_tokenized_inputs(self, inputs: dict, current_datettime: str):
-        fol = f"obs_logs"
+    def save_tokenized_inputs(self, inputs: dict, current_datettime: str, date: str, prefix: str):
+        fol = f"obs_logs/{date}/{prefix}"
         os.makedirs(fol, exist_ok=True)
         every_tokenized_input = {}
         for k, v in inputs.items():
@@ -207,6 +207,9 @@ class RegentPolicy(BasePolicy):
 
     @override
     def infer(self, obs: dict, debug: bool = True) -> dict:  # type: ignore[misc]
+        # Remove the prefix from the obs; get date; below for saving folder only
+        prefix = obs.pop("prefix", "temp")
+        date = datetime.now().strftime("%m%d")
         # Retrieval
         print()
         logger.info(f'retrieving...')
@@ -214,7 +217,7 @@ class RegentPolicy(BasePolicy):
         # for debugging, save everything in obs
         if debug:
             logger.info(f'saving obs...')
-            current_datettime = self.save_obs(obs)
+            current_datettime = self.save_obs(obs, date, prefix)
         # Make a copy since transformations may modify the inputs in place.
         logger.info(f'transforming...')
         inputs = jax.tree.map(lambda x: x, obs)
@@ -222,7 +225,7 @@ class RegentPolicy(BasePolicy):
         # for debugging, save tokenized inputs
         if debug:
             logger.info(f'saving tokenized inputs...')
-            self.save_tokenized_inputs(inputs, current_datettime)
+            self.save_tokenized_inputs(inputs, current_datettime, date, prefix)
         # Make a batch and convert to jax.Array.
         logger.info(f'batching...')
         inputs = jax.tree.map(lambda x: jnp.asarray(x)[np.newaxis, ...], inputs)
@@ -296,8 +299,8 @@ class RetrieveAndPlayPolicy(BasePolicy):
             more_obs[f"retrieved_{ct}_prompt"] = self._demos[ep_idx]["prompt"].item()
         return {**obs, **more_obs}
     
-    def save_obs(self, obs: dict):
-        fol = f"obs_logs"
+    def save_obs(self, obs: dict, date: str, prefix: str):
+        fol = f"obs_logs/{date}/{prefix}"
         os.makedirs(fol, exist_ok=True)
         current_datettime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
         # save all images in one png
@@ -322,6 +325,9 @@ class RetrieveAndPlayPolicy(BasePolicy):
 
     @override
     def infer(self, obs: dict, debug: bool = True) -> dict:  # type: ignore[misc]
+        # Remove the prefix from the obs; get date; below for saving folder only
+        prefix = obs.pop("prefix", "temp")
+        date = datetime.now().strftime("%m%d")
         # Retrieval
         print()
         logger.info(f'retrieving...')
@@ -329,7 +335,7 @@ class RetrieveAndPlayPolicy(BasePolicy):
         # for debugging, save everything in obs
         if debug:
             logger.info(f'saving obs...')
-            current_datettime = self.save_obs(obs)
+            current_datettime = self.save_obs(obs, date, prefix)
         # simply return the retrieved 1 nearest neighbor's actions
         self._rng, sample_rng = jax.random.split(self._rng)
         outputs = {
