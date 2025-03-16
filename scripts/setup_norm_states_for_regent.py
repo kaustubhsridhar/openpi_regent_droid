@@ -12,30 +12,17 @@ os.makedirs("assets/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/
 
 norm_stats_basic = json.load(open(norm_stats_basic_file, 'r'))
 num_retrieved = 5
-action_horizon = 10
-longer_action_horizon = 15
 
 new_norm_stats = {"norm_stats": {}}
 new_norm_stats_longer = {"norm_stats": {}}
 for key in norm_stats_basic["norm_stats"]:
-    if key == "actions":
-        sub_keys = norm_stats_basic["norm_stats"]["actions"].keys()
-        action_chunk = {subk: [] for subk in sub_keys}
-        action_chunk_longer = {subk: [] for subk in sub_keys}
-        for sub_key in sub_keys:
-            for i in range(action_horizon):
-                action_chunk[sub_key].extend(norm_stats_basic["norm_stats"]["actions"][sub_key])
-            for i in range(longer_action_horizon):
-                action_chunk_longer[sub_key].extend(norm_stats_basic["norm_stats"]["actions"][sub_key])
-        
-
     for i in range(num_retrieved):
         prefix = f"retrieved_{i}_"
-        new_norm_stats["norm_stats"][f"{prefix}{key}"] = action_chunk if key == "actions" else norm_stats_basic["norm_stats"][key]
-        new_norm_stats_longer["norm_stats"][f"{prefix}{key}"] = action_chunk_longer if key == "actions" else norm_stats_basic["norm_stats"][key]
+        new_norm_stats["norm_stats"][f"{prefix}{key}"] = norm_stats_basic["norm_stats"][key]
+        new_norm_stats_longer["norm_stats"][f"{prefix}{key}"] = norm_stats_basic["norm_stats"][key]
     prefix = f"query_"
-    new_norm_stats["norm_stats"][f"{prefix}{key}"] = action_chunk if key == "actions" else norm_stats_basic["norm_stats"][key]
-    new_norm_stats_longer["norm_stats"][f"{prefix}{key}"] = action_chunk_longer if key == "actions" else norm_stats_basic["norm_stats"][key]
+    new_norm_stats["norm_stats"][f"{prefix}{key}"] = norm_stats_basic["norm_stats"][key]
+    new_norm_stats_longer["norm_stats"][f"{prefix}{key}"] = norm_stats_basic["norm_stats"][key]
 
 
 if not os.path.exists(new_norm_stats_file):
