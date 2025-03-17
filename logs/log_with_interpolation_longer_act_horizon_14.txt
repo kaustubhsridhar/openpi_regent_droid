@@ -16966,3 +16966,8 @@ loss shape: (16,)
 Step 9916: grad_norm=8.663379669189453, loss=1.5498642921447754, param_norm=1887.013671875
 02:09:36.815 [I] Progress on: 9.92kit/10.0kit rate:9.0s/it remaining:12:38 elapsed:24:50:35 postfix:- (2718804:tqdm_logging.py:145)
 Step 9917: grad_norm=17.5618953704834, loss=1.8058736324310303, param_norm=1887.013671875
+Step 9918: grad_norm=10.264636039733887, loss=1.7507842779159546, param_norm=1887.013671875
+02:09:54.358 [I] Progress on: 9.92kit/10.0kit rate:8.9s/it remaining:12:09 elapsed:24:50:52 postfix:- (2718804:tqdm_logging.py:145)
+Step 9919: grad_norm=8.688565254211426, loss=1.4296882152557373, param_norm=1887.0137939453125
+Step 9920: grad_norm=8.783862113952637, loss=1.59508216381073, param_norm=1887.0137939453125
+02:10:11.932 [I] Progress on: 9.92kit/10.0kit rate:8.8s/it remaining:11:47 elapsed:24:51:10 postfix:- (2718804:tqdm_logging.py:145)
