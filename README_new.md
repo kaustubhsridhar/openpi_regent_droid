@@ -124,9 +124,9 @@ rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/* rege
 
 rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results/videos/0314/* videos_dont_delete/pi0_0314_move_the_idli_plate_to_the_right_5times/
 
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_rnp/videos/0314/* videos_dont_delete/rnp_0314_move_the_idli_plate_to_the_right_5times/
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_rnp/videos/0317/rnp* videos_dont_delete/rnp_0314_0317_move_the_idli_plate_to_the_right_manytimes/
 
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_regent/videos/0316/* videos_dont_delete/regent_0316_move_the_idli_plate_to_the_right/
+rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_regent/videos/0317/* videos_dont_delete/regent_0316_0317_move_the_idli_plate_to_the_right/
 ```
 
 * Collect more training demos and transfer as follows:
@@ -206,10 +206,10 @@ python3 scripts/main.py --remote_host=158.130.52.14 --remote_port=8000 --externa
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent --policy.dir=checkpoints/pi0_fast_droid_regent/14th_try/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 # (Alternatively) Run the server on ivy for regent with interpolation
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/14th_try_with_interpolation/6000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/14th_try_with_interpolation/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 # (alternatively) Run the server on ivy for regent with interpolation and longer action horizon
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 # (Alternatively) Run the server on ivy for retrieve and play
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
@@ -220,7 +220,7 @@ startserver
 # Terminal 2:
 cd ~/droid_pi0/
 conda activate droid_pi0
-python3 scripts/main_regent.py --remote_host=158.130.55.26 --remote_port=8000 --external_camera="left" 
+python3 scripts/main_regent.py --remote_host=158.130.55.26 --remote_port=8000
 # you can get your host computer's public ip via `curl -4 ifconfig.me`
 ```
 
