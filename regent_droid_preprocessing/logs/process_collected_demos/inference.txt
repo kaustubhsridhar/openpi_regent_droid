@@ -30,70 +30,203 @@ INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_prepr
 INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right/2025-03-14_17-08-11' already processed
 INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right/2025-03-14_17-08-50' already processed
 INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right/2025-03-14_17-05-48_move_the_idli_plate_to_the_right_can_be_moved_out_to_test' already processed
-INFO:__main__:**About to start processing dir collected_demos/2025-03-16_move_the_idli_plate_to_the_right with prompts ['move the idli plate to the right']**
+INFO:__main__:**About to start processing dir collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right with prompts ['move the idli plate to the right']**
 Using cache found in /home/ksridhar/.cache/torch/hub/facebookresearch_dinov2_main
 INFO:dinov2:using MLP layer as FFN
 INFO:__main__:loaded dinov2 for image embedding
-INFO:__main__:absolute path of the demo_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right'
+INFO:__main__:absolute path of the demo_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right'
 INFO:__main__:number of demo folders: 30
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-16-48' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-17-15' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-17-44' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-18-07' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-18-35' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-19-06' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-19-35' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-20-04' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-20-21' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-20-54' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-21-18' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-21-45' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-22-14' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-22-41' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-23-11' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-23-36' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-24-01' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-24-21' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-24-42' already processed
-INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-25-01' already processed
-INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-37-07_recovery'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-37-07_recovery/recordings/frames/hand_camera'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-37-07_recovery/recordings/frames/varied_camera_1'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-37-07_recovery/recordings/frames/varied_camera_2'
-INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-37-42_recovery'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-37-42_recovery/recordings/frames/hand_camera'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-37-42_recovery/recordings/frames/varied_camera_1'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-37-42_recovery/recordings/frames/varied_camera_2'
-INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-38-11_recovery'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-38-11_recovery/recordings/frames/hand_camera'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-38-11_recovery/recordings/frames/varied_camera_1'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-38-11_recovery/recordings/frames/varied_camera_2'
-INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-38-42_recovery'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-38-42_recovery/recordings/frames/hand_camera'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-38-42_recovery/recordings/frames/varied_camera_1'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-38-42_recovery/recordings/frames/varied_camera_2'
-INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-39-30_recovery'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-39-30_recovery/recordings/frames/hand_camera'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-39-30_recovery/recordings/frames/varied_camera_1'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-39-30_recovery/recordings/frames/varied_camera_2'
-INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-40-17_recovery'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-40-17_recovery/recordings/frames/hand_camera'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-40-17_recovery/recordings/frames/varied_camera_1'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-40-17_recovery/recordings/frames/varied_camera_2'
-INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-40-51_recovery'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-40-51_recovery/recordings/frames/hand_camera'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-40-51_recovery/recordings/frames/varied_camera_1'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-40-51_recovery/recordings/frames/varied_camera_2'
-INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-41-22_recovery'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-41-22_recovery/recordings/frames/hand_camera'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-41-22_recovery/recordings/frames/varied_camera_1'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-41-22_recovery/recordings/frames/varied_camera_2'
-INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-42-17_recovery'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-42-17_recovery/recordings/frames/hand_camera'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-42-17_recovery/recordings/frames/varied_camera_1'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-42-17_recovery/recordings/frames/varied_camera_2'
-INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-42-41_recovery'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-42-41_recovery/recordings/frames/hand_camera'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-42-41_recovery/recordings/frames/varied_camera_1'
-INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16_move_the_idli_plate_to_the_right/2025-03-16_17-42-41_recovery/recordings/frames/varied_camera_2'
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-16-48' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-17-15' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-17-44' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-18-07' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-18-35' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-19-06' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-19-35' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-20-04' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-20-21' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-20-54' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-21-18' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-21-45' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-22-14' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-22-41' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-23-11' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-23-36' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-24-01' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-24-21' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-24-42' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-25-01' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-37-07_recovery' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-37-42_recovery' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-38-11_recovery' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-38-42_recovery' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-39-30_recovery' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-40-17_recovery' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-40-51_recovery' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-41-22_recovery' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-42-17_recovery' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-16-UNUSED_move_the_idli_plate_to_the_right/2025-03-16_17-42-41_recovery' already processed
+INFO:__main__:**About to start processing dir collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl with prompts ['pick up the poke ball and put it in the bowl']**
+Using cache found in /home/ksridhar/.cache/torch/hub/facebookresearch_dinov2_main
+INFO:dinov2:using MLP layer as FFN
+INFO:__main__:loaded dinov2 for image embedding
+INFO:__main__:absolute path of the demo_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl'
+INFO:__main__:number of demo folders: 20
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-01-01' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-01-23' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-01-44' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-02-06' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-02-27' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-02-44' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-03-03' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-03-22' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-03-41' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-04-00' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-04-19' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-04-36' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-04-56' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-05-15' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-05-36' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-05-55' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-06-15' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-06-35' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-06-52' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-rightside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_03-07-08' already processed
+INFO:__main__:**About to start processing dir collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl with prompts ['pick up the poke ball and put it in the bowl']**
+Using cache found in /home/ksridhar/.cache/torch/hub/facebookresearch_dinov2_main
+INFO:dinov2:using MLP layer as FFN
+INFO:__main__:loaded dinov2 for image embedding
+INFO:__main__:absolute path of the demo_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl'
+INFO:__main__:number of demo folders: 20
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-17-10' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-17-54' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-18-47' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-19-30' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-20-03' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-20-36' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-21-20' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-22-44' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-23-14' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-24-24' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-54-11' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-54-29' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-54-54' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-55-22' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-55-41' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-55-59' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-56-12' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-56-35' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-56-54' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17-leftside_pick_up_the_poke_ball_and_put_it_in_the_bowl/2025-03-17_04-57-10' already processed
+INFO:__main__:**About to start processing dir collected_demos/2025-03-17_put_the_poke_ball_in_the_pan with prompts ['put the poke ball in the pan']**
+Using cache found in /home/ksridhar/.cache/torch/hub/facebookresearch_dinov2_main
+INFO:dinov2:using MLP layer as FFN
+INFO:__main__:loaded dinov2 for image embedding
+INFO:__main__:absolute path of the demo_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan'
+INFO:__main__:number of demo folders: 19
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_05-57-16' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_05-57-47' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_05-58-21' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_05-58-51' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_05-59-23' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_05-59-54' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_06-00-22' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_06-00-49' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_06-01-15' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_06-01-44' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_06-02-09' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_06-02-34' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_06-03-00' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_06-03-22' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_06-03-45' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_06-04-12' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_06-04-38' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_06-04-57' already processed
+INFO:__main__:demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_put_the_poke_ball_in_the_pan/2025-03-17_06-05-22' already processed
+INFO:__main__:**About to start processing dir collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray with prompts ['pick up the poke ball and put it in the tray']**
+Using cache found in /home/ksridhar/.cache/torch/hub/facebookresearch_dinov2_main
+INFO:dinov2:using MLP layer as FFN
+INFO:__main__:loaded dinov2 for image embedding
+INFO:__main__:absolute path of the demo_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray'
+INFO:__main__:number of demo folders: 20
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-10-13'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-10-13/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-10-13/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-10-13/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-10-30'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-10-30/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-10-30/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-10-30/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-10-53'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-10-53/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-10-53/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-10-53/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-11-10'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-11-10/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-11-10/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-11-10/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-11-28'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-11-28/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-11-28/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-11-28/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-11-49'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-11-49/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-11-49/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-11-49/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-08'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-08/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-08/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-08/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-23'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-23/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-23/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-23/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-37'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-37/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-37/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-37/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-56'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-56/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-56/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-12-56/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-10'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-10/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-10/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-10/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-24'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-24/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-24/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-24/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-41'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-41/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-41/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-41/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-57'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-57/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-57/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-13-57/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-14-12'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-14-12/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-14-12/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-14-12/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-14-35'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-14-35/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-14-35/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-14-35/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-14-48'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-14-48/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-14-48/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-14-48/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-15-07'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-15-07/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-15-07/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-15-07/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-15-36'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-15-36/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-15-36/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-15-36/recordings/frames/varied_camera_2'
+INFO:__main__:processing demo_folder='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-15-51'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-15-51/recordings/frames/hand_camera'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-15-51/recordings/frames/varied_camera_1'
+INFO:__main__:frames_dir='/home/ksridhar/openpi_regent_droid/regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray/2025-03-17_07-15-51/recordings/frames/varied_camera_2'
 done!
