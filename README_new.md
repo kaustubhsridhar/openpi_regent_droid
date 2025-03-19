@@ -119,28 +119,28 @@ python scripts/collect_trajectory.py -n 20
 
 # copy the demos from the franka laptop to the folder here
 # inference
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/* regent_droid_preprocessing/collected_demos/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/franka_ksridhar/data/success/* regent_droid_preprocessing/collected_demos/
 
 # training
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/* regent_droid_preprocessing/collected_demos_training/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/franka_ksridhar/data/success/* regent_droid_preprocessing/collected_demos_training/
 
 # baseline
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results/videos/0317/* videos_dont_delete/pi0_0317_pick_up_the_poke_ball_and_put_it_in_the_tray_manytimes/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0/results/videos/0317/* videos_dont_delete/pi0_0317_pick_up_the_poke_ball_and_put_it_in_the_tray_manytimes/
 
 # rnp
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_rnp/videos/0317/rnp* videos_dont_delete/rnp_0314_0317_move_the_idli_plate_to_the_right_manytimes/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0/results_rnp/videos/0319/rnp* videos_dont_delete/rnp_0314_0317_move_the_idli_plate_to_the_right_manytimes/
 
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_rnp/videos/0317/* videos_dont_delete/rnp_0317_pick_up_the_poke_ball_and_put_it_in_the_tray/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0/results_rnp/videos/0317/* videos_dont_delete/rnp_0317_pick_up_the_poke_ball_and_put_it_in_the_tray/
 
 # regent
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_regent/videos/0317/* videos_dont_delete/regent_0316_0317_move_the_idli_plate_to_the_right/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0/results_regent/videos/0319/* videos_dont_delete/regent_0316_0317_move_the_idli_plate_to_the_right/
 
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/droid_pi0/results_regent/videos/0317/* videos_dont_delete/regent_0317_pick_up_the_poke_ball_and_put_it_in_the_tray/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0/results_regent/videos/0319/* videos_dont_delete/regent_0317_pick_up_the_poke_ball_and_put_it_in_the_tray/
 ```
 
 * Collect more training demos and transfer as follows:
 ```bash
-rsync -avzP -e 'ssh' franka@10.103.129.112:~/franka_ksridhar/data/success/2025-03-10* regent_droid_preprocessing/collected_demos_training/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/franka_ksridhar/data/success/2025-03-10* regent_droid_preprocessing/collected_demos_training/
 ```
 
 * Process the collected demos as follows
@@ -233,11 +233,8 @@ startserver
 # Terminal 2:
 cd ~/droid_pi0/
 conda activate droid_pi0
-python3 scripts/main_regent_idli_plate.py --remote_host=158.130.55.26 --remote_port=8000
-
-or 
-
 python3 scripts/main_regent_pokeball.py --remote_host=158.130.55.26 --remote_port=8000
+# Use the above pokeball one for all tasks. It is better than the idli plate action chunking usage strategy!
 
 or 
 
