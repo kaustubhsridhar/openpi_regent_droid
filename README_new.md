@@ -201,8 +201,8 @@ cd ~/Projects/openpi-main/
 # Terminal 1:
 startserver
 # Terminal 2:
-cd ~/droid_pi0/
-conda activate droid_pi0
+cd ~/droid_pi0_ksridhar/
+conda activate droid_pi0_ksridhar
 python3 scripts/main.py --remote_host=158.130.55.26 --remote_port=8000 --external_camera="left"
 
 # change the ip if you are running on the workstation in the lab
