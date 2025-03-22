@@ -94,7 +94,7 @@ python scripts/setup_norm_states_for_regent.py
 CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent --exp-name=14th_try --overwrite &> logs/log_14.txt &
 # adding interpolation below
 CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation --exp-name=14th_try_with_interpolation --overwrite &> logs/log_with_interpolation_14.txt &
-# longer action horizon below
+# longer action horizon below [this is the one we use in the end as it is the best performing one!!!]
 CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon --exp-name=14th_try_with_interpolation_longer_act_horizon --overwrite &> logs/log_with_interpolation_longer_act_horizon_14.txt &
 # lower lamda below
 CUDA_VISIBLE_DEVICES=0,1 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_lamda1 --exp-name=eight_try_with_interpolation_lamda1 --overwrite &> logs/log_with_interpolation_8_lamda1.txt &
@@ -125,7 +125,7 @@ rsync -avzP -e 'ssh' franka@10.102.204.231:~/franka_ksridhar/data/success/* rege
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/franka_ksridhar/data/success/* regent_droid_preprocessing/collected_demos_training/
 
 # baseline
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0322/* videos_dont_delete/pi0_0322_pick_up_the_pan_and_swing_it_like_a_badminton_serve_manytimes/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0322/* videos_dont_delete/pi0_0322_pick_up_the_lantern_and_place_it_in_the_tray_manytimes/
 
 # rnp
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0319/rnp* videos_dont_delete/rnp_0314_0317_move_the_idli_plate_to_the_right_manytimes/
@@ -188,10 +188,22 @@ CUDA_VISIBLE_DEVICES=9 python -u scripts/test_pi0_fast_regent_no_interpolation.p
 CUDA_VISIBLE_DEVICES=9 python -u scripts/test_retrieve_and_play.py
 ```
 
+* finetune the trained models on the inference time collected demos
+```bash
+# finetune pi0_fast_droid
+
+
+# finetune pi0_fast_droid_regent_with_interpolation_longer_act_horizon
+
+```
+
 * run pi0 baseline on the robot
 ```bash
-# Run the server on ivy
+# Run the server on ivy for pi0
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid --policy.dir=s3://openpi-assets/checkpoints/pi0_fast_droid
+
+# Run the server on ivy for pi0 finetuned
+
 
 # If you want to run the server on the workstation in the lab
 cd ~/Projects/openpi-main/ 
@@ -211,25 +223,23 @@ python3 scripts/main.py --remote_host=158.130.52.14 --remote_port=8000 --externa
 
 * run regent inference on the robot
 ```bash
-# Run the server on ivy for regent with interpolation
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent --policy.dir=checkpoints/pi0_fast_droid_regent/14th_try/3000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
-
-# (Alternatively) Run the server on ivy for regent with interpolation
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation/14th_try_with_interpolation/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
-
-# (alternatively) Run the server on ivy for regent with interpolation and longer action horizon
+# Run the server on ivy for regent with interpolation and longer action horizon
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray
 
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-22_pick_up_the_pan_and_swing_it_like_a_badminton_serve
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-22_pick_up_the_lantern_and_place_it_in_the_tray
 
-# (Alternatively) Run the server on ivy for retrieve and play
+# Run the server on ivy for retrieve and play
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray
 
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-22_pick_up_the_pan_and_swing_it_like_a_badminton_serve
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-22_pick_up_the_lantern_and_place_it_in_the_tray
+
+# Run the server on ivy for regent finetuned
+
+
 
 # Run the client on the franka robot
 # Terminal 1:
