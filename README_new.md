@@ -256,28 +256,40 @@ CUDA_VISIBLE_DEVICES=0,1 nohup python -u scripts/train.py pi0_fast_droid___finet
 
 * finetune regent on the inference time collected demos
 ```bash
-XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate --exp-name=1st_try_regent_idli_plate --overwrite &> logs/finetune/regent_idli_plate.txt &
+XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate --exp-name=2nd_try_regent_idli_plate --overwrite &> logs/finetune/regent_idli_plate_2.txt &
 
-XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball --exp-name=1st_try_regent_pokeball --overwrite &> logs/finetune/regent_pokeball.txt &
+XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=0,1 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball --exp-name=2nd_try_regent_pokeball --overwrite &> logs/finetune/regent_pokeball_2.txt &
 
 
 ```
 
 * run baseline inference
 ```bash
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid___finetune_on_idli_plate --policy.dir=checkpoints/pi0_fast_droid___finetune_on_idli_plate/1st_try_pi0_idli_plate/1000
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid___finetune_on_idli_plate --policy.dir=checkpoints/pi0_fast_droid___finetune_on_idli_plate/1st_try_pi0_idli_plate/999
 
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid___finetune_on_pokeball --policy.dir=checkpoints/pi0_fast_droid___finetune_on_pokeball/1st_try_pi0_pokeball/1000
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid___finetune_on_pokeball --policy.dir=checkpoints/pi0_fast_droid___finetune_on_pokeball/1st_try_pi0_pokeball/999
 
-
+# Run the client on the franka robot
+# Terminal 1:
+startserver
+# Terminal 2:
+cd ~/droid_pi0_ksridhar/
+conda activate droid_pi0_ksridhar
+python3 scripts/main.py --remote_host=158.130.55.26 --remote_port=8000
 ```
 
 * run regent inference
 ```bash
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate/1st_try_regent_idli_plate/1000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate/1st_try_regent_idli_plate/999 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball/1st_try_regent_pokeball/1000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball/1st_try_regent_pokeball/999 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray
 
-
+# Run the client on the franka robot
+# Terminal 1:
+startserver
+# Terminal 2:
+cd ~/droid_pi0_ksridhar/
+conda activate droid_pi0_ksridhar
+python3 scripts/main_regent_pokeball_finetune.py --remote_host=158.130.55.26 --remote_port=8000
 ```
 
