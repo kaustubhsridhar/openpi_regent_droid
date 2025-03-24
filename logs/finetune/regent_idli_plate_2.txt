@@ -2334,3 +2334,52 @@ loss shape: (16,)
 Step 1128: grad_norm=3.0518736839294434, loss=0.320756196975708, param_norm=1887.1314697265625
 Step 1129: grad_norm=2.724107027053833, loss=0.3045833110809326, param_norm=1887.1314697265625
 04:05:38.632 [I] Progress on: 1.13kit/2.00kit rate:8.9s/it remaining:2:08:41 elapsed:2:51:36 postfix:- (3802260:tqdm_logging.py:145)
+Step 1130: grad_norm=3.400080442428589, loss=0.2662058174610138, param_norm=1887.131591796875
+Step 1131: grad_norm=3.7867684364318848, loss=0.2812965512275696, param_norm=1887.131591796875
+04:05:56.351 [I] Progress on: 1.13kit/2.00kit rate:8.9s/it remaining:2:08:18 elapsed:2:51:54 postfix:- (3802260:tqdm_logging.py:145)
+Step 1132: grad_norm=2.5871410369873047, loss=0.296261727809906, param_norm=1887.131591796875
+Step 1133: grad_norm=2.746725082397461, loss=0.2476244568824768, param_norm=1887.131591796875
+04:06:14.114 [I] Progress on: 1.13kit/2.00kit rate:8.9s/it remaining:2:08:12 elapsed:2:52:12 postfix:- (3802260:tqdm_logging.py:145)
+Step 1134: grad_norm=2.7804157733917236, loss=0.28043895959854126, param_norm=1887.1317138671875
+Step 1135: grad_norm=3.267927408218384, loss=0.35725629329681396, param_norm=1887.1317138671875
+04:06:31.816 [I] Progress on: 1.14kit/2.00kit rate:8.9s/it remaining:2:07:45 elapsed:2:52:29 postfix:- (3802260:tqdm_logging.py:145)
+Step 1136: grad_norm=3.1976382732391357, loss=0.2762347459793091, param_norm=1887.1317138671875
+Step 1137: grad_norm=2.5224030017852783, loss=0.2752607762813568, param_norm=1887.1317138671875
+04:06:49.605 [I] Progress on: 1.14kit/2.00kit rate:8.9s/it remaining:2:07:42 elapsed:2:52:47 postfix:- (3802260:tqdm_logging.py:145)
+Step 1138: grad_norm=2.5844643115997314, loss=0.23205438256263733, param_norm=1887.131591796875
+Step 1139: grad_norm=2.9489212036132812, loss=0.2778768539428711, param_norm=1887.1317138671875
+04:07:07.280 [I] Progress on: 1.14kit/2.00kit rate:8.9s/it remaining:2:07:06 elapsed:2:53:05 postfix:- (3802260:tqdm_logging.py:145)
+Step 1140: grad_norm=3.1298582553863525, loss=0.28815966844558716, param_norm=1887.1317138671875
+Step 1141: grad_norm=2.619744300842285, loss=0.23158544301986694, param_norm=1887.1317138671875
+04:07:24.957 [I] Progress on: 1.14kit/2.00kit rate:8.9s/it remaining:2:06:43 elapsed:2:53:23 postfix:- (3802260:tqdm_logging.py:145)
+Step 1142: grad_norm=3.0419552326202393, loss=0.29002413153648376, param_norm=1887.1317138671875
+Step 1143: grad_norm=2.981353521347046, loss=0.27307894825935364, param_norm=1887.1317138671875
+04:07:42.628 [I] Progress on: 1.14kit/2.00kit rate:8.8s/it remaining:2:06:19 elapsed:2:53:40 postfix:- (3802260:tqdm_logging.py:145)
+Step 1144: grad_norm=2.7123193740844727, loss=0.26651716232299805, param_norm=1887.1317138671875
+Step 1145: grad_norm=2.812009572982788, loss=0.24499835073947906, param_norm=1887.1317138671875
+04:08:00.323 [I] Progress on: 1.15kit/2.00kit rate:8.8s/it remaining:2:06:06 elapsed:2:53:58 postfix:- (3802260:tqdm_logging.py:145)
+Step 1146: grad_norm=3.146503210067749, loss=0.28740808367729187, param_norm=1887.1317138671875
+Step 1147: grad_norm=2.9031097888946533, loss=0.29388904571533203, param_norm=1887.1317138671875
+04:08:18.040 [I] Progress on: 1.15kit/2.00kit rate:8.9s/it remaining:2:05:55 elapsed:2:54:16 postfix:- (3802260:tqdm_logging.py:145)
+Step 1148: grad_norm=2.8221161365509033, loss=0.28983956575393677, param_norm=1887.1317138671875
+Step 1149: grad_norm=3.2287046909332275, loss=0.3116389513015747, param_norm=1887.1317138671875
+04:08:35.760 [I] Progress on: 1.15kit/2.00kit rate:8.9s/it remaining:2:05:37 elapsed:2:54:33 postfix:- (3802260:tqdm_logging.py:145)
+Step 1150: grad_norm=2.860342264175415, loss=0.21517197787761688, param_norm=1887.1317138671875
+Step 1151: grad_norm=2.6813864707946777, loss=0.25833964347839355, param_norm=1887.1317138671875
+04:08:53.456 [I] Progress on: 1.15kit/2.00kit rate:8.9s/it remaining:2:05:19 elapsed:2:54:51 postfix:- (3802260:tqdm_logging.py:145)
+Step 1152: grad_norm=3.30920147895813, loss=0.2878805994987488, param_norm=1887.1317138671875
+Step 1153: grad_norm=3.522109031677246, loss=0.30937790870666504, param_norm=1887.1317138671875
+04:09:11.067 [I] Progress on: 1.15kit/2.00kit rate:8.8s/it remaining:2:04:38 elapsed:2:55:09 postfix:- (3802260:tqdm_logging.py:145)
+Step 1154: grad_norm=3.038331985473633, loss=0.3244529962539673, param_norm=1887.1318359375
+Step 1155: grad_norm=2.9931352138519287, loss=0.23919349908828735, param_norm=1887.1318359375
+04:09:28.673 [I] Progress on: 1.16kit/2.00kit rate:8.8s/it remaining:2:04:11 elapsed:2:55:26 postfix:- (3802260:tqdm_logging.py:145)
+Step 1156: grad_norm=3.395085096359253, loss=0.29892170429229736, param_norm=1887.1318359375
+Step 1157: grad_norm=3.1975514888763428, loss=0.24969376623630524, param_norm=1887.1318359375
+04:09:46.465 [I] Progress on: 1.16kit/2.00kit rate:8.8s/it remaining:2:03:57 elapsed:2:55:44 postfix:- (3802260:tqdm_logging.py:145)
+Step 1158: grad_norm=2.8482093811035156, loss=0.29176557064056396, param_norm=1887.1318359375
+Step 1159: grad_norm=2.7021055221557617, loss=0.23530158400535583, param_norm=1887.1318359375
+04:10:04.084 [I] Progress on: 1.16kit/2.00kit rate:8.8s/it remaining:2:04:02 elapsed:2:56:02 postfix:- (3802260:tqdm_logging.py:145)
+Step 1160: grad_norm=2.3365743160247803, loss=0.26032423973083496, param_norm=1887.1318359375
+Step 1161: grad_norm=3.1311638355255127, loss=0.28233465552330017, param_norm=1887.1318359375
+04:10:21.768 [I] Progress on: 1.16kit/2.00kit rate:8.8s/it remaining:2:03:42 elapsed:2:56:19 postfix:- (3802260:tqdm_logging.py:145)
+Step 1162: grad_norm=3.0797979831695557, loss=0.29099440574645996, param_norm=1887.1318359375
