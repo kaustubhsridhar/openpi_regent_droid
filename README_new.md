@@ -135,7 +135,7 @@ rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/vide
 # regent
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0319/* videos_dont_delete/regent_0316_0317_move_the_idli_plate_to_the_right/
 
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0319/* videos_dont_delete/regent_0317_pick_up_the_poke_ball_and_put_it_in_the_tray/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0324/* videos_dont_delete/regent_0317_pick_up_the_poke_ball_and_put_it_in_the_tray/
 ```
 
 * Collect more training demos and transfer as follows:
