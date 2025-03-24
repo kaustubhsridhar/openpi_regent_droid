@@ -33,6 +33,34 @@ def create_idx_fol_mapping(ds_name):
 
 	return mappings
 
+def create_idx_fol_mapping_for_a_single_group(ds_name):
+	mapping_names = ['groups_to_ep_fols', 'ep_idxs_to_fol', 'fols_to_ep_idxs', 'groups_to_ep_idxs']
+	# if these files exist, skip this group
+	for file_stub in mapping_names:
+		if os.path.exists(f'{ds_name}/{file_stub}.json'):
+			print(f'skipping {ds_name=} because {file_stub}.json exists. If you want to re-run, delete the four json files at {ds_name}/.')
+			return None
+	
+	# the create the mappings
+	mappings = {temp_name: defaultdict(list) if temp_name == 'groups_to_ep_idxs' else {} for temp_name in mapping_names}
+	
+	count = 100000 # count starts from 100k for this single group
+	groups = [f'{ds_name}']
+	mappings['groups_to_ep_fols'] = {group: [f'{group}/{fol}' for fol in os.listdir(group)] for group in groups}
+	for group, ep_fols in mappings['groups_to_ep_fols'].items():
+		for ep_fol in ep_fols:
+			mappings['ep_idxs_to_fol'][count] = ep_fol
+			mappings['fols_to_ep_idxs'][ep_fol] = count
+			mappings['groups_to_ep_idxs'][group].append(count)
+			count += 1
+
+	# save ep_idxs_to_fol and fols_to_ep_idxs as jsons
+	for file_stub in mapping_names:
+		with open(f'{ds_name}/{file_stub}.json', 'w') as f:
+			json.dump(mappings[file_stub], f, indent=4)
+
+	return mappings
+
 def retrieval_preprocessing(groups_to_ep_idxs, ep_idxs_to_fol, nb_cores_autofaiss, knn_k, embedding_type):
 	myprint(f'[retrieval_preprocessing] starting retrieval preprocessing for {embedding_type}')
 	
@@ -151,16 +179,35 @@ if __name__ == "__main__":
 	parser.add_argument("--nb_cores_autofaiss", type=int, default=8)
 	parser.add_argument("--knn_k", type=int, default=100, help="number of nearest neighbors to retrieve")
 	parser.add_argument("--embedding_type", type=str, default="top_image", choices=EMBED_TYPES + ["both"])
+	parser.add_argument("--folder_name", type=str, default="collected_demos_training")
 	args = parser.parse_args()
 
-	# setup
-	ds_name = "collected_demos_training"
-	mappings = create_idx_fol_mapping(ds_name)
+	if args.folder_name == "collected_demos_training":
+		# setup
+		ds_name = args.folder_name
+		mappings = create_idx_fol_mapping(ds_name)
 
-	# retrieval preprocessing
-	retrieval_preprocessing(groups_to_ep_idxs=mappings['groups_to_ep_idxs'],
-							ep_idxs_to_fol=mappings['ep_idxs_to_fol'],
-							nb_cores_autofaiss=args.nb_cores_autofaiss, 
-							knn_k=args.knn_k,
-							embedding_type=args.embedding_type)
-	print(f'done!')
+		# retrieval preprocessing
+		retrieval_preprocessing(groups_to_ep_idxs=mappings['groups_to_ep_idxs'],
+								ep_idxs_to_fol=mappings['ep_idxs_to_fol'],
+								nb_cores_autofaiss=args.nb_cores_autofaiss, 
+								knn_k=args.knn_k,
+								embedding_type=args.embedding_type)
+		print(f'done!')
+	elif args.folder_name == "collected_demos":
+		all_groups_in_folder = [f"{args.folder_name}/{fol}" for fol in os.listdir(args.folder_name) if os.path.isdir(f"{args.folder_name}/{fol}")]
+		for fol_count, fol_name in enumerate(all_groups_in_folder):
+			# setup
+			ds_name = fol_name
+			mappings = create_idx_fol_mapping_for_a_single_group(ds_name)
+			if mappings is None: # skip this group if the files already exist
+				continue
+
+			# retrieval preprocessing
+			retrieval_preprocessing(groups_to_ep_idxs=mappings['groups_to_ep_idxs'],
+									ep_idxs_to_fol=mappings['ep_idxs_to_fol'],
+									nb_cores_autofaiss=args.nb_cores_autofaiss, 
+									knn_k=args.knn_k,
+									embedding_type=args.embedding_type)
+			print(f'done for {ds_name=}! [fol count {fol_count}/{len(all_groups_in_folder)}]')
+		print(f'done!')

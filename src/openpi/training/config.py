@@ -403,6 +403,7 @@ class RegentDroidDataConfig(DataConfigFactory):
 class TrainConfig:
     # Name of the config. Must be unique. Will be used to reference this config.
     name: tyro.conf.Suppress[str]
+    finetuning_collected_demos_dir: str | None = None
     # Project name.
     project_name: str = "openpi"
     # Experiment name. Will be used to name the metadata and checkpoint directories.
@@ -547,7 +548,7 @@ _CONFIGS = [
         ),
     ),
     # 
-    # Regentic Fine-tuning configs.
+    # Regentic Fine-tuning configs. Finetuning on collected_demos_training.
     # 
     TrainConfig(
         name="pi0_fast_droid_regent",
@@ -673,46 +674,87 @@ _CONFIGS = [
         keep_period=300,
         lr_schedule=_optimizer.CosineDecaySchedule(warmup_steps=300, peak_lr=2.5e-5, decay_steps=3000, decay_lr=2.5e-6),
     ),
+    #
+    # Further finetuning of regentic models on collected_demos (inference)
+    #
     TrainConfig(
-        name="pi0_fast_droid_regent_with_interpolation_lamda1",
-        # Here is an example of loading a pi0-FAST model for full finetuning.
-        # Modify action_dim and action_horizon to match your dataset (action horizon is equal to
-        # the desired action chunk length).
-        # The max_token_len is the maximum number of (non-image) tokens the model can handle.
-        # This includes the tokenized prompt, proprioceptive state, and (FAST-tokenized) action tokens.
-        # Choosing this value too small may chop off tokens at the end of your sequence (the code will throw
-        # a warning), while choosing it too large will waste memory (since we pad each batch element to the
-        # max_token_len). A good rule of thumb is to use approx 180 for single-arm robots, and approx 250 for
-        # two-arm robots. Generally, err on the lower side here first, and potentially increase the value if
-        # you see many warnings being thrown during training.
-        #
-        # REGENT NOTE:
-        # max_token_len is used to pad the "text, state, action" tokens to the same length for each retrieved/query state; see tokenizer
-        model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=4, use_action_interpolation=True, lamda=1.0),
-        data=RegentDroidDataConfig(
-            repo_id=None,
-            assets=AssetsConfig(asset_id="droid"),
-            base_config=DataConfig(
-                prompt_from_task=False, # only needed for LeRobot datasets to convert task_index to prompt
-            ),
-        ),
-        # Note that we load the pi0-FAST base model checkpoint here.
-        weight_loader=weight_loaders.CheckpointWeightLoader("s3://openpi-assets/checkpoints/pi0_fast_droid/params"),
-        # Below you can define other hyperparameters like the learning rate, number of training steps, etc.
-        # Check the base TrainConfig class for a full list of available hyperparameters.
-        num_train_steps=10_000,
+        name="pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate",
+        finetuning_collected_demos_dir="regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right",
+        model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=15, max_token_len=250, num_retrieved_observations=4, use_action_interpolation=True, lamda=10.0),
+        data=RegentDroidDataConfig(repo_id=None, assets=AssetsConfig(asset_id="droid"), base_config=DataConfig(prompt_from_task=False)),
+        weight_loader=weight_loaders.CheckpointWeightLoader("checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400/params"),
+        num_train_steps=1_000,
         batch_size=16,
-        # The freeze filter defines which parameters should be frozen during training.
-        # We have a convenience function in the model config that returns the default freeze filter
-        # for the given model config for LoRA finetuning. Just make sure it matches the model config
-        # you chose above.
-        freeze_filter=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=10, max_token_len=180, num_retrieved_observations=4, use_action_interpolation=True, lamda=1.0).get_freeze_filter_with_frozen_img_encoder(),
-        # Turn off EMA for LoRA finetuning.
-        ema_decay=None,
+        freeze_filter=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=15, max_token_len=250, num_retrieved_observations=4, use_action_interpolation=True, lamda=10.0).get_freeze_filter_with_frozen_img_encoder(),
         log_interval=1,
         save_interval=100,
         keep_period=100,
-        lr_schedule=_optimizer.CosineDecaySchedule(warmup_steps=300, peak_lr=2.5e-5, decay_steps=3000, decay_lr=2.5e-6),
+        lr_schedule=_optimizer.CosineDecaySchedule(warmup_steps=50, peak_lr=2.5e-5, decay_steps=1_000, decay_lr=2.5e-6),
+    ),
+    TrainConfig(
+        name="pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball",
+        finetuning_collected_demos_dir="regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray",
+        model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=15, max_token_len=250, num_retrieved_observations=4, use_action_interpolation=True, lamda=10.0),
+        data=RegentDroidDataConfig(repo_id=None, assets=AssetsConfig(asset_id="droid"), base_config=DataConfig(prompt_from_task=False)),
+        weight_loader=weight_loaders.CheckpointWeightLoader("checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400/params"),
+        num_train_steps=1_000,
+        batch_size=16,
+        freeze_filter=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=15, max_token_len=250, num_retrieved_observations=4, use_action_interpolation=True, lamda=10.0).get_freeze_filter_with_frozen_img_encoder(),
+        log_interval=1,
+        save_interval=100,
+        keep_period=100,
+        lr_schedule=_optimizer.CosineDecaySchedule(warmup_steps=50, peak_lr=2.5e-5, decay_steps=1_000, decay_lr=2.5e-6),
+    ),
+    #
+    # finetuning pi0 on collected_demos (inference)
+    #
+    TrainConfig(
+        name="pi0_fast_droid___finetune_on_idli_plate",
+        finetuning_collected_demos_dir="regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right",
+        model=pi0_fast.Pi0FASTConfig(action_dim=8, action_horizon=10),
+        data=SimpleDataConfig(
+            repo_id=None,
+            assets=AssetsConfig(asset_id="droid"),
+            data_transforms=lambda model: _transforms.Group(
+                inputs=[droid_policy.DroidInputs(action_dim=model.action_dim, model_type=ModelType.PI0_FAST)],
+                outputs=[droid_policy.DroidOutputs()],
+            ),
+            base_config=DataConfig(
+                prompt_from_task=True,
+            ),
+        ),
+        weight_loader=weight_loaders.CheckpointWeightLoader("s3://openpi-assets/checkpoints/pi0_fast_droid/params"),
+        num_train_steps=1_000,
+        batch_size=16,
+        freeze_filter=pi0_fast.Pi0FASTConfig(action_dim=8, action_horizon=10).get_freeze_filter_with_frozen_img_encoder(),
+        log_interval=1,
+        save_interval=100,
+        keep_period=100,
+        lr_schedule=_optimizer.CosineDecaySchedule(warmup_steps=50, peak_lr=2.5e-5, decay_steps=1_000, decay_lr=2.5e-6),
+    ),
+    TrainConfig(
+        name="pi0_fast_droid___finetune_on_pokeball",
+        finetuning_collected_demos_dir="regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray",
+        model=pi0_fast.Pi0FASTConfig(action_dim=8, action_horizon=10),
+        data=SimpleDataConfig(
+            repo_id=None,
+            assets=AssetsConfig(asset_id="droid"),
+            data_transforms=lambda model: _transforms.Group(
+                inputs=[droid_policy.DroidInputs(action_dim=model.action_dim, model_type=ModelType.PI0_FAST)],
+                outputs=[droid_policy.DroidOutputs()],
+            ),
+            base_config=DataConfig(
+                prompt_from_task=True,
+            ),
+        ),
+        weight_loader=weight_loaders.CheckpointWeightLoader("s3://openpi-assets/checkpoints/pi0_fast_droid/params"),
+        num_train_steps=1_000,
+        batch_size=16,
+        freeze_filter=pi0_fast.Pi0FASTConfig(action_dim=8, action_horizon=10).get_freeze_filter_with_frozen_img_encoder(),
+        log_interval=1,
+        save_interval=100,
+        keep_period=100,
+        lr_schedule=_optimizer.CosineDecaySchedule(warmup_steps=50, peak_lr=2.5e-5, decay_steps=1_000, decay_lr=2.5e-6),
     ),
     #
     # Fine-tuning Libero configs.

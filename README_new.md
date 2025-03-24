@@ -188,22 +188,10 @@ CUDA_VISIBLE_DEVICES=9 python -u scripts/test_pi0_fast_regent_no_interpolation.p
 CUDA_VISIBLE_DEVICES=9 python -u scripts/test_retrieve_and_play.py
 ```
 
-* finetune the trained models on the inference time collected demos
-```bash
-# finetune pi0_fast_droid
-
-
-# finetune pi0_fast_droid_regent_with_interpolation_longer_act_horizon
-
-```
-
 * run pi0 baseline on the robot
 ```bash
 # Run the server on ivy for pi0
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid --policy.dir=s3://openpi-assets/checkpoints/pi0_fast_droid
-
-# Run the server on ivy for pi0 finetuned
-
 
 # If you want to run the server on the workstation in the lab
 cd ~/Projects/openpi-main/ 
@@ -237,10 +225,6 @@ CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:c
 
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-22_move_the_pineapple_from_one_racket_to_the_other
 
-# Run the server on ivy for regent finetuned
-
-
-
 # Run the client on the franka robot
 # Terminal 1:
 startserver
@@ -255,4 +239,45 @@ python3 scripts/main_rnp.py --remote_host=158.130.55.26 --remote_port=8000
 # you can get your host computer's public ip via `curl -4 ifconfig.me`
 ```
 
+## further finetuning on inference time collected demos
+* retrieval preprocessing of the inference time collected demos
+```bash
+nohup python -u retrieve_within_collected_demo_groups.py --folder_name=collected_demos &> logs/retrieval_preprocessing/collected_demos.log &
+```
+
+* finetune the baseline on the inference time collected demos
+```bash
+CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train.py pi0_fast_droid___finetune_on_idli_plate --exp-name=1st_try_pi0_idli_plate --overwrite &> logs/finetune/pi0_idli_plate.txt &
+
+CUDA_VISIBLE_DEVICES=0,1 nohup python -u scripts/train.py pi0_fast_droid___finetune_on_pokeball --exp-name=1st_try_pi0_pokeball --overwrite &> logs/finetune/pi0_pokeball.txt &
+
+
+```
+
+* finetune regent on the inference time collected demos
+```bash
+XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate --exp-name=1st_try_regent_idli_plate --overwrite &> logs/finetune/regent_idli_plate.txt &
+
+XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball --exp-name=1st_try_regent_pokeball --overwrite &> logs/finetune/regent_pokeball.txt &
+
+
+```
+
+* run baseline inference
+```bash
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid___finetune_on_idli_plate --policy.dir=checkpoints/pi0_fast_droid___finetune_on_idli_plate/1st_try_pi0_idli_plate/1000
+
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid___finetune_on_pokeball --policy.dir=checkpoints/pi0_fast_droid___finetune_on_pokeball/1st_try_pi0_pokeball/1000
+
+
+```
+
+* run regent inference
+```bash
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate/1st_try_regent_idli_plate/1000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
+
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball/1st_try_regent_pokeball/1000 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray
+
+
+```
 

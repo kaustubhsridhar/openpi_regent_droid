@@ -95,18 +95,78 @@ def get_action_chunk(action_joint_vels, action_gripper_pos, step_idx, action_hor
     action_chunk = np.stack(action_chunk, axis=0)
     assert action_chunk.shape == (action_horizon, 8), f"{action_chunk.shape=}"
     return action_chunk
-    
+
+
+class Pi0FastDroidFinetuneDataset(Dataset):
+    def __init__(self, model_config: _pi0_fast_regent.Pi0FASTRegentConfig, finetuning_collected_demos_dir: str | None):
+        assert finetuning_collected_demos_dir is not None
+        collected_demos_infos = {k: json.load(open(f"{finetuning_collected_demos_dir}/{k}.json")) for k in ['ep_idxs_to_fol', 'fols_to_ep_idxs', 'groups_to_ep_fols', 'groups_to_ep_idxs']}
+        
+        # files from the collected demos for training
+        indices_files = [] 
+        for group_name, ep_fols in collected_demos_infos["groups_to_ep_fols"].items():
+            for ep_fol in ep_fols:
+                indices_files.append(f"regent_droid_preprocessing/{ep_fol}/indices_and_distances.npz")
+        
+        # actual loading...
+        count_collected_demos = 0
+        all_query_indices = []
+        for file_idx, file_path in enumerate(indices_files):
+            indices_and_dists = np.load(file_path)
+            query_indices = indices_and_dists["query_indices"]
+            num_steps = query_indices.shape[0]
+            assert query_indices.shape == (num_steps, 2) and query_indices.dtype == np.int32
+            expected_query_indices = np.array([[100000+file_idx, i] for i in range(num_steps)], dtype=np.int32)
+            assert np.allclose(query_indices, expected_query_indices), f"{query_indices=}, {expected_query_indices=}"
+            all_query_indices.append(query_indices)
+            count_collected_demos += num_steps
+        print(f"num states in collected demos given by count_collected_demos: {count_collected_demos}")
+        all_query_indices = np.concatenate(all_query_indices, axis=0)
+        len_dataset = all_query_indices.shape[0]
+        print(f"len_dataset: {len_dataset}")
+        assert len_dataset == count_collected_demos
+        assert all_query_indices.shape == (len_dataset, 2) and all_query_indices.dtype == np.int32
+
+        # load all data paths 
+        all_ep_idxs = list(np.unique(all_query_indices[:, 0]))
+        all_ep_data_paths = {ep_idx: 
+                                    f"regent_droid_preprocessing/{collected_demos_infos['ep_idxs_to_fol'][str(ep_idx)]}/processed_demo.npz"
+                            for ep_idx in all_ep_idxs}
+        common_prompt = " ".join(collected_demos_infos['ep_idxs_to_fol']['100000'].split("/")[1].split("_")[1:])
+        print(f"common_prompt: {common_prompt}")
+
+        # save
+        self.len_dataset = len_dataset
+        self.all_ep_data_paths = all_ep_data_paths
+        self.common_prompt = common_prompt
+        self.all_query_indices = all_query_indices
+        self.action_horizon = model_config.action_horizon
+
+    def __getitem__(self, index: SupportsIndex) -> dict:
+        query_ep_idx, query_step_idx = self.all_query_indices[index, :]
+        ep_data = np.load(self.all_ep_data_paths[query_ep_idx])
+        data = {'observation/exterior_image_1_left': ep_data['right_image'][query_step_idx],
+                'observation/wrist_image_left': ep_data['wrist_image'][query_step_idx],
+                'observation/joint_position': ep_data['state'][query_step_idx][:-1],
+                'observation/gripper_position': ep_data['state'][query_step_idx][-1:],
+                'actions': get_action_chunk(ep_data['actions'][:, :-1], ep_data['actions'][:, -1:], query_step_idx, self.action_horizon),
+                'prompt': self.common_prompt}
+        return data
+
+    def __len__(self) -> int:
+        return self.len_dataset
+
 
 class RegentDroidDataset(Dataset):
-    def __init__(self, model_config: _pi0_fast_regent.Pi0FASTRegentConfig):
+    def __init__(self, model_config: _pi0_fast_regent.Pi0FASTRegentConfig, finetuning_collected_demos_dir: str | None):
         # setup
         num_retrieved_observations = model_config.num_retrieved_observations
         knn_k = 100
         assert num_retrieved_observations <= knn_k
         embedding_type = "embeddings__wrist_image_left" # retrieval based on embeddings of wrist images
         indices_and_dists_fol = f"regent_droid_preprocessing/droid_new_broken_up_indices_and_distances/chosenIDscene_id_numepisodes20_embtype{embedding_type}_knnk100"
-        collected_demos_infos = {k: json.load(open(f"regent_droid_preprocessing/collected_demos_training/{k}.json")) for k in ['ep_idxs_to_fol', 'fols_to_ep_idxs', 'groups_to_ep_fols', 'groups_to_ep_idxs']}
-
+        outer_dir = "regent_droid_preprocessing/collected_demos_training" if finetuning_collected_demos_dir is None else finetuning_collected_demos_dir
+        collected_demos_infos = {k: json.load(open(f"{outer_dir}/{k}.json")) for k in ['ep_idxs_to_fol', 'fols_to_ep_idxs', 'groups_to_ep_fols', 'groups_to_ep_idxs']}
         # load indices_and_dists
         all_retrieved_indices = []
         all_query_indices = []
@@ -134,7 +194,7 @@ class RegentDroidDataset(Dataset):
             all_retrieved_indices.append(retrieved_indices)
             all_query_indices.append(query_indices)
             all_distances.append(distances)
-            if "collected_demos_training" in file_path:
+            if "collected_demos_training" in file_path or "collected_demos" in file_path:
                 count_collected_demos += num_steps
             else:
                 count_droid += num_steps
@@ -151,8 +211,9 @@ class RegentDroidDataset(Dataset):
         
         # normalize all_distances and convert to float32
         max_dist_value = json.load(open(f"assets/max_distance.json", 'r'))['distances']['max']
-        assert max_dist_value == np.max(all_distances), f"{max_dist_value=} from norm stats time does not match {np.max(all_distances)=} from dataset"
-        print(f'max distance value: {max_dist_value}')
+        if finetuning_collected_demos_dir is None:
+            assert max_dist_value == np.max(all_distances), f"{max_dist_value=} from norm stats time does not match {np.max(all_distances)=} from dataset"
+            print(f'max distance value: {max_dist_value}')
         all_distances = all_distances / max_dist_value
         all_distances = all_distances.astype(np.float32)
 
@@ -170,6 +231,10 @@ class RegentDroidDataset(Dataset):
                                     if ep_idx < 100000 else 
                                     " ".join(collected_demos_infos['ep_idxs_to_fol'][str(ep_idx)].split("/")[1].split("_")[1:])
                             for ep_idx in all_ep_idxs}
+        
+        # if all episode prompts are the same, print the first prompt
+        if all(all_ep_prompts[ep_idx] == all_ep_prompts[list(all_ep_prompts.keys())[0]] for ep_idx in all_ep_prompts):
+            print(f"all {len(all_ep_prompts)} episode prompts are the same: {all_ep_prompts[list(all_ep_prompts.keys())[0]]}")
 
         # save
         self.len_dataset = len_dataset
@@ -305,7 +370,9 @@ def create_data_loader(
     data_config = config.data.create(config.assets_dirs, config.model)
 
     if "regent" in config.name:
-        dataset = RegentDroidDataset(config.model)
+        dataset = RegentDroidDataset(config.model, config.finetuning_collected_demos_dir)
+    elif "pi0_fast_droid___finetune_on_" in config.name:
+        dataset = Pi0FastDroidFinetuneDataset(config.model, config.finetuning_collected_demos_dir)
     else:
         dataset = create_dataset(data_config, config.model)
     dataset = transform_dataset(dataset, data_config, skip_norm_stats=skip_norm_stats)
