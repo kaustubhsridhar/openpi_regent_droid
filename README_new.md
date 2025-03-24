@@ -275,7 +275,7 @@ startserver
 # Terminal 2:
 cd ~/droid_pi0_ksridhar/
 conda activate droid_pi0_ksridhar
-python3 scripts/main.py --remote_host=158.130.55.26 --remote_port=8000
+python3 scripts/main.py --remote_host=158.130.55.26 --remote_port=8000 --external_camera="right"
 ```
 
 * run regent inference
@@ -293,3 +293,15 @@ conda activate droid_pi0_ksridhar
 python3 scripts/main_regent_pokeball_finetune.py --remote_host=158.130.55.26 --remote_port=8000
 ```
 
+* copy over stuff
+```bash
+# pi0 finetune
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0324/* videos_dont_delete/pi0_finetune_idli_plate_0324/
+
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0324/* videos_dont_delete/pi0_finetune_pokeball_0324/
+
+# regent finetune
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0324/* videos_dont_delete/regent_finetune_idli_plate_0324/
+
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0324/* videos_dont_delete/regent_finetune_pokeball_0324/
+```
