@@ -325,13 +325,13 @@ CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:c
 ```bash
 # pi0
 # N demos
-export N=5
+export N=10
 CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train.py pi0_fast_droid___finetune_on_idli_plate --exp-name=1st_try_pi0_idli_plate_${N} --finetuning_collected_demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14-${N}demos_move_the_idli_plate_to_the_right --overwrite &> logs/finetune/pi0_idli_plate_${N}.txt &
 
 # regent
 # N demos
-export N=5
-XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate --exp-name=1st_try_regent_idli_plate_${N} --finetuning_collected_demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14-${N}demos_move_the_idli_plate_to_the_right --overwrite &> logs/finetune/regent_idli_plate_${N}.txt &
+export N=10
+XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate --exp-name=1st_try_regent_idli_plate_${N} --finetuning_collected_demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14-${N}demos_move_the_idli_plate_to_the_right --overwrite &> logs/finetune/regent_idli_plate_${N}.txt &
 ```
 
 * inference of further finetuned regent on the robot
