@@ -128,14 +128,14 @@ rsync -avzP -e 'ssh' franka@10.102.204.231:~/franka_ksridhar/data/success/* rege
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0326/* videos_dont_delete/pi0_0326_?/
 
 # rnp
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0319/rnp* videos_dont_delete/rnp_0314_0317_move_the_idli_plate_to_the_right_manytimes/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0326/rnp* videos_dont_delete/rnp_idli_plate/
 
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0317/* videos_dont_delete/rnp_0317_pick_up_the_poke_ball_and_put_it_in_the_tray/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0317/* videos_dont_delete/rnp_pokeball/
 
 # regent
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0319/* videos_dont_delete/regent_0316_0317_move_the_idli_plate_to_the_right/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0319/* videos_dont_delete/regent_idli_plate/
 
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0324/* videos_dont_delete/regent_0317_pick_up_the_poke_ball_and_put_it_in_the_tray/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0324/* videos_dont_delete/regent_pokeball/
 ```
 
 * Collect more training demos and transfer as follows:
@@ -296,14 +296,14 @@ python3 scripts/main_regent_pokeball_finetune.py --remote_host=158.130.55.26 --r
 * copy over stuff
 ```bash
 # pi0 finetune
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0324/* videos_dont_delete/pi0_finetune_idli_plate_0324/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0324/* videos_dont_delete/pi0_finetune_idli_plate/
 
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0324/* videos_dont_delete/pi0_finetune_pokeball_0324/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0324/* videos_dont_delete/pi0_finetune_pokeball/
 
 # regent finetune
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0324/* videos_dont_delete/regent_finetune_idli_plate_0324/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0324/* videos_dont_delete/regent_finetune_idli_plate/
 
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0324/* videos_dont_delete/regent_finetune_pokeball_0324/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0324/* videos_dont_delete/regent_finetune_pokeball/
 ```
 
 ## idli plate num demos ablations
