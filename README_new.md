@@ -125,7 +125,7 @@ rsync -avzP -e 'ssh' franka@10.102.204.231:~/franka_ksridhar/data/success/* rege
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/franka_ksridhar/data/success/* regent_droid_preprocessing/collected_demos_training/
 
 # baseline
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0322/* videos_dont_delete/pi0_0322_move_the_pineapple_from_one_racket_to_the_other/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0326/* videos_dont_delete/pi0_0326_?/
 
 # rnp
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0319/rnp* videos_dont_delete/rnp_0314_0317_move_the_idli_plate_to_the_right_manytimes/
@@ -216,14 +216,14 @@ CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint -
 
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray
 
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-22_move_the_pineapple_from_one_racket_to_the_other
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-26_?
 
 # Run the server on ivy for retrieve and play
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray
 
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-22_move_the_pineapple_from_one_racket_to_the_other
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-26_?
 
 # Run the client on the franka robot
 # Terminal 1:
@@ -304,4 +304,62 @@ rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0324/* videos_dont_delete/regent_finetune_idli_plate_0324/
 
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0324/* videos_dont_delete/regent_finetune_pokeball_0324/
+```
+
+## idli plate num demos ablations
+
+* inference of regent and rnp on the robot
+```bash
+# regent
+# N demos
+export N=5
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14-${N}demos_move_the_idli_plate_to_the_right
+
+# rnp
+# N demos
+export N=5
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14-${N}demos_move_the_idli_plate_to_the_right
+```
+
+* further finetuning of regent on inference time collected demos
+```bash
+# pi0
+# N demos
+export N=5
+CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train.py pi0_fast_droid___finetune_on_idli_plate --exp-name=1st_try_pi0_idli_plate_${N} --finetuning_collected_demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14-${N}demos_move_the_idli_plate_to_the_right --overwrite &> logs/finetune/pi0_idli_plate_${N}.txt &
+
+# regent
+# N demos
+export N=5
+XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate --exp-name=1st_try_regent_idli_plate_${N} --finetuning_collected_demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14-${N}demos_move_the_idli_plate_to_the_right --overwrite &> logs/finetune/regent_idli_plate_${N}.txt &
+```
+
+* inference of further finetuned regent on the robot
+```bash
+# pi0
+# N demos
+export N=5
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid___finetune_on_idli_plate --policy.dir=checkpoints/pi0_fast_droid___finetune_on_idli_plate/1st_try_pi0_idli_plate_${N}/999
+
+# regent
+# N demos
+export N=5
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate/1st_try_regent_idli_plate_${N}/999 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14-${N}demos_move_the_idli_plate_to_the_right
+```
+
+* copy over the videos
+```bash
+export N=5
+
+# rnp
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0326/* videos_dont_delete/rnp_0326_idli_plate_ablation_${N}/
+
+# regent
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0326/* videos_dont_delete/regent_0326_idli_plate_ablation_${N}/
+
+# pi0 further finetuned
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0326/* videos_dont_delete/pi0_finetune_idli_plate_0326_${N}/
+
+# regent further finetuned
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0326/* videos_dont_delete/regent_finetune_idli_plate_0326_${N}/
 ```

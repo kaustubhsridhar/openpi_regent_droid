@@ -133,6 +133,7 @@ class Pi0FastDroidFinetuneDataset(Dataset):
                                     f"regent_droid_preprocessing/{collected_demos_infos['ep_idxs_to_fol'][str(ep_idx)]}/processed_demo.npz"
                             for ep_idx in all_ep_idxs}
         common_prompt = " ".join(collected_demos_infos['ep_idxs_to_fol']['100000'].split("/")[1].split("_")[1:])
+        print(f'num episodes: {len(all_ep_idxs)}')
         print(f"common_prompt: {common_prompt}")
 
         # save
