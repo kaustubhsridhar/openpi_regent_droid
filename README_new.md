@@ -124,18 +124,14 @@ rsync -avzP -e 'ssh' franka@10.102.204.231:~/franka_ksridhar/data/success/* rege
 # training
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/franka_ksridhar/data/success/* regent_droid_preprocessing/collected_demos_training/
 
-# baseline
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0326/* videos_dont_delete/pi0_0326_?/
+# baseline pi0
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0326/* videos_dont_delete/pi0_squeegee/
 
 # rnp
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0326/rnp* videos_dont_delete/rnp_idli_plate/
-
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0317/* videos_dont_delete/rnp_pokeball/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0326/* videos_dont_delete/rnp_squeegee/
 
 # regent
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0319/* videos_dont_delete/regent_idli_plate/
-
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0324/* videos_dont_delete/regent_pokeball/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0326/* videos_dont_delete/regent_squeegee/
 ```
 
 * Collect more training demos and transfer as follows:
@@ -216,14 +212,14 @@ CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint -
 
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray
 
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-26_?
+CUDA_VISIBLE_DEVICES=4 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-27_move_the_squeegee_to_the_right_and_try_to_drag_it
 
 # Run the server on ivy for retrieve and play
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray
 
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-26_?
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-27_move_the_squeegee_to_the_right_and_try_to_drag_it
 
 # Run the client on the franka robot
 # Terminal 1:
@@ -251,7 +247,7 @@ CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train.py pi0_fast_droid___finet
 
 CUDA_VISIBLE_DEVICES=0,1 nohup python -u scripts/train.py pi0_fast_droid___finetune_on_pokeball --exp-name=1st_try_pi0_pokeball --overwrite &> logs/finetune/pi0_pokeball.txt &
 
-
+CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train.py pi0_fast_droid___finetune_on_squeegee --exp-name=1st_try_pi0_squeegee --overwrite &> logs/finetune/pi0_squeegee.txt &
 ```
 
 * finetune regent on the inference time collected demos
@@ -260,7 +256,7 @@ XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=3,4 nohup python -u scri
 
 XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=0,1 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball --exp-name=1st_try_regent_pokeball --overwrite &> logs/finetune/regent_pokeball.txt &
 
-
+XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=0,1 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_squeegee --exp-name=1st_try_regent_squeegee --overwrite &> logs/finetune/regent_squeegee.txt &
 ```
 
 * run baseline inference
@@ -268,6 +264,8 @@ XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=0,1 nohup python -u scri
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid___finetune_on_idli_plate --policy.dir=checkpoints/pi0_fast_droid___finetune_on_idli_plate/1st_try_pi0_idli_plate/999
 
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid___finetune_on_pokeball --policy.dir=checkpoints/pi0_fast_droid___finetune_on_pokeball/1st_try_pi0_pokeball/999
+
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid___finetune_on_squeegee --policy.dir=checkpoints/pi0_fast_droid___finetune_on_squeegee/1st_try_pi0_squeegee/999
 
 # Run the client on the franka robot
 # Terminal 1:
@@ -283,6 +281,8 @@ python3 scripts/main.py --remote_host=158.130.55.26 --remote_port=8000 --externa
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_idli_plate/1st_try_regent_idli_plate/999 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball/1st_try_regent_pokeball/999 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray
+
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_squeegee --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_squeegee/1st_try_regent_squeegee/999 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-27_move_the_squeegee_to_the_right_and_try_to_drag_it
 
 # Run the client on the franka robot
 # Terminal 1:

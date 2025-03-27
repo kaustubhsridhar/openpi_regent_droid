@@ -756,6 +756,30 @@ _CONFIGS = [
         keep_period=100,
         lr_schedule=_optimizer.CosineDecaySchedule(warmup_steps=50, peak_lr=2.5e-5, decay_steps=1_000, decay_lr=2.5e-6),
     ),
+    TrainConfig(
+        name="pi0_fast_droid___finetune_on_squeegee",
+        finetuning_collected_demos_dir="regent_droid_preprocessing/collected_demos/2025-03-27_move_the_squeegee_to_the_right_and_try_to_drag_it",
+        model=pi0_fast.Pi0FASTConfig(action_dim=8, action_horizon=10),
+        data=SimpleDataConfig(
+            repo_id=None,
+            assets=AssetsConfig(asset_id="droid"),
+            data_transforms=lambda model: _transforms.Group(
+                inputs=[droid_policy.DroidInputs(action_dim=model.action_dim, model_type=ModelType.PI0_FAST)],
+                outputs=[droid_policy.DroidOutputs()],
+            ),
+            base_config=DataConfig(
+                prompt_from_task=True,
+            ),
+        ),
+        weight_loader=weight_loaders.CheckpointWeightLoader("s3://openpi-assets/checkpoints/pi0_fast_droid/params"),
+        num_train_steps=1_000,
+        batch_size=16,
+        freeze_filter=pi0_fast.Pi0FASTConfig(action_dim=8, action_horizon=10).get_freeze_filter_with_frozen_img_encoder(),
+        log_interval=1,
+        save_interval=100,
+        keep_period=100,
+        lr_schedule=_optimizer.CosineDecaySchedule(warmup_steps=50, peak_lr=2.5e-5, decay_steps=1_000, decay_lr=2.5e-6),
+    ),
     #
     # Fine-tuning Libero configs.
     #
