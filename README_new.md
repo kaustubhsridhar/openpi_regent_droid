@@ -256,7 +256,7 @@ XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=3,4 nohup python -u scri
 
 XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=0,1 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_pokeball --exp-name=1st_try_regent_pokeball --overwrite &> logs/finetune/regent_pokeball.txt &
 
-XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=0,1 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_squeegee --exp-name=1st_try_regent_squeegee --overwrite &> logs/finetune/regent_squeegee.txt &
+XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_squeegee --exp-name=1st_try_regent_squeegee --overwrite &> logs/finetune/regent_squeegee.txt &
 ```
 
 * run baseline inference

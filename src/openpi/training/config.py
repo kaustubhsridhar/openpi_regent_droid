@@ -705,6 +705,20 @@ _CONFIGS = [
         keep_period=100,
         lr_schedule=_optimizer.CosineDecaySchedule(warmup_steps=50, peak_lr=2.5e-5, decay_steps=1_000, decay_lr=2.5e-6),
     ),
+    TrainConfig(
+        name="pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_squeegee",
+        finetuning_collected_demos_dir="regent_droid_preprocessing/collected_demos/2025-03-27_move_the_squeegee_to_the_right_and_try_to_drag_it",
+        model=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=15, max_token_len=250, num_retrieved_observations=4, use_action_interpolation=True, lamda=10.0),
+        data=RegentDroidDataConfig(repo_id=None, assets=AssetsConfig(asset_id="droid"), base_config=DataConfig(prompt_from_task=False)),
+        weight_loader=weight_loaders.CheckpointWeightLoader("checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400/params"),
+        num_train_steps=1_000,
+        batch_size=16,
+        freeze_filter=pi0_fast_regent.Pi0FASTRegentConfig(action_dim=8, action_horizon=15, max_token_len=250, num_retrieved_observations=4, use_action_interpolation=True, lamda=10.0).get_freeze_filter_with_frozen_img_encoder(),
+        log_interval=1,
+        save_interval=100,
+        keep_period=100,
+        lr_schedule=_optimizer.CosineDecaySchedule(warmup_steps=50, peak_lr=2.5e-5, decay_steps=1_000, decay_lr=2.5e-6),
+    ),
     #
     # finetuning pi0 on collected_demos (inference)
     #
