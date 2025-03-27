@@ -125,13 +125,13 @@ rsync -avzP -e 'ssh' franka@10.102.204.231:~/franka_ksridhar/data/success/* rege
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/franka_ksridhar/data/success/* regent_droid_preprocessing/collected_demos_training/
 
 # baseline pi0
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0326/* videos_dont_delete/pi0_squeegee/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0327/* videos_dont_delete/pi0_squeegee/
 
 # rnp
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0326/* videos_dont_delete/rnp_squeegee/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0327/* videos_dont_delete/rnp_squeegee/
 
 # regent
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0326/* videos_dont_delete/regent_squeegee/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0327/* videos_dont_delete/regent_squeegee/
 ```
 
 * Collect more training demos and transfer as follows:
@@ -212,7 +212,7 @@ CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint -
 
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray
 
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-27_move_the_squeegee_to_the_right_and_try_to_drag_it
+CUDA_VISIBLE_DEVICES=4 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-27_move_the_squeegee_to_the_right_and_try_to_drag_it
 
 # Run the server on ivy for retrieve and play
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
@@ -352,14 +352,14 @@ CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint -
 export N=5
 
 # rnp
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0326/* videos_dont_delete/rnp_0326_idli_plate_ablation_${N}/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0327/* videos_dont_delete/rnp_idli_plate_ablation_${N}/
 
 # regent
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0326/* videos_dont_delete/regent_0326_idli_plate_ablation_${N}/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0327/* videos_dont_delete/regent_idli_plate_ablation_${N}/
 
 # pi0 further finetuned
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0326/* videos_dont_delete/pi0_finetune_idli_plate_0326_${N}/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0327/* videos_dont_delete/pi0_finetune_idli_plate_ablation_${N}/
 
 # regent further finetuned
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0326/* videos_dont_delete/regent_finetune_idli_plate_0326_${N}/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0327/* videos_dont_delete/regent_finetune_idli_plate_ablation_${N}/
 ```
