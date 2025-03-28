@@ -348,14 +348,14 @@ CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint -
 export N=5
 
 # rnp
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0327/* videos_dont_delete/rnp_idli_plate_ablation_${N}/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0327/* videos_dont_delete/rnp_idli_plate_ablation_${N}demos/
 
 # regent
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0327/* videos_dont_delete/regent_idli_plate_ablation_${N}/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0327/* videos_dont_delete/regent_idli_plate_ablation_${N}demos/
 
 # pi0 further finetuned
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0327/* videos_dont_delete/pi0_finetune_idli_plate_ablation_${N}/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0327/* videos_dont_delete/pi0_finetune_idli_plate_ablation_${N}demos/
 
 # regent further finetuned
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0327/* videos_dont_delete/regent_finetune_idli_plate_ablation_${N}/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0327/* videos_dont_delete/regent_finetune_idli_plate_ablation_${N}demos/
 ```
