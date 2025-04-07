@@ -176,3 +176,4 @@ regent_droid_preprocessing/episode_0.json
 regent_droid_preprocessing/collected_demos*
 videos_dont_delete*
 MCNN/
+diffusion_policy_droid/
