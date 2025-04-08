@@ -130,13 +130,13 @@ rsync -avzP -e 'ssh' franka@10.102.204.231:~/eva_ksridhar/data/success/* regent_
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/eva_ksridhar/data/success/* regent_droid_preprocessing/collected_demos_training/
 
 # baseline pi0
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0407/* videos_dont_delete/pi0_door_shelf/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0408/* videos_dont_delete/pi0_toaster_lever/
 
 # rnp
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0327/* videos_dont_delete/rnp_squeegee/
 
 # regent
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0407/* videos_dont_delete/regent_toaster_lever/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0408/* videos_dont_delete/regent_toaster_lever/
 ```
 
 * Collect more training demos and transfer as follows:
@@ -192,7 +192,7 @@ CUDA_VISIBLE_DEVICES=9 python -u scripts/test_retrieve_and_play.py
 * run pi0 baseline on the robot
 ```bash
 # Run the server on ivy for pi0
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid --policy.dir=s3://openpi-assets/checkpoints/pi0_fast_droid
+CUDA_VISIBLE_DEVICES=0 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid --policy.dir=s3://openpi-assets/checkpoints/pi0_fast_droid
 
 # If you want to run the server on the workstation in the lab
 cd ~/Projects/openpi-main/ 
@@ -212,12 +212,19 @@ python3 scripts/main.py --remote_host=158.130.52.14 --remote_port=8000 --externa
 
 * run regent inference on the robot
 ```bash
-# Run the server on ivy for regent with interpolation and longer action horizon
+# Run the server on ivy for regent (with interpolation and longer action horizon)
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-17_pick_up_the_poke_ball_and_put_it_in_the_tray
 
 CUDA_VISIBLE_DEVICES=4 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-27_move_the_squeegee_to_the_right_and_try_to_drag_it
+
+# Second round of tasks regent
+CUDA_VISIBLE_DEVICES=0 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-04-07_pick_up_the_bagel_and_put_it_in_the_toaster
+
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-04-07_push_the_lever_on_the_toaster
+
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-04-07_open_the_door_of_the_bottom_shelf
 
 # Run the server on ivy for retrieve and play
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
@@ -240,16 +247,6 @@ python3 scripts/main_rnp.py --remote_host=158.130.55.26 --remote_port=8000
 # you can get your host computer's public ip via `curl -4 ifconfig.me`
 ```
 
-* Second round of tasks with regent
-```bash
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-04-07_pick_up_the_bagel_and_put_it_in_the_toaster
-
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-04-07_push_the_lever_on_the_toaster
-
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-04-07_open_the_door_of_the_bottom_shelf
-
-```
-
 ## further finetuning on inference time collected demos
 * retrieval preprocessing of the inference time collected demos
 ```bash
@@ -268,9 +265,9 @@ CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train.py pi0_fast_droid___finet
 # Second round of tasks for finetuning baseline
 CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train.py pi0_fast_droid___finetune_on_bagel --exp-name=1st_try_pi0_bagel --overwrite &> logs/finetune/pi0_bagel.txt &
 
-CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train.py pi0_fast_droid___finetune_on_lever --exp-name=1st_try_pi0_lever --overwrite &> logs/finetune/pi0_lever.txt &
+CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train.py pi0_fast_droid___finetune_on_lever --exp-name=1st_try_pi0_lever --overwrite &> logs/finetune/pi0_lever.txt &
 
-CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train.py pi0_fast_droid___finetune_on_door --exp-name=1st_try_pi0_door --overwrite &> logs/finetune/pi0_door.txt &
+CUDA_VISIBLE_DEVICES=4,5 nohup python -u scripts/train.py pi0_fast_droid___finetune_on_door --exp-name=1st_try_pi0_door --overwrite &> logs/finetune/pi0_door.txt &
 
 ```
 
@@ -284,11 +281,11 @@ XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=0,1 nohup python -u scri
 XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_squeegee --exp-name=1st_try_regent_squeegee --overwrite &> logs/finetune/regent_squeegee.txt &
 
 # Second round of tasks for finetuning regent
-XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_bagel --exp-name=1st_try_regent_bagel --overwrite &> logs/finetune/regent_bagel.txt &
+XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=6,9 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_bagel --exp-name=1st_try_regent_bagel --overwrite &> logs/finetune/regent_bagel.txt &
 
-XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_lever --exp-name=1st_try_regent_lever --overwrite &> logs/finetune/regent_lever.txt &
+XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_lever --exp-name=1st_try_regent_lever --overwrite &> logs/finetune/regent_lever.txt &
 
-XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=3,4 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_door --exp-name=1st_try_regent_door --overwrite &> logs/finetune/regent_door.txt &
+XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 CUDA_VISIBLE_DEVICES=7,8 nohup python -u scripts/train_pi0_fast_regent.py pi0_fast_droid_regent_with_interpolation_longer_act_horizon___finetune_on_door --exp-name=1st_try_regent_door --overwrite &> logs/finetune/regent_door.txt &
 ```
 
 * run baseline inference
@@ -344,10 +341,10 @@ python3 scripts/main_regent_pokeball_finetune.py --remote_host=158.130.55.26 --r
 * copy over stuff
 ```bash
 # pi0 finetune
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0327/* videos_dont_delete/pi0_finetune_bagel/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0408/* videos_dont_delete/pi0_finetune_toaster_bagel/
 
 # regent finetune
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0327/* videos_dont_delete/regent_finetune_bagel/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0408/* videos_dont_delete/regent_finetune_toaster_bagel/
 ```
 
 ## idli plate num demos ablations
