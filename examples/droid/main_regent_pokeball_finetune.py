@@ -24,7 +24,7 @@ faulthandler.enable()
 class Args:
     # Hardware parameters
     top_camera_id: str = "26368109" # other camera is 25455306
-    right_camera_id: str = "27085680" #  
+    right_camera_id: str = "23007103" #  
     wrist_camera_id: str = "14436910"  # 
 
     # Rollout parameters

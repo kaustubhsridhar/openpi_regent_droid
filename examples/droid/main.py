@@ -46,7 +46,7 @@ class NumpyJSONEncoder(json.JSONEncoder):
 class Args:
     # Hardware parameters
     left_camera_id: str = "25455306" # e.g., "24259877"
-    right_camera_id: str = "27085680" # fix: "27085680"  move: # "26368109"  
+    right_camera_id: str = "23007103" # fix: "27085680"  move: # "26368109"  
     wrist_camera_id: str = "14436910"  # e.g., "13062452"
 
     # Policy parameters
