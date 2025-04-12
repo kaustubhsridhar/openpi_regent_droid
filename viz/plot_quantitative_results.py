@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 def plot_for_a_task(task, dict_of_dicts):
     # hypers
-    SMALL_SIZE = 18
-    MEDIUM_SIZE = 22
+    SMALL_SIZE = 20
+    MEDIUM_SIZE = 24
     BIGGER_SIZE = 28
 
     plt.rc('font', size=MEDIUM_SIZE)          # controls default text sizes
@@ -62,7 +62,7 @@ def plot_for_a_task(task, dict_of_dicts):
                         textcoords="offset points",
                         ha='center', 
                         va='bottom',
-                        # fontsize=SMALL_SIZE,
+                        fontsize=SMALL_SIZE,
                     )
 
     # Styling

@@ -1,6 +1,6 @@
 quantitative_results = {
     "move the idli plate to the right": {
-        "reaches suitable grasp for idli plate": {
+        "reaches suitable grasp\nfor idli plate": {
             "π₀-FAST-DROID": 0,
             "Retrieve and play": 50,
             "Regentic-π₀-FAST-DROID": 80,
@@ -16,7 +16,7 @@ quantitative_results = {
         },
     },
     "pick up the poke ball and put it in the tray": {
-        "reaches pokeball and not distractor": {
+        "reaches pokeball and\nnot distractor": {
             "π₀-FAST-DROID": 0,
             "Retrieve and play": 40,
             "Regentic-π₀-FAST-DROID": 100,
@@ -68,7 +68,7 @@ quantitative_results = {
             "π₀-FAST-DROID finetuned on 20 demos": [100, None],
             "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [100, None],
         },
-        "prev + performs grasp and\nstarts to move": {
+        "prev + performs grasp\nand starts to move": {
             "π₀-FAST-DROID": [30, None],
             "Regentic-π₀-FAST-DROID": [30, None],
             "π₀-FAST-DROID finetuned on 20 demos": [30, None],
