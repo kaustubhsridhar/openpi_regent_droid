@@ -23,7 +23,7 @@ quantitative_results = {
             "π₀-FAST-DROID finetuned on 20 demos": 100,
             "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 100,
         },
-        "prev + grasps pokeball and starts to move": {
+        "prev + grasps pokeball\nand starts to move": {
             "π₀-FAST-DROID": 0,
             "Retrieve and play": 10,
             "Regentic-π₀-FAST-DROID": 60,
@@ -39,21 +39,21 @@ quantitative_results = {
         },
     },
     "move the squeegee to the right and try to drag it": {
-        "reaches the squeegee (not distractor) and suitable grasp": {
+        "reaches the squeegee (not\ndistractor) and suitable grasp": {
             "π₀-FAST-DROID": [10, None],
             "Retrieve and play": [30, None],
             "Regentic-π₀-FAST-DROID": [90, None],
             "π₀-FAST-DROID finetuned on 20 demos": [90, None],
             "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [100, None],
         },
-        "prev + performs grasp and starts to move": {
+        "prev + performs grasp and\nstarts to move": {
             "π₀-FAST-DROID": [10, None],
             "Retrieve and play": [10, None],
             "Regentic-π₀-FAST-DROID": [70, None],
             "π₀-FAST-DROID finetuned on 20 demos": [50, None],
             "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [90, None],
         },
-        "prev + moves to the right (extra: contact)": {
+        "prev + moves to the right\n(extra: contact)": {
             "π₀-FAST-DROID": [0, 0],
             "Retrieve and play": [0, 0],
             "Regentic-π₀-FAST-DROID": [30, 20],
@@ -62,19 +62,19 @@ quantitative_results = {
         },
     },
     "pick up the bagel and put it in the toaster": {
-        "reaches the bagel (and doesn't aimlessly wander)": {
+        "reaches the bagel\n(and doesn't aimlessly wander)": {
             "π₀-FAST-DROID": [60, None],
             "Regentic-π₀-FAST-DROID": [100, None],
             "π₀-FAST-DROID finetuned on 20 demos": [100, None],
             "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [100, None],
         },
-        "prev + performs grasp and starts to move": {
+        "prev + performs grasp and\nstarts to move": {
             "π₀-FAST-DROID": [30, None],
             "Regentic-π₀-FAST-DROID": [30, None],
             "π₀-FAST-DROID finetuned on 20 demos": [30, None],
             "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [90, None],
         },
-        "prev + moves bagel close to the toaster (extra: complete task)": {
+        "prev + moves bagel close to\nthe toaster (extra: completes task)": {
             "π₀-FAST-DROID": [20, 0],
             "Regentic-π₀-FAST-DROID": [20, 0],
             "π₀-FAST-DROID finetuned on 20 demos": [10, 0],
@@ -82,7 +82,7 @@ quantitative_results = {
         },
     },
     "press the lever on the toaster": {
-        "reaches the lever (and doesn't aimlessly wander)": {
+        "reaches the lever\n(and doesn't aimlessly wander)": {
             "π₀-FAST-DROID": 30,
             "Regentic-π₀-FAST-DROID": 40,
             "π₀-FAST-DROID finetuned on 20 demos": 80,
@@ -102,7 +102,7 @@ quantitative_results = {
             "π₀-FAST-DROID finetuned on 20 demos": 100,
             "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 100,
         },
-        "prev + performs grasp and starts to move": {
+        "prev + performs grasp and\nstarts to move": {
             "π₀-FAST-DROID": 0,
             "Regentic-π₀-FAST-DROID": 40,
             "π₀-FAST-DROID finetuned on 20 demos": 50,

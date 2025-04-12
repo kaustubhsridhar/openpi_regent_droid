@@ -2,37 +2,34 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-from quantitative_results_info import quantitative_results
-from ablation_results_info import ablation_results
+def plot_for_a_task(task, dict_of_dicts):
+    # hypers
+    SMALL_SIZE = 18
+    MEDIUM_SIZE = 22
+    BIGGER_SIZE = 28
 
-# hypers
-SMALL_SIZE = 18
-MEDIUM_SIZE = 22
-BIGGER_SIZE = 28
+    plt.rc('font', size=MEDIUM_SIZE)          # controls default text sizes
+    plt.rc('axes', titlesize=MEDIUM_SIZE)     # fontsize of the axes title
+    plt.rc('axes', labelsize=MEDIUM_SIZE)    # fontsize of the x and y labels
+    plt.rc('xtick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
+    plt.rc('ytick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
+    plt.rc('legend', fontsize=MEDIUM_SIZE)    # legend fontsize
+    plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
 
-plt.rc('font', size=MEDIUM_SIZE)          # controls default text sizes
-plt.rc('axes', titlesize=MEDIUM_SIZE)     # fontsize of the axes title
-plt.rc('axes', labelsize=MEDIUM_SIZE)    # fontsize of the x and y labels
-plt.rc('xtick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
-plt.rc('ytick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
-plt.rc('legend', fontsize=MEDIUM_SIZE)    # legend fontsize
-plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
+    colors = {
+        'π₀-FAST-DROID': 'tab:orange',
+        'Retrieve and play': 'tab:blue',
+        'Regentic-π₀-FAST-DROID': 'tab:green',
+        'π₀-FAST-DROID finetuned on 20 demos': 'tab:red', 'π₀-FAST-DROID finetuned on num demos': 'tab:red',
+        'Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos': 'tab:purple', 'Regentic-π₀-FAST-DROID Regentic-tuned on num demos': 'tab:purple',
+    }
 
-colors = {
-    'π₀-FAST-DROID': 'tab:orange',
-    'Retrieve and play': 'tab:blue',
-    'Regentic-π₀-FAST-DROID': 'tab:green',
-    'π₀-FAST-DROID finetuned on 20 demos': 'tab:red', 'π₀-FAST-DROID finetuned on num demos': 'tab:red',
-    'Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos': 'tab:purple', 'Regentic-π₀-FAST-DROID Regentic-tuned on num demos': 'tab:purple',
-}
-
-for task in quantitative_results:
-    subtasks = list(quantitative_results[task].keys())
-    methods = list(quantitative_results[task][subtasks[0]].keys())
+    subtasks = list(dict_of_dicts.keys())
+    methods = list(dict_of_dicts[subtasks[0]].keys())
 
     # create a grouped bar chart where each subtask is a group and each method is a bar
     # configuration
-    bar_width = 0.1
+    bar_width = 0.135
     x = np.arange(len(subtasks))  # Base x locations for each group
     
     fig, ax = plt.subplots(figsize=(5*len(subtasks), 5))
@@ -41,15 +38,16 @@ for task in quantitative_results:
         offsets = x + i * bar_width - bar_width * (len(methods) - 1) / 2
         
         values_are_tuple = False
-        if "(extra: " in subtasks:
-            values_are_tuple = True
+        if not 'Ablations' in task:
+            if any("(extra: " in subtask for subtask in subtasks):
+                values_are_tuple = True
         
         if values_are_tuple:
-            actual_vals = [quantitative_results[task][subtask][method][0] for subtask in subtasks]
+            actual_vals = [dict_of_dicts[subtask][method][0] for subtask in subtasks]
             display_vals = [max(2, val) for val in actual_vals] # just to see a tiny sliver of a line for 0%
-            actual_vals_in_parentheses = [quantitative_results[task][subtask][method][1] for subtask in subtasks]
+            actual_vals_in_parentheses = [dict_of_dicts[subtask][method][1] for subtask in subtasks]
         else:
-            actual_vals = [quantitative_results[task][subtask][method] for subtask in subtasks]
+            actual_vals = [dict_of_dicts[subtask][method] for subtask in subtasks]
             display_vals = [max(2, val) for val in actual_vals] # just to see a tiny sliver of a line for 0%
         
         bars = ax.bar(offsets, display_vals, width=bar_width, label=method, color=colors[method])
@@ -62,7 +60,10 @@ for task in quantitative_results:
                         xy=(bar.get_x() + bar.get_width() / 2, height),
                         xytext=(0, 3),
                         textcoords="offset points",
-                        ha='center', va='bottom')
+                        ha='center', 
+                        va='bottom',
+                        # fontsize=SMALL_SIZE,
+                    )
 
     # Styling
     ax.set_ylabel('Success Percentage')
@@ -72,7 +73,25 @@ for task in quantitative_results:
     ax.set_xticklabels(subtasks)
     # ax.legend()
     ax.grid(True, axis='y', linestyle='--', alpha=0.7)
+    if 'Ablations' in task:
+        ax.set_xlabel('Number of demonstrations to retrieve from or finetune on')
 
     plt.tight_layout()
     os.makedirs('plots_dont_delete', exist_ok=True)
-    plt.savefig(f'plots_dont_delete/{task}.png', bbox_inches='tight')
+    plt.savefig(f'plots_dont_delete/{task.replace(" ", "_").replace("(", "").replace(")", "")}.png', bbox_inches='tight')
+    print(f'Done with {task=}')
+
+if __name__ == '__main__':
+    from quantitative_results_info import quantitative_results
+    from ablation_results_info import ablation_results
+
+    for task_count, task in enumerate(quantitative_results):
+        # if os.path.exists(f'plots_dont_delete/{task}.png'):
+        #     print(f'We already have this and skipping {task=}')
+        #     continue
+
+        plot_for_a_task(task, quantitative_results[task])
+
+    # ablations results
+    plot_for_a_task('Ablations (idli plate task)', ablation_results['move the idli plate to the right'])
+
