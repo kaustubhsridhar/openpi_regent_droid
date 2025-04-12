@@ -130,13 +130,13 @@ rsync -avzP -e 'ssh' franka@10.102.204.231:~/eva_ksridhar/data/success/* regent_
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/eva_ksridhar/data/success/* regent_droid_preprocessing/collected_demos_training/
 
 # baseline pi0
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0408/* videos_dont_delete/pi0_toaster_lever/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0411/* videos_dont_delete/pi0_door_shelf/
 
 # rnp
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0327/* videos_dont_delete/rnp_squeegee/
 
 # regent
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0408/* videos_dont_delete/regent_toaster_lever/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0411/* videos_dont_delete/regent_door_shelf/
 ```
 
 * Collect more training demos and transfer as follows:
@@ -341,10 +341,10 @@ python3 scripts/main_regent_pokeball_finetune.py --remote_host=158.130.55.26 --r
 * copy over stuff
 ```bash
 # pi0 finetune
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0408/* videos_dont_delete/pi0_finetune_toaster_bagel/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0411/* videos_dont_delete/pi0_finetune_toaster_bagel/
 
 # regent finetune
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0408/* videos_dont_delete/regent_finetune_toaster_bagel/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0411/* videos_dont_delete/regent_finetune_toaster_bagel/
 ```
 
 ## idli plate num demos ablations
