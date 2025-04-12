@@ -344,7 +344,7 @@ python3 scripts/main_regent_pokeball_finetune.py --remote_host=158.130.55.26 --r
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0411/* videos_dont_delete/pi0_finetune_toaster_bagel/
 
 # regent finetune
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0411/* videos_dont_delete/regent_finetune_toaster_bagel/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0412/* videos_dont_delete/regent_finetune_toaster_bagel/
 ```
 
 ## idli plate num demos ablations
