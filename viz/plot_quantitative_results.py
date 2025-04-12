@@ -41,7 +41,7 @@ for task in quantitative_results:
         offsets = x + i * bar_width - bar_width * (len(methods) - 1) / 2
         
         values_are_tuple = False
-        if "prev + moves to the right (extra: contact)" in subtasks:
+        if "(extra: " in subtasks:
             values_are_tuple = True
         
         if values_are_tuple:

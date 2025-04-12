@@ -63,31 +63,56 @@ quantitative_results = {
     },
     "pick up the bagel and put it in the toaster": {
         "reaches the bagel (and doesn't aimlessly wander)": {
-            "π₀-FAST-DROID": 60,
-            "Regentic-π₀-FAST-DROID": 100,
+            "π₀-FAST-DROID": [60, None],
+            "Regentic-π₀-FAST-DROID": [100, None],
+            "π₀-FAST-DROID finetuned on 20 demos": [100, None],
+            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [100, None],
         },
         "prev + performs grasp and starts to move": {
-            "π₀-FAST-DROID": 30,
-            "Regentic-π₀-FAST-DROID": 30,
+            "π₀-FAST-DROID": [30, None],
+            "Regentic-π₀-FAST-DROID": [30, None],
+            "π₀-FAST-DROID finetuned on 20 demos": [30, None],
+            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [90, None],
         },
-        "prev + drops the bagel into the toaster": {
-            "π₀-FAST-DROID": 0,
-            "Regentic-π₀-FAST-DROID": 0,
+        "prev + moves bagel close to the toaster (extra: complete task)": {
+            "π₀-FAST-DROID": [20, 0],
+            "Regentic-π₀-FAST-DROID": [20, 0],
+            "π₀-FAST-DROID finetuned on 20 demos": [10, 0],
+            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [50, 0],
         },
     },
     "press the lever on the toaster": {
         "reaches the lever (and doesn't aimlessly wander)": {
-            "π₀-FAST-DROID": 40,
+            "π₀-FAST-DROID": 30,
             "Regentic-π₀-FAST-DROID": 40,
+            "π₀-FAST-DROID finetuned on 20 demos": 80,
+            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 100,
         },
         "prev + presses the lever down": {
             "π₀-FAST-DROID": 0,
             "Regentic-π₀-FAST-DROID": 20,
+            "π₀-FAST-DROID finetuned on 20 demos": 50,
+            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 50,
         },
     },
     "open the door of the bottom shelf": {
-        "reaches the bottom door": {"π₀-FAST-DROID": 0},
-        "prev + performs grasp and starts to move": {"π₀-FAST-DROID": 0},
-        "prev + opens the door": {"π₀-FAST-DROID": 0},
+        "reaches the bottom door": {
+            "π₀-FAST-DROID": 0,
+            "Regentic-π₀-FAST-DROID": 90,
+            "π₀-FAST-DROID finetuned on 20 demos": 100,
+            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 100,
+        },
+        "prev + performs grasp and starts to move": {
+            "π₀-FAST-DROID": 0,
+            "Regentic-π₀-FAST-DROID": 40,
+            "π₀-FAST-DROID finetuned on 20 demos": 50,
+            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 100,
+        },
+        "prev + opens the door": {
+            "π₀-FAST-DROID": 0,
+            "Regentic-π₀-FAST-DROID": 10,
+            "π₀-FAST-DROID finetuned on 20 demos": 20,
+            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 60,
+        },
     },
 }
