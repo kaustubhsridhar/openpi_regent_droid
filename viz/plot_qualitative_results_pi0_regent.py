@@ -30,6 +30,8 @@ for task in tasks:
             images = [image.crop((0, 0, image.width // 2, image.height)) for image in images]
         else:
             images = [image.crop((image.width // 3, 0, image.width // 3 * 2, image.height)) for image in images]
+        # crop off the left quarter and right quarter of the image; only keep the middle half
+        images = [image.crop((image.width // 4, 0, image.width // 4 * 3, image.height)) for image in images]
         # concat the images side by side with a gap of 10 pixels between them and save to final_path
         final_image = Image.new('RGB', (images[0].width * len(images) + (len(images) - 1) * 10, images[0].height))
         for i, image in enumerate(images):
