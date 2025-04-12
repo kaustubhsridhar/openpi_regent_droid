@@ -81,14 +81,14 @@ quantitative_results = {
             "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [50, 0],
         },
     },
-    "press the lever on the toaster": {
+    "push the lever on the toaster": {
         "reaches the lever\n(and doesn't aimlessly wander)": {
             "π₀-FAST-DROID": 30,
             "Regentic-π₀-FAST-DROID": 40,
             "π₀-FAST-DROID finetuned on 20 demos": 80,
             "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 100,
         },
-        "prev + presses the lever down": {
+        "prev + pushes the lever down": {
             "π₀-FAST-DROID": 0,
             "Regentic-π₀-FAST-DROID": 20,
             "π₀-FAST-DROID finetuned on 20 demos": 50,
