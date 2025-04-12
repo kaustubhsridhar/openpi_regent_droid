@@ -404,3 +404,6 @@ rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0
 # regent further finetuned
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0328/* videos_dont_delete/regent_finetune_idli_plate_ablation_${N}demos/
 ```
+
+## not lost capabilities experiments
+
