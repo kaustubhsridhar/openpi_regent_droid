@@ -179,3 +179,4 @@ frames_dont_delete*
 plots_dont_delete*
 MCNN/
 diffusion_policy_droid/
+regent_droid_preprocessing/logs/obj_checks/**/*.png

@@ -46,7 +46,11 @@ python create_subgroups_of_groupings_with_llm.py
 
 * Check if an object exists in the droid dataset's language annotations
 ```bash
-python check_if_object_in_droid_lang_annotations.py --object_name pinecone
+python check_if_object_in_droid_lang_annotations.py --object_names bread toaster
+```
+If you want to save the first image of each episode where the object exists, you can do:
+```bash
+python check_if_object_in_droid_lang_annotations.py --object_names bread toaster --location_to_save_first_img_of_eps logs/obj_checks/bread_toaster/
 ```
 
 * Preprocess the droid dataset groupings, regent-style! (ie by embedding images and doing retrieval to setup training sequences)

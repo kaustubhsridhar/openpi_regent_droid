@@ -16,7 +16,7 @@ from copy import deepcopy
 import matplotlib.pyplot as plt
 os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"] = "false" # This prevents JAX from preallocating most of the GPU memory.
 
-def check_if_object_in_droid(object_name, total_episodes):
+def check_if_object_in_droid(object_names, total_episodes, location_to_save_first_img_of_eps):
 	# constants
 	ds_name = "droid_new"
 	ds_fol = f"{ds_name}_broken_up"
@@ -30,9 +30,15 @@ def check_if_object_in_droid(object_name, total_episodes):
 				continue
 			# check if object name in language instructions
 			object_name_exists = False
-			if object_name in ep_metadata["language_instruction"] or object_name in ep_metadata["language_instruction_2"] or object_name in ep_metadata["language_instruction_3"]:
+			if all(objname in ep_metadata["language_instruction"] for objname in object_names) or all(objname in ep_metadata["language_instruction_2"] for objname in object_names) or all(objname in ep_metadata["language_instruction_3"] for objname in object_names):
 				object_name_exists = True
 				print(f'lang instructions of episode {ep_idx}: {ep_metadata["language_instruction"]}, {ep_metadata["language_instruction_2"]}, {ep_metadata["language_instruction_3"]}')
+				if location_to_save_first_img_of_eps is not None:
+					os.makedirs(location_to_save_first_img_of_eps, exist_ok=True)
+					steps = np.load(f"{ds_fol}/episode_{ep_idx}.npz")
+					first_image = steps["observation__exterior_image_2_left"][0]
+					first_image = Image.fromarray(first_image)
+					first_image.save(f"{location_to_save_first_img_of_eps}/episode_{ep_idx}.png")
 		else:
 			print()
 			myprint(f'{ds_fol}/episode_{ep_idx}.json does not exist; ending search at {ep_idx-1} instead of going until {total_episodes}')
@@ -42,7 +48,9 @@ def check_if_object_in_droid(object_name, total_episodes):
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--object_name", type=str, default="marker")
+	parser.add_argument("--object_names", nargs='+', type=str, default=["marker"])
 	parser.add_argument("--total_episodes", type=int, default=95658)
+	parser.add_argument("--location_to_save_first_img_of_eps", type=str, default=None)
 	args = parser.parse_args()
-	print(f'\nDoes {args.object_name} exist in droid in the first {args.total_episodes} episodes? {check_if_object_in_droid(args.object_name, args.total_episodes)}')
+	check_if_object_in_droid(args.object_names, args.total_episodes, args.location_to_save_first_img_of_eps)
+	print(f'\nDo {args.object_names} exist in droid in the first {args.total_episodes} episodes? Yes, if you see anything printed above, otherwise, No.')
