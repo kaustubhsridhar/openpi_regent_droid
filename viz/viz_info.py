@@ -8,6 +8,7 @@ video_paths = {
 'pi0_idli_plate' : f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/pi0_idli_plate/right_move_the_idli_plate_to_the_right_2025_03_14_17:17:20.mp4.mp4', 
 'regent_idli_plate' : f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/regent_idli_plate/ckpt5400longer-0314data-1_move_the_idli_plate_to_the_right_2025_03_16_15:26:52.mp4',
 'regent_finetune_idli_plate' : f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/regent_finetune_idli_plate/finetune-idli-plate-ckpt999-DYNAMIC_move_the_idli_plate_to_the_right_2025_03_24_09:30:37.mp4',
+'rnp_idli_plate': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/rnp_idli_plate/rnp_2025_03_19_15:42:47.mp4',
 #
 'pi0_pokeball' : f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/pi0_pokeball/right_pick_up_the_pokeball_and_put_it_in_the_tray_2025_04_08_12:43:48.mp4.mp4',
 'regent_pokeball' : f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/regent_pokeball/ckpt5400longer-0317poketraydata-4_pick_up_the_poke_ball_and_put_it_in_the_tray_2025_03_17_13:56:25.mp4',
