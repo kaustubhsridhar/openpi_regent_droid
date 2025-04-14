@@ -175,6 +175,7 @@ regent_droid_preprocessing/droid_groups/*.gif
 regent_droid_preprocessing/episode_0.json
 regent_droid_preprocessing/collected_demos*
 videos_dont_delete*
+videos_copy_simplified_dont_delete*
 frames_dont_delete*
 plots_dont_delete*
 MCNN/
