@@ -120,7 +120,6 @@ python scripts/collect_trajectory.py -n 50
 or just 
 
 startcollectksridhar
-python scripts/collect_trajectory.py -n 50
 
 # You can see full form of these commands in bashrc 
 # The conda env was created by cloning the droid_wliang conda env and then `pip install -e .` in the franka_ksridhar folder
@@ -134,13 +133,13 @@ rsync -avzP -e 'ssh' franka@10.102.204.231:~/eva_ksridhar/data/success/* regent_
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/eva_ksridhar/data/success/* regent_droid_preprocessing/collected_demos_training/
 
 # baseline pi0
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0411/* videos_dont_delete/pi0_door_shelf/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results/videos/0415/* videos_dont_delete/pi0_sink-squeegee/
 
 # rnp
 rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_rnp/videos/0327/* videos_dont_delete/rnp_squeegee/
 
 # regent
-rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0411/* videos_dont_delete/regent_door_shelf/
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0415/* videos_dont_delete/regent_sink-squeegee/
 ```
 
 * Collect more training demos and transfer as follows:
@@ -196,7 +195,7 @@ CUDA_VISIBLE_DEVICES=9 python -u scripts/test_retrieve_and_play.py
 * run pi0 baseline on the robot
 ```bash
 # Run the server on ivy for pi0
-CUDA_VISIBLE_DEVICES=0 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid --policy.dir=s3://openpi-assets/checkpoints/pi0_fast_droid
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid --policy.dir=s3://openpi-assets/checkpoints/pi0_fast_droid
 
 # If you want to run the server on the workstation in the lab
 cd ~/Projects/openpi-main/ 
@@ -230,6 +229,11 @@ CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint -
 
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-04-07_open_the_door_of_the_bottom_shelf
 
+# Third round of tasks next to kitchen sink
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-04-15_move_the_idli_plate_to_the_sink
+
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-04-15_use_the_squeegee_to_clean_the_counter_and_push_everything_into_the_sink
+
 # Run the server on ivy for retrieve and play
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_retrieve_and_play.py policy:checkpoint --policy.demos_dir=regent_droid_preprocessing/collected_demos/2025-03-14_move_the_idli_plate_to_the_right
 
@@ -249,6 +253,11 @@ or
 
 python3 scripts/main_rnp.py --remote_host=158.130.55.26 --remote_port=8000
 # you can get your host computer's public ip via `curl -4 ifconfig.me`
+```
+
+* You can also run regent inference WITHOUT any retrieval demos or RAG (just like pi0 baseline) as follows:
+```bash
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=None
 ```
 
 ## further finetuning on inference time collected demos
