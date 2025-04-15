@@ -61,6 +61,7 @@ quantitative_results = {
             "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [70, 70],
         },
     },
+    # second round of tasks below
     "pick up the bagel and put it in the toaster": {
         "reaches the bagel\n(and doesn't aimlessly wander)": {
             "π₀-FAST-DROID": [60, None],
@@ -113,6 +114,31 @@ quantitative_results = {
             "Regentic-π₀-FAST-DROID": 10,
             "π₀-FAST-DROID finetuned on 20 demos": 20,
             "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 60,
+        },
+    },
+    # third round of tasks below (in the setting next to the sink)
+    "move the idli plate to the sink": {
+        "reaches suitable grasp\nfor idli plate": {
+            "π₀-FAST-DROID": 60,
+            "Regentic-π₀-FAST-DROID": 80,
+        },
+        "prev + moves into sink": {
+            "π₀-FAST-DROID": 0,
+            "Regentic-π₀-FAST-DROID": 40,
+        },
+    },
+    "use the squeegee to clean the counter and push everything into the sink": {
+        "reaches the squeegee\nand suitable grasp": {
+            "π₀-FAST-DROID": 10,
+            "Regentic-π₀-FAST-DROID": 90,
+        },
+        "prev + performs grasp and\nmoves to sink": {
+            "π₀-FAST-DROID": 0,
+            "Regentic-π₀-FAST-DROID": 80,
+        },
+        "prev + pellets fall\ninto sink": {
+            "π₀-FAST-DROID": 0,
+            "Regentic-π₀-FAST-DROID": 40,
         },
     },
 }
