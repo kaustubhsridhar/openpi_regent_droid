@@ -29,7 +29,7 @@ class Checkpoint:
     # Checkpoint directory (e.g., "checkpoints/pi0_aloha_sim/exp/10000").
     dir: str
     # Demos directory (e.g., "regent_droid_preprocessing/collected_demos/2025-03-04").
-    demos_dir: str
+    demos_dir: str | None = None
 
 
 @dataclasses.dataclass

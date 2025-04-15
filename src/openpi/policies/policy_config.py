@@ -87,7 +87,7 @@ def create_trained_policy(
 def create_trained_regent_policy(
     train_config: _config.TrainConfig,
     checkpoint_dir: str,
-    demos_dir: str,
+    demos_dir: str | None,
     norm_stats: dict[str, transforms.NormStats] | None = None,
 ) -> _policy.RegentPolicy:
     """Create a regent policy from a trained checkpoint.
