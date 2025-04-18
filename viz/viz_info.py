@@ -32,10 +32,16 @@ video_paths = {
 'regent_door' : f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/regent_door_shelf/door_7_open_the_door_of_the_bottom_shelf_2025_04_11_14:01:09.mp4',
 'regent_finetune_door' : f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/regent_finetune_door_shelf/finetune_door_DYNAMIC2_open_the_door_of_the_bottom_shelf_2025_04_11_20:27:24.mp4',
 #
-'pi0_sink-idli-plate': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/pi0_sink-idli-plate/right_move_the_idli_plate_to_the_sink_2025_04_15_00:09:34.mp4.mp4', # moves apple into sink
+# 'pi0_sink-idli-plate': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/pi0_sink-idli-plate/right_move_the_idli_plate_to_the_sink_2025_04_15_00:09:34.mp4.mp4', # moves apple into sink
+# above was _old_lang_grounding_issue_only
+# below is more adaptation issue (unfamailar grasp or novel motion lack of understanding)
+'pi0_sink-idli-plate': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/pi0_sink-idli-plate/right_move_the_idli_plate_to_the_sink_2025_04_15_01:04:16.mp4.mp4',
 'regent_sink-idli-plate': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/regent_sink-idli-plate/sink_idli_8_move_the_idli_plate_to_the_sink_2025_04_15_05:03:56.mp4', # has a bit of time to understand and then does it nicely
 #
-'pi0_sink-squeegee': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/pi0_sink-squeegee/right_use_the_squeegee_to_clean_the_counter_and_push_eve_2025_04_15_01:56:29.mp4.mp4', # goes to plant
+# 'pi0_sink-squeegee': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/pi0_sink-squeegee/right_use_the_squeegee_to_clean_the_counter_and_push_eve_2025_04_15_01:56:29.mp4.mp4', # goes to plant
+# above was _old_lang_grounding_issue_only
+# below is more adaptation issue (unfamailar grasp or novel motion lack of understanding)
+'pi0_sink-squeegee': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/pi0_sink-squeegee/right_use_the_squeegee_to_clean_the_counter_and_push_eve_2025_04_15_02:02:37.mp4.mp4',
 'regent_sink-squeegee': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/regent_sink-squeegee/sink_squeegee_8_use_the_squeegee_to_clean_the_counter_and_push_eve_2025_04_15_06:20:59.mp4', # you can see the pellets on the top are pushed into the sink
 }
 
