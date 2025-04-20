@@ -255,9 +255,13 @@ python3 scripts/main_rnp.py --remote_host=158.130.55.26 --remote_port=8000
 # you can get your host computer's public ip via `curl -4 ifconfig.me`
 ```
 
-* You can also run regent inference WITHOUT any retrieval demos or RAG (just like pi0 baseline) as follows:
+* You can also run regent inference on seen tasks by setting the retrieval demos to ....
 ```bash
-CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=None
+cd regent_droid_preprocessing
+python create_random_mix.py --source_folder_name=collected_demos_training --target_folder_name=collected_demos_training/2025-04-18_random_mix
+cd ..
+
+CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos_training/2025-04-18_random_mix
 ```
 
 ## further finetuning on inference time collected demos
