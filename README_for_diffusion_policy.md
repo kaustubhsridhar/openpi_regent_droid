@@ -1,5 +1,7 @@
 Below details distilled from [this google doc](https://docs.google.com/document/d/17IEyInEPRZ184yZ2_4oBcog7rScNPlQy2vQLPV5IMms/edit?tab=t.0)
 
+All passwords are `robotlearning`
+
 # ON FRANKA LAPTOP
 
 Collect data in a folder like
@@ -59,6 +61,25 @@ conda activate base && conda activate base && conda activate droid_learning_orig
 python robomimic/scripts/config_gen/droid_runs_language_conditioned_rlds_3cams.py --wandb_proj_name droid
 
 # The above will printout something; just run that! with CUDA_VISIBLE_DEVICES=1 before it
+```
+
+Transfer checkpoint from exx to here...
+```bash
+rsync -avzP -e 'ssh' exx@158.130.52.14:/data3/Projects_archive/orig_droid_learning/orig_droid_learning/droid_policy_learning/experiment_log/droid_idliplate/im/diffusion_policy/04-20-None/bz_32_noise_samples_8_sample_weights_1_dataset_names_droid_cams_2cams_goal_mode_None_truncated_geom_factor_0.3_ldkeys_proprio-lang_visenc_VisualCore_fuser_None/20250420191209/models/model_epoch_50.pth ./diffusion_policy_checkpoints_dont_delete/idliplate_ep50.pth
+
+rsync -avzP -e 'ssh' exx@158.130.52.14:/data3/Projects_archive/orig_droid_learning/orig_droid_learning/droid_policy_learning/experiment_log/droid_pokeball/im/diffusion_policy/04-20-None/bz_32_noise_samples_8_sample_weights_1_dataset_names_droid_cams_2cams_goal_mode_None_truncated_geom_factor_0.3_ldkeys_proprio-lang_visenc_VisualCore_fuser_None/20250420191212/models/model_epoch_50.pth ./diffusion_policy_checkpoints_dont_delete/pokeball_ep50.pth
+
+rsync -avzP -e 'ssh' exx@158.130.52.14:/data3/Projects_archive/orig_droid_learning/orig_droid_learning/droid_policy_learning/experiment_log/droid_squeegee/im/diffusion_policy/04-20-None/bz_32_noise_samples_8_sample_weights_1_dataset_names_droid_cams_2cams_goal_mode_None_truncated_geom_factor_0.3_ldkeys_proprio-lang_visenc_VisualCore_fuser_None/20250420194238/models/model_epoch_50.pth ./diffusion_policy_checkpoints_dont_delete/squeegee_ep50.pth
+```
+
+...and then from here to franka laptop.
+```bash
+rsync -azvP -e 'ssh' ./diffusion_policy_checkpoints_dont_delete/* franka@10.102.204.231:~/droid/ckpt/
+```
+
+Copy train logs also from exx to here
+```bash
+rsync -azvP -e 'ssh' exx@158.130.52.14:/data3/Projects_archive/orig_droid_learning/orig_droid_learning/all_train_logs/* ./logs/diffusion_policy_train_logs/
 ```
 
 # ON FRANKA LAPTOP

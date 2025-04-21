@@ -182,3 +182,4 @@ plots_dont_delete*
 MCNN/
 diffusion_policy_droid/
 regent_droid_preprocessing/logs/obj_checks/**/*.png
+diffusion_policy_checkpoints_dont_delete*
