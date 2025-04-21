@@ -255,14 +255,18 @@ python3 scripts/main_rnp.py --remote_host=158.130.55.26 --remote_port=8000
 # you can get your host computer's public ip via `curl -4 ifconfig.me`
 ```
 
-* You can also run regent inference on seen tasks by setting the retrieval demos to ....
+* You can also run regent inference on seen tasks by setting the retrieval demos to a random mix of priming demos that are unrelated to the task. We also force lamda to be zero in this case.
 ```bash
 cd regent_droid_preprocessing
 python create_random_mix.py --source_folder_name=collected_demos_training --target_folder_name=collected_demos_training/2025-04-18_random_mix
 cd ..
 
 CUDA_VISIBLE_DEVICES=9 uv run scripts/serve_policy_regent.py policy:checkpoint --policy.config=pi0_fast_droid_regent_with_interpolation_longer_act_horizon --policy.dir=checkpoints/pi0_fast_droid_regent_with_interpolation_longer_act_horizon/14th_try_with_interpolation_longer_act_horizon/5400 --policy.demos_dir=regent_droid_preprocessing/collected_demos_training/2025-04-18_random_mix
+
+rsync -avzP -e 'ssh' franka@10.102.204.231:~/droid_pi0_ksridhar/results_regent/videos/0421/* videos_dont_delete/regent_seen_objects_lamda_0_rag_from_random_mix/
 ```
+
+
 
 ## further finetuning on inference time collected demos
 * retrieval preprocessing of the inference time collected demos
