@@ -1,6 +1,6 @@
 import os 
 
-tasks = ['idli_plate', 'pokeball', 'squeegee', 'bagel', 'lever', 'door']
+tasks = ['idli_plate', 'pokeball', 'squeegee', 'bagel', 'lever', 'door', 'sink-idli-plate', 'sink-squeegee']
 methods = ['pi0', 'regent', 'regent_finetune']
 
 
@@ -37,12 +37,14 @@ video_paths = {
 # below is more adaptation issue (unfamailar grasp or novel motion lack of understanding)
 'pi0_sink-idli-plate': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/pi0_sink-idli-plate/right_move_the_idli_plate_to_the_sink_2025_04_15_01:04:16.mp4.mp4',
 'regent_sink-idli-plate': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/regent_sink-idli-plate/sink_idli_8_move_the_idli_plate_to_the_sink_2025_04_15_05:03:56.mp4', # has a bit of time to understand and then does it nicely
+'regent_finetune_sink-idli-plate': f'',
 #
 # 'pi0_sink-squeegee': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/pi0_sink-squeegee/right_use_the_squeegee_to_clean_the_counter_and_push_eve_2025_04_15_01:56:29.mp4.mp4', # goes to plant
 # above was _old_lang_grounding_issue_only
 # below is more adaptation issue (unfamailar grasp or novel motion lack of understanding)
 'pi0_sink-squeegee': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/pi0_sink-squeegee/right_use_the_squeegee_to_clean_the_counter_and_push_eve_2025_04_15_02:02:37.mp4.mp4',
 'regent_sink-squeegee': f'/home/ksridhar/openpi_regent_droid/videos_dont_delete/regent_sink-squeegee/sink_squeegee_8_use_the_squeegee_to_clean_the_counter_and_push_eve_2025_04_15_06:20:59.mp4', # you can see the pellets on the top are pushed into the sink
+'regent_finetune_sink-squeegee': f'',
 }
 
 chosen_frames = {
@@ -70,10 +72,12 @@ chosen_frames = {
 'regent_door' : [0, 19, 41, 56],
 'regent_finetune_door' : [91, 146, 163, 254, 263, 302, 335], # removed 0 # removed 240, 258 and replaced with 254
 #
-'pi0_sink-idli-plate': [],
-'regent_sink-idli-plate': [],
+'pi0_sink-idli-plate': [0, 137, 426], # can include 301
+'regent_sink-idli-plate': [0, 262, 278, 326],
+'regent_finetune_sink-idli-plate': [],
 #
-'pi0_sink-squeegee': [],
-'regent_sink-squeegee': [],
+'pi0_sink-squeegee': [0, 59, 138],
+'regent_sink-squeegee': [0, 45, 114, 132], # can include 44
+'regent_finetune_sink-squeegee': [],
 }
 

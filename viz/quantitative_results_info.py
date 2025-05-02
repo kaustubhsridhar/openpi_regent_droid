@@ -1,144 +1,167 @@
 quantitative_results = {
     "move the idli plate to the right": {
-        "reaches suitable grasp\nfor idli plate": {
+        "reaches suitable\ngrasp for\nidli plate": {
             "π₀-FAST-DROID": 0,
             "Retrieve and play": 50,
-            "Regentic-π₀-FAST-DROID": 80,
-            "π₀-FAST-DROID finetuned on 20 demos": 60,
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 90,
+            "RICL-π₀-FAST-DROID": 80,
+            "π₀-FAST-DROID-finetuned": 60,
+            "RICL-π₀-FAST-DROID-finetuned": 90,
+            "Diffusion Policy": 20,
         },
-        "prev + moves to the right": {
+        "prev + moves\nto the right": {
             "π₀-FAST-DROID": 0,
             "Retrieve and play": 20,
-            "Regentic-π₀-FAST-DROID": 40,
-            "π₀-FAST-DROID finetuned on 20 demos": 50,
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 80,
+            "RICL-π₀-FAST-DROID": 40,
+            "π₀-FAST-DROID-finetuned": 50,
+            "RICL-π₀-FAST-DROID-finetuned": 80,
+            "Diffusion Policy": 0,
         },
     },
     "pick up the poke ball and put it in the tray": {
-        "reaches pokeball and\nnot distractor": {
+        "reaches pokeball\nand not distractor": {
             "π₀-FAST-DROID": 0,
             "Retrieve and play": 40,
-            "Regentic-π₀-FAST-DROID": 100,
-            "π₀-FAST-DROID finetuned on 20 demos": 100,
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 100,
+            "RICL-π₀-FAST-DROID": 100,
+            "π₀-FAST-DROID-finetuned": 100,
+            "RICL-π₀-FAST-DROID-finetuned": 100,
+            "Diffusion Policy": 10,
         },
-        "prev + grasps pokeball\nand starts to move": {
+        "prev + grasps\npokeball and\nstarts to move": {
             "π₀-FAST-DROID": 0,
             "Retrieve and play": 10,
-            "Regentic-π₀-FAST-DROID": 60,
-            "π₀-FAST-DROID finetuned on 20 demos": 30,
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 70,
+            "RICL-π₀-FAST-DROID": 60,
+            "π₀-FAST-DROID-finetuned": 30,
+            "RICL-π₀-FAST-DROID-finetuned": 70,
+            "Diffusion Policy": 10,
         },
-        "prev + moves to the right": {
+        "prev + moves\nto the right": {
             "π₀-FAST-DROID": 0,
             "Retrieve and play": 0,
-            "Regentic-π₀-FAST-DROID": 40,
-            "π₀-FAST-DROID finetuned on 20 demos": 20,
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 60,
+            "RICL-π₀-FAST-DROID": 40,
+            "π₀-FAST-DROID-finetuned": 20,
+            "RICL-π₀-FAST-DROID-finetuned": 60,
+            "Diffusion Policy": 0,
         },
     },
     "move the squeegee to the right and try to drag it": {
-        "reaches the squeegee (not\ndistractor) and suitable grasp": {
+        "reaches the\nsqueegee (not\ndistractor) and\nsuitable grasp": {
             "π₀-FAST-DROID": [10, None],
             "Retrieve and play": [30, None],
-            "Regentic-π₀-FAST-DROID": [90, None],
-            "π₀-FAST-DROID finetuned on 20 demos": [90, None],
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [100, None],
+            "RICL-π₀-FAST-DROID": [90, None],
+            "π₀-FAST-DROID-finetuned": [90, None],
+            "RICL-π₀-FAST-DROID-finetuned": [100, None],
+            "Diffusion Policy": [50, None],
         },
-        "prev + performs grasp and\nstarts to move": {
+        "prev + performs\ngrasp and\nstarts to move": {
             "π₀-FAST-DROID": [10, None],
             "Retrieve and play": [10, None],
-            "Regentic-π₀-FAST-DROID": [70, None],
-            "π₀-FAST-DROID finetuned on 20 demos": [50, None],
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [90, None],
+            "RICL-π₀-FAST-DROID": [70, None],
+            "π₀-FAST-DROID-finetuned": [50, None],
+            "RICL-π₀-FAST-DROID-finetuned": [90, None],
+            "Diffusion Policy": [10, None],
         },
-        "prev + moves to the right\n(extra: contact)": {
+        "prev + moves\nto the right (extra: contact)": {
             "π₀-FAST-DROID": [0, 0],
             "Retrieve and play": [0, 0],
-            "Regentic-π₀-FAST-DROID": [30, 20],
-            "π₀-FAST-DROID finetuned on 20 demos": [20, 20],
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [70, 70],
+            "RICL-π₀-FAST-DROID": [30, 20],
+            "π₀-FAST-DROID-finetuned": [20, 20],
+            "RICL-π₀-FAST-DROID-finetuned": [70, 70],
+            "Diffusion Policy": [0, None],
         },
     },
     # second round of tasks below
-    "pick up the bagel and put it in the toaster": {
-        "reaches the bagel\n(and doesn't aimlessly wander)": {
+    "pick up the bagel and\nput it in the toaster": {
+        "reaches the\nbagel (and\ndoesn't aimlessly\nwander)": {
             "π₀-FAST-DROID": [60, None],
-            "Regentic-π₀-FAST-DROID": [100, None],
-            "π₀-FAST-DROID finetuned on 20 demos": [100, None],
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [100, None],
+            "RICL-π₀-FAST-DROID": [100, None],
+            "π₀-FAST-DROID-finetuned": [100, None],
+            "RICL-π₀-FAST-DROID-finetuned": [100, None],
         },
-        "prev + performs grasp\nand starts to move": {
+        "prev + performs\ngrasp and\nstarts to move": {
             "π₀-FAST-DROID": [30, None],
-            "Regentic-π₀-FAST-DROID": [30, None],
-            "π₀-FAST-DROID finetuned on 20 demos": [30, None],
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [90, None],
+            "RICL-π₀-FAST-DROID": [30, None],
+            "π₀-FAST-DROID-finetuned": [40, None],
+            "RICL-π₀-FAST-DROID-finetuned": [90, None],
         },
-        "prev + moves bagel close to\nthe toaster (extra: completes task)": {
+        "prev + moves\nbagel close\nto the toaster (extra: completes task)": {
             "π₀-FAST-DROID": [20, 0],
-            "Regentic-π₀-FAST-DROID": [20, 0],
-            "π₀-FAST-DROID finetuned on 20 demos": [10, 0],
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": [50, 0],
+            "RICL-π₀-FAST-DROID": [20, 0],
+            "π₀-FAST-DROID-finetuned": [30, 0],
+            "RICL-π₀-FAST-DROID-finetuned": [50, 0],
         },
     },
-    "push the lever on the toaster": {
-        "reaches the lever\n(and doesn't aimlessly wander)": {
+    "push the lever on\nthe toaster": {
+        "reaches the\nlever (and\ndoesn't aimlessly\nwander)": {
             "π₀-FAST-DROID": 30,
-            "Regentic-π₀-FAST-DROID": 40,
-            "π₀-FAST-DROID finetuned on 20 demos": 80,
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 100,
+            "RICL-π₀-FAST-DROID": 40,
+            "π₀-FAST-DROID-finetuned": 80,
+            "RICL-π₀-FAST-DROID-finetuned": 100,
         },
-        "prev + pushes the lever down": {
+        "prev + pushes\nthe lever down": {
             "π₀-FAST-DROID": 0,
-            "Regentic-π₀-FAST-DROID": 20,
-            "π₀-FAST-DROID finetuned on 20 demos": 50,
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 50,
+            "RICL-π₀-FAST-DROID": 20,
+            "π₀-FAST-DROID-finetuned": 50,
+            "RICL-π₀-FAST-DROID-finetuned": 50,
         },
     },
     "open the door of the bottom shelf": {
-        "reaches the bottom door": {
+        "reaches the\nbottom door": {
             "π₀-FAST-DROID": 0,
-            "Regentic-π₀-FAST-DROID": 90,
-            "π₀-FAST-DROID finetuned on 20 demos": 100,
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 100,
+            "RICL-π₀-FAST-DROID": 90,
+            "π₀-FAST-DROID-finetuned": 100,
+            "RICL-π₀-FAST-DROID-finetuned": 100,
         },
-        "prev + performs grasp and\nstarts to move": {
+        "prev + performs\ngrasp and\nstarts to move": {
             "π₀-FAST-DROID": 0,
-            "Regentic-π₀-FAST-DROID": 40,
-            "π₀-FAST-DROID finetuned on 20 demos": 50,
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 100,
+            "RICL-π₀-FAST-DROID": 40,
+            "π₀-FAST-DROID-finetuned": 50,
+            "RICL-π₀-FAST-DROID-finetuned": 100,
         },
-        "prev + opens the door": {
+        "prev + opens\nthe door": {
             "π₀-FAST-DROID": 0,
-            "Regentic-π₀-FAST-DROID": 10,
-            "π₀-FAST-DROID finetuned on 20 demos": 20,
-            "Regentic-π₀-FAST-DROID Regentic-tuned on 20 demos": 60,
+            "RICL-π₀-FAST-DROID": 20,
+            "π₀-FAST-DROID-finetuned": 20,
+            "RICL-π₀-FAST-DROID-finetuned": 60,
         },
     },
     # third round of tasks below (in the setting next to the sink)
-    "move the idli plate to the sink": {
-        "reaches suitable grasp\nfor idli plate": {
+    "move the idli plate\nto the sink": {
+        "reaches suitable\ngrasp for\nidli plate": {
             "π₀-FAST-DROID": 60,
-            "Regentic-π₀-FAST-DROID": 80,
+            "RICL-π₀-FAST-DROID": 80,
         },
-        "prev + moves into sink": {
+        "prev + moves\ninto sink": {
             "π₀-FAST-DROID": 0,
-            "Regentic-π₀-FAST-DROID": 40,
+            "RICL-π₀-FAST-DROID": 40,
         },
     },
-    "use the squeegee to clean the counter and push everything into the sink": {
-        "reaches the squeegee\nand suitable grasp": {
+    "use the squeegee to\nclean the counter": {
+        "reaches the\nsqueegee and\nsuitable grasp": {
             "π₀-FAST-DROID": 10,
-            "Regentic-π₀-FAST-DROID": 90,
+            "RICL-π₀-FAST-DROID": 90,
         },
-        "prev + performs grasp and\nmoves to sink": {
+        "prev + performs\ngrasp and\nmoves to sink": {
             "π₀-FAST-DROID": 0,
-            "Regentic-π₀-FAST-DROID": 80,
+            "RICL-π₀-FAST-DROID": 80,
         },
-        "prev + pellets fall\ninto sink": {
+        "prev + pellets\nfall into sink": {
             "π₀-FAST-DROID": 0,
-            "Regentic-π₀-FAST-DROID": 40,
+            "RICL-π₀-FAST-DROID": 40,
+        },
+    },
+    # no-loss-of-capabilities tasks
+    "tasks demonstrating no loss-of-capabilities": {
+        "move the can\nto the tray": {
+            "π₀-FAST-DROID": 80,
+            "RICL-π₀-FAST-DROID": 80,
+        },
+        "pick up the\nmarker and put\nit in the tray": {
+            "π₀-FAST-DROID": 80,
+            "RICL-π₀-FAST-DROID": 80,
+        },
+        "place the\napple next\nto the can": {
+            "π₀-FAST-DROID": 80,
+            "RICL-π₀-FAST-DROID": 80,
         },
     },
 }

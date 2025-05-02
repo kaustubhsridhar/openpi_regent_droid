@@ -183,3 +183,4 @@ MCNN/
 diffusion_policy_droid/
 regent_droid_preprocessing/logs/obj_checks/**/*.png
 diffusion_policy_checkpoints_dont_delete*
+sankeys_dont_delete*

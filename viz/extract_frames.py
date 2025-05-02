@@ -5,7 +5,7 @@ from viz_info import video_paths
 
 # read videos and convert to frames
 methods = ['pi0', 'regent', 'regent_finetune']
-tasks = ['idli_plate', 'pokeball', 'squeegee', 'bagel', 'lever', 'door']
+tasks = ['idli_plate', 'pokeball', 'squeegee', 'bagel', 'lever', 'door', 'sink-idli-plate', 'sink-squeegee']
 
 # Create output directory for frames
 frames_dir = 'frames_dont_delete'
